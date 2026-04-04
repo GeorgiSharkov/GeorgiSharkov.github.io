@@ -1,28 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CyberShark icon">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="CyberShark favicon">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07101f"/>
-      <stop offset="60%" stop-color="#11183a"/>
-      <stop offset="100%" stop-color="#220c2c"/>
+      <stop offset="0%" stop-color="#07101b"/>
+      <stop offset="100%" stop-color="#0d1730"/>
     </linearGradient>
-    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7cf7ff"/>
-      <stop offset="58%" stop-color="#1ec8ff"/>
-      <stop offset="100%" stop-color="#0e5475"/>
-    </linearGradient>
-    <linearGradient id="fin" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff4ea7"/>
-      <stop offset="100%" stop-color="#7b35ff"/>
+    <linearGradient id="cyanFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#73f4ff"/>
+      <stop offset="60%" stop-color="#13bfff"/>
+      <stop offset="100%" stop-color="#0058bf"/>
     </linearGradient>
   </defs>
   <rect width="128" height="128" rx="28" fill="url(#bg)"/>
-  <circle cx="100" cy="28" r="10" fill="#ff6a00" opacity="0.9"/>
-  <path d="M12 66C22 39 50 27 82 28C101 29 111 39 116 51C107 50 98 54 92 61C84 72 70 80 50 82L12 66Z" fill="url(#body)" stroke="#9af8ff" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M57 22L76 42L47 44Z" fill="url(#fin)"/>
-  <path d="M84 50L111 40L99 62L116 70L88 69Z" fill="url(#fin)"/>
-  <circle cx="75" cy="48" r="6" fill="#ff3b57"/>
-  <circle cx="75" cy="48" r="12" fill="none" stroke="#ff3b57" stroke-opacity="0.4" stroke-width="4"/>
-  <path d="M30 67L56 74L43 89L22 81Z" fill="#06131d"/>
-  <path d="M32 67L51 72L41 83L27 78Z" fill="#ffffff"/>
-  <path d="M17 30L38 23L29 42Z" fill="#ff6a00" opacity="0.85"/>
+  <path d="M18 72C28 44 55 25 89 24C103 24 113 29 120 38C108 37 97 41 86 50C73 61 57 70 34 74L18 72Z" fill="#050b12" stroke="#0da8ff" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M23 70C34 46 58 30 88 29C99 29 108 32 114 39C102 40 91 45 81 53C69 63 54 69 35 71L23 70Z" fill="url(#cyanFill)"/>
+  <path d="M68 22L87 43L58 44Z" fill="#05111a" stroke="#0da8ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M69 89L95 81L86 103L106 118L81 109L67 123L66 101L48 88Z" fill="#05111a" stroke="#0da8ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M41 74L67 79L52 93L31 87Z" fill="#ffffff"/>
+  <path d="M44 74L57 77L50 84L40 81Z" fill="#05111a"/>
+  <path d="M51 41L69 33L62 47L73 54L56 52Z" fill="#05111a"/>
+  <circle cx="68" cy="48" r="5" fill="#ff3654"/>
+  <path d="M60 30L83 27L97 29L85 35L66 37Z" fill="#05111a"/>
 </svg>
