@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Georgi Sharkov | SOC Analyst</title>
+
+<style>
+body {
+    margin: 0;
+    background: #0b0f14;
+    color: #d1d5db;
+    font-family: "Segoe UI", sans-serif;
+}
+
+header {
+    padding: 30px;
+    border-bottom: 1px solid #1f2937;
+    background: #05080c;
+}
+
+h1 {
+    margin: 0;
+    color: #00ff9c;
+}
+
+.subtitle {
+    color: #9ca3af;
+    margin-top: 5px;
+}
+
+.clock {
+    float: right;
+    color: #00ff9c;
+    font-size: 14px;
+}
+
+.section {
+    padding: 30px;
+    border-bottom: 1px solid #1f2937;
+}
+
+h2 {
+    color: #00ff9c;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #05080c;
+    padding: 15px;
+    border: 1px solid #1f2937;
+}
+
+.tool {
+    color: #00ff9c;
+    font-weight: bold;
+}
+
+button {
+    background: #00ff9c;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #00cc7a;
+}
+
+textarea, input {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px;
+    background: black;
+    border: 1px solid #1f2937;
+    color: #00ff9c;
+}
+
+.output {
+    white-space: pre-wrap;
+    background: black;
+    padding: 10px;
+    border: 1px solid #1f2937;
+    margin-top: 10px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="clock" id="clock"></div>
+    <h1>Georgi Sharkov</h1>
+    <div class="subtitle">
+        SOC Analyst | DFIR | Threat Hunting
+    </div>
+</header>
+
+<div class="section">
+    <h2>Overview</h2>
+    <p>
+        SOC Analyst with hands-on experience in real-time incident detection, triage, and response across
+        CrowdStrike Falcon, SentinelOne, and Microsoft Defender environments.
+        Skilled in analysing process trees, identifying attacker techniques, and mapping behaviour to MITRE ATT&CK.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Core Capabilities</h2>
+    <div class="grid">
+        <div class="card">Alert triage & escalation</div>
+        <div class="card">Threat hunting & anomaly detection</div>
+        <div class="card">EDR/XDR investigation (process, registry, network)</div>
+        <div class="card">Detection tuning & false positive reduction</div>
+        <div class="card">Customer-facing incident reporting</div>
+        <div class="card">MITRE ATT&CK mapping</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Platforms</h2>
+    <div class="grid">
+        <div class="card"><span class="tool">CrowdStrike Falcon</span></div>
+        <div class="card"><span class="tool">SentinelOne</span></div>
+        <div class="card"><span class="tool">Microsoft Defender / Sentinel</span></div>
+        <div class="card"><span class="tool">Splunk</span></div>
+        <div class="card"><span class="tool">Carbon Black</span></div>
+        <div class="card"><span class="tool">Darktrace</span></div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Live SOC Write-up Tool</h2>
+
+    <input id="detection" placeholder="Detection (e.g. Suspicious PowerShell activity)">
+    <input id="datetime" placeholder="Date/Time UTC">
+    <input id="host" placeholder="Host">
+    <input id="user" placeholder="User">
+    <input id="process" placeholder="File/Process">
+    <input id="path" placeholder="File Path">
+    <input id="hash" placeholder="Hash (SHA1)">
+    <textarea id="tree" placeholder="Process Tree"></textarea>
+
+    <button onclick="generate()">Generate Write-up</button>
+    <button onclick="resetFields()">Reset</button>
+
+    <div class="output" id="output"></div>
+</div>
+
+<script>
+function updateClock() {
+    const now = new Date();
+    document.getElementById("clock").innerText =
+        "UTC: " + now.toISOString().replace("T", " ").split(".")[0];
+}
+setInterval(updateClock, 1000);
+
+function val(id) {
+    return document.getElementById(id).value || "N/A";
+}
+
+function generate() {
+    const text = `Hello,
+
+We detected ${val("detection")}.
+
+Date/Time: ${val("datetime")}
+Host: ${val("host")}
+User: ${val("user")}
+File name/Process: ${val("process")}
+File Path: ${val("path")}
+Hash (SHA1): ${val("hash")}
+Process tree: ${val("tree")}`;
+
+    document.getElementById("output").innerText = text;
+}
+
+function resetFields() {
+    document.querySelectorAll("input, textarea").forEach(el => el.value = "");
+    document.getElementById("output").innerText = "";
+}
+</script>
+
+</body>
+</html>
