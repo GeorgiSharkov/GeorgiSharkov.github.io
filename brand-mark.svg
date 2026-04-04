@@ -1,22 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 170" role="img" aria-label="CyberShark brand mark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" role="img" aria-label="CyberShark brand mark">
   <defs>
     <linearGradient id="body" x1="0%" y1="10%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#91fbff"/>
-      <stop offset="55%" stop-color="#27ceff"/>
-      <stop offset="100%" stop-color="#0f5a8d"/>
+      <stop offset="0%" stop-color="#7ff5ff"/>
+      <stop offset="55%" stop-color="#0db7ff"/>
+      <stop offset="100%" stop-color="#0460ae"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff58b4"/>
-      <stop offset="100%" stop-color="#9a46ff"/>
+    <linearGradient id="stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18d0ff"/>
+      <stop offset="100%" stop-color="#0a7dff"/>
+    </linearGradient>
+    <linearGradient id="shadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#04070d"/>
+      <stop offset="100%" stop-color="#0c1422"/>
     </linearGradient>
   </defs>
-  <path d="M16 88C34 42 86 14 145 16C181 17 204 34 211 59C195 56 175 60 160 73C143 87 116 100 77 104L16 88Z" fill="url(#body)" stroke="#0d9fff" stroke-width="8" stroke-linejoin="round"/>
-  <path d="M116 14L149 49L100 50Z" fill="#04131f" stroke="#0d9fff" stroke-width="7" stroke-linejoin="round"/>
-  <path d="M101 111L135 102L121 134L145 154L108 144L88 165L88 136L65 119Z" fill="#04131f" stroke="#0d9fff" stroke-width="7" stroke-linejoin="round"/>
-  <path d="M61 56L93 39L83 64L98 76L68 71Z" fill="#04131f"/>
-  <path d="M46 91L98 101L69 126L29 113Z" fill="#050b12"/>
-  <path d="M49 92L86 99L66 117L37 107Z" fill="#ffffff"/>
-  <path d="M74 89L84 100L70 112L59 98Z" fill="#050b12"/>
-  <circle cx="106" cy="60" r="7" fill="#ff304d"/>
-  <path d="M91 31L126 25L155 27L138 37L106 39Z" fill="url(#accent)" opacity="0.75"/>
+  <path d="M20 110C56 40 128 14 225 20C263 22 291 36 308 62C276 58 247 64 219 82C183 106 136 124 74 129L20 110Z" fill="url(#shadow)" stroke="url(#stroke)" stroke-width="13" stroke-linejoin="round"/>
+  <path d="M31 108C62 52 132 26 220 29C252 30 274 40 287 58C258 58 231 66 206 83C173 104 133 118 82 122L31 108Z" fill="url(#body)"/>
+  <path d="M167 20L214 65L144 66Z" fill="#03121c" stroke="url(#stroke)" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M157 22L197 58L151 59Z" fill="#0d1621"/>
+  <path d="M170 129L223 116L204 156L245 188L192 172L167 202L165 166L126 142Z" fill="#03121c" stroke="url(#stroke)" stroke-width="11" stroke-linejoin="round"/>
+  <path d="M176 131L214 122L200 151L227 171L189 160L171 180L170 153L141 137Z" fill="#0c1625"/>
+  <path d="M100 59L148 38L129 72L155 86L110 80Z" fill="#03111b"/>
+  <path d="M70 112L145 126L105 160L46 142Z" fill="#050a12"/>
+  <path d="M73 113L128 123L99 147L57 135Z" fill="#ffffff"/>
+  <path d="M109 111L127 131L104 149L85 127Z" fill="#050a12"/>
+  <path d="M82 93L112 91L127 98L112 105L85 104Z" fill="#03111b"/>
+  <circle cx="163" cy="70" r="10" fill="#ff3557"/>
+  <path d="M151 52L198 48L233 50L210 61L169 64Z" fill="#06111d"/>
 </svg>
