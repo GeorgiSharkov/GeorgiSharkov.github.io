@@ -152,26 +152,41 @@ h3,
 .brand {
   display: inline-flex;
   align-items: center;
+  gap: 14px;
   letter-spacing: 0.24em;
   color: var(--cyan);
   text-shadow: 0 0 18px rgba(89, 243, 255, 0.45);
 }
 
+.brand-mark {
+  width: 72px;
+  height: 72px;
+  filter: drop-shadow(0 0 20px rgba(88, 232, 255, 0.22));
+}
+
 .brand-copy {
   display: grid;
-  gap: 2px;
+  gap: 4px;
 }
 
 .brand-copy strong {
-  font-size: 0.95rem;
-  letter-spacing: 0.24em;
+  font-size: clamp(1.3rem, 3vw, 2.4rem);
+  line-height: 0.92;
+  letter-spacing: 0.12em;
+  color: #f4f8ff;
+  text-shadow:
+    0 0 0 rgba(0, 0, 0, 0),
+    2px 2px 0 rgba(0, 0, 0, 0.45),
+    0 0 24px rgba(88, 232, 255, 0.16);
 }
 
 .brand-copy span {
   color: var(--muted);
   font-family: "Rajdhani", sans-serif;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
 .topnav {
@@ -479,6 +494,16 @@ h2 {
   letter-spacing: 0.24em;
 }
 
+.card-note {
+  display: inline-flex;
+  margin-top: 6px;
+  color: var(--alert);
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
 .info-card h3 {
   margin: 0 0 10px;
   font-size: 1.2rem;
@@ -637,11 +662,16 @@ h2 {
   }
 
   .brand-copy strong {
-    font-size: 0.86rem;
+    font-size: 1.1rem;
   }
 
   .brand-copy span {
-    font-size: 0.82rem;
+    font-size: 0.76rem;
+  }
+
+  .brand-mark {
+    width: 52px;
+    height: 52px;
   }
 
   .hero-copy,

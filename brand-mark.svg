@@ -1,10 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="CyberShark brand mark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 170" role="img" aria-label="CyberShark brand mark">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#07111f"/>
-      <stop offset="55%" stop-color="#121c40"/>
-      <stop offset="100%" stop-color="#260f2f"/>
-    </linearGradient>
     <linearGradient id="body" x1="0%" y1="10%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#91fbff"/>
       <stop offset="55%" stop-color="#27ceff"/>
@@ -15,14 +10,13 @@
       <stop offset="100%" stop-color="#9a46ff"/>
     </linearGradient>
   </defs>
-  <rect width="160" height="160" rx="36" fill="url(#bg)"/>
-  <circle cx="128" cy="38" r="11" fill="#ff7a00"/>
-  <path d="M16 82C26 46 61 25 101 28C126 30 141 42 147 58C134 57 122 62 113 72C101 85 82 96 56 99L16 82Z" fill="url(#body)" stroke="#a7ffff" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M68 20L92 47L57 49Z" fill="url(#accent)"/>
-  <path d="M102 58L139 45L123 74L144 85L106 83Z" fill="url(#accent)"/>
-  <circle cx="93" cy="55" r="8" fill="#ff405e"/>
-  <circle cx="93" cy="55" r="16" fill="none" stroke="#ff405e" stroke-opacity="0.35" stroke-width="5"/>
-  <path d="M34 84L69 93L51 113L24 101Z" fill="#07151d"/>
-  <path d="M37 84L61 90L48 105L31 98Z" fill="#ffffff"/>
-  <path d="M22 40L48 31L37 55Z" fill="#ff7a00" opacity="0.9"/>
+  <path d="M16 88C34 42 86 14 145 16C181 17 204 34 211 59C195 56 175 60 160 73C143 87 116 100 77 104L16 88Z" fill="url(#body)" stroke="#0d9fff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M116 14L149 49L100 50Z" fill="#04131f" stroke="#0d9fff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M101 111L135 102L121 134L145 154L108 144L88 165L88 136L65 119Z" fill="#04131f" stroke="#0d9fff" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M61 56L93 39L83 64L98 76L68 71Z" fill="#04131f"/>
+  <path d="M46 91L98 101L69 126L29 113Z" fill="#050b12"/>
+  <path d="M49 92L86 99L66 117L37 107Z" fill="#ffffff"/>
+  <path d="M74 89L84 100L70 112L59 98Z" fill="#050b12"/>
+  <circle cx="106" cy="60" r="7" fill="#ff304d"/>
+  <path d="M91 31L126 25L155 27L138 37L106 39Z" fill="url(#accent)" opacity="0.75"/>
 </svg>
