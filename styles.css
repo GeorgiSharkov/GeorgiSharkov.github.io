@@ -47,6 +47,45 @@ a {
   padding: 24px 0 40px;
 }
 
+.edge-network {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.edge-network-lines,
+.edge-network-nodes {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.edge-network-lines line {
+  stroke: rgba(88, 232, 255, 0.18);
+  stroke-width: 0.16;
+}
+
+.edge-network-lines line.alert-line {
+  stroke: rgba(255, 78, 167, 0.18);
+}
+
+.edge-network-node {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(122, 248, 255, 0.95), rgba(18, 230, 255, 0.08) 72%);
+  box-shadow: 0 0 18px rgba(88, 232, 255, 0.35);
+}
+
+.edge-network-node.is-alert {
+  background: radial-gradient(circle, rgba(255, 108, 120, 0.95), rgba(255, 122, 0, 0.08) 72%);
+  box-shadow: 0 0 18px rgba(255, 92, 117, 0.35);
+}
+
 .grid-noise {
   position: fixed;
   inset: 0;
@@ -113,17 +152,9 @@ h3,
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   letter-spacing: 0.24em;
   color: var(--cyan);
   text-shadow: 0 0 18px rgba(89, 243, 255, 0.45);
-}
-
-.brand-mark {
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  box-shadow: 0 0 24px rgba(88, 232, 255, 0.18);
 }
 
 .brand-copy {
@@ -293,21 +324,6 @@ h1 span {
   display: grid;
   place-items: center;
   overflow: hidden;
-}
-
-.alert-badge {
-  position: absolute;
-  top: 26px;
-  right: 28px;
-  z-index: 1;
-  padding: 10px 14px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, rgba(255, 122, 0, 0.96), rgba(255, 68, 95, 0.92));
-  color: #fff6e8;
-  font-family: "Orbitron", sans-serif;
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
-  box-shadow: 0 0 24px rgba(255, 122, 0, 0.35);
 }
 
 .scan-ring {
@@ -526,6 +542,27 @@ h2 {
   gap: 16px;
 }
 
+.support-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.support-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+  border: 1px solid rgba(89, 243, 255, 0.12);
+}
+
+.support-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.support-card p {
+  margin: 0;
+}
+
 .publication-item {
   padding: 20px;
   border-radius: 20px;
@@ -605,11 +642,6 @@ h2 {
 
   .brand-copy span {
     font-size: 0.82rem;
-  }
-
-  .brand-mark {
-    width: 46px;
-    height: 46px;
   }
 
   .hero-copy,

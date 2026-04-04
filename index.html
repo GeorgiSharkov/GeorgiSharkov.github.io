@@ -18,15 +18,18 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+  <body>
   <div class="page-shell">
+    <div class="edge-network" aria-hidden="true">
+      <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <div class="edge-network-nodes"></div>
+    </div>
     <div class="grid-noise" aria-hidden="true"></div>
     <div class="aurora aurora-left" aria-hidden="true"></div>
     <div class="aurora aurora-right" aria-hidden="true"></div>
 
     <header class="topbar">
       <a class="brand" href="#hero">
-        <img class="brand-mark" src="brand-mark.svg" alt="">
         <span class="brand-copy">
           <strong>CYBERSHARK</strong>
           <span>Georgi Sharkov</span>
@@ -79,7 +82,6 @@
         </div>
 
         <div class="hero-visual panel" aria-hidden="true">
-          <div class="alert-badge">ALERT MODE</div>
           <div class="scan-ring scan-ring-one"></div>
           <div class="scan-ring scan-ring-two"></div>
           <div class="shark-core">
@@ -162,6 +164,36 @@
           <span>SOC Tooling</span>
           <span>Cyberpunk Identity</span>
           <span>Creative Coding</span>
+        </div>
+      </section>
+
+      <section class="signal panel" id="soc-support">
+        <div>
+          <p class="eyebrow">SOC SUPPORT</p>
+          <h2>Built to help SOC analysts move faster</h2>
+        </div>
+        <div class="support-grid">
+          <article class="support-card">
+            <h3>Write-up Support</h3>
+            <p>
+              Space for investigation notes, customer-facing summaries, incident
+              write-ups, and response-ready communication templates.
+            </p>
+          </article>
+          <article class="support-card">
+            <h3>Triage Workflow</h3>
+            <p>
+              Placeholder area for detection triage guidance, escalation paths,
+              decision points, and repeatable analyst playbooks.
+            </p>
+          </article>
+          <article class="support-card">
+            <h3>Tooling and Automation</h3>
+            <p>
+              Reserved for analyst utilities, query ideas, helper tools, and SOC
+              workflow improvements that will be expanded with more content.
+            </p>
+          </article>
         </div>
       </section>
 
