@@ -367,12 +367,12 @@ h1 span {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 108px minmax(0, 1fr);
+  grid-template-columns: 92px minmax(0, 1fr);
   align-items: center;
-  gap: 14px;
-  width: min(100%, 100%);
-  max-width: 100%;
-  padding: 18px 18px 18px 16px;
+  gap: 12px;
+  width: min(100%, 360px);
+  max-width: calc(100% - 24px);
+  padding: 16px 16px 16px 14px;
   border-radius: 28px;
   background:
     linear-gradient(180deg, rgba(8, 12, 24, 0.92), rgba(11, 17, 39, 0.82)),
@@ -393,8 +393,8 @@ h1 span {
 }
 
 .hero-brand-mark {
-  width: 104px;
-  height: 78px;
+  width: 88px;
+  height: 64px;
   object-fit: contain;
   filter: drop-shadow(0 0 22px rgba(13, 183, 255, 0.26));
   justify-self: center;
@@ -409,9 +409,9 @@ h1 span {
 
 .hero-brand-text strong {
   font-family: "Orbitron", sans-serif;
-  font-size: clamp(1.7rem, 4.2vw, 2.8rem);
+  font-size: clamp(1.35rem, 3.2vw, 2.2rem);
   line-height: 0.94;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.03em;
   color: #f4f8ff;
   text-shadow:
     2px 2px 0 rgba(0, 0, 0, 0.45),
@@ -421,8 +421,8 @@ h1 span {
 
 .hero-brand-text span {
   font-family: "Orbitron", sans-serif;
-  font-size: 0.78rem;
-  letter-spacing: 0.12em;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
   color: #f3f6fb;
   text-transform: uppercase;
   white-space: nowrap;
@@ -647,13 +647,13 @@ h2 {
     grid-template-columns: 1fr;
     justify-items: center;
     text-align: center;
-    width: min(100%, 340px);
+    width: min(100%, 320px);
     padding: 20px;
   }
 
   .hero-brand-mark {
-    width: 118px;
-    height: 84px;
+    width: 108px;
+    height: 78px;
   }
 
   .hero-brand-text strong,
