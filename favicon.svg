@@ -11,13 +11,13 @@
     </linearGradient>
   </defs>
   <rect width="128" height="128" rx="28" fill="url(#bg)"/>
-  <path d="M18 72C28 44 55 25 89 24C103 24 113 29 120 38C108 37 97 41 86 50C73 61 57 70 34 74L18 72Z" fill="#050b12" stroke="#0da8ff" stroke-width="5" stroke-linejoin="round"/>
-  <path d="M23 70C34 46 58 30 88 29C99 29 108 32 114 39C102 40 91 45 81 53C69 63 54 69 35 71L23 70Z" fill="url(#cyanFill)"/>
-  <path d="M68 22L87 43L58 44Z" fill="#05111a" stroke="#0da8ff" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M69 89L95 81L86 103L106 118L81 109L67 123L66 101L48 88Z" fill="#05111a" stroke="#0da8ff" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M41 74L67 79L52 93L31 87Z" fill="#ffffff"/>
-  <path d="M44 74L57 77L50 84L40 81Z" fill="#05111a"/>
-  <path d="M51 41L69 33L62 47L73 54L56 52Z" fill="#05111a"/>
-  <circle cx="68" cy="48" r="5" fill="#ff3654"/>
-  <path d="M60 30L83 27L97 29L85 35L66 37Z" fill="#05111a"/>
+  <path d="M14 73C26 45 53 23 90 24C103 24 114 28 122 37C108 37 95 42 82 52C69 61 54 69 33 73L14 73Z" fill="#040912" stroke="#0da8ff" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M22 70C33 47 57 31 88 31C98 31 107 34 114 40C102 42 91 47 80 55C69 64 55 69 37 71L22 70Z" fill="url(#cyanFill)"/>
+  <path d="M60 22L81 39L98 41L88 48L64 46L49 35Z" fill="#05111a" stroke="#0da8ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M72 81L92 84L85 101L103 117L80 108L68 122L68 103L51 90Z" fill="#05111a" stroke="#0da8ff" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M39 74L66 78L50 93L29 88Z" fill="#ffffff"/>
+  <path d="M42 74L56 76L48 84L38 81Z" fill="#05111a"/>
+  <path d="M49 43L67 35L61 47L73 53L56 51Z" fill="#05111a"/>
+  <circle cx="66" cy="49" r="5" fill="#ff3654"/>
+  <path d="M59 31L76 30L89 31L81 36L66 38Z" fill="#05111a"/>
 </svg>

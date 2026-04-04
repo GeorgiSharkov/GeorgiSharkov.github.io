@@ -1,28 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 210" role="img" aria-label="CyberShark brand mark">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 210" role="img" aria-label="CyberShark brand mark">
   <defs>
     <linearGradient id="cyanFill" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7ef6ff"/>
-      <stop offset="58%" stop-color="#11beff"/>
-      <stop offset="100%" stop-color="#005ec8"/>
+      <stop offset="0%" stop-color="#7cf5ff"/>
+      <stop offset="55%" stop-color="#15c3ff"/>
+      <stop offset="100%" stop-color="#0664cb"/>
     </linearGradient>
     <linearGradient id="strokeBlue" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#1be1ff"/>
       <stop offset="100%" stop-color="#0b7dff"/>
     </linearGradient>
   </defs>
-  <path d="M21 111C56 40 128 16 227 18C264 19 293 33 308 58C277 56 248 61 220 80C185 103 137 122 74 129L21 111Z" fill="#040912" stroke="url(#strokeBlue)" stroke-width="12" stroke-linejoin="round"/>
-  <path d="M31 108C62 50 133 27 222 28C253 29 276 38 288 55C257 57 229 64 205 82C173 104 132 118 81 121L31 108Z" fill="url(#cyanFill)"/>
-  <path d="M165 18L213 62L144 64Z" fill="#020911" stroke="url(#strokeBlue)" stroke-width="11" stroke-linejoin="round"/>
-  <path d="M157 21L194 55L151 57Z" fill="#0a111b"/>
-  <path d="M170 129L223 117L205 157L245 188L192 173L167 201L165 167L126 143Z" fill="#020911" stroke="url(#strokeBlue)" stroke-width="11" stroke-linejoin="round"/>
-  <path d="M176 131L214 122L201 151L227 171L190 161L171 181L170 154L141 138Z" fill="#0b1320"/>
-  <path d="M100 59L148 38L129 73L155 86L110 81Z" fill="#020911"/>
-  <path d="M70 111L145 125L105 160L46 142Z" fill="#050b12"/>
-  <path d="M73 113L128 123L99 147L58 135Z" fill="#ffffff"/>
-  <path d="M83 111L96 125L84 137L70 122Z" fill="#050b12"/>
-  <path d="M95 113L109 127L97 140L84 126Z" fill="#050b12"/>
-  <path d="M107 115L121 128L108 142L95 129Z" fill="#050b12"/>
-  <path d="M83 92L113 90L129 97L112 104L85 103Z" fill="#020911"/>
-  <circle cx="163" cy="69" r="10" fill="#ff3557"/>
-  <path d="M150 51L199 47L233 50L209 61L169 64Z" fill="#04101a"/>
+  <path d="M20 108C56 41 126 15 221 18C257 19 288 31 313 56C278 56 246 63 215 81C183 99 144 114 87 122L20 108Z" fill="#040912" stroke="url(#strokeBlue)" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M33 104C67 47 132 26 220 28C250 29 275 38 295 54C263 56 234 63 206 80C177 96 142 108 92 115L33 104Z" fill="url(#cyanFill)"/>
+  <path d="M149 16L199 52L244 56L222 71L163 66L127 43Z" fill="#020911" stroke="url(#strokeBlue)" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M159 25L197 52L224 55L205 63L168 60L142 44Z" fill="#09111a"/>
+  <path d="M177 112L223 115L207 147L247 184L195 164L170 198L170 162L133 136Z" fill="#020911" stroke="url(#strokeBlue)" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M183 119L216 120L203 145L227 167L191 154L172 178L172 152L146 135Z" fill="#09121d"/>
+  <path d="M83 63L133 44L117 70L150 82L100 81Z" fill="#020911"/>
+  <path d="M63 107L134 115L98 148L43 138Z" fill="#040912"/>
+  <path d="M67 108L120 114L92 137L52 130Z" fill="#ffffff"/>
+  <path d="M79 108L92 121L79 134L67 120Z" fill="#050b12"/>
+  <path d="M91 109L105 122L91 136L79 122Z" fill="#050b12"/>
+  <path d="M103 110L117 123L103 138L91 123Z" fill="#050b12"/>
+  <path d="M93 89L122 87L140 94L122 102L97 101Z" fill="#020911"/>
+  <circle cx="157" cy="71" r="10" fill="#ff3654"/>
+  <path d="M146 54L182 52L209 54L193 62L163 64Z" fill="#04101a"/>
+  <path d="M58 132L83 129L66 148L48 144Z" fill="#ffffff"/>
 </svg>
