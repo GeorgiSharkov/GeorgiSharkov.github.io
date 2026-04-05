@@ -409,9 +409,9 @@ h1 span {
 
 .hero-brand-text strong {
   font-family: "Orbitron", sans-serif;
-  font-size: clamp(1.35rem, 3.2vw, 2.2rem);
+  font-size: clamp(1.1rem, 2.6vw, 1.8rem);
   line-height: 0.94;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #f4f8ff;
   text-shadow:
     2px 2px 0 rgba(0, 0, 0, 0.45),
@@ -421,8 +421,8 @@ h1 span {
 
 .hero-brand-text span {
   font-family: "Orbitron", sans-serif;
-  font-size: 0.62rem;
-  letter-spacing: 0.08em;
+  font-size: 0.52rem;
+  letter-spacing: 0.05em;
   color: #f3f6fb;
   text-transform: uppercase;
   white-space: nowrap;
