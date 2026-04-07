@@ -38,6 +38,7 @@
       </a>
       <nav class="topnav" aria-label="Demo navigation">
         <a href="index.html">Home</a>
+        <a href="#interactive-demo">Try Demo</a>
         <a href="#workflow">Workflow</a>
         <a href="#screens">Screens</a>
         <a href="#access">Access</a>
@@ -73,9 +74,9 @@
             <span></span>
           </div>
           <p class="terminal-line">$ atcor --intake suspicious-powershell</p>
-          <p class="terminal-line is-cyan">[ioc] host=HOST-01 user=jsmith process=powershell.exe</p>
-          <p class="terminal-line is-pink">[triage] ATT&CK context loaded for analyst review</p>
-          <p class="terminal-line is-green">[output] writeup.md queries.md case-note.txt ready</p>
+          <p class="terminal-line is-cyan" data-demo-terminal="ioc">[ioc] host=HOST-01 user=jsmith process=powershell.exe</p>
+          <p class="terminal-line is-pink" data-demo-terminal="triage">[triage] ATT&CK context loaded for analyst review</p>
+          <p class="terminal-line is-green" data-demo-terminal="output">[output] writeup.md queries.md case-note.txt ready</p>
         </div>
       </section>
 
@@ -115,6 +116,60 @@
         </div>
       </section>
 
+      <section class="interactive-demo panel" id="interactive-demo">
+        <div class="interactive-copy">
+          <p class="eyebrow">CLICKABLE DEMO</p>
+          <h2>Generate a dummy SOC case</h2>
+          <p>
+            Choose a scenario and let the mock demo populate the intake, triage,
+            query, evidence, and customer writeup panels. This is a safe website
+            preview of the workflow, not the full private ATTCOR-CR app engine.
+          </p>
+        </div>
+
+        <form class="demo-form" id="atcor-demo-form">
+          <label>
+            Alert scenario
+            <select id="demo-scenario" name="scenario">
+              <option value="powershell">Suspicious PowerShell</option>
+              <option value="usb">USB execution</option>
+              <option value="download">Internet download alert</option>
+              <option value="pup">Potentially unwanted program</option>
+            </select>
+          </label>
+
+          <label>
+            Investigation outcome
+            <select id="demo-outcome" name="outcome">
+              <option value="confirmed">Confirmed suspicious</option>
+              <option value="fp">False positive / expected activity</option>
+              <option value="tuning">Tuning recommended</option>
+            </select>
+          </label>
+
+          <label>
+            Query platform
+            <select id="demo-platform" name="platform">
+              <option value="sentinel">Microsoft Sentinel</option>
+              <option value="splunk">Splunk</option>
+              <option value="elastic">Elastic</option>
+              <option value="crowdstrike">CrowdStrike</option>
+            </select>
+          </label>
+
+          <label>
+            Customer profile
+            <select id="demo-profile" name="profile">
+              <option value="mdr">MDR customer</option>
+              <option value="enterprise">Enterprise SOC</option>
+              <option value="pentest">PenTest approved scope</option>
+            </select>
+          </label>
+
+          <button class="button button-primary" type="submit">Generate demo</button>
+        </form>
+      </section>
+
       <section class="section-heading demo-heading" id="screens">
         <p class="eyebrow">DEMO SCREENS</p>
         <h2>Relevant ATCOR workflow views</h2>
@@ -127,18 +182,18 @@
             <small>STEP 01</small>
           </div>
           <div class="screen-body">
-            <div class="fake-input">Suspicious PowerShell execution detected on HOST-01</div>
+            <div class="fake-input" data-demo-output="summary">Suspicious PowerShell execution detected on HOST-01</div>
             <div class="metric-row">
               <span>Host</span>
-              <strong>HOST-01</strong>
+              <strong data-demo-output="host">HOST-01</strong>
             </div>
             <div class="metric-row">
               <span>User</span>
-              <strong>jsmith</strong>
+              <strong data-demo-output="user">jsmith</strong>
             </div>
             <div class="metric-row">
               <span>Process</span>
-              <strong>powershell.exe</strong>
+              <strong data-demo-output="process">powershell.exe</strong>
             </div>
           </div>
         </article>
@@ -149,9 +204,9 @@
             <small>STEP 02</small>
           </div>
           <div class="quality-meter" aria-hidden="true">
-            <span style="--score: 82%"></span>
+            <span style="--score: 82%" data-demo-output="qualityBar"></span>
           </div>
-          <ul class="check-list">
+          <ul class="check-list" data-demo-output="evidence">
             <li>Timestamp present</li>
             <li>Host and user context captured</li>
             <li>Hash and reputation pending</li>
@@ -164,7 +219,7 @@
             <span>Hunting Queries</span>
             <small>STEP 03</small>
           </div>
-          <pre class="query-block"><code>DeviceProcessEvents
+          <pre class="query-block"><code data-demo-output="query">DeviceProcessEvents
 | where DeviceName =~ "HOST-01"
 | where ProcessCommandLine has "powershell"</code></pre>
           <div class="chip-row" aria-label="Supported platforms">
@@ -180,7 +235,7 @@
             <span>Customer Writeup</span>
             <small>STEP 04</small>
           </div>
-          <div class="writeup-card">
+          <div class="writeup-card" data-demo-output="writeup">
             <p>Hello,</p>
             <p>We observed suspicious PowerShell execution and reviewed the available endpoint evidence.</p>
             <p>Recommended next steps: validate user activity, review command-line context, and confirm whether the execution was expected.</p>

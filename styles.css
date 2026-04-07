@@ -728,7 +728,31 @@ h2 {
   margin-top: 24px;
 }
 
+.interactive-demo {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 28px;
+  align-items: center;
+  padding: 32px;
+  margin-top: 24px;
+  overflow: hidden;
+}
+
+.interactive-demo::before {
+  content: "";
+  position: absolute;
+  inset: auto 28px 0 auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(88, 232, 255, 0.18), transparent 68%);
+  pointer-events: none;
+}
+
 .demo-overview p,
+.interactive-copy p,
 .access-card p,
 .workflow-lanes p,
 .writeup-card p,
@@ -736,6 +760,69 @@ h2 {
   color: var(--muted);
   font-size: 1.05rem;
   line-height: 1.55;
+}
+
+.demo-form {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.demo-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--cyan);
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.demo-form select {
+  width: 100%;
+  min-height: 52px;
+  border: 1px solid rgba(88, 232, 255, 0.22);
+  border-radius: 16px;
+  padding: 0 14px;
+  color: var(--text);
+  background: rgba(2, 8, 22, 0.82);
+  font: 700 1rem "Rajdhani", sans-serif;
+  outline: none;
+  box-shadow: inset 0 0 22px rgba(88, 232, 255, 0.04);
+}
+
+.demo-form select:focus {
+  border-color: rgba(255, 122, 0, 0.5);
+  box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.14);
+}
+
+.demo-form .button {
+  grid-column: 1 / -1;
+  width: fit-content;
+  border: 0;
+  cursor: pointer;
+}
+
+.is-demo-pulse {
+  animation: demoPulse 650ms ease;
+}
+
+@keyframes demoPulse {
+  0% {
+    box-shadow: 0 0 0 rgba(88, 232, 255, 0);
+    transform: translateY(0);
+  }
+
+  42% {
+    box-shadow: 0 0 32px rgba(88, 232, 255, 0.28);
+    transform: translateY(-2px);
+  }
+
+  100% {
+    box-shadow: var(--shadow);
+    transform: translateY(0);
+  }
 }
 
 .workflow-lanes {
@@ -931,6 +1018,7 @@ h2 {
   .card-grid,
   .demo-hero,
   .demo-overview,
+  .interactive-demo,
   .demo-screen-grid {
     grid-template-columns: 1fr;
   }
@@ -958,6 +1046,10 @@ h2 {
   }
 
   .workflow-lanes {
+    grid-template-columns: 1fr;
+  }
+
+  .demo-form {
     grid-template-columns: 1fr;
   }
 }
@@ -994,6 +1086,7 @@ h2 {
   .footer,
   .demo-hero,
   .demo-overview,
+  .interactive-demo,
   .demo-screen {
     padding: 24px;
   }
