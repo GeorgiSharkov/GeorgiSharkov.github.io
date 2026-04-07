@@ -172,6 +172,24 @@ if (networkRoot && networkSvg && networkNodesRoot) {
 const previewForm = document.querySelector("#atcor-preview-form");
 
 if (previewForm) {
+  const ownerToken = "GeorgiSharkov";
+  const ownerKey = "atcorPreviewOwner";
+  const attemptKey = "atcorPreviewAttempts";
+  const maxVisitorAttempts = 3;
+  const params = new URLSearchParams(window.location.search);
+
+  if (params.get("owner") === ownerToken) {
+    window.localStorage.setItem(ownerKey, "true");
+    params.delete("owner");
+
+    const nextQuery = params.toString();
+    const nextUrl = `${window.location.pathname}${nextQuery ? `?${nextQuery}` : ""}${window.location.hash}`;
+    window.history.replaceState({}, "", nextUrl);
+  }
+
+  const isOwner = window.localStorage.getItem(ownerKey) === "true";
+  const submitButton = previewForm.querySelector('button[type="submit"]');
+  const limitStatus = document.querySelector("[data-preview-limit-status]");
   const previewOutputs = {
     summary: document.querySelector('[data-preview-output="summary"]'),
     host: document.querySelector('[data-preview-output="host"]'),
@@ -265,7 +283,45 @@ if (previewForm) {
     <p>Recommended next steps: confirm user intent, review nearby endpoint telemetry, collect any missing hash or reputation context, and document the final customer response.</p>
   `;
 
-  const renderPreview = () => {
+  const getAttempts = () => Number(window.localStorage.getItem(attemptKey) || "0");
+
+  const setLimitStatus = () => {
+    if (!limitStatus || !submitButton) {
+      return;
+    }
+
+    limitStatus.classList.remove("is-warning", "is-owner");
+
+    if (isOwner) {
+      limitStatus.textContent = "Owner mode enabled: unlimited generated outputs available.";
+      limitStatus.classList.add("is-owner");
+      submitButton.disabled = false;
+      return;
+    }
+
+    const remaining = Math.max(maxVisitorAttempts - getAttempts(), 0);
+    submitButton.disabled = remaining === 0;
+
+    if (remaining === 0) {
+      limitStatus.textContent = "Visitor preview limit reached. Please contact Georgi for full access.";
+      limitStatus.classList.add("is-warning");
+    } else {
+      limitStatus.textContent = `Visitor preview limit: ${remaining} generated output${remaining === 1 ? "" : "s"} remaining.`;
+    }
+  };
+
+  const renderPreview = ({ countAttempt = false } = {}) => {
+    if (countAttempt && !isOwner) {
+      const attempts = getAttempts();
+
+      if (attempts >= maxVisitorAttempts) {
+        setLimitStatus();
+        return;
+      }
+
+      window.localStorage.setItem(attemptKey, `${attempts + 1}`);
+    }
+
     const formData = new FormData(previewForm);
     const scenario = formData.get("scenario");
     const outcome = formData.get("outcome");
@@ -296,12 +352,15 @@ if (previewForm) {
       panel.classList.remove("is-preview-pulse");
       window.requestAnimationFrame(() => panel.classList.add("is-preview-pulse"));
     });
+
+    setLimitStatus();
   };
 
   previewForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    renderPreview();
+    renderPreview({ countAttempt: true });
   });
 
   renderPreview();
+  setLimitStatus();
 }

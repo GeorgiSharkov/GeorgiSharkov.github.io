@@ -1013,6 +1013,28 @@ h2 {
   cursor: pointer;
 }
 
+.preview-form .button:disabled {
+  cursor: not-allowed;
+  filter: grayscale(0.7);
+  opacity: 0.55;
+}
+
+.preview-limit-status {
+  grid-column: 1 / -1;
+  margin: -4px 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.preview-limit-status.is-warning {
+  color: var(--alert);
+}
+
+.preview-limit-status.is-owner {
+  color: #5dffb2;
+}
+
 .is-preview-pulse {
   animation: PreviewPulse 650ms ease;
 }
