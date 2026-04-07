@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ATCOR Demo | CyberShark</title>
+  <meta
+    name="description"
+    content="ATCOR / ATTCOR-CR demo page for SOC analyst writeups, hunting queries, ATT&CK context, and evidence-quality workflow support."
+  >
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="demo-body">
+  <div class="page-shell demo-shell">
+    <div class="edge-network" aria-hidden="true">
+      <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <div class="edge-network-nodes"></div>
+    </div>
+    <div class="grid-noise" aria-hidden="true"></div>
+    <div class="aurora aurora-left" aria-hidden="true"></div>
+    <div class="aurora aurora-right" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html#hero">
+        <img class="brand-mark" src="brand-mark.svg" alt="">
+        <span class="brand-copy">
+          <strong>CYBERSHARK</strong>
+          <span>ATCOR Demo</span>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="Demo navigation">
+        <a href="index.html">Home</a>
+        <a href="#workflow">Workflow</a>
+        <a href="#screens">Screens</a>
+        <a href="#access">Access</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="demo-hero panel">
+        <div>
+          <p class="eyebrow">WORKING TOOL / SOC ASSISTANT / ATTCOR-CR</p>
+          <h1 class="demo-title">
+            ATCOR
+            <span>analyst workflow demo</span>
+          </h1>
+          <p class="lede">
+            ATCOR / ATTCOR-CR is a SOC analyst assistant designed to reduce
+            repetitive alert handling and turn raw investigation context into
+            clearer customer updates, stronger hunting pivots, and consistent
+            analyst output.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="#screens">View demo screens</a>
+            <a class="button button-ghost" href="https://github.com/GeorgiSharkov/ATCOR" target="_blank" rel="noreferrer">
+              Open ATCOR repo
+            </a>
+          </div>
+        </div>
+
+        <div class="demo-command" aria-label="ATCOR workflow preview">
+          <div class="command-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p class="terminal-line">$ atcor --intake suspicious-powershell</p>
+          <p class="terminal-line is-cyan">[ioc] host=HOST-01 user=jsmith process=powershell.exe</p>
+          <p class="terminal-line is-pink">[triage] ATT&CK context loaded for analyst review</p>
+          <p class="terminal-line is-green">[output] writeup.md queries.md case-note.txt ready</p>
+        </div>
+      </section>
+
+      <section class="demo-overview panel" id="workflow">
+        <div>
+          <p class="eyebrow">WHAT IT DOES</p>
+          <h2>From alert intake to customer-ready output</h2>
+          <p>
+            The tool supports analysts through the high-friction parts of repeat
+            alert handling: extracting indicators, shaping the investigation
+            narrative, generating query packs, checking evidence quality, and
+            exporting copy-ready outputs for tickets, portals, or email.
+          </p>
+        </div>
+
+        <div class="workflow-lanes">
+          <article>
+            <span>01</span>
+            <h3>Intake</h3>
+            <p>Paste raw alert context and normalize the useful case facts.</p>
+          </article>
+          <article>
+            <span>02</span>
+            <h3>Enrich</h3>
+            <p>Review extracted IOCs, ATT&CK/STIX context, and triage hints.</p>
+          </article>
+          <article>
+            <span>03</span>
+            <h3>Hunt</h3>
+            <p>Generate query packs for tools like Sentinel, Splunk, Elastic, Defender XDR, CrowdStrike, and more.</p>
+          </article>
+          <article>
+            <span>04</span>
+            <h3>Handoff</h3>
+            <p>Export customer-ready writeups, case notes, and query bundles in analyst-friendly formats.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-heading demo-heading" id="screens">
+        <p class="eyebrow">DEMO SCREENS</p>
+        <h2>Relevant ATCOR workflow views</h2>
+      </section>
+
+      <section class="demo-screen-grid">
+        <article class="demo-screen panel">
+          <div class="screen-bar">
+            <span>Alert Intake</span>
+            <small>STEP 01</small>
+          </div>
+          <div class="screen-body">
+            <div class="fake-input">Suspicious PowerShell execution detected on HOST-01</div>
+            <div class="metric-row">
+              <span>Host</span>
+              <strong>HOST-01</strong>
+            </div>
+            <div class="metric-row">
+              <span>User</span>
+              <strong>jsmith</strong>
+            </div>
+            <div class="metric-row">
+              <span>Process</span>
+              <strong>powershell.exe</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="demo-screen panel">
+          <div class="screen-bar">
+            <span>Evidence Quality</span>
+            <small>STEP 02</small>
+          </div>
+          <div class="quality-meter" aria-hidden="true">
+            <span style="--score: 82%"></span>
+          </div>
+          <ul class="check-list">
+            <li>Timestamp present</li>
+            <li>Host and user context captured</li>
+            <li>Hash and reputation pending</li>
+            <li>Sandbox context recommended</li>
+          </ul>
+        </article>
+
+        <article class="demo-screen panel">
+          <div class="screen-bar">
+            <span>Hunting Queries</span>
+            <small>STEP 03</small>
+          </div>
+          <pre class="query-block"><code>DeviceProcessEvents
+| where DeviceName =~ "HOST-01"
+| where ProcessCommandLine has "powershell"</code></pre>
+          <div class="chip-row" aria-label="Supported platforms">
+            <span>Sentinel</span>
+            <span>Splunk</span>
+            <span>Elastic</span>
+            <span>Defender XDR</span>
+          </div>
+        </article>
+
+        <article class="demo-screen panel">
+          <div class="screen-bar">
+            <span>Customer Writeup</span>
+            <small>STEP 04</small>
+          </div>
+          <div class="writeup-card">
+            <p>Hello,</p>
+            <p>We observed suspicious PowerShell execution and reviewed the available endpoint evidence.</p>
+            <p>Recommended next steps: validate user activity, review command-line context, and confirm whether the execution was expected.</p>
+          </div>
+          <div class="export-row">
+            <span>.docx</span>
+            <span>.md</span>
+            <span>.txt</span>
+          </div>
+        </article>
+      </section>
+
+      <section class="demo-overview panel" id="access">
+        <div>
+          <p class="eyebrow">ACCESS AND BUILD</p>
+          <h2>Built for local analyst use</h2>
+          <p>
+            ATTCOR-CR is designed to run locally once installed, with configurable
+            defaults for theme, timezone, selected platforms, and ATT&CK display
+            preferences. It supports analyst judgement rather than replacing it:
+            generated outputs should always be reviewed before being actioned.
+          </p>
+        </div>
+        <div class="access-card">
+          <h3>Core capabilities</h3>
+          <p>Customer-ready writeups, multi-platform hunting query bundles, ATT&CK-assisted triage, IOC extraction, remediation playbooks, evidence-quality scoring, and exports for handoff.</p>
+          <a class="button button-primary" href="https://github.com/GeorgiSharkov/ATCOR" target="_blank" rel="noreferrer">
+            Open ATCOR repository
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
