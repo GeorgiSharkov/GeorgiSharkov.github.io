@@ -618,15 +618,15 @@ h2 {
   gap: 18px;
 }
 
-.demo-body .page-shell {
+.preview-body .page-shell {
   padding-bottom: 64px;
 }
 
-.demo-shell {
+.preview-shell {
   width: min(1240px, calc(100% - 32px));
 }
 
-.demo-hero {
+.preview-hero {
   position: relative;
   z-index: 1;
   display: grid;
@@ -638,8 +638,8 @@ h2 {
   overflow: hidden;
 }
 
-.demo-hero::after,
-.demo-screen::after {
+.preview-hero::after,
+.preview-screen::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -650,17 +650,17 @@ h2 {
   opacity: 0.22;
 }
 
-.demo-title {
+.preview-title {
   max-width: 12ch;
   font-size: clamp(3.4rem, 8vw, 7rem);
 }
 
-.demo-title span {
+.preview-title span {
   font-size: clamp(1.4rem, 3vw, 2.2rem);
   letter-spacing: 0.02em;
 }
 
-.demo-command {
+.preview-command {
   position: relative;
   padding: 22px;
   border-radius: 24px;
@@ -717,7 +717,7 @@ h2 {
   color: #5dffb2;
 }
 
-.demo-overview {
+.preview-overview {
   position: relative;
   z-index: 1;
   display: grid;
@@ -728,7 +728,7 @@ h2 {
   margin-top: 24px;
 }
 
-.interactive-demo {
+.interactive-preview {
   position: relative;
   z-index: 1;
   display: grid;
@@ -892,7 +892,7 @@ h2 {
   font: 700 1rem "Rajdhani", sans-serif;
 }
 
-.interactive-demo::before {
+.interactive-preview::before {
   content: "";
   position: absolute;
   inset: auto 28px 0 auto;
@@ -903,7 +903,7 @@ h2 {
   pointer-events: none;
 }
 
-.demo-overview p,
+.preview-overview p,
 .interactive-copy p,
 .access-card p,
 .workflow-lanes p,
@@ -914,14 +914,14 @@ h2 {
   line-height: 1.55;
 }
 
-.demo-form {
+.preview-form {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
-.demo-form label {
+.preview-form label {
   display: grid;
   gap: 8px;
   color: var(--cyan);
@@ -931,7 +931,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.demo-form select {
+.preview-form select {
   width: 100%;
   min-height: 52px;
   border: 1px solid rgba(88, 232, 255, 0.22);
@@ -944,23 +944,23 @@ h2 {
   box-shadow: inset 0 0 22px rgba(88, 232, 255, 0.04);
 }
 
-.demo-form select:focus {
+.preview-form select:focus {
   border-color: rgba(255, 122, 0, 0.5);
   box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.14);
 }
 
-.demo-form .button {
+.preview-form .button {
   grid-column: 1 / -1;
   width: fit-content;
   border: 0;
   cursor: pointer;
 }
 
-.is-demo-pulse {
-  animation: demoPulse 650ms ease;
+.is-preview-pulse {
+  animation: PreviewPulse 650ms ease;
 }
 
-@keyframes demoPulse {
+@keyframes PreviewPulse {
   0% {
     box-shadow: 0 0 0 rgba(88, 232, 255, 0);
     transform: translateY(0);
@@ -1005,11 +1005,11 @@ h2 {
   margin: 10px 0;
 }
 
-.demo-heading {
+.preview-heading {
   margin-top: 34px;
 }
 
-.demo-screen-grid {
+.preview-screen-grid {
   position: relative;
   z-index: 1;
   display: grid;
@@ -1017,14 +1017,14 @@ h2 {
   gap: 22px;
 }
 
-.demo-screen {
+.preview-screen {
   position: relative;
   min-height: 330px;
   padding: 24px;
   overflow: hidden;
 }
 
-.demo-screen:hover {
+.preview-screen:hover {
   border-color: rgba(255, 122, 0, 0.32);
   transform: translateY(-3px);
   transition:
@@ -1168,10 +1168,10 @@ h2 {
   .signal,
   .profile,
   .card-grid,
-  .demo-hero,
-  .demo-overview,
-  .interactive-demo,
-  .demo-screen-grid,
+  .preview-hero,
+  .preview-overview,
+  .interactive-preview,
+  .preview-screen-grid,
   .app-preview-head,
   .utc-row,
   .app-form-preview {
@@ -1204,7 +1204,7 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .demo-form {
+  .preview-form {
     grid-template-columns: 1fr;
   }
 
@@ -1243,11 +1243,11 @@ h2 {
   .signal,
   .profile,
   .footer,
-  .demo-hero,
-  .demo-overview,
+  .preview-hero,
+  .preview-overview,
   .app-preview,
-  .interactive-demo,
-  .demo-screen {
+  .interactive-preview,
+  .preview-screen {
     padding: 24px;
   }
 

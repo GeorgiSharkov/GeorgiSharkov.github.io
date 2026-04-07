@@ -169,28 +169,28 @@ if (networkRoot && networkSvg && networkNodesRoot) {
   updateNetwork();
 }
 
-const demoForm = document.querySelector("#atcor-demo-form");
+const previewForm = document.querySelector("#atcor-preview-form");
 
-if (demoForm) {
-  const demoOutputs = {
-    summary: document.querySelector('[data-demo-output="summary"]'),
-    host: document.querySelector('[data-demo-output="host"]'),
-    user: document.querySelector('[data-demo-output="user"]'),
-    process: document.querySelector('[data-demo-output="process"]'),
-    qualityBar: document.querySelector('[data-demo-output="qualityBar"]'),
-    evidence: document.querySelector('[data-demo-output="evidence"]'),
-    query: document.querySelector('[data-demo-output="query"]'),
-    writeup: document.querySelector('[data-demo-output="writeup"]'),
-    appTemplate: document.querySelector('[data-demo-output="appTemplate"]'),
-    appTitle: document.querySelector('[data-demo-output="appTitle"]'),
-    appHost: document.querySelector('[data-demo-output="appHost"]'),
-    appUser: document.querySelector('[data-demo-output="appUser"]'),
-    appProcess: document.querySelector('[data-demo-output="appProcess"]'),
-    appRawAlert: document.querySelector('[data-demo-output="appRawAlert"]'),
-    appTi: document.querySelector('[data-demo-output="appTi"]'),
-    terminalIoc: document.querySelector('[data-demo-terminal="ioc"]'),
-    terminalTriage: document.querySelector('[data-demo-terminal="triage"]'),
-    terminalOutput: document.querySelector('[data-demo-terminal="output"]'),
+if (previewForm) {
+  const previewOutputs = {
+    summary: document.querySelector('[data-preview-output="summary"]'),
+    host: document.querySelector('[data-preview-output="host"]'),
+    user: document.querySelector('[data-preview-output="user"]'),
+    process: document.querySelector('[data-preview-output="process"]'),
+    qualityBar: document.querySelector('[data-preview-output="qualityBar"]'),
+    evidence: document.querySelector('[data-preview-output="evidence"]'),
+    query: document.querySelector('[data-preview-output="query"]'),
+    writeup: document.querySelector('[data-preview-output="writeup"]'),
+    appTemplate: document.querySelector('[data-preview-output="appTemplate"]'),
+    appTitle: document.querySelector('[data-preview-output="appTitle"]'),
+    appHost: document.querySelector('[data-preview-output="appHost"]'),
+    appUser: document.querySelector('[data-preview-output="appUser"]'),
+    appProcess: document.querySelector('[data-preview-output="appProcess"]'),
+    appRawAlert: document.querySelector('[data-preview-output="appRawAlert"]'),
+    appTi: document.querySelector('[data-preview-output="appTi"]'),
+    terminalIoc: document.querySelector('[data-preview-terminal="ioc"]'),
+    terminalTriage: document.querySelector('[data-preview-terminal="triage"]'),
+    terminalOutput: document.querySelector('[data-preview-terminal="output"]'),
   };
 
   const cases = {
@@ -265,43 +265,43 @@ if (demoForm) {
     <p>Recommended next steps: confirm user intent, review nearby endpoint telemetry, collect any missing hash or reputation context, and document the final customer response.</p>
   `;
 
-  const renderDemo = () => {
-    const formData = new FormData(demoForm);
+  const renderPreview = () => {
+    const formData = new FormData(previewForm);
     const scenario = formData.get("scenario");
     const outcome = formData.get("outcome");
     const platform = formData.get("platform");
     const profile = formData.get("profile");
     const caseData = cases[scenario];
 
-    demoOutputs.summary.textContent = caseData.summary;
-    demoOutputs.host.textContent = caseData.host;
-    demoOutputs.user.textContent = caseData.user;
-    demoOutputs.process.textContent = caseData.process;
-    demoOutputs.qualityBar.style.setProperty("--score", outcome === "fp" ? "74%" : outcome === "tuning" ? "68%" : "86%");
-    demoOutputs.evidence.innerHTML = caseData.evidence.map((item) => `<li>${item}</li>`).join("");
-    demoOutputs.query.textContent = platformQueries[platform](caseData);
-    demoOutputs.writeup.innerHTML = buildWriteup(caseData, outcome, profile);
-    demoOutputs.appTemplate.textContent = caseData.template;
-    demoOutputs.appTitle.textContent = caseData.summary;
-    demoOutputs.appHost.textContent = caseData.host;
-    demoOutputs.appUser.textContent = caseData.user;
-    demoOutputs.appProcess.textContent = caseData.process;
-    demoOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}`;
-    demoOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes for enrichment and customer-safe wording.`;
-    demoOutputs.terminalIoc.textContent = `[ioc] host=${caseData.host} user=${caseData.user} process=${caseData.process}`;
-    demoOutputs.terminalTriage.textContent = `[triage] ${caseData.technique} context loaded for analyst review`;
-    demoOutputs.terminalOutput.textContent = `[output] ${platform}-queries.md writeup.md evidence-check.txt ready`;
+    previewOutputs.summary.textContent = caseData.summary;
+    previewOutputs.host.textContent = caseData.host;
+    previewOutputs.user.textContent = caseData.user;
+    previewOutputs.process.textContent = caseData.process;
+    previewOutputs.qualityBar.style.setProperty("--score", outcome === "fp" ? "74%" : outcome === "tuning" ? "68%" : "86%");
+    previewOutputs.evidence.innerHTML = caseData.evidence.map((item) => `<li>${item}</li>`).join("");
+    previewOutputs.query.textContent = platformQueries[platform](caseData);
+    previewOutputs.writeup.innerHTML = buildWriteup(caseData, outcome, profile);
+    previewOutputs.appTemplate.textContent = caseData.template;
+    previewOutputs.appTitle.textContent = caseData.summary;
+    previewOutputs.appHost.textContent = caseData.host;
+    previewOutputs.appUser.textContent = caseData.user;
+    previewOutputs.appProcess.textContent = caseData.process;
+    previewOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}`;
+    previewOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes for enrichment and customer-safe wording.`;
+    previewOutputs.terminalIoc.textContent = `[ioc] host=${caseData.host} user=${caseData.user} process=${caseData.process}`;
+    previewOutputs.terminalTriage.textContent = `[triage] ${caseData.technique} context loaded for analyst review`;
+    previewOutputs.terminalOutput.textContent = `[output] ${platform}-queries.md writeup.md evidence-check.txt ready`;
 
-    document.querySelectorAll(".demo-screen, .demo-command").forEach((panel) => {
-      panel.classList.remove("is-demo-pulse");
-      window.requestAnimationFrame(() => panel.classList.add("is-demo-pulse"));
+    document.querySelectorAll(".preview-screen, .preview-command").forEach((panel) => {
+      panel.classList.remove("is-preview-pulse");
+      window.requestAnimationFrame(() => panel.classList.add("is-preview-pulse"));
     });
   };
 
-  demoForm.addEventListener("submit", (event) => {
+  previewForm.addEventListener("submit", (event) => {
     event.preventDefault();
-    renderDemo();
+    renderPreview();
   });
 
-  renderDemo();
+  renderPreview();
 }

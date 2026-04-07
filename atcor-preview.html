@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ATCOR Demo | CyberShark</title>
+  <title>ATCOR Workflow Preview | CyberShark</title>
   <meta
     name="description"
-    content="ATCOR / ATTCOR-CR demo page for SOC analyst writeups, hunting queries, ATT&CK context, and evidence-quality workflow support."
+    content="ATCOR / ATTCOR-CR workflow preview for SOC analyst writeups, hunting queries, ATT&CK context, and evidence-quality workflow support."
   >
   <meta name="theme-color" content="#0a0f24">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,8 +18,8 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="demo-body">
-  <div class="page-shell demo-shell">
+<body class="preview-body">
+  <div class="page-shell preview-shell">
     <div class="edge-network" aria-hidden="true">
       <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
       <div class="edge-network-nodes"></div>
@@ -33,12 +33,12 @@
         <img class="brand-mark" src="brand-mark.svg" alt="">
         <span class="brand-copy">
           <strong>CYBERSHARK</strong>
-          <span>ATCOR Demo</span>
+          <span>ATCOR Preview</span>
         </span>
       </a>
-      <nav class="topnav" aria-label="Demo navigation">
+      <nav class="topnav" aria-label="ATCOR preview navigation">
         <a href="index.html">Home</a>
-        <a href="#interactive-demo">Try Demo</a>
+        <a href="#interactive-preview">Try Preview</a>
         <a href="#app-preview">App Preview</a>
         <a href="#workflow">Workflow</a>
         <a href="#screens">Screens</a>
@@ -47,12 +47,12 @@
     </header>
 
     <main>
-      <section class="demo-hero panel">
+      <section class="preview-hero panel">
         <div>
           <p class="eyebrow">WORKING TOOL / SOC ASSISTANT / ATTCOR-CR</p>
-          <h1 class="demo-title">
+          <h1 class="preview-title">
             ATCOR
-            <span>analyst workflow demo</span>
+            <span>analyst workflow preview</span>
           </h1>
           <p class="lede">
             ATCOR / ATTCOR-CR is a SOC analyst assistant designed to reduce
@@ -61,27 +61,27 @@
             analyst output.
           </p>
           <div class="cta-row">
-            <a class="button button-primary" href="#screens">View demo screens</a>
+            <a class="button button-primary" href="#screens">View workflow screens</a>
             <a class="button button-ghost" href="https://github.com/GeorgiSharkov/ATCOR" target="_blank" rel="noreferrer">
               Open ATCOR repo
             </a>
           </div>
         </div>
 
-        <div class="demo-command" aria-label="ATCOR workflow preview">
+        <div class="preview-command" aria-label="ATCOR workflow preview">
           <div class="command-top">
             <span></span>
             <span></span>
             <span></span>
           </div>
           <p class="terminal-line">$ atcor --intake suspicious-powershell</p>
-          <p class="terminal-line is-cyan" data-demo-terminal="ioc">[ioc] host=HOST-01 user=jsmith process=powershell.exe</p>
-          <p class="terminal-line is-pink" data-demo-terminal="triage">[triage] ATT&CK context loaded for analyst review</p>
-          <p class="terminal-line is-green" data-demo-terminal="output">[output] writeup.md queries.md case-note.txt ready</p>
+          <p class="terminal-line is-cyan" data-preview-terminal="ioc">[ioc] host=HOST-01 user=jsmith process=powershell.exe</p>
+          <p class="terminal-line is-pink" data-preview-terminal="triage">[triage] ATT&CK context loaded for analyst review</p>
+          <p class="terminal-line is-green" data-preview-terminal="output">[output] writeup.md queries.md case-note.txt ready</p>
         </div>
       </section>
 
-      <section class="demo-overview panel" id="workflow">
+      <section class="preview-overview panel" id="workflow">
         <div>
           <p class="eyebrow">WHAT IT DOES</p>
           <h2>From alert intake to customer-ready output</h2>
@@ -157,14 +157,14 @@
             <p>Paste the alert, choose a case template if useful, and confirm the core fields before generating output.</p>
             <label class="app-field">
               Alert type template
-              <span data-demo-output="appTemplate">Downloaded from the internet</span>
+              <span data-preview-output="appTemplate">Downloaded from the internet</span>
             </label>
             <small>Applied template: None</small>
 
             <h3>2. Parse and enrich</h3>
             <label class="app-field">
               Title / detection description
-              <span data-demo-output="appTitle">Suspicious PowerShell execution detected on HOST-01</span>
+              <span data-preview-output="appTitle">Suspicious PowerShell execution detected on HOST-01</span>
             </label>
             <label class="app-field">
               Mitigation status
@@ -173,15 +173,15 @@
             <div class="mini-field-grid">
               <label class="app-field">
                 Host
-                <span data-demo-output="appHost">HOST-01</span>
+                <span data-preview-output="appHost">HOST-01</span>
               </label>
               <label class="app-field">
                 User
-                <span data-demo-output="appUser">jsmith</span>
+                <span data-preview-output="appUser">jsmith</span>
               </label>
               <label class="app-field">
                 File/Process
-                <span data-demo-output="appProcess">powershell.exe</span>
+                <span data-preview-output="appProcess">powershell.exe</span>
               </label>
             </div>
           </div>
@@ -189,12 +189,12 @@
           <div class="form-preview-right">
             <label class="app-field raw-alert-field">
               Raw alert (paste JSON, text, or log excerpt)
-              <span data-demo-output="appRawAlert">AlertName=Suspicious PowerShell; Host=HOST-01; User=jsmith; Process=powershell.exe; Status=Under investigation</span>
+              <span data-preview-output="appRawAlert">AlertName=Suspicious PowerShell; Host=HOST-01; User=jsmith; Process=powershell.exe; Status=Under investigation</span>
             </label>
             <button class="app-parse-button" type="button">Parse raw alert</button>
             <label class="app-field">
               Internal TI summary (optional)
-              <span data-demo-output="appTi">ATT&CK context and reputation notes appear here after enrichment.</span>
+              <span data-preview-output="appTi">ATT&CK context and reputation notes appear here after enrichment.</span>
             </label>
             <label class="app-field">
               External reputation summary (optional)
@@ -204,9 +204,9 @@
         </div>
       </section>
 
-      <section class="interactive-demo panel" id="interactive-demo">
+      <section class="interactive-preview panel" id="interactive-preview">
         <div class="interactive-copy">
-          <p class="eyebrow">CLICKABLE DEMO</p>
+          <p class="eyebrow">CLICKABLE PREVIEW</p>
           <h2>Generate a SOC case preview</h2>
           <p>
             Choose a scenario and let the interactive preview populate the intake,
@@ -216,10 +216,10 @@
           </p>
         </div>
 
-        <form class="demo-form" id="atcor-demo-form">
+        <form class="preview-form" id="atcor-preview-form">
           <label>
             Alert scenario
-            <select id="demo-scenario" name="scenario">
+            <select id="preview-scenario" name="scenario">
               <option value="powershell">Suspicious PowerShell</option>
               <option value="usb">USB execution</option>
               <option value="download">Internet download alert</option>
@@ -229,7 +229,7 @@
 
           <label>
             Investigation outcome
-            <select id="demo-outcome" name="outcome">
+            <select id="preview-outcome" name="outcome">
               <option value="confirmed">Confirmed suspicious</option>
               <option value="fp">False positive / expected activity</option>
               <option value="tuning">Tuning recommended</option>
@@ -238,7 +238,7 @@
 
           <label>
             Query platform
-            <select id="demo-platform" name="platform">
+            <select id="preview-platform" name="platform">
               <option value="sentinel">Microsoft Sentinel</option>
               <option value="splunk">Splunk</option>
               <option value="elastic">Elastic</option>
@@ -248,54 +248,54 @@
 
           <label>
             Customer profile
-            <select id="demo-profile" name="profile">
+            <select id="preview-profile" name="profile">
               <option value="mdr">MDR customer</option>
               <option value="enterprise">Enterprise SOC</option>
               <option value="pentest">PenTest approved scope</option>
             </select>
           </label>
 
-          <button class="button button-primary" type="submit">Generate demo</button>
+          <button class="button button-primary" type="submit">Generate preview</button>
         </form>
       </section>
 
-      <section class="section-heading demo-heading" id="screens">
-        <p class="eyebrow">DEMO SCREENS</p>
+      <section class="section-heading preview-heading" id="screens">
+        <p class="eyebrow">WORKFLOW SCREENS</p>
         <h2>Relevant ATCOR workflow views</h2>
       </section>
 
-      <section class="demo-screen-grid">
-        <article class="demo-screen panel">
+      <section class="preview-screen-grid">
+        <article class="preview-screen panel">
           <div class="screen-bar">
             <span>Alert Intake</span>
             <small>STEP 01</small>
           </div>
           <div class="screen-body">
-            <div class="fake-input" data-demo-output="summary">Suspicious PowerShell execution detected on HOST-01</div>
+            <div class="fake-input" data-preview-output="summary">Suspicious PowerShell execution detected on HOST-01</div>
             <div class="metric-row">
               <span>Host</span>
-              <strong data-demo-output="host">HOST-01</strong>
+              <strong data-preview-output="host">HOST-01</strong>
             </div>
             <div class="metric-row">
               <span>User</span>
-              <strong data-demo-output="user">jsmith</strong>
+              <strong data-preview-output="user">jsmith</strong>
             </div>
             <div class="metric-row">
               <span>Process</span>
-              <strong data-demo-output="process">powershell.exe</strong>
+              <strong data-preview-output="process">powershell.exe</strong>
             </div>
           </div>
         </article>
 
-        <article class="demo-screen panel">
+        <article class="preview-screen panel">
           <div class="screen-bar">
             <span>Evidence Quality</span>
             <small>STEP 02</small>
           </div>
           <div class="quality-meter" aria-hidden="true">
-            <span style="--score: 82%" data-demo-output="qualityBar"></span>
+            <span style="--score: 82%" data-preview-output="qualityBar"></span>
           </div>
-          <ul class="check-list" data-demo-output="evidence">
+          <ul class="check-list" data-preview-output="evidence">
             <li>Timestamp present</li>
             <li>Host and user context captured</li>
             <li>Hash and reputation pending</li>
@@ -303,12 +303,12 @@
           </ul>
         </article>
 
-        <article class="demo-screen panel">
+        <article class="preview-screen panel">
           <div class="screen-bar">
             <span>Hunting Queries</span>
             <small>STEP 03</small>
           </div>
-          <pre class="query-block"><code data-demo-output="query">DeviceProcessEvents
+          <pre class="query-block"><code data-preview-output="query">DeviceProcessEvents
 | where DeviceName =~ "HOST-01"
 | where ProcessCommandLine has "powershell"</code></pre>
           <div class="chip-row" aria-label="Supported platforms">
@@ -319,12 +319,12 @@
           </div>
         </article>
 
-        <article class="demo-screen panel">
+        <article class="preview-screen panel">
           <div class="screen-bar">
             <span>Customer Writeup</span>
             <small>STEP 04</small>
           </div>
-          <div class="writeup-card" data-demo-output="writeup">
+          <div class="writeup-card" data-preview-output="writeup">
             <p>Hello,</p>
             <p>We observed suspicious PowerShell execution and reviewed the available endpoint evidence.</p>
             <p>Recommended next steps: validate user activity, review command-line context, and confirm whether the execution was expected.</p>
@@ -337,7 +337,7 @@
         </article>
       </section>
 
-      <section class="demo-overview panel" id="access">
+      <section class="preview-overview panel" id="access">
         <div>
           <p class="eyebrow">ACCESS AND BUILD</p>
           <h2>Built for local analyst use</h2>
