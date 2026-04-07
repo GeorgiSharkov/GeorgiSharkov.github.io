@@ -118,88 +118,92 @@
       </section>
 
       <section class="app-preview panel" id="app-preview">
-        <div class="app-preview-head">
-          <div class="app-title-lockup">
-            <img src="brand-mark.svg" alt="" class="app-preview-logo">
+        <div class="app-preview-window">
+          <div class="app-preview-head">
+            <div class="app-title-lockup">
+              <span class="app-logo-frame">
+                <img src="brand-mark.svg" alt="" class="app-preview-logo">
+              </span>
+              <div>
+                <p class="eyebrow">REAL APP LOOK</p>
+                <h2>ATTCOR-CR - SOC Assistant</h2>
+                <p>Analyst-ready writeups, full ATT&CK/STIX lookups, platform hunting queries, and remediation guidance.</p>
+              </div>
+            </div>
+
+            <div class="utc-watch">
+              <span>UTC WATCH</span>
+              <strong>21:04:43</strong>
+              <small>Tue, 07 Apr 2026 21:04:43</small>
+            </div>
+          </div>
+
+          <div class="utc-row app-card">
             <div>
-              <p class="eyebrow">REAL APP LOOK</p>
-              <h2>ATTCOR-CR - SOC Assistant</h2>
-              <p>Analyst-ready writeups, full ATT&CK/STIX lookups, platform hunting queries, and remediation guidance.</p>
+              <h3>UTC clock / time zone comparison</h3>
+              <label class="app-field">
+                Compare UTC against location
+                <span>United Kingdom / London</span>
+              </label>
+            </div>
+            <p>Use this to compare the alert time with the user's or host's local location.</p>
+            <div>
+              <small>Current time</small>
+              <p><strong>UTC:</strong> <code>2026-04-07 21:04:32</code></p>
+              <p><strong>Europe/London:</strong> <code>2026-04-07 22:04:32 BST</code></p>
             </div>
           </div>
 
-          <div class="utc-watch">
-            <span>UTC WATCH</span>
-            <strong>21:04:43</strong>
-            <small>Tue, 07 Apr 2026 21:04:43</small>
-          </div>
-        </div>
-
-        <div class="utc-row">
-          <div>
-            <h3>UTC clock / time zone comparison</h3>
-            <label class="app-field">
-              Compare UTC against location
-              <span>United Kingdom / London</span>
-            </label>
-          </div>
-          <p>Use this to compare the alert time with the user's or host's local location.</p>
-          <div>
-            <small>Current time</small>
-            <p><strong>UTC:</strong> <code>2026-04-07 21:04:32</code></p>
-            <p><strong>Europe/London:</strong> <code>2026-04-07 22:04:32 BST</code></p>
-          </div>
-        </div>
-
-        <div class="app-form-preview">
-          <div class="form-preview-left">
-            <h3>1. Intake</h3>
-            <p>Paste the alert, choose a case template if useful, and confirm the core fields before generating output.</p>
-            <label class="app-field">
-              Alert type template
-              <span data-preview-output="appTemplate">Downloaded from the internet</span>
-            </label>
-            <small>Applied template: None</small>
-
-            <h3>2. Parse and enrich</h3>
-            <label class="app-field">
-              Title / detection description
-              <span data-preview-output="appTitle">Suspicious PowerShell execution detected on HOST-01</span>
-            </label>
-            <label class="app-field">
-              Mitigation status
-              <span>Under investigation</span>
-            </label>
-            <div class="mini-field-grid">
+          <div class="app-form-preview">
+            <div class="form-preview-left app-card">
+              <h3>1. Intake</h3>
+              <p>Paste the alert, choose a case template if useful, and confirm the core fields before generating output.</p>
               <label class="app-field">
-                Host
-                <span data-preview-output="appHost">HOST-01</span>
+                Alert type template
+                <span data-preview-output="appTemplate">Downloaded from the internet</span>
+              </label>
+              <small>Applied template: None</small>
+
+              <h3>2. Parse and enrich</h3>
+              <label class="app-field">
+                Title / detection description
+                <span data-preview-output="appTitle">Suspicious PowerShell execution detected on HOST-01</span>
               </label>
               <label class="app-field">
-                User
-                <span data-preview-output="appUser">jsmith</span>
+                Mitigation status
+                <span>Under investigation</span>
+              </label>
+              <div class="mini-field-grid">
+                <label class="app-field">
+                  Host
+                  <span data-preview-output="appHost">HOST-01</span>
+                </label>
+                <label class="app-field">
+                  User
+                  <span data-preview-output="appUser">jsmith</span>
+                </label>
+                <label class="app-field">
+                  File/Process
+                  <span data-preview-output="appProcess">powershell.exe</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-preview-right app-card">
+              <label class="app-field raw-alert-field">
+                Raw alert (paste JSON, text, or log excerpt)
+                <span data-preview-output="appRawAlert">AlertName=Suspicious PowerShell; Host=HOST-01; User=jsmith; Process=powershell.exe; Status=Under investigation</span>
+              </label>
+              <button class="app-parse-button" type="button">Parse raw alert</button>
+              <label class="app-field">
+                Internal TI summary (optional)
+                <span data-preview-output="appTi">ATT&CK context and reputation notes appear here after enrichment.</span>
               </label>
               <label class="app-field">
-                File/Process
-                <span data-preview-output="appProcess">powershell.exe</span>
+                External reputation summary (optional)
+                <span>Awaiting analyst validation before customer handoff.</span>
               </label>
             </div>
-          </div>
-
-          <div class="form-preview-right">
-            <label class="app-field raw-alert-field">
-              Raw alert (paste JSON, text, or log excerpt)
-              <span data-preview-output="appRawAlert">AlertName=Suspicious PowerShell; Host=HOST-01; User=jsmith; Process=powershell.exe; Status=Under investigation</span>
-            </label>
-            <button class="app-parse-button" type="button">Parse raw alert</button>
-            <label class="app-field">
-              Internal TI summary (optional)
-              <span data-preview-output="appTi">ATT&CK context and reputation notes appear here after enrichment.</span>
-            </label>
-            <label class="app-field">
-              External reputation summary (optional)
-              <span>Awaiting analyst validation before customer handoff.</span>
-            </label>
           </div>
         </div>
       </section>
