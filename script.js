@@ -181,6 +181,13 @@ if (demoForm) {
     evidence: document.querySelector('[data-demo-output="evidence"]'),
     query: document.querySelector('[data-demo-output="query"]'),
     writeup: document.querySelector('[data-demo-output="writeup"]'),
+    appTemplate: document.querySelector('[data-demo-output="appTemplate"]'),
+    appTitle: document.querySelector('[data-demo-output="appTitle"]'),
+    appHost: document.querySelector('[data-demo-output="appHost"]'),
+    appUser: document.querySelector('[data-demo-output="appUser"]'),
+    appProcess: document.querySelector('[data-demo-output="appProcess"]'),
+    appRawAlert: document.querySelector('[data-demo-output="appRawAlert"]'),
+    appTi: document.querySelector('[data-demo-output="appTi"]'),
     terminalIoc: document.querySelector('[data-demo-terminal="ioc"]'),
     terminalTriage: document.querySelector('[data-demo-terminal="triage"]'),
     terminalOutput: document.querySelector('[data-demo-terminal="output"]'),
@@ -193,6 +200,7 @@ if (demoForm) {
       user: "jsmith",
       process: "powershell.exe",
       technique: "T1059.001 PowerShell",
+      template: "Suspicious PowerShell",
       evidence: ["Timestamp present", "Host and user context captured", "Command-line review required", "Hash and sandbox context recommended"],
     },
     usb: {
@@ -201,6 +209,7 @@ if (demoForm) {
       user: "mroberts",
       process: "invoice_viewer.exe",
       technique: "T1091 Replication Through Removable Media",
+      template: "USB execution",
       evidence: ["USB insertion event present", "Executable path captured", "User confirmation required", "Remediation playbook suggested"],
     },
     download: {
@@ -209,6 +218,7 @@ if (demoForm) {
       user: "akhan",
       process: "setup_update.exe",
       technique: "T1204.002 Malicious File",
+      template: "Downloaded from the internet",
       evidence: ["Download path captured", "Browser source noted", "Reputation check pending", "Containment recommendation generated"],
     },
     pup: {
@@ -217,6 +227,7 @@ if (demoForm) {
       user: "lchen",
       process: "bundle_installer.exe",
       technique: "PUP / Adware triage",
+      template: "Potentially unwanted program",
       evidence: ["Detection name captured", "Install path present", "Business impact appears low", "Cleanup guidance generated"],
     },
   };
@@ -249,7 +260,7 @@ if (demoForm) {
 
   const buildWriteup = (caseData, outcome, profile) => `
     <p>Hello,</p>
-    <p>We reviewed a dummy demo alert for <strong>${caseData.summary}</strong>. The key observed entity is <strong>${caseData.process}</strong> on <strong>${caseData.host}</strong> for user <strong>${caseData.user}</strong>.</p>
+    <p>We reviewed an alert for <strong>${caseData.summary}</strong>. The key observed entity is <strong>${caseData.process}</strong> on <strong>${caseData.host}</strong> for user <strong>${caseData.user}</strong>.</p>
     <p>${outcomeText[outcome]} ${profileTone[profile]}</p>
     <p>Recommended next steps: confirm user intent, review nearby endpoint telemetry, collect any missing hash or reputation context, and document the final customer response.</p>
   `;
@@ -270,6 +281,13 @@ if (demoForm) {
     demoOutputs.evidence.innerHTML = caseData.evidence.map((item) => `<li>${item}</li>`).join("");
     demoOutputs.query.textContent = platformQueries[platform](caseData);
     demoOutputs.writeup.innerHTML = buildWriteup(caseData, outcome, profile);
+    demoOutputs.appTemplate.textContent = caseData.template;
+    demoOutputs.appTitle.textContent = caseData.summary;
+    demoOutputs.appHost.textContent = caseData.host;
+    demoOutputs.appUser.textContent = caseData.user;
+    demoOutputs.appProcess.textContent = caseData.process;
+    demoOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}`;
+    demoOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes for enrichment and customer-safe wording.`;
     demoOutputs.terminalIoc.textContent = `[ioc] host=${caseData.host} user=${caseData.user} process=${caseData.process}`;
     demoOutputs.terminalTriage.textContent = `[triage] ${caseData.technique} context loaded for analyst review`;
     demoOutputs.terminalOutput.textContent = `[output] ${platform}-queries.md writeup.md evidence-check.txt ready`;

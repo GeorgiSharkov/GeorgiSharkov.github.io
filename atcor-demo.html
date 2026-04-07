@@ -39,6 +39,7 @@
       <nav class="topnav" aria-label="Demo navigation">
         <a href="index.html">Home</a>
         <a href="#interactive-demo">Try Demo</a>
+        <a href="#app-preview">App Preview</a>
         <a href="#workflow">Workflow</a>
         <a href="#screens">Screens</a>
         <a href="#access">Access</a>
@@ -116,14 +117,102 @@
         </div>
       </section>
 
+      <section class="app-preview panel" id="app-preview">
+        <div class="app-preview-head">
+          <div class="app-title-lockup">
+            <img src="brand-mark.svg" alt="" class="app-preview-logo">
+            <div>
+              <p class="eyebrow">REAL APP LOOK</p>
+              <h2>ATTCOR-CR - SOC Assistant</h2>
+              <p>Analyst-ready writeups, full ATT&CK/STIX lookups, platform hunting queries, and remediation guidance.</p>
+            </div>
+          </div>
+
+          <div class="utc-watch">
+            <span>UTC WATCH</span>
+            <strong>21:04:43</strong>
+            <small>Tue, 07 Apr 2026 21:04:43</small>
+          </div>
+        </div>
+
+        <div class="utc-row">
+          <div>
+            <h3>UTC clock / time zone comparison</h3>
+            <label class="app-field">
+              Compare UTC against location
+              <span>United Kingdom / London</span>
+            </label>
+          </div>
+          <p>Use this to compare the alert time with the user's or host's local location.</p>
+          <div>
+            <small>Current time</small>
+            <p><strong>UTC:</strong> <code>2026-04-07 21:04:32</code></p>
+            <p><strong>Europe/London:</strong> <code>2026-04-07 22:04:32 BST</code></p>
+          </div>
+        </div>
+
+        <div class="app-form-preview">
+          <div class="form-preview-left">
+            <h3>1. Intake</h3>
+            <p>Paste the alert, choose a case template if useful, and confirm the core fields before generating output.</p>
+            <label class="app-field">
+              Alert type template
+              <span data-demo-output="appTemplate">Downloaded from the internet</span>
+            </label>
+            <small>Applied template: None</small>
+
+            <h3>2. Parse and enrich</h3>
+            <label class="app-field">
+              Title / detection description
+              <span data-demo-output="appTitle">Suspicious PowerShell execution detected on HOST-01</span>
+            </label>
+            <label class="app-field">
+              Mitigation status
+              <span>Under investigation</span>
+            </label>
+            <div class="mini-field-grid">
+              <label class="app-field">
+                Host
+                <span data-demo-output="appHost">HOST-01</span>
+              </label>
+              <label class="app-field">
+                User
+                <span data-demo-output="appUser">jsmith</span>
+              </label>
+              <label class="app-field">
+                File/Process
+                <span data-demo-output="appProcess">powershell.exe</span>
+              </label>
+            </div>
+          </div>
+
+          <div class="form-preview-right">
+            <label class="app-field raw-alert-field">
+              Raw alert (paste JSON, text, or log excerpt)
+              <span data-demo-output="appRawAlert">AlertName=Suspicious PowerShell; Host=HOST-01; User=jsmith; Process=powershell.exe; Status=Under investigation</span>
+            </label>
+            <button class="app-parse-button" type="button">Parse raw alert</button>
+            <label class="app-field">
+              Internal TI summary (optional)
+              <span data-demo-output="appTi">ATT&CK context and reputation notes appear here after enrichment.</span>
+            </label>
+            <label class="app-field">
+              External reputation summary (optional)
+              <span>Awaiting analyst validation before customer handoff.</span>
+            </label>
+          </div>
+        </div>
+      </section>
+
       <section class="interactive-demo panel" id="interactive-demo">
         <div class="interactive-copy">
           <p class="eyebrow">CLICKABLE DEMO</p>
-          <h2>Generate a dummy SOC case</h2>
+          <h2>Generate a SOC case preview</h2>
           <p>
-            Choose a scenario and let the mock demo populate the intake, triage,
-            query, evidence, and customer writeup panels. This is a safe website
-            preview of the workflow, not the full private ATTCOR-CR app engine.
+            Choose a scenario and let the interactive preview populate the intake,
+            triage, query, evidence, and customer writeup panels. This is a safe
+            website preview of the workflow, not the full private ATTCOR-CR app
+            engine.
           </p>
         </div>
 
