@@ -562,6 +562,26 @@ h2 {
   gap: 16px;
 }
 
+.case-grid,
+.skill-cluster {
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.skill-cluster {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.capability-grid {
+  position: relative;
+  z-index: 1;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 20px;
+}
+
 .support-grid {
   display: grid;
   gap: 16px;
@@ -1247,6 +1267,8 @@ h2 {
   .signal,
   .profile,
   .card-grid,
+  .skill-cluster,
+  .capability-grid,
   .preview-hero,
   .preview-overview,
   .interactive-preview,
