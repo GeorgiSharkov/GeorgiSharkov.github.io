@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber News Nexus | CyberShark</title>
+  <meta
+    name="description"
+    content="CyberShark's one-page cyber news nexus with breaking security news, official advisories, DFIR sources, and threat intelligence blogs."
+  >
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview-body">
+  <div class="page-shell preview-shell">
+    <div class="edge-network" aria-hidden="true">
+      <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <div class="edge-network-nodes"></div>
+    </div>
+    <div class="grid-noise" aria-hidden="true"></div>
+    <div class="aurora aurora-left" aria-hidden="true"></div>
+    <div class="aurora aurora-right" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html#hero">
+        <img class="brand-mark" src="brand-mark.svg" alt="">
+        <span class="brand-copy">
+          <strong>CYBERSHARK</strong>
+          <span>News Nexus</span>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="Cyber news navigation">
+        <a href="index.html">Home</a>
+        <a href="#breaking">Breaking</a>
+        <a href="#official">Official</a>
+        <a href="#dfir">DFIR</a>
+        <a href="#intel">Intel</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="preview-hero panel">
+        <div>
+          <p class="eyebrow">CYBER NEWS / THREAT INTEL / DFIR SIGNAL</p>
+          <h1 class="preview-title">
+            News Nexus
+            <span>one place to track cyber signal</span>
+          </h1>
+          <p class="lede">
+            A single page for the security sources worth checking daily: breaking
+            cyber news, official advisories, DFIR-focused reporting, and vendor
+            threat intelligence feeds that matter to SOC work.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="#breaking">Start scanning</a>
+            <a class="button button-ghost" href="index.html#soc-experience">Back to profile</a>
+          </div>
+        </div>
+
+        <div class="preview-command" aria-label="Cyber news workflow preview">
+          <div class="command-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p class="terminal-line">$ open news-nexus --sources security</p>
+          <p class="terminal-line is-cyan">[feed] breaking news, vulnerabilities, advisories, breaches</p>
+          <p class="terminal-line is-pink">[watch] official alerts, DFIR reporting, threat intelligence</p>
+          <p class="terminal-line is-green">[follow] one page, multiple signal sources, less context switching</p>
+        </div>
+      </section>
+
+      <section class="section-heading" id="breaking">
+        <p class="eyebrow">BREAKING NEWS</p>
+        <h2>Fast-moving cyber and vulnerability reporting</h2>
+      </section>
+
+      <section class="card-grid case-grid">
+        <article class="info-card">
+          <span class="card-tag">01 / NEWS</span>
+          <h3>BleepingComputer</h3>
+          <p>
+            Strong daily coverage for breaches, ransomware activity, patching,
+            Windows ecosystem issues, and operational security news that lands
+            quickly.
+          </p>
+          <a href="https://www.bleepingcomputer.com/news/security/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+        <article class="info-card">
+          <span class="card-tag">02 / NEWS</span>
+          <h3>SecurityWeek</h3>
+          <p>
+            Broad cybersecurity reporting with good enterprise coverage across
+            incidents, vendors, policy, vulnerabilities, and security operations.
+          </p>
+          <a href="https://www.securityweek.com/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+        <article class="info-card">
+          <span class="card-tag">03 / NEWS</span>
+          <h3>The Hacker News</h3>
+          <p>
+            Fast-paced coverage of attacks, exploited vulnerabilities, malware,
+            campaigns, and general practitioner-facing cyber news.
+          </p>
+          <a href="https://thehackernews.com/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+      </section>
+
+      <section class="section-heading" id="official">
+        <p class="eyebrow">OFFICIAL SOURCES</p>
+        <h2>Advisories, alerts, and defensive guidance</h2>
+      </section>
+
+      <section class="skill-cluster">
+        <article class="support-card">
+          <h3>CISA Alerts</h3>
+          <p>
+            Best place to monitor U.S. government cyber alerts, known exploited
+            vulnerabilities, and practical defensive guidance with operational
+            relevance.
+          </p>
+          <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">Open CISA advisories</a>
+        </article>
+        <article class="support-card">
+          <h3>Microsoft Security Response Center</h3>
+          <p>
+            Essential for Microsoft vulnerability, patching, and ecosystem
+            guidance when working in Defender, Sentinel, and Windows-heavy
+            environments.
+          </p>
+          <a href="https://msrc.microsoft.com/blog/" target="_blank" rel="noreferrer">Open MSRC blog</a>
+        </article>
+      </section>
+
+      <section class="section-heading" id="dfir">
+        <p class="eyebrow">DFIR AND INVESTIGATION</p>
+        <h2>Sources with strong forensic and incident response value</h2>
+      </section>
+
+      <section class="publication-list">
+        <article class="publication-item">
+          <h3>Krebs on Security</h3>
+          <p>
+            High-value investigative reporting with strong context around fraud,
+            breaches, criminal ecosystems, and the human side of security
+            failures.
+          </p>
+          <a href="https://krebsonsecurity.com/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+        <article class="publication-item">
+          <h3>SANS Internet Storm Center</h3>
+          <p>
+            Useful for practical incident notes, diary-style observations,
+            emerging attack trends, and DFIR-adjacent signal from working
+            defenders.
+          </p>
+          <a href="https://isc.sans.edu/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+      </section>
+
+      <section class="section-heading" id="intel">
+        <p class="eyebrow">THREAT INTELLIGENCE</p>
+        <h2>Vendor reporting worth following</h2>
+      </section>
+
+      <section class="support-grid capability-grid">
+        <article class="support-card">
+          <h3>Mandiant Blog</h3>
+          <p>
+            Reliable for intrusion analysis, attacker tradecraft, incident trends,
+            and research that helps shape SOC detection and escalation thinking.
+          </p>
+          <a href="https://cloud.google.com/blog/topics/threat-intelligence" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+        <article class="support-card">
+          <h3>CrowdStrike Blog</h3>
+          <p>
+            Strong source for adversary reporting, hunting concepts, threat intel,
+            and operational security trends that map well to endpoint defence.
+          </p>
+          <a href="https://www.crowdstrike.com/en-us/blog/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+        <article class="support-card">
+          <h3>Microsoft Security Blog</h3>
+          <p>
+            Useful for Microsoft ecosystem threat research, incident write-ups,
+            and defender-focused security intelligence from a major enterprise
+            platform vendor.
+          </p>
+          <a href="https://www.microsoft.com/en-us/security/blog/" target="_blank" rel="noreferrer">Open source</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer panel" id="contact">
+      <div>
+        <p class="eyebrow">SIGNAL ROUTER</p>
+        <h2>Keep the feed tight.</h2>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Back to CyberShark</a>
+        <a href="https://github.com/GeorgiSharkov" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="mailto:gnssngmail@gmail.com">Email</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

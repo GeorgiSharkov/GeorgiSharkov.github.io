@@ -26,8 +26,8 @@ const networkNodesRoot = document.querySelector(".edge-network-nodes");
 
 if (networkRoot && networkSvg && networkNodesRoot) {
   const isCompactViewport = window.matchMedia("(max-width: 720px)").matches;
-  const pullRadius = isCompactViewport ? 150 : 220;
-  const lineRadius = isCompactViewport ? 140 : 210;
+  const pullRadius = isCompactViewport ? 170 : 250;
+  const lineRadius = isCompactViewport ? 145 : 205;
   const nodeCount = isCompactViewport ? 20 : 34;
   const cursor = {
     x: window.innerWidth / 2,
@@ -44,9 +44,9 @@ if (networkRoot && networkSvg && networkNodesRoot) {
       node,
       x: Math.random() * window.innerWidth,
       y: Math.random() * window.innerHeight,
-      vx: (Math.random() - 0.5) * 0.45,
-      vy: (Math.random() - 0.5) * 0.45,
-      drift: 0.18 + Math.random() * 0.35,
+      vx: (Math.random() - 0.5) * 0.18,
+      vy: (Math.random() - 0.5) * 0.18,
+      drift: 0.08 + Math.random() * 0.16,
       seed: Math.random() * Math.PI * 2,
     };
   });
@@ -74,8 +74,8 @@ if (networkRoot && networkSvg && networkNodesRoot) {
     const time = performance.now() * 0.0012;
 
     nodes.forEach((nodeData, index) => {
-      const driftX = Math.cos(time * nodeData.drift + nodeData.seed) * 0.05;
-      const driftY = Math.sin(time * nodeData.drift + nodeData.seed * 1.2) * 0.05;
+      const driftX = Math.cos(time * nodeData.drift + nodeData.seed) * 0.016;
+      const driftY = Math.sin(time * nodeData.drift + nodeData.seed * 1.2) * 0.016;
 
       nodeData.vx += driftX;
       nodeData.vy += driftY;
@@ -86,14 +86,26 @@ if (networkRoot && networkSvg && networkNodesRoot) {
         const distance = Math.hypot(dx, dy);
 
         if (distance < pullRadius) {
-          const force = (1 - distance / pullRadius) * 0.045;
-          nodeData.vx += dx * force * 0.01;
-          nodeData.vy += dy * force * 0.01;
+          const force = 1 - distance / pullRadius;
+          const orbitRadius = 24 + (index % 6) * 8;
+          const orbitAngle = time * (0.5 + index * 0.01) + nodeData.seed;
+          const targetX = cursor.x + Math.cos(orbitAngle) * orbitRadius;
+          const targetY = cursor.y + Math.sin(orbitAngle) * orbitRadius;
+          const tx = targetX - nodeData.x;
+          const ty = targetY - nodeData.y;
+
+          nodeData.vx += tx * force * 0.0055;
+          nodeData.vy += ty * force * 0.0055;
+
+          if (distance < lineRadius * 0.75) {
+            nodeData.vx += dx * force * 0.0009;
+            nodeData.vy += dy * force * 0.0009;
+          }
         }
       }
 
-      nodeData.vx *= 0.985;
-      nodeData.vy *= 0.985;
+      nodeData.vx *= 0.992;
+      nodeData.vy *= 0.992;
       nodeData.x += nodeData.vx;
       nodeData.y += nodeData.vy;
 
@@ -110,7 +122,7 @@ if (networkRoot && networkSvg && networkNodesRoot) {
       }
 
       nodeData.node.style.transform = `translate(${nodeData.x}px, ${nodeData.y}px)`;
-      nodeData.node.style.opacity = `${0.45 + ((Math.sin(time + index) + 1) * 0.18)}`;
+      nodeData.node.style.opacity = `${0.42 + ((Math.sin(time + index) + 1) * 0.16)}`;
     });
 
     let lineIndex = 0;
