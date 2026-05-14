@@ -25,9 +25,10 @@ const networkSvg = document.querySelector(".edge-network-lines");
 const networkNodesRoot = document.querySelector(".edge-network-nodes");
 
 if (networkRoot && networkSvg && networkNodesRoot) {
-  const edgePadding = 110;
-  const pullRadius = 180;
-  const nodeCount = 22;
+  const isCompactViewport = window.matchMedia("(max-width: 720px)").matches;
+  const pullRadius = isCompactViewport ? 150 : 220;
+  const lineRadius = isCompactViewport ? 140 : 210;
+  const nodeCount = isCompactViewport ? 20 : 34;
   const cursor = {
     x: window.innerWidth / 2,
     y: window.innerHeight / 2,
@@ -39,49 +40,19 @@ if (networkRoot && networkSvg && networkNodesRoot) {
     node.className = `edge-network-node${index % 6 === 0 ? " is-alert" : ""}`;
     networkNodesRoot.append(node);
 
-    const side = index % 4;
-    const progress = (index + 1) / (nodeCount + 1);
-    let baseX = 0;
-    let baseY = 0;
-
-    if (side === 0) {
-      baseX = edgePadding;
-      baseY = progress * window.innerHeight;
-    } else if (side === 1) {
-      baseX = window.innerWidth - edgePadding;
-      baseY = progress * window.innerHeight;
-    } else if (side === 2) {
-      baseX = progress * window.innerWidth;
-      baseY = edgePadding;
-    } else {
-      baseX = progress * window.innerWidth;
-      baseY = window.innerHeight - edgePadding;
-    }
-
     return {
       node,
-      baseX,
-      baseY,
-      x: baseX,
-      y: baseY,
-      offsetX: 0,
-      offsetY: 0,
-      side,
+      x: Math.random() * window.innerWidth,
+      y: Math.random() * window.innerHeight,
+      vx: (Math.random() - 0.5) * 0.45,
+      vy: (Math.random() - 0.5) * 0.45,
+      drift: 0.18 + Math.random() * 0.35,
+      seed: Math.random() * Math.PI * 2,
     };
   });
 
-  const linePairs = [];
-
-  nodes.forEach((_, index) => {
-    const nextIndex = (index + 1) % nodes.length;
-    linePairs.push([index, nextIndex]);
-
-    if (index + 2 < nodes.length) {
-      linePairs.push([index, index + 2]);
-    }
-  });
-
-  linePairs.forEach((pair, index) => {
+  const maxLineCount = nodeCount * 3;
+  const lines = Array.from({ length: maxLineCount }, (_, index) => {
     const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
 
     if (index % 5 === 0) {
@@ -89,64 +60,88 @@ if (networkRoot && networkSvg && networkNodesRoot) {
     }
 
     networkSvg.append(line);
-    pair.push(line);
+    return line;
   });
 
-  const setBases = () => {
-    nodes.forEach((nodeData, index) => {
-      const progress = (index + 1) / (nodeCount + 1);
-
-      if (nodeData.side === 0) {
-        nodeData.baseX = edgePadding;
-        nodeData.baseY = progress * window.innerHeight;
-      } else if (nodeData.side === 1) {
-        nodeData.baseX = window.innerWidth - edgePadding;
-        nodeData.baseY = progress * window.innerHeight;
-      } else if (nodeData.side === 2) {
-        nodeData.baseX = progress * window.innerWidth;
-        nodeData.baseY = edgePadding;
-      } else {
-        nodeData.baseX = progress * window.innerWidth;
-        nodeData.baseY = window.innerHeight - edgePadding;
-      }
+  const resetNodePositions = () => {
+    nodes.forEach((nodeData) => {
+      nodeData.x = Math.random() * window.innerWidth;
+      nodeData.y = Math.random() * window.innerHeight;
     });
   };
 
   const updateNetwork = () => {
-    nodes.forEach((nodeData) => {
-      const dx = cursor.x - nodeData.baseX;
-      const dy = cursor.y - nodeData.baseY;
-      const distance = Math.hypot(dx, dy);
-      const withinEdgeZone =
-        cursor.x < edgePadding * 1.7 ||
-        cursor.x > window.innerWidth - edgePadding * 1.7 ||
-        cursor.y < edgePadding * 1.7 ||
-        cursor.y > window.innerHeight - edgePadding * 1.7;
+    const time = performance.now() * 0.0012;
 
-      let targetOffsetX = 0;
-      let targetOffsetY = 0;
+    nodes.forEach((nodeData, index) => {
+      const driftX = Math.cos(time * nodeData.drift + nodeData.seed) * 0.05;
+      const driftY = Math.sin(time * nodeData.drift + nodeData.seed * 1.2) * 0.05;
 
-      if (cursor.active && withinEdgeZone && distance < pullRadius) {
-        const force = (1 - distance / pullRadius) * 28;
-        targetOffsetX = dx * 0.12 * force / 10;
-        targetOffsetY = dy * 0.12 * force / 10;
+      nodeData.vx += driftX;
+      nodeData.vy += driftY;
+
+      if (cursor.active) {
+        const dx = cursor.x - nodeData.x;
+        const dy = cursor.y - nodeData.y;
+        const distance = Math.hypot(dx, dy);
+
+        if (distance < pullRadius) {
+          const force = (1 - distance / pullRadius) * 0.045;
+          nodeData.vx += dx * force * 0.01;
+          nodeData.vy += dy * force * 0.01;
+        }
       }
 
-      nodeData.offsetX += (targetOffsetX - nodeData.offsetX) * 0.12;
-      nodeData.offsetY += (targetOffsetY - nodeData.offsetY) * 0.12;
-      nodeData.x = nodeData.baseX + nodeData.offsetX;
-      nodeData.y = nodeData.baseY + nodeData.offsetY;
+      nodeData.vx *= 0.985;
+      nodeData.vy *= 0.985;
+      nodeData.x += nodeData.vx;
+      nodeData.y += nodeData.vy;
+
+      if (nodeData.x < -30) {
+        nodeData.x = window.innerWidth + 30;
+      } else if (nodeData.x > window.innerWidth + 30) {
+        nodeData.x = -30;
+      }
+
+      if (nodeData.y < -30) {
+        nodeData.y = window.innerHeight + 30;
+      } else if (nodeData.y > window.innerHeight + 30) {
+        nodeData.y = -30;
+      }
+
       nodeData.node.style.transform = `translate(${nodeData.x}px, ${nodeData.y}px)`;
+      nodeData.node.style.opacity = `${0.45 + ((Math.sin(time + index) + 1) * 0.18)}`;
     });
 
-    linePairs.forEach(([fromIndex, toIndex, line]) => {
-      const fromNode = nodes[fromIndex];
-      const toNode = nodes[toIndex];
-      line.setAttribute("x1", `${(fromNode.x / window.innerWidth) * 100}`);
-      line.setAttribute("y1", `${(fromNode.y / window.innerHeight) * 100}`);
-      line.setAttribute("x2", `${(toNode.x / window.innerWidth) * 100}`);
-      line.setAttribute("y2", `${(toNode.y / window.innerHeight) * 100}`);
-    });
+    let lineIndex = 0;
+
+    for (let index = 0; index < nodes.length; index += 1) {
+      const fromNode = nodes[index];
+
+      for (let nextIndex = index + 1; nextIndex < nodes.length; nextIndex += 1) {
+        const toNode = nodes[nextIndex];
+        const dx = toNode.x - fromNode.x;
+        const dy = toNode.y - fromNode.y;
+        const distance = Math.hypot(dx, dy);
+
+        if (distance <= lineRadius && lineIndex < lines.length) {
+          const line = lines[lineIndex];
+          const opacity = 1 - distance / lineRadius;
+
+          line.setAttribute("x1", `${(fromNode.x / window.innerWidth) * 100}`);
+          line.setAttribute("y1", `${(fromNode.y / window.innerHeight) * 100}`);
+          line.setAttribute("x2", `${(toNode.x / window.innerWidth) * 100}`);
+          line.setAttribute("y2", `${(toNode.y / window.innerHeight) * 100}`);
+          line.style.opacity = `${opacity * 0.8}`;
+          lineIndex += 1;
+        }
+      }
+    }
+
+    while (lineIndex < lines.length) {
+      lines[lineIndex].style.opacity = "0";
+      lineIndex += 1;
+    }
 
     window.requestAnimationFrame(updateNetwork);
   };
@@ -162,10 +157,10 @@ if (networkRoot && networkSvg && networkNodesRoot) {
   });
 
   window.addEventListener("resize", () => {
-    setBases();
+    resetNodePositions();
   });
 
-  setBases();
+  resetNodePositions();
   updateNetwork();
 }
 

@@ -63,27 +63,29 @@ a {
 }
 
 .edge-network-lines line {
-  stroke: rgba(88, 232, 255, 0.18);
-  stroke-width: 0.16;
+  stroke: rgba(88, 232, 255, 0.24);
+  stroke-width: 0.18;
+  opacity: 0;
 }
 
 .edge-network-lines line.alert-line {
-  stroke: rgba(255, 78, 167, 0.18);
+  stroke: rgba(255, 78, 167, 0.26);
 }
 
 .edge-network-node {
   position: absolute;
-  width: 8px;
-  height: 8px;
-  margin: -4px 0 0 -4px;
+  width: 9px;
+  height: 9px;
+  margin: -4.5px 0 0 -4.5px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(122, 248, 255, 0.95), rgba(18, 230, 255, 0.08) 72%);
-  box-shadow: 0 0 18px rgba(88, 232, 255, 0.35);
+  box-shadow: 0 0 24px rgba(88, 232, 255, 0.42);
+  will-change: transform, opacity;
 }
 
 .edge-network-node.is-alert {
   background: radial-gradient(circle, rgba(255, 108, 120, 0.95), rgba(255, 122, 0, 0.08) 72%);
-  box-shadow: 0 0 18px rgba(255, 92, 117, 0.35);
+  box-shadow: 0 0 22px rgba(255, 92, 117, 0.38);
 }
 
 .grid-noise {
