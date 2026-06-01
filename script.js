@@ -202,6 +202,11 @@ if (previewForm) {
     host: document.querySelector('[data-preview-output="host"]'),
     user: document.querySelector('[data-preview-output="user"]'),
     process: document.querySelector('[data-preview-output="process"]'),
+    confidence: document.querySelector('[data-preview-output="confidence"]'),
+    stance: document.querySelector('[data-preview-output="stance"]'),
+    nextActions: document.querySelector('[data-preview-output="nextActions"]'),
+    timezoneChip: document.querySelector('[data-preview-output="timezoneChip"]'),
+    severityChip: document.querySelector('[data-preview-output="severityChip"]'),
     qualityBar: document.querySelector('[data-preview-output="qualityBar"]'),
     evidence: document.querySelector('[data-preview-output="evidence"]'),
     query: document.querySelector('[data-preview-output="query"]'),
@@ -211,6 +216,13 @@ if (previewForm) {
     appHost: document.querySelector('[data-preview-output="appHost"]'),
     appUser: document.querySelector('[data-preview-output="appUser"]'),
     appProcess: document.querySelector('[data-preview-output="appProcess"]'),
+    appSeverity: document.querySelector('[data-preview-output="appSeverity"]'),
+    appConfidence: document.querySelector('[data-preview-output="appConfidence"]'),
+    appStance: document.querySelector('[data-preview-output="appStance"]'),
+    appTimezoneLabel: document.querySelector('[data-preview-output="appTimezoneLabel"]'),
+    appLocalTime: document.querySelector('[data-preview-output="appLocalTime"]'),
+    appTimezoneDelta: document.querySelector('[data-preview-output="appTimezoneDelta"]'),
+    appNextActions: document.querySelector('[data-preview-output="appNextActions"]'),
     appRawAlert: document.querySelector('[data-preview-output="appRawAlert"]'),
     appTi: document.querySelector('[data-preview-output="appTi"]'),
     terminalIoc: document.querySelector('[data-preview-terminal="ioc"]'),
@@ -227,6 +239,7 @@ if (previewForm) {
       technique: "T1059.001 PowerShell",
       template: "Suspicious PowerShell",
       evidence: ["Timestamp present", "Host and user context captured", "Command-line review required", "Hash and sandbox context recommended"],
+      nextActions: "Confirm whether the command was expected, inspect child-process and network activity, and prepare containment if the script chain extends beyond approved admin use.",
     },
     usb: {
       summary: "USB-launched executable observed on FIN-LAP-22",
@@ -236,6 +249,7 @@ if (previewForm) {
       technique: "T1091 Replication Through Removable Media",
       template: "USB execution",
       evidence: ["USB insertion event present", "Executable path captured", "User confirmation required", "Remediation playbook suggested"],
+      nextActions: "Validate business purpose for the device, review recent file execution from removable media, and preserve copied file paths before user cleanup removes evidence.",
     },
     download: {
       summary: "Browser download executed from user Downloads folder",
@@ -245,6 +259,7 @@ if (previewForm) {
       technique: "T1204.002 Malicious File",
       template: "Downloaded from the internet",
       evidence: ["Download path captured", "Browser source noted", "Reputation check pending", "Containment recommendation generated"],
+      nextActions: "Check file reputation, review browser history and parent process context, and isolate the host if execution chains or follow-on downloads suggest broader compromise.",
     },
     pup: {
       summary: "Potentially unwanted program detected on SALES-13",
@@ -254,6 +269,7 @@ if (previewForm) {
       technique: "PUP / Adware triage",
       template: "Potentially unwanted program",
       evidence: ["Detection name captured", "Install path present", "Business impact appears low", "Cleanup guidance generated"],
+      nextActions: "Validate whether the software was user-approved, review persistence or browser-extension changes, and use the case for tuning if the pattern is repeatedly benign.",
     },
   };
 
@@ -283,11 +299,62 @@ if (previewForm) {
 | table timestamp ComputerName UserName FileName CommandLine`,
   };
 
-  const buildWriteup = (caseData, outcome, profile) => `
+  const severityState = {
+    critical: {
+      label: "Critical",
+      score: "93%",
+      confidence: "High confidence",
+      stance: "Contain rapidly and escalate immediately.",
+    },
+    high: {
+      label: "High",
+      score: "86%",
+      confidence: "Moderate confidence",
+      stance: "Validate quickly and prepare containment.",
+    },
+    medium: {
+      label: "Medium",
+      score: "74%",
+      confidence: "Working confidence",
+      stance: "Investigate deeply before taking disruptive action.",
+    },
+    low: {
+      label: "Low",
+      score: "61%",
+      confidence: "Low confidence",
+      stance: "Monitor and document while checking for repeat patterns.",
+    },
+  };
+
+  const timezoneState = {
+    london: {
+      label: "Europe / London",
+      delta: "+1 hour local offset",
+      localTime: "2026-04-07 22:04:32 BST",
+    },
+    newyork: {
+      label: "US / New York",
+      delta: "-4 hours local offset",
+      localTime: "2026-04-07 17:04:32 EDT",
+    },
+    tokyo: {
+      label: "Asia / Tokyo",
+      delta: "+9 hours local offset",
+      localTime: "2026-04-08 06:04:32 JST",
+    },
+    sofia: {
+      label: "Europe / Sofia",
+      delta: "+3 hours local offset",
+      localTime: "2026-04-08 00:04:32 EEST",
+    },
+  };
+
+  const buildWriteup = (caseData, outcome, profile, severity, timezone) => `
     <p>Hello,</p>
     <p>We reviewed an alert for <strong>${caseData.summary}</strong>. The key observed entity is <strong>${caseData.process}</strong> on <strong>${caseData.host}</strong> for user <strong>${caseData.user}</strong>.</p>
     <p>${outcomeText[outcome]} ${profileTone[profile]}</p>
-    <p>Recommended next steps: confirm user intent, review nearby endpoint telemetry, collect any missing hash or reputation context, and document the final customer response.</p>
+    <p>The current severity stance is <strong>${severity.label}</strong>, and the alert time has been compared against <strong>${timezone.label}</strong> to help align the investigation context.</p>
+    <p>Recommended next steps: ${caseData.nextActions}</p>
   `;
 
   const getAttempts = () => Number(window.localStorage.getItem(attemptKey) || "0");
@@ -334,26 +401,42 @@ if (previewForm) {
     const outcome = formData.get("outcome");
     const platform = formData.get("platform");
     const profile = formData.get("profile");
+    const severity = formData.get("severity");
+    const timezone = formData.get("timezone");
     const caseData = cases[scenario];
+    const severityData = severityState[severity];
+    const timezoneData = timezoneState[timezone];
 
     previewOutputs.summary.textContent = caseData.summary;
     previewOutputs.host.textContent = caseData.host;
     previewOutputs.user.textContent = caseData.user;
     previewOutputs.process.textContent = caseData.process;
-    previewOutputs.qualityBar.style.setProperty("--score", outcome === "fp" ? "74%" : outcome === "tuning" ? "68%" : "86%");
+    previewOutputs.confidence.textContent = severityData.confidence;
+    previewOutputs.stance.textContent = severityData.stance;
+    previewOutputs.nextActions.textContent = caseData.nextActions;
+    previewOutputs.timezoneChip.textContent = timezoneData.label;
+    previewOutputs.severityChip.textContent = severityData.label;
+    previewOutputs.qualityBar.style.setProperty("--score", outcome === "fp" ? "74%" : outcome === "tuning" ? "68%" : severityData.score);
     previewOutputs.evidence.innerHTML = caseData.evidence.map((item) => `<li>${item}</li>`).join("");
     previewOutputs.query.textContent = platformQueries[platform](caseData);
-    previewOutputs.writeup.innerHTML = buildWriteup(caseData, outcome, profile);
+    previewOutputs.writeup.innerHTML = buildWriteup(caseData, outcome, profile, severityData, timezoneData);
     previewOutputs.appTemplate.textContent = caseData.template;
     previewOutputs.appTitle.textContent = caseData.summary;
     previewOutputs.appHost.textContent = caseData.host;
     previewOutputs.appUser.textContent = caseData.user;
     previewOutputs.appProcess.textContent = caseData.process;
-    previewOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}`;
-    previewOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes for enrichment and customer-safe wording.`;
+    previewOutputs.appSeverity.textContent = severityData.label;
+    previewOutputs.appConfidence.textContent = severityData.confidence;
+    previewOutputs.appStance.textContent = severityData.stance;
+    previewOutputs.appTimezoneLabel.textContent = `${timezoneData.label.replace(" / ", "/")}:`;
+    previewOutputs.appLocalTime.textContent = timezoneData.localTime;
+    previewOutputs.appTimezoneDelta.textContent = timezoneData.delta;
+    previewOutputs.appNextActions.textContent = caseData.nextActions;
+    previewOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}; Severity=${severityData.label}; Timezone=${timezoneData.label}`;
+    previewOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes, local time comparison for ${timezoneData.label}, and customer-safe wording guidance.`;
     previewOutputs.terminalIoc.textContent = `[ioc] host=${caseData.host} user=${caseData.user} process=${caseData.process}`;
-    previewOutputs.terminalTriage.textContent = `[triage] ${caseData.technique} context loaded for analyst review`;
-    previewOutputs.terminalOutput.textContent = `[output] ${platform}-queries.md writeup.md evidence-check.txt ready`;
+    previewOutputs.terminalTriage.textContent = `[triage] ${caseData.technique} context loaded with ${severityData.label.toLowerCase()} severity and ${timezoneData.label} local time`;
+    previewOutputs.terminalOutput.textContent = `[output] ${platform}-queries.md writeup.md next-actions.txt response-pack ready`;
 
     document.querySelectorAll(".preview-screen, .preview-command").forEach((panel) => {
       panel.classList.remove("is-preview-pulse");

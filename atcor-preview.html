@@ -47,6 +47,7 @@
       <nav class="topnav" aria-label="ATCOR preview navigation">
         <a href="index.html">Home</a>
         <a href="threat-pulse.html">Pulse</a>
+        <a href="#capabilities">Capabilities</a>
         <a href="#interactive-preview">Try Preview</a>
         <a href="#app-preview">App Preview</a>
         <a href="#workflow">Workflow</a>
@@ -66,8 +67,8 @@
           <p class="lede">
             ATCOR / ATTCOR-CR is a SOC analyst assistant designed to reduce
             repetitive alert handling and turn raw investigation context into
-            clearer customer updates, stronger hunting pivots, and consistent
-            analyst output.
+            clearer customer updates, stronger hunting pivots, timezone-aware
+            triage, response-ready guidance, and more consistent analyst output.
           </p>
           <div class="cta-row">
             <a class="button button-primary" href="#screens">View workflow screens</a>
@@ -85,8 +86,8 @@
           </div>
           <p class="terminal-line">$ atcor --intake suspicious-powershell</p>
           <p class="terminal-line is-cyan" data-preview-terminal="ioc">[ioc] host=HOST-01 user=jsmith process=powershell.exe</p>
-          <p class="terminal-line is-pink" data-preview-terminal="triage">[triage] ATT&CK context loaded for analyst review</p>
-          <p class="terminal-line is-green" data-preview-terminal="output">[output] writeup.md queries.md case-note.txt ready</p>
+          <p class="terminal-line is-pink" data-preview-terminal="triage">[triage] ATT&CK context, timezone delta, and severity stance loaded</p>
+          <p class="terminal-line is-green" data-preview-terminal="output">[output] writeup.md queries.md next-actions.txt response-pack ready</p>
         </div>
       </section>
 
@@ -97,8 +98,10 @@
           <p>
             The tool supports analysts through the high-friction parts of repeat
             alert handling: extracting indicators, shaping the investigation
-            narrative, generating query packs, checking evidence quality, and
-            exporting copy-ready outputs for tickets, portals, or email.
+            narrative, generating query packs, checking evidence quality,
+            comparing alert time to local timezone, producing remediation-ready
+            next steps, and exporting copy-ready outputs for tickets, portals,
+            or email.
           </p>
         </div>
 
@@ -111,7 +114,7 @@
           <article>
             <span>02</span>
             <h3>Enrich</h3>
-            <p>Review extracted IOCs, ATT&CK/STIX context, and triage hints.</p>
+            <p>Review extracted IOCs, ATT&CK/STIX context, timezone comparison, and triage hints.</p>
           </article>
           <article>
             <span>03</span>
@@ -120,8 +123,52 @@
           </article>
           <article>
             <span>04</span>
+            <h3>Advise</h3>
+            <p>Generate investigation stance, response-ready next actions, and confidence-aware analyst guidance.</p>
+          </article>
+          <article>
+            <span>05</span>
             <h3>Handoff</h3>
-            <p>Export customer-ready writeups, case notes, and query bundles in analyst-friendly formats.</p>
+            <p>Export customer-ready writeups, case notes, query bundles, and response packs in analyst-friendly formats.</p>
+          </article>
+          <article>
+            <span>06</span>
+            <h3>Review</h3>
+            <p>Keep evidence quality, missing context, and customer-safe language visible before final delivery.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="preview-overview panel" id="capabilities">
+        <div>
+          <p class="eyebrow">ENHANCED ASSISTANCE</p>
+          <h2>New assistance features now reflected in the preview</h2>
+          <p>
+            The preview now mirrors a more capable version of ATCOR: richer
+            triage stance, timezone-aware review, guided next actions, confidence
+            framing, and cleaner response packaging for analyst handoff.
+          </p>
+        </div>
+        <div class="workflow-lanes">
+          <article>
+            <span>A1</span>
+            <h3>Timezone assist</h3>
+            <p>Compares UTC alert times to the selected local region so investigations keep the right business context.</p>
+          </article>
+          <article>
+            <span>A2</span>
+            <h3>Investigation stance</h3>
+            <p>Surfaces a concise analyst position such as contain, validate, tune, or monitor based on the working outcome.</p>
+          </article>
+          <article>
+            <span>A3</span>
+            <h3>Response pack</h3>
+            <p>Builds a ready-to-send bundle with next actions, customer-safe wording, and tool-specific hunt pivots.</p>
+          </article>
+          <article>
+            <span>A4</span>
+            <h3>Confidence framing</h3>
+            <p>Shows evidence quality and confidence level together so the analyst can calibrate tone and urgency.</p>
           </article>
         </div>
       </section>
@@ -136,7 +183,7 @@
               <div>
                 <p class="eyebrow">REAL APP LOOK</p>
                 <h2>ATTCOR-CR - SOC Assistant</h2>
-                <p>Analyst-ready writeups, full ATT&CK/STIX lookups, platform hunting queries, and remediation guidance.</p>
+                <p>Analyst-ready writeups, timezone-aware triage, full ATT&CK/STIX lookups, platform hunting queries, and response guidance.</p>
               </div>
             </div>
 
@@ -159,7 +206,8 @@
             <div>
               <small>Current time</small>
               <p><strong>UTC:</strong> <code>2026-04-07 21:04:32</code></p>
-              <p><strong>Europe/London:</strong> <code>2026-04-07 22:04:32 BST</code></p>
+              <p><strong data-preview-output="appTimezoneLabel">Europe/London:</strong> <code data-preview-output="appLocalTime">2026-04-07 22:04:32 BST</code></p>
+              <p><strong>Alert delta:</strong> <code data-preview-output="appTimezoneDelta">+1 hour local offset</code></p>
             </div>
           </div>
 
@@ -182,6 +230,20 @@
                 Mitigation status
                 <span>Under investigation</span>
               </label>
+              <div class="mini-field-grid">
+                <label class="app-field">
+                  Severity
+                  <span data-preview-output="appSeverity">High</span>
+                </label>
+                <label class="app-field">
+                  Confidence
+                  <span data-preview-output="appConfidence">Moderate confidence</span>
+                </label>
+                <label class="app-field">
+                  Stance
+                  <span data-preview-output="appStance">Validate quickly and prepare containment</span>
+                </label>
+              </div>
               <div class="mini-field-grid">
                 <label class="app-field">
                   Host
@@ -207,6 +269,10 @@
               <label class="app-field">
                 Internal TI summary (optional)
                 <span data-preview-output="appTi">ATT&CK context and reputation notes appear here after enrichment.</span>
+              </label>
+              <label class="app-field">
+                Response-ready next actions
+                <span data-preview-output="appNextActions">Confirm user intent, collect child-process telemetry, and review any outbound connections from the host.</span>
               </label>
               <label class="app-field">
                 External reputation summary (optional)
@@ -268,6 +334,26 @@
             </select>
           </label>
 
+          <label>
+            Severity
+            <select id="preview-severity" name="severity">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="critical">Critical</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+
+          <label>
+            Local timezone view
+            <select id="preview-timezone" name="timezone">
+              <option value="london">Europe / London</option>
+              <option value="newyork">US / New York</option>
+              <option value="tokyo">Asia / Tokyo</option>
+              <option value="sofia">Europe / Sofia</option>
+            </select>
+          </label>
+
           <button class="button button-primary" type="submit">Generate preview</button>
           <p class="preview-limit-status" data-preview-limit-status>
             Visitor preview limit: 3 generated outputs available.
@@ -311,6 +397,10 @@
           <div class="quality-meter" aria-hidden="true">
             <span style="--score: 82%" data-preview-output="qualityBar"></span>
           </div>
+          <div class="metric-row">
+            <span>Confidence</span>
+            <strong data-preview-output="confidence">Moderate confidence</strong>
+          </div>
           <ul class="check-list" data-preview-output="evidence">
             <li>Timestamp present</li>
             <li>Host and user context captured</li>
@@ -337,8 +427,25 @@
 
         <article class="preview-screen panel">
           <div class="screen-bar">
-            <span>Customer Writeup</span>
+            <span>Investigation Stance</span>
             <small>STEP 04</small>
+          </div>
+          <div class="writeup-card">
+            <p><strong data-preview-output="stance">Validate quickly and prepare containment.</strong></p>
+            <p data-preview-output="nextActions">Confirm user intent, collect child-process telemetry, review outbound network activity, and preserve relevant endpoint evidence.</p>
+          </div>
+          <div class="chip-row" aria-label="Response package outputs">
+            <span data-preview-output="timezoneChip">Europe / London</span>
+            <span data-preview-output="severityChip">High</span>
+            <span>Next Actions</span>
+            <span>Containment Notes</span>
+          </div>
+        </article>
+
+        <article class="preview-screen panel">
+          <div class="screen-bar">
+            <span>Customer Writeup</span>
+            <small>STEP 05</small>
           </div>
           <div class="writeup-card" data-preview-output="writeup">
             <p>Hello,</p>
@@ -349,6 +456,7 @@
             <span>.docx</span>
             <span>.md</span>
             <span>.txt</span>
+            <span>next-actions.txt</span>
           </div>
         </article>
       </section>
@@ -366,7 +474,7 @@
         </div>
         <div class="access-card">
           <h3>Core capabilities</h3>
-          <p>Customer-ready writeups, multi-platform hunting query bundles, ATT&CK-assisted triage, IOC extraction, remediation playbooks, evidence-quality scoring, and exports for handoff.</p>
+          <p>Customer-ready writeups, multi-platform hunting query bundles, ATT&CK-assisted triage, IOC extraction, timezone comparison, investigation stance guidance, remediation playbooks, evidence-quality scoring, and exports for handoff.</p>
           <a class="button button-primary" href="https://github.com/GeorgiSharkov/ATCOR" target="_blank" rel="noreferrer">
             Open ATCOR repository
           </a>
@@ -375,6 +483,6 @@
     </main>
   </div>
 
-  <script src="script.js?v=20260601-2"></script>
+  <script src="script.js?v=20260601-3"></script>
 </body>
 </html>
