@@ -104,6 +104,103 @@
         </article>
       </section>
 
+      <section class="threat-dashboard">
+        <article class="panel threat-health-card">
+          <div class="threat-health-head">
+            <div>
+              <p class="eyebrow">FEED HEALTH</p>
+              <h2>Pulse status and update health</h2>
+            </div>
+            <span class="pulse-live-indicator" data-threat-pulse-health-badge>Checking sources</span>
+          </div>
+          <div class="threat-health-grid">
+            <div class="threat-health-item">
+              <span>Snapshot generated</span>
+              <strong data-threat-pulse-generated>Loading</strong>
+            </div>
+            <div class="threat-health-item">
+              <span>EPSS overlay</span>
+              <strong data-threat-pulse-epss-status>Loading</strong>
+            </div>
+            <div class="threat-health-item">
+              <span>Visible entries</span>
+              <strong data-threat-pulse-visible-count>Loading</strong>
+            </div>
+            <div class="threat-health-item">
+              <span>Filter state</span>
+              <strong data-threat-pulse-filter-state>Loading</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel threat-filter-card">
+          <div>
+            <p class="eyebrow">FILTERS</p>
+            <h2>Focus the feed</h2>
+          </div>
+          <form class="threat-filter-form" data-threat-filter-form>
+            <label>
+              Vendor
+              <select name="vendor" data-threat-filter="vendor">
+                <option value="all">All vendors</option>
+              </select>
+            </label>
+            <label>
+              Priority
+              <select name="priority" data-threat-filter="priority">
+                <option value="all">All priorities</option>
+                <option value="Critical">Critical</option>
+                <option value="High">High</option>
+                <option value="Watch">Watch</option>
+              </select>
+            </label>
+            <label>
+              Ransomware use
+              <select name="ransomware" data-threat-filter="ransomware">
+                <option value="all">All entries</option>
+                <option value="Known">Known</option>
+                <option value="Unknown">Unknown</option>
+              </select>
+            </label>
+            <label>
+              Date window
+              <select name="window" data-threat-filter="window">
+                <option value="all">Latest snapshot</option>
+                <option value="7">Last 7 days</option>
+                <option value="14">Last 14 days</option>
+                <option value="30">Last 30 days</option>
+              </select>
+            </label>
+            <button class="button button-ghost threat-reset-button" type="button" data-threat-filter-reset>
+              Reset filters
+            </button>
+          </form>
+        </article>
+      </section>
+
+      <section class="threat-trends" data-threat-pulse-trends>
+        <article class="support-card threat-trend-card">
+          <span class="card-tag">THIS WEEK</span>
+          <h3 data-threat-trend-week>Loading</h3>
+          <p>New KEV additions inside the last seven days.</p>
+        </article>
+        <article class="support-card threat-trend-card">
+          <span class="card-tag">RANSOMWARE</span>
+          <h3 data-threat-trend-ransomware>Loading</h3>
+          <p>Entries in the current view marked as known ransomware use.</p>
+        </article>
+        <article class="support-card threat-trend-card">
+          <span class="card-tag">TOP VENDOR</span>
+          <h3 data-threat-trend-vendor>Loading</h3>
+          <p>Most represented vendor in the current filtered set.</p>
+        </article>
+        <article class="support-card threat-trend-card">
+          <span class="card-tag">EPSS PRESSURE</span>
+          <h3 data-threat-trend-epss>Loading</h3>
+          <p>Highest exploit probability currently visible in the feed.</p>
+        </article>
+      </section>
+
       <section class="signal panel threat-intro" id="feed">
         <div>
           <p class="eyebrow">PULSE FEED</p>
@@ -202,6 +299,6 @@
     </footer>
   </div>
 
-  <script src="script.js?v=20260601-1"></script>
+  <script src="script.js?v=20260601-2"></script>
 </body>
 </html>

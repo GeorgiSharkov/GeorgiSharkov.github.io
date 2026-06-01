@@ -380,8 +380,25 @@ if (threatPulseRoot) {
   const pulseCatalog = document.querySelector("[data-threat-pulse-catalog]");
   const pulseRelease = document.querySelector("[data-threat-pulse-release]");
   const pulseCount = document.querySelector("[data-threat-pulse-count]");
+  const pulseGenerated = document.querySelector("[data-threat-pulse-generated]");
+  const pulseEpssStatus = document.querySelector("[data-threat-pulse-epss-status]");
+  const pulseVisibleCount = document.querySelector("[data-threat-pulse-visible-count]");
+  const pulseFilterState = document.querySelector("[data-threat-pulse-filter-state]");
+  const pulseHealthBadge = document.querySelector("[data-threat-pulse-health-badge]");
+  const pulseTrendWeek = document.querySelector("[data-threat-trend-week]");
+  const pulseTrendRansomware = document.querySelector("[data-threat-trend-ransomware]");
+  const pulseTrendVendor = document.querySelector("[data-threat-trend-vendor]");
+  const pulseTrendEpss = document.querySelector("[data-threat-trend-epss]");
+  const filterForm = document.querySelector("[data-threat-filter-form]");
   const kevUrl = "threat-pulse-data.json";
   const epssUrl = "https://api.first.org/data/v1/epss?cve=";
+  const filterState = {
+    vendor: "all",
+    priority: "all",
+    ransomware: "all",
+    window: "all",
+  };
+  let allEntries = [];
 
   const formatDate = (value) => {
     if (!value) {
@@ -402,6 +419,11 @@ if (threatPulseRoot) {
       dateStyle: "medium",
       timeStyle: "short",
     }).format(new Date(value));
+  };
+
+  const daysBetween = (value) => {
+    const ms = Date.now() - new Date(value).getTime();
+    return Math.floor(ms / 86400000);
   };
 
   const getPriority = (entry) => {
@@ -453,6 +475,98 @@ if (threatPulseRoot) {
     }
 
     return Array.from(new Set(notesValue.match(/https?:\/\/[^\s;]+/g) || [])).slice(0, 3);
+  };
+
+  const updateTrendCards = (entries) => {
+    const thisWeekCount = entries.filter((entry) => daysBetween(entry.dateAdded) <= 7).length;
+    const ransomwareCount = entries.filter((entry) => entry.knownRansomwareCampaignUse === "Known").length;
+    const vendorCounts = entries.reduce((accumulator, entry) => {
+      const vendor = entry.vendorProject || "Unknown";
+      accumulator.set(vendor, (accumulator.get(vendor) || 0) + 1);
+      return accumulator;
+    }, new Map());
+    const topVendor = [...vendorCounts.entries()].sort((left, right) => right[1] - left[1])[0];
+    const highestEpss = entries.reduce((current, entry) => {
+      const value = Number(entry.epss || 0);
+      return value > current ? value : current;
+    }, 0);
+
+    pulseTrendWeek.textContent = `${thisWeekCount}`;
+    pulseTrendRansomware.textContent = `${ransomwareCount}`;
+    pulseTrendVendor.textContent = topVendor ? `${topVendor[0]} (${topVendor[1]})` : "None";
+    pulseTrendEpss.textContent = entries.length ? `${(highestEpss * 100).toFixed(2)}%` : "0%";
+  };
+
+  const applyFilters = () => allEntries.filter((entry) => {
+    const priority = getPriority(entry).label;
+
+    if (filterState.vendor !== "all" && entry.vendorProject !== filterState.vendor) {
+      return false;
+    }
+
+    if (filterState.priority !== "all" && priority !== filterState.priority) {
+      return false;
+    }
+
+    if (filterState.ransomware !== "all" && entry.knownRansomwareCampaignUse !== filterState.ransomware) {
+      return false;
+    }
+
+    if (filterState.window !== "all" && daysBetween(entry.dateAdded) > Number(filterState.window)) {
+      return false;
+    }
+
+    return true;
+  });
+
+  const updateFilterStateLabel = (entries) => {
+    const activeFilters = [];
+
+    if (filterState.vendor !== "all") {
+      activeFilters.push(filterState.vendor);
+    }
+
+    if (filterState.priority !== "all") {
+      activeFilters.push(`${filterState.priority} priority`);
+    }
+
+    if (filterState.ransomware !== "all") {
+      activeFilters.push(`ransomware ${filterState.ransomware.toLowerCase()}`);
+    }
+
+    if (filterState.window !== "all") {
+      activeFilters.push(`last ${filterState.window} days`);
+    }
+
+    pulseFilterState.textContent = activeFilters.length ? activeFilters.join(" / ") : "All entries";
+    pulseVisibleCount.textContent = `${entries.length} shown`;
+  };
+
+  const renderVisibleEntries = (entries) => {
+    updateFilterStateLabel(entries);
+    updateTrendCards(entries);
+
+    if (!entries.length) {
+      pulseGrid.innerHTML = `
+        <article class="info-card threat-card">
+          <span class="card-tag">FILTER / EMPTY</span>
+          <h3>No entries match the current filter set</h3>
+          <p>Try widening the date window or clearing vendor and priority filters.</p>
+        </article>
+      `;
+      return;
+    }
+
+    pulseGrid.innerHTML = entries.map(renderPulseCard).join("");
+  };
+
+  const populateVendorFilter = (entries) => {
+    const vendorSelect = filterForm.querySelector('[data-threat-filter="vendor"]');
+    const vendors = [...new Set(entries.map((entry) => entry.vendorProject).filter(Boolean))].sort();
+
+    vendorSelect.innerHTML = `<option value="all">All vendors</option>${vendors
+      .map((vendor) => `<option value="${vendor}">${vendor}</option>`)
+      .join("")}`;
   };
 
   const renderPulseCard = (entry) => {
@@ -515,7 +629,7 @@ if (threatPulseRoot) {
       const epssData = await epssResponse.json();
       const epssByCve = new Map((epssData.data || []).map((entry) => [entry.cve, entry]));
       const priorityOrder = { Critical: 3, High: 2, Watch: 1 };
-      const enrichedEntries = recentEntries
+      allEntries = recentEntries
         .map((entry) => ({
           ...entry,
           ...(epssByCve.get(entry.cveID) || {}),
@@ -531,13 +645,28 @@ if (threatPulseRoot) {
           return new Date(right.dateAdded) - new Date(left.dateAdded);
         });
 
+      populateVendorFilter(allEntries);
       pulseCatalog.textContent = kevData.catalogVersion || "Live";
       pulseRelease.textContent = formatRelease(kevData.dateReleased);
       pulseCount.textContent = `${kevData.count || kevData.vulnerabilities.length}`;
+      pulseGenerated.textContent = formatRelease(kevData.generatedAt || kevData.dateReleased);
+      pulseEpssStatus.textContent = "Live and healthy";
+      pulseHealthBadge.textContent = "Feeds healthy";
+      pulseHealthBadge.classList.add("is-ok");
       pulseStatus.textContent = "Threat Pulse is using a fresh official CISA KEV snapshot with live FIRST EPSS overlay. Use it to spot fresh exploitation signal, patch pressure, and where hunting effort likely pays off first.";
-      pulseGrid.innerHTML = enrichedEntries.map(renderPulseCard).join("");
+      renderVisibleEntries(applyFilters());
     } catch (error) {
       pulseStatus.textContent = "The live pulse feed could not load right now. The page sources remain valid, but the remote data request needs another try.";
+      pulseGenerated.textContent = "Unavailable";
+      pulseEpssStatus.textContent = "Retry needed";
+      pulseVisibleCount.textContent = "0 shown";
+      pulseFilterState.textContent = "Unavailable";
+      pulseHealthBadge.textContent = "Source warning";
+      pulseHealthBadge.classList.add("is-warning");
+      pulseTrendWeek.textContent = "Unavailable";
+      pulseTrendRansomware.textContent = "Unavailable";
+      pulseTrendVendor.textContent = "Unavailable";
+      pulseTrendEpss.textContent = "Unavailable";
       pulseGrid.innerHTML = `
         <article class="info-card threat-card">
           <span class="card-tag">FEED / RETRY</span>
@@ -555,6 +684,27 @@ if (threatPulseRoot) {
       console.error(error);
     }
   };
+
+  filterForm.addEventListener("change", (event) => {
+    const control = event.target;
+    const key = control.getAttribute("data-threat-filter");
+
+    if (!key) {
+      return;
+    }
+
+    filterState[key] = control.value;
+    renderVisibleEntries(applyFilters());
+  });
+
+  filterForm.querySelector("[data-threat-filter-reset]").addEventListener("click", () => {
+    filterState.vendor = "all";
+    filterState.priority = "all";
+    filterState.ransomware = "all";
+    filterState.window = "all";
+    filterForm.reset();
+    renderVisibleEntries(applyFilters());
+  });
 
   loadThreatPulse();
 }
