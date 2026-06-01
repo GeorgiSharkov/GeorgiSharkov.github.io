@@ -1494,6 +1494,36 @@ h2 {
   border-bottom: 1px solid rgba(88, 232, 255, 0.12);
 }
 
+.dashboard-metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.dashboard-metric {
+  display: grid;
+  gap: 6px;
+  padding: 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(88, 232, 255, 0.12);
+}
+
+.dashboard-metric span {
+  color: var(--muted);
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.dashboard-metric strong {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
 .metric-row span {
   color: var(--muted);
 }
@@ -1643,6 +1673,10 @@ h2 {
   }
 
   .threat-health-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-metric-grid {
     grid-template-columns: 1fr;
   }
 

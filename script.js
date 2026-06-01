@@ -207,6 +207,12 @@ if (previewForm) {
     nextActions: document.querySelector('[data-preview-output="nextActions"]'),
     timezoneChip: document.querySelector('[data-preview-output="timezoneChip"]'),
     severityChip: document.querySelector('[data-preview-output="severityChip"]'),
+    dashboardQueue: document.querySelector('[data-preview-output="dashboardQueue"]'),
+    dashboardSeverity: document.querySelector('[data-preview-output="dashboardSeverity"]'),
+    dashboardConfidence: document.querySelector('[data-preview-output="dashboardConfidence"]'),
+    dashboardTimezone: document.querySelector('[data-preview-output="dashboardTimezone"]'),
+    dashboardHeadline: document.querySelector('[data-preview-output="dashboardHeadline"]'),
+    dashboardSummary: document.querySelector('[data-preview-output="dashboardSummary"]'),
     qualityBar: document.querySelector('[data-preview-output="qualityBar"]'),
     evidence: document.querySelector('[data-preview-output="evidence"]'),
     query: document.querySelector('[data-preview-output="query"]'),
@@ -283,6 +289,12 @@ if (previewForm) {
     confirmed: "The available evidence suggests the activity should be treated as suspicious until validated.",
     fp: "The current evidence is consistent with expected activity, but the case should retain the supporting context for audit trail quality.",
     tuning: "The alert appears suitable for tuning review if the same benign pattern repeats across similar assets.",
+  };
+
+  const queueState = {
+    confirmed: "Escalate and prepare response",
+    fp: "Document and close cleanly",
+    tuning: "Tuning review and analyst note",
   };
 
   const platformQueries = {
@@ -416,6 +428,12 @@ if (previewForm) {
     previewOutputs.nextActions.textContent = caseData.nextActions;
     previewOutputs.timezoneChip.textContent = timezoneData.label;
     previewOutputs.severityChip.textContent = severityData.label;
+    previewOutputs.dashboardQueue.textContent = queueState[outcome];
+    previewOutputs.dashboardSeverity.textContent = severityData.label;
+    previewOutputs.dashboardConfidence.textContent = severityData.confidence;
+    previewOutputs.dashboardTimezone.textContent = timezoneData.label;
+    previewOutputs.dashboardHeadline.textContent = `${caseData.summary} ${outcome === "confirmed" ? "needs analyst escalation." : outcome === "fp" ? "looks consistent with expected activity." : "should be reviewed for tuning."}`;
+    previewOutputs.dashboardSummary.textContent = `${severityData.stance} ${caseData.nextActions}`;
     previewOutputs.qualityBar.style.setProperty("--score", outcome === "fp" ? "74%" : outcome === "tuning" ? "68%" : severityData.score);
     previewOutputs.evidence.innerHTML = caseData.evidence.map((item) => `<li>${item}</li>`).join("");
     previewOutputs.query.textContent = platformQueries[platform](caseData);

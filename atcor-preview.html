@@ -170,6 +170,11 @@
             <h3>Confidence framing</h3>
             <p>Shows evidence quality and confidence level together so the analyst can calibrate tone and urgency.</p>
           </article>
+          <article>
+            <span>A5</span>
+            <h3>Alert dashboard</h3>
+            <p>Summarises severity, queue stance, timezone context, and analyst-ready next actions in one dashboard view.</p>
+          </article>
         </div>
       </section>
 
@@ -369,6 +374,35 @@
       <section class="preview-screen-grid">
         <article class="preview-screen panel">
           <div class="screen-bar">
+            <span>Alert Dashboard</span>
+            <small>STEP 00</small>
+          </div>
+          <div class="dashboard-metric-grid">
+            <div class="dashboard-metric">
+              <span>Queue state</span>
+              <strong data-preview-output="dashboardQueue">Needs analyst review</strong>
+            </div>
+            <div class="dashboard-metric">
+              <span>Severity</span>
+              <strong data-preview-output="dashboardSeverity">High</strong>
+            </div>
+            <div class="dashboard-metric">
+              <span>Confidence</span>
+              <strong data-preview-output="dashboardConfidence">Moderate confidence</strong>
+            </div>
+            <div class="dashboard-metric">
+              <span>Local timezone</span>
+              <strong data-preview-output="dashboardTimezone">Europe / London</strong>
+            </div>
+          </div>
+          <div class="writeup-card">
+            <p><strong data-preview-output="dashboardHeadline">Suspicious PowerShell activity needs validation before customer handoff.</strong></p>
+            <p data-preview-output="dashboardSummary">The dashboard pulls the intake, evidence quality, timezone delta, and response guidance into one fast analyst view.</p>
+          </div>
+        </article>
+
+        <article class="preview-screen panel">
+          <div class="screen-bar">
             <span>Alert Intake</span>
             <small>STEP 01</small>
           </div>
@@ -483,6 +517,6 @@
     </main>
   </div>
 
-  <script src="script.js?v=20260601-3"></script>
+  <script src="script.js?v=20260601-4"></script>
 </body>
 </html>
