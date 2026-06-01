@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threat Pulse | CyberShark</title>
+  <meta
+    name="description"
+    content="CyberShark Threat Pulse tracks newly added CISA Known Exploited Vulnerabilities with EPSS context and analyst-facing action notes."
+  >
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-YXYG9BY9Z5');
+  </script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="preview-body">
+  <div class="page-shell preview-shell" data-threat-pulse-root>
+    <div class="edge-network" aria-hidden="true">
+      <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <div class="edge-network-nodes"></div>
+    </div>
+    <div class="grid-noise" aria-hidden="true"></div>
+    <div class="aurora aurora-left" aria-hidden="true"></div>
+    <div class="aurora aurora-right" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html#hero">
+        <img class="brand-mark" src="brand-mark.svg" alt="">
+        <span class="brand-copy">
+          <strong>CYBERSHARK</strong>
+          <span>Threat Pulse</span>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="Threat pulse navigation">
+        <a href="index.html">Home</a>
+        <a href="#feed">Pulse Feed</a>
+        <a href="#method">Method</a>
+        <a href="cyber-news.html">News</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="preview-hero panel">
+        <div>
+          <p class="eyebrow">LIVE THREAT PULSE / KEV WATCH / PRIORITY SIGNAL</p>
+          <h1 class="preview-title">
+            Threat Pulse
+            <span>live exploited vuln watch for defenders</span>
+          </h1>
+          <p class="lede">
+            This page tracks newly added CISA Known Exploited Vulnerabilities,
+            overlays FIRST EPSS probability context, and frames each item with a
+            short SOC-style action note so the feed stays useful instead of noisy.
+            The KEV side is refreshed from an official snapshot, while EPSS stays
+            live at page load.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="#feed">Open pulse feed</a>
+            <a class="button button-ghost" href="cyber-news.html">Pair with news nexus</a>
+          </div>
+        </div>
+
+        <div class="preview-command" aria-label="Threat pulse preview">
+          <div class="command-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <p class="terminal-line">$ pulse watch --source kev --overlay epss</p>
+          <p class="terminal-line is-cyan">[source] CISA KEV catalog + FIRST EPSS probability feed</p>
+          <p class="terminal-line is-pink">[focus] newly exploited vulnerabilities with operational triage value</p>
+          <p class="terminal-line is-green">[output] priority view, analyst action, source links</p>
+        </div>
+      </section>
+
+      <section class="threat-summary">
+        <article class="support-card threat-stat-card">
+          <span class="card-tag">CATALOG</span>
+          <h3 data-threat-pulse-catalog>Loading</h3>
+          <p>Current CISA KEV catalog version in use for this page.</p>
+        </article>
+        <article class="support-card threat-stat-card">
+          <span class="card-tag">RELEASED</span>
+          <h3 data-threat-pulse-release>Loading</h3>
+          <p>Latest feed publication timestamp from the authoritative KEV source.</p>
+        </article>
+        <article class="support-card threat-stat-card">
+          <span class="card-tag">COUNT</span>
+          <h3 data-threat-pulse-count>Loading</h3>
+          <p>Total vulnerabilities currently listed by CISA as exploited in the wild.</p>
+        </article>
+      </section>
+
+      <section class="signal panel threat-intro" id="feed">
+        <div>
+          <p class="eyebrow">PULSE FEED</p>
+          <h2>Latest exploited-vulnerability additions with analyst context</h2>
+        </div>
+        <p data-threat-pulse-status>
+          Pulling the latest entries from CISA KEV and FIRST EPSS now.
+        </p>
+      </section>
+
+      <section class="threat-grid" data-threat-pulse-grid aria-live="polite">
+        <article class="info-card threat-placeholder">
+          <span class="card-tag">LOADING / FEED</span>
+          <h3>Collecting live signal</h3>
+          <p>
+            The pulse feed is preparing the latest exploited vulnerabilities,
+            EPSS scores, and quick response notes.
+          </p>
+        </article>
+      </section>
+
+      <section class="signal panel" id="method">
+        <div>
+          <p class="eyebrow">METHOD</p>
+          <h2>How to use this page in a real SOC workflow</h2>
+        </div>
+        <div class="publication-list">
+          <article class="publication-item">
+            <h3>1. Check what is new</h3>
+            <p>
+              Start with the most recent KEV additions to see what has newly crossed
+              from important to actively exploited.
+            </p>
+          </article>
+          <article class="publication-item">
+            <h3>2. Use EPSS as pressure context</h3>
+            <p>
+              EPSS does not replace validation, but it helps show which vulnerabilities
+              carry stronger exploitation probability pressure in the near term.
+            </p>
+          </article>
+          <article class="publication-item">
+            <h3>3. Hunt and communicate</h3>
+            <p>
+              Use the analyst note to decide whether the next step is patching,
+              exposure review, internet-facing asset validation, threat hunting,
+              or customer-safe reporting.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="support-grid capability-grid">
+        <article class="support-card">
+          <h3>Official source</h3>
+          <p>
+            CISA KEV is the authoritative list for vulnerabilities known to be
+            exploited in the wild and should feed vulnerability prioritisation.
+            This page uses a current official snapshot of that feed for static-site reliability.
+          </p>
+          <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer">
+            View CISA KEV
+          </a>
+        </article>
+        <article class="support-card">
+          <h3>Threat scoring overlay</h3>
+          <p>
+            FIRST EPSS adds exploit-probability context that helps defenders judge
+            urgency beyond severity labels alone.
+          </p>
+          <a href="https://www.first.org/epss" target="_blank" rel="noreferrer">
+            View FIRST EPSS
+          </a>
+        </article>
+        <article class="support-card">
+          <h3>Context expansion</h3>
+          <p>
+            Pair the pulse with vendor advisories, SANS ISC, and your own environment
+            exposure review to decide where effort goes first.
+          </p>
+          <a href="cyber-news.html">Open Cyber News Nexus</a>
+        </article>
+      </section>
+    </main>
+
+    <footer class="footer panel" id="contact">
+      <div>
+        <p class="eyebrow">PULSE EXIT</p>
+        <h2>Keep the signal moving</h2>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="cyber-news.html">Cyber News</a>
+        <a href="mailto:gnssngmail@gmail.com">Email</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

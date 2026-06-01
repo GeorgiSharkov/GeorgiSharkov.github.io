@@ -605,6 +605,14 @@ h2 {
   margin: 0;
 }
 
+.support-card a {
+  color: var(--aqua);
+  display: inline-flex;
+  margin-top: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
 .publication-item {
   padding: 20px;
   border-radius: 20px;
@@ -625,6 +633,130 @@ h2 {
   color: var(--aqua);
   font-weight: 700;
   letter-spacing: 0.04em;
+}
+
+.threat-summary,
+.threat-grid {
+  position: relative;
+  z-index: 1;
+}
+
+.threat-summary {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.threat-stat-card h3 {
+  margin: 4px 0 8px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.threat-intro {
+  margin-bottom: 20px;
+}
+
+.threat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.threat-card {
+  display: grid;
+  gap: 16px;
+}
+
+.threat-card h3 {
+  margin: 0;
+  font-size: 1.16rem;
+}
+
+.threat-card p {
+  margin: 0;
+}
+
+.threat-meta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.threat-meta span,
+.threat-badges span {
+  padding: 9px 10px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(89, 243, 255, 0.12);
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.threat-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pulse-badge {
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.pulse-badge.is-critical {
+  color: #ffd7d6;
+  border-color: rgba(255, 68, 95, 0.45);
+  background: rgba(255, 68, 95, 0.14);
+}
+
+.pulse-badge.is-high {
+  color: #ffe7c3;
+  border-color: rgba(255, 122, 0, 0.45);
+  background: rgba(255, 122, 0, 0.14);
+}
+
+.pulse-badge.is-watch {
+  color: #d8fbff;
+  border-color: rgba(88, 232, 255, 0.32);
+  background: rgba(88, 232, 255, 0.1);
+}
+
+.threat-note {
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.22);
+  border: 1px solid rgba(88, 232, 255, 0.12);
+}
+
+.threat-note strong {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--cyan);
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.74rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.threat-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.threat-links a {
+  color: var(--aqua);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.threat-placeholder {
+  min-height: 220px;
 }
 
 .footer {
@@ -1269,6 +1401,8 @@ h2 {
   .signal,
   .profile,
   .card-grid,
+  .threat-summary,
+  .threat-grid,
   .skill-cluster,
   .capability-grid,
   .preview-hero,
@@ -1304,6 +1438,10 @@ h2 {
   }
 
   .workflow-lanes {
+    grid-template-columns: 1fr;
+  }
+
+  .threat-meta {
     grid-template-columns: 1fr;
   }
 

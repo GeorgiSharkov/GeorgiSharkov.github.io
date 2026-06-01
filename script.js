@@ -371,3 +371,190 @@ if (previewForm) {
   renderPreview();
   setLimitStatus();
 }
+
+const threatPulseRoot = document.querySelector("[data-threat-pulse-root]");
+
+if (threatPulseRoot) {
+  const pulseStatus = document.querySelector("[data-threat-pulse-status]");
+  const pulseGrid = document.querySelector("[data-threat-pulse-grid]");
+  const pulseCatalog = document.querySelector("[data-threat-pulse-catalog]");
+  const pulseRelease = document.querySelector("[data-threat-pulse-release]");
+  const pulseCount = document.querySelector("[data-threat-pulse-count]");
+  const kevUrl = "threat-pulse-data.json";
+  const epssUrl = "https://api.first.org/data/v1/epss?cve=";
+
+  const formatDate = (value) => {
+    if (!value) {
+      return "Unknown";
+    }
+
+    return new Intl.DateTimeFormat("en-GB", {
+      dateStyle: "medium",
+    }).format(new Date(value));
+  };
+
+  const formatRelease = (value) => {
+    if (!value) {
+      return "Unknown";
+    }
+
+    return new Intl.DateTimeFormat("en-GB", {
+      dateStyle: "medium",
+      timeStyle: "short",
+    }).format(new Date(value));
+  };
+
+  const getPriority = (entry) => {
+    const ransomwareKnown = entry.knownRansomwareCampaignUse === "Known";
+    const epss = Number(entry.epss || 0);
+    const percentile = Number(entry.percentile || 0);
+
+    if (ransomwareKnown || epss >= 0.5 || percentile >= 0.97) {
+      return { label: "Critical", css: "is-critical" };
+    }
+
+    if (epss >= 0.2 || percentile >= 0.9) {
+      return { label: "High", css: "is-high" };
+    }
+
+    return { label: "Watch", css: "is-watch" };
+  };
+
+  const getAnalystAction = (entry) => {
+    const vendor = `${entry.vendorProject} ${entry.product}`.trim();
+    const ransomwareKnown = entry.knownRansomwareCampaignUse === "Known";
+    const description = `${entry.vulnerabilityName} ${entry.shortDescription}`.toLowerCase();
+    const notes = [];
+
+    if (ransomwareKnown) {
+      notes.push("Treat this as patch-and-hunt territory because CISA flags known ransomware campaign use.");
+    } else {
+      notes.push("Validate whether the vulnerable product is present in your estate and whether any instance is internet-facing.");
+    }
+
+    if (description.includes("authentication bypass") || description.includes("unauthenticated")) {
+      notes.push("Prioritise external exposure review, remote access paths, and authentication logs.");
+    } else if (description.includes("remote code execution") || description.includes("command injection")) {
+      notes.push("Review exposed services, patch status, and recent process or child-process telemetry for signs of exploitation.");
+    } else if (description.includes("privilege escalation")) {
+      notes.push("Pair patching with local admin, service account, and suspicious execution-chain review.");
+    } else if (description.includes("malicious code") || description.includes("credential")) {
+      notes.push("Check for affected packages or extensions in build pipelines and rotate exposed credentials if the product is present.");
+    } else {
+      notes.push("Use vendor advisory details to guide targeted hunting and customer-safe remediation communication.");
+    }
+
+    return `${vendor}: ${notes.join(" ")}`;
+  };
+
+  const extractLinks = (notesValue) => {
+    if (!notesValue) {
+      return [];
+    }
+
+    return Array.from(new Set(notesValue.match(/https?:\/\/[^\s;]+/g) || [])).slice(0, 3);
+  };
+
+  const renderPulseCard = (entry) => {
+    const priority = getPriority(entry);
+    const epssPercent = `${(Number(entry.epss || 0) * 100).toFixed(2)}%`;
+    const percentileValue = `${(Number(entry.percentile || 0) * 100).toFixed(1)}th percentile`;
+    const links = extractLinks(entry.notes);
+
+    return `
+      <article class="info-card threat-card">
+        <div>
+          <span class="card-tag">${priority.label.toUpperCase()} / ${entry.cveID}</span>
+          <h3>${entry.vulnerabilityName}</h3>
+        </div>
+        <p>${entry.shortDescription}</p>
+        <div class="threat-badges">
+          <span class="pulse-badge ${priority.css}">${priority.label} priority</span>
+          <span class="pulse-badge">EPSS ${epssPercent}</span>
+          <span class="pulse-badge">${percentileValue}</span>
+        </div>
+        <div class="threat-meta">
+          <span><strong>Vendor:</strong> ${entry.vendorProject}</span>
+          <span><strong>Product:</strong> ${entry.product}</span>
+          <span><strong>Date added:</strong> ${formatDate(entry.dateAdded)}</span>
+          <span><strong>Due date:</strong> ${formatDate(entry.dueDate)}</span>
+          <span><strong>Ransomware use:</strong> ${entry.knownRansomwareCampaignUse}</span>
+          <span><strong>Catalog action:</strong> ${entry.requiredAction}</span>
+        </div>
+        <div class="threat-note">
+          <strong>Analyst action</strong>
+          <p>${getAnalystAction(entry)}</p>
+        </div>
+        <div class="threat-links">
+          <a href="https://nvd.nist.gov/vuln/detail/${entry.cveID}" target="_blank" rel="noreferrer">View NVD</a>
+          ${links.map((link, index) => `<a href="${link}" target="_blank" rel="noreferrer">${index === 0 ? "Vendor advisory" : `Reference ${index + 1}`}</a>`).join("")}
+        </div>
+      </article>
+    `;
+  };
+
+  const loadThreatPulse = async () => {
+    try {
+      const kevResponse = await fetch(kevUrl);
+
+      if (!kevResponse.ok) {
+        throw new Error(`KEV feed returned ${kevResponse.status}`);
+      }
+
+      const kevData = await kevResponse.json();
+      const recentEntries = [...kevData.vulnerabilities]
+        .sort((left, right) => new Date(right.dateAdded) - new Date(left.dateAdded))
+        .slice(0, 8);
+      const cveBatch = recentEntries.map((entry) => entry.cveID).join(",");
+      const epssResponse = await fetch(`${epssUrl}${encodeURIComponent(cveBatch)}`);
+
+      if (!epssResponse.ok) {
+        throw new Error(`EPSS feed returned ${epssResponse.status}`);
+      }
+
+      const epssData = await epssResponse.json();
+      const epssByCve = new Map((epssData.data || []).map((entry) => [entry.cve, entry]));
+      const priorityOrder = { Critical: 3, High: 2, Watch: 1 };
+      const enrichedEntries = recentEntries
+        .map((entry) => ({
+          ...entry,
+          ...(epssByCve.get(entry.cveID) || {}),
+        }))
+        .sort((left, right) => {
+          const leftPriority = priorityOrder[getPriority(left).label];
+          const rightPriority = priorityOrder[getPriority(right).label];
+
+          if (rightPriority !== leftPriority) {
+            return rightPriority - leftPriority;
+          }
+
+          return new Date(right.dateAdded) - new Date(left.dateAdded);
+        });
+
+      pulseCatalog.textContent = kevData.catalogVersion || "Live";
+      pulseRelease.textContent = formatRelease(kevData.dateReleased);
+      pulseCount.textContent = `${kevData.count || kevData.vulnerabilities.length}`;
+      pulseStatus.textContent = "Threat Pulse is using a fresh official CISA KEV snapshot with live FIRST EPSS overlay. Use it to spot fresh exploitation signal, patch pressure, and where hunting effort likely pays off first.";
+      pulseGrid.innerHTML = enrichedEntries.map(renderPulseCard).join("");
+    } catch (error) {
+      pulseStatus.textContent = "The live pulse feed could not load right now. The page sources remain valid, but the remote data request needs another try.";
+      pulseGrid.innerHTML = `
+        <article class="info-card threat-card">
+          <span class="card-tag">FEED / RETRY</span>
+          <h3>Live source temporarily unavailable</h3>
+          <p>
+            The page is set up for a local official KEV snapshot and the live
+            FIRST EPSS API, but the browser could not load them during this attempt.
+          </p>
+          <div class="threat-links">
+            <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noreferrer">Open CISA KEV</a>
+            <a href="https://www.first.org/epss" target="_blank" rel="noreferrer">Open FIRST EPSS</a>
+          </div>
+        </article>
+      `;
+      console.error(error);
+    }
+  };
+
+  loadThreatPulse();
+}
