@@ -613,6 +613,69 @@ h2 {
   letter-spacing: 0.04em;
 }
 
+.soc-utility-strip {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  gap: 22px;
+  margin-top: 24px;
+  padding: 28px;
+}
+
+.soc-utility-head {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: 22px;
+  align-items: end;
+}
+
+.soc-utility-head p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.utility-link-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.utility-link-grid a {
+  display: grid;
+  gap: 8px;
+  min-height: 94px;
+  padding: 16px;
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02)),
+    radial-gradient(circle at top right, rgba(88, 232, 255, 0.08), transparent 48%);
+  border: 1px solid rgba(89, 243, 255, 0.14);
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.25;
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    color 180ms ease;
+}
+
+.utility-link-grid a:hover,
+.utility-link-grid a:focus-visible {
+  transform: translateY(-2px);
+  border-color: rgba(255, 122, 0, 0.34);
+  color: var(--text);
+}
+
+.utility-link-grid span {
+  color: var(--cyan);
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
 .publication-item {
   padding: 20px;
   border-radius: 20px;
@@ -1526,6 +1589,7 @@ h2 {
   .hero,
   .signal,
   .profile,
+  .soc-utility-head,
   .card-grid,
   .threat-summary,
   .threat-dashboard,
@@ -1574,6 +1638,10 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .utility-link-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .threat-health-grid {
     grid-template-columns: 1fr;
   }
@@ -1619,12 +1687,17 @@ h2 {
   .footer,
   .threat-health-card,
   .threat-filter-card,
+  .soc-utility-strip,
   .preview-hero,
   .preview-overview,
   .app-preview,
   .interactive-preview,
   .preview-screen {
     padding: 24px;
+  }
+
+  .utility-link-grid {
+    grid-template-columns: 1fr;
   }
 
   .app-title-lockup {
