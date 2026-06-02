@@ -211,6 +211,8 @@ if (previewForm) {
     dashboardSeverity: document.querySelector('[data-preview-output="dashboardSeverity"]'),
     dashboardConfidence: document.querySelector('[data-preview-output="dashboardConfidence"]'),
     dashboardTimezone: document.querySelector('[data-preview-output="dashboardTimezone"]'),
+    dashboardSource: document.querySelector('[data-preview-output="dashboardSource"]'),
+    dashboardFollow: document.querySelector('[data-preview-output="dashboardFollow"]'),
     dashboardHeadline: document.querySelector('[data-preview-output="dashboardHeadline"]'),
     dashboardSummary: document.querySelector('[data-preview-output="dashboardSummary"]'),
     qualityBar: document.querySelector('[data-preview-output="qualityBar"]'),
@@ -222,6 +224,7 @@ if (previewForm) {
     appHost: document.querySelector('[data-preview-output="appHost"]'),
     appUser: document.querySelector('[data-preview-output="appUser"]'),
     appProcess: document.querySelector('[data-preview-output="appProcess"]'),
+    appSource: document.querySelector('[data-preview-output="appSource"]'),
     appSeverity: document.querySelector('[data-preview-output="appSeverity"]'),
     appConfidence: document.querySelector('[data-preview-output="appConfidence"]'),
     appStance: document.querySelector('[data-preview-output="appStance"]'),
@@ -229,6 +232,8 @@ if (previewForm) {
     appLocalTime: document.querySelector('[data-preview-output="appLocalTime"]'),
     appTimezoneDelta: document.querySelector('[data-preview-output="appTimezoneDelta"]'),
     appNextActions: document.querySelector('[data-preview-output="appNextActions"]'),
+    platformFollowPrimary: document.querySelector('[data-preview-output="platformFollowPrimary"]'),
+    platformFollowSecondary: document.querySelector('[data-preview-output="platformFollowSecondary"]'),
     appRawAlert: document.querySelector('[data-preview-output="appRawAlert"]'),
     appTi: document.querySelector('[data-preview-output="appTi"]'),
     terminalIoc: document.querySelector('[data-preview-terminal="ioc"]'),
@@ -361,6 +366,29 @@ if (previewForm) {
     },
   };
 
+  const sourceState = {
+    splunk: {
+      label: "Splunk exported alert",
+      followPrimary: "Follow in Splunk",
+      followSecondary: "Open source alert export",
+    },
+    wazuh: {
+      label: "Wazuh exported alert",
+      followPrimary: "Follow in Wazuh",
+      followSecondary: "Open Wazuh alert payload",
+    },
+    secops: {
+      label: "Google SecOps exported alert",
+      followPrimary: "Follow in Google SecOps",
+      followSecondary: "Open SecOps alert export",
+    },
+    manual: {
+      label: "Manual analyst intake",
+      followPrimary: "Review pasted intake",
+      followSecondary: "Open analyst notes",
+    },
+  };
+
   const buildWriteup = (caseData, outcome, profile, severity, timezone) => `
     <p>Hello,</p>
     <p>We reviewed an alert for <strong>${caseData.summary}</strong>. The key observed entity is <strong>${caseData.process}</strong> on <strong>${caseData.host}</strong> for user <strong>${caseData.user}</strong>.</p>
@@ -415,9 +443,11 @@ if (previewForm) {
     const profile = formData.get("profile");
     const severity = formData.get("severity");
     const timezone = formData.get("timezone");
+    const source = formData.get("source");
     const caseData = cases[scenario];
     const severityData = severityState[severity];
     const timezoneData = timezoneState[timezone];
+    const sourceData = sourceState[source];
 
     previewOutputs.summary.textContent = caseData.summary;
     previewOutputs.host.textContent = caseData.host;
@@ -432,8 +462,10 @@ if (previewForm) {
     previewOutputs.dashboardSeverity.textContent = severityData.label;
     previewOutputs.dashboardConfidence.textContent = severityData.confidence;
     previewOutputs.dashboardTimezone.textContent = timezoneData.label;
+    previewOutputs.dashboardSource.textContent = sourceData.label;
+    previewOutputs.dashboardFollow.textContent = sourceData.followPrimary;
     previewOutputs.dashboardHeadline.textContent = `${caseData.summary} ${outcome === "confirmed" ? "needs analyst escalation." : outcome === "fp" ? "looks consistent with expected activity." : "should be reviewed for tuning."}`;
-    previewOutputs.dashboardSummary.textContent = `${severityData.stance} ${caseData.nextActions}`;
+    previewOutputs.dashboardSummary.textContent = `${severityData.stance} ${caseData.nextActions} Source path: ${sourceData.label}.`;
     previewOutputs.qualityBar.style.setProperty("--score", outcome === "fp" ? "74%" : outcome === "tuning" ? "68%" : severityData.score);
     previewOutputs.evidence.innerHTML = caseData.evidence.map((item) => `<li>${item}</li>`).join("");
     previewOutputs.query.textContent = platformQueries[platform](caseData);
@@ -443,6 +475,7 @@ if (previewForm) {
     previewOutputs.appHost.textContent = caseData.host;
     previewOutputs.appUser.textContent = caseData.user;
     previewOutputs.appProcess.textContent = caseData.process;
+    previewOutputs.appSource.textContent = sourceData.label;
     previewOutputs.appSeverity.textContent = severityData.label;
     previewOutputs.appConfidence.textContent = severityData.confidence;
     previewOutputs.appStance.textContent = severityData.stance;
@@ -450,8 +483,10 @@ if (previewForm) {
     previewOutputs.appLocalTime.textContent = timezoneData.localTime;
     previewOutputs.appTimezoneDelta.textContent = timezoneData.delta;
     previewOutputs.appNextActions.textContent = caseData.nextActions;
-    previewOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}; Severity=${severityData.label}; Timezone=${timezoneData.label}`;
-    previewOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes, local time comparison for ${timezoneData.label}, and customer-safe wording guidance.`;
+    previewOutputs.platformFollowPrimary.textContent = sourceData.followPrimary;
+    previewOutputs.platformFollowSecondary.textContent = sourceData.followSecondary;
+    previewOutputs.appRawAlert.textContent = `AlertName=${caseData.summary}; Source=${sourceData.label}; Host=${caseData.host}; User=${caseData.user}; Process=${caseData.process}; Outcome=${outcome}; Severity=${severityData.label}; Timezone=${timezoneData.label}`;
+    previewOutputs.appTi.textContent = `${caseData.technique} context loaded with analyst-side notes, local time comparison for ${timezoneData.label}, source path ${sourceData.label}, and customer-safe wording guidance.`;
     previewOutputs.terminalIoc.textContent = `[ioc] host=${caseData.host} user=${caseData.user} process=${caseData.process}`;
     previewOutputs.terminalTriage.textContent = `[triage] ${caseData.technique} context loaded with ${severityData.label.toLowerCase()} severity and ${timezoneData.label} local time`;
     previewOutputs.terminalOutput.textContent = `[output] ${platform}-queries.md writeup.md next-actions.txt response-pack ready`;

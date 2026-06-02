@@ -48,6 +48,7 @@
         <a href="index.html">Home</a>
         <a href="threat-pulse.html">Pulse</a>
         <a href="#capabilities">Capabilities</a>
+        <a href="#latest-push">Latest Push</a>
         <a href="#interactive-preview">Try Preview</a>
         <a href="#app-preview">App Preview</a>
         <a href="#workflow">Workflow</a>
@@ -72,6 +73,7 @@
           </p>
           <div class="cta-row">
             <a class="button button-primary" href="#screens">View workflow screens</a>
+            <a class="button button-ghost" href="#latest-push">See latest release changes</a>
             <a class="button button-ghost" href="https://github.com/GeorgiSharkov/ATCOR" target="_blank" rel="noreferrer">
               Open ATCOR repo
             </a>
@@ -146,7 +148,8 @@
           <p>
             The preview now mirrors a more capable version of ATCOR: richer
             triage stance, timezone-aware review, guided next actions, confidence
-            framing, and cleaner response packaging for analyst handoff.
+            framing, cleaner response packaging for analyst handoff, and
+            platform-aware external ingestion paths.
           </p>
         </div>
         <div class="workflow-lanes">
@@ -175,6 +178,46 @@
             <h3>Alert dashboard</h3>
             <p>Summarises severity, queue stance, timezone context, and analyst-ready next actions in one dashboard view.</p>
           </article>
+          <article>
+            <span>A6</span>
+            <h3>Platform adapters</h3>
+            <p>Supports external intake paths for exported alerts from platforms such as Wazuh, Splunk, and Google SecOps.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="preview-overview panel" id="latest-push">
+        <div>
+          <p class="eyebrow">LATEST PUSH / E078D7F</p>
+          <h2>External alert ingestion is now part of the tool story</h2>
+          <p>
+            The latest ATCOR push added external ingestion adapters and related
+            workflow updates, so this preview now highlights the tool as a broader
+            SOC intake and analysis assistant rather than only a manual alert
+            writeup helper.
+          </p>
+        </div>
+        <div class="workflow-lanes">
+          <article>
+            <span>R1</span>
+            <h3>External ingestion adapters</h3>
+            <p>Included ingestion scripts for Wazuh, Splunk, and Google SecOps so alert data can enter the workflow from external platform exports.</p>
+          </article>
+          <article>
+            <span>R2</span>
+            <h3>Sample alert exports</h3>
+            <p>Added example alert material to support testing, validation, and demonstration of the external ingestion path.</p>
+          </article>
+          <article>
+            <span>R3</span>
+            <h3>Docs and README refresh</h3>
+            <p>Updated project documentation so the feature set, setup path, and usage flow are clearer for anyone evaluating the tool.</p>
+          </article>
+          <article>
+            <span>R4</span>
+            <h3>Dashboard platform-follow buttons</h3>
+            <p>Extended the alert dashboard flow with platform-follow alert button changes so the review path better tracks the originating security platform.</p>
+          </article>
         </div>
       </section>
 
@@ -188,7 +231,7 @@
               <div>
                 <p class="eyebrow">REAL APP LOOK</p>
                 <h2>ATTCOR-CR - SOC Assistant</h2>
-                <p>Analyst-ready writeups, timezone-aware triage, full ATT&CK/STIX lookups, platform hunting queries, and response guidance.</p>
+                <p>Analyst-ready writeups, external alert ingestion, timezone-aware triage, full ATT&CK/STIX lookups, platform hunting queries, and response guidance.</p>
               </div>
             </div>
 
@@ -220,6 +263,10 @@
             <div class="form-preview-left app-card">
               <h3>1. Intake</h3>
               <p>Paste the alert, choose a case template if useful, and confirm the core fields before generating output.</p>
+              <label class="app-field">
+                Alert source
+                <span data-preview-output="appSource">Splunk exported alert</span>
+              </label>
               <label class="app-field">
                 Alert type template
                 <span data-preview-output="appTemplate">Downloaded from the internet</span>
@@ -279,6 +326,10 @@
                 Response-ready next actions
                 <span data-preview-output="appNextActions">Confirm user intent, collect child-process telemetry, and review any outbound connections from the host.</span>
               </label>
+              <div class="chip-row" aria-label="Platform follow actions">
+                <span data-preview-output="platformFollowPrimary">Follow in Splunk</span>
+                <span data-preview-output="platformFollowSecondary">Open source alert export</span>
+              </div>
               <label class="app-field">
                 External reputation summary (optional)
                 <span>Awaiting analyst validation before customer handoff.</span>
@@ -327,6 +378,16 @@
               <option value="splunk">Splunk</option>
               <option value="elastic">Elastic</option>
               <option value="crowdstrike">CrowdStrike</option>
+            </select>
+          </label>
+
+          <label>
+            Alert source
+            <select id="preview-source" name="source">
+              <option value="splunk">Splunk exported alert</option>
+              <option value="wazuh">Wazuh exported alert</option>
+              <option value="secops">Google SecOps exported alert</option>
+              <option value="manual">Manual analyst intake</option>
             </select>
           </label>
 
@@ -394,10 +455,18 @@
               <span>Local timezone</span>
               <strong data-preview-output="dashboardTimezone">Europe / London</strong>
             </div>
+            <div class="dashboard-metric">
+              <span>Alert source</span>
+              <strong data-preview-output="dashboardSource">Splunk exported alert</strong>
+            </div>
+            <div class="dashboard-metric">
+              <span>Platform follow</span>
+              <strong data-preview-output="dashboardFollow">Follow in Splunk</strong>
+            </div>
           </div>
           <div class="writeup-card">
             <p><strong data-preview-output="dashboardHeadline">Suspicious PowerShell activity needs validation before customer handoff.</strong></p>
-            <p data-preview-output="dashboardSummary">The dashboard pulls the intake, evidence quality, timezone delta, and response guidance into one fast analyst view.</p>
+            <p data-preview-output="dashboardSummary">The dashboard pulls the intake, evidence quality, timezone delta, source platform, and response guidance into one fast analyst view.</p>
           </div>
         </article>
 
@@ -456,6 +525,8 @@
             <span>Splunk</span>
             <span>Elastic</span>
             <span>Defender XDR</span>
+            <span>Wazuh</span>
+            <span>Google SecOps</span>
           </div>
         </article>
 
@@ -508,7 +579,7 @@
         </div>
         <div class="access-card">
           <h3>Core capabilities</h3>
-          <p>Customer-ready writeups, multi-platform hunting query bundles, ATT&CK-assisted triage, IOC extraction, timezone comparison, investigation stance guidance, remediation playbooks, evidence-quality scoring, and exports for handoff.</p>
+          <p>Customer-ready writeups, external alert ingestion adapters, multi-platform hunting query bundles, ATT&CK-assisted triage, IOC extraction, timezone comparison, investigation stance guidance, remediation playbooks, evidence-quality scoring, and exports for handoff.</p>
           <a class="button button-primary" href="https://github.com/GeorgiSharkov/ATCOR" target="_blank" rel="noreferrer">
             Open ATCOR repository
           </a>
@@ -517,6 +588,6 @@
     </main>
   </div>
 
-  <script src="script.js?v=20260601-4"></script>
+  <script src="script.js?v=20260602-1"></script>
 </body>
 </html>
