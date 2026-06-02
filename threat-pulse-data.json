@@ -1,309 +1,301 @@
 {
-    "title":  "CISA Catalog of Known Exploited Vulnerabilities",
-    "catalogVersion":  "2026.05.29",
-    "dateReleased":  "2026-05-29T19:00:06.3429Z",
-    "count":  1607,
-    "generatedAt":  "2026-06-01T16:17:39",
-    "vulnerabilities":  [
-                            {
-                                "cveID":  "CVE-2026-0257",
-                                "vendorProject":  "Palo Alto Networks",
-                                "product":  "PAN-OS",
-                                "vulnerabilityName":  "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
-                                "dateAdded":  "2026-05-29",
-                                "shortDescription":  "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-01",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://security.paloaltonetworks.com/CVE-2026-0257 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
-                                "cwes":  [
-                                             "CWE-565"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-8398",
-                                "vendorProject":  "Daemon",
-                                "product":  "Daemon Tools Lite",
-                                "vulnerabilityName":  "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-                                "dateAdded":  "2026-05-27",
-                                "shortDescription":  "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-05-30",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://blog.daemon-tools.cc/post/security-incident ; https://nvd.nist.gov/vuln/detail/CVE-2026-8398",
-                                "cwes":  [
-                                             "CWE-506"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-45321",
-                                "vendorProject":  "TanStack",
-                                "product":  "TanStack",
-                                "vulnerabilityName":  "TanStack Unspecified Vulnerability",
-                                "dateAdded":  "2026-05-27",
-                                "shortDescription":  "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-10",
-                                "knownRansomwareCampaignUse":  "Known",
-                                "notes":  "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx ; https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
-                                "cwes":  [
-
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-48027",
-                                "vendorProject":  "Nx",
-                                "product":  "Nx Console",
-                                "vulnerabilityName":  "Nx Console Embedded Malicious Code Vulnerability",
-                                "dateAdded":  "2026-05-27",
-                                "shortDescription":  "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-10",
-                                "knownRansomwareCampaignUse":  "Known",
-                                "notes":  "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w ; https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
-                                "cwes":  [
-                                             "CWE-506"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-48172",
-                                "vendorProject":  "LiteSpeed",
-                                "product":  "cPanel Plugin",
-                                "vulnerabilityName":  "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
-                                "dateAdded":  "2026-05-26",
-                                "shortDescription":  "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-05-29",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
-                                "cwes":  [
-                                             "CWE-266"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-9082",
-                                "vendorProject":  "Drupal",
-                                "product":  "Core",
-                                "vulnerabilityName":  "Drupal Core SQL Injection Vulnerability",
-                                "dateAdded":  "2026-05-22",
-                                "shortDescription":  "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-05-27",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://www.drupal.org/sa-core-2026-004 ; https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
-                                "cwes":  [
-                                             "CWE-89"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-34926",
-                                "vendorProject":  "Trend Micro",
-                                "product":  "Apex One",
-                                "vulnerabilityName":  "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-                                "dateAdded":  "2026-05-21",
-                                "shortDescription":  "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-04",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://success.trendmicro.com/en-US/solution/KA-0023430 ; https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
-                                "cwes":  [
-                                             "CWE-23"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2025-34291",
-                                "vendorProject":  "Langflow",
-                                "product":  "Langflow",
-                                "vulnerabilityName":  "Langflow Origin Validation Error Vulnerability",
-                                "dateAdded":  "2026-05-21",
-                                "shortDescription":  "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-04",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/langflow-ai/langflow ; https://github.com/langflow-ai/langflow/releases/tag/v1.9.3; https://github.com/langflow-ai/langflow/issues/11465#event-25774545848 ; https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
-                                "cwes":  [
-                                             "CWE-346"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2010-0806",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Internet Explorer",
-                                "vulnerabilityName":  "Microsoft Internet Explorer Use-After-Free Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/981374 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
-                                "cwes":  [
-                                             "CWE-399"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-41091",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Defender",
-                                "vulnerabilityName":  "Microsoft Defender Link Following Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41091 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
-                                "cwes":  [
-                                             "CWE-59"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-45498",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Defender",
-                                "vulnerabilityName":  "Microsoft Defender Denial of Service Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-45498 ; https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
-                                "cwes":  [
-
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2010-0249",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Internet Explorer",
-                                "vulnerabilityName":  "Microsoft Internet Explorer Use-After-Free Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2010/979352 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
-                                "cwes":  [
-                                             "CWE-416"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2008-4250",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Windows",
-                                "vulnerabilityName":  "Microsoft Windows Buffer Overflow Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067 ; https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
-                                "cwes":  [
-                                             "CWE-94"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2009-1537",
-                                "vendorProject":  "Microsoft",
-                                "product":  "DirectX",
-                                "vulnerabilityName":  "Microsoft DirectX NULL Byte Overwrite Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-028 ; https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
-                                "cwes":  [
-
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2009-3459",
-                                "vendorProject":  "Adobe",
-                                "product":  "Acrobat and Reader",
-                                "vulnerabilityName":  "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-                                "dateAdded":  "2026-05-20",
-                                "shortDescription":  "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-06-03",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://www.cisa.gov/news-events/alerts/2009/10/13/adobe-reader-and-acrobat-vulnerabilities ; https://web.archive.org/web/20120324170253/http://www.adobe.com/support/security/bulletins/apsb09-15.html#:~:text=CVE%2D2009%2D3459).-,NOTE%3A,-There%20are%20reports ; https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
-                                "cwes":  [
-                                             "CWE-119"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-42897",
-                                "vendorProject":  "Microsoft",
-                                "product":  "Microsoft",
-                                "vulnerabilityName":  "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
-                                "dateAdded":  "2026-05-15",
-                                "shortDescription":  "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-05-29",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897 ; https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service ; https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
-                                "cwes":  [
-                                             "CWE-79"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-20182",
-                                "vendorProject":  "Cisco",
-                                "product":  "Catalyst SD-WAN",
-                                "vulnerabilityName":  "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
-                                "dateAdded":  "2026-05-14",
-                                "shortDescription":  "Cisco Catalyst SD-WAN Controller \u0026 Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
-                                "requiredAction":  "Please adhere to CISA’s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA’s Emergency Directive 26-03 (URL listed below in Notes) and CISA’s Hunt \u0026 Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
-                                "dueDate":  "2026-05-17",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW ; https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
-                                "cwes":  [
-                                             "CWE-287"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-42208",
-                                "vendorProject":  "BerriAI",
-                                "product":  "LiteLLM",
-                                "vulnerabilityName":  "BerriAI LiteLLM SQL Injection Vulnerability",
-                                "dateAdded":  "2026-05-08",
-                                "shortDescription":  "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy\u0027s database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-05-11",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc ; https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-                                "cwes":  [
-                                             "CWE-89"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-6973",
-                                "vendorProject":  "Ivanti",
-                                "product":  "Endpoint Manager Mobile (EPMM)",
-                                "vulnerabilityName":  "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
-                                "dateAdded":  "2026-05-07",
-                                "shortDescription":  "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-                                "dueDate":  "2026-05-10",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-                                "cwes":  [
-                                             "CWE-20"
-                                         ]
-                            },
-                            {
-                                "cveID":  "CVE-2026-0300",
-                                "vendorProject":  "Palo Alto Networks",
-                                "product":  "PAN-OS",
-                                "vulnerabilityName":  "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
-                                "dateAdded":  "2026-05-06",
-                                "shortDescription":  "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.",
-                                "requiredAction":  "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
-                                "dueDate":  "2026-05-09",
-                                "knownRansomwareCampaignUse":  "Unknown",
-                                "notes":  "https://security.paloaltonetworks.com/CVE-2026-0300 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
-                                "cwes":  [
-                                             "CWE-787"
-                                         ]
-                            }
-                        ]
+  "title": "CISA Catalog of Known Exploited Vulnerabilities",
+  "catalogVersion": "2026.06.01",
+  "dateReleased": "2026-06-01T16:59:32.7272Z",
+  "count": 1608,
+  "generatedAt": "2026-06-02T10:56:37+00:00",
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2024-21182",
+      "vendorProject": "Oracle",
+      "product": "WebLogic Server",
+      "vulnerabilityName": "Oracle WebLogic Server Unspecified Vulnerability",
+      "dateAdded": "2026-06-01",
+      "shortDescription": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-04",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.oracle.com/security-alerts/cpujul2024.html ; https://nvd.nist.gov/vuln/detail/CVE-2024-21182",
+      "cwes": []
+    },
+    {
+      "cveID": "CVE-2026-0257",
+      "vendorProject": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "vulnerabilityName": "Palo Alto Networks PAN-OS Authentication Bypass Vulnerability",
+      "dateAdded": "2026-05-29",
+      "shortDescription": "Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-01",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://security.paloaltonetworks.com/CVE-2026-0257 ; https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
+      "cwes": [
+        "CWE-565"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-48027",
+      "vendorProject": "Nx",
+      "product": "Nx Console",
+      "vulnerabilityName": "Nx Console Embedded Malicious Code Vulnerability",
+      "dateAdded": "2026-05-27",
+      "shortDescription": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-10",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/nrwl/nx-console/security/advisories/GHSA-c9j4-9m59-847w ; https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
+      "cwes": [
+        "CWE-506"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-45321",
+      "vendorProject": "TanStack",
+      "product": "TanStack",
+      "vulnerabilityName": "TanStack Unspecified Vulnerability",
+      "dateAdded": "2026-05-27",
+      "shortDescription": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-10",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/TanStack/router/security/advisories/GHSA-g7cv-rxg3-hmpx ; https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
+      "cwes": []
+    },
+    {
+      "cveID": "CVE-2026-8398",
+      "vendorProject": "Daemon",
+      "product": "Daemon Tools Lite",
+      "vulnerabilityName": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+      "dateAdded": "2026-05-27",
+      "shortDescription": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-05-30",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://blog.daemon-tools.cc/post/security-incident ; https://nvd.nist.gov/vuln/detail/CVE-2026-8398",
+      "cwes": [
+        "CWE-506"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-48172",
+      "vendorProject": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "vulnerabilityName": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
+      "dateAdded": "2026-05-26",
+      "shortDescription": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-05-29",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
+      "cwes": [
+        "CWE-266"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-9082",
+      "vendorProject": "Drupal",
+      "product": "Core",
+      "vulnerabilityName": "Drupal Core SQL Injection Vulnerability",
+      "dateAdded": "2026-05-22",
+      "shortDescription": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-05-27",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.drupal.org/sa-core-2026-004 ; https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
+      "cwes": [
+        "CWE-89"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-34291",
+      "vendorProject": "Langflow",
+      "product": "Langflow",
+      "vulnerabilityName": "Langflow Origin Validation Error Vulnerability",
+      "dateAdded": "2026-05-21",
+      "shortDescription": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-04",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability could affect an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/langflow-ai/langflow ; https://github.com/langflow-ai/langflow/releases/tag/v1.9.3; https://github.com/langflow-ai/langflow/issues/11465#event-25774545848 ; https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
+      "cwes": [
+        "CWE-346"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-34926",
+      "vendorProject": "Trend Micro",
+      "product": "Apex One",
+      "vulnerabilityName": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
+      "dateAdded": "2026-05-21",
+      "shortDescription": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-04",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://success.trendmicro.com/en-US/solution/KA-0023430 ; https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
+      "cwes": [
+        "CWE-23"
+      ]
+    },
+    {
+      "cveID": "CVE-2008-4250",
+      "vendorProject": "Microsoft",
+      "product": "Windows",
+      "vulnerabilityName": "Microsoft Windows Buffer Overflow Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067 ; https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
+      "cwes": [
+        "CWE-94"
+      ]
+    },
+    {
+      "cveID": "CVE-2009-1537",
+      "vendorProject": "Microsoft",
+      "product": "DirectX",
+      "vulnerabilityName": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2009/ms09-028 ; https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
+      "cwes": []
+    },
+    {
+      "cveID": "CVE-2009-3459",
+      "vendorProject": "Adobe",
+      "product": "Acrobat and Reader",
+      "vulnerabilityName": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.cisa.gov/news-events/alerts/2009/10/13/adobe-reader-and-acrobat-vulnerabilities ; https://web.archive.org/web/20120324170253/http://www.adobe.com/support/security/bulletins/apsb09-15.html#:~:text=CVE%2D2009%2D3459).-,NOTE%3A,-There%20are%20reports ; https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
+      "cwes": [
+        "CWE-119"
+      ]
+    },
+    {
+      "cveID": "CVE-2010-0249",
+      "vendorProject": "Microsoft",
+      "product": "Internet Explorer",
+      "vulnerabilityName": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.microsoft.com/en-us/security-updates/SecurityAdvisories/2010/979352 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
+      "cwes": [
+        "CWE-416"
+      ]
+    },
+    {
+      "cveID": "CVE-2010-0806",
+      "vendorProject": "Microsoft",
+      "product": "Internet Explorer",
+      "vulnerabilityName": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://learn.microsoft.com/en-us/security-updates/securityadvisories/2010/981374 ; https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
+      "cwes": [
+        "CWE-399"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-41091",
+      "vendorProject": "Microsoft",
+      "product": "Defender",
+      "vulnerabilityName": "Microsoft Defender Link Following Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-41091 ; https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
+      "cwes": [
+        "CWE-59"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-45498",
+      "vendorProject": "Microsoft",
+      "product": "Defender",
+      "vulnerabilityName": "Microsoft Defender Denial of Service Vulnerability",
+      "dateAdded": "2026-05-20",
+      "shortDescription": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-03",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-45498 ; https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
+      "cwes": []
+    },
+    {
+      "cveID": "CVE-2026-42897",
+      "vendorProject": "Microsoft",
+      "product": "Microsoft",
+      "vulnerabilityName": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "dateAdded": "2026-05-15",
+      "shortDescription": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-05-29",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-42897 ; https://learn.microsoft.com/en-us/exchange/plan-and-deploy/post-installation-tasks/security-best-practices/exchange-emergency-mitigation-service ; https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+      "cwes": [
+        "CWE-79"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-20182",
+      "vendorProject": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "vulnerabilityName": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "dateAdded": "2026-05-14",
+      "shortDescription": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "dueDate": "2026-05-17",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW ; https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
+      "cwes": [
+        "CWE-287"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-42208",
+      "vendorProject": "BerriAI",
+      "product": "LiteLLM",
+      "vulnerabilityName": "BerriAI LiteLLM SQL Injection Vulnerability",
+      "dateAdded": "2026-05-08",
+      "shortDescription": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-05-11",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc ; https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
+      "cwes": [
+        "CWE-89"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-6973",
+      "vendorProject": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
+      "dateAdded": "2026-05-07",
+      "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-05-10",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
+      "cwes": [
+        "CWE-20"
+      ]
+    }
+  ]
 }
