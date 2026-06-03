@@ -1,10 +1,41 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2026.06.01",
-  "dateReleased": "2026-06-01T16:59:32.7272Z",
-  "count": 1608,
-  "generatedAt": "2026-06-02T10:56:37+00:00",
+  "catalogVersion": "2026.06.02",
+  "dateReleased": "2026-06-02T17:04:13.1193Z",
+  "count": 1610,
+  "generatedAt": "2026-06-03T11:24:12+00:00",
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2022-0492",
+      "vendorProject": "Linux",
+      "product": "Kernel",
+      "vulnerabilityName": "Linux Kernel Improper Authentication Vulnerability",
+      "dateAdded": "2026-06-02",
+      "shortDescription": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects a common open-source component, third-party library, or a protocol used by different products. Please check with specific vendors for information on patching status. For more information, please see: https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=24f6008564183aa120d07c03d9289519c2fe02af ; https://www.kernel.org/ ; https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
+      "cwes": [
+        "CWE-287",
+        "CWE-862"
+      ]
+    },
+    {
+      "cveID": "CVE-2025-48595",
+      "vendorProject": "Android",
+      "product": "Framework",
+      "vulnerabilityName": "Android Framework Integer Overflow Vulnerability",
+      "dateAdded": "2026-06-02",
+      "shortDescription": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "dueDate": "2026-06-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://source.android.com/docs/security/bulletin/2026/2026-06-01 ; https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
+      "cwes": [
+        "CWE-190"
+      ]
+    },
     {
       "cveID": "CVE-2024-21182",
       "vendorProject": "Oracle",
@@ -265,36 +296,6 @@
       "notes": "CISA Mitigation Instructions: https://www.cisa.gov/news-events/directives/ed-26-03-mitigate-vulnerabilities-cisco-sd-wan-systems ; https://www.cisa.gov/news-events/directives/supplemental-direction-ed-26-03-hunt-and-hardening-guidance-cisco-sd-wan-systems ; https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa2-v69WY2SW ; https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
       "cwes": [
         "CWE-287"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-42208",
-      "vendorProject": "BerriAI",
-      "product": "LiteLLM",
-      "vulnerabilityName": "BerriAI LiteLLM SQL Injection Vulnerability",
-      "dateAdded": "2026-05-08",
-      "shortDescription": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "dueDate": "2026-05-11",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://github.com/BerriAI/litellm/security/advisories/GHSA-r75f-5x8p-qvmc ; https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-      "cwes": [
-        "CWE-89"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-6973",
-      "vendorProject": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "vulnerabilityName": "Ivanti Endpoint Manager Mobile (EPMM) Improper Input Validation Vulnerability",
-      "dateAdded": "2026-05-07",
-      "shortDescription": "Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "dueDate": "2026-05-10",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://hub.ivanti.com/s/article/May-2026-Security-Advisory-Ivanti-Endpoint-Manager-Mobile-EPMM-Multiple-CVEs?language=en_US ; https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-      "cwes": [
-        "CWE-20"
       ]
     }
   ]
