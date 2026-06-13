@@ -1,10 +1,25 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2026.06.11",
-  "dateReleased": "2026-06-11T19:02:08.0715Z",
-  "count": 1618,
-  "generatedAt": "2026-06-12T10:40:51+00:00",
+  "catalogVersion": "2026.06.12",
+  "dateReleased": "2026-06-12T16:46:48.0549Z",
+  "count": 1619,
+  "generatedAt": "2026-06-13T09:35:50+00:00",
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-35273",
+      "vendorProject": "Oracle",
+      "product": " PeopleSoft Enterprise PeopleTools",
+      "vulnerabilityName": "Oracle PeopleSoft Enterprise PeopleTools Missing Authentication for Critical Function Vulnerability",
+      "dateAdded": "2026-06-12",
+      "shortDescription": "Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise PeopleTools.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-06-15",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "https://www.oracle.com/security-alerts/alert-cve-2026-35273.html ; https://support.oracle.com/signin/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
+      "cwes": [
+        "CWE-306"
+      ]
+    },
     {
       "cveID": "CVE-2026-10520",
       "vendorProject": "Ivanti",
@@ -287,21 +302,6 @@
       "notes": "https://success.trendmicro.com/en-US/solution/KA-0023430 ; https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
       "cwes": [
         "CWE-23"
-      ]
-    },
-    {
-      "cveID": "CVE-2008-4250",
-      "vendorProject": "Microsoft",
-      "product": "Windows",
-      "vulnerabilityName": "Microsoft Windows Buffer Overflow Vulnerability",
-      "dateAdded": "2026-05-20",
-      "shortDescription": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "dueDate": "2026-06-03",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://learn.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067 ; https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
-      "cwes": [
-        "CWE-94"
       ]
     }
   ]
