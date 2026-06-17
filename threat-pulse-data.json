@@ -1,10 +1,25 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2026.06.15",
-  "dateReleased": "2026-06-15T19:00:14.5797Z",
-  "count": 1621,
-  "generatedAt": "2026-06-16T11:36:40+00:00",
+  "catalogVersion": "2026.06.16",
+  "dateReleased": "2026-06-16T19:21:58.433Z",
+  "count": 1622,
+  "generatedAt": "2026-06-17T11:18:33+00:00",
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-48907",
+      "vendorProject": "Widget Factory",
+      "product": "Joomla Content Editor ",
+      "vulnerabilityName": "Widget Factory Joomla Content Editor Improper Access Control Vulnerability",
+      "dateAdded": "2026-06-16",
+      "shortDescription": "Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticated users. ",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-06-19",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://www.joomlacontenteditor.net/news/jce-security-update-and-a-free-patch-for-older-sites ; https://www.joomlacontenteditor.net/support/changelog/editor ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48907",
+      "cwes": [
+        "CWE-284"
+      ]
+    },
     {
       "cveID": "CVE-2026-54420",
       "vendorProject": "LiteSpeed",
@@ -287,21 +302,6 @@
       "notes": "https://blog.litespeedtech.com/2026/05/21/security-update-for-litespeed-cpanel-plugin/ ; https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
       "cwes": [
         "CWE-266"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-9082",
-      "vendorProject": "Drupal",
-      "product": "Core",
-      "vulnerabilityName": "Drupal Core SQL Injection Vulnerability",
-      "dateAdded": "2026-05-22",
-      "shortDescription": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "dueDate": "2026-05-27",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://www.drupal.org/sa-core-2026-004 ; https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
-      "cwes": [
-        "CWE-89"
       ]
     }
   ]
