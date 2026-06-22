@@ -6,7 +6,10 @@ from urllib.request import urlopen
 
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
-OUTPUT_PATH = Path(__file__).resolve().parents[1] / "threat-pulse-data.json"
+RADWARE_BASE_URL = "https://livethreatmap.radware.com/api/top/attacked?interval="
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT_PATH = ROOT / "threat-pulse-data.json"
+RADWARE_OUTPUT_PATH = ROOT / "radware-threat-map.json"
 ENTRY_LIMIT = 20
 
 
@@ -47,10 +50,29 @@ def build_snapshot(kev):
     }
 
 
+def fetch_radware(interval):
+    with urlopen(f"{RADWARE_BASE_URL}{interval}", timeout=30) as response:
+        return json.load(response)
+
+
+def build_radware_snapshot():
+    return {
+        "title": "Radware Live Threat Map Top Attacked Regions",
+        "source": "https://livethreatmap.radware.com/",
+        "generatedAt": datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+        "intervals": {
+            "hour": fetch_radware("hour"),
+            "day": fetch_radware("day"),
+        },
+    }
+
+
 def main():
     kev = fetch_kev()
     snapshot = build_snapshot(kev)
+    radware_snapshot = build_radware_snapshot()
     OUTPUT_PATH.write_text(json.dumps(snapshot, indent=2) + "\n", encoding="utf-8")
+    RADWARE_OUTPUT_PATH.write_text(json.dumps(radware_snapshot, indent=2) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

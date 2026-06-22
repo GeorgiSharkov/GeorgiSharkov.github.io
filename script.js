@@ -530,9 +530,14 @@ if (threatPulseRoot) {
   const radwareUpdated = document.querySelector("[data-threat-radware-updated]");
   const radwareBadge = document.querySelector("[data-threat-radware-badge]");
   const radwareButtons = Array.from(document.querySelectorAll("[data-threat-radware-interval]"));
+  const radwareMap = document.querySelector("[data-threat-radware-map]");
+  const radwareWindow = document.querySelector("[data-threat-radware-window]");
+  const radwareTopRegion = document.querySelector("[data-threat-radware-top-region]");
+  const radwareRegionCount = document.querySelector("[data-threat-radware-region-count]");
+  const radwareTotal = document.querySelector("[data-threat-radware-total]");
   const kevUrl = "threat-pulse-data.json";
+  const radwareSnapshotUrl = "radware-threat-map.json";
   const epssUrl = "https://api.first.org/data/v1/epss?cve=";
-  const radwareUrl = "https://livethreatmap.radware.com/api/top/attacked?interval=";
   const filterState = {
     vendor: "all",
     priority: "all",
@@ -543,9 +548,57 @@ if (threatPulseRoot) {
     interval: "hour",
   };
   let allEntries = [];
+  let epssOverlayAvailable = false;
+  let radwareSnapshot = null;
   const regionNames = typeof Intl.DisplayNames === "function"
     ? new Intl.DisplayNames(["en"], { type: "region" })
     : null;
+  const radwareFallbackSnapshot = {
+    title: "Radware Live Threat Map Top Attacked Regions",
+    generatedAt: "2026-06-22T20:49:24Z",
+    source: "https://livethreatmap.radware.com/",
+    intervals: {
+      hour: [
+        { name: "US", value: 7 },
+        { name: "BR", value: 5 },
+        { name: "IN", value: 4 },
+        { name: "IT", value: 3 },
+        { name: "JP", value: 3 },
+      ],
+      day: [
+        { name: "US", value: 7 },
+        { name: "BR", value: 5 },
+        { name: "IN", value: 3 },
+        { name: "JP", value: 3 },
+        { name: "AU", value: 3 },
+      ],
+    },
+  };
+  const regionCoordinates = {
+    US: { x: 108, y: 108 },
+    CA: { x: 95, y: 78 },
+    MX: { x: 120, y: 142 },
+    BR: { x: 180, y: 180 },
+    AR: { x: 172, y: 220 },
+    GB: { x: 270, y: 82 },
+    IE: { x: 257, y: 83 },
+    FR: { x: 281, y: 96 },
+    DE: { x: 296, y: 90 },
+    IT: { x: 305, y: 110 },
+    ES: { x: 268, y: 108 },
+    NL: { x: 289, y: 82 },
+    PL: { x: 315, y: 86 },
+    TR: { x: 342, y: 111 },
+    AE: { x: 368, y: 126 },
+    SA: { x: 352, y: 138 },
+    ZA: { x: 336, y: 215 },
+    IN: { x: 390, y: 132 },
+    SG: { x: 433, y: 168 },
+    JP: { x: 478, y: 112 },
+    KR: { x: 462, y: 104 },
+    CN: { x: 432, y: 112 },
+    AU: { x: 470, y: 206 },
+  };
 
   const escapeHtml = (value) => String(value ?? "")
     .replaceAll("&", "&amp;")
@@ -605,19 +658,70 @@ if (threatPulseRoot) {
     }
   };
 
+  const getRadwareCoordinates = (code, index) => {
+    if (regionCoordinates[code]) {
+      return regionCoordinates[code];
+    }
+
+    return {
+      x: 100 + (index * 64) % 360,
+      y: 70 + (index * 34) % 120,
+    };
+  };
+
+  const renderRadwareIdleMap = (label = "Snapshot standby") => {
+    if (!radwareMap) {
+      return;
+    }
+
+    radwareMap.innerHTML = `
+      <defs>
+        <linearGradient id="threat-map-scan" x1="0%" x2="100%" y1="0%" y2="0%">
+          <stop offset="0%" stop-color="#59f3ff" stop-opacity="0" />
+          <stop offset="50%" stop-color="#59f3ff" stop-opacity="0.22" />
+          <stop offset="100%" stop-color="#59f3ff" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      ${[0, 1, 2, 3, 4, 5].map((item) => `<line class="map-grid-line" x1="${80 + item * 80}" y1="24" x2="${80 + item * 80}" y2="236"></line>`).join("")}
+      ${[0, 1, 2, 3].map((item) => `<line class="map-grid-line" x1="24" y1="${58 + item * 42}" x2="536" y2="${58 + item * 42}"></line>`).join("")}
+      <path class="map-contour" d="M58 94 L110 62 L160 78 L178 110 L135 128 L82 118 Z"></path>
+      <path class="map-contour" d="M190 78 L236 62 L275 74 L282 102 L248 114 L198 108 Z"></path>
+      <path class="map-contour" d="M286 88 L350 72 L424 84 L460 112 L430 132 L346 126 L294 112 Z"></path>
+      <path class="map-contour" d="M426 182 L470 170 L496 190 L482 214 L436 214 L416 196 Z"></path>
+      <circle class="map-core-ring" cx="280" cy="130" r="18"></circle>
+      <circle class="map-core" cx="280" cy="130" r="4"></circle>
+      <rect class="map-scan" x="-180" y="0" width="180" height="260"></rect>
+      <text class="map-label" x="28" y="30">${escapeHtml(label)}</text>
+      <text class="map-value" x="28" y="48">Waiting for attack-region snapshot</text>
+    `;
+  };
+
   const setRadwareLoadingState = () => {
     if (!radwareBadge || !radwareUpdated || !radwareGrid) {
       return;
     }
 
-    radwareBadge.textContent = "Checking Radware";
+    radwareBadge.textContent = "Loading snapshot";
     radwareBadge.classList.remove("is-ok", "is-warning");
-    radwareUpdated.textContent = "Refreshing regional board";
+    radwareUpdated.textContent = "Refreshing local attack-region snapshot";
+    if (radwareWindow) {
+      radwareWindow.textContent = radwareState.interval === "hour" ? "Last hour snapshot" : "Last day snapshot";
+    }
+    if (radwareTopRegion) {
+      radwareTopRegion.textContent = "Loading";
+    }
+    if (radwareRegionCount) {
+      radwareRegionCount.textContent = "Loading";
+    }
+    if (radwareTotal) {
+      radwareTotal.textContent = "Loading";
+    }
+    renderRadwareIdleMap("Loading snapshot");
     radwareGrid.innerHTML = `
       <article class="info-card threat-live-placeholder">
-        <span class="card-tag">LIVE / REGION</span>
+        <span class="card-tag">SNAPSHOT / REGION</span>
         <h3>Collecting regional pressure view</h3>
-        <p>The board is querying Radware for the latest attacked-region distribution.</p>
+        <p>The board is loading the latest attacked-region snapshot for this window.</p>
       </article>
     `;
   };
@@ -631,13 +735,23 @@ if (threatPulseRoot) {
     radwareBadge.classList.remove("is-ok");
     radwareBadge.classList.add("is-warning");
     radwareUpdated.textContent = message;
+    if (radwareTopRegion) {
+      radwareTopRegion.textContent = "Snapshot retry";
+    }
+    if (radwareRegionCount) {
+      radwareRegionCount.textContent = "Unavailable";
+    }
+    if (radwareTotal) {
+      radwareTotal.textContent = "Unavailable";
+    }
+    renderRadwareIdleMap("Snapshot retry");
     radwareGrid.innerHTML = `
       <article class="info-card threat-live-placeholder">
-        <span class="card-tag">LIVE / RETRY</span>
-        <h3>Regional attack board unavailable right now</h3>
+        <span class="card-tag">SNAPSHOT / RETRY</span>
+        <h3>Regional attack snapshot unavailable right now</h3>
         <p>
-          Radware's public feed did not answer during this attempt. Open the live map
-          directly and retry the board shortly.
+          The latest stored region snapshot could not be loaded during this attempt.
+          The live map link is still available while the local capture refreshes.
         </p>
         <div class="threat-links">
           <a href="https://livethreatmap.radware.com/" target="_blank" rel="noreferrer">Open Radware live map</a>
@@ -655,6 +769,51 @@ if (threatPulseRoot) {
     });
   };
 
+  const renderRadwareMap = (entries) => {
+    if (!radwareMap) {
+      return;
+    }
+
+    const items = entries.slice(0, 5);
+
+    radwareMap.innerHTML = `
+      <defs>
+        <linearGradient id="threat-map-scan" x1="0%" x2="100%" y1="0%" y2="0%">
+          <stop offset="0%" stop-color="#59f3ff" stop-opacity="0" />
+          <stop offset="50%" stop-color="#59f3ff" stop-opacity="0.22" />
+          <stop offset="100%" stop-color="#59f3ff" stop-opacity="0" />
+        </linearGradient>
+      </defs>
+      ${[0, 1, 2, 3, 4, 5].map((item) => `<line class="map-grid-line" x1="${80 + item * 80}" y1="24" x2="${80 + item * 80}" y2="236"></line>`).join("")}
+      ${[0, 1, 2, 3].map((item) => `<line class="map-grid-line" x1="24" y1="${58 + item * 42}" x2="536" y2="${58 + item * 42}"></line>`).join("")}
+      <path class="map-contour" d="M58 94 L110 62 L160 78 L178 110 L135 128 L82 118 Z"></path>
+      <path class="map-contour" d="M190 78 L236 62 L275 74 L282 102 L248 114 L198 108 Z"></path>
+      <path class="map-contour" d="M286 88 L350 72 L424 84 L460 112 L430 132 L346 126 L294 112 Z"></path>
+      <path class="map-contour" d="M426 182 L470 170 L496 190 L482 214 L436 214 L416 196 Z"></path>
+      <circle class="map-core-ring" cx="280" cy="130" r="18"></circle>
+      <circle class="map-core" cx="280" cy="130" r="4"></circle>
+      <rect class="map-scan" x="-180" y="0" width="180" height="260"></rect>
+      ${items.map((entry, index) => {
+        const code = String(entry.name || "").toUpperCase();
+        const point = getRadwareCoordinates(code, index);
+        const curveX = 280 + (point.x - 280) * 0.48;
+        const curveY = point.y < 130 ? point.y - 26 : point.y + 22;
+
+        return `
+          <path
+            class="map-arc"
+            d="M280 130 Q ${curveX} ${curveY} ${point.x} ${point.y}"
+            style="animation-delay: ${index * 0.35}s"
+          ></path>
+          <circle class="map-ping" cx="${point.x}" cy="${point.y}" r="${13 + index * 1.4}" style="animation-delay: ${index * 0.22}s"></circle>
+          <circle class="map-node" cx="${point.x}" cy="${point.y}" r="${4.2 + Math.max(0, 4 - index) * 0.28}"></circle>
+          <text class="map-label" x="${point.x + 8}" y="${point.y - 10}">${escapeHtml(code)}</text>
+          <text class="map-value" x="${point.x + 8}" y="${point.y + 8}">${escapeHtml(String(entry.value || 0))}</text>
+        `;
+      }).join("")}
+    `;
+  };
+
   const renderRadwareEntries = (entries) => {
     if (!radwareGrid) {
       return;
@@ -666,6 +825,29 @@ if (threatPulseRoot) {
     }
 
     const maxValue = Math.max(...entries.map((entry) => Number(entry.value || 0)), 1);
+    const topEntry = entries[0];
+    const totalObservations = entries.reduce(
+      (sum, entry) => sum + Number(entry.value || 0),
+      0
+    );
+
+    if (radwareWindow) {
+      radwareWindow.textContent = radwareState.interval === "hour" ? "Last hour snapshot" : "Last day snapshot";
+    }
+
+    if (radwareTopRegion) {
+      radwareTopRegion.textContent = `${getRegionLabel(topEntry.name)} (${topEntry.value})`;
+    }
+
+    if (radwareRegionCount) {
+      radwareRegionCount.textContent = `${entries.length} regions`;
+    }
+
+    if (radwareTotal) {
+      radwareTotal.textContent = `${totalObservations} observations`;
+    }
+
+    renderRadwareMap(entries);
 
     radwareGrid.innerHTML = entries
       .slice(0, 6)
@@ -679,9 +861,9 @@ if (threatPulseRoot) {
           <article class="info-card threat-live-region">
             <div class="threat-live-region-top">
               <div>
-                <span class="card-tag">${escapeHtml(code || "N/A")}</span>
+              <span class="card-tag">${escapeHtml(code || "N/A")}</span>
                 <h3>${escapeHtml(label)}</h3>
-                <p>Ranked from Radware live telemetry for the active window.</p>
+                <p>Captured in the stored Radware snapshot for the active window.</p>
               </div>
               <span class="threat-live-rank">#${index + 1}</span>
             </div>
@@ -709,23 +891,34 @@ if (threatPulseRoot) {
     setRadwareLoadingState();
 
     try {
-      const response = await fetch(`${radwareUrl}${encodeURIComponent(interval)}`, {
+      const response = await fetch(radwareSnapshotUrl, {
         cache: "no-store",
       });
 
       if (!response.ok) {
-        throw new Error(`Radware feed returned ${response.status}`);
+        throw new Error(`Radware snapshot returned ${response.status}`);
       }
 
-      const data = await response.json();
+      radwareSnapshot = await response.json();
+    } catch (error) {
+      console.error(error);
+      radwareSnapshot = radwareFallbackSnapshot;
+    }
 
-      radwareBadge.textContent = "Live / Radware";
+    try {
+      const data = radwareSnapshot?.intervals?.[radwareState.interval] || [];
+
+      if (!data.length) {
+        throw new Error("No snapshot entries available for the selected interval");
+      }
+
+      radwareBadge.textContent = radwareSnapshot === radwareFallbackSnapshot ? "Fallback snapshot" : "Snapshot ready";
       radwareBadge.classList.remove("is-warning");
       radwareBadge.classList.add("is-ok");
-      radwareUpdated.textContent = `Updated ${formatTime(new Date().toISOString())} / source: Radware`;
+      radwareUpdated.textContent = `Updated ${formatTime(radwareSnapshot.generatedAt)} / source: Radware`;
       renderRadwareEntries(Array.isArray(data) ? data : []);
     } catch (error) {
-      setRadwareWarningState("Retry needed for the live regional board");
+      setRadwareWarningState("Retry needed for the local region snapshot");
       console.error(error);
     }
   };
@@ -798,7 +991,9 @@ if (threatPulseRoot) {
     pulseTrendWeek.textContent = `${thisWeekCount}`;
     pulseTrendRansomware.textContent = `${ransomwareCount}`;
     pulseTrendVendor.textContent = topVendor ? `${topVendor[0]} (${topVendor[1]})` : "None";
-    pulseTrendEpss.textContent = entries.length ? `${(highestEpss * 100).toFixed(2)}%` : "0%";
+    pulseTrendEpss.textContent = epssOverlayAvailable
+      ? (entries.length ? `${(highestEpss * 100).toFixed(2)}%` : "0%")
+      : "Overlay retry";
   };
 
   const applyFilters = () => allEntries.filter((entry) => {
@@ -875,8 +1070,13 @@ if (threatPulseRoot) {
 
   const renderPulseCard = (entry) => {
     const priority = getPriority(entry);
-    const epssPercent = `${(Number(entry.epss || 0) * 100).toFixed(2)}%`;
-    const percentileValue = `${(Number(entry.percentile || 0) * 100).toFixed(1)}th percentile`;
+    const hasEpss = entry.epss !== undefined && entry.percentile !== undefined;
+    const epssPercent = hasEpss
+      ? `${(Number(entry.epss || 0) * 100).toFixed(2)}%`
+      : "Retry";
+    const percentileValue = hasEpss
+      ? `${(Number(entry.percentile || 0) * 100).toFixed(1)}th percentile`
+      : "EPSS pending";
     const links = extractLinks(entry.notes);
 
     return `
@@ -924,14 +1124,26 @@ if (threatPulseRoot) {
         .sort((left, right) => new Date(right.dateAdded) - new Date(left.dateAdded))
         .slice(0, 8);
       const cveBatch = recentEntries.map((entry) => entry.cveID).join(",");
-      const epssResponse = await fetch(`${epssUrl}${encodeURIComponent(cveBatch)}`);
+      let epssByCve = new Map();
 
-      if (!epssResponse.ok) {
-        throw new Error(`EPSS feed returned ${epssResponse.status}`);
+      epssOverlayAvailable = false;
+
+      try {
+        const epssResponse = await fetch(`${epssUrl}${encodeURIComponent(cveBatch)}`, {
+          cache: "no-store",
+        });
+
+        if (!epssResponse.ok) {
+          throw new Error(`EPSS feed returned ${epssResponse.status}`);
+        }
+
+        const epssData = await epssResponse.json();
+        epssByCve = new Map((epssData.data || []).map((entry) => [entry.cve, entry]));
+        epssOverlayAvailable = epssByCve.size > 0;
+      } catch (epssError) {
+        console.error(epssError);
       }
 
-      const epssData = await epssResponse.json();
-      const epssByCve = new Map((epssData.data || []).map((entry) => [entry.cve, entry]));
       const priorityOrder = { Critical: 3, High: 2, Watch: 1 };
       allEntries = recentEntries
         .map((entry) => ({
@@ -954,10 +1166,20 @@ if (threatPulseRoot) {
       pulseRelease.textContent = formatRelease(kevData.dateReleased);
       pulseCount.textContent = `${kevData.count || kevData.vulnerabilities.length}`;
       pulseGenerated.textContent = formatRelease(kevData.generatedAt || kevData.dateReleased);
-      pulseEpssStatus.textContent = "Live and healthy";
-      pulseHealthBadge.textContent = "Feeds healthy";
-      pulseHealthBadge.classList.add("is-ok");
-      pulseStatus.textContent = "Threat Pulse is using a fresh official CISA KEV snapshot with live FIRST EPSS overlay. Use it to spot fresh exploitation signal, patch pressure, and where hunting effort likely pays off first.";
+      pulseHealthBadge.classList.remove("is-warning", "is-ok");
+
+      if (epssOverlayAvailable) {
+        pulseEpssStatus.textContent = "Live and healthy";
+        pulseHealthBadge.textContent = "Feeds healthy";
+        pulseHealthBadge.classList.add("is-ok");
+        pulseStatus.textContent = "Threat Pulse is using a fresh official CISA KEV snapshot with live FIRST EPSS overlay. Use it to spot fresh exploitation signal, patch pressure, and where hunting effort likely pays off first.";
+      } else {
+        pulseEpssStatus.textContent = "Overlay retry";
+        pulseHealthBadge.textContent = "KEV live / EPSS retry";
+        pulseHealthBadge.classList.add("is-warning");
+        pulseStatus.textContent = "Threat Pulse is still using a fresh official CISA KEV snapshot. The EPSS overlay is temporarily unavailable, so the feed remains usable with KEV-led prioritisation while the live overlay retries.";
+      }
+
       renderVisibleEntries(applyFilters());
     } catch (error) {
       pulseStatus.textContent = "The live pulse feed could not load right now. The page sources remain valid, but the remote data request needs another try.";
@@ -966,6 +1188,7 @@ if (threatPulseRoot) {
       pulseVisibleCount.textContent = "0 shown";
       pulseFilterState.textContent = "Unavailable";
       pulseHealthBadge.textContent = "Source warning";
+      pulseHealthBadge.classList.remove("is-ok");
       pulseHealthBadge.classList.add("is-warning");
       pulseTrendWeek.textContent = "Unavailable";
       pulseTrendRansomware.textContent = "Unavailable";

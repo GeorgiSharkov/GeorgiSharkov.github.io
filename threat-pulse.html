@@ -232,14 +232,45 @@
             spikes against daily pressure, and add quick geographic context to triage.
           </p>
           <div class="threat-live-status">
-            <span class="pulse-live-indicator" data-threat-radware-badge>Checking Radware</span>
-            <span data-threat-radware-updated>Awaiting first pull</span>
+            <span class="pulse-live-indicator" data-threat-radware-badge>Loading snapshot</span>
+            <span data-threat-radware-updated>Awaiting local snapshot</span>
+          </div>
+          <div class="threat-live-stage">
+            <article class="panel threat-live-map-shell">
+              <div class="threat-live-map-head">
+                <span class="card-tag">MINI MAP / PRESSURE FLOW</span>
+                <strong data-threat-radware-window>Last hour snapshot</strong>
+              </div>
+              <div class="threat-live-map-frame">
+                <svg
+                  class="threat-live-mini-map"
+                  data-threat-radware-map
+                  viewBox="0 0 560 260"
+                  role="img"
+                  aria-label="Miniature live attack map"
+                ></svg>
+              </div>
+            </article>
+            <div class="threat-live-metrics">
+              <article class="support-card threat-live-metric">
+                <span>Top hotspot</span>
+                <strong data-threat-radware-top-region>Loading</strong>
+              </article>
+              <article class="support-card threat-live-metric">
+                <span>Tracked regions</span>
+                <strong data-threat-radware-region-count>Loading</strong>
+              </article>
+              <article class="support-card threat-live-metric">
+                <span>Total pressure</span>
+                <strong data-threat-radware-total>Loading</strong>
+              </article>
+            </div>
           </div>
           <div class="threat-live-region-grid" data-threat-radware-grid aria-live="polite">
             <article class="info-card threat-live-placeholder">
-              <span class="card-tag">LIVE / REGION</span>
-              <h3>Collecting live attack distribution</h3>
-              <p>The regional board is querying Radware now.</p>
+              <span class="card-tag">SNAPSHOT / REGION</span>
+              <h3>Collecting regional pressure view</h3>
+              <p>The board is preparing the latest attacked-region snapshot.</p>
             </article>
           </div>
         </article>
@@ -412,6 +443,6 @@
     </footer>
   </div>
 
-  <script src="script.js?v=20260602-1"></script>
+  <script src="script.js?v=20260622-2"></script>
 </body>
 </html>
