@@ -535,8 +535,9 @@ if (threatPulseRoot) {
   const radwareTopRegion = document.querySelector("[data-threat-radware-top-region]");
   const radwareRegionCount = document.querySelector("[data-threat-radware-region-count]");
   const radwareTotal = document.querySelector("[data-threat-radware-total]");
-  const kevUrl = "threat-pulse-data.json";
-  const radwareSnapshotUrl = "radware-threat-map.json";
+  const localFeedVersion = "20260622-3";
+  const kevUrl = `threat-pulse-data.json?v=${localFeedVersion}`;
+  const radwareSnapshotUrl = `radware-threat-map.json?v=${localFeedVersion}`;
   const epssUrl = "https://api.first.org/data/v1/epss?cve=";
   const filterState = {
     vendor: "all",
@@ -1113,7 +1114,9 @@ if (threatPulseRoot) {
 
   const loadThreatPulse = async () => {
     try {
-      const kevResponse = await fetch(kevUrl);
+      const kevResponse = await fetch(kevUrl, {
+        cache: "no-store",
+      });
 
       if (!kevResponse.ok) {
         throw new Error(`KEV feed returned ${kevResponse.status}`);
