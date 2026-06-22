@@ -701,7 +701,8 @@ h2 {
 .threat-summary,
 .threat-grid,
 .threat-dashboard,
-.threat-trends {
+.threat-trends,
+.threat-live-board {
   position: relative;
   z-index: 1;
 }
@@ -839,6 +840,191 @@ h2 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 16px;
   margin-bottom: 24px;
+}
+
+.threat-live-board {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.threat-live-card,
+.threat-live-sidecard {
+  padding: 26px;
+}
+
+.threat-live-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+
+.threat-live-copy {
+  margin: 0 0 18px;
+  max-width: 62ch;
+  color: rgba(231, 242, 255, 0.88);
+}
+
+.threat-live-controls {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.threat-live-button {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(88, 232, 255, 0.18);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  font: 700 0.86rem "Orbitron", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.threat-live-button:hover,
+.threat-live-button:focus-visible,
+.threat-live-button.is-active {
+  border-color: rgba(88, 232, 255, 0.42);
+  background: rgba(88, 232, 255, 0.14);
+  color: var(--cyan);
+  transform: translateY(-1px);
+}
+
+.threat-live-status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 18px;
+  color: var(--muted);
+}
+
+.threat-live-region-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.threat-live-region {
+  display: grid;
+  gap: 14px;
+  padding: 18px;
+  min-height: 212px;
+}
+
+.threat-live-region-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.threat-live-rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 34px;
+  min-height: 34px;
+  padding: 0 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 68, 95, 0.28);
+  background: rgba(255, 68, 95, 0.12);
+  color: #ffd7e2;
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.threat-live-region h3 {
+  margin: 0;
+  font-size: 1.08rem;
+}
+
+.threat-live-region p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.threat-live-value {
+  color: var(--text);
+  font-size: clamp(1.55rem, 2.8vw, 2.2rem);
+  line-height: 1;
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 0.04em;
+}
+
+.threat-live-bar {
+  position: relative;
+  overflow: hidden;
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(88, 232, 255, 0.12);
+}
+
+.threat-live-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(88, 232, 255, 0.42), rgba(255, 68, 95, 0.72));
+  box-shadow: 0 0 18px rgba(88, 232, 255, 0.18);
+}
+
+.threat-live-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.threat-live-placeholder {
+  min-height: 220px;
+}
+
+.threat-live-sidegrid {
+  display: grid;
+  gap: 14px;
+  margin: 18px 0 22px;
+}
+
+.threat-live-sideitem {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(89, 243, 255, 0.1);
+}
+
+.threat-live-sideitem span {
+  color: var(--cyan);
+  font-family: "Orbitron", sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.threat-live-sideitem strong {
+  color: var(--text);
+  line-height: 1.45;
+}
+
+.threat-live-sidecard .threat-links {
+  margin-top: auto;
 }
 
 .threat-trend-card h3 {
@@ -1624,6 +1810,7 @@ h2 {
   .threat-summary,
   .threat-dashboard,
   .threat-trends,
+  .threat-live-board,
   .threat-grid,
   .skill-cluster,
   .capability-grid,
@@ -1664,7 +1851,8 @@ h2 {
   }
 
   .threat-filter-form,
-  .threat-meta {
+  .threat-meta,
+  .threat-live-region-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1721,6 +1909,8 @@ h2 {
   .footer,
   .threat-health-card,
   .threat-filter-card,
+  .threat-live-card,
+  .threat-live-sidecard,
   .soc-utility-strip,
   .preview-hero,
   .preview-overview,
@@ -1743,6 +1933,13 @@ h2 {
     height: 56px !important;
     max-width: 56px;
     max-height: 56px;
+  }
+
+  .threat-live-head,
+  .threat-live-status,
+  .threat-live-meta {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .hero-brandboard {

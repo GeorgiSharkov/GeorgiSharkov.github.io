@@ -202,6 +202,71 @@
         </article>
       </section>
 
+      <section class="threat-live-board">
+        <article class="panel threat-live-card">
+          <div class="threat-live-head">
+            <div>
+              <p class="eyebrow">LIVE REGIONAL ATTACKS</p>
+              <h2>Current attacks by region</h2>
+            </div>
+            <div class="threat-live-controls" role="group" aria-label="Live attack interval">
+              <button
+                class="threat-live-button is-active"
+                type="button"
+                data-threat-radware-interval="hour"
+              >
+                Last hour
+              </button>
+              <button
+                class="threat-live-button"
+                type="button"
+                data-threat-radware-interval="day"
+              >
+                Last day
+              </button>
+            </div>
+          </div>
+          <p class="threat-live-copy">
+            Regional pressure board sourced from Radware's public Live Threat Map.
+            Use it to spot where attack concentration is building, compare short-window
+            spikes against daily pressure, and add quick geographic context to triage.
+          </p>
+          <div class="threat-live-status">
+            <span class="pulse-live-indicator" data-threat-radware-badge>Checking Radware</span>
+            <span data-threat-radware-updated>Awaiting first pull</span>
+          </div>
+          <div class="threat-live-region-grid" data-threat-radware-grid aria-live="polite">
+            <article class="info-card threat-live-placeholder">
+              <span class="card-tag">LIVE / REGION</span>
+              <h3>Collecting live attack distribution</h3>
+              <p>The regional board is querying Radware now.</p>
+            </article>
+          </div>
+        </article>
+
+        <article class="panel threat-live-sidecard">
+          <p class="eyebrow">OPERATOR NOTES</p>
+          <h2>How to use the regional board</h2>
+          <div class="threat-live-sidegrid">
+            <div class="threat-live-sideitem">
+              <span>Immediate view</span>
+              <strong>Use the hourly window to catch sharp clustering around active campaigns.</strong>
+            </div>
+            <div class="threat-live-sideitem">
+              <span>Pattern check</span>
+              <strong>Compare with the daily window to separate a brief spike from sustained pressure.</strong>
+            </div>
+            <div class="threat-live-sideitem">
+              <span>Analyst pivot</span>
+              <strong>Pivot into external exposure, region-linked telemetry, and customer-ready narrative.</strong>
+            </div>
+          </div>
+          <div class="threat-links">
+            <a href="https://livethreatmap.radware.com/" target="_blank" rel="noreferrer">Open Radware live map</a>
+          </div>
+        </article>
+      </section>
+
       <section class="signal panel threat-intro" id="feed">
         <div>
           <p class="eyebrow">PULSE FEED</p>

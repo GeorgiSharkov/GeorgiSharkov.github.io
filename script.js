@@ -526,15 +526,33 @@ if (threatPulseRoot) {
   const pulseTrendVendor = document.querySelector("[data-threat-trend-vendor]");
   const pulseTrendEpss = document.querySelector("[data-threat-trend-epss]");
   const filterForm = document.querySelector("[data-threat-filter-form]");
+  const radwareGrid = document.querySelector("[data-threat-radware-grid]");
+  const radwareUpdated = document.querySelector("[data-threat-radware-updated]");
+  const radwareBadge = document.querySelector("[data-threat-radware-badge]");
+  const radwareButtons = Array.from(document.querySelectorAll("[data-threat-radware-interval]"));
   const kevUrl = "threat-pulse-data.json";
   const epssUrl = "https://api.first.org/data/v1/epss?cve=";
+  const radwareUrl = "https://livethreatmap.radware.com/api/top/attacked?interval=";
   const filterState = {
     vendor: "all",
     priority: "all",
     ransomware: "all",
     window: "all",
   };
+  const radwareState = {
+    interval: "hour",
+  };
   let allEntries = [];
+  const regionNames = typeof Intl.DisplayNames === "function"
+    ? new Intl.DisplayNames(["en"], { type: "region" })
+    : null;
+
+  const escapeHtml = (value) => String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
 
   const formatDate = (value) => {
     if (!value) {
@@ -557,9 +575,159 @@ if (threatPulseRoot) {
     }).format(new Date(value));
   };
 
+  const formatTime = (value) => {
+    if (!value) {
+      return "Unknown";
+    }
+
+    return new Intl.DateTimeFormat("en-GB", {
+      dateStyle: "medium",
+      timeStyle: "short",
+    }).format(new Date(value));
+  };
+
   const daysBetween = (value) => {
     const ms = Date.now() - new Date(value).getTime();
     return Math.floor(ms / 86400000);
+  };
+
+  const getRegionLabel = (value) => {
+    const code = String(value || "").toUpperCase();
+
+    if (!code) {
+      return "Unknown region";
+    }
+
+    try {
+      return regionNames?.of(code) || code;
+    } catch (error) {
+      return code;
+    }
+  };
+
+  const setRadwareLoadingState = () => {
+    if (!radwareBadge || !radwareUpdated || !radwareGrid) {
+      return;
+    }
+
+    radwareBadge.textContent = "Checking Radware";
+    radwareBadge.classList.remove("is-ok", "is-warning");
+    radwareUpdated.textContent = "Refreshing regional board";
+    radwareGrid.innerHTML = `
+      <article class="info-card threat-live-placeholder">
+        <span class="card-tag">LIVE / REGION</span>
+        <h3>Collecting regional pressure view</h3>
+        <p>The board is querying Radware for the latest attacked-region distribution.</p>
+      </article>
+    `;
+  };
+
+  const setRadwareWarningState = (message) => {
+    if (!radwareBadge || !radwareUpdated || !radwareGrid) {
+      return;
+    }
+
+    radwareBadge.textContent = "Source warning";
+    radwareBadge.classList.remove("is-ok");
+    radwareBadge.classList.add("is-warning");
+    radwareUpdated.textContent = message;
+    radwareGrid.innerHTML = `
+      <article class="info-card threat-live-placeholder">
+        <span class="card-tag">LIVE / RETRY</span>
+        <h3>Regional attack board unavailable right now</h3>
+        <p>
+          Radware's public feed did not answer during this attempt. Open the live map
+          directly and retry the board shortly.
+        </p>
+        <div class="threat-links">
+          <a href="https://livethreatmap.radware.com/" target="_blank" rel="noreferrer">Open Radware live map</a>
+        </div>
+      </article>
+    `;
+  };
+
+  const updateRadwareControls = () => {
+    radwareButtons.forEach((button) => {
+      button.classList.toggle(
+        "is-active",
+        button.getAttribute("data-threat-radware-interval") === radwareState.interval
+      );
+    });
+  };
+
+  const renderRadwareEntries = (entries) => {
+    if (!radwareGrid) {
+      return;
+    }
+
+    if (!entries.length) {
+      setRadwareWarningState("The feed returned no live regional entries");
+      return;
+    }
+
+    const maxValue = Math.max(...entries.map((entry) => Number(entry.value || 0)), 1);
+
+    radwareGrid.innerHTML = entries
+      .slice(0, 6)
+      .map((entry, index) => {
+        const code = String(entry.name || "").toUpperCase();
+        const label = getRegionLabel(code);
+        const value = Number(entry.value || 0);
+        const width = Math.max(14, Math.round((value / maxValue) * 100));
+
+        return `
+          <article class="info-card threat-live-region">
+            <div class="threat-live-region-top">
+              <div>
+                <span class="card-tag">${escapeHtml(code || "N/A")}</span>
+                <h3>${escapeHtml(label)}</h3>
+                <p>Ranked from Radware live telemetry for the active window.</p>
+              </div>
+              <span class="threat-live-rank">#${index + 1}</span>
+            </div>
+            <strong class="threat-live-value">${value}</strong>
+            <div class="threat-live-bar" aria-hidden="true">
+              <span style="width: ${width}%"></span>
+            </div>
+            <div class="threat-live-meta">
+              <span>${radwareState.interval === "hour" ? "Window: last hour" : "Window: last day"}</span>
+              <span>${value} attack observations</span>
+            </div>
+          </article>
+        `;
+      })
+      .join("");
+  };
+
+  const loadRadwareBoard = async (interval = radwareState.interval) => {
+    if (!radwareGrid || !radwareUpdated || !radwareBadge) {
+      return;
+    }
+
+    radwareState.interval = interval;
+    updateRadwareControls();
+    setRadwareLoadingState();
+
+    try {
+      const response = await fetch(`${radwareUrl}${encodeURIComponent(interval)}`, {
+        cache: "no-store",
+      });
+
+      if (!response.ok) {
+        throw new Error(`Radware feed returned ${response.status}`);
+      }
+
+      const data = await response.json();
+
+      radwareBadge.textContent = "Live / Radware";
+      radwareBadge.classList.remove("is-warning");
+      radwareBadge.classList.add("is-ok");
+      radwareUpdated.textContent = `Updated ${formatTime(new Date().toISOString())} / source: Radware`;
+      renderRadwareEntries(Array.isArray(data) ? data : []);
+    } catch (error) {
+      setRadwareWarningState("Retry needed for the live regional board");
+      console.error(error);
+    }
   };
 
   const getPriority = (entry) => {
@@ -842,5 +1010,12 @@ if (threatPulseRoot) {
     renderVisibleEntries(applyFilters());
   });
 
+  radwareButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      loadRadwareBoard(button.getAttribute("data-threat-radware-interval") || "hour");
+    });
+  });
+
   loadThreatPulse();
+  loadRadwareBoard();
 }
