@@ -3,7 +3,7 @@
   "catalogVersion": "2026.06.29",
   "dateReleased": "2026-06-29T18:57:01.4113Z",
   "count": 1630,
-  "generatedAt": "2026-06-29T22:33:01+00:00",
+  "generatedAt": "2026-06-30T01:26:39+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-48558",
