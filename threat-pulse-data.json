@@ -3,7 +3,7 @@
   "catalogVersion": "2026.07.15",
   "dateReleased": "2026-07-15T16:42:14.8261Z",
   "count": 1644,
-  "generatedAt": "2026-07-16T14:25:34+00:00",
+  "generatedAt": "2026-07-16T16:43:39+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-46817",
