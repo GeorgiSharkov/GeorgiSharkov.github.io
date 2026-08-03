@@ -699,6 +699,7 @@ h2 {
 }
 
 .guidance-summary {
+  width: 100%;
   margin-bottom: 24px;
 }
 
@@ -706,8 +707,9 @@ h2 {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
-  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  gap: 24px;
   margin-bottom: 24px;
   align-items: start;
 }
@@ -721,6 +723,7 @@ h2 {
 .guidance-filter-card,
 .guidance-detail-card,
 .guidance-matrix-card {
+  width: 100%;
   padding: 26px;
 }
 
@@ -1703,15 +1706,16 @@ h2 {
 }
 
 .preview-shell {
-  width: min(1240px, calc(100% - 32px));
+  width: min(1180px, calc(100% - 40px));
+  margin-inline: auto;
 }
 
 .preview-hero {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 28px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px;
   align-items: center;
   padding: 36px;
   margin-bottom: 28px;
@@ -2421,6 +2425,10 @@ h2 {
     overflow: visible;
   }
 
+  .preview-shell {
+    width: min(760px, calc(100% - 32px));
+  }
+
   .guidance-row-focus {
     grid-column: auto;
   }
@@ -2456,6 +2464,23 @@ h2 {
   .footer {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .preview-body .topbar {
+    align-items: center;
+    text-align: center;
+  }
+
+  .preview-body .brand {
+    justify-content: center;
+  }
+
+  .preview-body .topnav {
+    justify-content: center;
+  }
+
+  .preview-shell {
+    width: min(100% - 20px, 760px);
   }
 
   .brand-copy strong {
