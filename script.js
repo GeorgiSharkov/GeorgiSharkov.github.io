@@ -516,6 +516,13 @@ if (guidanceRoot) {
   const guidanceTableBody = document.querySelector("[data-guidance-table-body]");
   const guidanceResultsLabel = document.querySelector("[data-guidance-results-label]");
   const guidanceActiveFilter = document.querySelector("[data-guidance-active-filter]");
+  const guidanceDetailCard = document.querySelector(".guidance-detail-card");
+  const guidanceCopyButton = document.querySelector("[data-guidance-copy]");
+  const guidanceShareButton = document.querySelector("[data-guidance-share]");
+  const guidancePrintButton = document.querySelector("[data-guidance-print]");
+  const guidanceQueryCopyButton = document.querySelector("[data-guidance-query-copy]");
+  const guidanceQueryPlatform = document.querySelector("[data-guidance-query-platform]");
+  const guidanceActionStatus = document.querySelector("[data-guidance-action-status]");
   const guidanceDetail = {
     alert: document.querySelector('[data-guidance-detail="alert"]'),
     technique: document.querySelector('[data-guidance-detail="technique"]'),
@@ -523,7 +530,14 @@ if (guidanceRoot) {
     summary: document.querySelector('[data-guidance-detail="summary"]'),
     investigation: document.querySelector('[data-guidance-detail="investigation"]'),
     evidence: document.querySelector('[data-guidance-detail="evidence"]'),
+    telemetry: document.querySelector('[data-guidance-detail="telemetry"]'),
+    falsePositives: document.querySelector('[data-guidance-detail="false-positives"]'),
+    escalation: document.querySelector('[data-guidance-detail="escalation"]'),
     remediation: document.querySelector('[data-guidance-detail="remediation"]'),
+    closure: document.querySelector('[data-guidance-detail="closure"]'),
+    priority: document.querySelector('[data-guidance-detail="priority"]'),
+    decision: document.querySelector('[data-guidance-detail="decision"]'),
+    query: document.querySelector('[data-guidance-detail="query"]'),
     related: document.querySelector('[data-guidance-detail="related"]'),
     mitreLink: document.querySelector('[data-guidance-detail="mitre-link"]'),
   };
@@ -755,7 +769,7 @@ if (guidanceRoot) {
       techniqueId: "T1112",
       techniqueName: "Modify Registry",
       mitreUrl: "https://attack.mitre.org/techniques/T1112/",
-      tactics: ["Persistence"],
+      tactics: ["Defense Impairment", "Persistence"],
       platforms: ["Windows"],
       focus: "Changed key intent, privilege required, and whether the key weakens defenses or stores attacker state",
       summary: "Use this playbook when a detection highlights suspicious registry changes outside normal installer or policy activity. The priority rises when keys weaken defenses, store suspicious configuration, or pair with execution and persistence artifacts.",
@@ -963,11 +977,373 @@ if (guidanceRoot) {
       ],
       keywords: ["valid account", "impossible travel", "risky sign-in", "mfa fatigue", "oauth", "vpn", "cloud", "identity", "account takeover"],
     },
+    {
+      id: "password-spraying",
+      alert: "Password spray or distributed authentication failures",
+      alertFamily: "One or a small password set attempted across many accounts, services, or locations",
+      techniqueId: "T1110.003",
+      techniqueName: "Brute Force: Password Spraying",
+      mitreUrl: "https://attack.mitre.org/techniques/T1110/003/",
+      tactics: ["Credential Access"],
+      platforms: ["Identity Provider", "SaaS", "Windows", "Linux", "Network Devices", "IaaS"],
+      focus: "Target breadth, source distribution, authentication outcome, successful follow-on, and privileged exposure",
+      summary: "Use this playbook when authentication failures show the same password pattern, source infrastructure, user agent, or timing across many accounts. The critical decision is whether the activity stopped at failed attempts or produced a valid session that now requires account-compromise response.",
+      investigation: [
+        "Measure the number of targeted accounts, source IPs, applications, authentication protocols, and attempts per account over the full campaign window.",
+        "Identify successful authentications, MFA approvals, token issuance, or conditional-access bypasses from the same infrastructure or user-agent pattern.",
+        "Compare targeted usernames with exposed address lists, disabled accounts, privileged roles, service accounts, and recently created identities.",
+        "Check whether the activity is throttled below lockout thresholds or distributed across cloud providers, proxies, VPNs, and multiple geographic regions.",
+        "Pivot from any successful sign-in into mailbox, endpoint, VPN, cloud, role-change, and lateral-movement activity before closing the campaign.",
+      ],
+      evidence: [
+        "Identity-provider failures and successes grouped by account, IP, application, protocol, and user agent",
+        "MFA outcomes, conditional-access results, risk detections, token issuance, and session identifiers",
+        "Threat intelligence and infrastructure ownership for source addresses",
+        "Post-authentication activity for every account with a successful or interrupted sign-in",
+      ],
+      telemetry: [
+        "Entra ID, Okta, VPN, OWA, SSH, RDP, Kerberos, LDAP, or equivalent authentication logs",
+        "MFA and conditional-access decision records",
+        "Directory role and account-status data",
+        "Proxy, firewall, and threat-intelligence context for source infrastructure",
+      ],
+      falsePositives: [
+        "Misconfigured applications repeatedly authenticating with an expired shared credential",
+        "Approved penetration tests or identity-control validation",
+        "Corporate egress or identity proxies making many users appear behind one source address",
+      ],
+      escalation: [
+        "Any successful sign-in, MFA approval, or token issuance overlaps the spray infrastructure.",
+        "Privileged, executive, service, break-glass, or externally exposed accounts were targeted.",
+        "The campaign is distributed, sustained, or followed by mailbox, cloud, VPN, or endpoint activity.",
+      ],
+      remediation: [
+        "Block or rate-limit confirmed hostile infrastructure and strengthen smart-lockout controls without disrupting legitimate users.",
+        "Revoke sessions and reset credentials for successfully accessed or high-confidence exposed accounts.",
+        "Require phishing-resistant MFA and disable legacy authentication where supported.",
+        "Hunt for the same infrastructure and targeted identities across all externally accessible authentication services.",
+      ],
+      closure: [
+        "All successful or interrupted authentications have an explained owner and disposition.",
+        "No unauthorised post-authentication activity remains across identity, endpoint, mail, VPN, and cloud telemetry.",
+        "Containment is applied and affected account owners or service teams have been notified.",
+      ],
+      priority: "High",
+      decision: "Did the campaign produce or reuse a valid session?",
+      related: [
+        { id: "T1078", name: "Valid Accounts", url: "https://attack.mitre.org/techniques/T1078/" },
+        { id: "T1621", name: "MFA Request Generation", url: "https://attack.mitre.org/techniques/T1621/" },
+      ],
+      keywords: ["password spray", "brute force", "authentication failure", "4625", "mfa", "owa", "vpn", "legacy auth", "credential access"],
+    },
+    {
+      id: "remote-desktop-software",
+      alert: "Unexpected remote monitoring or desktop software",
+      alertFamily: "AnyDesk, ScreenConnect, TeamViewer, Quick Assist, Chrome Remote Desktop, or another RMM tool",
+      techniqueId: "T1219.002",
+      techniqueName: "Remote Access Tools: Remote Desktop Software",
+      mitreUrl: "https://attack.mitre.org/techniques/T1219/002/",
+      tactics: ["Command and Control"],
+      platforms: ["Windows", "Linux", "macOS"],
+      focus: "Installation provenance, remote-session identity, external destination, persistence, and operator actions",
+      summary: "Use this playbook when remote support or RMM software appears outside its approved management scope. Legitimate tooling becomes high risk when installed by a user, launched from a temporary path, configured for unattended access, or followed by credential, discovery, transfer, and ransomware activity.",
+      investigation: [
+        "Identify the product, binary path, signer, installation source, version, service, scheduled task, and unattended-access configuration.",
+        "Determine who installed or launched the tool, whether a valid support ticket exists, and whether the host is inside the approved RMM inventory.",
+        "Review remote-session identifiers, external destinations, account details, file-transfer activity, clipboard use, and commands or processes launched during the session.",
+        "Check for social-engineering context such as help-desk impersonation, unsolicited calls, browser downloads, or Quick Assist codes.",
+        "Hunt for the same tool, tenant, relay destination, installer hash, service, or operator account across other endpoints.",
+      ],
+      evidence: [
+        "Installer and executable metadata, service/task configuration, and persistence artifacts",
+        "RMM application logs, session IDs, tenant or relay information, and connection timestamps",
+        "Process, file, registry, clipboard, and network activity during the remote session",
+        "Support ticket, software inventory, endpoint owner, and approved management-platform context",
+      ],
+      telemetry: [
+        "EDR process, file, service, scheduled-task, and network telemetry",
+        "Application-control and software-inventory records",
+        "RMM product logs and proxy or DNS connections to relay infrastructure",
+        "Help-desk tickets and endpoint ownership data",
+      ],
+      falsePositives: [
+        "Approved IT support, managed-service provider, or vendor maintenance sessions",
+        "Pre-installed enterprise RMM agents after a sanctioned deployment or upgrade",
+        "User-installed remote access that violates policy but has no malicious operator activity",
+      ],
+      escalation: [
+        "The tool is unapproved, configured for unattended access, or connected to an unknown tenant or relay.",
+        "The session launched shells, transferred tools, changed security controls, accessed credentials, or touched critical systems.",
+        "Social engineering or the same operator infrastructure affected additional users or hosts.",
+      ],
+      remediation: [
+        "Terminate active unauthorised sessions and isolate the endpoint before removing the tool and persistence.",
+        "Block unapproved installers, hashes, domains, tenants, and relay destinations while preserving approved support paths.",
+        "Reset credentials and revoke sessions exposed during the remote interaction.",
+        "Review help-desk verification and application-control policy to prevent repeat social-engineering deployment.",
+      ],
+      closure: [
+        "The session owner, business purpose, remote identity, and every operator action are accounted for.",
+        "Unauthorised access, persistence, payloads, and exposed credentials are contained and removed.",
+        "The wider environment has been checked for matching tenants, installers, and relay infrastructure.",
+      ],
+      priority: "High",
+      decision: "Was this an approved support session or an attacker-controlled channel?",
+      related: [
+        { id: "T1105", name: "Ingress Tool Transfer", url: "https://attack.mitre.org/techniques/T1105/" },
+        { id: "T1543.003", name: "Windows Service", url: "https://attack.mitre.org/techniques/T1543/003/" },
+      ],
+      keywords: ["rmm", "anydesk", "screenconnect", "connectwise", "teamviewer", "quick assist", "logmein", "atera", "remote desktop software"],
+    },
+    {
+      id: "rdp-lateral-movement",
+      alert: "Unusual Remote Desktop Protocol session",
+      alertFamily: "Unexpected RDP source, privileged interactive logon, new destination, or post-logon execution",
+      techniqueId: "T1021.001",
+      techniqueName: "Remote Services: Remote Desktop Protocol",
+      mitreUrl: "https://attack.mitre.org/techniques/T1021/001/",
+      tactics: ["Lateral Movement"],
+      platforms: ["Windows"],
+      focus: "Source and destination trust, account legitimacy, session chain, transferred files, and post-logon actions",
+      summary: "Use this playbook for RDP activity that breaks the normal administration path, originates from an unusual workstation, uses a privileged identity unexpectedly, or is followed by suspicious process and file activity. Treat internet-exposed or multi-host RDP fan-out as high priority.",
+      investigation: [
+        "Identify the source and destination host, source address, account, logon type, session ID, authentication method, and gateway or jump-host path.",
+        "Compare the connection with the user's normal RDP destinations, administrative responsibilities, working hours, and approved change activity.",
+        "Review process creation, clipboard and drive redirection, file writes, network connections, and privilege use inside the session.",
+        "Trace how the account authenticated and whether credential dumping, password spray, VPN compromise, or token theft preceded the session.",
+        "Search for fan-out from the source host or identity into additional destinations and identify any newly enabled RDP configuration.",
+      ],
+      evidence: [
+        "Windows logon/logoff and RDP operational events correlated by account, source, destination, and session",
+        "EDR timeline for both endpoints during the session",
+        "RDP gateway, VPN, firewall, and network-flow records",
+        "File transfer, clipboard, mapped-drive, and post-logon process activity",
+      ],
+      telemetry: [
+        "Windows Security and TerminalServices operational logs",
+        "EDR process, file, registry, and network telemetry",
+        "RDP gateway, VPN, firewall, and identity-provider logs",
+        "Asset criticality and approved administrative-path inventory",
+      ],
+      falsePositives: [
+        "Approved administrator access through a managed jump host",
+        "Help-desk support or server maintenance tied to a valid change record",
+        "Automated vulnerability or configuration-management activity that produces remote logon telemetry",
+      ],
+      escalation: [
+        "The source bypassed approved jump hosts, came from the internet, or used a newly exposed RDP service.",
+        "A privileged account reached a critical asset or the session produced suspicious execution, transfer, or control changes.",
+        "The identity or source host connected to multiple destinations in a short period.",
+      ],
+      remediation: [
+        "Terminate unauthorised sessions and isolate involved source and destination hosts.",
+        "Disable or reset compromised accounts, revoke sessions, and investigate credential origin.",
+        "Restrict RDP to managed gateways and approved administration tiers with MFA and network segmentation.",
+        "Remove malicious files, persistence, or security-control changes made during the session.",
+      ],
+      closure: [
+        "The account owner, source path, destination purpose, and session actions are validated.",
+        "No unexplained RDP fan-out or related credential, execution, and persistence activity remains.",
+        "Access controls and affected identities are remediated before hosts return to service.",
+      ],
+      priority: "High",
+      decision: "Does the session fit the approved administration path and user baseline?",
+      related: [
+        { id: "T1078", name: "Valid Accounts", url: "https://attack.mitre.org/techniques/T1078/" },
+        { id: "T1112", name: "Modify Registry", url: "https://attack.mitre.org/techniques/T1112/" },
+      ],
+      keywords: ["rdp", "remote desktop", "3389", "4624", "logon type 10", "terminal services", "lateral movement", "jump host"],
+    },
+    {
+      id: "impair-defenses",
+      alert: "Security tool disabled or defensive configuration weakened",
+      alertFamily: "EDR, antivirus, firewall, logging, backup, or monitoring service stopped, excluded, or reconfigured",
+      techniqueId: "T1562.001",
+      techniqueName: "Impair Defenses: Disable or Modify Tools",
+      mitreUrl: "https://attack.mitre.org/techniques/T1562/001/",
+      tactics: ["Defense Impairment"],
+      platforms: ["Windows", "Linux", "macOS", "IaaS", "Containers"],
+      focus: "Actor and privilege context, exact control changed, protection gap, preceding access, and activity during blindness",
+      summary: "Use this playbook whenever a security or recovery control is stopped, excluded, uninstalled, tampered with, or prevented from reporting. The investigation must cover the period of reduced visibility and identify what the actor attempted to hide or enable.",
+      investigation: [
+        "Identify the exact tool, service, policy, sensor, exclusion, firewall rule, logging setting, or backup control that changed.",
+        "Determine the initiating process, command, account, privilege level, source host, and whether the action came through local, remote, or central management.",
+        "Validate the change against approved maintenance and vendor procedures, including who authorised it and when protection should have returned.",
+        "Review activity immediately before, during, and after the protection gap for payload execution, credential access, discovery, lateral movement, staging, or impact.",
+        "Check sensor health and equivalent configuration across peer systems to identify coordinated or policy-level impairment.",
+      ],
+      evidence: [
+        "EDR and AV tamper alerts, service-control events, policy history, exclusions, and agent-health records",
+        "Process and command-line lineage for the change",
+        "Firewall, audit, logging, backup, and cloud-control configuration history",
+        "Alternative telemetry covering the protection gap, including network, identity, and central logs",
+      ],
+      telemetry: [
+        "Security-product audit and tamper-protection logs",
+        "Endpoint process, service, registry, file, and command telemetry",
+        "Cloud control-plane, policy, firewall, audit, and backup logs",
+        "Central sensor-health and configuration-management records",
+      ],
+      falsePositives: [
+        "Approved security-agent upgrade, troubleshooting, or removal",
+        "Policy migration that temporarily replaces one control with another",
+        "Performance remediation or vendor support activity documented through change management",
+      ],
+      escalation: [
+        "The actor, command, source, or change is unauthorised or tamper protection was bypassed.",
+        "Multiple controls or hosts were impaired, especially before credential access, lateral movement, or ransomware behavior.",
+        "Telemetry is missing and alternative sources show suspicious activity during the protection gap.",
+      ],
+      remediation: [
+        "Isolate affected systems when impairment is unexplained or linked to active compromise.",
+        "Restore controls from a trusted management plane and verify sensor health, policy, logging, firewall, and backup coverage.",
+        "Revoke the actor's access and rotate credentials or keys used to modify central security configuration.",
+        "Hunt across the entire protection gap and peer systems before returning the asset to service.",
+      ],
+      closure: [
+        "The change has a confirmed owner and purpose or has been contained as malicious.",
+        "All protective controls and telemetry are restored and independently verified.",
+        "The protection gap has been hunted using alternate telemetry with no unresolved malicious activity.",
+      ],
+      priority: "Critical",
+      decision: "What activity occurred while visibility or protection was reduced?",
+      related: [
+        { id: "T1112", name: "Modify Registry", url: "https://attack.mitre.org/techniques/T1112/" },
+        { id: "T1070", name: "Indicator Removal", url: "https://attack.mitre.org/techniques/T1070/" },
+      ],
+      keywords: ["disable defender", "edr tamper", "antivirus exclusion", "stop service", "firewall disabled", "logging disabled", "backup deleted", "defense impairment"],
+    },
+    {
+      id: "ransomware-encryption",
+      alert: "Rapid file encryption or ransomware impact behavior",
+      alertFamily: "High-volume file rewrites, extension changes, ransom notes, shadow-copy deletion, or multi-host encryption",
+      techniqueId: "T1486",
+      techniqueName: "Data Encrypted for Impact",
+      mitreUrl: "https://attack.mitre.org/techniques/T1486/",
+      tactics: ["Impact"],
+      platforms: ["Windows", "Linux", "macOS", "ESXi", "IaaS"],
+      focus: "Active encryption scope, initiating identity and host, lateral deployment, recovery integrity, and exfiltration risk",
+      summary: "Use this emergency playbook for suspected ransomware or destructive encryption. Prioritise stopping active spread, protecting clean backups and management systems, and preserving enough evidence to identify the initial access, operator path, encryption mechanism, and potential data theft.",
+      investigation: [
+        "Confirm whether encryption is active and identify the initiating process, account, host, first affected path, file extensions, ransom-note pattern, and earliest timestamp.",
+        "Determine scope across endpoints, servers, shares, hypervisors, cloud storage, backup systems, and identity or management infrastructure.",
+        "Trace deployment through RDP, SMB, services, scheduled tasks, software deployment tools, scripts, GPO, RMM, or virtualisation management.",
+        "Review precursor activity for security-tool impairment, credential dumping, discovery, archive creation, data staging, and outbound transfer.",
+        "Validate backup integrity and recovery options without connecting clean recovery assets to the compromised environment.",
+      ],
+      evidence: [
+        "EDR process and file telemetry, ransom notes, extension patterns, encryption binaries, and command lines",
+        "Identity, RDP, SMB, service, task, GPO, RMM, and deployment-platform activity",
+        "Backup, storage, hypervisor, and cloud audit logs",
+        "Network and proxy telemetry for staging, C2, and possible exfiltration before impact",
+      ],
+      telemetry: [
+        "EDR high-volume file modification and process telemetry",
+        "File server, storage, hypervisor, cloud, and backup audit logs",
+        "Identity, lateral-movement, remote-management, and software-deployment records",
+        "Network flow, proxy, DNS, and data-loss telemetry",
+      ],
+      falsePositives: [
+        "Approved bulk encryption, migration, backup, compression, or data-classification jobs",
+        "Developer or media workloads rewriting many files with a known signed application",
+        "Recovery testing or storage maintenance inside an authorised window",
+      ],
+      escalation: [
+        "Encryption is active, affects multiple systems or shared storage, or reaches backups, hypervisors, identity, or management systems.",
+        "The initiating process or account is unauthorised, privileged, remotely launched, or linked to security-tool impairment.",
+        "Data staging or outbound transfer suggests double-extortion exposure.",
+      ],
+      remediation: [
+        "Activate the incident-response plan and isolate affected segments, hosts, shares, and management paths to stop spread.",
+        "Disable compromised accounts and remote-deployment mechanisms while preserving trusted emergency access.",
+        "Protect clean backups and recovery infrastructure, then rebuild or restore only after persistence and access paths are removed.",
+        "Coordinate legal, executive, communications, insurance, law-enforcement, and regulatory obligations through the incident lead.",
+      ],
+      closure: [
+        "Encryption and lateral deployment are stopped, scope is documented, and all affected assets have a recovery disposition.",
+        "Initial access, persistence, privileged identities, remote tools, and attacker infrastructure are contained.",
+        "Recovery is validated from trusted backups and monitoring is heightened for re-entry or residual access.",
+      ],
+      priority: "Critical",
+      decision: "Is encryption active, spreading, or threatening recovery infrastructure?",
+      related: [
+        { id: "T1562.001", name: "Disable or Modify Tools", url: "https://attack.mitre.org/techniques/T1562/001/" },
+        { id: "T1490", name: "Inhibit System Recovery", url: "https://attack.mitre.org/techniques/T1490/" },
+      ],
+      keywords: ["ransomware", "encryption", "ransom note", "shadow copy", "vssadmin", "extension change", "mass file write", "impact", "esxi"],
+    },
+    {
+      id: "email-forwarding-rule",
+      alert: "Suspicious inbox, forwarding, redirect, or transport rule",
+      alertFamily: "New or modified rule forwarding mail externally, hiding security messages, or redirecting selected conversations",
+      techniqueId: "T1114.003",
+      techniqueName: "Email Collection: Email Forwarding Rule",
+      mitreUrl: "https://attack.mitre.org/techniques/T1114/003/",
+      tactics: ["Collection"],
+      platforms: ["Office Suite", "Windows", "Linux", "macOS"],
+      focus: "Rule creator, destination, hidden conditions, session provenance, mailbox actions, and business-email-compromise impact",
+      summary: "Use this playbook when a mailbox or tenant rule forwards, redirects, deletes, moves, or hides messages unexpectedly. Rules may preserve attacker access to sensitive conversations after a password reset, so investigation must include identity sessions, delegate access, OAuth grants, and financial or operational impact.",
+      investigation: [
+        "Capture the complete rule definition, creator, creation time, forwarding destination, conditions, exceptions, priority, enabled state, and whether it is hidden.",
+        "Review mailbox and unified audit logs to identify the session, IP, user agent, authentication method, PowerShell cmdlet, API, or administrator that created it.",
+        "Check for external forwarding, deletion or movement of security notifications, keyword-based interception, and organisation-wide transport rules.",
+        "Investigate the originating identity session for phishing, impossible travel, MFA anomalies, OAuth consent, delegate changes, token activity, and mailbox access.",
+        "Assess exposure by tracing forwarded messages, sensitive threads, password resets, invoices, payment changes, and affected internal or external correspondents.",
+      ],
+      evidence: [
+        "Inbox, forwarding, redirect, and transport-rule configuration including hidden properties",
+        "M365, Exchange, Google Workspace, or equivalent mailbox and administrator audit logs",
+        "Identity-provider sign-ins, MFA, token, OAuth, delegate, and application-consent records",
+        "Message trace and affected conversation or financial-process evidence",
+      ],
+      telemetry: [
+        "Mailbox and tenant audit logs for rule creation and modification",
+        "Message trace and auto-forwarding headers",
+        "Identity-provider sign-in, MFA, token, conditional-access, and risk logs",
+        "OAuth grants, delegate permissions, administrator actions, and mailbox configuration history",
+      ],
+      falsePositives: [
+        "User-created vacation, filing, or approved forwarding rules",
+        "Shared-mailbox processing and authorised delegate workflows",
+        "Documented mail migration, journaling, compliance, or transport configuration",
+      ],
+      escalation: [
+        "The destination is external or unknown, the rule is hidden, or it targets financial, credential, or security messages.",
+        "The creating session is suspicious or accompanied by OAuth, delegate, MFA, password, or role changes.",
+        "Messages were forwarded or business processes were altered, especially payments, invoices, payroll, or account recovery.",
+      ],
+      remediation: [
+        "Disable and preserve malicious rules, then remove unauthorised forwarding, delegates, OAuth grants, and mailbox persistence.",
+        "Revoke sessions and tokens, reset credentials, and re-register MFA through a trusted process.",
+        "Notify affected business owners and external correspondents using verified out-of-band channels.",
+        "Review tenant-wide forwarding controls and alerting for high-risk rule creation and transport changes.",
+      ],
+      closure: [
+        "All mailbox and transport rules, delegates, applications, sessions, and authentication methods are reviewed and clean.",
+        "Forwarded-message exposure and business impact are documented with stakeholder notifications complete.",
+        "The compromised identity is secured and no related suspicious mailbox or tenant activity remains.",
+      ],
+      priority: "High",
+      decision: "Did the rule expose messages or support ongoing account compromise?",
+      related: [
+        { id: "T1078", name: "Valid Accounts", url: "https://attack.mitre.org/techniques/T1078/" },
+        { id: "T1098.002", name: "Additional Email Delegate Permissions", url: "https://attack.mitre.org/techniques/T1098/002/" },
+      ],
+      keywords: ["inbox rule", "forwarding", "redirect", "transport rule", "new-inboxrule", "set-inboxrule", "mailbox", "bec", "external forwarding"],
+    },
   ];
+  const requestedPlaybook = new URLSearchParams(window.location.search).get("playbook")?.toLowerCase();
+  const requestedTechnique = new URLSearchParams(window.location.search).get("technique")?.toLowerCase();
+  const deepLinkedEntry = guidanceEntries.find((entry) => (
+    entry.id.toLowerCase() === requestedPlaybook
+    || entry.techniqueId.toLowerCase() === requestedTechnique
+  ));
   const guidanceState = {
     query: "",
     tactic: "all",
-    selectedId: guidanceEntries[0].id,
+    queryPlatform: "sentinel",
+    selectedId: deepLinkedEntry?.id || guidanceEntries[0].id,
+    currentEntry: null,
   };
 
   const guidanceEscapeHtml = (value) => String(value ?? "")
@@ -976,6 +1352,114 @@ if (guidanceRoot) {
     .replaceAll(">", "&gt;")
     .replaceAll('"', "&quot;")
     .replaceAll("'", "&#39;");
+
+  const guidanceTelemetryByTactic = {
+    "Initial Access": ["Email, browser, proxy, DNS, and identity-provider telemetry", "File reputation, sandbox, and endpoint execution history"],
+    Execution: ["EDR process trees, command lines, script logs, and module loads", "File, registry, service, task, and network activity around execution"],
+    Persistence: ["Autorun, service, task, account, and configuration-change telemetry", "Logon and reboot timelines confirming whether the mechanism executed"],
+    "Privilege Escalation": ["Privilege assignment, token, integrity-level, role, and administrator activity", "Identity, endpoint, and directory changes around elevated execution"],
+    "Defense Evasion": ["EDR and security-control telemetry plus alternative network and identity logs", "Configuration, policy, process, and file changes associated with concealment"],
+    "Defense Impairment": ["Security-product audit, tamper, policy, service, and agent-health records", "Alternative telemetry covering any protection or visibility gap"],
+    "Credential Access": ["Sensitive process, authentication, directory, and credential-store telemetry", "Successful and failed logons plus subsequent use of exposed identities"],
+    "Lateral Movement": ["Source and destination authentication, network, remote-service, and endpoint telemetry", "Cross-host file, service, task, session, and identity activity"],
+    "Command and Control": ["DNS, proxy, firewall, TLS, network-flow, and endpoint connection telemetry", "Process-to-network correlation and destination reputation"],
+    Collection: ["File, mailbox, cloud, database, archive, and data-access audit records", "Identity and endpoint activity showing who collected or staged the data"],
+    Exfiltration: ["Proxy, firewall, flow, DNS, cloud, DLP, and object-access telemetry", "Process, archive, staging, and outbound-transfer correlation"],
+    Impact: ["Endpoint, file server, storage, hypervisor, cloud, backup, and identity telemetry", "Business-service health and recovery-system audit records"],
+    Stealth: ["Memory, process access, module load, and endpoint-behaviour telemetry", "Alternative process and network evidence for activity hidden inside trusted processes"],
+  };
+
+  const getGuidanceOperations = (entry) => {
+    const derivedTelemetry = [...new Set(entry.tactics.flatMap((tactic) => guidanceTelemetryByTactic[tactic] || []))];
+    const highPriorityTactics = ["Initial Access", "Credential Access", "Lateral Movement", "Command and Control", "Collection", "Exfiltration"];
+    const priority = entry.priority
+      || (entry.tactics.some((tactic) => ["Impact", "Defense Impairment"].includes(tactic)) ? "Critical" : null)
+      || (entry.tactics.some((tactic) => highPriorityTactics.includes(tactic)) ? "High" : "Medium");
+
+    return {
+      priority,
+      decision: entry.decision || "Is this activity authorised, fully explained, and contained?",
+      telemetry: entry.telemetry || (derivedTelemetry.length ? derivedTelemetry : entry.evidence),
+      falsePositives: entry.falsePositives || [
+        "Approved administration, deployment, support, or security-testing activity",
+        "Expected software installation, update, maintenance, or automated management workflow",
+        "A known business process validated by the asset or service owner",
+      ],
+      escalation: entry.escalation || [
+        "The activity is unauthorised, cannot be explained, or affects a privileged identity or critical asset.",
+        "Related telemetry shows persistence, credential access, lateral movement, command and control, collection, or impact.",
+        "The same indicators, actor, account, or behavior appear on additional systems.",
+      ],
+      closure: entry.closure || [
+        "The initiating user, process, source, business purpose, and full timeline are documented.",
+        "Related hosts, identities, indicators, and follow-on techniques have been checked with no unresolved findings.",
+        "Required containment, remediation, owner communication, and detection improvements are complete.",
+      ],
+    };
+  };
+
+  const buildGuidanceQuery = (entry, platform) => {
+    const terms = [...new Set([entry.techniqueId, ...entry.keywords])].slice(0, 6);
+    const quoted = terms.map((term) => `"${String(term).replaceAll('"', '')}"`);
+    const regexTerms = terms
+      .map((term) => String(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))
+      .join("|");
+    const queries = {
+      sentinel: `search in (*) (${quoted.join(" or ")})\n| where TimeGenerated > ago(24h)`,
+      splunk: `index=* earliest=-24h (${quoted.join(" OR ")})\n| stats count min(_time) as first_seen max(_time) as last_seen by host user sourcetype`,
+      wazuh: terms
+        .map((term) => `full_log:*${String(term).replaceAll(" ", "\\ ")}*`)
+        .join(" OR "),
+      secops: `principal.process.command_line = /${regexTerms}/ nocase\nor target.process.command_line = /${regexTerms}/ nocase`,
+    };
+    return entry.queries?.[platform] || queries[platform];
+  };
+
+  const renderGuidanceFilters = () => {
+    const tactics = [...new Set(guidanceEntries.flatMap((entry) => entry.tactics))]
+      .sort((left, right) => left.localeCompare(right));
+    const options = [{ value: "all", label: "All" }, ...tactics.map((tactic) => ({ value: tactic, label: tactic }))];
+    guidanceFilters.innerHTML = options.map((option) => `
+      <button
+        class="guidance-chip${option.value === guidanceState.tactic ? " is-active" : ""}"
+        type="button"
+        data-guidance-filter="${guidanceEscapeHtml(option.value)}"
+      >${guidanceEscapeHtml(option.label)}</button>
+    `).join("");
+  };
+
+  let guidanceStatusTimer;
+  const setGuidanceActionStatus = (message) => {
+    guidanceActionStatus.textContent = message;
+    window.clearTimeout(guidanceStatusTimer);
+    guidanceStatusTimer = window.setTimeout(() => {
+      guidanceActionStatus.textContent = "";
+    }, 2400);
+  };
+
+  const copyGuidanceText = async (text, successMessage) => {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      const field = document.createElement("textarea");
+      field.value = text;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.opacity = "0";
+      document.body.append(field);
+      field.select();
+      document.execCommand("copy");
+      field.remove();
+    }
+    setGuidanceActionStatus(successMessage);
+  };
+
+  const updateGuidanceUrl = (entry) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set("playbook", entry.id);
+    url.searchParams.delete("technique");
+    window.history.replaceState({ playbook: entry.id }, "", url);
+  };
 
   const updateGuidanceStats = (entries) => {
     const tacticCount = new Set(guidanceEntries.flatMap((entry) => entry.tactics)).size;
@@ -1009,6 +1493,8 @@ if (guidanceRoot) {
       return;
     }
 
+    const operations = getGuidanceOperations(entry);
+    guidanceState.currentEntry = entry;
     guidanceDetail.alert.textContent = entry.alert;
     guidanceDetail.technique.textContent = `${entry.techniqueId} / ${entry.techniqueName}`;
     guidanceDetail.tactics.textContent = entry.tactics.join(" / ");
@@ -1019,14 +1505,30 @@ if (guidanceRoot) {
     guidanceDetail.evidence.innerHTML = entry.evidence
       .map((item) => `<li>${guidanceEscapeHtml(item)}</li>`)
       .join("");
+    guidanceDetail.telemetry.innerHTML = operations.telemetry
+      .map((item) => `<li>${guidanceEscapeHtml(item)}</li>`)
+      .join("");
+    guidanceDetail.falsePositives.innerHTML = operations.falsePositives
+      .map((item) => `<li>${guidanceEscapeHtml(item)}</li>`)
+      .join("");
+    guidanceDetail.escalation.innerHTML = operations.escalation
+      .map((item) => `<li>${guidanceEscapeHtml(item)}</li>`)
+      .join("");
     guidanceDetail.remediation.innerHTML = entry.remediation
       .map((item) => `<li>${guidanceEscapeHtml(item)}</li>`)
       .join("");
+    guidanceDetail.closure.innerHTML = operations.closure
+      .map((item) => `<li>${guidanceEscapeHtml(item)}</li>`)
+      .join("");
+    guidanceDetail.priority.textContent = operations.priority;
+    guidanceDetail.decision.textContent = operations.decision;
+    guidanceDetail.query.textContent = buildGuidanceQuery(entry, guidanceState.queryPlatform);
     guidanceDetail.related.innerHTML = entry.related
       .map((item) => `<a href="${item.url}" target="_blank" rel="noreferrer">${guidanceEscapeHtml(`${item.id} ${item.name}`)}</a>`)
       .join("");
     guidanceDetail.mitreLink.href = entry.mitreUrl;
     guidanceDetail.mitreLink.textContent = `Open ${entry.techniqueId} on MITRE ATT&CK`;
+    updateGuidanceUrl(entry);
   };
 
   const renderGuidanceTable = (entries) => {
@@ -1050,18 +1552,17 @@ if (guidanceRoot) {
 
     guidanceTableBody.innerHTML = entries.map((entry) => `
       <article class="guidance-table-row${entry.id === guidanceState.selectedId ? " is-selected" : ""}">
-        <button class="guidance-row-button" type="button" data-guidance-select="${entry.id}">
+        <button class="guidance-row-button" type="button" data-label="Alert pattern" data-guidance-select="${entry.id}">
           <strong>${guidanceEscapeHtml(entry.alert)}</strong>
           <span>${guidanceEscapeHtml(entry.alertFamily)}</span>
         </button>
-        <div class="guidance-row-technique">
+        <div class="guidance-row-technique" data-label="Technique">
           <strong>${guidanceEscapeHtml(entry.techniqueId)}</strong>
           <span>${guidanceEscapeHtml(entry.techniqueName)}</span>
         </div>
-        <div class="guidance-row-meta">${guidanceEscapeHtml(entry.tactics.join(", "))}</div>
-        <div class="guidance-row-meta">${guidanceEscapeHtml(entry.platforms.join(", "))}</div>
-        <div class="guidance-row-focus">
-          <strong>Look at</strong>
+        <div class="guidance-row-meta" data-label="Tactic">${guidanceEscapeHtml(entry.tactics.join(", "))}</div>
+        <div class="guidance-row-meta" data-label="Platforms">${guidanceEscapeHtml(entry.platforms.join(", "))}</div>
+        <div class="guidance-row-focus" data-label="Investigation focus">
           <span>${guidanceEscapeHtml(entry.focus)}</span>
         </div>
       </article>
@@ -1098,8 +1599,51 @@ if (guidanceRoot) {
 
     guidanceState.selectedId = button.getAttribute("data-guidance-select");
     renderGuidanceTable(getFilteredGuidanceEntries());
+    if (window.matchMedia("(max-width: 980px)").matches) {
+      window.requestAnimationFrame(() => {
+        guidanceDetailCard.scrollIntoView({ behavior: "smooth", block: "start" });
+        guidanceDetailCard.focus({ preventScroll: true });
+      });
+    }
   });
 
+  guidanceQueryPlatform.addEventListener("change", (event) => {
+    guidanceState.queryPlatform = event.target.value;
+    if (guidanceState.currentEntry) {
+      guidanceDetail.query.textContent = buildGuidanceQuery(guidanceState.currentEntry, guidanceState.queryPlatform);
+    }
+  });
+
+  guidanceCopyButton.addEventListener("click", () => {
+    const entry = guidanceState.currentEntry;
+    if (!entry) {
+      return;
+    }
+    const operations = getGuidanceOperations(entry);
+    const formatList = (title, items) => `${title}\n${items.map((item, index) => `${index + 1}. ${item}`).join("\n")}`;
+    const checklist = [
+      `${entry.alert}\n${entry.techniqueId} - ${entry.techniqueName}\nPriority: ${operations.priority}\nDecision: ${operations.decision}`,
+      formatList("INVESTIGATION", entry.investigation),
+      formatList("EVIDENCE TO REVIEW", entry.evidence),
+      formatList("TELEMETRY REQUIRED", operations.telemetry),
+      formatList("ESCALATE WHEN", operations.escalation),
+      formatList("REMEDIATION", entry.remediation),
+      formatList("CLOSURE CRITERIA", operations.closure),
+    ].join("\n\n");
+    copyGuidanceText(checklist, "Checklist copied");
+  });
+
+  guidanceShareButton.addEventListener("click", () => {
+    copyGuidanceText(window.location.href, "Playbook link copied");
+  });
+
+  guidanceQueryCopyButton.addEventListener("click", () => {
+    copyGuidanceText(guidanceDetail.query.textContent, "Query copied");
+  });
+
+  guidancePrintButton.addEventListener("click", () => window.print());
+
+  renderGuidanceFilters();
   renderGuidanceTable(getFilteredGuidanceEntries());
 }
 

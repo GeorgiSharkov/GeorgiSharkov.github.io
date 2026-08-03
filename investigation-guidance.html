@@ -104,41 +104,57 @@
       </section>
 
       <section class="guidance-layout" id="matrix">
-        <article class="panel guidance-filter-card">
-          <div class="threat-health-head guidance-head">
-            <div>
-              <p class="eyebrow">SEARCH AND FILTER</p>
-              <h2>Find the alert pattern fast</h2>
+        <div class="guidance-browser-column">
+          <article class="panel guidance-filter-card">
+            <div class="threat-health-head guidance-head">
+              <div>
+                <p class="eyebrow">SEARCH AND FILTER</p>
+                <h2>Find the alert pattern fast</h2>
+              </div>
+              <span class="pulse-live-indicator" data-guidance-active-filter>All tactics</span>
             </div>
-            <span class="pulse-live-indicator" data-guidance-active-filter>All tactics</span>
-          </div>
-          <label class="guidance-search-label" for="guidance-search">
-            Search by alert, technique, tactic, platform, or keyword
-          </label>
-          <input
-            id="guidance-search"
-            class="guidance-search-input"
-            type="search"
-            placeholder="Example: powershell, T1053.005, persistence, download"
-            data-guidance-search
-          >
-          <div class="guidance-filter-row" data-guidance-filters>
-            <button class="guidance-chip is-active" type="button" data-guidance-filter="all">All</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Execution">Execution</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Persistence">Persistence</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Initial Access">Initial Access</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Command and Control">Command and Control</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Credential Access">Credential Access</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Lateral Movement">Lateral Movement</button>
-            <button class="guidance-chip" type="button" data-guidance-filter="Defense Evasion">Defense Evasion</button>
-          </div>
-          <p class="guidance-filter-copy">
-            The matrix is tuned for common SOC alert families rather than the full ATT&CK catalog,
-            so the page stays fast and operationally useful during triage.
-          </p>
-        </article>
+            <label class="guidance-search-label" for="guidance-search">
+              Search by alert, technique, tactic, platform, or keyword
+            </label>
+            <input
+              id="guidance-search"
+              class="guidance-search-input"
+              type="search"
+              placeholder="Example: powershell, T1053.005, persistence, download"
+              autocomplete="off"
+              data-guidance-search
+            >
+            <div class="guidance-filter-row" data-guidance-filters></div>
+            <p class="guidance-filter-copy">
+              Filters are generated from the current ATT&CK mappings so new tactic
+              coverage appears automatically as the playbook library grows.
+            </p>
+          </article>
 
-        <article class="panel guidance-detail-card" id="detail">
+          <section class="panel guidance-matrix-card">
+            <div class="guidance-table-head">
+              <div>
+                <p class="eyebrow">TECHNIQUE MATRIX</p>
+                <h2>Alert pattern to ATT&CK investigation map</h2>
+              </div>
+              <p data-guidance-results-label aria-live="polite">
+                Loading guidance rows.
+              </p>
+            </div>
+            <div class="guidance-table">
+              <div class="guidance-table-row guidance-table-row-head">
+                <span>Alert pattern</span>
+                <span>Technique</span>
+                <span>Tactic</span>
+                <span>Platforms</span>
+                <span>Investigation focus</span>
+              </div>
+              <div data-guidance-table-body></div>
+            </div>
+          </section>
+        </div>
+
+        <article class="panel guidance-detail-card" id="detail" tabindex="-1" aria-live="polite">
           <div class="guidance-detail-head">
             <div>
               <p class="eyebrow">SELECTED GUIDANCE</p>
@@ -152,7 +168,26 @@
           <p class="guidance-detail-summary" data-guidance-detail="summary">
             Preparing the selected ATT&CK-linked alert guidance.
           </p>
-          <div class="guidance-evidence-grid">
+
+          <div class="guidance-action-row">
+            <button class="guidance-action" type="button" data-guidance-copy>Copy checklist</button>
+            <button class="guidance-action" type="button" data-guidance-share>Copy link</button>
+            <button class="guidance-action" type="button" data-guidance-print>Print / PDF</button>
+            <span class="guidance-action-status" data-guidance-action-status aria-live="polite"></span>
+          </div>
+
+          <div class="guidance-priority-strip">
+            <div>
+              <span>INITIAL PRIORITY</span>
+              <strong data-guidance-detail="priority">Loading</strong>
+            </div>
+            <div>
+              <span>DECISION FOCUS</span>
+              <strong data-guidance-detail="decision">Loading</strong>
+            </div>
+          </div>
+
+          <div class="guidance-detail-stack">
             <div class="support-card">
               <span class="card-tag">INVESTIGATION</span>
               <ol class="guidance-list" data-guidance-detail="investigation"></ol>
@@ -161,11 +196,39 @@
               <span class="card-tag">EVIDENCE TO REVIEW</span>
               <ul class="guidance-list" data-guidance-detail="evidence"></ul>
             </div>
-          </div>
-          <div class="guidance-evidence-grid">
+            <div class="support-card">
+              <span class="card-tag">TELEMETRY REQUIRED</span>
+              <ul class="guidance-list" data-guidance-detail="telemetry"></ul>
+            </div>
+            <div class="support-card">
+              <span class="card-tag">COMMON LEGITIMATE EXPLANATIONS</span>
+              <ul class="guidance-list" data-guidance-detail="false-positives"></ul>
+            </div>
+            <div class="support-card guidance-escalation-card">
+              <span class="card-tag">ESCALATE WHEN</span>
+              <ul class="guidance-list" data-guidance-detail="escalation"></ul>
+            </div>
             <div class="support-card">
               <span class="card-tag">REMEDIATION</span>
               <ul class="guidance-list" data-guidance-detail="remediation"></ul>
+            </div>
+            <div class="support-card">
+              <span class="card-tag">CLOSURE CRITERIA</span>
+              <ul class="guidance-list" data-guidance-detail="closure"></ul>
+            </div>
+            <div class="support-card guidance-query-card">
+              <div class="guidance-query-head">
+                <span class="card-tag">HUNT QUERY STARTER</span>
+                <select class="guidance-query-select" data-guidance-query-platform aria-label="Choose hunt query platform">
+                  <option value="sentinel">Microsoft Sentinel</option>
+                  <option value="splunk">Splunk</option>
+                  <option value="wazuh">Wazuh</option>
+                  <option value="secops">Google SecOps</option>
+                </select>
+              </div>
+              <pre class="guidance-query" data-guidance-detail="query"></pre>
+              <button class="guidance-query-copy" type="button" data-guidance-query-copy>Copy query</button>
+              <p>Starter syntax only. Confirm field mappings and time range against the target environment.</p>
             </div>
             <div class="support-card">
               <span class="card-tag">RELATED TECHNIQUES</span>
@@ -176,28 +239,6 @@
             <a data-guidance-detail="mitre-link" href="https://attack.mitre.org/" target="_blank" rel="noreferrer">Open MITRE technique</a>
           </div>
         </article>
-      </section>
-
-      <section class="panel guidance-matrix-card">
-        <div class="guidance-table-head">
-          <div>
-            <p class="eyebrow">TECHNIQUE MATRIX</p>
-            <h2>Alert pattern to ATT&CK investigation map</h2>
-          </div>
-          <p data-guidance-results-label>
-            Loading guidance rows.
-          </p>
-        </div>
-        <div class="guidance-table">
-          <div class="guidance-table-row guidance-table-row-head">
-            <span>Alert pattern</span>
-            <span>Technique</span>
-            <span>Tactic</span>
-            <span>Platforms</span>
-            <span>Investigation focus</span>
-          </div>
-          <div data-guidance-table-body></div>
-        </div>
       </section>
 
       <section class="signal panel">
@@ -222,13 +263,13 @@
             </p>
           </article>
           <article class="publication-item">
-            <h3>Grow the matrix over time</h3>
+            <h3>Use the full incident path</h3>
             <p>
-              The current page is a working reference for common cases such as
-              PowerShell, phishing links, suspicious downloads, credential dumping,
-              identity abuse, persistence, service creation, registry changes,
-              removable media, lateral movement, and tool transfer. It can expand
-              as your alert coverage grows.
+              The library now covers 18 repeatable cases across initial access,
+              execution, persistence, identity, lateral movement, command and
+              control, collection, defensive impairment, and ransomware impact.
+              Use the escalation and closure criteria to move from alert review to
+              a defensible case outcome.
             </p>
           </article>
         </div>
@@ -249,6 +290,6 @@
     </footer>
   </div>
 
-  <script src="script.js?v=20260803-1"></script>
+  <script src="script.js?v=20260803-2"></script>
 </body>
 </html>
