@@ -1722,6 +1722,30 @@ h2 {
   overflow: hidden;
 }
 
+.preview-hero > * {
+  min-width: 0;
+}
+
+[data-guidance-root] .preview-title {
+  max-width: 100%;
+  font-size: clamp(3.2rem, 5.4vw, 4.8rem);
+}
+
+[data-guidance-root] .preview-title span {
+  max-width: 22ch;
+  margin-top: 0.14em;
+  font-size: clamp(1.3rem, 2.2vw, 1.8rem);
+  line-height: 1.08;
+}
+
+[data-guidance-root] .preview-command {
+  width: 100%;
+}
+
+[data-guidance-root] .terminal-line {
+  overflow-wrap: anywhere;
+}
+
 .preview-hero::after,
 .preview-screen::after {
   content: "";
