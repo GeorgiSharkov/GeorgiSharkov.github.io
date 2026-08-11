@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOC Reference Board | CyberShark</title>
+  <meta
+    name="description"
+    content="A searchable CyberShark SOC reference board for cloud logs, SIEM and EDR pivots, host telemetry, investigation workflow, suspicious indicators, and daily analyst tools."
+  >
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-YXYG9BY9Z5');
+  </script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20260811-1">
+</head>
+<body class="preview-body reference-body">
+  <div class="page-shell preview-shell" data-soc-reference-root>
+    <div class="edge-network" aria-hidden="true">
+      <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
+      <div class="edge-network-nodes"></div>
+    </div>
+    <div class="grid-noise" aria-hidden="true"></div>
+    <div class="aurora aurora-left" aria-hidden="true"></div>
+    <div class="aurora aurora-right" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="index.html#hero">
+        <img class="brand-mark" src="brand-mark.svg" alt="">
+        <span class="brand-copy">
+          <strong>CYBERSHARK</strong>
+          <span>SOC Reference Board</span>
+        </span>
+      </a>
+      <nav class="topnav" aria-label="SOC reference navigation">
+        <a href="index.html">Home</a>
+        <a href="#board">Board</a>
+        <a href="investigation-guidance.html">Guidance</a>
+        <a href="threat-pulse.html">Pulse</a>
+        <a href="cyber-news.html">News</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="panel reference-hero">
+        <div>
+          <p class="eyebrow">SOC DESK / QUICK PIVOTS / DAILY REFERENCE</p>
+          <h1 class="reference-title">
+            SOC Reference
+            <span>twelve analyst cards, one searchable board</span>
+          </h1>
+          <p class="lede">
+            Move from an alert to the right logs, fields, searches, indicators,
+            and response actions without hunting through separate notes. Search
+            the full board or filter it by operational area.
+          </p>
+          <div class="cta-row">
+            <a class="button button-primary" href="#board">Open the board</a>
+            <button class="button button-ghost" type="button" data-reference-print>Print reference</button>
+          </div>
+        </div>
+        <div class="reference-radar" aria-label="Reference board coverage">
+          <div class="reference-radar-core">12</div>
+          <span class="reference-radar-label label-cloud">CLOUD</span>
+          <span class="reference-radar-label label-edr">EDR</span>
+          <span class="reference-radar-label label-host">HOST</span>
+          <span class="reference-radar-label label-flow">FLOW</span>
+          <p>LOGS // QUERIES // PIVOTS // ACTIONS</p>
+        </div>
+      </section>
+
+      <section class="threat-summary reference-summary" aria-label="Reference board summary">
+        <article class="support-card threat-stat-card">
+          <span class="card-tag">REFERENCE CARDS</span>
+          <h3>12</h3>
+          <p>Platform, workflow, telemetry, indicator, and tooling references.</p>
+        </article>
+        <article class="support-card threat-stat-card">
+          <span class="card-tag">OPERATING AREAS</span>
+          <h3>5</h3>
+          <p>Cloud/SIEM, EDR, host telemetry, workflow, and analyst toolkit.</p>
+        </article>
+        <article class="support-card threat-stat-card">
+          <span class="card-tag">VISIBLE</span>
+          <h3 data-reference-visible>12 shown</h3>
+          <p>Updates immediately as search terms and category filters change.</p>
+        </article>
+      </section>
+
+      <section class="panel reference-controls" id="board">
+        <div class="reference-controls-copy">
+          <p class="eyebrow">SEARCH THE DESK</p>
+          <h2>Find the next pivot fast</h2>
+          <p>Search by product, log, event ID, field, IOC, investigation step, or tool.</p>
+        </div>
+        <div class="reference-search-wrap">
+          <label for="reference-search">Search all reference cards</label>
+          <input
+            id="reference-search"
+            class="guidance-search-input"
+            type="search"
+            placeholder="Example: 4625, PowerShell, phishing, remoteIP, auth.log"
+            autocomplete="off"
+            data-reference-search
+          >
+        </div>
+        <div class="reference-filters" data-reference-filters aria-label="Filter reference cards"></div>
+      </section>
+
+      <section class="reference-workbench">
+        <div class="reference-card-grid" data-reference-grid aria-live="polite"></div>
+
+        <aside class="panel reference-detail" data-reference-detail aria-live="polite">
+          <div class="reference-detail-empty">
+            <span class="reference-octagon">01</span>
+            <p class="eyebrow">SELECT A CARD</p>
+            <h2>Open an analyst reference</h2>
+            <p>Choose any card to inspect its pivots, searches, expected signal, and practical analyst note.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="signal panel reference-caution">
+        <div>
+          <p class="eyebrow">OPERATOR NOTE</p>
+          <h2>Starter references, not blind execution</h2>
+        </div>
+        <div>
+          <p>
+            Field names, index names, event schemas, retention, and product syntax
+            vary by tenant and deployment. Set the correct time range, confirm the
+            local schema, preserve evidence, and validate destructive response
+            actions through the organisation's incident process.
+          </p>
+          <p>
+            Use the board to accelerate orientation and pivot selection. Use the
+            Investigation Guidance library for deeper evidence review, escalation,
+            remediation, and closure criteria.
+          </p>
+          <a href="investigation-guidance.html">Open Investigation Guidance</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer panel" id="contact">
+      <div>
+        <p class="eyebrow">REFERENCE EXIT</p>
+        <h2>Stay curious. Stay methodical. Stay safe.</h2>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="investigation-guidance.html">Guidance</a>
+        <a href="threat-pulse.html">Threat Pulse</a>
+        <a href="mailto:gnssngmail@gmail.com">Email</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js?v=20260803-2"></script>
+  <script src="soc-reference.js?v=20260811-1"></script>
+</body>
+</html>
