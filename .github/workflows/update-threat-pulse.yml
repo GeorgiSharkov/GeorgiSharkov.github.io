@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "17 * * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-threat-pulse.yml"
+      - "scripts/update_threat_pulse_data.py"
 
 permissions:
   contents: write
