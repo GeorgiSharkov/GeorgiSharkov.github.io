@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyber News Nexus | CyberShark</title>
+  <title>CyberShark Newsroom | Cybersecurity News</title>
   <meta
     name="description"
-    content="CyberShark's one-page cyber news nexus with breaking security news, official advisories, DFIR sources, and threat intelligence blogs."
+    content="A visual cybersecurity newsroom aggregating current stories from trusted security publishers, official advisories, DFIR sources, and threat intelligence teams."
   >
-  <meta name="theme-color" content="#0a0f24">
+  <meta name="theme-color" content="#07101f">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -24,10 +24,10 @@
   </script>
   <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
   <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20260813-1">
 </head>
-<body class="preview-body">
-  <div class="page-shell preview-shell">
+<body class="preview-body newsroom-body">
+  <div class="page-shell news-shell" data-newsroom-root>
     <div class="edge-network" aria-hidden="true">
       <svg class="edge-network-lines" viewBox="0 0 100 100" preserveAspectRatio="none"></svg>
       <div class="edge-network-nodes"></div>
@@ -36,193 +36,171 @@
     <div class="aurora aurora-left" aria-hidden="true"></div>
     <div class="aurora aurora-right" aria-hidden="true"></div>
 
-    <header class="topbar">
+    <header class="topbar newsroom-topbar">
       <a class="brand" href="index.html#hero">
         <img class="brand-mark" src="brand-mark.svg" alt="">
         <span class="brand-copy">
           <strong>CYBERSHARK</strong>
-          <span>News Nexus</span>
+          <span>Security Newsroom</span>
         </span>
       </a>
       <nav class="topnav" aria-label="Cyber news navigation">
         <a href="index.html">Home</a>
         <a href="threat-pulse.html">Pulse</a>
         <a href="investigation-guidance.html">Guidance</a>
-        <a href="#breaking">Breaking</a>
-        <a href="#official">Official</a>
-        <a href="#dfir">DFIR</a>
-        <a href="#intel">Intel</a>
+        <a href="soc-reference.html">Reference</a>
+        <a href="#latest">Latest</a>
+        <a href="#sources">Sources</a>
       </nav>
     </header>
 
     <main>
-      <section class="preview-hero panel">
+      <section class="newsroom-masthead">
         <div>
-          <p class="eyebrow">CYBER NEWS / THREAT INTEL / DFIR SIGNAL</p>
-          <h1 class="preview-title">
-            News Nexus
-            <span>one place to track cyber signal</span>
-          </h1>
-          <p class="lede">
-            A single page for the security sources worth checking daily: breaking
-            cyber news, official advisories, DFIR-focused reporting, and vendor
-            threat intelligence feeds that matter to SOC work.
+          <p class="eyebrow">LIVE SECURITY BRIEFING / PUBLISHER-DIRECT LINKS</p>
+          <h1>CyberShark <span>Newsroom</span></h1>
+          <p>
+            A visual daily briefing for defenders: current incidents,
+            vulnerabilities, malware, identity attacks, DFIR observations, and
+            threat intelligence from established security publishers.
           </p>
-          <div class="cta-row">
-            <a class="button button-primary" href="#breaking">Start scanning</a>
-            <a class="button button-ghost" href="index.html#soc-experience">Back to profile</a>
+        </div>
+        <div class="newsroom-status">
+          <span class="newsroom-live-dot" aria-hidden="true"></span>
+          <div>
+            <strong data-news-generated>Loading latest edition</strong>
+            <span data-news-status>Refreshing publisher feeds</span>
           </div>
         </div>
+      </section>
 
-        <div class="preview-command" aria-label="Cyber news workflow preview">
-          <div class="command-top">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <p class="terminal-line">$ open news-nexus --sources security</p>
-          <p class="terminal-line is-cyan">[feed] breaking news, vulnerabilities, advisories, breaches</p>
-          <p class="terminal-line is-pink">[watch] official alerts, DFIR reporting, threat intelligence</p>
-          <p class="terminal-line is-green">[follow] one page, multiple signal sources, less context switching</p>
+      <section class="news-lead-layout" aria-label="Lead cybersecurity stories">
+        <article class="news-lead-card" data-news-lead>
+          <div class="news-card-loading">Building today's lead story…</div>
+        </article>
+        <div class="news-secondary-stack" data-news-secondary>
+          <div class="news-card-loading">Loading the briefing desk…</div>
         </div>
       </section>
 
-      <section class="section-heading" id="breaking">
-        <p class="eyebrow">BREAKING NEWS</p>
-        <h2>Fast-moving cyber and vulnerability reporting</h2>
+      <section class="news-ticker" aria-label="News topics">
+        <span>NOW TRACKING</span>
+        <div data-news-ticker>VULNERABILITIES • MALWARE • IDENTITY • BREACHES • DFIR • THREAT INTELLIGENCE</div>
       </section>
 
-      <section class="card-grid case-grid">
-        <article class="info-card">
-          <span class="card-tag">01 / NEWS</span>
-          <h3>BleepingComputer</h3>
-          <p>
-            Strong daily coverage for breaches, ransomware activity, patching,
-            Windows ecosystem issues, and operational security news that lands
-            quickly.
-          </p>
-          <a href="https://www.bleepingcomputer.com/news/security/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
-        <article class="info-card">
-          <span class="card-tag">02 / NEWS</span>
-          <h3>SecurityWeek</h3>
-          <p>
-            Broad cybersecurity reporting with good enterprise coverage across
-            incidents, vendors, policy, vulnerabilities, and security operations.
-          </p>
-          <a href="https://www.securityweek.com/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
-        <article class="info-card">
-          <span class="card-tag">03 / NEWS</span>
-          <h3>The Hacker News</h3>
-          <p>
-            Fast-paced coverage of attacks, exploited vulnerabilities, malware,
-            campaigns, and general practitioner-facing cyber news.
-          </p>
-          <a href="https://thehackernews.com/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
+      <section class="newsroom-toolbar panel" id="latest">
+        <div>
+          <p class="eyebrow">LATEST REPORTING</p>
+          <h2>The security desk</h2>
+        </div>
+        <div class="newsroom-search">
+          <label for="news-search">Search stories</label>
+          <input
+            id="news-search"
+            type="search"
+            placeholder="Search CVE, malware, vendor, campaign, source…"
+            autocomplete="off"
+            data-news-search
+          >
+        </div>
+        <div class="newsroom-filters" data-news-filters aria-label="Filter news topics"></div>
       </section>
 
-      <section class="section-heading" id="official">
-        <p class="eyebrow">OFFICIAL SOURCES</p>
-        <h2>Advisories, alerts, and defensive guidance</h2>
+      <section class="news-story-grid" data-news-grid aria-live="polite">
+        <article class="news-card-loading">Loading current publisher stories…</article>
       </section>
 
-      <section class="skill-cluster">
-        <article class="support-card">
-          <h3>CISA Alerts</h3>
+      <section class="news-source-section panel" id="sources">
+        <div class="news-source-heading">
+          <div>
+            <p class="eyebrow">SOURCE DIRECTORY</p>
+            <h2>Trusted routes beyond the feed</h2>
+          </div>
           <p>
-            Best place to monitor U.S. government cyber alerts, known exploited
-            vulnerabilities, and practical defensive guidance with operational
-            relevance.
+            Automated cards use stable publisher feeds. These direct routes add
+            official alerts, specialist reporting, and curated security signal.
           </p>
-          <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">Open CISA advisories</a>
-        </article>
-        <article class="support-card">
-          <h3>Microsoft Security Response Center</h3>
-          <p>
-            Essential for Microsoft vulnerability, patching, and ecosystem
-            guidance when working in Defender, Sentinel, and Windows-heavy
-            environments.
-          </p>
-          <a href="https://msrc.microsoft.com/blog/" target="_blank" rel="noreferrer">Open MSRC blog</a>
-        </article>
+        </div>
+        <div class="news-source-grid">
+          <a href="https://linktr.ee/thecybersecurityhub" target="_blank" rel="noreferrer">
+            <span>CURATED PORTAL</span>
+            <strong>The Cyber Security Hub</strong>
+            <p>Broad cyber-news curation, reports, community signal, and links across its active channels.</p>
+          </a>
+          <a href="https://www.bleepingcomputer.com/news/security/" target="_blank" rel="noreferrer">
+            <span>BREAKING NEWS</span>
+            <strong>BleepingComputer</strong>
+            <p>Rapid operational coverage of ransomware, breaches, vulnerabilities, Windows, and security incidents.</p>
+          </a>
+          <a href="https://www.cisa.gov/news-events/cybersecurity-advisories" target="_blank" rel="noreferrer">
+            <span>OFFICIAL ADVISORIES</span>
+            <strong>CISA</strong>
+            <p>Authoritative alerts, joint advisories, defensive guidance, and known-exploited vulnerability context.</p>
+          </a>
+          <a href="https://www.ncsc.gov.uk/section/keep-up-to-date/all-articles" target="_blank" rel="noreferrer">
+            <span>UK OFFICIAL</span>
+            <strong>NCSC</strong>
+            <p>UK alerts, guidance, incident context, and practical recommendations for organisations and defenders.</p>
+          </a>
+          <a href="https://cloud.google.com/blog/topics/threat-intelligence" target="_blank" rel="noreferrer">
+            <span>THREAT INTELLIGENCE</span>
+            <strong>Google Threat Intelligence</strong>
+            <p>Intrusion analysis, attacker tradecraft, campaigns, and intelligence from Mandiant and Google teams.</p>
+          </a>
+          <a href="https://unit42.paloaltonetworks.com/" target="_blank" rel="noreferrer">
+            <span>RESEARCH</span>
+            <strong>Unit 42</strong>
+            <p>Threat research, incident response findings, malware analysis, cloud threats, and adversary reporting.</p>
+          </a>
+          <a href="https://www.microsoft.com/en-us/security/blog/" target="_blank" rel="noreferrer">
+            <span>VENDOR INTELLIGENCE</span>
+            <strong>Microsoft Security</strong>
+            <p>Identity, cloud, endpoint, nation-state, and platform security research from Microsoft teams.</p>
+          </a>
+          <a href="https://www.crowdstrike.com/en-us/blog/" target="_blank" rel="noreferrer">
+            <span>ADVERSARY INTELLIGENCE</span>
+            <strong>CrowdStrike</strong>
+            <p>Endpoint-focused adversary intelligence, hunting concepts, incident trends, and campaign reporting.</p>
+          </a>
+        </div>
       </section>
 
-      <section class="section-heading" id="dfir">
-        <p class="eyebrow">DFIR AND INVESTIGATION</p>
-        <h2>Sources with strong forensic and incident response value</h2>
-      </section>
-
-      <section class="publication-list">
-        <article class="publication-item">
-          <h3>Krebs on Security</h3>
+      <section class="signal panel newsroom-note">
+        <div>
+          <p class="eyebrow">EDITORIAL NOTE</p>
+          <h2>Headlines are signal, not verdicts</h2>
+        </div>
+        <div>
           <p>
-            High-value investigative reporting with strong context around fraud,
-            breaches, criminal ecosystems, and the human side of security
-            failures.
+            Every story opens at the original publisher. Images are loaded from
+            the article's publisher-provided Open Graph metadata and remain owned
+            and hosted by that publisher. CyberShark stores only the headline,
+            short metadata summary, source, date, link, and remote image URL.
           </p>
-          <a href="https://krebsonsecurity.com/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
-        <article class="publication-item">
-          <h3>SANS Internet Storm Center</h3>
           <p>
-            Useful for practical incident notes, diary-style observations,
-            emerging attack trends, and DFIR-adjacent signal from working
-            defenders.
+            Validate urgent claims against vendor advisories, official sources,
+            CISA/NCSC guidance, and your own environment before changing an
+            investigation, patching, or containment decision.
           </p>
-          <a href="https://isc.sans.edu/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
-      </section>
-
-      <section class="section-heading" id="intel">
-        <p class="eyebrow">THREAT INTELLIGENCE</p>
-        <h2>Vendor reporting worth following</h2>
-      </section>
-
-      <section class="support-grid capability-grid">
-        <article class="support-card">
-          <h3>Mandiant Blog</h3>
-          <p>
-            Reliable for intrusion analysis, attacker tradecraft, incident trends,
-            and research that helps shape SOC detection and escalation thinking.
-          </p>
-          <a href="https://cloud.google.com/blog/topics/threat-intelligence" target="_blank" rel="noreferrer">Open source</a>
-        </article>
-        <article class="support-card">
-          <h3>CrowdStrike Blog</h3>
-          <p>
-            Strong source for adversary reporting, hunting concepts, threat intel,
-            and operational security trends that map well to endpoint defence.
-          </p>
-          <a href="https://www.crowdstrike.com/en-us/blog/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
-        <article class="support-card">
-          <h3>Microsoft Security Blog</h3>
-          <p>
-            Useful for Microsoft ecosystem threat research, incident write-ups,
-            and defender-focused security intelligence from a major enterprise
-            platform vendor.
-          </p>
-          <a href="https://www.microsoft.com/en-us/security/blog/" target="_blank" rel="noreferrer">Open source</a>
-        </article>
+        </div>
       </section>
     </main>
 
     <footer class="footer panel" id="contact">
       <div>
-        <p class="eyebrow">SIGNAL ROUTER</p>
-        <h2>Keep the feed tight.</h2>
+        <p class="eyebrow">END OF EDITION</p>
+        <h2>Keep the signal sharp.</h2>
       </div>
       <div class="footer-links">
-        <a href="index.html">Back to CyberShark</a>
+        <a href="index.html">CyberShark Home</a>
         <a href="threat-pulse.html">Threat Pulse</a>
-        <a href="https://github.com/GeorgiSharkov" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="soc-reference.html">SOC Reference</a>
         <a href="mailto:gnssngmail@gmail.com">Email</a>
       </div>
     </footer>
   </div>
 
   <script src="script.js?v=20260803-2"></script>
+  <script src="cyber-news.js?v=20260813-1"></script>
 </body>
 </html>

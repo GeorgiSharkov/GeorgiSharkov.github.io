@@ -1,0 +1,253 @@
+{
+  "generatedAt": "2026-08-13T10:42:22.141906+00:00",
+  "count": 20,
+  "stories": [
+    {
+      "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
+      "url": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T10:40:57+00:00",
+      "description": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks",
+      "url": "https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T10:37:21+00:00",
+      "description": "Kimwolf v7 targets Android TV boxes via exposed ADB, using residential proxies to install malware and hide botnet traffic.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimwolf-v7-Botnet-Uses-Chrome-Browser-Fingerprints-to-Hide-HTTP-2-DDoS-Attacks.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "40 Minute LiteLLM Hack Exposes Cloud Keys and CI/CD Secrets From 2,488 Companies",
+      "url": "https://cybersecuritynews.com/40-minute-litellm-hack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T10:32:21+00:00",
+      "description": "LiteLLM supply-chain breach exposed CI/CD credentials across 2,488 corporate domains, with attackers targeting cloud and deployment access.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/40-Minute-LiteLLM-Hack-Exposes-Cloud-Keys-and-CI-CD-Secrets-From-2488-Companies.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Wireshark 4.6.8 Released With Patch for 28 Vulnerabilities That Lead to Crashes",
+      "url": "https://cybersecuritynews.com/wireshark-4-6-8-released/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T10:07:22+00:00",
+      "description": "The Wireshark Foundation has officially rolled out Wireshark 4.6.8, a security update that patches 27 distinct vulnerabilities capable of triggering application crashes across the network protocol analyzer.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Wireshark-4.6.8-Released.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
+      "url": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T09:53:04+00:00",
+      "description": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Blacklight Toolkit Finds Codex, Claude Code, and Cursor Artifacts Exposing Tokens and Session Data",
+      "url": "https://cybersecuritynews.com/blacklight-toolkit/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T09:46:21+00:00",
+      "description": "Blacklight finds local AI coding-agent artifacts that can expose authentication data, session history, project details, and connected services.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Blacklight-Finds-Codex-Claude-Code-and-Cursor-Artifacts-Exposing-Tokens-and-Session-Data-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical VMware vCenter Vulnerability in Attackers\u2019 Crosshairs",
+      "url": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T09:06:40+00:00",
+      "description": "Tracked as CVE-2026\u201359310, the directory traversal bug allows remote attackers to execute arbitrary code.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018ShieldBreak\u2019",
+      "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T08:38:03+00:00",
+      "description": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/06/zero-day-e1772721069481.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-13T06:09:48+00:00",
+      "description": "Attackers exploit SharePoint CVE-2026-55040 after a Rapid7 PoC release, forging JWTs to impersonate site users or admins.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1700-e365/poc.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33244",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-13T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Using Gemma4 with Ollama - Testing File Hash Analysis and Recommendations with AI, (Wed, Aug 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33242",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-13T01:26:53+00:00",
+      "description": "In the past few weeks, I have been using Gemma4 as a Large Language Model (LLM) to see how useful it can be to analyze some of the malware hashes uploaded to the DShield sensor over the past 30 days and figure out how its recommendation can be considered\u2026",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-12T17:39:27+00:00",
+      "description": "Lazarus-linked attacks exploit Windows CVE-2026-68820 as a zero-day to gain SYSTEM access and deploy Troy against defense and aerospace firms.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1700-e365/windows-shell.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Linux Kernel Process Accounting, (Wed, Aug 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33240",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-12T14:21:10+00:00",
+      "description": "A couple of days ago, Xavier posted about Atuin to gain more insight into the command history. Atuin does a great job of better organizing what is usually handled by \"bash&#;x26;#;x5f;history\"&#;x26;#;xc2;&#;x26;#;xa0;and collecting meaningful additional\u2026",
+      "image": "",
+      "topic": "Identity",
+      "kind": "DFIR"
+    },
+    {
+      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+      "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-12T14:09:50+00:00",
+      "description": "737 Chrome VPN extensions with 75,486 installs route browser traffic through SOCKS5 proxies, putting the operator in an AitM position.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1700-e365/chrome-plugins.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-12T11:47:38+00:00",
+      "description": "Replayable AI reasoning blocks let researchers recover API keys and passwords from public logs; they say the main extraction attack is now mitigated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1700-e365/ai-models.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, August 12th, 2026 https://isc.sans.edu/podcastdetail/10048, (Wed, Aug 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33238",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-12T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-08-11T21:28:35+00:00",
+      "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png",
+      "topic": "Vulnerability",
+      "kind": "Investigation"
+    },
+    {
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-08-06T17:00:56+00:00",
+      "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider\u2026",
+      "image": "",
+      "topic": "Ransomware",
+      "kind": "Investigation"
+    },
+    {
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-07-30T16:49:00+00:00",
+      "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a\u2026",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
+      "topic": "Investigation",
+      "kind": "Investigation"
+    },
+    {
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-07-22T01:10:38+00:00",
+      "description": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers\u2026",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/pac-man-brightdata.png",
+      "topic": "Investigation",
+      "kind": "Investigation"
+    }
+  ],
+  "sources": [
+    {
+      "name": "The Hacker News",
+      "status": "ok",
+      "stories": 4
+    },
+    {
+      "name": "SecurityWeek",
+      "status": "ok",
+      "stories": 4
+    },
+    {
+      "name": "Cybersecurity News",
+      "status": "ok",
+      "stories": 4
+    },
+    {
+      "name": "Krebs on Security",
+      "status": "ok",
+      "stories": 4
+    },
+    {
+      "name": "SANS ISC",
+      "status": "ok",
+      "stories": 4
+    }
+  ]
+}
