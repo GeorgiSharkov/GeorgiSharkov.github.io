@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-13T10:46:35.183923+00:00",
+  "generatedAt": "2026-08-13T14:03:08.361002+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Trezor ShipMonk Data Breach Exposes Personal Data of Over 13,000 Hardware Wallet Customers",
+      "url": "https://cybersecuritynews.com/trezor-shipmonk-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T13:44:21+00:00",
+      "description": "A third-party logistics breach has put thousands of Trezor hardware wallet buyers at higher phishing risk, even though Trezor\u2019s own systems and devices were not compromised.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Trezor-ShipMonk-Data-Breach.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "North Korean IT Workers Use AI-Forged IDs and Remote Desktops to Become Trusted Employees",
+      "url": "https://cybersecuritynews.com/north-korean-it-workers-ai-forged-ids/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T13:30:47+00:00",
+      "description": "A joint undercover investigation has pulled back the curtain on how North Korean IT worker operatives don't just slip past hiring checks they settle in, gain trusted access, and quietly work from inside legitimate companies for months at a time.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/North-Korean-IT-Workers-Use-AI-Forged-IDs.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Windows Ancillary Function 0-Day Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/windows-ancillary-function-0-day-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T13:12:38+00:00",
+      "description": "CISA has added a Microsoft Windows vulnerability to its Known Exploited Vulnerabilities Catalog, warning that the flaw is being exploited in attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Windows-Ancillary-Function-0-Day-Vulnerability-Exploited-in-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "GitLab 19.2.2 Patches 13 Security Flaws, Including High-Severity XSS and CI/CD Authorization Flaws",
+      "url": "https://cybersecuritynews.com/gitlab-patches-13-security-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T12:59:07+00:00",
+      "description": "GitLab fixed 13 vulnerabilities affecting analytics, CI/CD, APIs, AI services, projects, and package management.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitLab-19.2.2-Patches-13-Security-Flaws-Including-High-Severity-XSS-and-CICD-Authorization-Flaws.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "WordPress 7.0.4 Patches Remote Code Execution Vulnerability",
+      "url": "https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T12:53:56+00:00",
+      "description": "Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Venture Firm Team8 Secures Additional $365 Million",
+      "url": "https://www.securityweek.com/venture-firm-team8-secures-additional-365-million/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T11:42:48+00:00",
+      "description": "The Israeli company has nearly $2 billion in total assets under management since 2014.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-4.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
       "url": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
@@ -9,40 +75,7 @@
       "sourceUrl": "https://www.securityweek.com/",
       "publishedAt": "2026-08-13T10:40:57+00:00",
       "description": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Kimwolf v7 Botnet Uses Chrome Browser Fingerprints to Hide HTTP/2 DDoS Attacks",
-      "url": "https://cybersecuritynews.com/kimwolf-v7-uses-chrome-browser/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T10:37:21+00:00",
-      "description": "Kimwolf v7 targets Android TV boxes via exposed ADB, using residential proxies to install malware and hide botnet traffic.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Kimwolf-v7-Botnet-Uses-Chrome-Browser-Fingerprints-to-Hide-HTTP-2-DDoS-Attacks.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "40 Minute LiteLLM Hack Exposes Cloud Keys and CI/CD Secrets From 2,488 Companies",
-      "url": "https://cybersecuritynews.com/40-minute-litellm-hack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T10:32:21+00:00",
-      "description": "LiteLLM supply-chain breach exposed CI/CD credentials across 2,488 corporate domains, with attackers targeting cloud and deployment access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/40-Minute-LiteLLM-Hack-Exposes-Cloud-Keys-and-CI-CD-Secrets-From-2488-Companies.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Wireshark 4.6.8 Released With Patch for 28 Vulnerabilities That Lead to Crashes",
-      "url": "https://cybersecuritynews.com/wireshark-4-6-8-released/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T10:07:22+00:00",
-      "description": "The Wireshark Foundation has officially rolled out Wireshark 4.6.8, a security update that patches 27 distinct vulnerabilities capable of triggering application crashes across the network protocol analyzer.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Wireshark-4.6.8-Released.webp",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/Fortinet-Vulnerability.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -55,39 +88,6 @@
       "description": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Blacklight Toolkit Finds Codex, Claude Code, and Cursor Artifacts Exposing Tokens and Session Data",
-      "url": "https://cybersecuritynews.com/blacklight-toolkit/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T09:46:21+00:00",
-      "description": "Blacklight finds local AI coding-agent artifacts that can expose authentication data, session history, project details, and connected services.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Blacklight-Finds-Codex-Claude-Code-and-Cursor-Artifacts-Exposing-Tokens-and-Session-Data-.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical VMware vCenter Vulnerability in Attackers\u2019 Crosshairs",
-      "url": "https://www.securityweek.com/critical-vmware-vcenter-vulnerability-in-attackers-crosshairs/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T09:06:40+00:00",
-      "description": "Tracked as CVE-2026\u201359310, the directory traversal bug allows remote attackers to execute arbitrary code.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Nightmare Eclipse Drops Windows Zero-Day Exploit \u2018ShieldBreak\u2019",
-      "url": "https://www.securityweek.com/nightmare-eclipse-drops-windows-zero-day-exploit-shieldbreak/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T08:38:03+00:00",
-      "description": "Dropped on Patch Tuesday, the exploit allows any user to spawn a shell with System privileges.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/06/zero-day-e1772721069481.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
