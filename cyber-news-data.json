@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-08-13T14:03:08.361002+00:00",
+  "generatedAt": "2026-08-13T16:29:07.155545+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Beacon CRM Confirms Full Database Theft After AWS Access Key Breach",
+      "url": "https://cybersecuritynews.com/beacon-crm-database-theft/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T16:16:48+00:00",
+      "description": "Beacon, the customer relationship management (CRM) platform relied on by over a thousand UK charities and non-profit organizations, has confirmed that a threat actor made a complete copy and exfiltrated its customer database.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Beacon-CRM-Database-Theft.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "AmnesiaStealer macOS Malware Hijacks Browser Sessions via Fake GitHub Lure",
+      "url": "https://cybersecuritynews.com/amnesiastealer-macos-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T16:01:58+00:00",
+      "description": "Security researchers at Jamf Threat Labs have uncovered a sophisticated new macOS malware strain called AmnesiaStealer.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AmnesiaStealer-macOS-Malware.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
+      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T14:41:44+00:00",
+      "description": "Significant cybersecurity M&A deals announced by Barracuda, CrowdStrike, Cyera, Okta, Palo Alto Networks, and Qualcomm.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Adobe Commerce Bug Targeted Immediately After Disclosure",
+      "url": "https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-13T14:17:44+00:00",
+      "description": "The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Adobe.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Exchange Server Vulnerabilities Enable DoS, Privilege Escalation, and RCE Attacks",
+      "url": "https://cybersecuritynews.com/microsoft-exchange-server-vulnerabilities-rce/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-13T14:07:35+00:00",
+      "description": "Microsoft has released security updates for multiple Exchange Server vulnerabilities that could allow denial-of-service, privilege escalation, remote code execution, spoofing, and security feature bypass attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Exchange-Server-Vulnerabilities-Enables-DoS-Privilege-Escalation-and-RCE-Attacks.png",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Trezor ShipMonk Data Breach Exposes Personal Data of Over 13,000 Hardware Wallet Customers",
       "url": "https://cybersecuritynews.com/trezor-shipmonk-data-breach/",
@@ -11,39 +66,6 @@
       "description": "A third-party logistics breach has put thousands of Trezor hardware wallet buyers at higher phishing risk, even though Trezor\u2019s own systems and devices were not compromised.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Trezor-ShipMonk-Data-Breach.webp",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "North Korean IT Workers Use AI-Forged IDs and Remote Desktops to Become Trusted Employees",
-      "url": "https://cybersecuritynews.com/north-korean-it-workers-ai-forged-ids/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T13:30:47+00:00",
-      "description": "A joint undercover investigation has pulled back the curtain on how North Korean IT worker operatives don't just slip past hiring checks they settle in, gain trusted access, and quietly work from inside legitimate companies for months at a time.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/North-Korean-IT-Workers-Use-AI-Forged-IDs.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of Windows Ancillary Function 0-Day Vulnerability Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/windows-ancillary-function-0-day-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T13:12:38+00:00",
-      "description": "CISA has added a Microsoft Windows vulnerability to its Known Exploited Vulnerabilities Catalog, warning that the flaw is being exploited in attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Windows-Ancillary-Function-0-Day-Vulnerability-Exploited-in-Attacks.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "GitLab 19.2.2 Patches 13 Security Flaws, Including High-Severity XSS and CI/CD Authorization Flaws",
-      "url": "https://cybersecuritynews.com/gitlab-patches-13-security-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T12:59:07+00:00",
-      "description": "GitLab fixed 13 vulnerabilities affecting analytics, CI/CD, APIs, AI services, projects, and package management.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitLab-19.2.2-Patches-13-Security-Flaws-Including-High-Severity-XSS-and-CICD-Authorization-Flaws.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -65,28 +87,6 @@
       "publishedAt": "2026-08-13T11:42:48+00:00",
       "description": "The Israeli company has nearly $2 billion in total assets under management since 2014.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-4.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Fortinet Patches Authentication Flaws in FortiWeb and FortiManager",
-      "url": "https://www.securityweek.com/fortinet-patches-authentication-flaws-in-fortiweb-and-fortimanager/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T10:40:57+00:00",
-      "description": "The vulnerabilities could allow attackers to log in with random usernames and passwords or impersonate any FortiGate appliance.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/Fortinet-Vulnerability.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "White House Mobilizes Security Firms for Operations Against Foreign Cybercrime Gangs",
-      "url": "https://www.securityweek.com/white-house-mobilizes-security-firms-for-operations-against-foreign-cybercrime-gangs/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T09:53:04+00:00",
-      "description": "Contracts may require a $1 million bond, which will be forfeited if a company fails to comply with operational requirements.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg",
       "topic": "News",
       "kind": "News"
     },
