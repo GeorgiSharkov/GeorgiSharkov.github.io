@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-14T05:18:25.208746+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-14T07:59:41.265819+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "GeoServer 0-Day Vulnerability Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/geoserver-0-day-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T07:50:12+00:00",
+      "description": "A newly disclosed zero-day vulnerability in GeoServer is being targeted by attackers, raising concern for organizations that publish or manage geospatial data through internet-facing deployments. The flaw is an unauthenticated SQL injection issue that, under\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Unveils Ultrafast Mode in GPT\u20115.6 Sol That Works 14\u00d7 Faster Than Standard Mode",
+      "url": "https://cybersecuritynews.com/openai-unveils-ultrafast-mode-in-gpt-5-6-sol/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T07:47:13+00:00",
+      "description": "OpenAI launched Ultrafast, a GPT-5.6 Sol tier that runs up to 14\u00d7 faster than Standard processing, initially available to select API customers in preview.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Unveils-Ultrafast-mode-in-GPT\u20115.6-Sol-that-Works-14\u00d7-Faster-Than-Standard-Mode-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2",
+      "url": "https://cybersecuritynews.com/aeternum-botnet-uses-polygon/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T07:33:42+00:00",
+      "description": "Aeternum botnet uses Polygon blockchain for resilient C2, delivering XWorm, XMRig, and spyware through fake DBeaver installers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Aeternum-Botnet-Uses-Polygon-Smart-Contracts-for-Takedown-Resistant-Malware-C2.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Download More RAM Attack Bypasses Windows VBS and Disables Defender Through Memory Aliasing",
+      "url": "https://cybersecuritynews.com/download-more-ram-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T07:19:42+00:00",
+      "description": "A new attack dubbed \u201cDownload More RAM\u201d can bypass Windows Virtualization-Based Security (VBS), weaken Hypervisor-Enforced Code Integrity (HVCI), and disable Microsoft Defender",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Download-More-RAM-Attack-Bypasses-Windows-VBS-and-Disables-Defender-Through-Memory-Aliasing.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploiting Unpatched GeoServer Zero-Day",
+      "url": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T07:01:56+00:00",
+      "description": "The security defect is described as an SQL injection that could allow attackers to achieve remote code execution.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/vulnerability-software-bug.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
+      "url": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T06:41:43+00:00",
+      "description": "The Rust-based macOS infostealer harvests users\u2019 passwords, keychain information, Chromium-based browser data, and Safari cookies.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/MacOS-Mac-malware-Apple.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)",
       "url": "https://isc.sans.edu/diary/rss/33246",
@@ -33,28 +99,6 @@
       "description": "The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Adobe.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "WordPress 7.0.4 Patches Remote Code Execution Vulnerability",
-      "url": "https://www.securityweek.com/wordpress-7-0-4-patches-remote-code-execution-vulnerability/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T12:53:56+00:00",
-      "description": "Attackers with Author-level user or higher permissions could exploit the flaw via malicious Postscript files.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Venture Firm Team8 Secures Additional $365 Million",
-      "url": "https://www.securityweek.com/venture-firm-team8-secures-additional-365-million/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T11:42:48+00:00",
-      "description": "The Israeli company has nearly $2 billion in total assets under management since 2014.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-4.jpeg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
