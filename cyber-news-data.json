@@ -1,51 +1,7 @@
 {
-  "generatedAt": "2026-08-14T13:57:56.903135+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-14T16:27:13.461813+00:00",
+  "count": 16,
   "stories": [
-    {
-      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
-      "url": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T13:54:56+00:00",
-      "description": "TP-Link disclosed high-severity Aginet flaws enabling authentication bypass, privilege escalation, data theft, and OS command execution.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TP-Link-Vulnerabilities-Allow-Attackers-to-Bypass-Authentication-and-Escalate-Privilege.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware",
-      "url": "https://cybersecuritynews.com/bring-your-own-edr-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T13:36:51+00:00",
-      "description": "The \u201cBring Your Own EDR\u201d attack abuses trusted SentinelOne components to turn endpoint protection into a malware shield.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bring-Your-Own-EDR-Attack-Turns-SentinelOne-Into-PPL-Protected-Trojan-Horse-to-Shield-Malware-1.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root \u2013 PoC Released",
-      "url": "https://cybersecuritynews.com/citrix-netscaler-heap-overflow/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T13:32:45+00:00",
-      "description": "Security researchers have published a working proof-of-concept (PoC) exploit demonstrating how a pre-authentication heap overflow in Citrix NetScaler ADC and NetScaler Gateway can be turned into unauthenticated root-level remote code execution (RCE).",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Citrix-NetScaler-Heap-Overflow.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AI Agents Don\u2019t Stop When Malware Fails, They Write Another Tool and Keep Attacking",
-      "url": "https://cybersecuritynews.com/ai-agents/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T12:44:03+00:00",
-      "description": "AI agents can adapt cyberattacks by rebuilding tools, changing tactics, and persisting through failures to reach external systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Agents-Dont-Stop-When-Malware-Fails-They-Write-Another-Tool-and-Keep-Attacking.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
     {
       "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
       "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
