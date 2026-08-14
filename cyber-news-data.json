@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-08-14T10:35:35.431471+00:00",
+  "generatedAt": "2026-08-14T13:57:56.903135+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
+      "url": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T13:54:56+00:00",
+      "description": "TP-Link disclosed high-severity Aginet flaws enabling authentication bypass, privilege escalation, data theft, and OS command execution.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TP-Link-Vulnerabilities-Allow-Attackers-to-Bypass-Authentication-and-Escalate-Privilege.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware",
+      "url": "https://cybersecuritynews.com/bring-your-own-edr-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T13:36:51+00:00",
+      "description": "The \u201cBring Your Own EDR\u201d attack abuses trusted SentinelOne components to turn endpoint protection into a malware shield.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bring-Your-Own-EDR-Attack-Turns-SentinelOne-Into-PPL-Protected-Trojan-Horse-to-Shield-Malware-1.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root \u2013 PoC Released",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-heap-overflow/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T13:32:45+00:00",
+      "description": "Security researchers have published a working proof-of-concept (PoC) exploit demonstrating how a pre-authentication heap overflow in Citrix NetScaler ADC and NetScaler Gateway can be turned into unauthenticated root-level remote code execution (RCE).",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Citrix-NetScaler-Heap-Overflow.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "AI Agents Don\u2019t Stop When Malware Fails, They Write Another Tool and Keep Attacking",
+      "url": "https://cybersecuritynews.com/ai-agents/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T12:44:03+00:00",
+      "description": "AI agents can adapt cyberattacks by rebuilding tools, changing tactics, and persisting through failures to reach external systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Agents-Dont-Stop-When-Malware-Fails-They-Write-Another-Tool-and-Keep-Attacking.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
+      "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T11:57:51+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
+      "url": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T11:35:23+00:00",
+      "description": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/blockchain-cryptocurrency-Solana.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
+      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-08-14T11:24:35+00:00",
+      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and\u2026",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/quietremovalsfeed.png",
+      "topic": "Investigation",
+      "kind": "Investigation"
+    },
+    {
+      "title": "Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal",
+      "url": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T11:00:00+00:00",
+      "description": "Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/PQC-post-quantum-cryptography.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
       "url": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
@@ -11,83 +99,6 @@
       "description": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/RingCentral.jpeg",
       "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel",
-      "url": "https://cybersecuritynews.com/hackerai-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T10:21:16+00:00",
-      "description": "HACKERAI C2 Agent uses GitHub Gists for hidden commands and data theft, targeting telecom, government, defense, and energy sectors.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HACKERAI-Malware-Turns-GitHub-Gists-Into-a-Command-and-Control-Channel.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
-      "url": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T09:20:28+00:00",
-      "description": "The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges",
-      "url": "https://cybersecuritynews.com/ai-token-jacking/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T09:05:35+00:00",
-      "description": "AI token jacking steals exposed API keys to abuse paid AI services, causing unexpected bills through illicit model usage.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Token-Jacking-Lets-Hackers-Steal-API-Keys-and-Rack-Up-Nearly-1-Million-in-Charges.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Using New Blackhat AI Tool MessiahGPT to Generate Ransomware and Phishing Kits",
-      "url": "https://cybersecuritynews.com/messiahgpt-ai-tool/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T08:48:15+00:00",
-      "description": "A newly surfaced criminal artificial intelligence service named MessiahGPT is being openly marketed across underground cybercrime hubs, including BreachForums.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/MessiahGPT-AI-Tool-Darkweb-forum.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
-      "url": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T08:16:00+00:00",
-      "description": "Hackers stole the customers\u2019 shipping information, including names, addresses, email addresses, and phone numbers.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Trezor.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "GeoServer 0-Day Vulnerability Enables Remote Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/geoserver-0-day-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T07:50:12+00:00",
-      "description": "A newly disclosed zero-day vulnerability in GeoServer is being targeted by attackers, raising concern for organizations that publish or manage geospatial data through internet-facing deployments. The flaw is an unauthenticated SQL injection issue that, under\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploiting Unpatched GeoServer Zero-Day",
-      "url": "https://www.securityweek.com/hackers-exploiting-unpatched-geoserver-zero-day/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T07:01:56+00:00",
-      "description": "The security defect is described as an SQL injection that could allow attackers to achieve remote code execution.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/vulnerability-software-bug.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -208,17 +219,6 @@
       "publishedAt": "2026-07-30T16:49:00+00:00",
       "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a\u2026",
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
-      "topic": "Investigation",
-      "kind": "Investigation"
-    },
-    {
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-07-22T01:10:38+00:00",
-      "description": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers\u2026",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/pac-man-brightdata.png",
       "topic": "Investigation",
       "kind": "Investigation"
     }
