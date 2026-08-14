@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-14T07:59:41.265819+00:00",
+  "generatedAt": "2026-08-14T10:35:35.431471+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
+      "url": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T10:24:03+00:00",
+      "description": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/RingCentral.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "HACKERAI Malware Turns GitHub Gists Into a Command-and-Control Channel",
+      "url": "https://cybersecuritynews.com/hackerai-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T10:21:16+00:00",
+      "description": "HACKERAI C2 Agent uses GitHub Gists for hidden commands and data theft, targeting telecom, government, defense, and energy sectors.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HACKERAI-Malware-Turns-GitHub-Gists-Into-a-Command-and-Control-Channel.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Over 1,000 Charities Hit by Beacon CRM Data Breach",
+      "url": "https://www.securityweek.com/over-1000-charities-hit-by-beacon-crm-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T09:20:28+00:00",
+      "description": "The root cause of the incident is believed to be a compromised AWS access key that was exposed in publicly available JavaScript build artifacts.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "AI Token Jacking Lets Hackers Steal API Keys and Rack Up Nearly $1 Million in Charges",
+      "url": "https://cybersecuritynews.com/ai-token-jacking/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T09:05:35+00:00",
+      "description": "AI token jacking steals exposed API keys to abuse paid AI services, causing unexpected bills through illicit model usage.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Token-Jacking-Lets-Hackers-Steal-API-Keys-and-Rack-Up-Nearly-1-Million-in-Charges.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Using New Blackhat AI Tool MessiahGPT to Generate Ransomware and Phishing Kits",
+      "url": "https://cybersecuritynews.com/messiahgpt-ai-tool/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T08:48:15+00:00",
+      "description": "A newly surfaced criminal artificial intelligence service named MessiahGPT is being openly marketed across underground cybercrime hubs, including BreachForums.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/MessiahGPT-AI-Tool-Darkweb-forum.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "14,000 Trezor Customers Impacted by Data Breach at ShipMonk",
+      "url": "https://www.securityweek.com/14000-trezor-customers-impacted-by-data-breach-at-shipmonk/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-14T08:16:00+00:00",
+      "description": "Hackers stole the customers\u2019 shipping information, including names, addresses, email addresses, and phone numbers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Trezor.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "GeoServer 0-Day Vulnerability Enables Remote Code Execution Attacks",
       "url": "https://cybersecuritynews.com/geoserver-0-day-vulnerability/",
@@ -11,39 +77,6 @@
       "description": "A newly disclosed zero-day vulnerability in GeoServer is being targeted by attackers, raising concern for organizations that publish or manage geospatial data through internet-facing deployments. The flaw is an unauthenticated SQL injection issue that, under\u2026",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Unveils Ultrafast Mode in GPT\u20115.6 Sol That Works 14\u00d7 Faster Than Standard Mode",
-      "url": "https://cybersecuritynews.com/openai-unveils-ultrafast-mode-in-gpt-5-6-sol/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T07:47:13+00:00",
-      "description": "OpenAI launched Ultrafast, a GPT-5.6 Sol tier that runs up to 14\u00d7 faster than Standard processing, initially available to select API customers in preview.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Unveils-Ultrafast-mode-in-GPT\u20115.6-Sol-that-Works-14\u00d7-Faster-Than-Standard-Mode-.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Aeternum Botnet Uses Polygon Smart Contracts for Takedown-Resistant Malware C2",
-      "url": "https://cybersecuritynews.com/aeternum-botnet-uses-polygon/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T07:33:42+00:00",
-      "description": "Aeternum botnet uses Polygon blockchain for resilient C2, delivering XWorm, XMRig, and spyware through fake DBeaver installers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Aeternum-Botnet-Uses-Polygon-Smart-Contracts-for-Takedown-Resistant-Malware-C2.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Download More RAM Attack Bypasses Windows VBS and Disables Defender Through Memory Aliasing",
-      "url": "https://cybersecuritynews.com/download-more-ram-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T07:19:42+00:00",
-      "description": "A new attack dubbed \u201cDownload More RAM\u201d can bypass Windows Virtualization-Based Security (VBS), weaken Hypervisor-Enforced Code Integrity (HVCI), and disable Microsoft Defender",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Download-More-RAM-Attack-Bypasses-Windows-VBS-and-Disables-Defender-Through-Memory-Aliasing.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -58,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "AmnesiaStealer macOS Malware Steals Data, Controls Browser Sessions",
-      "url": "https://www.securityweek.com/amnesiastealer-macos-malware-steals-data-controls-browser-sessions/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T06:41:43+00:00",
-      "description": "The Rust-based macOS infostealer harvests users\u2019 passwords, keychain information, Chromium-based browser data, and Safari cookies.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/MacOS-Mac-malware-Apple.jpeg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)",
       "url": "https://isc.sans.edu/diary/rss/33246",
       "source": "SANS ISC",
@@ -78,28 +100,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
-      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-21-deals-announced-in-july-2026/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T14:41:44+00:00",
-      "description": "Significant cybersecurity M&A deals announced by Barracuda, CrowdStrike, Cyera, Okta, Palo Alto Networks, and Qualcomm.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Adobe Commerce Bug Targeted Immediately After Disclosure",
-      "url": "https://www.securityweek.com/adobe-commerce-bug-targeted-immediately-after-disclosure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-13T14:17:44+00:00",
-      "description": "The first exploitation attempts targeting CVE-2026-71362 were observed shortly after Adobe released patches.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Adobe.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
