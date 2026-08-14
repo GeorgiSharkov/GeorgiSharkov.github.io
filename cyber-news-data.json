@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-08-14T03:09:21.500984+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-14T05:18:25.208746+00:00",
+  "count": 16,
   "stories": [
-    {
-      "title": "Apple Urges Mercenary Spyware Targets to Enable Lockdown Mode Immediately",
-      "url": "https://cybersecuritynews.com/apple-sends-spyware-attack-alerts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-14T02:05:01+00:00",
-      "description": "Apple has quietly rolled out a new wave of high-confidence \u201cApple Threat Notification\u201d alerts, warning selected iPhone users in 110 countries that their devices may be targeted by government-grade mercenary spyware. These are not routine phishing warnings or\u2026",
-      "image": "",
-      "topic": "Identity",
-      "kind": "News"
-    },
     {
       "title": "ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)",
       "url": "https://isc.sans.edu/diary/rss/33246",
@@ -23,39 +12,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Fortinet Patches Multiple Authentication Vulnerabilities in FortiWeb, FortiManager, and FortiClient",
-      "url": "https://cybersecuritynews.com/fortinet-authentication-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T16:41:55+00:00",
-      "description": "Fortinet has rolled out fixes for a batch of authentication-related vulnerabilities across its FortiWeb, FortiManager, and FortiClient product lines, urging administrators to patch quickly given the sensitivity of the affected systems. The most severe of the\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Beacon CRM Confirms Full Database Theft After AWS Access Key Breach",
-      "url": "https://cybersecuritynews.com/beacon-crm-database-theft/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T16:16:48+00:00",
-      "description": "Beacon, the customer relationship management (CRM) platform relied on by over a thousand UK charities and non-profit organizations, has confirmed that a threat actor made a complete copy of and exfiltrated its customer database. The disclosure, released by\u2026",
-      "image": "",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "AmnesiaStealer macOS Malware Hijacks Browser Sessions via Fake GitHub Lure",
-      "url": "https://cybersecuritynews.com/amnesiastealer-macos-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-13T16:01:58+00:00",
-      "description": "A newly identified macOS infostealer called AmnesiaStealer is spreading via a convincing fake GitHub download page, tricking Mac users into pasting a malicious Terminal command that silently installs malware and can later grant attackers live, hidden control\u2026",
-      "image": "",
-      "topic": "Malware",
-      "kind": "News"
     },
     {
       "title": "Cybersecurity M&A Roundup: 21 Deals Announced in July 2026",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
