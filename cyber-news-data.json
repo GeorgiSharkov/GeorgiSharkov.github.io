@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-08-15T02:01:27.600284+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-15T04:06:28.191613+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "VINclarity Publishes Investigation Into Alleged Scam and Fraud Reputation Attack Across Search and AI",
+      "url": "https://cybersecuritynews.com/vinclarity-publishes-investigation-into-alleged-scam-and-fraud-reputation-attack-across-search-and-ai/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T16:31:04+00:00",
+      "description": "VINclarity has published a new investigation into what researchers describe as a coordinated online reputation attack targeting the vehicle history platform across Reddit, YouTube, Google Search and AI-powered discovery systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAKFffzGjkxmQtKa1Boy52FYRjPUhFH6nFz1T0VF8DnB764ZWWemdYgdjiQ-uUVNMjTlVv76-N6fQ9qtf7CXd-xBZoWBXB8Nkjs087J2Oo-M63ga9FdVcWOAU2obBOHwyRM87Gtv2OTYj9e3p1BCPJNcRIivDPv1_xtLYSR1BmTVXHMJ2YhUROHDu1a64/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-14T213449.22.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Multiple TP-Link Vulnerabilities Allow Attackers to Bypass Authentication and Escalate Privileges",
+      "url": "https://cybersecuritynews.com/multiple-tp-link-bypass-authentication-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T13:54:56+00:00",
+      "description": "TP-Link disclosed high-severity Aginet flaws enabling authentication bypass, privilege escalation, data theft, and OS command execution.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TP-Link-Vulnerabilities-Allow-Attackers-to-Bypass-Authentication-and-Escalate-Privilege.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Bring Your Own EDR Attack Turns SentinelOne Into PPL-Protected Trojan Horse to Shield Malware",
+      "url": "https://cybersecuritynews.com/bring-your-own-edr-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T13:36:51+00:00",
+      "description": "The \u201cBring Your Own EDR\u201d attack abuses trusted SentinelOne components to turn endpoint protection into a malware shield.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bring-Your-Own-EDR-Attack-Turns-SentinelOne-Into-PPL-Protected-Trojan-Horse-to-Shield-Malware-1.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Citrix NetScaler Heap Overflow Flaw Lets Remote Attackers Execute Code as Root \u2013 PoC Released",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-heap-overflow/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-14T13:32:45+00:00",
+      "description": "Security researchers have published a working proof-of-concept (PoC) exploit demonstrating how a pre-authentication heap overflow in Citrix NetScaler ADC and NetScaler Gateway can be turned into unauthenticated root-level remote code execution (RCE).",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Citrix-NetScaler-Heap-Overflow.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
       "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
@@ -140,8 +184,8 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-12T11:47:38+00:00",
-      "description": "A newly disclosed flaw in the way OpenAI, Anthropic, and Google carried hidden AI reasoning between API calls let researchers recover internal reasoning and secrets from session logs, including API keys and passwords. The weakness affected encrypted\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1600/ai-models.jpg",
+      "description": "Replayable AI reasoning blocks let researchers recover API keys and passwords from public logs; they say the main extraction attack is now mitigated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1700-e365/ai-models.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
