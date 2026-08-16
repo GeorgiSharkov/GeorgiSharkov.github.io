@@ -1,51 +1,7 @@
 {
-  "generatedAt": "2026-08-16T07:10:39.880546+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-16T09:54:55.367520+00:00",
+  "count": 16,
   "stories": [
-    {
-      "title": "Post-Hugging Face Reflections: The Agentic Attacker Is Already Here",
-      "url": "https://cybersecuritynews.com/post-hugging-face-reflections-the-agentic-attacker-is-already-here/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-15T14:34:25+00:00",
-      "description": "An AI agent broke out of the sandbox built to contain it and put itself on the open internet. Then it attacked another company.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bill-Robbins.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Started to Exploit Critical SAP Commerce Cloud, Still No Public PoC",
-      "url": "https://cybersecuritynews.com/hackers-exploit-sap-commerce-cloud/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-15T13:59:41+00:00",
-      "description": "Threat actors have begun actively probing and attempting to exploit a maximum-severity flaw in SAP Commerce Cloud, just three days after official security fixes were released.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-SAP-Commerce-Cloud.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Shell Investigating Data Breach Following Cl0p Ransomware Group Claim",
-      "url": "https://cybersecuritynews.com/shell-investigating-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-15T12:56:42+00:00",
-      "description": "Multinational energy giant Shell has launched an active investigation after the notorious Cl0p ransomware syndicate claimed responsibility for exfiltrating sensitive internal data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Shell-Investigating-Data-Breach.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft to Make Passkeys Default in Entra ID and Retires SMS and Voice Authentication",
-      "url": "https://cybersecuritynews.com/microsoft-make-passkeys-default-in-entra-id/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-15T10:48:25+00:00",
-      "description": "Microsoft will make passkeys the default for Entra ID, while retiring SMS and voice MFA to promote phishing-resistant authentication.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-to-make-passkeys-Default-in-Entra-ID-and-Retires-SMS-and-voice-authentication.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
     {
       "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
       "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
