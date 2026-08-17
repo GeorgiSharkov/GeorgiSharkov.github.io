@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-17T15:53:37.218607+00:00",
+  "generatedAt": "2026-08-17T19:09:30.741329+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "OpenMatter Network to Take Verification Message to Belgrade Blockchain Week 2026",
+      "url": "https://cybersecuritynews.com/openmatter-network-belgrade-blockchain-week-2026/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T16:48:56+00:00",
+      "description": "OpenMatter Network's Chris Biele will lead key sessions on cryptographic verification, agentic AI, and DeSci at Belgrade Blockchain Week 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2DGPBMruPfux65RYqdOxwGV_SHfmO2_AYanYu3UKh55RpJM0IhSKJ4rHsQNig4U7f-VlzeQW5KL5GNwujvqqpdit1QkA5lPtS7pqBNybNpHPaPzJw4P8DlwDxQx6-hGfRuAj32s1hIvFvdJSFpu90PRWyX7xuRkZiPGC8ds-VadfUNT1tb06cSGzgUAk/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-17T194657.58.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
       "url": "https://cybersecuritynews.com/github-outage-worldwide/",
@@ -88,17 +99,6 @@
       "description": "Threema suffered large-scale DDoS attacks that disrupted service from Tuesday evening through Wednesday morning.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Threema-secure-messaging-service-Hit-by-Massive-DDoS-Attack.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
-      "url": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T11:26:12+00:00",
-      "description": "XM Cyber disclosed critical SCCM flaws enabling remote code execution and Windows environment compromise.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-SCCM-Vulnerability-Chained-to-Execute-malicious-code-Remotely.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
