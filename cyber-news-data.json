@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-17T02:06:35.073916+00:00",
+  "generatedAt": "2026-08-17T04:22:06.669975+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Apple Screen Sharing Vulnerability Exploited to Execute Command as Root",
+      "url": "https://cybersecuritynews.com/apple-screen-sharing-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T03:39:34+00:00",
+      "description": "A newly disclosed logic flaw in macOS Screen Sharing shows how a feature meant only to grant screen-viewing access can be twisted into a path for full root command execution.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Screen-Sharing-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Monday, August 17th, 2026 https://isc.sans.edu/podcastdetail/10054, (Mon, Aug 17th)",
       "url": "https://isc.sans.edu/diary/rss/33250",
@@ -55,17 +66,6 @@
       "description": "AWS Certificate Manager (ACM) has announced plans to permanently discontinue email-based domain control validation (DCV) for public certificate renewals by September 30, 2027.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Certificate-Manager-Ends-Email-Validation.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "McDonald\u2019s, Vodafone Hit by Azure Credential Theft Campaign Exposing Millions of Enterprise Records",
-      "url": "https://cybersecuritynews.com/azure-credential-theft-campaign/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-16T14:27:18+00:00",
-      "description": "A sprawling Azure data exfiltration campaign is unfolding across the dark web, with a threat actor systematically selling off internal employee directories stolen from some of the world's largest corporations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Azure-Credential-Theft-Campaign.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
