@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-08-17T04:22:06.669975+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-17T07:35:57.587313+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Apple Screen Sharing Vulnerability Exploited to Execute Command as Root",
-      "url": "https://cybersecuritynews.com/apple-screen-sharing-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T03:39:34+00:00",
-      "description": "A newly disclosed logic flaw in macOS Screen Sharing shows how a feature meant only to grant screen-viewing access can be twisted into a path for full root command execution.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Apple-Screen-Sharing-Vulnerability.webp",
-      "topic": "Vulnerability",
+      "title": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
+      "url": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T06:51:08+00:00",
+      "description": "A threat actor is claiming the exfiltration of millions of records from McDonald\u2019s, TCS, Vodafone, and other large organizations.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
+      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -34,39 +34,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Cyber Security Weekly Newsletter \u2013 Outlook RCE, Palo Alto, Cisco 0-day and Windows 0-Day Flaws +20 Stories",
-      "url": "https://cybersecuritynews.com/cyber-security-weekly-newsletter-august/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-16T16:24:03+00:00",
-      "description": "This week's roundup covers a record-setting Microsoft Patch Tuesday, an actively exploited Cisco firewall zero-day, a Lazarus-linked Windows kernel bug, and critical flaws across TP-Link, Palo Alto Networks, Fortinet, and VMware \u2014 plus a first-of-its-kind\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cyber-Security-Newsletter-Bulletin.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Begins to Merge Consumer and Enterprise Copilot Apps to Make New Super App",
-      "url": "https://cybersecuritynews.com/microsoft-combines-copilot-apps/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-16T15:58:07+00:00",
-      "description": "Microsoft is merging consumer and enterprise Copilot features into one app for personal tasks, work, files, collaboration, and AI content creation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-begins-to-Merge-consumer-and-Enterprise-Copilot-apps-to-Make-New-Super-App-.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AWS Certificate Manager to Discontinue Email Validation for Public Certificates",
-      "url": "https://cybersecuritynews.com/aws-certificate-manager-email-validation/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-16T15:54:22+00:00",
-      "description": "AWS Certificate Manager (ACM) has announced plans to permanently discontinue email-based domain control validation (DCV) for public certificate renewals by September 30, 2027.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Certificate-Manager-Ends-Email-Validation.webp",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
@@ -110,17 +77,6 @@
       "description": "Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/PQC-post-quantum-cryptography.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "1.6 Million Likely Impacted by RingCentral Data Breach",
-      "url": "https://www.securityweek.com/1-6-million-likely-impacted-by-ringcentral-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T10:24:03+00:00",
-      "description": "The hackers published the allegedly stolen information, including names, addresses, email addresses, and phone numbers.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/RingCentral.jpeg",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
