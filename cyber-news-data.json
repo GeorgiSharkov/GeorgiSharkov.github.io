@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-08-17T10:07:10.923335+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-17T13:24:02.901160+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
+      "url": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T12:11:00+00:00",
+      "description": "The AI security testing firm has shared information on a recently disclosed incident involving Anthropic AI models.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "url": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-17T11:58:00+00:00",
+      "description": "MCP servers can leak enterprise secrets through plaintext config files or prompt injection. Learn the main risks and how to secure them.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmy_mE0_W-wEeuppBUYhS19P_uTo6RifgrGEV5eLim_B6KkhI_BO5wSL930qS_NCD6aR7nL5mAizU4RAfinzkWhz-oq1wCnHszL6C25H0Sj_MahJIBsr7lw_wzJ7xZ4YF7-GVJJO0L1wxe8LQXv3rHuLV3vbuDUEQ9D7vXa6D4zK6ARD1aFmiQv4fka5Y/s1700-e365/keeper.png",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware",
+      "url": "https://www.securityweek.com/conflicting-test-goals-pushed-claude-agents-to-deploy-self-replicating-malware/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T11:09:57+00:00",
+      "description": "Anthropic has been conducting tests to identify issues in how AI agents interact with each other.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "url": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-17T10:52:34+00:00",
+      "description": "An unpatched Unisoc modem flaw lets code with a VoLTE foothold modify Android kernel memory on T606, T612, and T7250 chipsets.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqVuTpKFLy55ilEFObjJqUsVDu7qTrQCYAFsh7bbMcF4xv61h8I6tfue0tGw04yWGhDg_cZ-r0v9Jw-kjNmm5ZYpbebrvlgixiqID5pSUwXb8dQSg12cI5kFkR4BKK0mwc6rMP-9ULTHob-bi7rgfYxGBixmNhGy75tlqn5tlc6OXjpGGZemXbq0yHRY/s1700-e365/android.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "40,000 Impacted by SafePal Data Breach",
       "url": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
@@ -14,14 +58,14 @@
       "kind": "News"
     },
     {
-      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
-      "url": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T08:55:57+00:00",
-      "description": "HoneyMyte upgraded CoolClient with a Windows kernel rootkit, targeting governments in Pakistan, Mongolia, Myanmar, and Russia.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HoneyMyte-CoolClient-Backdoor-Uses-Signed-Kernel-Rootkit-to-Hide-Processes-Files-and-C2-Traffic.webp",
-      "topic": "Malware",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "url": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-17T09:29:55+00:00",
+      "description": "Evooo1Bot exploits known flaws to infect Linux edge devices, then adds SOCKS5 proxying, SSH brute force, credential theft, and DDoS.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIDrkyaW1magTuvTfLfkhtk_8stt1zYUxgonTZX1yaI_OGxsGMV9wCRE8bglbRubclVma7bkghEbmah6ku4T2ZVnpSngl6k5Cw0iCXgNNpuy6I2ZNPQOYYIfqKNgcVQxkqZdgvFLLM82bK1By0hrAm4i9slLnFQwQmwLmpR8I9eb8Paze2sf2UJMlol81Q/s1700-e365/linux-botnet.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -36,58 +80,14 @@
       "kind": "News"
     },
     {
-      "title": "GeoServer\u2019s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
-      "url": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T08:36:08+00:00",
-      "description": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow attackers to manipulate database queries via publicly accessible\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Z.ai Unveils GLM-5.3 with Major Enhancements for Coding and Cybersecurity",
-      "url": "https://cybersecuritynews.com/glm-5-3-major-enhancements/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T08:35:01+00:00",
-      "description": "Z.ai released GLM-5.3 for complex coding, long-running agent tasks, and cybersecurity analysis, using GLM-5.2\u2019s base model with enhanced post-training.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Z.ai-Unveils-GLM-5.3-with-Major-Enhancements-for-Coding-and-Cybersecurity.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
-      "url": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-17T08:13:07+00:00",
-      "description": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/02/SAP.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New MessiahGPT AI Model Fueling Automated Ransomware and Phishing Attacks",
-      "url": "https://cybersecuritynews.com/messiahgpt-fueling-ransomware-phishing-attacks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T07:28:32+00:00",
-      "description": "MessiahGPT is an uncensored AI service for generating ransomware, phishing kits, stealers, and other offensive tools.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-MessiahGPT-AI-Model-Fueling-Automated-Ransomware-and-Phishing-Attacks.webp",
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-17T07:36:19+00:00",
+      "description": "A suspected China-nexus actor exploits CVE-2026-59310, compromising an estimated 361 IPs in 47 countries and gaining root execution on vCenter.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s1700-e365/vmware.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
-      "url": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-17T06:51:08+00:00",
-      "description": "A threat actor is claiming the exfiltration of millions of records from McDonald\u2019s, TCS, Vodafone, and other large organizations.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -135,17 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-13T06:09:48+00:00",
-      "description": "Attackers exploit SharePoint CVE-2026-55040 after a Rapid7 PoC release, forging JWTs to impersonate site users or admins.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1700-e365/poc.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
       "url": "https://isc.sans.edu/diary/rss/33244",
       "source": "SANS ISC",
@@ -155,39 +144,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-      "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-12T17:39:27+00:00",
-      "description": "Lazarus-linked attacks exploit Windows CVE-2026-68820 as a zero-day to gain SYSTEM access and deploy Troy against defense and aerospace firms.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1700-e365/windows-shell.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-      "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-12T14:09:50+00:00",
-      "description": "737 Chrome VPN extensions with 75,486 installs route browser traffic through SOCKS5 proxies, putting the operator in an AitM position.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1700-e365/chrome-plugins.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-12T11:47:38+00:00",
-      "description": "Replayable AI reasoning blocks let researchers recover API keys and passwords from public logs; they say the main extraction attack is now mitigated.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1700-e365/ai-models.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Microsoft Plugs Nearly 400 Security Holes",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
