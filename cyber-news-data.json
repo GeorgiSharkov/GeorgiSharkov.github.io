@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-08-17T13:24:02.901160+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-17T15:53:37.218607+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
+      "url": "https://cybersecuritynews.com/github-outage-worldwide/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T15:30:32+00:00",
+      "description": "GitHub, the world's largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevOps teams scrambling as core services including Pull Requests,\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Outage-Worldwide.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33252",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-17T14:33:58+00:00",
+      "description": "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen sharing. Apple did not invent a new protocol for screen sharing. Instead, it used the established VNC protocol. VNC is a pretty simple, unencrypted protocol using TCP port 5900.\u2026",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "680,000 Impacted by French Tax Authority Data Breach",
+      "url": "https://www.securityweek.com/680000-impacted-by-french-tax-authority-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T13:53:55+00:00",
+      "description": "Hackers used compromised credentials to access enterprise and personal tax-related data.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/France-cyberattack-breach.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Software-Defined Perimeter (SDP) Solutions in 2026",
+      "url": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T13:27:28+00:00",
+      "description": "Compare the 10 best software-defined perimeter (SDP) solutions of 2026 \u2014 hide infrastructure from attackers and grant per-app access with zero trust controls.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Software-Defined-Perimeter-SDP-Solutions.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-17T13:23:51+00:00",
+      "description": "A weekly look at exploited flaws, exposed systems, supply-chain attacks, browser abuse, malware campaigns, and the security risks that mattered most.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObgx3d_pR3qN3UrW69UfMgB-yM7RmfpKrQjvzqtAsNaQ3nVsIKNIiz5p0BsZCppmE4BWH9Wle92WombnIdCdT0BsHkv-_lDcEdIkYvsGrnch6OQHbAr3FUj-QjM8aDdKPNdnez6SXczT4sXNn8KX4QgmG6BiapFhq35I0cdZckWblyoaTVr7rjY5idp5V/s1700-e365/cyber-recap.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
       "url": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
@@ -22,6 +77,28 @@
       "description": "MCP servers can leak enterprise secrets through plaintext config files or prompt injection. Learn the main risks and how to secure them.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmy_mE0_W-wEeuppBUYhS19P_uTo6RifgrGEV5eLim_B6KkhI_BO5wSL930qS_NCD6aR7nL5mAizU4RAfinzkWhz-oq1wCnHszL6C25H0Sj_MahJIBsr7lw_wzJ7xZ4YF7-GVJJO0L1wxe8LQXv3rHuLV3vbuDUEQ9D7vXa6D4zK6ARD1aFmiQv4fka5Y/s1700-e365/keeper.png",
       "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
+      "url": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T11:49:33+00:00",
+      "description": "Threema suffered large-scale DDoS attacks that disrupted service from Tuesday evening through Wednesday morning.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Threema-secure-messaging-service-Hit-by-Massive-DDoS-Attack.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft SCCM Vulnerability Chained to Execute Malicious Code Remotely",
+      "url": "https://cybersecuritynews.com/microsoft-sccm-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T11:26:12+00:00",
+      "description": "XM Cyber disclosed critical SCCM flaws enabling remote code execution and Windows environment compromise.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-SCCM-Vulnerability-Chained-to-Execute-malicious-code-Remotely.webp",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -69,28 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
-      "url": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-17T08:47:38+00:00",
-      "description": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/MacOS-Mac-malware-Apple.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-      "url": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-17T07:36:19+00:00",
-      "description": "A suspected China-nexus actor exploits CVE-2026-59310, compromising an estimated 361 IPs in 47 countries and gaining root execution on vCenter.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s1700-e365/vmware.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Monday, August 17th, 2026 https://isc.sans.edu/podcastdetail/10054, (Mon, Aug 17th)",
       "url": "https://isc.sans.edu/diary/rss/33250",
       "source": "SANS ISC",
@@ -129,17 +184,6 @@
       "source": "SANS ISC",
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-08-14T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, August 13th, 2026 https://isc.sans.edu/podcastdetail/10050, (Thu, Aug 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33244",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-13T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
