@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-08-17T07:35:57.587313+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-17T10:07:10.923335+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "40,000 Impacted by SafePal Data Breach",
+      "url": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T09:37:06+00:00",
+      "description": "Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "HoneyMyte CoolClient Backdoor Uses Signed Kernel Rootkit to Hide Processes, Files and C2 Traffic",
+      "url": "https://cybersecuritynews.com/honeymyte-coolclient-backdoor/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T08:55:57+00:00",
+      "description": "HoneyMyte upgraded CoolClient with a Windows kernel rootkit, targeting governments in Pakistan, Mongolia, Myanmar, and Russia.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/HoneyMyte-CoolClient-Backdoor-Uses-Signed-Kernel-Rootkit-to-Hide-Processes-Files-and-C2-Traffic.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Recent macOS Screen Sharing Vulnerability Exploited in Attacks",
+      "url": "https://www.securityweek.com/recent-macos-screen-sharing-vulnerability-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T08:47:38+00:00",
+      "description": "Threat actors gained root access to the vulnerable systems and deployed a Monero miner.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/MacOS-Mac-malware-Apple.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "GeoServer\u2019s Unauthenticated SQL injection Vulnerability Enables RCE Attacks",
+      "url": "https://cybersecuritynews.com/geoservers-unauthenticated-sql-injection-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T08:36:08+00:00",
+      "description": "GeoServer administrators should urgently update affected systems after researchers disclosed an unauthenticated SQL injection flaw in the jsonArrayContains filter function. The issue can allow attackers to manipulate database queries via publicly accessible\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Z.ai Unveils GLM-5.3 with Major Enhancements for Coding and Cybersecurity",
+      "url": "https://cybersecuritynews.com/glm-5-3-major-enhancements/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T08:35:01+00:00",
+      "description": "Z.ai released GLM-5.3 for complex coding, long-running agent tasks, and cybersecurity analysis, using GLM-5.2\u2019s base model with enhanced post-training.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Z.ai-Unveils-GLM-5.3-with-Major-Enhancements-for-Coding-and-Cybersecurity.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical SAP Commerce Cloud Vulnerability Exploited 3 Days After Disclosure",
+      "url": "https://www.securityweek.com/critical-sap-commerce-cloud-vulnerability-exploited-3-days-after-disclosure/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-17T08:13:07+00:00",
+      "description": "The vulnerability tracked as CVE-2026-58231 can be exploited to execute arbitrary code and compromise internal components.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/02/SAP.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New MessiahGPT AI Model Fueling Automated Ransomware and Phishing Attacks",
+      "url": "https://cybersecuritynews.com/messiahgpt-fueling-ransomware-phishing-attacks/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T07:28:32+00:00",
+      "description": "MessiahGPT is an uncensored AI service for generating ransomware, phishing kits, stealers, and other offensive tools.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-MessiahGPT-AI-Model-Fueling-Automated-Ransomware-and-Phishing-Attacks.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
     {
       "title": "Fortune 500 Companies Hit in Azure Data Theft Campaign",
       "url": "https://www.securityweek.com/fortune-500-companies-hit-in-azure-data-theft-campaign/",
@@ -36,28 +113,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "In Other News: Rapid7 Layoffs, Hacking a Boeing 737, Refrigeration System Vulnerabilities",
-      "url": "https://www.securityweek.com/in-other-news-rapid7-layoffs-hacking-a-boeing-737-refrigeration-system-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T11:57:51+00:00",
-      "description": "Noteworthy stories that might have slipped under the radar: government AI platform deal sparks outrage, North Korean IT worker breaches federal agency, DEF CON attendee blamed for Delta flight disruption.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Trivy, Not LiteLLM Behind the 2,500 Org Compromise",
-      "url": "https://www.securityweek.com/trivy-not-litellm-behind-the-2500-org-compromise/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T11:35:23+00:00",
-      "description": "Over 95% of the affected companies were exposed before the malicious LiteLLM packages were published.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/blockchain-cryptocurrency-Solana.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "source": "Krebs on Security",
@@ -67,17 +122,6 @@
       "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/quietremovalsfeed.png",
       "topic": "Investigation",
       "kind": "Investigation"
-    },
-    {
-      "title": "Google Cloud Sets Out Post-Quantum Roadmap With 2029 Readiness Goal",
-      "url": "https://www.securityweek.com/google-cloud-sets-out-post-quantum-roadmap-with-2029-readiness-goal/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-14T11:00:00+00:00",
-      "description": "Google Cloud outlines its roadmap to full post-quantum cryptography readiness, with key milestones targeted for 2027 and 2028.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/PQC-post-quantum-cryptography.jpeg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
