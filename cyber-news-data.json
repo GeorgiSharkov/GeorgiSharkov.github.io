@@ -1,27 +1,38 @@
 {
-  "generatedAt": "2026-08-18T16:00:00.412628+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-18T19:09:33.812766+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Projextor Shows How Malware Can Hide Behind Trusted Electron Executables",
-      "url": "https://cybersecuritynews.com/projextor-shows-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T15:34:10+00:00",
-      "description": "Projextor hides malware inside useful desktop apps, using fake download sites and installers to secretly compromise victims.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Projextor-Shows-How-Malware-Can-Hide-Behind-Trusted-Electron-Executables.webp",
-      "topic": "Malware",
+      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+      "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-18T17:47:22+00:00",
+      "description": "CVE-2026-24301 lets crafted Copilot Personal links auto-run prompts that can pull data from connected apps and exfiltrate it via URL fetches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAc2Z6RvtNlJnjkfp-kCEhx8x8Q9XPLHY-oQb8NXu6cb-C5BTfa9HnmWq3G1GT3mPsHLV6Xf6tyBui-ljplsYEo9Qt8kBiNKXOwvTzACMisyS0NQ5U3bGg8O6yVEPStEPbYw4W-4ZasDNssDr2JTJD7GTo6QEpER1L-9Xci-mNSk3A5t_aLXGIHwo04FI/s1700-e365/copilot.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "BTMob Fraud-as-a-Service Platform Uses 1,400 Live Servers to Power Android Device Takeovers",
-      "url": "https://cybersecuritynews.com/btmob-fraud-as-a-service-platform/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T15:10:21+00:00",
-      "description": "BTMob is Android banking malware sold as a service, helping criminals steal data and hijack victims\u2019 banking activity.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/BTMob-Fraud-as-a-Service-Platform-Uses-1400-Live-Servers-to-Power-Android-Device-Takeovers.webp",
-      "topic": "Malware",
+      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-18T17:44:05+00:00",
+      "description": "Attackers exploit MLflow CVE-2026-64849 via SSRF to steal cloud credentials, while FUXA CVE-2026-25895 draws malicious scanning.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1700-e365/mlflow.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-18T16:58:16+00:00",
+      "description": "Ransom Busters claims ransomware server access and asks victims for $20,000 to $60,000 to recover files and delete stolen data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_eOapavOiIGXF7klCQPyN0-Qg2nWk9KlUYzPHuLwAyMKM75P3E2jciQR3v9gt2UBmez3XRSC57e5Fe9Oowm2brtgRXz5nJMPN8iQnBYddnTI4DyffnBAh4iLQFSOhA-8RhbbwuXqbJQOkhiXo5asFku1kFfmQd-UsHT6ulzdvRvw7WXwFKYFBTU_Q9nB/s1700-e365/ransom.jpg",
+      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -47,28 +58,6 @@
       "kind": "News"
     },
     {
-      "title": "GEEKOM Mini PC Realtek LAN Driver Package Found Infected With Asruex Trojan",
-      "url": "https://cybersecuritynews.com/geekom-mini-pc/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T14:27:15+00:00",
-      "description": "A Realtek LAN driver on an old GEEKOM support page was found carrying Asruex Trojan, creating a malware risk for users.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GEEKOM-Mini-PC-Realtek-LAN-Driver-Package-Found-Infected-With-Asruex-Trojan.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "JWR Phishing Framework Uses Real-Time WebSocket Control and AES Encryption to Steal Banking Credentials",
-      "url": "https://cybersecuritynews.com/jwr-phishing-framework/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T14:03:57+00:00",
-      "description": "JWR is a phishing framework that captures banking credentials, card data and verification codes in real time through fake payment pages.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/JWR-Phishing-Framework-Uses-Real-Time-WebSocket-Control-and-AES-Encryption-to-Steal-Banking-Credentials.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
       "url": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
       "source": "SecurityWeek",
@@ -91,17 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-      "url": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T12:38:20+00:00",
-      "description": "TWINLOOT uses SharePoint, Teams TURN, and headless Edge for C2, steals Windows credentials, and opens SOCKS5 access into victim networks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIrQ96TUVfZUEVto7SlNlTp_8P2270tmrpifBbd-F8vo3gQz3Na40YH60oRh2dEazLOZInJzCGa66bxl9t85Usl30eG_Db_yjMWup2eOM3BmaPhILk_Ihs-yo6AdB-DWG99L7OXK9bdD8Jygu2imWU71-Ap3bPtYLOgqu-vO2Zbr5egp6A5HNcXDSaa0o2/s1700-e365/windows-malware.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Xpander Raises $7.5 Million for AI Management and Governance",
       "url": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
       "source": "SecurityWeek",
@@ -110,28 +88,6 @@
       "description": "Xpander\u2019s platform uses a universal agent harness that executes AI agents as portable workloads and securely renders interfaces on demand.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T11:30:00+00:00",
-      "description": "City Forum uses one server to pull records from over-permissive Salesforce and ServiceNow guest portals across industries for over a year.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijGpzrXApP6QuAgCJDVSMHyi1nEVE7liFsNRwcNTWzkwbjmzqv8vGi8qalq_aWVgtgrD2CC_ZT-qXCsj_Bkj8njgIFQExo0gg5PG_dVIQfo9-wW6lIBh6OLp6z4nBeephIQACe1GX_KOP6nzqe10CM4H8p7EwRIlWGImwXgXjsSIYKCCVlSB7Oe1LWAIQ/s1700-e365/reco.gif",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-      "url": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T11:20:00+00:00",
-      "description": "StubMaker uses 16 typosquatted RubyGems packages to steal browser credentials, crypto wallets, seed phrases, and Telegram data on Windows.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9BsXf9I7m4IoC0hb3fSwYiBJsaB1_vSj9kGhfi0HsWGeR0xVl_W1O_Z0bd6IxvQ-vUQP5FDsj5mpiwUjv72JG3vNdViDwAKDG1uswOPDfb84xN_n8AgafhIP2sCx8x1Jd4L0mptrXuzCCGze-safV0V13WiWsFbKrKYvIC6CPBncYuhwgaDafyqSJx9Kv/s1700-e365/ruby.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
