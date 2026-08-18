@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-18T19:09:33.812766+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-18T21:51:46.533521+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
+      "url": "https://cybersecuritynews.com/medusa-ransomware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T17:47:28+00:00",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated security advisory warning that Medusa ransomware threat actors\u2026",
+      "image": "",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
     {
       "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
       "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
@@ -25,6 +36,17 @@
       "kind": "News"
     },
     {
+      "title": "French Tax Authority Data Breach Exposes 600,000+ Users\u2019 Personal Tax-Related Data",
+      "url": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T17:00:44+00:00",
+      "description": "France\u2019s tax authority has confirmed a data breach affecting approximately 678,000 individuals and businesses after threat actors gained unauthorized access to internal information systems. The incident involved stolen or impersonated credentials belonging\u2026",
+      "image": "",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
       "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
       "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
       "source": "The Hacker News",
@@ -32,6 +54,28 @@
       "publishedAt": "2026-08-18T16:58:16+00:00",
       "description": "Ransom Busters claims ransomware server access and asks victims for $20,000 to $60,000 to recover files and delete stolen data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_eOapavOiIGXF7klCQPyN0-Qg2nWk9KlUYzPHuLwAyMKM75P3E2jciQR3v9gt2UBmez3XRSC57e5Fe9Oowm2brtgRXz5nJMPN8iQnBYddnTI4DyffnBAh4iLQFSOhA-8RhbbwuXqbJQOkhiXo5asFku1kFfmQd-UsHT6ulzdvRvw7WXwFKYFBTU_Q9nB/s1700-e365/ransom.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical MLflow SSRF Vulnerability Exploited by Hackers in the Wild",
+      "url": "https://cybersecuritynews.com/mlflow-ssrf-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T16:52:33+00:00",
+      "description": "Threat actors are actively exploiting a critical, unauthenticated server-side request forgery (SSRF) vulnerability in MLflow, the popular open-source platform widely used by data engineering and machine learning teams to track experiments, package code, and\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Hijack Thousands of WordPress Sites to Use as C2 Servers for StopAndProtect Malware",
+      "url": "https://cybersecuritynews.com/wordpress-sites-stopandprotect-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T16:47:24+00:00",
+      "description": "A newly uncovered malware operation dubbed StopAndProtect is transforming thousands of hacked WordPress websites into a sprawling criminal command-and-control (C2) infrastructure. The campaign blends double-extortion ransomware with covert data theft,\u2026",
+      "image": "",
       "topic": "Ransomware",
       "kind": "News"
     },
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
