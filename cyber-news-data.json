@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-18T02:02:57.327297+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-18T04:17:30.441905+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Pok\u00e9mon Center Confirms Data Breach \u2013 Hackers Stole Customers\u2019 Personal Data",
+      "url": "https://cybersecuritynews.com/pokemon-center-confirms-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T02:38:19+00:00",
+      "description": "Pok\u00e9mon Center has begun notifying customers in the United Kingdom and Germany that their personal information was exposed in a third-party data breach, and that the incident has forced the company to cancel a batch of pending orders.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pokemon-Center-Confirms-Data-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Tuesday, August 18th, 2026 https://isc.sans.edu/podcastdetail/10056, (Tue, Aug 18th)",
       "url": "https://isc.sans.edu/diary/rss/33256",
@@ -69,6 +80,28 @@
       "kind": "News"
     },
     {
+      "title": "OpenMatter Network to Take Verification Message to Belgrade Blockchain Week 2026",
+      "url": "https://cybersecuritynews.com/openmatter-network-belgrade-blockchain-week-2026/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T16:48:56+00:00",
+      "description": "OpenMatter Network's Chris Biele will lead key sessions on cryptographic verification, agentic AI, and DeSci at Belgrade Blockchain Week 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2DGPBMruPfux65RYqdOxwGV_SHfmO2_AYanYu3UKh55RpJM0IhSKJ4rHsQNig4U7f-VlzeQW5KL5GNwujvqqpdit1QkA5lPtS7pqBNybNpHPaPzJw4P8DlwDxQx6-hGfRuAj32s1hIvFvdJSFpu90PRWyX7xuRkZiPGC8ds-VadfUNT1tb06cSGzgUAk/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-17T194657.58.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
+      "url": "https://cybersecuritynews.com/github-outage-worldwide/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T15:30:32+00:00",
+      "description": "GitHub, the world's largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevOps teams scrambling as core services including Pull Requests,\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Outage-Worldwide.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
       "url": "https://isc.sans.edu/diary/rss/33252",
       "source": "SANS ISC",
@@ -88,6 +121,17 @@
       "description": "Hackers used compromised credentials to access enterprise and personal tax-related data.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/06/France-cyberattack-breach.jpg",
       "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Software-Defined Perimeter (SDP) Solutions in 2026",
+      "url": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-17T13:27:28+00:00",
+      "description": "Compare the 10 best software-defined perimeter (SDP) solutions of 2026 \u2014 hide infrastructure from attackers and grant per-app access with zero trust controls.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Software-Defined-Perimeter-SDP-Solutions.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
