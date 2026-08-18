@@ -1,16 +1,27 @@
 {
-  "generatedAt": "2026-08-18T04:17:30.441905+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-18T07:22:20.240214+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Pok\u00e9mon Center Confirms Data Breach \u2013 Hackers Stole Customers\u2019 Personal Data",
-      "url": "https://cybersecuritynews.com/pokemon-center-confirms-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T02:38:19+00:00",
-      "description": "Pok\u00e9mon Center has begun notifying customers in the United Kingdom and Germany that their personal information was exposed in a third-party data breach, and that the incident has forced the company to cancel a batch of pending orders.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Pokemon-Center-Confirms-Data-Breach.webp",
-      "topic": "Data breach",
+      "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
+      "url": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-18T06:46:22+00:00",
+      "description": "The bugs could be exploited to crash Safari, corrupt memory, leak sensitive data, escape the sandbox, and exfiltrate data.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Apple-MacBook-iPhone.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+      "url": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-18T06:34:20+00:00",
+      "description": "CISA adds actively exploited Ray flaw CVE-2025-62593 to KEV; DNS rebinding can trigger browser-based RCE on developer systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW_d5c3hAfK37Zdlctl3fWxMgNXEsGKNJ9Fwf0LvHSV75qdLLYHAnyy7Le8aziJ58ma6YA83clBQQwK0xqG-lmeat7Z9bcTEaV4hmNl_SJL5iAh3r1Q4w8vk4b87pQHiGgorzFqyAYUcGXgkSyXA-0ZN1FTjC6ztxhHceoMJr-Qf-B0giZ1ZEC74B4FKL7/s1700-e365/cisa-ray.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -69,39 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-      "url": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-17T17:41:06+00:00",
-      "description": "Cavern uses DNS A records to switch between direct HTTPS and Google Apps Script for C2, expanding an Iranian-linked toolkit targeting Israel.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-MyaPNuRr2_NJ_TMqLf7OYW5AzCqgHpQ6HMfxlc-qsMzwSkfWlZDbHfecZ3IRp639FVDelhMZgpbnN87Fdchoh-g08R-cAiXxr7RvfdGy_ihvMxg152HK-rbOTIOnEueRTnPT-wU0eID3vplpIN1GBClvJC5e0egCGpDb_H0ykwH1x6a4zOvpW8V-Ssy/s1700-e365/google.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenMatter Network to Take Verification Message to Belgrade Blockchain Week 2026",
-      "url": "https://cybersecuritynews.com/openmatter-network-belgrade-blockchain-week-2026/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T16:48:56+00:00",
-      "description": "OpenMatter Network's Chris Biele will lead key sessions on cryptographic verification, agentic AI, and DeSci at Belgrade Blockchain Week 2026.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2DGPBMruPfux65RYqdOxwGV_SHfmO2_AYanYu3UKh55RpJM0IhSKJ4rHsQNig4U7f-VlzeQW5KL5GNwujvqqpdit1QkA5lPtS7pqBNybNpHPaPzJw4P8DlwDxQx6-hGfRuAj32s1hIvFvdJSFpu90PRWyX7xuRkZiPGC8ds-VadfUNT1tb06cSGzgUAk/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-17T194657.58.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
-      "url": "https://cybersecuritynews.com/github-outage-worldwide/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T15:30:32+00:00",
-      "description": "GitHub, the world's largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevOps teams scrambling as core services including Pull Requests,\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Outage-Worldwide.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
       "url": "https://isc.sans.edu/diary/rss/33252",
       "source": "SANS ISC",
@@ -124,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Top 10 Best Software-Defined Perimeter (SDP) Solutions in 2026",
-      "url": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T13:27:28+00:00",
-      "description": "Compare the 10 best software-defined perimeter (SDP) solutions of 2026 \u2014 hide infrastructure from attackers and grant per-app access with zero trust controls.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Software-Defined-Perimeter-SDP-Solutions.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
       "url": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
       "source": "SecurityWeek",
@@ -154,17 +121,6 @@
       "description": "Anthropic has been conducting tests to identify issues in how AI agents interact with each other.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "40,000 Impacted by SafePal Data Breach",
-      "url": "https://www.securityweek.com/40000-impacted-by-safepal-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-17T09:37:06+00:00",
-      "description": "Hackers exploited a vulnerability in the order-tracking function of a plugin to access SafePal customer information.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency.jpeg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
