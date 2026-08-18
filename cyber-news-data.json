@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-08-18T07:22:20.240214+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-18T10:01:01.397214+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Heights Finance Data Breach Impacts at Least 1.2 Million Individuals",
+      "url": "https://www.securityweek.com/heights-finance-data-breach-impacts-at-least-1-2-million-individuals/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-18T09:18:34+00:00",
+      "description": "Hackers stole names, addresses, phone numbers, Social Security numbers, and financial information from a third-party platform.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+      "url": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-18T09:10:45+00:00",
+      "description": "SafePal says an order-tracking flaw exposed personal and shipping data for 39,798 customers, but not wallet credentials or financial data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFTKWlpW6A2F_jXpwDsCbJmaJ7-TnZPoCNsW0BG5pa4F8X8I1zzCRAMefU00NEQHKlqdqGchFbSTQ_aADgjlJeIHpUKswwnwNiP7WnbAftpciT_4FAFzPKi5NYnBtI0R0VEhP4JIHXFpm6hhyQFASu7IP1kFP2FmlLVejJDiG3Tgxf2ofz-J0Aq02AoF8/s1700-e365/safe.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "GitLab Patches Critical Code Injection Vulnerability",
+      "url": "https://www.securityweek.com/gitlab-patches-critical-code-injection-vulnerability/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-18T08:51:07+00:00",
+      "description": "The security defect allows unauthenticated attackers to modify or delete user data and public projects.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes 600,000 Sites to File Upload Attacks",
+      "url": "https://cybersecuritynews.com/wordpress-forminator-plugin-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T08:48:33+00:00",
+      "description": "A critical Forminator flaw lets unauthenticated attackers upload malicious PHP files, potentially taking full control of vulnerable WordPress sites.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-WordPress-Plugin-Vulnerability-Exposes-600000-Sites-to-File-Upload-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "VMware vCenter Attackers Drop JSP Webshell Disguised as Performance Update",
+      "url": "https://cybersecuritynews.com/vmware-syslog-path-traversal/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T08:02:41+00:00",
+      "description": "Attackers exploit VMware vCenter CVE-2026-59310 for root access, persistence, ESXi control, and ransomware deployment.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/VMware-Syslog-Path-Traversal-Becomes-Root-RCE-Persistent-SSH-Access-and-ESXi-Ransomware.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical GitLab GraphQL Vulnerability Allow Attackers to Delete Public Projects",
+      "url": "https://cybersecuritynews.com/gitlab-graphql-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T07:37:44+00:00",
+      "description": "GitLab patched a critical GraphQL flaw allowing unauthenticated attackers to modify or delete public projects and user data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-GraphQL-Vulnerability-Allow-Attackers-to-Delete-Public-Projects.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Windows 11 File Explorer Gets Faster, Customizable Right-Click Menu With App Extension Controls",
+      "url": "https://cybersecuritynews.com/windows-11-file-explorer-gets-faster/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T06:49:19+00:00",
+      "description": "Microsoft redesigned Windows 11 File Explorer\u2019s context menu for faster right-clicks, less clutter, and improved controls.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-11-File-Explorer-Gets-Faster-Customizable-Right-Click-Menu-With-App-Extension-Controls.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Dozens of WebKit Vulnerabilities Patched With Fresh macOS, iOS Security Updates",
       "url": "https://www.securityweek.com/dozens-of-webkit-vulnerabilities-patched-with-fresh-macos-ios-security-updates/",
@@ -69,17 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-      "url": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-17T18:22:09+00:00",
-      "description": "Forminator CVE-2026-15748 lets unauthenticated attackers upload PHP files and reach RCE on sites using vulnerable form configurations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Jfag1_E06odK7mkATjCOSPdD_fHy2kcYYHfi9fDNTsk0CRkV2yJD0Uz4MV82XjbMR5QNyK3Akw5Ysf0N7fDQ3DwApNb5Tf9R4axktScKF3UZlMVtrY3ulTzrYjFviMA8HmIUCBZhxmR59TtnJ7xf-B_iJtl3SWiBZAFbOfhUoldNdZX0sOStx6ULNMSZ/s1700-e365/wordpress-flaw.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
       "url": "https://isc.sans.edu/diary/rss/33252",
       "source": "SANS ISC",
@@ -99,28 +165,6 @@
       "description": "Hackers used compromised credentials to access enterprise and personal tax-related data.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/06/France-cyberattack-breach.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
-      "url": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-17T12:11:00+00:00",
-      "description": "The AI security testing firm has shared information on a recently disclosed incident involving Anthropic AI models.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Conflicting Test Goals Pushed Claude Agents to Deploy Self-Replicating Malware",
-      "url": "https://www.securityweek.com/conflicting-test-goals-pushed-claude-agents-to-deploy-self-replicating-malware/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-17T11:09:57+00:00",
-      "description": "Anthropic has been conducting tests to identify issues in how AI agents interact with each other.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
