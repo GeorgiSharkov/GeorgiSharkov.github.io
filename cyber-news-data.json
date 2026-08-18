@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-17T21:54:05.327681+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-18T02:02:57.327297+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "ISC Stormcast For Tuesday, August 18th, 2026 https://isc.sans.edu/podcastdetail/10056, (Tue, Aug 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33256",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-18T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
       "url": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
@@ -58,28 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "OpenMatter Network to Take Verification Message to Belgrade Blockchain Week 2026",
-      "url": "https://cybersecuritynews.com/openmatter-network-belgrade-blockchain-week-2026/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T16:48:56+00:00",
-      "description": "OpenMatter Network's Chris Biele will lead key sessions on cryptographic verification, agentic AI, and DeSci at Belgrade Blockchain Week 2026.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2DGPBMruPfux65RYqdOxwGV_SHfmO2_AYanYu3UKh55RpJM0IhSKJ4rHsQNig4U7f-VlzeQW5KL5GNwujvqqpdit1QkA5lPtS7pqBNybNpHPaPzJw4P8DlwDxQx6-hGfRuAj32s1hIvFvdJSFpu90PRWyX7xuRkZiPGC8ds-VadfUNT1tb06cSGzgUAk/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-17T194657.58.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "GitHub Outage Disrupts Developers Worldwide Amid Ongoing Investigation",
-      "url": "https://cybersecuritynews.com/github-outage-worldwide/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T15:30:32+00:00",
-      "description": "GitHub, the world's largest code-hosting platform, is grappling with a significant service disruption that began around 13:40 UTC on August 17, 2026, leaving developers, enterprises, and DevOps teams scrambling as core services including Pull Requests,\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/GitHub-Outage-Worldwide.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
       "url": "https://isc.sans.edu/diary/rss/33252",
       "source": "SANS ISC",
@@ -102,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "Top 10 Best Software-Defined Perimeter (SDP) Solutions in 2026",
-      "url": "https://cybersecuritynews.com/best-software-defined-perimeter-solutions/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T13:27:28+00:00",
-      "description": "Compare the 10 best software-defined perimeter (SDP) solutions of 2026 \u2014 hide infrastructure from attackers and grant per-app access with zero trust controls.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Software-Defined-Perimeter-SDP-Solutions.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Irregular Details How a Naming Error Let AI Models Attack a Real Company",
       "url": "https://www.securityweek.com/irregular-details-how-a-naming-error-let-ai-models-attack-a-real-company/",
       "source": "SecurityWeek",
@@ -120,17 +98,6 @@
       "publishedAt": "2026-08-17T12:11:00+00:00",
       "description": "The AI security testing firm has shared information on a recently disclosed incident involving Anthropic AI models.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Threema Secure Messaging Service Hit by Massive DDoS Attack",
-      "url": "https://cybersecuritynews.com/threema-hit-by-massive-ddos-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-17T11:49:33+00:00",
-      "description": "Threema suffered large-scale DDoS attacks that disrupted service from Tuesday evening through Wednesday morning.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Threema-secure-messaging-service-Hit-by-Massive-DDoS-Attack.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -163,17 +130,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-08-17T02:00:02+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Wireshark 4.6.8 Released, (Sun, Aug 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33248",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-16T21:31:48+00:00",
-      "description": "Wireshark release 4.6.8 fixes 28 vulnerabilities and 25 bugs.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
