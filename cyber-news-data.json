@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-19T04:18:07.821597+00:00",
+  "generatedAt": "2026-08-19T07:23:08.180582+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
+      "url": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-19T06:56:43+00:00",
+      "description": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data",
+      "url": "https://cybersecuritynews.com/cl0p-hackers-exploit-ptc/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T05:46:16+00:00",
+      "description": "Cl0p exploits a critical Windchill flaw to steal engineering files, passwords, and company data, threatening victims with data leaks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cl0p-Hackers-Exploit-PTC-Windchill-Flaw-to-Steal-Passwords-and-Sensitive-Company-Data.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click",
       "url": "https://cybersecuritynews.com/copilot-cosnitch-vulnerability/",
@@ -69,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "French Tax Authority Data Breach Exposes 600,000+ Users\u2019 Personal Tax-Related Data",
-      "url": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T17:00:44+00:00",
-      "description": "France\u2019s tax authority confirmed a breach affecting 678,000 individuals and businesses after attackers compromised employee and third-party credentials.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/French-Tax-Authority-Data-Breach-Exposes-600000-Users-personal-tax-related-data.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
       "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
       "source": "The Hacker News",
@@ -131,17 +142,6 @@
       "publishedAt": "2026-08-18T12:38:36+00:00",
       "description": "Anthropic and EPFL show AI mind viruses can spread through persistent agent prompt files, while a one-paragraph warning cuts spread to near zero.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnswSsouQNTAo6sTmVePaIjeVawCruhIMYtwOXzzX0Qup-a8tWq6WsuiwxkhQxemYCsguvWzRqA5ILOcnEtQa2Xz2rpmU8aQ_c3zd5m82sqMjJa4ruVDS5JVH0P9trKFRwZY53P6cek06_5q-5Xz9TzuyL1TzKP_wnMY9_16AgwjoCXomphcu4p7Or1Kk/s1700-e365/mindvirus.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Xpander Raises $7.5 Million for AI Management and Governance",
-      "url": "https://www.securityweek.com/xpander-raises-7-5-million-for-ai-management-and-governance/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-18T12:29:08+00:00",
-      "description": "Xpander\u2019s platform uses a universal agent harness that executes AI agents as portable workloads and securely renders interfaces on demand.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
       "topic": "News",
       "kind": "News"
     },
