@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-19T02:05:47.279361+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-19T04:18:07.821597+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click",
+      "url": "https://cybersecuritynews.com/copilot-cosnitch-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T02:32:43+00:00",
+      "description": "A critical vulnerability in Microsoft Copilot Personal, tracked as CVE-2026-24301 and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim's connected accounts with nothing more than a single click on a malicious link.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Copilot-CoSnitch-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Irregular Pushes Stronger Containment Standards for Secure Frontier AI Cyber Evaluations",
+      "url": "https://cybersecuritynews.com/irregular-pushes-stronger-secure-frontier-ai-cyber-evaluations/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T02:06:28+00:00",
+      "description": "Irregular disclosed an AI cyber-evaluation incident where internet access exposed real-world systems, later contained and fixed.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Irregular-Pushes-Stronger-Containment-Standards-for-Secure-Frontier-AI-Cyber-Evaluations-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)",
       "url": "https://isc.sans.edu/diary/rss/33258",
@@ -12,6 +34,17 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
+    },
+    {
+      "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
+      "url": "https://cybersecuritynews.com/medusa-ransomware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T17:47:28+00:00",
+      "description": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated security advisory warning that Medusa ransomware threat actors\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-Medusa-Ransomware-Steals-Data.webp",
+      "topic": "Ransomware",
+      "kind": "News"
     },
     {
       "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
@@ -33,6 +66,17 @@
       "description": "Attackers exploit MLflow CVE-2026-64849 via SSRF to steal cloud credentials, while FUXA CVE-2026-25895 draws malicious scanning.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1700-e365/mlflow.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "French Tax Authority Data Breach Exposes 600,000+ Users\u2019 Personal Tax-Related Data",
+      "url": "https://cybersecuritynews.com/french-tax-authority-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-18T17:00:44+00:00",
+      "description": "France\u2019s tax authority confirmed a breach affecting 678,000 individuals and businesses after attackers compromised employee and third-party credentials.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/French-Tax-Authority-Data-Breach-Exposes-600000-Users-personal-tax-related-data.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
