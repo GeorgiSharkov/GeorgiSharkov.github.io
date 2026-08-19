@@ -1,82 +1,71 @@
 {
-  "generatedAt": "2026-08-19T10:01:27.160265+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-19T13:27:49.616414+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "BeyondTrust Windows EPM Vulnerabilities Allows Attackers to Escalate Privileges",
-      "url": "https://cybersecuritynews.com/beyondtrust-windows-epm-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T09:44:48+00:00",
-      "description": "BeyondTrust disclosed two high-severity EPM flaws that could let local attackers escalate privileges or bypass anti-tamper controls.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/BeyondTrust-Windows-EPM-Vulnerabilities-.webp",
+      "title": "Prevalent AI Raises $22 Million to Expand Data Fabric Platform",
+      "url": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-19T12:00:00+00:00",
+      "description": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Claude Can Now Send Emails in Gmail and Manage Files in Google Drive",
-      "url": "https://cybersecuritynews.com/claude-can-now-send-emails-in-gmail/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T09:30:02+00:00",
-      "description": "Anthropic has moved Claude out of the draft-only inbox and into live Google accounts. In an August 18, 2026 post, the company said users can ask Claude to reply to a Gmail thread and have the assistant draft and send the response, while Google Drive support\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Can-Now-Send-Emails.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "943 Patches Rolled Out With Oracle\u2019s August 2026 Security Update",
-      "url": "https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/",
+      "title": "US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them",
+      "url": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T09:14:51+00:00",
-      "description": "The fixes resolve over 1,000 vulnerabilities across two dozen products, including over 460 remotely exploitable bugs.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/Oracle.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of VMware vCenter Path Traversal Vulnerability Actively Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/vmware-vcenter-path-traversal-vulnerability-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T09:09:45+00:00",
-      "description": "CISA Adds VMware vCenter Path Traversal Flaw CVE-2026-59310 to KEV Following Active Exploitation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-VMware-vCenter-Path-Traversal-Vulnerability-Actively-Exploited-in-Attacks-.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google Fixes Two Critical Chrome Flaws in WebGL and Dawn \u2014 Update Your Browser",
-      "url": "https://cybersecuritynews.com/google-fixes-two-chrome-flaws-in-webgl-and-dawn/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T09:06:19+00:00",
-      "description": "Google\u2019s latest Chrome Stable update fixes two critical graphics-related vulnerabilities. Users should update promptly.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Fixes-Two-Critical-Chrome-Flaws-in-WebGL-and-Dawn-\u2014-Update-Your-Browser.webp",
+      "publishedAt": "2026-08-19T11:30:33+00:00",
+      "description": "The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Chrome, Firefox Updates Patch Dozens of Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
+      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
+      "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T11:25:28+00:00",
+      "description": "StopAndProtect uses close to 2,000 hacked WordPress sites to deliver malware and run C2, compromising 6,000+ unique IP addresses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHtWFBMa_xYpIkK39I2gvAJrksqJBAkRSnEZ-WjwpQtbV9mgfPRzWp3qtdhk_v1yOG67pAZ5H3DAFRVv7rEzbns9IuAa4_DV-MUBDIb6fuWzLyRvFXyC1fOaTUPbwxdoY4cykbPy3wXEn3HvlnbjbqH37vkLKMSJA799pVeD50RqMGlJJztFJZcFzR2xTf/s1700-e365/wordpress-hacks.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign",
+      "url": "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T08:19:09+00:00",
-      "description": "The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
+      "publishedAt": "2026-08-19T11:07:21+00:00",
+      "description": "The cybercrime gang has listed major companies such as Shell, Philips, Fiserv, Zebra, Mindray, and Largan Precision.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/cleo-file-transfer-exploit-attack.jpeg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T11:01:48+00:00",
+      "description": "CISA adds four critical flaws to KEV after active exploitation, with FCEB agencies ordered to patch by August 21, 2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1700-e365/kev.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
-      "url": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
+      "title": "CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities",
+      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T06:56:43+00:00",
-      "description": "The data breach was initially believed to affect roughly 350,000 people, but the HHS breach tracker shows a far bigger impact.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
-      "topic": "Data breach",
+      "publishedAt": "2026-08-19T10:37:31+00:00",
+      "description": "The flaws can be exploited for remote code execution, authentication bypass, and device takeover.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -111,39 +100,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
-      "url": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T17:47:22+00:00",
-      "description": "CVE-2026-24301 lets crafted Copilot Personal links auto-run prompts that can pull data from connected apps and exfiltrate it via URL fetches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAc2Z6RvtNlJnjkfp-kCEhx8x8Q9XPLHY-oQb8NXu6cb-C5BTfa9HnmWq3G1GT3mPsHLV6Xf6tyBui-ljplsYEo9Qt8kBiNKXOwvTzACMisyS0NQ5U3bGg8O6yVEPStEPbYw4W-4ZasDNssDr2JTJD7GTo6QEpER1L-9Xci-mNSk3A5t_aLXGIHwo04FI/s1700-e365/copilot.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
-      "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T17:44:05+00:00",
-      "description": "Attackers exploit MLflow CVE-2026-64849 via SSRF to steal cloud credentials, while FUXA CVE-2026-25895 draws malicious scanning.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOzcJe940Ayk9JrnE-tmotZ-mEHZiA5Jc0A8Sw9IZIfYEnH61X8whAW6jJZTnzLIQYA37foce9X_fshoAVwjLyBKrjvHbkuhhtwZ2Mewxtf1Syn9FBOvZBqwcMWXOCKFNnASyrCOQ9XTF6f174Aa4O55O7tbU6evYcrrV0H_psoYYq3uQQ_GvZqsu0e0ik/s1700-e365/mlflow.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
-      "url": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-18T15:03:30+00:00",
-      "description": "Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it\u2019s time to rethink prevention as the strongest default.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/automox-webinar-scaled.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Tuesday, August 18th, 2026 https://isc.sans.edu/podcastdetail/10056, (Tue, Aug 18th)",
@@ -184,8 +140,8 @@
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-14T11:24:35+00:00",
-      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and\u2026",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/quietremovalsfeed.png",
+      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has\u2026",
+      "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
