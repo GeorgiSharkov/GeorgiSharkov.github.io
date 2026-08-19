@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-19T07:23:08.180582+00:00",
+  "generatedAt": "2026-08-19T10:01:27.160265+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "BeyondTrust Windows EPM Vulnerabilities Allows Attackers to Escalate Privileges",
+      "url": "https://cybersecuritynews.com/beyondtrust-windows-epm-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T09:44:48+00:00",
+      "description": "BeyondTrust disclosed two high-severity EPM flaws that could let local attackers escalate privileges or bypass anti-tamper controls.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/BeyondTrust-Windows-EPM-Vulnerabilities-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Claude Can Now Send Emails in Gmail and Manage Files in Google Drive",
+      "url": "https://cybersecuritynews.com/claude-can-now-send-emails-in-gmail/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T09:30:02+00:00",
+      "description": "Anthropic has moved Claude out of the draft-only inbox and into live Google accounts. In an August 18, 2026 post, the company said users can ask Claude to reply to a Gmail thread and have the assistant draft and send the response, while Google Drive support\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Can-Now-Send-Emails.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "943 Patches Rolled Out With Oracle\u2019s August 2026 Security Update",
+      "url": "https://www.securityweek.com/943-patches-rolled-out-with-oracles-august-2026-security-update/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-19T09:14:51+00:00",
+      "description": "The fixes resolve over 1,000 vulnerabilities across two dozen products, including over 460 remotely exploitable bugs.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/Oracle.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of VMware vCenter Path Traversal Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/vmware-vcenter-path-traversal-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T09:09:45+00:00",
+      "description": "CISA Adds VMware vCenter Path Traversal Flaw CVE-2026-59310 to KEV Following Active Exploitation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-VMware-vCenter-Path-Traversal-Vulnerability-Actively-Exploited-in-Attacks-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Google Fixes Two Critical Chrome Flaws in WebGL and Dawn \u2014 Update Your Browser",
+      "url": "https://cybersecuritynews.com/google-fixes-two-chrome-flaws-in-webgl-and-dawn/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T09:06:19+00:00",
+      "description": "Google\u2019s latest Chrome Stable update fixes two critical graphics-related vulnerabilities. Users should update promptly.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Google-Fixes-Two-Critical-Chrome-Flaws-in-WebGL-and-Dawn-\u2014-Update-Your-Browser.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Chrome, Firefox Updates Patch Dozens of Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-dozens-of-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-19T08:19:09+00:00",
+      "description": "The bugs could lead to code execution, privilege escalation, sandbox escape, and information disclosure.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "CareCloud Data Breach Impact Grows to 3.7 Million Individuals",
       "url": "https://www.securityweek.com/carecloud-data-breach-impact-grows-to-3-7-million-individuals/",
@@ -14,36 +80,25 @@
       "kind": "News"
     },
     {
-      "title": "Cl0p Hackers Exploit PTC Windchill Flaw to Steal Passwords and Sensitive Company Data",
-      "url": "https://cybersecuritynews.com/cl0p-hackers-exploit-ptc/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T05:46:16+00:00",
-      "description": "Cl0p exploits a critical Windchill flaw to steal engineering files, passwords, and company data, threatening victims with data leaks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cl0p-Hackers-Exploit-PTC-Windchill-Flaw-to-Steal-Passwords-and-Sensitive-Company-Data.webp",
-      "topic": "Vulnerability",
+      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
+      "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T06:01:53+00:00",
+      "description": "Microsoft links 30+ domains to MacSync Stealer, tracing recurring execution and chunked exfiltration of credentials and sensitive data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLR2UjD4FhPqPT7MZpKuuqDl82K13qHQ_ob2-S_fK62g7UtwW6jn6YafX4RcZcqFgZWFbXiuCTkLbeD9zC_ws4mOUL0xVJgJ315fMiFlqxDFnhyphenhyphenIe2K8IXv3Vn1ZfWJevZywKd01wSpTS0BT08VlGtSoksz8y0ihBug5XqbRN48jy_NoQx-4fRc52Khzg/s1700-e365/apple-macos.jpg",
+      "topic": "Malware",
       "kind": "News"
     },
     {
-      "title": "Critical Microsoft Copilot CoSnitch Vulnerability Lets Attackers Steal Sensitive Data With One Click",
-      "url": "https://cybersecuritynews.com/copilot-cosnitch-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T02:32:43+00:00",
-      "description": "A critical vulnerability in Microsoft Copilot Personal, tracked as CVE-2026-24301 and nicknamed CoSnitch, lets attackers silently siphon sensitive data from a victim's connected accounts with nothing more than a single click on a malicious link.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Copilot-CoSnitch-Vulnerability.webp",
+      "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
+      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T05:39:25+00:00",
+      "description": "Clop-linked attacks exploit CVE-2026-12569 to deploy a Windchill web shell that decrypts credentials, maps vault data, and loads Java code in memory.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s1700-e365/ptc.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Irregular Pushes Stronger Containment Standards for Secure Frontier AI Cyber Evaluations",
-      "url": "https://cybersecuritynews.com/irregular-pushes-stronger-secure-frontier-ai-cyber-evaluations/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T02:06:28+00:00",
-      "description": "Irregular disclosed an AI cyber-evaluation incident where internet access exposed real-world systems, later contained and fixed.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Irregular-Pushes-Stronger-Containment-Standards-for-Secure-Frontier-AI-Cyber-Evaluations-.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -56,17 +111,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "CISA Warns Medusa Ransomware Hackers Steal Data, Kill Security Tools, and Encrypt Entire Networks",
-      "url": "https://cybersecuritynews.com/medusa-ransomware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-18T17:47:28+00:00",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), and the U.S. Department of Health and Human Services (HHS) have jointly released an updated security advisory warning that Medusa ransomware threat actors\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-Medusa-Ransomware-Steals-Data.webp",
-      "topic": "Ransomware",
-      "kind": "News"
     },
     {
       "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
@@ -91,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
-      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T16:58:16+00:00",
-      "description": "Ransom Busters claims ransomware server access and asks victims for $20,000 to $60,000 to recover files and delete stolen data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_eOapavOiIGXF7klCQPyN0-Qg2nWk9KlUYzPHuLwAyMKM75P3E2jciQR3v9gt2UBmez3XRSC57e5Fe9Oowm2brtgRXz5nJMPN8iQnBYddnTI4DyffnBAh4iLQFSOhA-8RhbbwuXqbJQOkhiXo5asFku1kFfmQd-UsHT6ulzdvRvw7WXwFKYFBTU_Q9nB/s1700-e365/ransom.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "Webinar Today: Rethinking Cyber Defense for AI-Speed Attacks",
       "url": "https://www.securityweek.com/webinar-today-rethinking-cyber-defense-for-ai-speed-attacks/",
       "source": "SecurityWeek",
@@ -109,39 +142,6 @@
       "publishedAt": "2026-08-18T15:03:30+00:00",
       "description": "Join the live webinar as we explore if detection-first security operations can keep pace with AI, or if it\u2019s time to rethink prevention as the strongest default.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/automox-webinar-scaled.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CISO Conversations: Nico Waisman \u2013 From Self-Taught Hacker to AI-Driven Offensive Security at XBOW",
-      "url": "https://www.securityweek.com/ciso-conversations-nico-waisman-from-self-taught-hacker-to-ai-driven-offensive-security-at-xbow/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-18T14:30:00+00:00",
-      "description": "With no formal training and no career plan, Waisman built a path from Argentina",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/CISO_Nico-Waisman.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AI-Driven Vulnerability Surge Breaks the Traditional Patching Model",
-      "url": "https://www.securityweek.com/ai-driven-vulnerability-surge-breaks-the-traditional-patching-model/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-18T13:00:00+00:00",
-      "description": "Rapid7 warns that traditional patch cycles cannot keep pace with soaring vulnerability disclosures and faster exploitation, forcing defenders to prioritize exposure over severity scores.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/API-security-risks.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
-      "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-18T12:38:36+00:00",
-      "description": "Anthropic and EPFL show AI mind viruses can spread through persistent agent prompt files, while a one-paragraph warning cuts spread to near zero.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnswSsouQNTAo6sTmVePaIjeVawCruhIMYtwOXzzX0Qup-a8tWq6WsuiwxkhQxemYCsguvWzRqA5ILOcnEtQa2Xz2rpmU8aQ_c3zd5m82sqMjJa4ruVDS5JVH0P9trKFRwZY53P6cek06_5q-5Xz9TzuyL1TzKP_wnMY9_16AgwjoCXomphcu4p7Or1Kk/s1700-e365/mindvirus.jpg",
       "topic": "News",
       "kind": "News"
     },
