@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-08-19T13:27:49.616414+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-19T16:00:12.688491+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Microsoft 365 Service Degradation Disrupts Users Across South America",
+      "url": "https://cybersecuritynews.com/microsoft-365-service-degradation/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T15:53:44+00:00",
+      "description": "Microsoft is responding to a regional outage that may leave users in South America unable to use multiple Microsoft 365 services. The company is tracking the disruption as issue MO1457636, a service degradation of the Microsoft 365 suite that began at 2:34\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-365-Service-Degradation.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Former Ping Identity and CyberArk Executives Join AppViewX to Scale Machine and Agent Identity Security",
+      "url": "https://cybersecuritynews.com/former-ping-identity-and-cyberark-executives-join-appviewx-to-scale-machine-and-agent-identity-security/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T15:19:41+00:00",
+      "description": "AppViewX, the leading machine and agent identity security company built for the AI and quantum enterprise, today announced the appointment of Mike Durso as Chief Revenue Officer and the addition of Clarence Hinton to its Board of Directors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6QI-nOBEMXOPDo4Oxzf-J872CmazcC2_NNOqLPHIj_BsQl_rRWqik8MVUSx5UvJZ3_N-EFilsaRDDAYSapG3zE9AKG4uTMvRod4mhSvHma_1tUE5pXLDueTSwW7-kamjYdfg15uQRnbziqZj6CUEXQYphRf5XR92nIXOUixVKo_Wykj7IFHELdRhmIF4/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-19T190839.48.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Adds Microsoft SharePoint Weak Authentication Vulnerability to KEV List",
+      "url": "https://cybersecuritynews.com/microsoft-sharepoint-authentication-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T15:15:31+00:00",
+      "description": "CISA added a critical Microsoft SharePoint authentication flaw to its KEV catalog after CVE-2026-55040 was confirmed in active exploitation, urging organizations to secure affected on-premises environments.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Adds-Microsoft-SharePoint-Weak-Authentication-Vulnerability-to-KEV-List.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft to End Support for Windows 11 24H2 Home and Pro Editions",
+      "url": "https://cybersecuritynews.com/microsoft-end-support-for-windows-11-24h2/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-19T15:07:23+00:00",
+      "description": "Microsoft warns that Windows 11 24H2 Home and Pro will stop receiving security and preview updates after October 13, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-to-end-support-for-Windows-11-24H2-Home-and-Pro-editions.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
+      "url": "https://isc.sans.edu/diary/rss/33260",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-19T14:24:58+00:00",
+      "description": "Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MAC and IP\u2026",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Virtual Event Today: CodeSecCon \u2013 Secure Your Code and Applications",
+      "url": "https://www.securityweek.com/virtual-event-today-codeseccon-secure-your-code-and-applications/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-19T13:36:17+00:00",
+      "description": "CodeSecCon is the premier virtual event bringing together developers and cybersecurity professionals to revolutionize the way applications are built, secured, and maintained.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/CodeSecCon-Sponsors.png",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
+      "url": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T13:12:17+00:00",
+      "description": "SilkParasite targets Central Asian governments with seven RATs, five newly documented, using DLL sideloading and likely AI-assisted development.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukQx26zt-EE2Q-I5EPzGDeXiUneL1NzNma73qc5r03gJ5Xj6kiTigXadbXa1XWqg7Y-UHq5YzEu7bPxN4BXjVUbId9eaPwWddiP_oB7Zz2fBV0bxr2S2wh9oVEFI-IEe4jMgA1REmrbKFSE33oztVDuz0p2TQhKA_0koqZ3qYcWH_d5Ec4lExxdMzWw5I/s1700-e365/malware-code.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
     {
       "title": "Prevalent AI Raises $22 Million to Expand Data Fabric Platform",
       "url": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
@@ -14,6 +91,17 @@
       "kind": "News"
     },
     {
+      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
+      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T11:34:28+00:00",
+      "description": "Researchers say Operation CameraSwarm compromised 14,530+ Dahua devices using credential attacks, auth bypass flaws, and P2P relays.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMoFWi-QSod_BQxqARN9B9-f3XXRsEk-QHunmW3JSc9DHyZNKRK91l5KTzt_DYxGnTUtGqRMo1WHR9zfREMAXDAeDOYFgXpSJdgyUXHgOGTnpiokI06ZsJ1syAzn8GYlkzZqr6L73IsPJDAKgCbobSSkzZfWfJPapFiVJS4Kc1DyP3SBsMFgyZjCL6V6Y/s1700-e365/camera.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
       "title": "US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them",
       "url": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
       "source": "SecurityWeek",
@@ -22,6 +110,17 @@
       "description": "The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+      "url": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-19T11:30:00+00:00",
+      "description": "Attackers run AI agents that research your company, write the lure, and hold conversations. The only defense that keeps pace runs agents of its own.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQNc2xSAgLu-A9p7sNrEqSu_NjH29MY18RsTwxzLEGW1a1qUJIMSu5RlZg1V8tPxQg55hqA94wYqBiD74lF3l6XXYB43oM_xalMLq8_uRR1xAuSX6dop3Cdmg3lwljU1Nl4aqsKHHDr1Ju4n5Q6j_0LqbGqX8coexq7DaRU9IzRZDHKbDqQoNYD1CRcNg/s1700-e365/iron.jpg",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -44,50 +143,6 @@
       "description": "The cybercrime gang has listed major companies such as Shell, Philips, Fiserv, Zebra, Mindray, and Largan Precision.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/12/cleo-file-transfer-exploit-attack.jpeg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-19T11:01:48+00:00",
-      "description": "CISA adds four critical flaws to KEV after active exploitation, with FCEB agencies ordered to patch by August 21, 2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1700-e365/kev.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Urges Immediate Patching of Exploited Microsoft, VMware, Apple Vulnerabilities",
-      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-microsoft-vmware-apple-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T10:37:31+00:00",
-      "description": "The flaws can be exploited for remote code execution, authentication bypass, and device takeover.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Links 30+ Rotating Domains to MacSync Stealer Infrastructure",
-      "url": "https://thehackernews.com/2026/08/microsoft-links-30-rotating-domains-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-19T06:01:53+00:00",
-      "description": "Microsoft links 30+ domains to MacSync Stealer, tracing recurring execution and chunked exfiltration of credentials and sensitive data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLR2UjD4FhPqPT7MZpKuuqDl82K13qHQ_ob2-S_fK62g7UtwW6jn6YafX4RcZcqFgZWFbXiuCTkLbeD9zC_ws4mOUL0xVJgJ315fMiFlqxDFnhyphenhyphenIe2K8IXv3Vn1ZfWJevZywKd01wSpTS0BT08VlGtSoksz8y0ihBug5XqbRN48jy_NoQx-4fRc52Khzg/s1700-e365/apple-macos.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Clop-Linked Windchill Web Shell Decrypts Credentials and Maps Engineering Data",
-      "url": "https://thehackernews.com/2026/08/clop-linked-windchill-web-shell.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-19T05:39:25+00:00",
-      "description": "Clop-linked attacks exploit CVE-2026-12569 to deploy a Windchill web shell that decrypts credentials, maps vault data, and loads Java code in memory.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEit3cCqpn48W_lqEDCb9ewKFToGQcvhUjO939N0Gja-aTvCvRTz8kdOPZG1bhyphenhyphenED2XNeB82rjCIeVO3Nw9akDlMnQZqc7keiel8H82zgtf1A7fhb6DP3z6Qh3Ehk6AGrMt77rXkoNhLaDeEl692kDHAHVsNb7AOcDxpsavM0Hj9TZRLLJsuQ-OT3oQOvFMi/s1700-e365/ptc.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -124,24 +179,13 @@
       "kind": "DFIR"
     },
     {
-      "title": "Apple Screen Sharing Security, (Mon, Aug 17th)",
-      "url": "https://isc.sans.edu/diary/rss/33252",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-17T14:33:58+00:00",
-      "description": "About 20 years ago, with macOS 10.5 (Leopard), Apple introduced screen sharing. Apple did not invent a new protocol for screen sharing. Instead, it used the established VNC protocol. VNC is a pretty simple, unencrypted protocol using TCP port 5900.\u2026",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-14T11:24:35+00:00",
-      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has\u2026",
-      "image": "",
+      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and\u2026",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/quietremovalsfeed.png",
       "topic": "Investigation",
       "kind": "Investigation"
     },
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
