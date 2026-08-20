@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-08-20T02:03:42.728882+00:00",
+  "generatedAt": "2026-08-20T04:17:27.638000+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities",
+      "url": "https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T04:11:55+00:00",
+      "description": "The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controllers (PLCs) across America's critical infrastructure.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Attacking-Siemens-S7-PLCs-.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "T-Mobile Cyber Team Physically Cuts Cable to Remove Chinese Hackers From Network",
+      "url": "https://cybersecuritynews.com/t-mobile-cyber-team-physically-cuts-cable/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T03:31:41+00:00",
+      "description": "T-Mobile's security team resorted to an unusually low-tech fix for a high-tech problem in 2024, physically severing a network cable to cut off Chinese state-backed hackers' access to its systems, according to new reporting from Bloomberg.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/T-Mobile-Cyber-Team-Physically-Cuts-Cable-scaled.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AI Agent Hacks Snowflake GitHub Workflow and Reaches Internal Jira",
+      "url": "https://cybersecuritynews.com/ai-agent-hacks-snowflake-github-workflow/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T02:32:50+00:00",
+      "description": "An autonomous AI security agent built by Wiz Research has demonstrated how quickly a single overlooked line of shell code can cascade into a full credential leak.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Agent-Hacks-Snowflake-GitHub-Workflow.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)",
       "url": "https://isc.sans.edu/diary/rss/33262",
@@ -19,8 +52,8 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-19T19:02:40+00:00",
-      "description": "Cybersecurity researchers have disclosed details of a remote Spectre attack against Cloudflare Workers that leaked a JSON Web Token (JWT) from a co-located Worker in the production environment at up to 12 bits per second, 360 times the rate of an earlier\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1600/jwt.jpg",
+      "description": "Researchers leak a JWT from a co-located Cloudflare Worker via Spectre at up to 12 bits per second; Cloudflare says the attack is mitigated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1700-e365/jwt.jpg",
       "topic": "Data breach",
       "kind": "News"
     },
@@ -41,42 +74,9 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-19T18:06:44+00:00",
-      "description": "OpenAI on Tuesday revealed that it paused reinforcement learning (RL) training for its latest artificial intelligence (AI) models for two weeks while it shored up additional defenses and increased the scope of its monitoring to avert another Hugging\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6Ar7QFukiqBWatGeVdffG393l7GwFmzYBSWvv6Um7gPNIzeL8p3gfO_2C1rvVGPSUh00KWZAB8wFs9Xdz6h7uWDd7MYyWuuzLciO6NX1Y4mln1LqxK-skWP7VEdFD3BOhP1msTaM7F1ZgBeGyDUuLUaNlXAroEXHH6aYPgWluliMNUrozkKKeGK9kf-Ri/s1600/open.jpg",
+      "description": "OpenAI pauses frontier RL training for two weeks, keeps its largest planned run on hold, and adds stricter monitoring and isolation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6Ar7QFukiqBWatGeVdffG393l7GwFmzYBSWvv6Um7gPNIzeL8p3gfO_2C1rvVGPSUh00KWZAB8wFs9Xdz6h7uWDd7MYyWuuzLciO6NX1Y4mln1LqxK-skWP7VEdFD3BOhP1msTaM7F1ZgBeGyDUuLUaNlXAroEXHH6aYPgWluliMNUrozkKKeGK9kf-Ri/s1700-e365/open.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Citrix NetScaler Flaw Lets Remote Attackers Bypass Authentication Without Credentials",
-      "url": "https://cybersecuritynews.com/critical-citrix-netscaler-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T16:56:38+00:00",
-      "description": "Cloud Software Group has issued a critical security bulletin warning customers of two serious vulnerabilities affecting NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Citrix-NetScaler-Vulnerability.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Adds Microsoft Internet Key Exchange RCE Vulnerability Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/microsoft-internet-key-exchange-rce-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T16:47:27+00:00",
-      "description": "CISA added CVE-2026-33824, a critical Microsoft IKE vulnerability, to its KEV catalog after confirming exploitation in attacks,",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Microsoft-Internet-Key-Exchange-RCE-Vulnerability-Exploited-in-Attacks.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Let Microsoft 365 Users Complete MFA, Then Steal Logged-In Sessions",
-      "url": "https://cybersecuritynews.com/microsoft-365-session-theft/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T16:17:56+00:00",
-      "description": "A sophisticated Phishing-as-a-Service (PhaaS) platform marketed as Mirage2FA is enabling threat actors to bypass multi-factor authentication (MFA) by allowing Microsoft 365 users to complete their regular login process before covertly stealing the\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-365-Session-Theft.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
