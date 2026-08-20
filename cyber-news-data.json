@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-20T19:15:16.519565+00:00",
+  "generatedAt": "2026-08-20T21:56:28.093709+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T20:22:35+00:00",
+      "description": "Rust deletes malicious releases of three crates after a proc-macro1 build script downloaded and ran a remote payload during compilation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1700-e365/rust.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T19:59:19+00:00",
+      "description": "Three suspected Russian cyber espionage clusters abuse legitimate authentication flows to compromise personal accounts across Europe and the U.S.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1700-e365/google-whatsapp.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
       "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
@@ -80,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-      "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T14:36:27+00:00",
-      "description": "Adversa says encrypted prompt injection can make Grok send a user's name, location, tier, and chat prompts to an attacker-controlled server.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv76ODDXuPeov3fu_Gs_V-72pKnjw38Qu9A4qXOn_2QFd9daTYFAXre2eubEQ6Fwb65SwXgv10mhyDCGE_KcvL69c-CGe2BfEiOj74UTHwv6WAhMyxNuVGOEdUZYwz0Y9v55SFmaOwjHQYHbOyzvZEofi0egkTfeFxQlJRD3Sj6ve-TZ47SM1sNfYGB0/s1700-e365/grok-chat.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Surveillance \u2013 Everything You Wanted to Know, But Were Afraid to Ask",
       "url": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
       "source": "SecurityWeek",
@@ -98,17 +109,6 @@
       "publishedAt": "2026-08-20T14:30:00+00:00",
       "description": "We all know they\u2019re watching us. But we don\u2019t know who they are, nor why nor how they are doing it.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/03/threat-intelligence-cybersecurity.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-      "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T13:48:24+00:00",
-      "description": "Isolated-vm's ExternalCopy type confusion lets sandboxed code corrupt host memory and potentially reach host RCE; fixes are in 6.2.0 and 7.0.1.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1700-e365/nodejs.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -218,7 +218,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-07-30T16:49:00+00:00",
       "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a\u2026",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
+      "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
     }
