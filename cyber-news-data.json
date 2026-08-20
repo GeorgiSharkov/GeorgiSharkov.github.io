@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-08-20T04:17:27.638000+00:00",
+  "generatedAt": "2026-08-20T07:25:14.385441+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
+      "url": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-20T07:02:02+00:00",
+      "description": "A cybersecurity advisory with technical details and recommendations has been written by the NSA, CISA and other agencies.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Claude AI Finds SAML Security Flaws That Can Let Attackers Take Over Accounts",
+      "url": "https://cybersecuritynews.com/claude-ai-finds-saml-security-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T06:51:49+00:00",
+      "description": "Claude AI uncovered SAML flaws enabling authentication bypass and account takeover through XML parsing weaknesses.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Finds-SAML-Security-Flaws-That-Can-Let-Attackers-Take-Over-Accounts.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Zimbra RCE Vulnerability Actively Exploited in the Wild",
+      "url": "https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T06:34:27+00:00",
+      "description": "CERT Polska has warned that threat actors are actively exploiting a critical remote code execution vulnerability in Zimbra Collaboration Suite.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Zimbra-RCE-Vulnerability-Actively-Exploited-in-the-Wild-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
+      "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T06:04:34+00:00",
+      "description": "Elementor Pro CVE-2026-32475 lets unauthenticated attackers bypass file checks and upload PHP for remote code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitKWjeNJOL_DEahUmMAYpH9qh94s2iFi8igtfSlAzOVWiUBU-EIM0MWMsFYPmA5NDL6Rs9E-w9vvCmw3Cc6Og0q-TDt87Q2hwYIePNAQ0xQ3OJYHzgCizDFm-YK9SxW4ncWnuVLaOzgb3SPO7Qpx17zHMaFzBQfYllgz5IP-p1jMALgWlasRkj1nV3Tq3G/s1700-e365/wordpress.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level",
+      "url": "https://cybersecuritynews.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T04:42:40+00:00",
+      "description": "Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent Information Security Registered Assessors Program (IRAP) assessment at the PROTECTED classification level.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYGSXCEJ6ngO9DN2BfABsj3w6HJYyX3fv76WVtZy4smWhf5R8nRWMZ9yRv1oTbOBhCcjOV34i0OVo8O8MJrWVxGvb3xR3TEXHcHbD8uHYHwEyTXum26Obr_6CoQI-k06nvP3grDnaPiU0qh1_9NqhVkjo4keNS9-UIPM_sWxNjIxRK56cTfYUXPtf9yO4/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-20T095846.01.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities",
       "url": "https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/",
@@ -11,28 +66,6 @@
       "description": "The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controllers (PLCs) across America's critical infrastructure.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Attacking-Siemens-S7-PLCs-.webp",
       "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "T-Mobile Cyber Team Physically Cuts Cable to Remove Chinese Hackers From Network",
-      "url": "https://cybersecuritynews.com/t-mobile-cyber-team-physically-cuts-cable/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T03:31:41+00:00",
-      "description": "T-Mobile's security team resorted to an unusually low-tech fix for a high-tech problem in 2024, physically severing a network cable to cut off Chinese state-backed hackers' access to its systems, according to new reporting from Bloomberg.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/T-Mobile-Cyber-Team-Physically-Cuts-Cable-scaled.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AI Agent Hacks Snowflake GitHub Workflow and Reaches Internal Jira",
-      "url": "https://cybersecuritynews.com/ai-agent-hacks-snowflake-github-workflow/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T02:32:50+00:00",
-      "description": "An autonomous AI security agent built by Wiz Research has demonstrated how quickly a single overlooked line of shell code can cascade into a full credential leak.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AI-Agent-Hacks-Snowflake-GitHub-Workflow.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -55,17 +88,6 @@
       "description": "Researchers leak a JWT from a co-located Cloudflare Worker via Spectre at up to 12 bits per second; Cloudflare says the attack is mitigated.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1700-e365/jwt.jpg",
       "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Trusted Vendors Are Becoming Attack Paths: How US and EU Enterprises Can Reduce the Risk",
-      "url": "https://cybersecuritynews.com/trusted-vendors-are-becoming-attack-paths-how-us-and-eu-enterprises-can-reduce-the-risk/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-19T18:37:36+00:00",
-      "description": "Large US and EU enterprises often rely on hundreds of vendors, giving attackers plenty of opportunities to hide malicious activity inside legitimate emails, files, and business workflows.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Supply-chain-attack-risk.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -124,17 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-      "url": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-19T11:34:28+00:00",
-      "description": "Researchers say Operation CameraSwarm compromised 14,530+ Dahua devices using credential attacks, auth bypass flaws, and P2P relays.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMoFWi-QSod_BQxqARN9B9-f3XXRsEk-QHunmW3JSc9DHyZNKRK91l5KTzt_DYxGnTUtGqRMo1WHR9zfREMAXDAeDOYFgXpSJdgyUXHgOGTnpiokI06ZsJ1syAzn8GYlkzZqr6L73IsPJDAKgCbobSSkzZfWfJPapFiVJS4Kc1DyP3SBsMFgyZjCL6V6Y/s1700-e365/camera.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them",
       "url": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
       "source": "SecurityWeek",
@@ -143,17 +154,6 @@
       "description": "The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Cl0p Ransomware Group Names Over 40 Victims of PTC Windchill Campaign",
-      "url": "https://www.securityweek.com/cl0p-ransomware-group-names-over-40-victims-of-ptc-windchill-campaign/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T11:07:21+00:00",
-      "description": "The cybercrime gang has listed major companies such as Shell, Philips, Fiserv, Zebra, Mindray, and Largan Precision.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/cleo-file-transfer-exploit-attack.jpeg",
-      "topic": "Ransomware",
       "kind": "News"
     },
     {
