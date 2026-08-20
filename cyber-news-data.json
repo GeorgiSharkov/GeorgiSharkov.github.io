@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-20T07:25:14.385441+00:00",
+  "generatedAt": "2026-08-20T10:03:16.075180+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "CyberPanel Pre-Auth RCE Chain Lets Attackers Gain Server Shell via AI Scanner Flaws",
+      "url": "https://cybersecuritynews.com/cyberpanel-pre-auth-rce-chain-gain-server-shell/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T09:58:59+00:00",
+      "description": "CyberPanel pre-auth RCE chain lets attackers gain shells on vulnerable servers by abusing AI Scanner flaws, stored XSS, and cron jobs.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CyberPanel-Pre-Auth-RCE-Chain-Lets-Attackers-Gain-Server-Shell-via-AI-Scanner-Flaws-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New \u201cZombie Card\u201d Flaw Lets Expired Visa Cards Make Contactless Payments",
+      "url": "https://cybersecuritynews.com/zombie-card-flaw-expired-cards/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T09:27:51+00:00",
+      "description": "A practical NFC relay attack dubbed \"Zombie Card\" that revives expired Visa contactless cards, allowing them to complete real purchases at point-of-sale terminals across multiple US banks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zombie-Card-Flaw-Expired-Cards.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "15 Malicious Firefox Extensions Abuse Cloudflare Workers to Exfiltrate Crypto Wallet Secrets",
+      "url": "https://cybersecuritynews.com/malicious-firefox-extensions-2/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T08:56:19+00:00",
+      "description": "A Firefox campaign uses fake wallet extensions to steal recovery phrases, private keys, logins and clipboard data from users.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/15-Malicious-Firefox-Extensions-Abuse-Cloudflare-Workers-to-Exfiltrate-Crypto-Wallet-Secrets.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Exploitation Expected for Critical Authentication Bypass Patched in Citrix NetScaler",
+      "url": "https://www.securityweek.com/exploitation-expected-for-critical-authentication-bypass-patched-in-citrix-netscaler/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-20T08:33:25+00:00",
+      "description": "Remote, unauthenticated attackers could exploit the critical-severity flaw without user interaction.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Citrix-zero-day.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Splunk Patches Critical MCP Server RCE and 16 Other Security Flaws Across AI Toolkit, Kafka Apps",
+      "url": "https://cybersecuritynews.com/splunk-patches-security-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T08:22:21+00:00",
+      "description": "Splunk has patched 17 vulnerabilities across apps and add-ons, including MCP Server, AI Toolkit, and Connect for Kafka.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Splunk-Patches-Critical-MCP-Server-RCE-and-16-Other-Security-Flaws-Across-AI-Toolkit-Kafka-Apps.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical GitLab Flaw Exploited Shortly After Disclosure",
+      "url": "https://www.securityweek.com/critical-gitlab-flaw-exploited-shortly-after-disclosure/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-20T07:48:24+00:00",
+      "description": "CVE-2026-19478 can be exploited without authentication to modify or delete public projects and user data.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Hackers Using AI to Target Siemens PLCs in Critical US Sectors",
       "url": "https://www.securityweek.com/hackers-using-ai-to-target-siemens-plcs-in-critical-us-sectors/",
@@ -14,28 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "Claude AI Finds SAML Security Flaws That Can Let Attackers Take Over Accounts",
-      "url": "https://cybersecuritynews.com/claude-ai-finds-saml-security-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T06:51:49+00:00",
-      "description": "Claude AI uncovered SAML flaws enabling authentication bypass and account takeover through XML parsing weaknesses.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Finds-SAML-Security-Flaws-That-Can-Let-Attackers-Take-Over-Accounts.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Zimbra RCE Vulnerability Actively Exploited in the Wild",
-      "url": "https://cybersecuritynews.com/zimbra-rce-vulnerability-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T06:34:27+00:00",
-      "description": "CERT Polska has warned that threat actors are actively exploiting a critical remote code execution vulnerability in Zimbra Collaboration Suite.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Zimbra-RCE-Vulnerability-Actively-Exploited-in-the-Wild-.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
       "url": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
       "source": "The Hacker News",
@@ -44,28 +88,6 @@
       "description": "Elementor Pro CVE-2026-32475 lets unauthenticated attackers bypass file checks and upload PHP for remote code execution.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitKWjeNJOL_DEahUmMAYpH9qh94s2iFi8igtfSlAzOVWiUBU-EIM0MWMsFYPmA5NDL6Rs9E-w9vvCmw3Cc6Og0q-TDt87Q2hwYIePNAQ0xQ3OJYHzgCizDFm-YK9SxW4ncWnuVLaOzgb3SPO7Qpx17zHMaFzBQfYllgz5IP-p1jMALgWlasRkj1nV3Tq3G/s1700-e365/wordpress.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Airlock Digital Completes Independent IRAP Assessment at the PROTECTED Level",
-      "url": "https://cybersecuritynews.com/airlock-digital-completes-independent-irap-assessment-at-the-protected-level/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T04:42:40+00:00",
-      "description": "Airlock Digital, a global provider of application control and allowlisting solutions, today announced that it has completed an independent Information Security Registered Assessors Program (IRAP) assessment at the PROTECTED classification level.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYGSXCEJ6ngO9DN2BfABsj3w6HJYyX3fv76WVtZy4smWhf5R8nRWMZ9yRv1oTbOBhCcjOV34i0OVo8O8MJrWVxGvb3xR3TEXHcHbD8uHYHwEyTXum26Obr_6CoQI-k06nvP3grDnaPiU0qh1_9NqhVkjo4keNS9-UIPM_sWxNjIxRK56cTfYUXPtf9yO4/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-20T095846.01.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "U.S. Agencies Warn of Hackers Actively Attacking Siemens S7 PLCs in Critical Facilities",
-      "url": "https://cybersecuritynews.com/hackers-attacking-siemens-s7-plcs/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T04:11:55+00:00",
-      "description": "The NSA, CISA, FBI, Department of Energy, and EPA issued a joint cybersecurity advisory on August 19 warning that threat actors are actively targeting Siemens S7 Series programmable logic controllers (PLCs) across America's critical infrastructure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Attacking-Siemens-S7-PLCs-.webp",
-      "topic": "Threat intelligence",
       "kind": "News"
     },
     {
@@ -132,28 +154,6 @@
       "description": "SilkParasite targets Central Asian governments with seven RATs, five newly documented, using DLL sideloading and likely AI-assisted development.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukQx26zt-EE2Q-I5EPzGDeXiUneL1NzNma73qc5r03gJ5Xj6kiTigXadbXa1XWqg7Y-UHq5YzEu7bPxN4BXjVUbId9eaPwWddiP_oB7Zz2fBV0bxr2S2wh9oVEFI-IEe4jMgA1REmrbKFSE33oztVDuz0p2TQhKA_0koqZ3qYcWH_d5Ec4lExxdMzWw5I/s1700-e365/malware-code.jpg",
       "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Prevalent AI Raises $22 Million to Expand Data Fabric Platform",
-      "url": "https://www.securityweek.com/prevalent-ai-raises-22-million-to-expand-data-fabric-platform/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T12:00:00+00:00",
-      "description": "The previously bootstrapped company helps organizations securely and reliably operate AI agents at scale.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "US Charges 17 Iranian Hackers, Offers $10 Million Rewards for 5 of Them",
-      "url": "https://www.securityweek.com/us-charges-17-iranian-hackers-offers-10-million-rewards-for-5-of-them/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-19T11:30:33+00:00",
-      "description": "The 17 members of the Mabna Institute targeted hundreds of universities and organizations in the US and abroad.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
