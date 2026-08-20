@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-08-20T13:29:11.719232+00:00",
+  "generatedAt": "2026-08-20T16:02:26.154737+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Critical NASA AIT-GUI Flaw Lets Unauthenticated Attackers Issue Spacecraft Commands",
+      "url": "https://cybersecuritynews.com/nasa-ait-gui-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T15:24:09+00:00",
+      "description": "A critical vulnerability in NASA and JPL\u2019s open-source AMMOS Instrument Toolkit (AIT) ground data system framework allows unauthenticated attackers to execute arbitrary spacecraft and instrument commands.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/NASA-AIT-GUI-Flaw.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
+      "url": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-20T14:50:49+00:00",
+      "description": "Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland\u2019s CERT Polska.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/enterprise-collaboration-Zimbra.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+      "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T14:36:27+00:00",
+      "description": "Adversa says encrypted prompt injection can make Grok send a user's name, location, tier, and chat prompts to an attacker-controlled server.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhPv76ODDXuPeov3fu_Gs_V-72pKnjw38Qu9A4qXOn_2QFd9daTYFAXre2eubEQ6Fwb65SwXgv10mhyDCGE_KcvL69c-CGe2BfEiOj74UTHwv6WAhMyxNuVGOEdUZYwz0Y9v55SFmaOwjHQYHbOyzvZEofi0egkTfeFxQlJRD3Sj6ve-TZ47SM1sNfYGB0/s1700-e365/grok-chat.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Surveillance \u2013 Everything You Wanted to Know, But Were Afraid to Ask",
+      "url": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-20T14:30:00+00:00",
+      "description": "We all know they\u2019re watching us. But we don\u2019t know who they are, nor why nor how they are doing it.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/03/threat-intelligence-cybersecurity.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ToxicPanda Android Malware Can Steal Banking PINs and Gain Shell Access to Phones",
+      "url": "https://cybersecuritynews.com/toxicpanda-android-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T13:55:54+00:00",
+      "description": "ToxicPanda 2.0 targets 140+ banking apps, steals PINs, overlays screens, and uses 167 commands to control Android devices.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ToxicPanda-Android-Malware-Can-Steal-Banking-PINs-and-Gain-Shell-Access-to-Phones.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+      "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T13:48:24+00:00",
+      "description": "Isolated-vm's ExternalCopy type confusion lets sandboxed code corrupt host memory and potentially reach host RCE; fixes are in 6.2.0 and 7.0.1.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ3-aEfGwe03ZMojsoiYaQ4TNjUiAPEFK-m68uY5JSlF8knbnGWOcBrqiB_4s6J47lPjyhQEuWdUMHnktRU6YfOcltn7_lXga77C8TNH4GOVAPrmIH_T0MsFKFkmQSMnvf42bnLlH0pC4BVMEpAZJLLTH51GpgfZybiZ_UWNLhKxx1oGi8PyD3bOUGG0_F/s1700-e365/nodejs.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Fake CAPTCHA to Install Malware That Kills 145 Security Processes",
+      "url": "https://cybersecuritynews.com/hackers-use-fake-captcha/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-20T13:39:22+00:00",
+      "description": "Fake CAPTCHA pages trick victims into running PowerShell, delivering malware that disables security tools and steals data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-CAPTCHA-to-Install-Malware-That-Kills-145-Security-Processes.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+      "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T13:35:13+00:00",
+      "description": "Citrix fixes NetScaler CVE-2026-19490, a CVSS 9.3 authentication bypass affecting certain Gateway, AAA, and SAML configurations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCXrYMA_j7aJrrdIZKt2gQwTWYXhhHZTfBvrNcgpLLBTa5hzcmDNguBKwBhiD8p7kO5K2OeQYVbIPg2HHDBwu9LNzR6oAFE-znmFWIgjY_XzA0qdy-rA8XzV_uGvsxLWRNXCyyOlUKdDV0LGrXPN15wxYsTuZslyecGQ1cqE2OKdX5cocpp74uXenwdj0/s1700-e365/citrix.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-20T13:24:28+00:00",
+      "description": "Attackers exploit CVE-2026-73570 on Zimbra servers with zimbra-snmp installed and SNMP notifications enabled, allowing unauthenticated RCE.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5vbtHH6C3JbT58Yghw2KNalqy-xoKLuJlsV9AGd_j2mQj4NKzVgWiOc9CDvUsT2JY0AchCk5140WhvNgZdKY2fwmeGEEi9FMvSSJvrBYVWndOKV9R47OEMZ59OOjv56DkPgpKo55fvHT7JSRW4yvh9_Xp5KBbw9xyJg2EGStHzg8ctloKfsJJPDLss1xR/s1700-e365/zimbra.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "New Android Malware Steals Banking PINs and Relays Data Through Someone Else\u2019s Infected Phones",
       "url": "https://cybersecuritynews.com/manic-android-malware/",
@@ -36,17 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Hackers Bypass Microsoft 365 MFA and Hijack Finance Mailbox to Steal Payments",
-      "url": "https://cybersecuritynews.com/hackers-bypass-microsoft-365-mfa/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T12:54:55+00:00",
-      "description": "Phishing email hijacked a Microsoft 365 session, bypassed MFA, and let attackers redirect vendor payments without malware.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Bypass-Microsoft-365-MFA-and-Hijack-Finance-Mailbox-to-Steal-Payments.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
       "url": "https://isc.sans.edu/diary/rss/33264",
       "source": "SANS ISC",
@@ -58,17 +146,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Zyxel Patches Command Injection Flaw in 18 Access Points Allowing Root OS Command Execution",
-      "url": "https://cybersecuritynews.com/zyxel-patches-command-injection-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T12:32:34+00:00",
-      "description": "Zyxel patched a command injection flaw affecting 18 wireless access point models, allowing authenticated admins to execute OS commands.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zyxel-Patches-Command-Injection-Flaw-in-18-Access-Points-Allowing-Root-OS-Command-Execution.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities",
       "url": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/",
       "source": "SecurityWeek",
@@ -77,83 +154,6 @@
       "description": "The flaws could be exploited to execute arbitrary code, access sensitive information, and elevate privileges.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Weaponize OpenClaw AI Agents to Push Malware and Steal Crypto Wallets",
-      "url": "https://cybersecuritynews.com/openclaw-ai-agents/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T12:06:52+00:00",
-      "description": "ClawHavoc used poisoned OpenClaw packages to spread malware that steals crypto wallets, passwords, browser data and developer credentials.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenClaw-AI-Agents-Malware.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "MLflow Vulnerability Exploited for Cloud Credential Theft",
-      "url": "https://www.securityweek.com/mlflow-vulnerability-exploited-for-cloud-credential-theft/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-20T12:05:55+00:00",
-      "description": "The critical-severity flaw allows attackers to send HTTP requests to internal endpoints and extract sensitive information.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/cloud-security.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-      "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T12:01:24+00:00",
-      "description": "Zombie Card rewrites Visa NFC expiry data in transit, reviving expired cards at one tested U.S. bank without breaking card cryptography.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1700-e365/visa.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco Patches Critical Crosswork, Secure Workload Vulnerabilities",
-      "url": "https://www.securityweek.com/cisco-patches-critical-crosswork-secure-workload-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-20T11:46:04+00:00",
-      "description": "The flaws could lead to remote code execution, authentication bypasses, and path traversal attacks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Cisco-company-logo.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "url": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T11:45:00+00:00",
-      "description": "A Meta AI agent exposed sensitive company and user data to unauthorized employees for over two hours, triggering a Sev 1 incident.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1700-e365/tines.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-      "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T11:39:35+00:00",
-      "description": "CDN Tsunami abuses HTTP/3-to-HTTP/1.1 translation at six major CDNs to amplify origin traffic up to 350x and exhaust connections.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1700-e365/cdn-boost.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
-      "url": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T11:26:08+00:00",
-      "description": "Manic Android malware targets 169 apps and can relay collected data through nearby infected devices when the source phone is offline.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNJ75E0bEnkBf9REZEnmMNusCu2L2mrut4dSX8g-VVXH2THKdkXD1GwCZ_O5ZsnGzdamG2t0TVnelMj1TKMghauv4cIndc3OA7kuHQAdxf7FbngV7BaWV_-qmhvLZRNwN_5tkv5dSHViEwDgZ4Mou0TNLrFlyQ2yzyb7GYNQ6PPNVjCoJ7VzeKmly4Ntsf/s1700-e365/Manic.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -184,8 +184,8 @@
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-14T11:24:35+00:00",
-      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and\u2026",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/quietremovalsfeed.png",
+      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has\u2026",
+      "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
     },
@@ -196,7 +196,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-11T21:28:35+00:00",
       "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png",
+      "image": "",
       "topic": "Vulnerability",
       "kind": "Investigation"
     },
@@ -218,7 +218,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-07-30T16:49:00+00:00",
       "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a\u2026",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
+      "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
     }
