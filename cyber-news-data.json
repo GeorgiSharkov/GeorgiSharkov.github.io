@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-21T02:10:26.528752+00:00",
+  "generatedAt": "2026-08-21T04:19:09.362271+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting!, (Fri, Aug 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33272",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-21T02:47:00+00:00",
+      "description": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&#;x26;#;39;s left would be handy. Something quicker than scrolling through the web interface through thousands of accounts ...",
+      "image": "",
+      "topic": "Identity",
+      "kind": "DFIR"
+    },
     {
       "title": "ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)",
       "url": "https://isc.sans.edu/diary/rss/33270",
@@ -113,17 +124,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Using Microsoft Graph and Powershell to Mine for Information - Stale Accounts and Licenses, (Thu, Aug 20th)",
-      "url": "https://isc.sans.edu/diary/rss/33264",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-20T12:45:32+00:00",
-      "description": "Microsoft Graph is a newer API that is meant to replace several others.&#;x26;#;xc2;&#;x26;#;xa0; OK, it&#;x26;#;39;s at version 2.3.9, so it&#;x26;#;39;s not all that new, but it&#;x26;#;39;s new enough that lots of folks (and commercial tools)\u2026",
-      "image": "",
-      "topic": "Identity",
-      "kind": "DFIR"
-    },
-    {
       "title": "Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities",
       "url": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/",
       "source": "SecurityWeek",
@@ -194,7 +194,7 @@
       "name": "Cybersecurity News",
       "status": "error",
       "stories": 0,
-      "message": "<urlopen error timed out>"
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
