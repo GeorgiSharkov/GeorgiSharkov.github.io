@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-21T04:19:09.362271+00:00",
+  "generatedAt": "2026-08-21T07:26:07.574878+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
+      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T07:25:50+00:00",
+      "description": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T06:06:11+00:00",
+      "description": "Microsoft says CVE-2026-69836, a CVSS 10.0 Entra ID RCE flaw, has been exploited in the wild but is fully mitigated with no user action required.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1700-e365/entraid.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting!, (Fri, Aug 21st)",
       "url": "https://isc.sans.edu/diary/rss/33272",
@@ -58,24 +80,13 @@
       "kind": "News"
     },
     {
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
       "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-20T17:23:48+00:00",
-      "description": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More | Read more hacking news on The Hacker News cybersecurity news website and learn how to protect against cyberattacks and software vulnerabilities.",
+      "description": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More | Read more hacking news on The Hacker News cybersecurity news website and learn how to protect against cyberattacks and software vulnerabilities.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmpCA-Pjqqy5BQaFvVtYqPZocJNkI4XUD8bcD9KrGaBcLyKd3J-aWVUtB8HwTiVqrFSI8U5wtTPhtjowrBWukeoUwSM5Y0-YKY535m1iDdQCXLYbSlx-qS-2TzZUpWVghvC3b9qWHxPoY4b-d3uUn3E4jeeW6iPt6Klxte-iNHfbq7K4aUpKH-EfhZV69/s1700-e365/threatsday-main.png",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-      "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T16:59:44+00:00",
-      "description": "U.S. agencies warn AI-generated exploit scripts target Siemens S7 PLCs, with exposed, outdated devices at risk across critical infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s1700-e365/plc.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -124,17 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Atlassian, Splunk Patch Dozens of Critical, High-Severity Vulnerabilities",
-      "url": "https://www.securityweek.com/atlassian-splunk-patch-dozens-of-critical-high-severity-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-20T12:24:53+00:00",
-      "description": "The flaws could be exploited to execute arbitrary code, access sensitive information, and elevate privileges.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "source": "Krebs on Security",
@@ -152,7 +152,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-11T21:28:35+00:00",
       "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "image": "",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png",
       "topic": "Vulnerability",
       "kind": "Investigation"
     },
