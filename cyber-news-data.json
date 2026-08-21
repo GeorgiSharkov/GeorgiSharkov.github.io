@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-08-21T07:26:07.574878+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-21T10:03:40.662992+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks",
+      "url": "https://cybersecuritynews.com/bandwidth-sharing-app/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T09:32:45+00:00",
+      "description": "Peer2Profit can turn work devices into proxy gateways, exposing corporate networks to outside traffic without triggering antivirus alerts.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bandwidth-Sharing-App-Can-Turn-Employee-Devices-Into-Gateways-to-Internal-Networks.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Rust Supply Chain Attack Linked to North Korean Hackers",
+      "url": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T09:23:18+00:00",
+      "description": "Hackers pushed a poisoned arrayref version that added a dependency to fetch a malicious payload from a remote server.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Supply-Chain-Software-Attack.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Contractors\u2019 CMMC Confidence Rises as Ability to Prove It Falls Behind",
+      "url": "https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T08:41:06+00:00",
+      "description": "Two industry surveys released this week by Kiteworks and CyberSheath paint a consistent picture of the defense industrial base.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Defense-industry-DIB.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Rolls Out 22 Fresh Security Patches",
+      "url": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T08:12:19+00:00",
+      "description": "Most of the fixes resolve code execution, privilege escalation, and information disclosure vulnerabilities.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/Microsoft.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "DOJ Charges 17 Iranian Hackers in IRGC-Linked Campaign That Stole 31.5TB of Research Data",
+      "url": "https://cybersecuritynews.com/doj-charges-17-iranian-hackers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T07:52:12+00:00",
+      "description": "DOJ charged 17 alleged Mabna Institute members in a cyber espionage campaign that stole at least 31.5TB of research data and intellectual property.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DOJ-Charges-17-Iranian-Hackers-in-IRGC-Linked-Campaign-That-Stole-31.5TB-of-Research-Data.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Offers Zero Data Retention for Frontier AI Models With Private Safety Processing",
+      "url": "https://cybersecuritynews.com/openai-zero-data-retention-for-frontier-models/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T07:50:08+00:00",
+      "description": "OpenAI offers Zero Data Retention for frontier-model API customers, with Private Safety Processing protecting prompts and responses from staff access.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Offers-Zero-Data-Retention-for-Frontier-AI-Models-With-Private-Safety-Processing-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Spring Security Flaw Lets Attackers Gain Admin Access to LDAP Servers",
+      "url": "https://cybersecuritynews.com/spring-security-flaw-access-ldap-servers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T07:46:37+00:00",
+      "description": "Spring Security\u2019s critical UnboundID LDAP flaw could let remote attackers gain admin access to exposed in-memory LDAP directories.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Spring-Security-Flaw-Lets-Attackers-Gain-Admin-Access-to-LDAP-Servers.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
       "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
@@ -9,7 +86,18 @@
       "sourceUrl": "https://www.securityweek.com/",
       "publishedAt": "2026-08-21T07:25:50+00:00",
       "description": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+      "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T07:04:25+00:00",
+      "description": "GitLab CVE-2026-19478 is under active exploitation, with unauthenticated attacks able to modify or delete public projects under certain conditions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jpyIqzuMd0vBKcxrQRj7eBbEebcRgNHLRFpx7YuxJlTPksUDEar7HPu4unQPNaOzpChBl1-dYyPHwuyjhgetrrh6PZ9OHPRqnc6nXeNdaX9f8AcSDe6gpmRecFfryf3-3BgsNoxvOyNc6xz703Qzsd7hJLuKbQt4Q6bgVxRZDGdpFzy8O2SByvUouC3J/s1700-e365/gitlab-cve.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -80,50 +168,6 @@
       "kind": "News"
     },
     {
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-      "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T17:23:48+00:00",
-      "description": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More | Read more hacking news on The Hacker News cybersecurity news website and learn how to protect against cyberattacks and software vulnerabilities.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmpCA-Pjqqy5BQaFvVtYqPZocJNkI4XUD8bcD9KrGaBcLyKd3J-aWVUtB8HwTiVqrFSI8U5wtTPhtjowrBWukeoUwSM5Y0-YKY535m1iDdQCXLYbSlx-qS-2TzZUpWVghvC3b9qWHxPoY4b-d3uUn3E4jeeW6iPt6Klxte-iNHfbq7K4aUpKH-EfhZV69/s1700-e365/threatsday-main.png",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Target Zimbra Servers in Active Exploitation Campaign",
-      "url": "https://www.securityweek.com/hackers-target-zimbra-servers-in-active-exploitation-campaign/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-20T14:50:49+00:00",
-      "description": "Exploitation of the Zimbra Collaboration vulnerability CVE-2026-73570 has been observed by Poland\u2019s CERT Polska.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/enterprise-collaboration-Zimbra.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Surveillance \u2013 Everything You Wanted to Know, But Were Afraid to Ask",
-      "url": "https://www.securityweek.com/surveillance-everything-you-wanted-to-know-but-were-afraid-to-ask/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-20T14:30:00+00:00",
-      "description": "We all know they\u2019re watching us. But we don\u2019t know who they are, nor why nor how they are doing it.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/03/threat-intelligence-cybersecurity.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Threat Actor Hacks 14,000 IP Cameras in Ukraine and Russia",
-      "url": "https://www.securityweek.com/threat-actor-hacks-14000-ip-cameras-in-ukraine-and-russia/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-20T13:16:35+00:00",
-      "description": "Operation CameraSwarm targeted Dahua cameras across multiple countries, focusing on Russian and CIS telecom netblocks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/camera.webp",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
       "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
       "url": "https://isc.sans.edu/diary/rss/33266",
       "source": "SANS ISC",
@@ -152,7 +196,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-11T21:28:35+00:00",
       "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png",
+      "image": "",
       "topic": "Vulnerability",
       "kind": "Investigation"
     },
@@ -174,7 +218,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-07-30T16:49:00+00:00",
       "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a\u2026",
-      "image": "",
+      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
       "topic": "Investigation",
       "kind": "Investigation"
     }
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
