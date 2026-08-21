@@ -1,16 +1,82 @@
 {
-  "generatedAt": "2026-08-21T10:03:40.662992+00:00",
+  "generatedAt": "2026-08-21T13:28:12.804055+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Bandwidth-Sharing App Can Turn Employee Devices Into Gateways to Internal Networks",
-      "url": "https://cybersecuritynews.com/bandwidth-sharing-app/",
+      "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
+      "url": "https://cybersecuritynews.com/claude-opus-5-routes/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T09:32:45+00:00",
-      "description": "Peer2Profit can turn work devices into proxy gateways, exposing corporate networks to outside traffic without triggering antivirus alerts.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Bandwidth-Sharing-App-Can-Turn-Employee-Devices-Into-Gateways-to-Internal-Networks.webp",
+      "publishedAt": "2026-08-21T13:26:20+00:00",
+      "description": "Claude Opus 5 struggled with hardened binaries, often using shortcuts like emulation and workspace searches to recover hidden data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Routes-Around-Obfuscated-Binaries-Instead-of-Defeating-the-Protection.webp",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical WordPress Plugin Vulnerability Exposes Sites to RCE Attacks",
+      "url": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-3/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T13:06:57+00:00",
+      "description": "Security flaw in the Elementor Pro WordPress plugin allow unauthenticated attackers to upload malicious PHP files and execute code .",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Wordpress-Plugin-Vulnerability-Exposes-Sites-to-RCE-Attacks-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical GitLab Code Injection Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/gitlab-code-injection-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T13:06:02+00:00",
+      "description": "GitLab admins are urged to patch CVE-2026-19478 as attackers exploit the critical unauthenticated code injection flaw.I prefer this response",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-code-injection-Vulnnerability-Actively-Exploited-in-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "US Bank Investigating Data Breach Following LockBit Ransomware Claim",
+      "url": "https://cybersecuritynews.com/us-bank-investigating-data-breach-lockbit-claim/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T13:01:06+00:00",
+      "description": "US Bank is investigating LockBit\u2019s breach claim, with the group threatening to publish stolen data on September 3 unless paid.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/US-Bank-Investigationg-Data-Breach-Following-LockBit-Ransomware-Claim.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Isolated-vm Vulnerability Leads to RCE on Host",
+      "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T12:26:07+00:00",
+      "description": "The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Wazuh and AI For Enhanced SOC Workflows",
+      "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T11:21:39+00:00",
+      "description": "Wazuh AI Analyst uses Amazon Bedrock and Claude to turn Wazuh Cloud security data into scheduled reports with posture and vulnerability insights.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSZWG6Sgh8GPFwyz6pxs_gis36Lo0bAHyFSaNrybGElVQbCBkjPrypJ_abTOidSIKSaVJs574hUuDYvUPGymaq3qfnecNfbc-RMnwTuH8vr4jLcsnQCLnxjscJMSLEfITdwIvVt4Ax_wzwKe3MpD5Bm9vIW_f94MESP1p1qNpoxrkkDstHJ1lL7eljzB4/s1700-e365/WAZUH.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T10:03:11+00:00",
+      "description": "Cisco patches nine Crosswork and Secure Workload flaws, including four CVSS 10.0 bugs; none are known to be actively exploited.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5Ujhq79PHPVr7VjuOjS0fOAyYm0aDTCJi9c5ieu-uya3FUM4Dh58yAT5U5J3VaXaGfNb4XowkyJ1lj3UTy8bOoF-u0O-5qdl-O7leomQjQw5jAI3m8WpZvC3se70f8mRP_KKIcScS0Nf9wJcsq4TWgiS_li3K6CSUbbG643IMhZBVGzW5XflwAbz0d1M/s1700-e365/cisco.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -36,57 +102,13 @@
       "kind": "News"
     },
     {
-      "title": "Microsoft Rolls Out 22 Fresh Security Patches",
+      "title": "Microsoft Patches Exploited Entra ID Vulnerability",
       "url": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
       "publishedAt": "2026-08-21T08:12:19+00:00",
-      "description": "Most of the fixes resolve code execution, privilege escalation, and information disclosure vulnerabilities.",
+      "description": "A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/10/Microsoft.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "DOJ Charges 17 Iranian Hackers in IRGC-Linked Campaign That Stole 31.5TB of Research Data",
-      "url": "https://cybersecuritynews.com/doj-charges-17-iranian-hackers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T07:52:12+00:00",
-      "description": "DOJ charged 17 alleged Mabna Institute members in a cyber espionage campaign that stole at least 31.5TB of research data and intellectual property.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/DOJ-Charges-17-Iranian-Hackers-in-IRGC-Linked-Campaign-That-Stole-31.5TB-of-Research-Data.webp",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Offers Zero Data Retention for Frontier AI Models With Private Safety Processing",
-      "url": "https://cybersecuritynews.com/openai-zero-data-retention-for-frontier-models/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T07:50:08+00:00",
-      "description": "OpenAI offers Zero Data Retention for frontier-model API customers, with Private Safety Processing protecting prompts and responses from staff access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Offers-Zero-Data-Retention-for-Frontier-AI-Models-With-Private-Safety-Processing-.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Spring Security Flaw Lets Attackers Gain Admin Access to LDAP Servers",
-      "url": "https://cybersecuritynews.com/spring-security-flaw-access-ldap-servers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T07:46:37+00:00",
-      "description": "Spring Security\u2019s critical UnboundID LDAP flaw could let remote attackers gain admin access to exposed in-memory LDAP directories.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Spring-Security-Flaw-Lets-Attackers-Gain-Admin-Access-to-LDAP-Servers.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Urges Immediate Patching of Exploited TrueConf Vulnerabilities",
-      "url": "https://www.securityweek.com/cisa-urges-immediate-patching-of-exploited-trueconf-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T07:25:50+00:00",
-      "description": "The Head Mare hacktivist group has been exploiting the bugs to deploy the PhantomCore malware.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/CISA-KEV.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -146,28 +168,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
-      "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T20:22:35+00:00",
-      "description": "Rust deletes malicious releases of three crates after a proc-macro1 build script downloaded and ran a remote payload during compilation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1700-e365/rust.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-      "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-20T19:59:19+00:00",
-      "description": "Three suspected Russian cyber espionage clusters abuse legitimate authentication flows to compromise personal accounts across Europe and the U.S.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1700-e365/google-whatsapp.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
       "url": "https://isc.sans.edu/diary/rss/33266",
       "source": "SANS ISC",
@@ -218,7 +218,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-07-30T16:49:00+00:00",
       "description": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a\u2026",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/07/h96-amazon.png",
+      "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
     }
