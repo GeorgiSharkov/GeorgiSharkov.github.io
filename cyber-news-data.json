@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-21T19:08:28.691653+00:00",
+  "generatedAt": "2026-08-21T21:54:06.151083+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T18:53:00+00:00",
+      "description": "Trojanized npm packages launch RedC2 4.0 on Linux at import time, giving operators shell access, credential theft, and payload execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvZpEOpS6_M3zQlIDwvD1wMhESnRAMTCz1nW2JFP__pGSVWOw28REaDTZ5lI7sdwvcRKSSUHI4sm1CUuWs6_gvOXE1c5BbvKnR75iyBl9Er1SckweDAxBEotnOlSikBeOE5WEBIIGlS74w4b85pvznpr3c4mj88LzLt-3pGr1HHXHQDg5v7T9FxdBSWSlK/s1700-e365/linux-npm.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
       "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
@@ -120,17 +131,6 @@
       "publishedAt": "2026-08-21T11:21:39+00:00",
       "description": "Wazuh AI Analyst uses Amazon Bedrock and Claude to turn Wazuh Cloud security data into scheduled reports with posture and vulnerability insights.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSZWG6Sgh8GPFwyz6pxs_gis36Lo0bAHyFSaNrybGElVQbCBkjPrypJ_abTOidSIKSaVJs574hUuDYvUPGymaq3qfnecNfbc-RMnwTuH8vr4jLcsnQCLnxjscJMSLEfITdwIvVt4Ax_wzwKe3MpD5Bm9vIW_f94MESP1p1qNpoxrkkDstHJ1lL7eljzB4/s1700-e365/WAZUH.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-      "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T10:03:11+00:00",
-      "description": "Cisco patches nine Crosswork and Secure Workload flaws, including four CVSS 10.0 bugs; none are known to be actively exploited.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5Ujhq79PHPVr7VjuOjS0fOAyYm0aDTCJi9c5ieu-uya3FUM4Dh58yAT5U5J3VaXaGfNb4XowkyJ1lj3UTy8bOoF-u0O-5qdl-O7leomQjQw5jAI3m8WpZvC3se70f8mRP_KKIcScS0Nf9wJcsq4TWgiS_li3K6CSUbbG643IMhZBVGzW5XflwAbz0d1M/s1700-e365/cisco.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
