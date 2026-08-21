@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-21T13:28:12.804055+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-21T16:01:40.300658+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug",
+      "url": "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T15:11:16+00:00",
+      "description": "Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Scammers Use WhatsApp Groups to Coordinate Millions in Victim Trades and Pump Real Stocks",
+      "url": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T14:52:11+00:00",
+      "description": "Scammers use WhatsApp groups and deepfakes to lure investors into coordinated stock manipulation, leaving victims with losses.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Scammers-Use-WhatsApp-Groups-to-Coordinate-Millions-in-Victim-Trades-and-Pump-Real-Stocks.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
+      "url": "https://cybersecuritynews.com/chinese-hackers-use-ai-agents/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T14:41:55+00:00",
+      "description": "Chinese-speaking hackers use AI-assisted tools and public exploits to automate attacks on vulnerable web servers at scale.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chinese-Hackers-Use-AI-Agents-to-Exploit-Web-Servers-and-Automate-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini",
+      "url": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T14:34:05+00:00",
+      "description": "Researchers say the new \u2018Cryptographic Context Injection\u2019 technique conceals malicious instructions until they are decrypted inside a trusted execution environment.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/05/AI-attacks.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets",
+      "url": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T14:22:06+00:00",
+      "description": "Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection",
+      "url": "https://cybersecuritynews.com/hackers-hide-agent-tesla/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T14:14:20+00:00",
+      "description": "Hackers hide Agent Tesla malware in Unicode emojis inside fake bank emails, tricking finance teams into opening malicious JavaScript files.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Agent-Tesla-JScript-Behind-Unicode-Emojis-to-Evade-Detection.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
       "url": "https://cybersecuritynews.com/claude-opus-5-routes/",
@@ -11,39 +77,6 @@
       "description": "Claude Opus 5 struggled with hardened binaries, often using shortcuts like emulation and workspace searches to recover hidden data.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Routes-Around-Obfuscated-Binaries-Instead-of-Defeating-the-Protection.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical WordPress Plugin Vulnerability Exposes Sites to RCE Attacks",
-      "url": "https://cybersecuritynews.com/wordpress-plugin-vulnerability-exposes-3/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T13:06:57+00:00",
-      "description": "Security flaw in the Elementor Pro WordPress plugin allow unauthenticated attackers to upload malicious PHP files and execute code .",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Wordpress-Plugin-Vulnerability-Exposes-Sites-to-RCE-Attacks-.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Critical GitLab Code Injection Vulnerability Actively Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/gitlab-code-injection-vulnerability-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T13:06:02+00:00",
-      "description": "GitLab admins are urged to patch CVE-2026-19478 as attackers exploit the critical unauthenticated code injection flaw.I prefer this response",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-GitLab-code-injection-Vulnnerability-Actively-Exploited-in-Attacks.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "US Bank Investigating Data Breach Following LockBit Ransomware Claim",
-      "url": "https://cybersecuritynews.com/us-bank-investigating-data-breach-lockbit-claim/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T13:01:06+00:00",
-      "description": "US Bank is investigating LockBit\u2019s breach claim, with the group threatening to publish stolen data on September 3 unless paid.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/US-Bank-Investigationg-Data-Breach-Following-LockBit-Ransomware-Claim.webp",
-      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -80,39 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "Rust Supply Chain Attack Linked to North Korean Hackers",
-      "url": "https://www.securityweek.com/rust-supply-chain-attack-linked-to-north-korean-hackers/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T09:23:18+00:00",
-      "description": "Hackers pushed a poisoned arrayref version that added a dependency to fetch a malicious payload from a remote server.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Supply-Chain-Software-Attack.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Contractors\u2019 CMMC Confidence Rises as Ability to Prove It Falls Behind",
-      "url": "https://www.securityweek.com/contractors-cmmc-confidence-rises-as-ability-to-prove-it-falls-behind/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T08:41:06+00:00",
-      "description": "Two industry surveys released this week by Kiteworks and CyberSheath paint a consistent picture of the defense industrial base.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Defense-industry-DIB.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Patches Exploited Entra ID Vulnerability",
-      "url": "https://www.securityweek.com/microsoft-rolls-out-22-fresh-security-patches/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T08:12:19+00:00",
-      "description": "A total of 22 patches were releaased, a majority for code execution, privilege escalation, and information disclosure vulnerabilities.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/Microsoft.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
       "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
       "source": "The Hacker News",
@@ -133,50 +133,6 @@
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1700-e365/entraid.jpg",
       "topic": "Vulnerability",
       "kind": "News"
-    },
-    {
-      "title": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting!, (Fri, Aug 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33272",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-21T02:47:00+00:00",
-      "description": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&#;x26;#;39;s left would be handy. Something quicker than scrolling through the web interface through thousands of accounts ...",
-      "image": "",
-      "topic": "Identity",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33270",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-21T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33268",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-21T01:49:18+00:00",
-      "description": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
-      "url": "https://isc.sans.edu/diary/rss/33266",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-20T13:09:50+00:00",
-      "description": "Building on the last diary on Using MS Graph and Powershell, let&#;x26;#;39;s look at \"Risky\" logins.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
@@ -246,8 +202,9 @@
     },
     {
       "name": "SANS ISC",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "syntax error: line 1, column 0"
     }
   ]
 }
