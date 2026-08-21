@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-08-21T16:01:40.300658+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-21T19:08:28.691653+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
+      "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T17:46:37+00:00",
+      "description": "Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers to scan codebases for vulnerabilities and receive AI-generated remediation guidance.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Mythos-5-Available-in-Claude-Security.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users",
+      "url": "https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-21T16:37:25+00:00",
+      "description": "Microsoft has started expanding primary mailbox storage for Microsoft 365 Business Basic, Business Standard, and Business Premium users. Eligible users can now receive up to 100 GB of Exchange Online mailbox capacity, doubling the previous 50 GB entitlement.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Expands-Mailbox-Storage-from-50gb-to-100gb-for-Users.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Former NSA Director Paul Nakasone Launches National Security Advisory Firm",
+      "url": "https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-21T16:27:52+00:00",
+      "description": "The newly-formed Nakasone Group will counsel government leaders, corporations, prominent families, and other private clients confronting cybersecurity, geopolitical, and personal security risks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Paul_Nakasone-.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T15:52:10+00:00",
+      "description": "BTR Reforged uses Defender's signed BTR.sys with an administrator account and SeLoadDriverPrivilege for kernel file and registry operations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbsmb6Wk8pQKWQmByAl5wnZQEVjS7ZYiHrlsHRM7VlcoPL7s30TaoTReoaQ4LI8Oy3KfKlIRHn9sN_7bjEKd_FWPHi1V0JR6LERepKBWSdJOk6cSUNgfIN2KVc6ydfbTILTy11owREYfpO7K11gFQV00l6qf1zl5rzF28jPhcN744yTvRAA-EjyDSBXs/s1700-e365/windows.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+      "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-21T15:41:44+00:00",
+      "description": "New malware abuses DoFun Android head unit updaters to deliver JarService, run ad fraud, and download the Zhima reverse proxy module.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1EQE-DqLXTzpjwGf3nQnM4CTnjibkKl_2ersn8abw3Gmqoc5MUaFC2LvkA7c6Xoa0XBPZeHL4wHHiXU7Pc9nGLcI1zTorwFTwvYXfww4Q68oSUrgcQhmBzQBNqYp-woIZFK_I1OOsnBNptiwA90VHhpE_hvlz3qdFomOmOMLreYe5YCenvR2CeawvRrMU/s1700-e365/car.png",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug",
       "url": "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
@@ -58,39 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Hide Agent Tesla JScript Behind Unicode Emojis to Evade Detection",
-      "url": "https://cybersecuritynews.com/hackers-hide-agent-tesla/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T14:14:20+00:00",
-      "description": "Hackers hide Agent Tesla malware in Unicode emojis inside fake bank emails, tricking finance teams into opening malicious JavaScript files.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-Agent-Tesla-JScript-Behind-Unicode-Emojis-to-Evade-Detection.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Claude Opus 5 Routes Around Obfuscated Binaries Instead of Defeating the Protection",
-      "url": "https://cybersecuritynews.com/claude-opus-5-routes/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T13:26:20+00:00",
-      "description": "Claude Opus 5 struggled with hardened binaries, often using shortcuts like emulation and workspace searches to recover hidden data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-Opus-5-Routes-Around-Obfuscated-Binaries-Instead-of-Defeating-the-Protection.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Isolated-vm Vulnerability Leads to RCE on Host",
-      "url": "https://www.securityweek.com/critical-isolated-vm-vulnerability-leads-to-rce-on-host/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T12:26:07+00:00",
-      "description": "The type confusion bug can lead to V8 sandbox escape and control-flow hijacking of the host process.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Wazuh and AI For Enhanced SOC Workflows",
       "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
       "source": "The Hacker News",
@@ -113,26 +135,48 @@
       "kind": "News"
     },
     {
-      "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-      "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T07:04:25+00:00",
-      "description": "GitLab CVE-2026-19478 is under active exploitation, with unauthenticated attacks able to modify or delete public projects under certain conditions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jpyIqzuMd0vBKcxrQRj7eBbEebcRgNHLRFpx7YuxJlTPksUDEar7HPu4unQPNaOzpChBl1-dYyPHwuyjhgetrrh6PZ9OHPRqnc6nXeNdaX9f8AcSDe6gpmRecFfryf3-3BgsNoxvOyNc6xz703Qzsd7hJLuKbQt4Q6bgVxRZDGdpFzy8O2SByvUouC3J/s1700-e365/gitlab-cve.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
+      "title": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting!, (Fri, Aug 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33272",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-21T02:47:00+00:00",
+      "description": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&#;x26;#;39;s left would be handy. Something quicker than scrolling through the web interface through thousands of accounts ...",
+      "image": "",
+      "topic": "Identity",
+      "kind": "DFIR"
     },
     {
-      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
-      "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T06:06:11+00:00",
-      "description": "Microsoft says CVE-2026-69836, a CVSS 10.0 Entra ID RCE flaw, has been exploited in the wild but is fully mitigated with no user action required.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1700-e365/entraid.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
+      "title": "ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33270",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-21T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33268",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-21T01:49:18+00:00",
+      "description": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
+      "url": "https://isc.sans.edu/diary/rss/33266",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-20T13:09:50+00:00",
+      "description": "Building on the last diary on Using MS Graph and Powershell, let&#;x26;#;39;s look at \"Risky\" logins.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
@@ -202,9 +246,8 @@
     },
     {
       "name": "SANS ISC",
-      "status": "error",
-      "stories": 0,
-      "message": "syntax error: line 1, column 0"
+      "status": "ok",
+      "stories": 4
     }
   ]
 }
