@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-20T21:56:28.093709+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-21T02:10:26.528752+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33270",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-21T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33268",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-21T01:49:18+00:00",
+      "description": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
       "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
@@ -36,17 +58,6 @@
       "kind": "News"
     },
     {
-      "title": "CRLF-Powered Desync Lets Attackers Poison CDN Cache and Serve XSS to Live Users",
-      "url": "https://cybersecuritynews.com/crlf-powered-desync-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T17:04:18+00:00",
-      "description": "A limited CRLF injection flaw can be escalated into a severe HTTP desynchronization attack, poisoning CDN caches and delivering XSS payloads to users on legitimate websites.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CRLF-Powered-Desync-Lets-Attackers-Poison-CDN-Cache-and-Serve-XSS-to-Live-Users.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
       "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
       "source": "The Hacker News",
@@ -55,39 +66,6 @@
       "description": "U.S. agencies warn AI-generated exploit scripts target Siemens S7 PLCs, with exposed, outdated devices at risk across critical infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSn562AFIpj2ldmT5inFv5tGgfNbaM4F1OBNvCW-80nP-YmFewnJd9VMlbgYnhgWrUpHS81bS6uEXRgEmg37c14OqmkO29XqY3FcBCl637vmAxfqB3UDtL3Rvgio6cPAQQv3bYtLUIyRdog4bpgD8MqJJYhTLish4L2Ljt6aJ_WpjFmTXYhmrA-TguqH98/s1700-e365/plc.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AWS Shows How to Stop a Hijacked AI Agent From Reading Data the User Cannot Access",
-      "url": "https://cybersecuritynews.com/aws-ai-agent-data-access/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T16:55:37+00:00",
-      "description": "Enterprises are racing to deploy AI agents that pull from databases, document repositories, SaaS platforms, and internal knowledge bases to automate workflows. But a quiet risk lurks beneath the convenience: most agents have no built-in awareness of who is\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-AI-Agent-Data-Access.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Defender Driver Can Be Weaponized to Disable EDR and AV From Windows Kernel",
-      "url": "https://cybersecuritynews.com/defender-driver-can-be-weaponized/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T16:39:41+00:00",
-      "description": "Security researchers have demonstrated how Microsoft Defender\u2019s legitimate Boot-Time Removal driver, BTR.sys, can be repurposed to perform powerful kernel-level file and registry operations potentially enabling attackers with administrative privileges to\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Defender-Driver-Can-Be-Weaponized.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Popular Rust Packages With 244M Downloads Compromised to Run Malware",
-      "url": "https://cybersecuritynews.com/rust-packages-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-20T16:15:06+00:00",
-      "description": "A major supply chain attack targeting the Rust ecosystem, in which two widely used crates, arrayref and append-only-vec, were hijacked to silently deliver malware the moment developers compiled their projects.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Popular-Rust-Packages-Compromised.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -157,28 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "ISC Stormcast For Thursday, August 20th, 2026 https://isc.sans.edu/podcastdetail/10060, (Thu, Aug 20th)",
-      "url": "https://isc.sans.edu/diary/rss/33262",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-20T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
-      "url": "https://isc.sans.edu/diary/rss/33260",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-19T14:24:58+00:00",
-      "description": "Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the region the machine is running in or its MAC and IP\u2026",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
       "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
       "source": "Krebs on Security",
@@ -196,7 +152,7 @@
       "sourceUrl": "https://krebsonsecurity.com/",
       "publishedAt": "2026-08-11T21:28:35+00:00",
       "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "image": "https://krebsonsecurity.com/wp-content/uploads/2026/08/workingonpc.png",
+      "image": "",
       "topic": "Vulnerability",
       "kind": "Investigation"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
