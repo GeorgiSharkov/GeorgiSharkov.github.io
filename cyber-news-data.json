@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-21T21:54:06.151083+00:00",
+  "generatedAt": "2026-08-22T02:02:27.892654+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
+      "url": "https://cybersecuritynews.com/grok-zero-click-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-22T01:31:34+00:00",
+      "description": "A newly disclosed attack can turn a routine \u201csummarize this page\u201d request in xAI\u2019s Grok web chat into a silent theft of the user\u2019s name, coarse location, subscription tier, and the prompt history of the active conversation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Grok-Zero-Click-Attack.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
@@ -88,17 +99,6 @@
       "description": "Scammers use WhatsApp groups and deepfakes to lure investors into coordinated stock manipulation, leaving victims with losses.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Scammers-Use-WhatsApp-Groups-to-Coordinate-Millions-in-Victim-Trades-and-Pump-Real-Stocks.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Chinese Hackers Use AI Agents to Exploit Web Servers and Automate Attacks",
-      "url": "https://cybersecuritynews.com/chinese-hackers-use-ai-agents/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T14:41:55+00:00",
-      "description": "Chinese-speaking hackers use AI-assisted tools and public exploits to automate attacks on vulnerable web servers at scale.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Chinese-Hackers-Use-AI-Agents-to-Exploit-Web-Servers-and-Automate-Attacks.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
