@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-22T07:11:56.448041+00:00",
+  "generatedAt": "2026-08-22T09:54:17.227630+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
+      "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-22T08:30:00+00:00",
+      "description": "The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
@@ -66,17 +77,6 @@
       "description": "Researchers say the new \u2018Cryptographic Context Injection\u2019 technique conceals malicious instructions until they are decrypted inside a trusted execution environment.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/05/AI-attacks.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New Phishing Toolkit Uses Passkeys to Maintain Access After Password Resets",
-      "url": "https://www.securityweek.com/new-phishing-toolkit-uses-passkeys-to-maintain-access-after-password-resets/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T14:22:06+00:00",
-      "description": "Researchers say iAuthFlow V2 can register an attacker-controlled passkey, enabling persistent access even after passwords are changed and active sessions revoked.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
