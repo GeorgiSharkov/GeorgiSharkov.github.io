@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-22T13:12:12.684745+00:00",
+  "generatedAt": "2026-08-22T15:51:08.231840+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-22T14:32:41+00:00",
+      "description": "TikTok will pay $400 million to settle a U.S. child privacy case alleging COPPA violations involving users under 13 and Kids Mode.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuigeGBdB6K4zmYLAIVAQ2NR4LskJUGGLo94UiAtL1d89WIdT3ekZUY58J7Em-QxANVODEDSuLoEwVlBKiwEQCBss89hDYzpOuUWcAd8bUphqatYsgIA801ytGpe6c9Pr66CZicJqHx81XREePakS0n3RhYGdD_awrTW5UNGjUdSEmwcKo0K5UOrOIdyGo/s1700-e365/tiktok.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
       "url": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
@@ -121,17 +132,6 @@
       "description": "Researchers say the new \u2018Cryptographic Context Injection\u2019 technique conceals malicious instructions until they are decrypted inside a trusted execution environment.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/05/AI-attacks.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Wazuh and AI For Enhanced SOC Workflows",
-      "url": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T11:21:39+00:00",
-      "description": "Wazuh AI Analyst uses Amazon Bedrock and Claude to turn Wazuh Cloud security data into scheduled reports with posture and vulnerability insights.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSZWG6Sgh8GPFwyz6pxs_gis36Lo0bAHyFSaNrybGElVQbCBkjPrypJ_abTOidSIKSaVJs574hUuDYvUPGymaq3qfnecNfbc-RMnwTuH8vr4jLcsnQCLnxjscJMSLEfITdwIvVt4Ax_wzwKe3MpD5Bm9vIW_f94MESP1p1qNpoxrkkDstHJ1lL7eljzB4/s1700-e365/WAZUH.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
