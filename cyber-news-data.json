@@ -1,18 +1,7 @@
 {
-  "generatedAt": "2026-08-22T02:02:27.892654+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-22T04:09:50.962857+00:00",
+  "count": 16,
   "stories": [
-    {
-      "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
-      "url": "https://cybersecuritynews.com/grok-zero-click-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-22T01:31:34+00:00",
-      "description": "A newly disclosed attack can turn a routine \u201csummarize this page\u201d request in xAI\u2019s Grok web chat into a silent theft of the user\u2019s name, coarse location, subscription tier, and the prompt history of the active conversation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Grok-Zero-Click-Attack.webp",
-      "topic": "News",
-      "kind": "News"
-    },
     {
       "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
@@ -22,28 +11,6 @@
       "description": "Trojanized npm packages launch RedC2 4.0 on Linux at import time, giving operators shell access, credential theft, and payload execution.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvZpEOpS6_M3zQlIDwvD1wMhESnRAMTCz1nW2JFP__pGSVWOw28REaDTZ5lI7sdwvcRKSSUHI4sm1CUuWs6_gvOXE1c5BbvKnR75iyBl9Er1SckweDAxBEotnOlSikBeOE5WEBIIGlS74w4b85pvznpr3c4mj88LzLt-3pGr1HHXHQDg5v7T9FxdBSWSlK/s1700-e365/linux-npm.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Claude Mythos 5 Now Available in Claude Security for Vulnerability Scanning",
-      "url": "https://cybersecuritynews.com/mythos-5-claude-security-scanning/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T17:46:37+00:00",
-      "description": "Anthropic has expanded access to its frontier AI cyber-defense capabilities by making Claude Mythos 5 available in Claude Security, enabling enterprise customers to scan codebases for vulnerabilities and receive AI-generated remediation guidance.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Mythos-5-Available-in-Claude-Security.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Expands Mailbox Storage From 50 GB to 100 GB for Users",
-      "url": "https://cybersecuritynews.com/microsoft-expands-mailbox-storage-50gb-to-100gb/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T16:37:25+00:00",
-      "description": "Microsoft has started expanding primary mailbox storage for Microsoft 365 Business Basic, Business Standard, and Business Premium users. Eligible users can now receive up to 100 GB of Exchange Online mailbox capacity, doubling the previous 50 GB entitlement.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Expands-Mailbox-Storage-from-50gb-to-100gb-for-Users.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -88,17 +55,6 @@
       "description": "Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Scammers Use WhatsApp Groups to Coordinate Millions in Victim Trades and Pump Real Stocks",
-      "url": "https://cybersecuritynews.com/scammers-use-whatsapp-groups/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-21T14:52:11+00:00",
-      "description": "Scammers use WhatsApp groups and deepfakes to lure investors into coordinated stock manipulation, leaving victims with losses.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Scammers-Use-WhatsApp-Groups-to-Coordinate-Millions-in-Victim-Trades-and-Pump-Real-Stocks.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
