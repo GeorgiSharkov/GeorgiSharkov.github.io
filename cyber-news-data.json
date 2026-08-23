@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-23T04:18:24.128901+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-23T07:17:49.143036+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
@@ -14,6 +14,17 @@
       "kind": "News"
     },
     {
+      "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
+      "url": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-22T09:31:33+00:00",
+      "description": "Compare the 10 best Wi-Fi security solutions of 2026, scored on WPA3, rogue AP detection, and zero-trust integration \u2014 find the right wireless security fit.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Wireless-Wi-Fi-Security-Solutions-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
       "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
       "source": "SecurityWeek",
@@ -22,6 +33,39 @@
       "description": "The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "What specifically allowed the agent to reach a real company\u2019s systems during testing?",
+      "url": "https://cybersecuritynews.com/what-specifically-allowed-the-agent-to-reach-a-real-companys-systems-during-testing/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-22T05:09:10+00:00",
+      "description": "First and foremost, the technical \u201cwalls\u201d were reduced during the testing experience. One of the questions that many organizations have asked is, \u201cWhy wasn\u2019t this run in an AI testing location?\u201d",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/wayne.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "What 45 Million wp2shell Exploit Attempts Reveal About the New Vulnerability Response Window",
+      "url": "https://cybersecuritynews.com/what-45-million-wp2shell-exploit-attempts-reveal-about-the-new-vulnerability-response-window/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-22T04:43:01+00:00",
+      "description": "The latest wp2shell vulnerability was one of the biggest WordPress security events in history. The critical vulnerability chain combined two flaws that allowed unauthenticated attackers to exploit vulnerable sites and ultimately execute malicious code\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Joey-Stanford.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
+      "url": "https://cybersecuritynews.com/grok-zero-click-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-22T01:31:34+00:00",
+      "description": "A newly disclosed attack can turn a routine \u201csummarize this page\u201d request in xAI\u2019s Grok web chat into a silent theft of the user\u2019s name, coarse location, subscription tier, and the prompt history of the active conversation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Grok-Zero-Click-Attack.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
