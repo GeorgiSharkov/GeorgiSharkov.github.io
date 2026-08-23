@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-23T13:16:20.819177+00:00",
+  "generatedAt": "2026-08-23T15:52:14.460971+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave",
+      "url": "https://cybersecuritynews.com/windows-11-default-search-app/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-23T13:24:54+00:00",
+      "description": "Microsoft has built a dedicated Windows 11 app that exists to put Bing in front of users who already chose another search engine. The utility, Microsoft Recommended Search Settings, arrives as a standalone 22.2 MB installer named MicrosoftSettings.exe.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-11-Default-Search-App.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
       "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
@@ -55,17 +66,6 @@
       "description": "The latest wp2shell vulnerability was one of the biggest WordPress security events in history. The critical vulnerability chain combined two flaws that allowed unauthenticated attackers to exploit vulnerable sites and ultimately execute malicious code\u2026",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Joey-Stanford.webp",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Grok Zero-Click Attack Steals Chat Data Using Encrypted Prompt Injection",
-      "url": "https://cybersecuritynews.com/grok-zero-click-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-22T01:31:34+00:00",
-      "description": "A newly disclosed attack can turn a routine \u201csummarize this page\u201d request in xAI\u2019s Grok web chat into a silent theft of the user\u2019s name, coarse location, subscription tier, and the prompt history of the active conversation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Grok-Zero-Click-Attack.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
