@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-08-23T15:52:14.460971+00:00",
+  "generatedAt": "2026-08-23T18:59:40.270223+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack",
+      "url": "https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-23T17:21:38+00:00",
+      "description": "A cyberattack attributed to hackers linked to Iran forced a British power plant offline for four consecutive days last month, marking what officials describe as the first successful attack of its kind against UK energy infrastructure.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Force-UK-Power-Plant-Offline.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Weekly Cyber Security Newsletter Bulletin \u2013 Entra ID RCE, Claude Code Ransomware, T-Mobile Cable, Azure Credential Theft +20 Stories",
+      "url": "https://cybersecuritynews.com/cyber-security-newsletter-bulletin-august/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-23T16:45:52+00:00",
+      "description": "A ransomware affiliate weaponized Claude Code to autonomously steal LDAP credentials, backdoor VPNs, and exfiltrate SQL databases, while a separate criminal AI service called MessiahGPT surfaced on BreachForums, offering uncensored malware generation to\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cyber-Security-Newsletter-Bulletin-August.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
     {
       "title": "Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave",
       "url": "https://cybersecuritynews.com/windows-11-default-search-app/",
@@ -44,28 +66,6 @@
       "description": "The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "What specifically allowed the agent to reach a real company\u2019s systems during testing?",
-      "url": "https://cybersecuritynews.com/what-specifically-allowed-the-agent-to-reach-a-real-companys-systems-during-testing/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-22T05:09:10+00:00",
-      "description": "First and foremost, the technical \u201cwalls\u201d were reduced during the testing experience. One of the questions that many organizations have asked is, \u201cWhy wasn\u2019t this run in an AI testing location?\u201d",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/wayne.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "What 45 Million wp2shell Exploit Attempts Reveal About the New Vulnerability Response Window",
-      "url": "https://cybersecuritynews.com/what-45-million-wp2shell-exploit-attempts-reveal-about-the-new-vulnerability-response-window/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-22T04:43:01+00:00",
-      "description": "The latest wp2shell vulnerability was one of the biggest WordPress security events in history. The critical vulnerability chain combined two flaws that allowed unauthenticated attackers to exploit vulnerable sites and ultimately execute malicious code\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Joey-Stanford.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
