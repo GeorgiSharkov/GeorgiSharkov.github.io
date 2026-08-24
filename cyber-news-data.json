@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-08-24T07:41:33.719162+00:00",
+  "generatedAt": "2026-08-24T10:19:38.425063+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Personal Information Exposed in Apollo Global Data Breach",
+      "url": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T10:08:42+00:00",
+      "description": "The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Apollo-Global.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Rethinking Application Security for the AI Era",
+      "url": "https://www.securityweek.com/rethinking-application-security-for-the-ai-era/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T10:00:00+00:00",
+      "description": "As AI dramatically shortens the time from vulnerability disclosure to exploitation, enterprises must look beyond patching to reduce application risk.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto",
+      "url": "https://cybersecuritynews.com/fake-captcha-tricks-mac-users/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T09:49:32+00:00",
+      "description": "Fake CAPTCHA pages trick Mac users into pasting malicious Terminal commands, enabling password theft, remote control, and crypto mining.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-CAPTCHA-Tricks-Mac-Users-Into-Installing-a-Backdoor-That-Steals-Passwords-and-Mines-Crypto.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days",
+      "url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T09:22:09+00:00",
+      "description": "The attack caused real-world operational disruption and raised concerns about the resilience of Britain\u2019s distributed energy infrastructure and the potential for repeatable attacks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/power-grid-hack-e1746179256944.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "TikTok Reaches $400 Million Settlement With US Justice Department Over Children\u2019s Privacy",
+      "url": "https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T09:11:11+00:00",
+      "description": "TikTok will pay $300 million immediately and another $100 million after an order vacates an earlier consent decree against its predecessor company, Musical.ly.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/TikTok-China-Access-Risks.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hugging Face Reportedly Explores $13 Billion Sale Following Recent AI Security Incident",
+      "url": "https://cybersecuritynews.com/hugging-face-13-billion-sale/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T08:10:09+00:00",
+      "description": "Hugging Face is testing a sale that could value the open-source AI hub at $13 billion or more, even as it is still closing out July\u2019s autonomous-agent intrusion.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hugging-Face-13-Billion-Sale.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+      "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T08:08:31+00:00",
+      "description": "UAT-10147 targets Windows and Linux servers with known flaws and AI tools, deploying malware for SEO fraud and data theft.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4-mx98ENuq77sCTBd49TSl4Ov5dD1Wua0Vf1MiyVVPfcFckY__TjnTEOeC5CIQWX4L_OLA-xZHHY5nAlp926SIpa3eK8Tvfw1HSHHK1GMot7noTz4Cg36t-ZuZ-NUh5mnsfzs0HJ8F7p410LgWFVPN39PYh8YR6qkDlE8duNKmKpOtJHW4NA9T_ddTGLp/s1700-e365/hackers.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Anthropic\u2019s Claude AI Suffers Another Outage With Elevated Errors",
+      "url": "https://cybersecuritynews.com/claude-ai-suffers-outage/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T08:01:43+00:00",
+      "description": "Anthropic's Claude AI platform experienced another wave of elevated errors on August 24, 2026, marking yet another disruption in what has become a troubling pattern of instability for one of the industry's leading AI providers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Suffers-Another-Outage-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
       "url": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
@@ -23,50 +111,6 @@
       "image": "",
       "topic": "Malware",
       "kind": "DFIR"
-    },
-    {
-      "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund",
-      "url": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T07:18:58+00:00",
-      "description": "Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Claude-Mythos.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AWS Network Firewall Now Displays Count of Triggered Security Rules",
-      "url": "https://cybersecuritynews.com/aws-network-firewall-hit-counts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T06:27:33+00:00",
-      "description": "AWS has introduced rule hit count support for AWS Network Firewall, giving security teams direct visibility into which stateful firewall rules are matching live network traffic.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Network-Firewall-Now-Shows-Which-Security-Rules-Are-Actually-Being-Triggered.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks",
-      "url": "https://cybersecuritynews.com/malicious-npm-packages/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T06:09:19+00:00",
-      "description": "Malicious npm packages hide a Linux backdoor in calendar tools, using legitimate date functions to deliver RedShell into production systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malicious-npm-Packages-Deploy-AI-Powered-RedC2-Linux-Implant-to-Steal-Credentials-and-Pivot-Networks.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical isolated-vm Flaw Lets Untrusted JavaScript Escape Sandbox and Hijack Host Execution",
-      "url": "https://cybersecuritynews.com/critical-isolated-vm-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T05:57:44+00:00",
-      "description": "A critical isolated-vm flaw lets untrusted JavaScript escape the V8 sandbox and potentially hijack the host process.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-isolated-vm-Flaw-Lets-Untrusted-JavaScript-Escape-Sandbox-and-Hijack-Host-Execution-.webp",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)",
@@ -91,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "Banking Trojans Manic, Grandoreiro, ToxicPanda 2.0 in the Spotlight",
-      "url": "https://www.securityweek.com/banking-trojans-manic-grandoreiro-toxicpanda-2-0-in-the-spotlight/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-22T08:30:00+00:00",
-      "description": "The spyware-equipped Manic, a persistent Grandoreiro campaign in Latin America and Europe, and an expanded ToxicPanda 2.0 malware.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
       "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
       "source": "The Hacker News",
@@ -113,17 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "Former NSA Director Paul Nakasone Launches National Security Advisory Firm",
-      "url": "https://www.securityweek.com/former-nsa-director-paul-nakasone-launches-national-security-advisory-firm/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T16:27:52+00:00",
-      "description": "The newly-formed Nakasone Group will counsel government leaders, corporations, prominent families, and other private clients confronting cybersecurity, geopolitical, and personal security risks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Paul_Nakasone-.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
       "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
       "source": "The Hacker News",
@@ -132,28 +154,6 @@
       "description": "BTR Reforged uses Defender's signed BTR.sys with an administrator account and SeLoadDriverPrivilege for kernel file and registry operations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbsmb6Wk8pQKWQmByAl5wnZQEVjS7ZYiHrlsHRM7VlcoPL7s30TaoTReoaQ4LI8Oy3KfKlIRHn9sN_7bjEKd_FWPHi1V0JR6LERepKBWSdJOk6cSUNgfIN2KVc6ydfbTILTy11owREYfpO7K11gFQV00l6qf1zl5rzF28jPhcN744yTvRAA-EjyDSBXs/s1700-e365/windows.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-      "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T15:41:44+00:00",
-      "description": "New malware abuses DoFun Android head unit updaters to deliver JarService, run ad fraud, and download the Zhima reverse proxy module.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1EQE-DqLXTzpjwGf3nQnM4CTnjibkKl_2ersn8abw3Gmqoc5MUaFC2LvkA7c6Xoa0XBPZeHL4wHHiXU7Pc9nGLcI1zTorwFTwvYXfww4Q68oSUrgcQhmBzQBNqYp-woIZFK_I1OOsnBNptiwA90VHhpE_hvlz3qdFomOmOMLreYe5YCenvR2CeawvRrMU/s1700-e365/car.png",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "In Other News: Zombie Card Attack, T-Mobile Cut Cable to Stop Hackers, GitHub Denies AI Caused Bug",
-      "url": "https://www.securityweek.com/in-other-news-zombie-card-attack-t-mobile-cut-cable-to-stop-hackers-github-denies-ai-caused-bug/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T15:11:16+00:00",
-      "description": "Other noteworthy stories that might have slipped under the radar: Threema DDoS attack, Evooo1Bot Linux botnet, Crypto4A secures top-tier NIST certification.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
