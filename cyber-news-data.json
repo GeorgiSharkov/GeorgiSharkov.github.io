@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-08-24T16:06:22.154726+00:00",
+  "generatedAt": "2026-08-24T19:12:16.320256+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited",
+      "url": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T17:38:21+00:00",
+      "description": "A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/ReliaQuest.jpeg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild",
+      "url": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T17:04:30+00:00",
+      "description": "Threat Actors Exploit Critical Zimbra OS Command Injection Flaw (CVE-2026-73570) for Remote Code Execution.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zimbra-Collaboration-Suite-Vulnerability-Actively-Exploited-in-the-Wild.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Teams\u2019 New Policy Lets Admins Automatically Block Meeting Bots",
+      "url": "https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T16:53:06+00:00",
+      "description": "Microsoft is rolling out a fresh line of defense against unwanted digital eavesdroppers in virtual meetings. The tech giant confirmed that Microsoft Teams will soon let administrators automatically block identified external meeting bots.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Block-Meeting-Bots.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "\u26a1 Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
@@ -44,28 +77,6 @@
       "description": "Mysterious AI model Ox Alpha has appeared on OpenRouter as a free stealth model for coding, AI agents, and production workloads.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Mysterious-AI-model-Dubbed-Ox-Alpha-With-Free-100-trillion-tokens-a-day-for-Coders.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Impersonate ReliaQuest Security Staff to Steal SSO Credentials and MFA Access",
-      "url": "https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T13:44:58+00:00",
-      "description": "ReliaQuest disclosed a social engineering attack impersonating security staff to lure employees to a fake SSO page.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Impersonate-ReliaQuest-Security-Staff-to-Steal-SSO-Credentials-and-MFA-Access.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "768 Leaked Corporate AWS Keys Remain Active With Full Administrator Access",
-      "url": "https://cybersecuritynews.com/768-leaked-corporate-aws-keys-remain-active/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T13:43:10+00:00",
-      "description": "768 Exposed AWS Credentials Still Grant Full Admin Access, Highlighting Poor Credential Rotation and Cloud Monitoring.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/768-Leaked-Corporate-AWS-Keys-Remain-Active-With-Full-Administrator-Access-.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -121,17 +132,6 @@
       "description": "Keycloak CVE-2026-18963 could let unauthenticated attackers skip the emailed action token and reset any user's password.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1700-e365/keylock.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Venezuelan Gets Record Federal Prison Term for ATM Jackpotting",
-      "url": "https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T10:59:30+00:00",
-      "description": "Juan Manuel Gouveia-Aguilera has been sentenced to 8 years in prison for his role in an ATM jackpotting scheme that caused millions in losses.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/01/ATM-hacking.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
