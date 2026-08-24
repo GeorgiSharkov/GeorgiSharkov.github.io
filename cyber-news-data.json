@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-08-24T04:24:42.553780+00:00",
+  "generatedAt": "2026-08-24T07:41:33.719162+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
+      "url": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T07:30:28+00:00",
+      "description": "Android malware targets car infotainment systems via trusted software updates, turning vehicle screens into ad-fraud and proxy botnet tools.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Infect-Android-Car-Screens-Through-Their-Built-In-Software-Update-System.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
+      "url": "https://isc.sans.edu/diary/rss/33274",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-24T07:23:16+00:00",
+      "description": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up. It doesn&#;x26;#;39;t use real steganography:",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Anthropic Expands Mythos 5 Access to More Defenders, Unveils $35M Open Source Fund",
+      "url": "https://www.securityweek.com/anthropic-expands-mythos-5-access-to-more-defenders-unveils-35m-open-source-fund/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T07:18:58+00:00",
+      "description": "Claude Security, currently in public beta for Claude Enterprise customers, now runs codebase scans on Mythos 5.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Claude-Mythos.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AWS Network Firewall Now Displays Count of Triggered Security Rules",
+      "url": "https://cybersecuritynews.com/aws-network-firewall-hit-counts/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T06:27:33+00:00",
+      "description": "AWS has introduced rule hit count support for AWS Network Firewall, giving security teams direct visibility into which stateful firewall rules are matching live network traffic.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Network-Firewall-Now-Shows-Which-Security-Rules-Are-Actually-Being-Triggered.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Malicious npm Packages Deploy AI-Powered RedC2 Linux Implant to Steal Credentials and Pivot Networks",
+      "url": "https://cybersecuritynews.com/malicious-npm-packages/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T06:09:19+00:00",
+      "description": "Malicious npm packages hide a Linux backdoor in calendar tools, using legitimate date functions to deliver RedShell into production systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Malicious-npm-Packages-Deploy-AI-Powered-RedC2-Linux-Implant-to-Steal-Credentials-and-Pivot-Networks.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical isolated-vm Flaw Lets Untrusted JavaScript Escape Sandbox and Hijack Host Execution",
+      "url": "https://cybersecuritynews.com/critical-isolated-vm-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T05:57:44+00:00",
+      "description": "A critical isolated-vm flaw lets untrusted JavaScript escape the V8 sandbox and potentially hijack the host process.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-isolated-vm-Flaw-Lets-Untrusted-JavaScript-Escape-Sandbox-and-Hijack-Host-Execution-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)",
       "url": "https://isc.sans.edu/diary/rss/33276",
@@ -14,39 +80,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Iran-Linked Hackers Force UK Power Plant Offline in Unprecedented Four-Day Cyberattack",
-      "url": "https://cybersecuritynews.com/hackers-force-uk-power-plant-offline/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-23T17:21:38+00:00",
-      "description": "A cyberattack attributed to hackers linked to Iran forced a British power plant offline for four consecutive days last month, marking what officials describe as the first successful attack of its kind against UK energy infrastructure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Force-UK-Power-Plant-Offline.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Weekly Cyber Security Newsletter Bulletin \u2013 Entra ID RCE, Claude Code Ransomware, T-Mobile Cable, Azure Credential Theft +20 Stories",
-      "url": "https://cybersecuritynews.com/cyber-security-newsletter-bulletin-august/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-23T16:45:52+00:00",
-      "description": "A ransomware affiliate weaponized Claude Code to autonomously steal LDAP credentials, backdoor VPNs, and exfiltrate SQL databases, while a separate criminal AI service called MessiahGPT surfaced on BreachForums, offering uncensored malware generation to\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Cyber-Security-Newsletter-Bulletin-August.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Windows 11 App Pushes Bing as Default Search in Chrome, Firefox and Brave",
-      "url": "https://cybersecuritynews.com/windows-11-default-search-app/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-23T13:24:54+00:00",
-      "description": "Microsoft has built a dedicated Windows 11 app that exists to put Bing in front of users who already chose another search engine. The utility, Microsoft Recommended Search Settings, arrives as a standalone 22.2 MB installer named MicrosoftSettings.exe.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Windows-11-Default-Search-App.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
       "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
       "source": "The Hacker News",
@@ -54,17 +87,6 @@
       "publishedAt": "2026-08-22T14:32:41+00:00",
       "description": "TikTok will pay $400 million to settle a U.S. child privacy case alleging COPPA violations involving users under 13 and Kids Mode.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuigeGBdB6K4zmYLAIVAQ2NR4LskJUGGLo94UiAtL1d89WIdT3ekZUY58J7Em-QxANVODEDSuLoEwVlBKiwEQCBss89hDYzpOuUWcAd8bUphqatYsgIA801ytGpe6c9Pr66CZicJqHx81XREePakS0n3RhYGdD_awrTW5UNGjUdSEmwcKo0K5UOrOIdyGo/s1700-e365/tiktok.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Top 10 Best Wireless / Wi-Fi Security Solutions in 2026",
-      "url": "https://cybersecuritynews.com/best-wireless-wifi-security-solutions/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-22T09:31:33+00:00",
-      "description": "Compare the 10 best Wi-Fi security solutions of 2026, scored on WPA3, rogue AP detection, and zero-trust integration \u2014 find the right wireless security fit.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Best-Wireless-Wi-Fi-Security-Solutions-.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -135,17 +157,6 @@
       "kind": "News"
     },
     {
-      "title": "Encrypted Prompts Bypass AI Safety Guardrails in Grok and Gemini",
-      "url": "https://www.securityweek.com/encrypted-prompts-bypass-ai-safety-guardrails-in-grok-and-gemini/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-21T14:34:05+00:00",
-      "description": "Researchers say the new \u2018Cryptographic Context Injection\u2019 technique conceals malicious instructions until they are decrypted inside a trusted execution environment.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/05/AI-attacks.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting!, (Fri, Aug 21st)",
       "url": "https://isc.sans.edu/diary/rss/33272",
       "source": "SANS ISC",
@@ -163,17 +174,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-08-21T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Even MOAR Powershell, looking at Entra logins - the good, the bad and the password sprays, (Fri, Aug 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33268",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-21T01:49:18+00:00",
-      "description": "One thing that folks never seem to do after \"going to the CLOOOOUUUUD\" is to look at their logs, logs that they would have checked daily when things were on premise.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
