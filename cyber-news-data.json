@@ -1,16 +1,71 @@
 {
-  "generatedAt": "2026-08-24T13:33:01.582100+00:00",
+  "generatedAt": "2026-08-24T16:06:22.154726+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "WordPress Plugin Vulnerability Exposes 100,000 Sites to Complete Site Takeover Attacks",
-      "url": "https://cybersecuritynews.com/wordpress-everest-forms-plugin-flaw/",
+      "title": "\u26a1 Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T14:32:10+00:00",
+      "description": "AI-powered PLC attacks, GitLab exploits, npm backdoors, cloud leaks, auth abuse, and payment fraud lead this week\u2019s cybersecurity recap.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1700-e365/recap-n.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Poison Google and Bing Results to Deliver Cloaked Banking Phishing Pages",
+      "url": "https://cybersecuritynews.com/hackers-poison-google-bing-results/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T13:08:35+00:00",
-      "description": "A critical vulnerability in a widely used WordPress plugin has put more than 100,000 websites at risk of complete takeover attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-100000-Sites-to-Complete-Site-Takeover-Attacks-.webp",
-      "topic": "Vulnerability",
+      "publishedAt": "2026-08-24T14:06:52+00:00",
+      "description": "Hackers poison Google and Bing results with fake banking pages, tricking customers into entering passwords and hijacking sessions.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Poison-Google-and-Bing-Results-to-Deliver-Cloaked-Banking-Phishing-Pages.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hired for One Job, Judged on Another: The CISO\u2019s Real Problem",
+      "url": "https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-problem/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T14:00:00+00:00",
+      "description": "The skills that get a CISO hired are rarely the skills they are judged on later. Most security leaders are stuck in that gap. Closing it is the real job.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Boardroom-CISO.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders",
+      "url": "https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T13:47:38+00:00",
+      "description": "Mysterious AI model Ox Alpha has appeared on OpenRouter as a free stealth model for coding, AI agents, and production workloads.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Mysterious-AI-model-Dubbed-Ox-Alpha-With-Free-100-trillion-tokens-a-day-for-Coders.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Impersonate ReliaQuest Security Staff to Steal SSO Credentials and MFA Access",
+      "url": "https://cybersecuritynews.com/hackers-impersonate-reliaquest-security-staff/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T13:44:58+00:00",
+      "description": "ReliaQuest disclosed a social engineering attack impersonating security staff to lure employees to a fake SSO page.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Impersonate-ReliaQuest-Security-Staff-to-Steal-SSO-Credentials-and-MFA-Access.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "768 Leaked Corporate AWS Keys Remain Active With Full Administrator Access",
+      "url": "https://cybersecuritynews.com/768-leaked-corporate-aws-keys-remain-active/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T13:43:10+00:00",
+      "description": "768 Exposed AWS Credentials Still Grant Full Admin Access, Highlighting Poor Credential Rotation and Cloud Monitoring.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/768-Leaked-Corporate-AWS-Keys-Remain-Active-With-Full-Administrator-Access-.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -25,14 +80,14 @@
       "kind": "News"
     },
     {
-      "title": "Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords",
-      "url": "https://cybersecuritynews.com/microsoft-teams-phishing/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T12:33:55+00:00",
-      "description": "Hackers pose as Teams IT staff to trick employees into installing SynkLoader, enabling stealthy malware attacks on corporate networks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Phishing-Deploys-New-SynkLoader-Malware-to-Steal-Windows-Passwords.webp",
-      "topic": "Malware",
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T12:35:36+00:00",
+      "description": "WordlistLoader delivers Amatera via ClearFake ClickFix attacks, while SynkLoader uses Teams phishing to steal Windows login credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZ5JtaLAZIvAO7R42dqB1NBKwtOlFHZIl0yqtfPhyphenhyphenHMJB9MMg8oLLb8p6n9mF67PgHSytYigaqeAoGejuVd42lDlCT42T6vqCgfl6IE-8LnMQjyiCj8MVMdg5ZKznn2cZ18T9zubhLJ-JUZLSWeqEVGQbke44f83WHpoMuaVM9J6G0FA-9RG8_wb8lUTt/s1700-e365/windows-signin.jpg",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -69,50 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-      "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T11:51:36+00:00",
-      "description": "Operation QUICSILVER targets Myanmar government and IT sectors with graduation lures that deploy the Go-based QUICAgent backdoor.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s1700-e365/silver.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft August 2026 Windows Updates Trigger Issues on Devices Using RGB Lighting Features",
-      "url": "https://cybersecuritynews.com/windows-updates-triggers-rgb-lighting-issues/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T11:33:47+00:00",
-      "description": "Microsoft is investigating Windows 11 issues where August 2026 updates cause games to freeze or crash on systems using RGB lighting drivers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-August-2026-Windows-updates-Triggers-issues-on-Devices-Using-RGB-lighting-features.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-      "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T11:30:00+00:00",
-      "description": "Akamai finds the top 5% of enterprise AI users interact at 12 times the rate of the bottom 50%, concentrating shadow AI risk.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieDz2kEMi471xtnJ2B7i_ZktQTUHhbJAIOlNAaFfVdJVPWDC-3EqH2REiyGuaUl95lmXvtcl-oPpQy3MO0-5uulT4L4Uyheni6apbwxzycAw7yVmuYqAWaSjYbEw_BaJKsmGhrUPrb6hVeatf488NrNMVX-xorjY66ZIG9wR50pUdFBOs9avzlu9b91iw/s1700-e365/ai-usage.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AmnesiaStealer Gives Hackers Hidden Control of Logged-In Browsers on Macs",
-      "url": "https://cybersecuritynews.com/amnesiastealer-hidden-control/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T11:15:30+00:00",
-      "description": "AmnesiaStealer targets Macs via fake GitHub pages, stealing passwords, browser sessions, crypto data, and sensitive files.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AmnesiaStealer-Gives-Hackers-Hidden-Control-of-Logged-In-Browsers-on-Macs.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Venezuelan Gets Record Federal Prison Term for ATM Jackpotting",
       "url": "https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting/",
       "source": "SecurityWeek",
@@ -121,17 +132,6 @@
       "description": "Juan Manuel Gouveia-Aguilera has been sentenced to 8 years in prison for his role in an ATM jackpotting scheme that caused millions in losses.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/01/ATM-hacking.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Personal Information Exposed in Apollo Global Data Breach",
-      "url": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T10:08:42+00:00",
-      "description": "The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Apollo-Global.jpeg",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
