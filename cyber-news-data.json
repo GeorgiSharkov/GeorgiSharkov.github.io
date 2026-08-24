@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-08-24T10:19:38.425063+00:00",
+  "generatedAt": "2026-08-24T13:33:01.582100+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "WordPress Plugin Vulnerability Exposes 100,000 Sites to Complete Site Takeover Attacks",
+      "url": "https://cybersecuritynews.com/wordpress-everest-forms-plugin-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T13:08:35+00:00",
+      "description": "A critical vulnerability in a widely used WordPress plugin has put more than 100,000 websites at risk of complete takeover attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-100000-Sites-to-Complete-Site-Takeover-Attacks-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts",
+      "url": "https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-over-automated-suspensions-of-driver-accounts/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T12:42:09+00:00",
+      "description": "Dutch Data Protection Authority said it is imposing a fine of 825 million euros because Uber violated the EU\u2019s General Data Protection Regulation.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Uber-CSO_Convicted-Joe-Sullivan.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Teams Phishing Deploys New SynkLoader Malware to Steal Windows Passwords",
+      "url": "https://cybersecuritynews.com/microsoft-teams-phishing/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T12:33:55+00:00",
+      "description": "Hackers pose as Teams IT staff to trick employees into installing SynkLoader, enabling stealthy malware attacks on corporate networks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Phishing-Deploys-New-SynkLoader-Malware-to-Steal-Windows-Passwords.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "91 Vulnerabilities Patched in Spring Application Framework",
+      "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T11:58:28+00:00",
+      "description": "More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/Code-3rd-Party-Risk.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+      "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T11:58:00+00:00",
+      "description": "ActiveState surveys 300 security and engineering leaders on AI coding, open-source remediation debt, governance, and business risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1E-F55owwrRxUZE2CT3U8U-Ibj1rhbLpTmF0diYP4-uP6clImo12GvOHx7X-W4KPLl1F_OXiXjkRqSjuAOn0Sh6kMjPFbh5c09h4Ua3TNfLI7_P87UrGtuTypzdlpgVAazbD2qXvesRgxLW1cPBkADNMaGDh06-9wPXSVwltxeR7e5ejENDWcHXssP3M/s1700-e365/ai-webinar.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+      "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T11:56:34+00:00",
+      "description": "Keycloak CVE-2026-18963 could let unauthenticated attackers skip the emailed action token and reset any user's password.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1700-e365/keylock.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
+      "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T11:51:36+00:00",
+      "description": "Operation QUICSILVER targets Myanmar government and IT sectors with graduation lures that deploy the Go-based QUICAgent backdoor.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s1700-e365/silver.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft August 2026 Windows Updates Trigger Issues on Devices Using RGB Lighting Features",
+      "url": "https://cybersecuritynews.com/windows-updates-triggers-rgb-lighting-issues/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T11:33:47+00:00",
+      "description": "Microsoft is investigating Windows 11 issues where August 2026 updates cause games to freeze or crash on systems using RGB lighting drivers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-August-2026-Windows-updates-Triggers-issues-on-Devices-Using-RGB-lighting-features.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+      "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T11:30:00+00:00",
+      "description": "Akamai finds the top 5% of enterprise AI users interact at 12 times the rate of the bottom 50%, concentrating shadow AI risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieDz2kEMi471xtnJ2B7i_ZktQTUHhbJAIOlNAaFfVdJVPWDC-3EqH2REiyGuaUl95lmXvtcl-oPpQy3MO0-5uulT4L4Uyheni6apbwxzycAw7yVmuYqAWaSjYbEw_BaJKsmGhrUPrb6hVeatf488NrNMVX-xorjY66ZIG9wR50pUdFBOs9avzlu9b91iw/s1700-e365/ai-usage.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AmnesiaStealer Gives Hackers Hidden Control of Logged-In Browsers on Macs",
+      "url": "https://cybersecuritynews.com/amnesiastealer-hidden-control/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-24T11:15:30+00:00",
+      "description": "AmnesiaStealer targets Macs via fake GitHub pages, stealing passwords, browser sessions, crypto data, and sensitive files.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AmnesiaStealer-Gives-Hackers-Hidden-Control-of-Logged-In-Browsers-on-Macs.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Venezuelan Gets Record Federal Prison Term for ATM Jackpotting",
+      "url": "https://www.securityweek.com/venezuelan-gets-record-federal-prison-term-for-atm-jackpotting/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-24T10:59:30+00:00",
+      "description": "Juan Manuel Gouveia-Aguilera has been sentenced to 8 years in prison for his role in an ATM jackpotting scheme that caused millions in losses.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/01/ATM-hacking.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Personal Information Exposed in Apollo Global Data Breach",
       "url": "https://www.securityweek.com/personal-information-exposed-in-apollo-global-data-breach/",
@@ -11,94 +132,6 @@
       "description": "The private equity firm appears to have been targeted as part of a campaign focusing on major financial companies.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Apollo-Global.jpeg",
       "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Rethinking Application Security for the AI Era",
-      "url": "https://www.securityweek.com/rethinking-application-security-for-the-ai-era/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T10:00:00+00:00",
-      "description": "As AI dramatically shortens the time from vulnerability disclosure to exploitation, enterprises must look beyond patching to reduce application risk.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Fake CAPTCHA Tricks Mac Users Into Installing a Backdoor That Steals Passwords and Mines Crypto",
-      "url": "https://cybersecuritynews.com/fake-captcha-tricks-mac-users/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T09:49:32+00:00",
-      "description": "Fake CAPTCHA pages trick Mac users into pasting malicious Terminal commands, enabling password theft, remote control, and crypto mining.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Fake-CAPTCHA-Tricks-Mac-Users-Into-Installing-a-Backdoor-That-Steals-Passwords-and-Mines-Crypto.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Iran-Linked Hackers Shut Down UK Power Plant for Four Days",
-      "url": "https://www.securityweek.com/iran-linked-hackers-shut-down-uk-power-plant-for-four-days/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T09:22:09+00:00",
-      "description": "The attack caused real-world operational disruption and raised concerns about the resilience of Britain\u2019s distributed energy infrastructure and the potential for repeatable attacks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/power-grid-hack-e1746179256944.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "TikTok Reaches $400 Million Settlement With US Justice Department Over Children\u2019s Privacy",
-      "url": "https://www.securityweek.com/tiktok-reaches-400-million-settlement-with-us-justice-department-over-childrens-privacy/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T09:11:11+00:00",
-      "description": "TikTok will pay $300 million immediately and another $100 million after an order vacates an earlier consent decree against its predecessor company, Musical.ly.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/TikTok-China-Access-Risks.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hugging Face Reportedly Explores $13 Billion Sale Following Recent AI Security Incident",
-      "url": "https://cybersecuritynews.com/hugging-face-13-billion-sale/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T08:10:09+00:00",
-      "description": "Hugging Face is testing a sale that could value the open-source AI hub at $13 billion or more, even as it is still closing out July\u2019s autonomous-agent intrusion.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hugging-Face-13-Billion-Sale.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-      "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T08:08:31+00:00",
-      "description": "UAT-10147 targets Windows and Linux servers with known flaws and AI tools, deploying malware for SEO fraud and data theft.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4-mx98ENuq77sCTBd49TSl4Ov5dD1Wua0Vf1MiyVVPfcFckY__TjnTEOeC5CIQWX4L_OLA-xZHHY5nAlp926SIpa3eK8Tvfw1HSHHK1GMot7noTz4Cg36t-ZuZ-NUh5mnsfzs0HJ8F7p410LgWFVPN39PYh8YR6qkDlE8duNKmKpOtJHW4NA9T_ddTGLp/s1700-e365/hackers.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic\u2019s Claude AI Suffers Another Outage With Elevated Errors",
-      "url": "https://cybersecuritynews.com/claude-ai-suffers-outage/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T08:01:43+00:00",
-      "description": "Anthropic's Claude AI platform experienced another wave of elevated errors on August 24, 2026, marking yet another disruption in what has become a troubling pattern of instability for one of the industry's leading AI providers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Claude-AI-Suffers-Another-Outage-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Infect Android Car Screens Through Their Built-In Software Update System",
-      "url": "https://cybersecuritynews.com/hackers-infect-android-car-screens/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T07:30:28+00:00",
-      "description": "Android malware targets car infotainment systems via trusted software updates, turning vehicle screens into ad-fraud and proxy botnet tools.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Infect-Android-Car-Screens-Through-Their-Built-In-Software-Update-System.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -122,39 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-22T14:32:41+00:00",
-      "description": "TikTok will pay $400 million to settle a U.S. child privacy case alleging COPPA violations involving users under 13 and Kids Mode.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuigeGBdB6K4zmYLAIVAQ2NR4LskJUGGLo94UiAtL1d89WIdT3ekZUY58J7Em-QxANVODEDSuLoEwVlBKiwEQCBss89hDYzpOuUWcAd8bUphqatYsgIA801ytGpe6c9Pr66CZicJqHx81XREePakS0n3RhYGdD_awrTW5UNGjUdSEmwcKo0K5UOrOIdyGo/s1700-e365/tiktok.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T18:53:00+00:00",
-      "description": "Trojanized npm packages launch RedC2 4.0 on Linux at import time, giving operators shell access, credential theft, and payload execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvZpEOpS6_M3zQlIDwvD1wMhESnRAMTCz1nW2JFP__pGSVWOw28REaDTZ5lI7sdwvcRKSSUHI4sm1CUuWs6_gvOXE1c5BbvKnR75iyBl9Er1SckweDAxBEotnOlSikBeOE5WEBIIGlS74w4b85pvznpr3c4mj88LzLt-3pGr1HHXHQDg5v7T9FxdBSWSlK/s1700-e365/linux-npm.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-21T15:52:10+00:00",
-      "description": "BTR Reforged uses Defender's signed BTR.sys with an administrator account and SeLoadDriverPrivilege for kernel file and registry operations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbsmb6Wk8pQKWQmByAl5wnZQEVjS7ZYiHrlsHRM7VlcoPL7s30TaoTReoaQ4LI8Oy3KfKlIRHn9sN_7bjEKd_FWPHi1V0JR6LERepKBWSdJOk6cSUNgfIN2KVc6ydfbTILTy11owREYfpO7K11gFQV00l6qf1zl5rzF28jPhcN744yTvRAA-EjyDSBXs/s1700-e365/windows.jpg",
-      "topic": "Identity",
-      "kind": "News"
     },
     {
       "title": "Who Got Missed in the MFA Rollout? More Powershell + Graph + Entra scripting!, (Fri, Aug 21st)",
