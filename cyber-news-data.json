@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-25T19:49:32.385974+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-25T21:55:48.654779+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
@@ -10,6 +10,17 @@
       "publishedAt": "2026-08-25T18:17:17+00:00",
       "description": "U.S. Treasury sanctions Iran-linked cyber actors under Operation Economic Outcast, targeting MOIS-linked hackers tied to U.S. infrastructure breaches.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Uq1yn-ay_vU25xZUbhhvnVMHSWo2rQwy4HhIfNIdnk-MIF-cbtytzKqkvrcBNIGy6fDgW22x0dMZiNhTmvTY_V6SxK-FE6VificiC99BkJMHaWdJB_-tSZeNeM96lL-HaG4VvrBRuA3JmPlkL3sE_F6kfJYhW_ZaXXQK0dses4BK6A2G4yF9GsHUrgXo/s1700-e365/iranian-hackers.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Red Team Breaches Critical Infrastructure to Reveal SOC and Cloud Security Gaps",
+      "url": "https://cybersecuritynews.com/cisa-red-team-breaches-critical-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T16:45:59+00:00",
+      "description": "CISA's latest advisory for red teams warns critical infrastructure operators that security systems can fail even if they have a lot of funding. This is because trained analysts are needed to respond to alerts effectively.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Red-Team-Breaches-Critical-Infrastructure.webp",
       "topic": "Data breach",
       "kind": "News"
     },
@@ -25,6 +36,17 @@
       "kind": "News"
     },
     {
+      "title": "AI Security Startup Alice Raises $140 Million as Enterprise AI Threats Surge",
+      "url": "https://cybersecuritynews.com/alice-ai-security/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T15:37:58+00:00",
+      "description": "Alice, the AI trust, safety, and security company formerly known as ActiveFence, has closed a $140 million funding round led by Apax Digital Funds, with new backing from SentinelOne, Samsung Electronics, Maj Invest, MoreTech, and Phoenix Insurance, alongside\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Alice-AI-Security.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
       "url": "https://isc.sans.edu/diary/rss/33280",
       "source": "SANS ISC",
@@ -34,6 +56,28 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
+    },
+    {
+      "title": "SynkLoader Mimic as IT Support Personnel Attacking Users Via Microsoft Teams",
+      "url": "https://cybersecuritynews.com/synkloader-mimic-as-it-support/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T14:32:47+00:00",
+      "description": "Teams phishing uses fake IT support messages to trick employees into installing SynkLoader through a malicious MSI file.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SynkLoader-Mimic-as-IT-Support-Personnel-Attacking-Users-Via-Microsoft-Teams.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions",
+      "url": "https://cybersecuritynews.com/toxnetv2-linux-botnet/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T14:30:19+00:00",
+      "description": "ToxNetV2 is an AI-assisted Linux botnet targeting AArch64 systems, using AI-generated commands for scanning, propagation, network attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ToxNetV2-Linux-Botnet-Uses-NVIDIA-AI-to-Generate-Shell-and-Remote-SSH-Attack-Actions.webp",
+      "topic": "Malware",
+      "kind": "News"
     },
     {
       "title": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
