@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-08-24T21:56:47.484452+00:00",
+  "generatedAt": "2026-08-25T02:05:39.400933+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066, (Tue, Aug 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33278",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-25T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect",
+      "url": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T01:54:08+00:00",
+      "description": "A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise networks worldwide.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/5-Vulnerabilities-Palo-Alto-GlobalProtect-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+      "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T17:41:30+00:00",
+      "description": "ActiveState surveys 300 security and engineering leaders on AI coding, open-source remediation debt, governance, and business risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1E-F55owwrRxUZE2CT3U8U-Ibj1rhbLpTmF0diYP4-uP6clImo12GvOHx7X-W4KPLl1F_OXiXjkRqSjuAOn0Sh6kMjPFbh5c09h4Ua3TNfLI7_P87UrGtuTypzdlpgVAazbD2qXvesRgxLW1cPBkADNMaGDh06-9wPXSVwltxeR7e5ejENDWcHXssP3M/s1700-e365/ai-webinar.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+      "url": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-24T17:41:11+00:00",
+      "description": "Weedhack spreads through fake Minecraft client sites and SEO poisoning, with McAfee blocking more than 6,300 attempts to reach malicious URLs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM9ML6Oc83309fnrqC5YOyteVjfKTYCzrm3KoKbrmts4w0P7kQoBMu9btpIWFoYZePuTnU0TL7Olt7jVqdJylmuxwKcI0_NaKNuHxe0pQwi6W2mz7D-qS4WvW1da7E-QG2eEfNf-MbqmB3GR0psJTTT8RO-NtFnx9yVe8dlItdO2G0Dh4wXFNLs_WIqAHP/s1700-e365/mine.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "ReliaQuest Confirms ShinyHunters Hack, but Says Impact Was Limited",
       "url": "https://www.securityweek.com/reliaquest-confirms-shinyhunters-hack-but-says-impact-was-limited/",
@@ -69,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "New Mysterious AI Model Dubbed Ox Alpha With Free 100 Trillion Tokens a Day for Coders",
-      "url": "https://cybersecuritynews.com/new-mysterious-ai-model-dubbed-ox-alpha/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T13:47:38+00:00",
-      "description": "Mysterious AI model Ox Alpha has appeared on OpenRouter as a free stealth model for coding, AI agents, and production workloads.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-Mysterious-AI-model-Dubbed-Ox-Alpha-With-Free-100-trillion-tokens-a-day-for-Coders.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts",
       "url": "https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-over-automated-suspensions-of-driver-accounts/",
       "source": "SecurityWeek",
@@ -109,28 +142,6 @@
       "publishedAt": "2026-08-24T11:58:28+00:00",
       "description": "More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/12/Code-3rd-Party-Risk.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-      "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T11:58:00+00:00",
-      "description": "ActiveState surveys 300 security and engineering leaders on AI coding, open-source remediation debt, governance, and business risk.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1E-F55owwrRxUZE2CT3U8U-Ibj1rhbLpTmF0diYP4-uP6clImo12GvOHx7X-W4KPLl1F_OXiXjkRqSjuAOn0Sh6kMjPFbh5c09h4Ua3TNfLI7_P87UrGtuTypzdlpgVAazbD2qXvesRgxLW1cPBkADNMaGDh06-9wPXSVwltxeR7e5ejENDWcHXssP3M/s1700-e365/ai-webinar.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-      "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T11:56:34+00:00",
-      "description": "Keycloak CVE-2026-18963 could let unauthenticated attackers skip the emailed action token and reset any user's password.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1700-e365/keylock.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -165,17 +176,6 @@
       "description": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&#;x26;#;39;s left would be handy. Something quicker than scrolling through the web interface through thousands of accounts ...",
       "image": "",
       "topic": "Identity",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Friday, August 21st, 2026 https://isc.sans.edu/podcastdetail/10062, (Fri, Aug 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33270",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-21T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
