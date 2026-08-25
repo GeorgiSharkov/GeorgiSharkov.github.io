@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-25T04:18:39.459696+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-25T07:27:26.716184+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-25T06:12:35+00:00",
+      "description": "CISA adds actively exploited CVE-2026-21962 to KEV; the Oracle flaw can expose or alter critical data via unauthenticated HTTP access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl_xYf_N0l1MVU0TVJFootEd6UCngqtfmbbEKRc06D7-0-ehjKU2SrBoA3qKaSkUWrOzgAu6hkbtimW8U7M4zgfH_6jXzgy6w7aQEGQKni-doNdQFCmAm9_vI_Zq4I6tx7lO2q533pbWWOLKBuUUYLGdY9O7SfBcwcGrqvsMLaFMPL09xXK86vRu38JfEp/s1700-e365/oracle.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066, (Tue, Aug 25th)",
       "url": "https://isc.sans.edu/diary/rss/33278",
@@ -12,17 +23,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Researcher Discloses Five High-Risk Vulnerabilities in Palo Alto GlobalProtect",
-      "url": "https://cybersecuritynews.com/5-vulnerabilities-palo-alto-globalprotect/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-25T01:54:08+00:00",
-      "description": "A security researcher has disclosed five vulnerabilities that he responsibly reported to Palo Alto Networks, affecting GlobalProtect, the VPN and endpoint agent used across thousands of enterprise networks worldwide.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/5-Vulnerabilities-Palo-Alto-GlobalProtect-.webp",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
@@ -58,28 +58,6 @@
       "kind": "News"
     },
     {
-      "title": "Zimbra Collaboration Suite Vulnerability Actively Exploited in the Wild",
-      "url": "https://cybersecuritynews.com/zimbra-collaboration-suite-vulnerability-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T17:04:30+00:00",
-      "description": "Threat Actors Exploit Critical Zimbra OS Command Injection Flaw (CVE-2026-73570) for Remote Code Execution.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Zimbra-Collaboration-Suite-Vulnerability-Actively-Exploited-in-the-Wild.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Teams\u2019 New Policy Lets Admins Automatically Block Meeting Bots",
-      "url": "https://cybersecuritynews.com/microsoft-teams-policy-to-block-bots/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T16:53:06+00:00",
-      "description": "Microsoft is rolling out a fresh line of defense against unwanted digital eavesdroppers in virtual meetings. The tech giant confirmed that Microsoft Teams will soon let administrators automatically block identified external meeting bots.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Block-Meeting-Bots.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "\u26a1 Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
       "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
       "source": "The Hacker News",
@@ -88,17 +66,6 @@
       "description": "AI-powered PLC attacks, GitLab exploits, npm backdoors, cloud leaks, auth abuse, and payment fraud lead this week\u2019s cybersecurity recap.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1700-e365/recap-n.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Poison Google and Bing Results to Deliver Cloaked Banking Phishing Pages",
-      "url": "https://cybersecuritynews.com/hackers-poison-google-bing-results/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-24T14:06:52+00:00",
-      "description": "Hackers poison Google and Bing results with fake banking pages, tricking customers into entering passwords and hijacking sessions.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Poison-Google-and-Bing-Results-to-Deliver-Cloaked-Banking-Phishing-Pages.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -120,17 +87,6 @@
       "publishedAt": "2026-08-24T12:42:09+00:00",
       "description": "Dutch Data Protection Authority said it is imposing a fine of 825 million euros because Uber violated the EU\u2019s General Data Protection Regulation.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Uber-CSO_Convicted-Joe-Sullivan.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T12:35:36+00:00",
-      "description": "WordlistLoader delivers Amatera via ClearFake ClickFix attacks, while SynkLoader uses Teams phishing to steal Windows login credentials.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZ5JtaLAZIvAO7R42dqB1NBKwtOlFHZIl0yqtfPhyphenhyphenHMJB9MMg8oLLb8p6n9mF67PgHSytYigaqeAoGejuVd42lDlCT42T6vqCgfl6IE-8LnMQjyiCj8MVMdg5ZKznn2cZ18T9zubhLJ-JUZLSWeqEVGQbke44f83WHpoMuaVM9J6G0FA-9RG8_wb8lUTt/s1700-e365/windows-signin.jpg",
       "topic": "Identity",
       "kind": "News"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
