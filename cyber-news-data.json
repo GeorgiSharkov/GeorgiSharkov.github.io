@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-08-25T07:27:26.716184+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-25T10:03:21.842465+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Silent Patches Don\u2019t Stop Attackers\u2014They Blind Defenders",
+      "url": "https://www.securityweek.com/silent-patches-dont-stop-attackers-they-blind-defenders/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-25T10:00:00+00:00",
+      "description": "Silent patches can become exploit intelligence for attackers while leaving defenders without the context needed to prioritize risk.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "EvilTokens Doesn\u2019t Just Steal Microsoft Sessions\u2014Its AI Tells Attackers Who to Scam Next",
+      "url": "https://cybersecuritynews.com/eviltokens-steal-microsoft-sessions/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T09:59:35+00:00",
+      "description": "EvilTokens steals Microsoft 365 sessions via device-code phishing, then analyzes mailboxes to help criminals target fraud.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/EvilTokens-Doesnt-Just-Steal-Microsoft-Sessions\u2014Its-AI-Tells-Attackers-Who-to-Scam-Next.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Oracle HTTP and WebLogic Server Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/oracle-http-and-weblogic-server-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T09:38:59+00:00",
+      "description": "CISA added CVE-2026-21962, an improper access control flaw in Oracle HTTP Server and WebLogic Proxy Plug-in, to its KEV Catalog after confirming active exploitation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Oracle-HTTP-and-Weblogic-Server-Vulnerability-Exploited-in-Attacks.png",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Critical miniOrange SAML SSO Flaws to Hijack WordPress Admin Accounts",
+      "url": "https://cybersecuritynews.com/hackers-exploit-critical-miniorange-saml-sso-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T09:26:52+00:00",
+      "description": "Two critical miniOrange SAML 2.0 SSO flaws let unauthenticated attackers take over WordPress accounts, including admins.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-Critical-miniOrange-SAML-SSO-Flaws-to-Hijack-WordPress-Admin-Accounts.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Red Hat Keycloak Flaw Lets Unauthenticated Attackers Take Over Any User Account",
+      "url": "https://cybersecuritynews.com/red-hat-keycloak-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-25T09:12:19+00:00",
+      "description": "Red Hat disclosed a vulnerability in Red Hat Build of Keycloak that allow unauthenticated remote attackers to take over arbitrary user accounts.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Red-Hat-Keycloak-Flaw-Lets-Unauthenticated-Attackers-Take-Over-Any-User-Account.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+      "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-25T08:34:07+00:00",
+      "description": "Attackers are scanning for two miniOrange SAML flaws, including CVE-2026-15981, that can bypass login and grant WordPress admin access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtxn6tX1r1BmVfN_4cdoh6p5jmcAe3D9ckNhjscacXx5HpxZJAdb1SvIWo404cGlwahzCLyFIRB-MdUjGcQdBLLC5pMwaCB75e9AT5jKvC49cvIP5jGIOB4IjcQGaOpibWbIPKj929DICeMilGRZn5JmVIcVslRm2hWgz5RTXIZK5d2b2N5dlEnRBBwWVO/s1700-e365/wordpress-hack.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Taiwan Charges 9 Over Illegal AI Server Exports to China, Including Nvidia and Super Micro Staff",
+      "url": "https://www.securityweek.com/taiwan-charges-9-over-illegal-ai-server-exports-to-china-including-nvidia-and-super-micro-staff/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-25T08:30:00+00:00",
+      "description": "AI infrastructure, including advanced semiconductors mostly made in Taiwan, has become a key point of competition between the U.S. and China.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Exploited Oracle WebLogic Vulnerability",
+      "url": "https://www.securityweek.com/cisa-warns-of-exploited-oracle-weblogic-vulnerability/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-25T07:46:34+00:00",
+      "description": "The vulnerability is tracked as CVE-2026-21962 and it has been widely exploited by threat actors against WebLogic servers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/CISA-Agency-Cybersecurity.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
       "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
@@ -55,50 +143,6 @@
       "description": "A ReliaQuest employee fell victim to a phishing attack and the hackers gained access to a dashboard.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/ReliaQuest.jpeg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-24T14:32:10+00:00",
-      "description": "AI-powered PLC attacks, GitLab exploits, npm backdoors, cloud leaks, auth abuse, and payment fraud lead this week\u2019s cybersecurity recap.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1700-e365/recap-n.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hired for One Job, Judged on Another: The CISO\u2019s Real Problem",
-      "url": "https://www.securityweek.com/hired-for-one-job-judged-on-another-the-cisos-real-problem/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T14:00:00+00:00",
-      "description": "The skills that get a CISO hired are rarely the skills they are judged on later. Most security leaders are stuck in that gap. Closing it is the real job.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Boardroom-CISO.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Uber Fined Nearly $1 Billion by Dutch Regulators Over Automated Suspensions of Driver Accounts",
-      "url": "https://www.securityweek.com/uber-fined-nearly-1-billion-by-dutch-regulators-over-automated-suspensions-of-driver-accounts/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T12:42:09+00:00",
-      "description": "Dutch Data Protection Authority said it is imposing a fine of 825 million euros because Uber violated the EU\u2019s General Data Protection Regulation.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/Uber-CSO_Convicted-Joe-Sullivan.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "91 Vulnerabilities Patched in Spring Application Framework",
-      "url": "https://www.securityweek.com/91-vulnerabilities-patched-in-spring-application-framework/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-24T11:58:28+00:00",
-      "description": "More than 200 vulnerabilities have been patched to date this year, compared to only 16 in 2025 and 22 in 2024.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/Code-3rd-Party-Risk.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
