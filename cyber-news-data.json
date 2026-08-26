@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-08-26T13:36:32.953133+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-26T16:37:05.939462+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Who Has Admin Rights in your Entra ID Directory?, (Wed, Aug 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33284",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-26T15:58:15+00:00",
+      "description": "A common thing that folks should \"worry\" about in Entra (or any platform really) is \"who has rights to administer\"&#;x26;#;x3f;&#;x26;#;xc2;&#;x26;#;xa0; Who can delete or change key things, or modify them in ways that might not be obvious (accidentally or\u2026",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "AI Speeds Up Malware Development, Not Its Success Rate: Analysis",
+      "url": "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-26T15:23:45+00:00",
+      "description": "Palo Alto Networks Unit 42 analyzed 405 AI-linked malware samples and found only 12 reached production endpoints.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/malware.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+      "url": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-26T13:44:31+00:00",
+      "description": "NovaCookies proxies Microsoft 365 sign-ins through attacker infrastructure to steal sessions using Docusign lures and OAuth redirects.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4GD3giiT1DIPT5Q13XvCZcwC8-STaGCZ3KbqUzQ5Q9oniGfA0Odbqfmwva6B-xSSTD2QG1wdqu5fFOleaBVFSA-t3ZfeqpcrYOEomdygWsZOONJXYcpxhRdT-EbTS_DZ0zYLrH_-1YN7TjXCsDuIj0I2G53mFT0df1HC3tjUdUQ5MCdHdEo27rDE2QEm/s1700-e365/docusign.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+      "url": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-26T13:07:02+00:00",
+      "description": "CISA red teams reach domain-level compromise at two critical infrastructure organizations, but only one SOC detects and contains initial intrusion.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1700-e365/cisa-hack.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Adobe and Nvidia Patch Dozens of Vulnerabilities",
       "url": "https://www.securityweek.com/adobe-and-nvidia-patch-dozens-of-vulnerabilities/",
@@ -11,17 +55,6 @@
       "description": "Adobe and Nvidia each published several advisories, including ones that address critical vulnerabilities in their products.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use Fake Claude Desktop App to Disable Defender and Install Remote Access Malware",
-      "url": "https://cybersecuritynews.com/hackers-use-fake-claude/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T12:15:43+00:00",
-      "description": "Fake Claude apps are spreading SectopRAT, disabling security checks and giving attackers remote access to Windows systems and data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Use-Fake-Claude-Desktop-App-to-Disable-Defender-and-Install-Remote-Access-Malware.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -58,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "24 Malicious npm Packages Abuse Trusted Mirrors to Host ClickFix Phishing Pages",
-      "url": "https://cybersecuritynews.com/24-malicious-npm-packages/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T11:19:57+00:00",
-      "description": "24 malicious npm packages abuse trusted mirrors to host fake Cloudflare verification pages, redirecting users into ClickFix phishing attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/24-Malicious-npm-Packages-Abuse-Trusted-Mirrors-to-Host-ClickFix-Phishing-Pages.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "The MFA Identity Trap: When Authentication Creates a False Sense of Security",
       "url": "https://www.securityweek.com/the-mfa-identity-trap-when-authentication-creates-a-false-sense-of-security/",
       "source": "SecurityWeek",
@@ -76,61 +98,6 @@
       "publishedAt": "2026-08-26T11:00:00+00:00",
       "description": "Organizations must distinguish identity verification, authentication and threat detection, or risk successfully authenticating the attackers they are trying to stop.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/01/Identity-Security-strategy.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-      "url": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-26T10:27:23+00:00",
-      "description": "Aikido finds Claude Opus 4.6 bypassed a seven-day booking limit in 9 of 10 OpenClaw runs, with two runs canceling another member's booking.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiLH7AlxOwnKOlTs4Zi3D7tyko_H-564oFmjcBu-YP4_YR7HMgRvWhGB9r0NhXwpVoqVk82yjCt9XjEcDfo7-iSoAVduYsjNndt3gU2fHqJ7PlwnFCjRaHJSYEMuZMAZOn6M_yGZ24JuUUjVCs1hTXes8h-q4OLFj2liDETlKzvCRAqKa-jX2Yrh-iErI/s1700-e365/claude-gym.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Abuse Legitimate RMM Tools in 46-Country Phishing Campaign to Gain Remote Access",
-      "url": "https://cybersecuritynews.com/hackers-abuse-legitimate-rmm-tools-3/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T10:23:29+00:00",
-      "description": "Phishing lures trick victims into installing legitimate RMM tools, giving attackers remote control of corporate systems across 46 countries.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Abuse-Legitimate-RMM-Tools-in-46-Country-Phishing-Campaign-to-Gain-Remote-Access.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "SonicWall NetExtender Vulnerabilities Allow an Attacker to Write Arbitrary Files as Root",
-      "url": "https://cybersecuritynews.com/sonicwall-netextender-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T10:04:23+00:00",
-      "description": "SonicWall has disclosed two security vulnerabilities in its NetExtender Linux client, including a critical path traversal flaw that could allow an attacker to write arbitrary files with root privileges.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SonicWall-NetExtender-vulnerabilities-allows-an-attacker-to-write-arbitrary-file-as-root.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Chrome 152 Patches Over 300 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-26T09:50:34+00:00",
-      "description": "Most of the flaws were discovered by Google using AI, but researchers are still discovering high-value Chrome vulnerabilities.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Chrome.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
-      "url": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-26T09:38:45+00:00",
-      "description": "OpenAI banned Russian ChatGPT accounts that used VPNs to run an influence operation promoting IBI across major social platforms.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigTy6eveBIHNz8iNQ-RoRYOH0dYFTNhtA48mobGTTueVsSSQpFu7qFmSGivtklGBbQutM5ro14LI3Yzq3SxTFaTGPfq350Fe73t_FE4ehl9Y0kRnEVIYIN5K66R-sxa86YTuYDaLOyWdLSxR1AUmCx3UlEMed7dUvA-RtcVLFdmeVP2PTPyebMV-tDBuSg/s1700-e365/chatgpt.jpg",
       "topic": "Identity",
       "kind": "News"
     },
@@ -165,17 +132,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "DOUBLECUP's PNG Payload, (Mon, Aug 24th)",
-      "url": "https://isc.sans.edu/diary/rss/33274",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-24T07:23:16+00:00",
-      "description": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up. It doesn&#;x26;#;39;t use real steganography:",
-      "image": "",
-      "topic": "Malware",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
