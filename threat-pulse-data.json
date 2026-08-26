@@ -3,7 +3,7 @@
   "catalogVersion": "2026.08.25",
   "dateReleased": "2026-08-25T17:43:58.4301Z",
   "count": 1676,
-  "generatedAt": "2026-08-26T02:00:08+00:00",
+  "generatedAt": "2026-08-26T03:27:15+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-60004",
