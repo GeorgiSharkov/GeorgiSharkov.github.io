@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2026-08-26T07:28:56.683408+00:00",
+  "generatedAt": "2026-08-26T10:08:35.045479+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Two Microsoft SharePoint Flaws Can Be Chained to Hack Servers Without a Password",
-      "url": "https://cybersecuritynews.com/sharepoint-flaws-chained-to-hack-servers/",
+      "title": "SonicWall NetExtender Vulnerabilities Allow an Attacker to Write Arbitrary Files as Root",
+      "url": "https://cybersecuritynews.com/sonicwall-netextender-vulnerabilities/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T07:00:28+00:00",
-      "description": "Microsoft SharePoint flaws can be chained to bypass authentication and remotely take control of vulnerable servers without a password.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Two-Microsoft-SharePoint-Flaws-Can-Be-Chained-to-Hack-Servers-Without-a-Password.webp",
+      "publishedAt": "2026-08-26T10:04:23+00:00",
+      "description": "SonicWall has disclosed two security vulnerabilities in its NetExtender Linux client, including a critical path traversal flaw that could allow an attacker to write arbitrary files with root privileges.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SonicWall-NetExtender-vulnerabilities-allows-an-attacker-to-write-arbitrary-file-as-root.webp",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Chrome 152 Patches Over 300 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-152-patches-over-300-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-26T09:50:34+00:00",
+      "description": "Most of the flaws were discovered by Google using AI, but researchers are still discovering high-value Chrome vulnerabilities.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Chrome.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "WordPress Plugin Vulnerability Exposes 400,000 Sites to Account Takeover Attacks",
+      "url": "https://cybersecuritynews.com/translatepress-wordpress-plugin-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T09:41:03+00:00",
+      "description": "TranslatePress WordPress plugin flaw lets unauthenticated attackers hijack admin accounts and compromise websites.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/WordPress-Plugin-Vulnerability-Exposes-400000-Sites-to-Account-Takeover-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Iran-Linked Hackers Abuse Legitimate Developer Tool to Hide Dindoor Backdoor",
+      "url": "https://cybersecuritynews.com/iran-linked-hackers-abuse-developer-tool/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T08:50:13+00:00",
+      "description": "Iran-linked MuddyWater uses Deno to hide Dindoor backdoor activity, targeting U.S. software, banking, and Canadian organizations.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Abuse-Legitimate-Developer-Tool-to-Hide-Dindoor-Backdoor.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Mirage2FA Phishing Kit Bypasses MFA to Hijack Microsoft 365 Sessions, Targeting 3,500+ Organizations",
+      "url": "https://cybersecuritynews.com/mirage2fa-phishing-kit-bypasses-mfa-to-hijack-microsoft-365-sessions-targeting-3500-organizations/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T08:21:30+00:00",
+      "description": "A phishing-as-a-service (PhaaS) toolkit tracked as Mirage2FA has been linked to the potential compromise of 4,532 Microsoft 365 accounts in a campaign that targeted 3,518 organizations, according to new research published by threat intelligence analysts\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU-eNiofA16lfgGSpoEjiiAphYNAE2wceLqfErJo2meC8spjY5wHfY2H6NUYchm17cpeZDVNu77yEOO8nTVdGmNX6-lnwH9JYAD_BcFWZw-bNICrP4WNeNY0lEsMjl1hO4WPTeZ4FaNiWtyW_yqgk5RZbaDjQbeshKs-gBcFEXopOEZ3RuJJn1c15hcdg/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-26T124424.61.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+      "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-26T07:54:12+00:00",
+      "description": "INTERPOL's Operation Jackal IV arrests 58 people, identifies 263 suspects, and disrupts fraud and laundering networks across 22 countries.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYeHiMtBGSU21fSYRfXqsYMwsXlIfdl_w5goundqFoLSR1HYz30bgzdHuA1ft2gHjWiS5B-nE5ZpmY1gJiTDlsF8bwwYK9ogGAPmEHWNTA-hVLp09KaMvsu6DbcCW-ZTNtcZj2xHoH4fHhTsr7_zbUoiYKJI6Yj9YdxtbQNBEdv0apv1c3buQiaXmLeMkT/s1700-e365/interpol.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Sensitive Information Exposed in Nutex Health Data Breach",
+      "url": "https://www.securityweek.com/sensitive-information-exposed-in-nutex-health-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-26T07:41:50+00:00",
+      "description": "Nutex Health has informed the SEC that it recently detected unauthorized access and data exfiltration.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/03/healthcare-medical.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Newly SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+      "url": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-26T07:12:55+00:00",
+      "description": "SLEEPWALKER is a Windows backdoor that waits for a crafted packet, then runs 23-instruction bytecode across six transports.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSnbO35IDgg9dQouCuUCpAko8PiGwwI3lhn7I68m0Ok-PGL84lR1CU0sKk5rWfurFY7u1Fz-9U0-CXi1VCuAVpZDpKF3uDnvtyb062Kls6vW8L7xkTnZBPPJteihNrIWV3C__6JMphWMC7ER4_2bsgKDfzIuq5naTBB3pgZvKvD2v4djmpMh96F62y8Qg/s1700-e365/sleepwalker.jpg",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -22,17 +99,6 @@
       "description": "CISA adds CVE-2026-60004 to KEV amid active Gitea RCE exploitation; a separate reported attack deployed a miner-like dropper.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfnIeYEGY0lITUrkeCakPqo92gxAk1t2Rduq3Vvt-EkhAxg_vRxWngUZQjifYgv1MUnKyZMOzTPFtlOpkMfpn6K5V0ofNKBc5w0y4X2Kb3Zeoal_5J-yhUX8oPUHY8KUkDHvGc7mwp5mWm1q4pS8Xssnm13SVe9Ziunr0UeNwTq2smwxIXAP7yU_iY2rtz/s1700-e365/cisa-git.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New CoreRAT Malware Gives Core Werewolf Hackers Full Control of Compromised Systems",
-      "url": "https://cybersecuritynews.com/new-corerat-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T06:02:39+00:00",
-      "description": "Core Werewolf uses Telegram phishing and fake government files to deploy CoreRAT, enabling remote control of Windows systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/New-CoreRAT-Malware-Gives-Core-Werewolf-Hackers-Full-Control-of-Compromised-Systems.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -58,28 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Linux Turns 35 \u2013 Hobby Kernel Now Powers Cloud, Android, and Global Cyber Defense",
-      "url": "https://cybersecuritynews.com/linux-turns-35/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T04:31:15+00:00",
-      "description": "Thirty-five years later, that hobby sits under the internet, the public cloud, Android, and every system on the TOP500 supercomputer list.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Linux-Turns-35.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Multiple OpenSSL Flaws Let Remote Attackers Crash Servers and Corrupt Heap Memory",
-      "url": "https://cybersecuritynews.com/openssl-patches-9-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-26T03:46:16+00:00",
-      "description": "OpenSSL has issued a fresh security advisory disclosing seven vulnerabilities across its cryptographic library, ranging from a heap-corrupting write bug to memory-exhaustion flaws in its QUIC and DTLS implementations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenSSL-Patches-9-Vulnerabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Wednesday, August 26th, 2026 https://isc.sans.edu/podcastdetail/10068, (Wed, Aug 26th)",
       "url": "https://isc.sans.edu/diary/rss/33282",
       "source": "SANS ISC",
@@ -89,17 +133,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-25T18:17:17+00:00",
-      "description": "U.S. Treasury sanctions Iran-linked cyber actors under Operation Economic Outcast, targeting MOIS-linked hackers tied to U.S. infrastructure breaches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_Uq1yn-ay_vU25xZUbhhvnVMHSWo2rQwy4HhIfNIdnk-MIF-cbtytzKqkvrcBNIGy6fDgW22x0dMZiNhTmvTY_V6SxK-FE6VificiC99BkJMHaWdJB_-tSZeNeM96lL-HaG4VvrBRuA3JmPlkL3sE_F6kfJYhW_ZaXXQK0dses4BK6A2G4yF9GsHUrgXo/s1700-e365/iranian-hackers.jpg",
-      "topic": "Data breach",
-      "kind": "News"
     },
     {
       "title": "Linux Foundation to Govern TRACE, an Open Standard for AI Runtime Attestation",
@@ -122,39 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
-      "url": "https://www.securityweek.com/alice-raises-140m-to-expand-ai-model-defenses-and-enterprise-guardrails/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-25T14:11:59+00:00",
-      "description": "The company, previously known as ActiveFence, has raised a total of $280 million from investors.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-      "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-25T14:07:37+00:00",
-      "description": "NVIDIA NemoClaw's Windows-host Ollama path exposes an unauthenticated API that DNS rebinding could use to plant persistent model instructions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaJs9yp_YLYc3dgsmzjU4_ma-6DC3KNpG4d3KhKtoIuhtpbYSnK0Wed5_8a0Jm6epc_RdLE9PVMO0FnkH7DFwRAI7lBZBXImFEu1emv-OarT-LPYE-QymTXPMkmDsYBXsz1TB3gASsiAEgZ4Jvt1YzQM3KHYpV0HMck686hTcXB7pn7uqLu2uTLVgPyE/s1700-e365/nvidia.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "WordPress Websites Targeted via MiniOrange Plugin Vulnerabilities",
-      "url": "https://www.securityweek.com/wordpress-websites-targeted-via-miniorange-plugin-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-25T13:33:12+00:00",
-      "description": "CVE-2026-61979 and CVE-2026-15981 are authentication bypass vulnerabilities affecting the MiniOrange SAML 2.0 SSO plugin.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066, (Tue, Aug 25th)",
