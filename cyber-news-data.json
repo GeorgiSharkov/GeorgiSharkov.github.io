@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-08-26T16:37:05.939462+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-26T21:07:14.155599+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "21 Critical Ubiquiti UniFi Flaws Enable Authentication Bypass, Command Injection and Privilege Escalation",
+      "url": "https://cybersecuritynews.com/21-critical-ubiquiti-unifi-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T18:00:02+00:00",
+      "description": "Ubiquiti has patched 21 critical-severity vulnerabilities spanning nearly its entire UniFi product line, warning that attackers with only network access could chain the flaws.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/21-Critical-Ubiquiti-UniFi-Flaws.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Next.js Vulnerabilities Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/next-js-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T17:43:02+00:00",
+      "description": "Two critical Next.js flaws enable unauthenticated remote code execution on Windows-hosted apps using the Image Optimization API for AVIF images.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Critical-Next.js-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+      "url": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-26T16:42:03+00:00",
+      "description": "FBI disrupted proxy infrastructure used in China-linked espionage to profile and steal data from U.S. critical infrastructure and other sectors",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjXW8RS8eKAVsCBovWfkRO7QMTfrgvWcTQtLccJCxq6wXC4OhegU26JXGqEKA0zS951ogEjKmNugfT1jDKlC8Kff6m-LZm-AFQe8Y57c1H_d44_bJPayRw-HpXwbb_MmN3pds3BdBUziNNBlAA_nHqX-BTb6nQLQWrKgJYnpqikUzENaV68VpD9LHsQlX/s1700-e365/chinese.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
     {
       "title": "Who Has Admin Rights in your Entra ID Directory?, (Wed, Aug 26th)",
       "url": "https://isc.sans.edu/diary/rss/33284",
@@ -14,6 +47,17 @@
       "kind": "DFIR"
     },
     {
+      "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+      "url": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-26T15:35:05+00:00",
+      "description": "Group-IB uncovers new Nimbus Manticore infrastructure, an SSH tunneler, and a TWOSTROKE-like C++ backdoor across Europe and the Middle East.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWDtkssu1a2OfGXtU3IlV8MARDVh3XpsurXStcVxASTKf_ACkwIhG6XVbR6fqqWFEFcOEOzLWpy1GGKHgTogw1hQL1O5CtLrLweaGx9GLnM-6CXDApf6VcpFzWFe0FaYgPi1TdhOotRrJ9xU39dk4efUJsMejezEs8t0v8oLyafMuVZrzgkeP-AEhls-x8/s1700-e365/nimbus.png",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
       "title": "AI Speeds Up Malware Development, Not Its Success Rate: Analysis",
       "url": "https://www.securityweek.com/ai-speeds-up-malware-development-not-its-success-rate-analysis/",
       "source": "SecurityWeek",
@@ -21,6 +65,28 @@
       "publishedAt": "2026-08-26T15:23:45+00:00",
       "description": "Palo Alto Networks Unit 42 analyzed 405 AI-linked malware samples and found only 12 reached production endpoints.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/malware.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Bans Russia-Linked ChatGPT Accounts Used in Covert Influence Campaign",
+      "url": "https://cybersecuritynews.com/openai-bans-russia-linked-chatgpt/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T14:13:02+00:00",
+      "description": "OpenAI removed Russian-linked ChatGPT accounts used in a covert influence campaign promoting pro-Russia narratives across social media.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Bans-Russia-Linked-ChatGPT-Accounts-Used-in-Covert-Influence-Campaign.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Iran-Linked Hackers Expand Attacks With New Backdoor and Reverse SSH Tunnels",
+      "url": "https://cybersecuritynews.com/iran-linked-hackers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T13:47:36+00:00",
+      "description": "Iran-linked Tortoiseshell expands espionage with a new backdoor and reverse SSH tunneling, targeting Middle Eastern, and European networks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Iran-Linked-Hackers-Expand-Attacks-With-New-Backdoor-and-Reverse-SSH-Tunnels.webp",
       "topic": "Malware",
       "kind": "News"
     },
@@ -55,28 +121,6 @@
       "description": "Adobe and Nvidia each published several advisories, including ones that address critical vulnerabilities in their products.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
-      "url": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-26T11:55:00+00:00",
-      "description": "Two unpatched Kaltura mwEmbed flaws allow unauthenticated file read and could enable RCE through unsafe deserialization.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vWsyC0OylljN3m8OwCHpDKLPXe9Sw7VI5ddPEuRswkrrsHlTyfbfkXAKOTX7jemZjktTQh1IlD1hjeWsOJwZm2aSe4OtppGdqTBMUCxgFAPIfI2RY-jAdZD5hfHsj7KpRexnN4SbfUJ8nsLB8w6P_me_L8xM00ZjskYgpyEbMkDBC5hSt5FAuLbFaK0/s1700-e365/kaltura.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-      "url": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-26T11:36:49+00:00",
-      "description": "Agentic AI lets SOCs investigate alerts and threat hypotheses using network telemetry before escalating evidence-backed cases to analysts.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1700-e365/Corelight.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
