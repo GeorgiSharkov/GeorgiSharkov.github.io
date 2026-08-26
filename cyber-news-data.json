@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-08-26T02:11:15.583192+00:00",
+  "generatedAt": "2026-08-26T04:19:02.400463+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Multiple OpenSSL Flaws Let Remote Attackers Crash Servers and Corrupt Heap Memory",
+      "url": "https://cybersecuritynews.com/openssl-patches-9-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T03:46:16+00:00",
+      "description": "OpenSSL has issued a fresh security advisory disclosing seven vulnerabilities across its cryptographic library, ranging from a heap-corrupting write bug to memory-exhaustion flaws in its QUIC and DTLS implementations.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenSSL-Patches-9-Vulnerabilities.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, August 26th, 2026 https://isc.sans.edu/podcastdetail/10068, (Wed, Aug 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33282",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-26T02:40:13+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Microsoft Teams Outage Largely Mitigated After Users Lost Access to Multiple Features",
+      "url": "https://cybersecuritynews.com/microsoft-teams-outage-multiple-features/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-26T02:26:41+00:00",
+      "description": "Microsoft confirmed early Wednesday that customers may have been unable to use multiple Microsoft Teams features, then said its monitoring showed the problem was largely under control.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Teams-Outage-Multiple-Features-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
       "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
@@ -56,28 +89,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "SynkLoader Mimic as IT Support Personnel Attacking Users Via Microsoft Teams",
-      "url": "https://cybersecuritynews.com/synkloader-mimic-as-it-support/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-25T14:32:47+00:00",
-      "description": "Teams phishing uses fake IT support messages to trick employees into installing SynkLoader through a malicious MSI file.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/SynkLoader-Mimic-as-IT-Support-Personnel-Attacking-Users-Via-Microsoft-Teams.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "ToxNetV2 Linux Botnet Uses NVIDIA AI to Generate Shell and Remote SSH Attack Actions",
-      "url": "https://cybersecuritynews.com/toxnetv2-linux-botnet/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-25T14:30:19+00:00",
-      "description": "ToxNetV2 is an AI-assisted Linux botnet targeting AArch64 systems, using AI-generated commands for scanning, propagation, network attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ToxNetV2-Linux-Botnet-Uses-NVIDIA-AI-to-Generate-Shell-and-Remote-SSH-Attack-Actions.webp",
-      "topic": "Malware",
-      "kind": "News"
     },
     {
       "title": "Alice Raises $140M to Expand AI Model Defenses and Enterprise Guardrails",
@@ -165,17 +176,6 @@
       "description": "New malware that uses steganography always gets my attention, but I was disappointed when I looked at the latest DOUBLECUP write-up. It doesn&#;x26;#;39;t use real steganography:",
       "image": "",
       "topic": "Malware",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Monday, August 24th, 2026 https://isc.sans.edu/podcastdetail/10064, (Mon, Aug 24th)",
-      "url": "https://isc.sans.edu/diary/rss/33276",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-24T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
