@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-08-27T14:34:19.319965+00:00",
+  "generatedAt": "2026-08-28T00:34:15.850871+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+      "url": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-27T18:36:19+00:00",
+      "description": "OpenAI says reward hacking drove internal AI agents to exploit zero-days and gain admin and host-level access across Hugging Face clusters.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpo4ImsmaHcawsJN9e4E5SzjUF-nbgOxCyybx3DIguSY_exMP1jhR2BZJ3yE2ZqGOE5c6_NvldW6id4Nm_NgcVrrRPALnw1fNbiisTiy8QFiIKriNiWRq6JMb5QcQTcDBaV_T3r6QYR9VC_FwtLg-G6lSYNM0F3n7q_HXI7aScGzMNB-OwLs6U9iqdk7Gs/s1700-e365/openai.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PaperCut NG/MF Vulnerability Actively Exploited in Attack \u2013 All Versions Impacted",
+      "url": "https://cybersecuritynews.com/papercut-ng-mf-vulnerability-actively-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-27T17:27:34+00:00",
+      "description": "PaperCut has confirmed that hackers are actively exploiting an unpatched vulnerability in its widely used PaperCut NG and PaperCut MF print management software, prompting the company to rush out an emergency patch just hours after issuing its first warning.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/PaperCut-NGMF-Vulnerability-Actively-Exploited.png",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Cybercriminals Are Selling Corporate Executives\u2019 Social Security Numbers for Just 25 Cents",
+      "url": "https://cybersecuritynews.com/executive-social-security-numbers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-27T16:54:31+00:00",
+      "description": "Corporate executives' most sensitive identity data is being sold on dark web marketplaces for as little as a quarter, according to new threat intelligence from Rapid7.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Executive-Social-Security-Numbers.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler ADC and Gateway Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-adc-and-gateway-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-27T16:46:55+00:00",
+      "description": "CISA added critical Citrix NetScaler flaw CVE-2026-8452 to its KEV catalog after confirming exploitation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/CISA-Warns-of-Citrix-NetScaler-ADC-and-Gateway-Vulnerability-Exploited-in-Attacks-1.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New Twitter Launches as Startup Claims Elon Musk\u2019s X Abandoned the Twitter Name",
+      "url": "https://cybersecuritynews.com/new-twitter-launches/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-27T16:34:08+00:00",
+      "description": "A startup operating as Operation Bluebird, Inc. has launched early access to a new social media service on Twitter.now, positioning itself as a revival of the Twitter brand that Elon Musk\u2019s X Corp. abandoned after its 2023 rebrand.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Twitter-is-Back.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-27T15:13:00+00:00",
+      "description": "Next.js patches two critical unauthenticated RCE flaws affecting Windows deployments and sites with AVIF optimization enabled.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYbQmCgjQOeGU5sXrRRnYNbfxDed_Evv1vYrDL4L4NOguQ5wIxE6glQW7yQvhR1Dzs4Gbddc2ktadXWc2VkaGHE4pvMmjaXHMRuepjwrzefXNHb6B3Shk51VRBQw0etS5WWsS9JuNN4q_Y8lDSFtzKNEgi2X-NvAllwzw5_03HwGdC7iNJc6METEjcUNc/s1700-e365/nodejs.gif",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+      "url": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-27T15:12:16+00:00",
+      "description": "Weekly cybersecurity roundup covering phishing, malware, botnets, AI-powered attacks, exposed systems, supply-chain threats, and new security research",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwWCb2shFhaav60Wjr2-8DoStCVaQrYqkE6EBZ8F5sREap-Khi19y-w9NVmFHyHosV6xVB0fTeN_DcSpGIyCZ621SnjqZozRVG70ceOey_D8djA5r5rpP9tFkRSESgs4kHZilTMoz2y8uqX-iTLR0JjjZkhypYjCCAEvQKzyU7xarQpt3sYvJc-fnWSWlb/s1700-e365/threats.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear",
       "url": "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/",
@@ -14,47 +91,14 @@
       "kind": "News"
     },
     {
-      "title": "Two Australians Charged Over TeamPCP Supply-Chain Attacks That Hit 1,000+ Organizations",
-      "url": "https://cybersecuritynews.com/two-australians-teampcp-supply-chain/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-27T14:15:44+00:00",
-      "description": "Two Western Australian men have been charged over alleged TeamPCP supply-chain attacks that police say planted malicious open-source code and reached more than 1,000 organizations worldwide.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Two-Australians-TeamPCP-Supply-Chain.webp",
+      "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+      "url": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-27T13:39:56+00:00",
+      "description": "Amazon Kiro flaw lets crafted workspace content trigger sensitive data exfiltration after a user opens the workspace and messages the agent.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUdyQnHdjoEXFnc-5nB-6oglAbvpOYwuWqfjYkgeKH6HaqUjosKOHhmEQ_7StMkMBv53gz27Ilg-15yRaQ-hxoYi0ASuRMOCuPTHa8gP6a6PzYSewTWsDkKAx8dsMByZXDYDlRE1wRYoCvE7NuYqXdCpZ8_Y4E4tAUy0SBFl0S_XxLvpnjFRbqat0EwggW/s1700-e365/kiro-amazon.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AWS Shows How Hackers Can Turn Stolen Cloud Credentials Into Full-Scale Attacks",
-      "url": "https://cybersecuritynews.com/aws-shows-how-hackers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-27T14:02:20+00:00",
-      "description": "Stolen AWS credentials can let attackers enter cloud systems as trusted users, access sensitive data, and maintain persistent control.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/AWS-Shows-How-Hackers-Can-Turn-Stolen-Cloud-Credentials-Into-Full-Scale-Attacks.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Multiple TeamViewer Vulnerabilities Enable Remote Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/multiple-teamviewer-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-27T14:00:56+00:00",
-      "description": "TeamViewer patched a high-severity flaw enabling authenticated attackers to write files and execute code with user privileges.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Multiple-TeamViewer-Vulnerabilities-Enables-Remote-Code-Execution-Attacks.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploit ownCloud and WordPress Flaws to Steal Philippine Nuclear and Naval Data",
-      "url": "https://cybersecuritynews.com/hackers-exploit-owncloud/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-27T13:35:49+00:00",
-      "description": "Chinese-speaking hackers exploited ownCloud and WordPress flaws to steal sensitive data from Philippine nuclear and naval organizations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Exploit-ownCloud-and-WordPress-Flaws-to-Steal-Philippine-Nuclear-and-Naval-Data.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -80,28 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-27T11:56:30+00:00",
-      "description": "Wiz webinar shows how security teams can use unified context to prioritize exposure and respond faster to AI-assisted attacks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s1700-e365/wiz-webinar.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-      "url": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-27T11:56:26+00:00",
-      "description": "Australian police charged two men over their alleged TeamPCP role in supply chain compromises affecting Trivy, KICS, and LiteLLM.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6Ze_JyLo4PQxJMbwu8Mn_aCoLWiD2dgbGmzOPcYcdrN8wunKZu2SZll2fiHcAOFoA0h9N5TYPOY_IvrPpGqTpnXdyd5bXHRtyHqb3t3junXDMotOAD43Y0jzA9wkCSjoOIo1knFjtTVRAeOSjpHqLzfMGceCcHYGb6cE1HD-Y5mtY9hyphenhyphenHT9PeUk3TV68/s1700-e365/TeamPCP-arrest.gif",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Okta Shares Surge on Strong Earnings, Growing Demand for AI Identity Security",
       "url": "https://www.securityweek.com/okta-shares-surge-on-strong-earnings-growing-demand-for-ai-identity-security/",
       "source": "SecurityWeek",
@@ -110,17 +132,6 @@
       "description": "The identity security company beat quarterly expectations and raised its outlook as enterprises face growing pressure to secure AI agents and other non-human identities.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/12/Okta-Cybersecurity.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "What the Data Says About AI in Security Operations in 2026",
-      "url": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-27T11:30:00+00:00",
-      "description": "Prophet Security says 40% of teams use AI daily, while 28% of alerts go uninvestigated and 60% report missed alerts caused serious issues.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYbYBAkf_-8-lUShFafJ32AYAo_yzwmPmpMcUgd5i9SUaCA8V0t-66WEu2B5U8KLbJ1ie3T-IudVRd73Arprc2iNUqTweYzHN_POtzXr-nJICrNkK_R5dDKr3k5sklozyuO11Y9Av55Git8fvydO3HAAcwgT6sk2gvXzmH5qz-qTMuzQfAmu7EedWV9dE/s1700-e365/pro.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -133,17 +144,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-      "url": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-27T11:00:57+00:00",
-      "description": "Spark RAT targets Cambodia through a multi-stage campaign that uses a vulnerable OPSWAT driver to terminate security processes.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvqqkrFYi_Np3w-hHvDbFZqWnf1qCrkS6zwJARAyiKX99YdH2w37pqvD-Zy1HPAYdbJbFu3Tztap9lcuv-lkq8wd9elTkfK0NWN5a9J8218OE9btcQHMdyM93GiuYLuj5mC_TPFBXnVZkUEckgARKceSsJKRqHDeW-U_tsDcPscO3-s2Oid28OEZTz7cIw/s1700-e365/combo-malware.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
     },
     {
       "title": "A polymorphic phishing page (that occasionally breaks itself), (Thu, Aug 27th)",
