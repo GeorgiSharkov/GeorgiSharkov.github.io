@@ -1,15 +1,125 @@
 {
-  "generatedAt": "2026-08-28T12:08:46.268982+00:00",
-  "count": 16,
+  "generatedAt": "2026-08-28T22:35:08.839028+00:00",
+  "count": 20,
   "stories": [
     {
-      "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
-      "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+      "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+      "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-28T11:20:32+00:00",
-      "description": "ServiceNow patched four AI Platform flaws, including three CVSS 10.0 bugs that can enable unauthenticated code execution or data access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitiido-BqtV-H4U0qEAovU_m3NGb3PHF5O3IEh53W_rllGDplhA8aluEKIUULFq3L7iNQue-NLxQDR3wSF7PaaAhGg14rWdqHoB6jBZC1YfslM0wyj5xhESZKTbIxgjO_lnZqVOrKx_E2hK-wXtE85EPJW-pV8D3eMv9CWgMF8eXzsJgq3xevdBY9hCs0/s1700-e365/servicenow.jpg",
+      "publishedAt": "2026-08-28T21:30:52+00:00",
+      "description": "Berlin confirms an extortion attempt after data theft from its state network, while the scope of the exfiltrated data remains under review.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRLS8X8abAbJ9p1f1jp9VIUeKfRa4l4gAIgmCWsw1eXZuJ7SY201P6w6V8NYVf1CHpaN_pyAuLg-6h-e9RYFBlBFsl3k5egiOnoj8ZiXScxu8El1jZExmlyNYfunp0Z4j5F0PYSg4Ltu0yldY-wKmI2TC5UU-7mrasEsZ_SyEso7dGFvLIpcA8hdHqVdw/s1700-e365/berlin.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+      "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-28T20:38:47+00:00",
+      "description": "A critical Cosmos EVM balance flaw was exploited on six chains after Cosmos Labs confirmed all Cosmos EVM chains were affected.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHWwlkIrD4ix8P1j7FGJW7pl0e6W600w61mPcVBRsL7BqK_8SNTLSSk-4498ZuyThNbHG8FmtGoMlR9B9ujcXUlHnRb9NTpBhImouOWrQK2WaxVVd5rjjL62kXl1fW9U5YyDN1Uc-M6OriHc7nQNzCbJAC3kRIsRgAnY5q2SSTL2TjLzix05DAoSa7jQ/s1700-e365/cosmos-evm-hack.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+      "url": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-28T17:12:15+00:00",
+      "description": "Attackers chain two PaperCut NG and MF flaws for unauthenticated remote code execution, with limited exploitation seen in two environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s1700-e365/1000103914.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target AI Infrastructure With RCE, Prompt Injection and API Key Theft",
+      "url": "https://cybersecuritynews.com/hackers-target-ai-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-28T16:42:35+00:00",
+      "description": "Hackers target exposed AI gateways and agent tools to steal credentials, execute commands, and deploy cryptominers through AI infrastructure.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Target-AI-Infrastructure-With-RCE-Prompt-Injection-and-API-Key-Theft.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Make Phishing Pages Change Their Code Every Time Someone Opens Them",
+      "url": "https://cybersecuritynews.com/hackers-make-phishing-pages/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-28T16:31:31+00:00",
+      "description": "Phishing pages constantly change their code to evade detection while still stealing credentials through familiar-looking login forms.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Make-Phishing-Pages-Change-Their-Code-Every-Time-Someone-Opens-Them.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+      "url": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-28T16:20:46+00:00",
+      "description": "Android 17 adds OS-wide ECH, local network permissions, default certificate transparency, and carrier-controlled 2G blocking.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHdeGqGafTZXNtGvV_-qR7K3QId_-DpEfOzetKbhVQvNdNyTMAy-6gLXVFlkMHsGDN2wKK8v1ZMeOKe9_3XVYAY5TVkqH2heesi0c_QmJzLpDX1M-XfOtI_W4Qe8OM8Yhin40QWvN0XHvU9cqDlZH3eeZY_18euIxiBdcbhWMVnXct-x84k2gvchQYSiuN/s1700-e365/1000103901.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "In Other News: Log4j RCE Scare, Minimus Shutdown, Iranian Hacker Sanctions",
+      "url": "https://www.securityweek.com/in-other-news-log4j-rce-scare-minimus-shutdown-iranian-hacker-sanctions/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-28T15:35:34+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: Manchester Airports Group cyberattack, Carhartt breach data was partly fake, U.S. Bank responds to ransomware gang\u2019s claims.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Iran-Linked Hackers Reportedly Knock UK Power Plant Offline for Four Days",
+      "url": "https://cybersecuritynews.com/iran-linked-hackers-2/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-28T15:31:57+00:00",
+      "description": "A cyber incident reportedly forced a British power plant to halt operations for about four days in July, drawing attention to the security of less-visible energy sites. The shutdown did not cause customer outages, and the wider electricity system continued\u2026",
+      "image": "",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Russian Hackers Use New HOOKEDGE Malware to Spy on European Defense and Diplomatic Targets",
+      "url": "https://cybersecuritynews.com/hackers-use-new-hookedge-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-28T15:07:59+00:00",
+      "description": "Russian-linked APT28 hackers use macro-laced Word files to deploy HOOKEDGE backdoor against defense and government targets.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Russian-Hackers-Use-New-HOOKEDGE-Malware-to-Spy-on-European-Defense-and-Diplomatic-Targets.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "ATF Confirms Cyber Incident After Ransomware Group Claims Attack",
+      "url": "https://www.securityweek.com/atf-confirms-cyber-incident-after-ransomware-group-claims-attack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-28T13:59:14+00:00",
+      "description": "The Bureau of Alcohol, Tobacco, Firearms and Explosives has described it as a \u2018major incident\u2019 and it\u2019s conducting an investigation with the DOJ.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/05/Ransomware-Alert-threat.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Agents Exploited Linux Kernel Flaw on Company\u2019s Own Systems",
+      "url": "https://www.securityweek.com/openai-agents-exploited-linux-kernel-flaw-on-companys-own-systems/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-28T12:36:53+00:00",
+      "description": "CISA has added the exploited flaw, CVE-2026-53362, to its KEV catalog, alongside a JFrog vulnerability exploited by OpenAI agents.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Linux.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -22,61 +132,6 @@
       "description": "Nearly 130 tech and cybersecurity companies back a collective call to boost cyber defenses as AI-enabled attacks grow more sophisticated.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-intelligence-AI.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
-      "url": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-28T10:58:29+00:00",
-      "description": "Two ZBT router firmware implants enable unauthenticated root command execution, with DARKLANTERN exposed on 203 internet-facing hosts.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0i2viN2zKBeSxzTqoxZkPNq_6lPMDBLb18zbLPwufsY4mFm494ydDDAWi6gGwy6PsmRGublHFmdmcEiGKViLuUgaJwWux_YUW7HQHuGbbf04HGNpoZa6QLmvf1IHE04TeTT89Yc1_jo0z6mptCbX-fIhVEVQzg5GnfU2Uya4HHASHbttTBGMxl7KMkbM/s1700-e365/router-malware.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Think You\u2019ve Eliminated Chinese AI? Check the Model\u2019s Lineage, Cisco Says",
-      "url": "https://www.securityweek.com/think-youve-eliminated-chinese-ai-check-the-models-lineage-cisco-says/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-28T10:30:00+00:00",
-      "description": "New research shows that country-of-origin labels can obscure an AI model\u2019s upstream dependencies, inherited behaviors and potential security risks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/07/AI-artificial-intelligence-model-frontier.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
-      "url": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-28T09:45:15+00:00",
-      "description": "cPanel patches CVE-2026-65643, a critical flaw that lets authenticated accounts with domain controls execute code as root.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s1700-e365/cpanel-root.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "PaperCut Releases Emergency Patch for Exploited Zero-Day",
-      "url": "https://www.securityweek.com/papercut-releases-emergency-patch-for-exploited-zero-day/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-28T08:40:36+00:00",
-      "description": "A CVE identifier has not yet been assigned, but PaperCut is urging NG/MF users to install patches and implement mitigations.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/PaperCut-print-management.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
-      "url": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-28T08:25:36+00:00",
-      "description": "PaperCut says a zero-day affecting all NG and MF versions is actively exploited; emergency patches are available for v25 and v26.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3avAnoYOOKqF8JpZv9Lng1lKE0AqmHOqM-Mq2T297NQrtDBM90yMYIzzVMHgzqytcCvFz7LuBXoPp-d9mRh0_dywBaM8NxZaiKPG0gDuYbSt2oRJdxSkHG5tWjxAMKvWUYZe6YINf_-7i5zUS7xGrDcaXulRvT5jVihWDJzAHSlaXQ6UYlHa6cPMpxbDC/s1700-e365/papercut.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -100,17 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Trump Order Aims to Block Foreign Backdoors in US Power Grid Gear",
-      "url": "https://www.securityweek.com/trump-order-aims-to-block-foreign-backdoors-in-us-power-grid-gear/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-27T14:17:26+00:00",
-      "description": "The White House\u2019s new executive order 14420 widens scrutiny of industrial control systems over cyber sabotage concerns.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2021/01/Powerplant.jpg",
-      "topic": "Malware",
-      "kind": "News"
     },
     {
       "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
