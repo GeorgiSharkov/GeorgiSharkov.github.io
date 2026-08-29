@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-29T07:19:01.761707+00:00",
+  "generatedAt": "2026-08-29T14:40:10.488563+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hasbro Data Breach Exposed Employee Personal Information",
+      "url": "https://www.securityweek.com/hasbro-data-breach-exposed-employee-personal-information/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-29T11:55:00+00:00",
+      "description": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Hasbro.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "Malvertising Is Moving From Deceptive Content to Weaponized Infrastructure",
       "url": "https://cybersecuritynews.com/malvertising-is-moving-from-deceptive-content-to-weaponized-infrastructure/",
@@ -121,17 +132,6 @@
       "description": "CISA has added the exploited flaw, CVE-2026-53362, to its KEV catalog, alongside a JFrog vulnerability exploited by OpenAI agents.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Linux.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Tech, Cybersecurity Giants Unite Behind OpenAI-Led Cyber Defense Pledge",
-      "url": "https://www.securityweek.com/tech-cybersecurity-giants-unite-behind-openai-led-cyber-defense-pledge/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-28T11:01:22+00:00",
-      "description": "Nearly 130 tech and cybersecurity companies back a collective call to boost cyber defenses as AI-enabled attacks grow more sophisticated.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-intelligence-AI.jpeg",
-      "topic": "News",
       "kind": "News"
     },
     {
