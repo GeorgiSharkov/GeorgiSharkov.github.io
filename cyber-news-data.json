@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-08-28T22:35:08.839028+00:00",
+  "generatedAt": "2026-08-29T07:19:01.761707+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Malvertising Is Moving From Deceptive Content to Weaponized Infrastructure",
+      "url": "https://cybersecuritynews.com/malvertising-is-moving-from-deceptive-content-to-weaponized-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T07:08:41+00:00",
+      "description": "A growing share of malicious advertising activity now depends on what happens after the click: redirect chains, disposable domains, cloaking systems, conditional delivery, and campaign behavior that can change after initial approval.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/arukh-Rakhimov.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "700 AI Agents Secretly Coordinated to Hack Hugging Face After Breaking Their Isolation",
+      "url": "https://cybersecuritynews.com/700-ai-agents-coordinated-to-hack-hugging-face/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T01:57:59+00:00",
+      "description": "700 AI agents reportedly bypassed isolation and attacked Hugging Face using a covert communication channel.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/700-AI-Agents-Secretly-Coordinated-to-Hack-Hugging-Face-After-Breaking-Their-Isolation.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical ServiceNow Flaws Let Attackers Execute Code and Access Data",
+      "url": "https://cybersecuritynews.com/servicenow-fixes-critical-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T01:54:59+00:00",
+      "description": "ServiceNow patched four flaws, including three critical bugs enabling code execution, data theft, and privilege escalation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ServiceNow-Fixes-Critical-Flaws.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Can Take Full Control of Unitree G1 Humanoid Robots Over Bluetooth",
+      "url": "https://cybersecuritynews.com/unitree-g1-robots-over-bluetooth/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T01:52:56+00:00",
+      "description": "A critical Bluetooth attack chain allow attackers gain root access and full control of Unitree G1 robots.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Can-Take-Full-Control-of-Unitree-G1-Humanoid-Robots-Over-Bluetooth-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
       "url": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
@@ -36,28 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Target AI Infrastructure With RCE, Prompt Injection and API Key Theft",
-      "url": "https://cybersecuritynews.com/hackers-target-ai-infrastructure/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-28T16:42:35+00:00",
-      "description": "Hackers target exposed AI gateways and agent tools to steal credentials, execute commands, and deploy cryptominers through AI infrastructure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Target-AI-Infrastructure-With-RCE-Prompt-Injection-and-API-Key-Theft.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Make Phishing Pages Change Their Code Every Time Someone Opens Them",
-      "url": "https://cybersecuritynews.com/hackers-make-phishing-pages/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-28T16:31:31+00:00",
-      "description": "Phishing pages constantly change their code to evade detection while still stealing credentials through familiar-looking login forms.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Make-Phishing-Pages-Change-Their-Code-Every-Time-Someone-Opens-Them.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
       "url": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
       "source": "The Hacker News",
@@ -77,28 +99,6 @@
       "description": "Noteworthy stories that might have slipped under the radar: Manchester Airports Group cyberattack, Carhartt breach data was partly fake, U.S. Bank responds to ransomware gang\u2019s claims.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Iran-Linked Hackers Reportedly Knock UK Power Plant Offline for Four Days",
-      "url": "https://cybersecuritynews.com/iran-linked-hackers-2/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-28T15:31:57+00:00",
-      "description": "A cyber incident reportedly forced a British power plant to halt operations for about four days in July, drawing attention to the security of less-visible energy sites. The shutdown did not cause customer outages, and the wider electricity system continued\u2026",
-      "image": "",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Russian Hackers Use New HOOKEDGE Malware to Spy on European Defense and Diplomatic Targets",
-      "url": "https://cybersecuritynews.com/hackers-use-new-hookedge-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-28T15:07:59+00:00",
-      "description": "Russian-linked APT28 hackers use macro-laced Word files to deploy HOOKEDGE backdoor against defense and government targets.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Russian-Hackers-Use-New-HOOKEDGE-Malware-to-Spy-on-European-Defense-and-Diplomatic-Targets.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
