@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-30T16:56:03.251123+00:00",
-  "count": 20,
+  "generatedAt": "2026-08-30T21:28:18.679099+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
@@ -8,8 +8,8 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-30T07:36:33+00:00",
-      "description": "Microsoft has disclosed details of a new ClickFix variant, dubbed TerminalFix, that aims to trick users into running a malicious command in Windows Terminal or PowerShell. \"While traditional ClickFix campaigns direct victims to the Windows Run dialog,\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpxriybAzLw0daA0mtL3sZd04fy8Sal4s0mrBAz2-ksjwfP2V08YK_KbCJY57hKG28Kt6gn2mKq4HFSpkG2MNvA3Oz6MhNUe77_1Nvpahn2nnCFHPpxIlp5Ix4DvAZw08qXtxt1M-4zCtSENbBkODQyP_WDp9j3PXACc0XKYk1BK1K-2Xabho1cBPqerW9/s1600/cf-clickfix.jpg",
+      "description": "Microsoft says TerminalFix uses fake Cloudflare CAPTCHAs to trigger PowerShell and deploy a reverse-tunnel backdoor for internal network access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpxriybAzLw0daA0mtL3sZd04fy8Sal4s0mrBAz2-ksjwfP2V08YK_KbCJY57hKG28Kt6gn2mKq4HFSpkG2MNvA3Oz6MhNUe77_1Nvpahn2nnCFHPpxIlp5Ix4DvAZw08qXtxt1M-4zCtSENbBkODQyP_WDp9j3PXACc0XKYk1BK1K-2Xabho1cBPqerW9/s1700-nu-rw-lo-l85-e365/cf-clickfix.jpg",
       "topic": "Malware",
       "kind": "News"
     },
@@ -25,25 +25,14 @@
       "kind": "DFIR"
     },
     {
-      "title": "OpenAI Is Pulling Its AI Models From Cursor Following SpaceX Acquisition",
-      "url": "https://cybersecuritynews.com/openai-models-ends-with-cursor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-29T16:44:24+00:00",
-      "description": "OpenAI is pulling its AI models from Cursor following SpaceX\u2019s acquisition of the AI coding assistant, notifying SpaceX that it will wind down the contract that supplies those models to the editor. The proposed shutoff date is November 12, 2026, which OpenAI\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Models-Ends-With-Cursor.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
       "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-29T16:25:03+00:00",
-      "description": "Multiple critical security flaws have been disclosed in WordPress plugins and themes, including WPMU DEV Dashboard, Avada, TranslatePress, Pods, and GiveWP, that could lead to authentication bypass, account takeover, and arbitrary code execution. The\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiROOqCRPV4u9cWfJL8nvCYKi4Ake-ki3_uh8Qn8RJ0P20h3Mz_qxVfF856pJ9DQZMHy922CeLwOHDc37Gpb4p1UCTMx6cMT5HeeAP_w4RitCuQficYcGDDkqpDVfW_nA3M7qWT-WyM6A5Adk3J2e8kMWSG1GSUOatrcVBmc7fmb2-ovadVS3fOdkd1ubFx/s1600/wordpress-themes.jpg",
-      "topic": "Identity",
+      "description": "Critical flaws in WPMU DEV, Avada, TranslatePress, Pods, and GiveWP can enable admin takeover or remote code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiROOqCRPV4u9cWfJL8nvCYKi4Ake-ki3_uh8Qn8RJ0P20h3Mz_qxVfF856pJ9DQZMHy922CeLwOHDc37Gpb4p1UCTMx6cMT5HeeAP_w4RitCuQficYcGDDkqpDVfW_nA3M7qWT-WyM6A5Adk3J2e8kMWSG1GSUOatrcVBmc7fmb2-ovadVS3fOdkd1ubFx/s1700-nu-rw-lo-l85-e365/wordpress-themes.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -55,39 +44,6 @@
       "description": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Hasbro.jpeg",
       "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Malvertising Is Moving From Deceptive Content to Weaponized Infrastructure",
-      "url": "https://cybersecuritynews.com/malvertising-is-moving-from-deceptive-content-to-weaponized-infrastructure/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-29T07:08:41+00:00",
-      "description": "A growing share of malicious advertising activity now depends on what happens after the click: redirect chains, disposable domains, cloaking systems, conditional delivery, and campaign behavior that can change after initial approval.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/arukh-Rakhimov.webp",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "700 AI Agents Secretly Coordinated to Hack Hugging Face After Breaking Their Isolation",
-      "url": "https://cybersecuritynews.com/700-ai-agents-coordinated-to-hack-hugging-face/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-29T01:57:59+00:00",
-      "description": "700 AI agents reportedly bypassed isolation and attacked Hugging Face using a covert communication channel.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/700-AI-Agents-Secretly-Coordinated-to-Hack-Hugging-Face-After-Breaking-Their-Isolation.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical ServiceNow Flaws Let Attackers Execute Code and Access Data",
-      "url": "https://cybersecuritynews.com/servicenow-fixes-critical-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-29T01:54:59+00:00",
-      "description": "ServiceNow patched four flaws, including three critical bugs enabling code execution, data theft, and privilege escalation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ServiceNow-Fixes-Critical-Flaws.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -107,8 +63,8 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-28T20:38:47+00:00",
-      "description": "Cosmos Labs has warned that a critical balance-handling flaw in the shared Cosmos EVM module was exploited to drain funds from six blockchains between August 20 and August 25, 2026. The vulnerability, designated GHSA-7g4w-cg88-2cq2, is rated Critical by\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHWwlkIrD4ix8P1j7FGJW7pl0e6W600w61mPcVBRsL7BqK_8SNTLSSk-4498ZuyThNbHG8FmtGoMlR9B9ujcXUlHnRb9NTpBhImouOWrQK2WaxVVd5rjjL62kXl1fW9U5YyDN1Uc-M6OriHc7nQNzCbJAC3kRIsRgAnY5q2SSTL2TjLzix05DAoSa7jQ/s1600/cosmos-evm-hack.jpg",
+      "description": "A critical Cosmos EVM balance flaw was exploited on six chains after Cosmos Labs confirmed all Cosmos EVM chains were affected.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRHWwlkIrD4ix8P1j7FGJW7pl0e6W600w61mPcVBRsL7BqK_8SNTLSSk-4498ZuyThNbHG8FmtGoMlR9B9ujcXUlHnRb9NTpBhImouOWrQK2WaxVVd5rjjL62kXl1fW9U5YyDN1Uc-M6OriHc7nQNzCbJAC3kRIsRgAnY5q2SSTL2TjLzix05DAoSa7jQ/s1700-nu-rw-lo-l85-e365/cosmos-evm-hack.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
