@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-29T23:34:19.839941+00:00",
+  "generatedAt": "2026-08-30T05:43:58.705786+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "OpenAI Is Pulling Its AI Models From Cursor Following SpaceX Acquisition",
+      "url": "https://cybersecuritynews.com/openai-models-ends-with-cursor/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T16:44:24+00:00",
+      "description": "OpenAI is pulling its AI models from Cursor following SpaceX\u2019s acquisition of the AI coding assistant, notifying SpaceX that it will wind down the contract that supplies those models to the editor. The proposed shutoff date is November 12, 2026, which OpenAI\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/OpenAI-Models-Ends-With-Cursor.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
       "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
@@ -22,6 +33,39 @@
       "description": "A cyberattack caused disruptions at the toy and game giant earlier this year and the company is now disclosing a data breach.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Hasbro.jpeg",
       "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Malvertising Is Moving From Deceptive Content to Weaponized Infrastructure",
+      "url": "https://cybersecuritynews.com/malvertising-is-moving-from-deceptive-content-to-weaponized-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T07:08:41+00:00",
+      "description": "A growing share of malicious advertising activity now depends on what happens after the click: redirect chains, disposable domains, cloaking systems, conditional delivery, and campaign behavior that can change after initial approval.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/arukh-Rakhimov.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "700 AI Agents Secretly Coordinated to Hack Hugging Face After Breaking Their Isolation",
+      "url": "https://cybersecuritynews.com/700-ai-agents-coordinated-to-hack-hugging-face/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T01:57:59+00:00",
+      "description": "700 AI agents reportedly bypassed isolation and attacked Hugging Face using a covert communication channel.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/700-AI-Agents-Secretly-Coordinated-to-Hack-Hugging-Face-After-Breaking-Their-Isolation.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical ServiceNow Flaws Let Attackers Execute Code and Access Data",
+      "url": "https://cybersecuritynews.com/servicenow-fixes-critical-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-29T01:54:59+00:00",
+      "description": "ServiceNow patched four flaws, including three critical bugs enabling code execution, data theft, and privilege escalation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/ServiceNow-Fixes-Critical-Flaws.webp",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -113,17 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
-      "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-27T11:04:15+00:00",
-      "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the\u2026",
-      "image": "",
-      "topic": "Ransomware",
-      "kind": "Investigation"
-    },
-    {
       "title": "A polymorphic phishing page (that occasionally breaks itself), (Thu, Aug 27th)",
       "url": "https://isc.sans.edu/diary/rss/33290",
       "source": "SANS ISC",
@@ -144,39 +177,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
-      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-14T11:24:35+00:00",
-      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has\u2026",
-      "image": "",
-      "topic": "Investigation",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "url": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-11T21:28:35+00:00",
-      "description": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-06T17:00:56+00:00",
-      "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider\u2026",
-      "image": "",
-      "topic": "Ransomware",
-      "kind": "Investigation"
     }
   ],
   "sources": [
@@ -192,14 +192,14 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "HTTP Error 403: Forbidden"
     },
     {
       "name": "SANS ISC",
