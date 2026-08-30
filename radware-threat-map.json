@@ -1,7 +1,7 @@
 {
   "title": "Radware Live Threat Map Top Attacked Regions",
   "source": "https://livethreatmap.radware.com/",
-  "generatedAt": "2026-08-30T21:10:29+00:00",
+  "generatedAt": "2026-08-30T23:32:43+00:00",
   "intervals": {
     "hour": [
       {
@@ -10,7 +10,7 @@
       },
       {
         "name": "IN",
-        "value": 4
+        "value": 5
       },
       {
         "name": "IT",
@@ -31,19 +31,19 @@
         "value": 8
       },
       {
-        "name": "IT",
-        "value": 4
-      },
-      {
         "name": "IN",
         "value": 4
       },
       {
-        "name": "CA",
-        "value": 3
+        "name": "IT",
+        "value": 4
       },
       {
         "name": "JP",
+        "value": 3
+      },
+      {
+        "name": "CA",
         "value": 3
       }
     ]
