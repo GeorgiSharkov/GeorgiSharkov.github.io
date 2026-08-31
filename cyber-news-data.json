@@ -1,27 +1,82 @@
 {
-  "generatedAt": "2026-08-31T14:21:27.047198+00:00",
+  "generatedAt": "2026-08-31T21:02:20.588210+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Hackers Hide ValleyRAT Backdoor Inside Adware Targeting Users in China and India",
-      "url": "https://cybersecuritynews.com/hackers-hide-valleyrat-backdoor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T14:12:41+00:00",
-      "description": "Adware is being used to deliver ValleyRAT backdoor malware, targeting users in China and India for spying and data theft.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Hackers-Hide-ValleyRAT-Backdoor-Inside-Adware-Targeting-Users-in-China-and-India.webp",
-      "topic": "Malware",
+      "title": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33298",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-08-31T20:00:34+00:00",
+      "description": "One of my internet-exposed inference honeypots was discovered, relabeled with sought-after model names, and incorporated into infrastructure apparently used to provide \"free\" LLM backends. It then received a real coding-agent session\u2026",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+      "url": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-31T17:24:28+00:00",
+      "description": "North Korean workers are expanding remote-job fraud beyond IT into healthcare and sales, using false identities, proxies, and laptop farms.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg79i0RXS7ZzzPurGwbsquOv8l9-GsYQmsw9y1qCzEeDMKYNXjn84VZVfVZU9aiGqnyDyQ6ZdgKosZxn60KtJ6TgTREMyC_ZnhyCxv3kSLtAXBHA2suVHDYFdWYllL4aN0-exJxnCfjXJL5dlo08aVU1YtzJchTD7nORvsBe0oXivCBhctDCcEn85Cmjiab/s1700-nu-rw-lo-l85-e365/1000104722.jpg",
+      "topic": "Threat intelligence",
       "kind": "News"
     },
     {
-      "title": "Security Risk Advisors Launches SCALR AI as a Free SOC AI Platform for Security Teams",
-      "url": "https://cybersecuritynews.com/security-risk-advisors-launches-scalr-ai-as-a-free-soc-ai-platform-for-security-teams/",
+      "title": "Broadcom Launches VMware AI Factory to Secure Enterprise AI Agents",
+      "url": "https://cybersecuritynews.com/broadcom-vmware-ai-factory/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T14:04:18+00:00",
-      "description": "Security Risk Advisors (SRA), the authors of the free VECTR platform, announce today another great free platform launch: SCALR AI. Security teams can get SCALR AI for free, delivered through the Azure Marketplace.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlNs2UqHnsAFAlqZtuvL-KE3if3sE9McjHt8EE3ugg2Emkbuo_INcKzo78XHtlW7Azmu9ClVTWjGCshYo9VBUNGaT_qIGDl8JGLYgHmhMZZLCXJCvdOnpCUud164-_Pur2lss2QUyc1MkTLOOnSPw5CQ6gWOZIf04tw8pPgz9llUedzp3o7YVcQKcgy6U/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-08-31T185731.35.webp",
+      "publishedAt": "2026-08-31T16:43:51+00:00",
+      "description": "Broadcom unveiled VMware AI Factory at VMware Explore 2026 in Las Vegas, introducing a software-defined foundation within VMware Private AI Cloud designed to help enterprises deploy, govern, and secure AI workloads from bare-metal infrastructure through to\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Broadcom-VMware-AI-Factory.webp",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Investigating New Exchange Online Outage Tracked as EX1464935 [Updated]",
+      "url": "https://cybersecuritynews.com/microsof-new-exchange-online/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-31T16:40:42+00:00",
+      "description": "Microsoft has opened an active investigation into a new Exchange Online disruption after a wave of user reports flagged access and mail-flow problems across the cloud-based email service.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Exchange-Online-Outage1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Multiple PaperCut NG/MF Vulnerabilities Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/papercut-ng-mf-vulnerabilities-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-31T15:56:28+00:00",
+      "description": "CISA has added two vulnerabilities affecting PaperCut NG and PaperCut MF to its KEV Catalog, warning that threat actors are actively exploiting the flaws in real-world attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/PaperCut-NG_MF-Vulnerabilities-Exploited.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "D-Link Router Flaws Let Unauthenticated Attackers Change Admin Password and Steal Wi-Fi Credentials",
+      "url": "https://cybersecuritynews.com/d-link-router-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-08-31T15:44:40+00:00",
+      "description": "D-Link has released a firmware update addressing critical access-control and information-disclosure vulnerabilities in its DIR-X1860Z router.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/D-Link-Router-Flaws-Let-Unauthenticated-Attackers-Change-Admin-Password-and-Steal-Wi-Fi-Credentials-1.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Nightmare Eclipse Drops \u2018HardBreacher\u2019 Kaspersky Product Exploit",
+      "url": "https://www.securityweek.com/nightmare-eclipse-drops-hardbreacher-kaspersky-product-exploit/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-08-31T14:32:34+00:00",
+      "description": "Kaspersky told SecurityWeek that it patched the vulnerability affecting its Endpoint Security product.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/coding-vulnerability-software-development.jpeg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -36,25 +91,14 @@
       "kind": "News"
     },
     {
-      "title": "Top 10 Best Cyber Threat Intelligence Companies in 2026",
-      "url": "https://cybersecuritynews.com/best-cyber-threat-intelligence-companies-2/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T13:53:26+00:00",
-      "description": "Best Cyber Threat Intelligence Companies : 1. ANY.RUN Threat Intelligence 2. Anomali 3. CrowdStrike 4. IBM Security 5. Palo Alto Networks",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcItyJ19S9yDWl1enHoMD_exTE7G3tdywMzpmZJuLhWjybIRMeJ5ArPcwy2c_hEvMtBIDrXVindRhjXtkwXOZzRfv9L2Yv3K6ZdD2IeY-Ojduhv4TWzTVraSdrXOHk1zwMhVUX8v8PaCvU_IDqmZ4-2R6Cz_OntjArZTysDIEHQrJlcoHz0mPPkFON-F4/s1600/any%20run%20threat%20.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "EU Designates ChatGPT as Very Large Online Search Engine After Crossing 45 Million Users",
-      "url": "https://cybersecuritynews.com/eu-designates-chatgpt/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T13:36:14+00:00",
-      "description": "The European Commission on Monday designated OpenAI's ChatGPT as a Very Large Online Search Engine under the Digital Services Act, after the chatbot declared that it reaches at least 45 million average monthly users in the European Union.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/EU-ChatGPT-Very-Large-Online-Search-Engine.webp",
-      "topic": "News",
+      "title": "\u26a1 Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+      "url": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-08-31T13:50:00+00:00",
+      "description": "The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQHUlnyxCIYFLSRsvotvppFdq5zZ2BQQXJ4PI03uluqvzH3d4FhLogVr2pn0zbUGUQlQQXrk53CDaRZ3q4jC3wLxxG9NPQMtAsx0qkU4yatwjEogU-3RF4s2jpxb394Sd2JMEYhBKbv9TJd41QqI3WRZEcd5UWHXvszq1cKblrRBthblIYeefUx3wPbBM/s1600/recap.jpg",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -91,47 +135,14 @@
       "kind": "News"
     },
     {
-      "title": "Anthropic Warns Claude Users of Infostealer Malware Infections",
-      "url": "https://www.securityweek.com/anthropic-warns-claude-users-of-infostealer-malware-infections/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-31T12:11:58+00:00",
-      "description": "The AI giant is logging customers out of their accounts and removing payment data to prevent unauthorized Claude usage.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/malware-infection.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
       "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-31T11:47:24+00:00",
-      "description": "Aurora ransomware operators used Cursor Agent for hands-on exploitation against 10 targets after receiving credentials or an existing route.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1700-nu-rw-lo-l85-e365/cursor.jpg",
+      "description": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security. The two\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1600/cursor.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-      "url": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-31T11:31:47+00:00",
-      "description": "Anthropic's Compliance API now exposes Claude Code session transcripts but misses local hooks, configurations, and non-Anthropic model activity.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEithkMoEFgk1IZj_h_hGp94DwzD4UyQGh2f-epiRD6fn_XcMyB44HkXe-7XaHzviE8sImzIctDBjibyY0Gdrt_OPFFeja3KnOd9KsPFP3PeTxUzlshseSyukl0-cmQWZctAeVQHTUpvW99C8FZrhCcwPDZWoYShfC9jTGqmj1Va2K-Mo2kK6GbSksGIbM4/s1700-nu-rw-lo-l85-e365/dan.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-      "url": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-31T09:04:55+00:00",
-      "description": "Fire Ant compromises Cisco IOS XR routers and TACACS servers to capture traffic, harvest credentials, and suppress defensive telemetry.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxYI5Ntk3CPoEGUHNQbd80hij-0QLnz3V_HBU3aXV-mvQq98IE6xsRlbuwZ2PNbbSV7dA-HlNfqRWj0_bd3XpQCOPt9R2gS3PJMm8lfMP_9IoKyhDNbY9NOotNDHO68v2DSUT_R-0UYTqZQc16DJM7OqS8_35iVUMqyy3GrUt7iMaIWz6iW6OSP2ddiDc/s1700-nu-rw-lo-l85-e365/cisco-creds.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -165,17 +176,6 @@
       "description": "During my last FOR610 session, a student asked me if I had some statistics in mind about the compilers used to generate malicious PE files? A couple of months ago, I shared some stats about the trend in 64bits VS. 32bits malware[1]. Can we go a bit further?\u2026",
       "image": "",
       "topic": "Malware",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Friday, August 28th, 2026 https://isc.sans.edu/podcastdetail/10072, (Fri, Aug 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33294",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-28T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
