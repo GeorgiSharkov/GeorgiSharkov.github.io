@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-01T18:47:08.938551+00:00",
+  "generatedAt": "2026-09-01T23:31:57.194811+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-09-01T22:40:28+00:00",
+      "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on\u2026",
+      "image": "",
+      "topic": "Identity",
+      "kind": "Investigation"
+    },
+    {
+      "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33300",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-01T21:30:18+00:00",
+      "description": "Introduction",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Palo Alto Networks Acquires AI Agent Platform Console",
+      "url": "https://www.securityweek.com/palo-alto-networks-acquires-ai-agent-platform-console/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-01T20:29:42+00:00",
+      "description": "The cybersecurity giant announced the acquisition alongside quarterly results showing a 34% increase in revenue and strong growth in next-generation security ARR.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2022/11/Palo_Alto_H.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Sevii Targets AI-Speed Attacks With Preemptive Autonomous Defense",
       "url": "https://www.securityweek.com/sevii-targets-ai-speed-attacks-with-preemptive-autonomous-defense/",
@@ -80,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Start Exploiting Critical Langflow Vulnerability",
-      "url": "https://www.securityweek.com/hackers-start-exploiting-critical-langflow-vulnerability/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-01T12:07:54+00:00",
-      "description": "Tracked as CVE-2026-0768, the security defect allows unauthenticated attackers to execute arbitrary Python code remotely.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Vulnerability-Databases.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Tuesday, September 1st, 2026 https://isc.sans.edu/podcastdetail/10076, (Tue, Sep 1st)",
       "url": "https://isc.sans.edu/diary/rss/33302",
       "source": "SANS ISC",
@@ -99,17 +121,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33300",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-01T00:33:21+00:00",
-      "description": "Introduction",
-      "image": "",
-      "topic": "Malware",
       "kind": "DFIR"
     },
     {
@@ -166,17 +177,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "Investigation"
-    },
-    {
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "url": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-06T17:00:56+00:00",
-      "description": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider\u2026",
-      "image": "",
-      "topic": "Ransomware",
-      "kind": "Investigation"
     }
   ],
   "sources": [
@@ -194,7 +194,7 @@
       "name": "Cybersecurity News",
       "status": "error",
       "stories": 0,
-      "message": "<urlopen error timed out>"
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
