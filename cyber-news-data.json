@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-01T00:45:42.781917+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-01T08:53:09.076517+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "WatchGuard Patches Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/watchguard-patches-critical-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-01T08:50:04+00:00",
+      "description": "Three critical issues in the Fireware OS iked process could allow unauthenticated attackers to execute arbitrary code remotely.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+      "url": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-01T08:26:24+00:00",
+      "description": "Russia-aligned UAC-0099 used GuardBreaker prompt injection in a malicious VBS script to interfere with AI-assisted code analysis.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS-2JWiSkzpLkhR3nGp917yyeS4NATTlFhnDXcvmQdrc42BPgObEnlmwXMDP7fN8ruoEJ13Zru_lTVjPwTfU8aeSfK9uGt5H9dYK0s-STCiRMe4Wai1tgbeAU9CaaYZ9aIAZSDv3hVTD5UHKdCGNXGRkkrXDgsc0_3wHruuxZg4uRJDMhuSWSXKfgFanBb/s1700-nu-rw-lo-l85-e365/russian.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-01T07:22:30+00:00",
+      "description": "Attackers are exploiting critical Langflow and Rails flaws; the Rails bug can expose files and secrets and ultimately enable code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9_EygYWh8fZRphLL1V9dg-h1jgQ0f9xmlVuPwPAaaEUUCBkKbQ4nTaL27WIevCJg42GWtDGMKyRvzBUz9MWtD2FxPx7vCKwXLirO-N1YRcpPy0mX_B_fTG2gBS-JPRJGXfCh_I2yHJgoi1V5lve7Opcm-M0ApWs6gohPjNhBi-0CsP49guHlM2lzHLsiD/s1700-nu-rw-lo-l85-e365/lang.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PaperCut Exploitation Escalates to Active Intrusions",
+      "url": "https://www.securityweek.com/papercut-exploitation-escalates-to-active-intrusions/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-01T05:27:18+00:00",
+      "description": "CISA has added the vulnerabilities tracked as CVE-2026-82078 and CVE-2026-81578 to its KEV catalog.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/PaperCut-print-management.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, September 1st, 2026 https://isc.sans.edu/podcastdetail/10076, (Tue, Sep 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33302",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-01T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
       "url": "https://isc.sans.edu/diary/rss/33300",
@@ -33,50 +88,6 @@
       "description": "North Korean workers are expanding remote-job fraud beyond IT into healthcare and sales, using false identities, proxies, and laptop farms.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg79i0RXS7ZzzPurGwbsquOv8l9-GsYQmsw9y1qCzEeDMKYNXjn84VZVfVZU9aiGqnyDyQ6ZdgKosZxn60KtJ6TgTREMyC_ZnhyCxv3kSLtAXBHA2suVHDYFdWYllL4aN0-exJxnCfjXJL5dlo08aVU1YtzJchTD7nORvsBe0oXivCBhctDCcEn85Cmjiab/s1700-nu-rw-lo-l85-e365/1000104722.jpg",
       "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Broadcom Launches VMware AI Factory to Secure Enterprise AI Agents",
-      "url": "https://cybersecuritynews.com/broadcom-vmware-ai-factory/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T16:43:51+00:00",
-      "description": "Broadcom unveiled VMware AI Factory at VMware Explore 2026 in Las Vegas, introducing a software-defined foundation within VMware Private AI Cloud designed to help enterprises deploy, govern, and secure AI workloads from bare-metal infrastructure through to\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Broadcom-VMware-AI-Factory.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Investigating New Exchange Online Outage Tracked as EX1464935 [Updated]",
-      "url": "https://cybersecuritynews.com/microsof-new-exchange-online/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T16:40:42+00:00",
-      "description": "Microsoft has opened an active investigation into a new Exchange Online disruption after a wave of user reports flagged access and mail-flow problems across the cloud-based email service.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Microsoft-Exchange-Online-Outage1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of Multiple PaperCut NG/MF Vulnerabilities Actively Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/papercut-ng-mf-vulnerabilities-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T15:56:28+00:00",
-      "description": "CISA has added two vulnerabilities affecting PaperCut NG and PaperCut MF to its KEV Catalog, warning that threat actors are actively exploiting the flaws in real-world attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/PaperCut-NG_MF-Vulnerabilities-Exploited.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "D-Link Router Flaws Let Unauthenticated Attackers Change Admin Password and Steal Wi-Fi Credentials",
-      "url": "https://cybersecuritynews.com/d-link-router-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-08-31T15:44:40+00:00",
-      "description": "D-Link has released a firmware update addressing critical access-control and information-disclosure vulnerabilities in its DIR-X1860Z router.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/D-Link-Router-Flaws-Let-Unauthenticated-Attackers-Change-Admin-Password-and-Steal-Wi-Fi-Credentials-1.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -113,67 +124,12 @@
       "kind": "News"
     },
     {
-      "title": "McKesson Confirms Data Breach as Attacker Deadline Looms",
-      "url": "https://www.securityweek.com/mckesson-confirms-data-breach-as-attacker-deadline-looms/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-31T13:14:46+00:00",
-      "description": "The ShinyHunters extortion group has claimed the theft of 284 million records from the company\u2019s systems.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/03/healthcare-medical.jpeg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "What the Hugging Face Incident Teaches Security Leaders About AI Agent Access",
-      "url": "https://www.securityweek.com/what-the-hugging-face-incident-teaches-security-leaders-about-ai-agent-access/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-08-31T12:15:00+00:00",
-      "description": "Security teams must treat autonomous agents as highly privileged identities.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-      "url": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-31T12:14:00+00:00",
-      "description": "ValleyRAT abuses signed QN Wallpaper software for DLL sideloading, disables Windows Defender, and runs inside a trusted process.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8OUY2TmBxA9RLM9yG0dnv8OShMmr_0KXcJUWtPvcTbFKQ-jmG4_6PyVNCNxQH9VacMVqmi3ZdmcHepDqoLT4XOl5AHZ6mnxmg_QrTUmK2D01fsjrBJKQ1KmlodLNjgbNp65TVoTslEHW5s1IqgFR8xYQWab9WQBvn30sYuM-xh7pSQfAKUOFi3v4q3Do/s1700-nu-rw-lo-l85-e365/adblock.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-      "url": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-08-31T11:47:24+00:00",
-      "description": "Aurora ransomware operators used Cursor Agent for hands-on exploitation against 10 targets after receiving credentials or an existing route.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1700-nu-rw-lo-l85-e365/cursor.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Monday, August 31st, 2026 https://isc.sans.edu/podcastdetail/10074, (Mon, Aug 31st)",
       "url": "https://isc.sans.edu/diary/rss/33296",
       "source": "SANS ISC",
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-08-31T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
-      "url": "https://isc.sans.edu/diary/rss/33288",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-30T07:14:49+00:00",
-      "description": "YARA-X&#;x26;#;39;s 1.20.0 release brings 14 improvements and 13 bugfixes.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
