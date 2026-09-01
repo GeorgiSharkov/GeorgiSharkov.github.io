@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-08-31T21:02:20.588210+00:00",
+  "generatedAt": "2026-09-01T00:45:42.781917+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Guildma (Astaroth) malware infection from Brazilian Portuguese email, (Tue, Sep 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33300",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-01T00:33:21+00:00",
+      "description": "Introduction",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
     {
       "title": "The Coding-Agent Trap: When a \"Free\" LLM Endpoint Is the Adversary, (Mon, Aug 31st)",
       "url": "https://isc.sans.edu/diary/rss/33298",
@@ -96,8 +107,8 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-31T13:50:00+00:00",
-      "description": "The boring parts caused most of the trouble. A router shipped ready to listen. A fake check turned the user into the installer. Trusted systems collected traffic and passwords, then cleaned the logs. Old bugs formed new attack chains. Even an AI agent\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQHUlnyxCIYFLSRsvotvppFdq5zZ2BQQXJ4PI03uluqvzH3d4FhLogVr2pn0zbUGUQlQQXrk53CDaRZ3q4jC3wLxxG9NPQMtAsx0qkU4yatwjEogU-3RF4s2jpxb394Sd2JMEYhBKbv9TJd41QqI3WRZEcd5UWHXvszq1cKblrRBthblIYeefUx3wPbBM/s1600/recap.jpg",
+      "description": "This week\u2019s cybersecurity recap covers AI agents breaching Hugging Face, Chinese spy proxies, router backdoors, PaperCut attacks, and banking malware.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQHUlnyxCIYFLSRsvotvppFdq5zZ2BQQXJ4PI03uluqvzH3d4FhLogVr2pn0zbUGUQlQQXrk53CDaRZ3q4jC3wLxxG9NPQMtAsx0qkU4yatwjEogU-3RF4s2jpxb394Sd2JMEYhBKbv9TJd41QqI3WRZEcd5UWHXvszq1cKblrRBthblIYeefUx3wPbBM/s1700-nu-rw-lo-l85-e365/recap.jpg",
       "topic": "Malware",
       "kind": "News"
     },
@@ -140,8 +151,8 @@
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-08-31T11:47:24+00:00",
-      "description": "Threat actors associated with Aurora (aka Aur0ra) ransomware have been observed using SpaceX's artificial intelligence (AI)-powered coding assistant Cursor to break into target networks, according to findings from CloudSEK and Gambit Security. The two\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1600/cursor.jpg",
+      "description": "Aurora ransomware operators used Cursor Agent for hands-on exploitation against 10 targets after receiving credentials or an existing route.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHyB4qaQy8srcEIgc1oMi08PMKtoVFIsmW3ho_7f7rISFML8Kmz8jYzDE1FCN9Nfo4LvvgVFV_FEijgLbCrZcJ5zy7xlvAYTKuyGrcE0IU6yqEd-awlmOyRQ3FXcSeA5yM71NLDa5nxpj9taGnNiVXvCb_5tun5j3dfb6z8j7cmwQ2O0PE2V3y0oKWv6sB/s1700-nu-rw-lo-l85-e365/cursor.jpg",
       "topic": "Ransomware",
       "kind": "News"
     },
@@ -165,17 +176,6 @@
       "description": "YARA-X&#;x26;#;39;s 1.20.0 release brings 14 improvements and 13 bugfixes.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Some Malicious PE Stats, (Thu, Aug 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33292",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-08-28T07:04:13+00:00",
-      "description": "During my last FOR610 session, a student asked me if I had some statistics in mind about the compilers used to generate malicious PE files? A couple of months ago, I shared some stats about the trend in 64bits VS. 32bits malware[1]. Can we go a bit further?\u2026",
-      "image": "",
-      "topic": "Malware",
       "kind": "DFIR"
     },
     {
