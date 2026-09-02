@@ -1,10 +1,120 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2026.09.01",
-  "dateReleased": "2026-09-01T19:22:46.2162Z",
-  "count": 1687,
-  "generatedAt": "2026-09-02T16:37:45+00:00",
+  "catalogVersion": "2026.09.02",
+  "dateReleased": "2026-09-02T16:54:39.8321Z",
+  "count": 1694,
+  "generatedAt": "2026-09-02T19:49:10+00:00",
   "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-59822",
+      "vendorProject": "BerriAI",
+      "product": "LiteLLM",
+      "vulnerabilityName": "BerriAI LiteLLM Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an arbitrary Bearer token.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-16",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://github.com/BerriAI/litellm/security/advisories/GHSA-7488-6r32-c95q ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
+      "cwes": [
+        "CWE-287",
+        "CWE-306"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-48710",
+      "vendorProject": "Kludex",
+      "product": "Starlette",
+      "vulnerabilityName": "Kludex Starlette HTTP Request/Response Smuggling Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentication bypass when the authentication depends on the reconstructed URL\u2019s path. This vulnerability could be chaned with CVE-2026-42271.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-16",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/Kludex/starlette/security/advisories/GHSA-86qp-5c8j-p5mr ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+      "cwes": [
+        "CWE-444"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-49869",
+      "vendorProject": "Kestra",
+      "product": "Kestra OSS",
+      "vulnerabilityName": "Kestra OSS OS Command Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "This vulnerability affects an open-source component, third-party library, protocol, or proprietary implementation that could be used by different products. For more information, please see: https://github.com/kestra-io/kestra/security/advisories/GHSA-5vc5-wxxq-3fjx ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+      "cwes": [
+        "CWE-78",
+        "CWE-184",
+        "CWE-287",
+        "CWE-918"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-82329",
+      "vendorProject": "JFrog",
+      "product": "Artifactory",
+      "vulnerabilityName": "JFrog Artifactory Improper Authentication Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-82329",
+      "cwes": [
+        "CWE-287"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-9586",
+      "vendorProject": "Sangoma",
+      "product": "Switchvox",
+      "vulnerabilityName": "Sangoma Switchvox SQL Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single crafted request, including database operations and remote code execution.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://sangomakb.atlassian.net/wiki/spaces/Switchvox/pages/1802371073/Switchvox+-+Release+Notes+Version+8.4.0.2+July+14+2026 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
+      "cwes": [
+        "CWE-89"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-83548",
+      "vendorProject": "SonicWall",
+      "product": "SMA1000 Appliances",
+      "vulnerabilityName": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
+      "cwes": [
+        "CWE-918",
+        "CWE-441"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-83549",
+      "vendorProject": "SonicWall",
+      "product": "SMA1000 Appliances",
+      "vulnerabilityName": "SonicWall SMA1000 Appliances OS Command Injection Vulnerability",
+      "dateAdded": "2026-09-02",
+      "shortDescription": "SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote code execution.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-05",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+      "cwes": [
+        "CWE-78"
+      ]
+    },
     {
       "cveID": "CVE-2026-82078",
       "vendorProject": "PaperCut",
@@ -190,111 +300,6 @@
       "notes": "https://www.oracle.com/security-alerts/cpujan2026.html ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
       "cwes": [
         "CWE-284"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-73570",
-      "vendorProject": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "vulnerabilityName": "Zimbra Collaboration Suite (ZCS) OS Command Injection Vulnerability",
-      "dateAdded": "2026-08-21",
-      "shortDescription": "Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of arbitrary operating system commands as the Zimbra user.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-08-24",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories ; https://blog.zimbra.com/2026/07/patch-release-update-zimbra-10-1-20/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
-      "cwes": [
-        "CWE-78"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-72530",
-      "vendorProject": "TrueConf",
-      "product": "Server",
-      "vulnerabilityName": "TrueConf Server Code Injection Vulnerability",
-      "dateAdded": "2026-08-20",
-      "shortDescription": "TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the isolated environment and execute arbitrary code on the host system.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-09-03",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://trueconf.com/blog/news/security-fixes-updates-and-advisories ; https://ics-cert.kaspersky.com/advisories/2026/08/11/trueconf-server-breakout-from-isolated-environment/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "cwes": [
-        "CWE-94"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-72529",
-      "vendorProject": "TrueConf",
-      "product": "Server",
-      "vulnerabilityName": "TrueConf Server Missing Authentication for Critical Function Vulnerability",
-      "dateAdded": "2026-08-20",
-      "shortDescription": "TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary script.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-08-23",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://trueconf.com/blog/news/security-fixes-updates-and-advisories ; https://ics-cert.kaspersky.com/advisories/2026/08/11/trueconf-server-missing-authentication-for-critical-function/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "cwes": [
-        "CWE-306"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-64849",
-      "vendorProject": "MLflow",
-      "product": "MLflow",
-      "vulnerabilityName": "MLflow Server-Side Request Forgery Vulnerability",
-      "dateAdded": "2026-08-19",
-      "shortDescription": "MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-09-02",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://github.com/mlflow/mlflow/pull/24258 ; https://github.com/mlflow/mlflow/issues/24179 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-      "cwes": [
-        "CWE-918"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-33824",
-      "vendorProject": "Microsoft",
-      "product": "Internet Key Exchange (IKE) Service Extensions",
-      "vulnerabilityName": "Microsoft Internet Key Exchange (IKE) Service Extensions Double Free Vulnerability",
-      "dateAdded": "2026-08-18",
-      "shortDescription": "Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-08-21",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2026-33824 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-      "cwes": [
-        "CWE-415"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-59310",
-      "vendorProject": "Broadcom",
-      "product": "VMware vCenter",
-      "vulnerabilityName": "Broadcom VMware vCenter Path Traversal Vulnerability",
-      "dateAdded": "2026-08-18",
-      "shortDescription": "Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-08-21",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/38017 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
-      "cwes": [
-        "CWE-22"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-55040",
-      "vendorProject": "Microsoft",
-      "product": "SharePoint",
-      "vulnerabilityName": "Microsoft SharePoint Weak Authentication Vulnerability",
-      "dateAdded": "2026-08-18",
-      "shortDescription": "Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-08-21",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-55040 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-      "cwes": [
-        "CWE-1390"
       ]
     }
   ]
