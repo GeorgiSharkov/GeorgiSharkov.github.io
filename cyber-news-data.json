@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-03T16:39:04.222809+00:00",
+  "generatedAt": "2026-09-03T21:17:10.101228+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-03T18:02:47+00:00",
+      "description": "This week\u2019s ThreatsDay Bulletin tracks fake IT calls, abused remote tools, phishing kits, unsafe downloads, ransomware, stolen data, and weak settings",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcEnh-e0_L2Oz7JQcSCFBd90F29Z7_wHbJYiWOxWeZTeLLHbRZYK6vt1PrcUOgSFei7fxLMnP2lp0QyEOW2rzfcsnBFhayNHtKLPtHJFsu55w_GxuA3XLkZf-kleynMxXjc8zELZt7FBZFdqCAtesj3Fj148fwlGitAxZxu6t1wZDb7wgZQ1MR-Vmc4FL/s1700-nu-rw-lo-l85-e365/threats-main.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "LLMjacking Attack Uses Leaked AWS IAM Key to Steal Paid AI Model Access",
+      "url": "https://cybersecuritynews.com/llmjacking-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-03T16:58:34+00:00",
+      "description": "A newly documented cloud intrusion shows how quickly attackers can turn a single leaked AWS credential into a revenue stream by hijacking access to premium AI models, a technique researchers call LLMjacking.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/LLMjacking-Attack.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Fewer attacks, more force: Link11\u2019s European Cyber Report finds new DDoS records for the first half of 2026",
+      "url": "https://cybersecuritynews.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-03T16:45:29+00:00",
+      "description": "Link11 has released its European Cyber Report for the first half of 2026, providing an overview of DDoS attack activity targeting European companies.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDUmXAX7wVzSwfcgTbUZTgYacnLNw0rSJMKrs2TluvLsc0y9wIqIM1r1Qb95W2RtJesbTRAXC619iydrCeHzEj6-cY_o4hyphenhyphenhn7mwcRdktawM7682KqCOMa55qpm2nZuZIKjAHHAy4da8GWtUs4Nd6_xaAmgK__HSR63l-88at0yR8FgmkMjNPWag7TWBw/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-03T18340%20(1).webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
       "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
@@ -69,28 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Weaponize ScreenConnect to Spread Worm-Like Malware Across Windows Systems",
-      "url": "https://cybersecuritynews.com/hackers-weaponize-screenconnect/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-03T14:52:58+00:00",
-      "description": "Rogue remote-support clients spread malware across Windows systems, using social engineering and trusted tools to expand attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Weaponize-ScreenConnect-to-Spread-Worm-Like-Malware-Across-Windows-Systems.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Chaotic Eclipse Claims Avast Antivirus 0-Day Vulnerability \u2013 PoC Released",
-      "url": "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-03T14:47:29+00:00",
-      "description": "Chaotic Eclipse claims an Avast Antivirus zero-day privilege-escalation flaw and released the PrettyPrague PoC.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chaotic-Eclipse-Claims-Avast-Antivirus-0-Day-Vulnerability-PoC-Released.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
       "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
       "source": "The Hacker News",
@@ -121,17 +132,6 @@
       "description": "The startup\u2019s firewall evaluates AI skills, plugins and MCP servers for malicious instructions, excessive permissions and software supply chain risks.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-      "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-03T11:58:00+00:00",
-      "description": "A phishing campaign uses fake documents to install legitimate RMM software across 46 countries, with 45% of activity tied to the U.S.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_OZ4yHwsQM1Z9se2g-uJPuSkiSNpmyWCCi_a9dKpH9jnTuFYyts16e2gdkB45YknrA-nuzp6-mbEi-1adV92N-7aBjfYL69ECPlWOV7a5xb5rG6kqsMzc3WJ0-lXLBMO86aB3WTJ6MFLR0N0YbC8TElIg0-Jh6SIDe8mc3nCyzoE6zugVDFHFfjPEGkI/s1700-nu-rw-lo-l85-e365/targets.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
