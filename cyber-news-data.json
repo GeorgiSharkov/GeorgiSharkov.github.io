@@ -1,82 +1,137 @@
 {
-  "generatedAt": "2026-09-03T11:40:12.541367+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-03T16:39:04.222809+00:00",
+  "count": 20,
   "stories": [
     {
-      "title": "153 Million Driver License Images Offered on Dark Web",
-      "url": "https://www.securityweek.com/153-million-driver-license-images-offered-on-dark-web/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-03T10:54:18+00:00",
-      "description": "Cybercriminals are offering digital scans of US and Canadian driver\u2019s licenses, likely stolen from IDScan.net.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/07/data-tracking-report.jpeg",
-      "topic": "News",
+      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
+      "url": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-03T15:52:07+00:00",
+      "description": "Cisco patches a Nexus 9000 flaw enabling unauthenticated remote root code execution and seven IOS XR umbrella CVEs affecting every release.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj9su2Wd6Yb88IvMpg5v1P8IyPg4KWKTeBXjerFgxz0U5WLKO2U50jymR-fKujsKeMFZ3q1VEupMRFZUz5gD47JRzVceagYJJ3bCTT8t532rY63po54kanBCPX4_hmKsxe-1b52IGrYc__TH5Y2F13G6L32HNKPQxL34iqzEPuBGynDCu6xFdKHplXvdY/s1700-nu-rw-lo-l85-e365/cisco-flaws.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
-      "url": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+      "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
+      "url": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-03T15:35:19+00:00",
+      "description": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/Fraud-Cybercrime-AI.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
+      "url": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-03T10:43:01+00:00",
-      "description": "Attackers abuse Node.js to execute malicious scripts and deploy payloads in attacks targeting governments, technology companies, and hotels.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixQdi-o7wSstsDvvGluX8EDCUhGUHwpKjSkMSaigZZkFOEI_mWS0kLYvjSaG9olG2Y8GYxqH2kKRUtT82RVMLfW-FuBdrWMbGSfJMVVK3YAL3FClWT6t0Dz33NzHEYK1dL93JLl7YzyETY1i9ZYpRty-BG5Vfk_vGUggKigBtpQZxKuUW8-Jg3m9xZV8BL/s1700-nu-rw-lo-l85-e365/jsnode.jpg",
+      "publishedAt": "2026-09-03T15:26:47+00:00",
+      "description": "BraZetsu profiles compromised Windows hosts, collects browser and financial data, and stocks the Infected Marketplace.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9vYkFCrVzaEl0WQj4XBILj6pIxDJ92eWgVrkOa_pdvJJoKF95JCX7VmQzY0HPZkhg5IMvjfCu15YCs5AMJ22NM6SBX7j7sCgpfiaUZZAL4Uc5vP0-q9VKN4LNSY4a701mmRCgLJQxCjnmnsSAxD7gFnyf9-dRaSxPZuGqLuOIQ415vCOjH-DZRtYSBHA/s1700-nu-rw-lo-l85-e365/access-for-sale.jpg",
       "topic": "Malware",
       "kind": "News"
     },
     {
-      "title": "Over 3 Million WordPress Sites Affected by Migration Plugin Vulnerability",
-      "url": "https://www.securityweek.com/over-3-million-wordpress-sites-affected-by-migration-plugin-vulnerability/",
+      "title": "Capsule Security Launches \u2018AI Circuit Breaker\u2019 to Stop Rogue Agents",
+      "url": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-03T10:40:00+00:00",
-      "description": "The high-severity SQL injection flaw (CVE-2026-19949) could allow unauthenticated attackers to achieve remote code execution.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
-      "url": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-03T10:36:39+00:00",
-      "description": "Shai-Hulud now scans 469 locations for credentials across developer environments, CI/CD tooling, cloud configs, and AI tool configs.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx0JCqLgANXGkgF5NMg__RxJg5IJ8HgQcvr_2zxEM6HSYzesKdLjKbrqmtAegyIpBmLxnryF5CeJlRh4J09q3e1kOo8dEzGXjhQpunnmGoL6wzEW_6R7lsN4zE5IybADP50VCjGGrBercYm6OIMCYsSgbHJ6sN9AYY3v6kCqPof8TWzR2O_ybViE1aYo/s1700-nu-rw-lo-l85-e365/Shai-Hulud.gif",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco Warns of Unpatched Secure Email Flaws, Patches Critical Switch Vulnerabilities",
-      "url": "https://www.securityweek.com/cisco-warns-of-unpatched-secure-email-flaws-patches-critical-switch-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-03T10:30:00+00:00",
-      "description": "Publicly disclosed S/MIME flaws could expose encrypted email content, while critical IOS XR and Nexus bugs could enable remote code execution and authentication bypass.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Cisco-firewall.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
-      "url": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-03T08:43:17+00:00",
-      "description": "An iMessage zero-click exploit infected a Serbian student movement member's iPhone with Pegasus spyware in December 2025 and January 2026.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaEvtAyNP-TiY3M6wMUFNKymiK_BeQH_MEIzeFf79X0fNFV0gyV3MiegzULqTG6bC-20nprEpTHySkf3Hf0N72sLy-oVN6_ndqU4OwSm37Cx0OYrr2MbzpiII3ly4tEv891mjYhbSV18Eg94BBSitXG8XnON3QjpRqGkErk15L1FoeYT94R8WGlK8xUuJt/s1700-nu-rw-lo-l85-e365/iphone-exploit.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
-      "url": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-03T06:26:59+00:00",
-      "description": "FalconFlank abuses CrowdStrike Falcon's malicious macro remediation to demonstrate local privilege escalation on updated Windows systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmg6caSDWQVOPIIl9NAXS4ofXmOdWz1eIGPMKMLCbHXc_uWiv11QNh2k-f43JAoVVQNMQj54d2yqJ_iO9vzwIO8nvQIyxr7N6GDCKsYDmSJEpyjiUBsY-zhMcmfEsWcEqDrKvrEkXxQC1LPldFXkqbJHO81V7oHnsRtuyjMZKzubBjwrK_yQ2xT2om89Ja/s1700-nu-rw-lo-l85-e365/windows-exploit.jpg",
+      "publishedAt": "2026-09-03T15:15:00+00:00",
+      "description": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Investigates Elevated Errors Affecting ChatGPT and Codex Services",
+      "url": "https://cybersecuritynews.com/openai-investigates-elevated-errors/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-03T15:11:46+00:00",
+      "description": "OpenAI has reported an ongoing service incident involving elevated errors across ChatGPT and Codex, with the company confirming that it is investigating degraded performance affecting the two platforms.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Investigates-Elevated-Errors.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Phantom Deal Hackers Impersonate Executives and Use Fake NDAs to Steal Corporate Wire Transfers",
+      "url": "https://cybersecuritynews.com/phantom-deal-hackers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-03T15:01:27+00:00",
+      "description": "Phantom Deal uses fake executive WhatsApp messages to trick employees into sending large wire transfers without malware.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Phantom-Deal-Hackers-Impersonate-Executives-and-Use-Fake-NDAs-to-Steal-Corporate-Wire-Transfers.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Weaponize ScreenConnect to Spread Worm-Like Malware Across Windows Systems",
+      "url": "https://cybersecuritynews.com/hackers-weaponize-screenconnect/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-03T14:52:58+00:00",
+      "description": "Rogue remote-support clients spread malware across Windows systems, using social engineering and trusted tools to expand attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Weaponize-ScreenConnect-to-Spread-Worm-Like-Malware-Across-Windows-Systems.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Chaotic Eclipse Claims Avast Antivirus 0-Day Vulnerability \u2013 PoC Released",
+      "url": "https://cybersecuritynews.com/avast-antivirus-0-day-vulnerability-poc-released/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-03T14:47:29+00:00",
+      "description": "Chaotic Eclipse claims an Avast Antivirus zero-day privilege-escalation flaw and released the PrettyPrague PoC.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chaotic-Eclipse-Claims-Avast-Antivirus-0-Day-Vulnerability-PoC-Released.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
+      "url": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-03T14:39:05+00:00",
+      "description": "Thomson Reuters says an unauthorized party obtained C-Track court files that may contain personal and sealed information.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1700-nu-rw-lo-l85-e365/reuters.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "HiddenLayer Raises $100 Million for AI Runtime Security",
+      "url": "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-03T12:17:30+00:00",
+      "description": "The Austin-based company will invest in agentic runtime security capabilities to secure AI coding agents.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AI Agent Firewall Startup AIR Security Emerges From Stealth With $50 Million",
+      "url": "https://www.securityweek.com/ai-agent-firewall-startup-air-security-emerges-from-stealth-with-50-million/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-03T12:00:00+00:00",
+      "description": "The startup\u2019s firewall evaluates AI skills, plugins and MCP servers for malicious instructions, excessive permissions and software supply chain risks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
+      "url": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-03T11:58:00+00:00",
+      "description": "A phishing campaign uses fake documents to install legitimate RMM software across 46 countries, with 45% of activity tied to the U.S.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_OZ4yHwsQM1Z9se2g-uJPuSkiSNpmyWCCi_a9dKpH9jnTuFYyts16e2gdkB45YknrA-nuzp6-mbEi-1adV92N-7aBjfYL69ECPlWOV7a5xb5rG6kqsMzc3WJ0-lXLBMO86aB3WTJ6MFLR0N0YbC8TElIg0-Jh6SIDe8mc3nCyzoE6zugVDFHFfjPEGkI/s1700-nu-rw-lo-l85-e365/targets.jpg",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -100,17 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "OpenLeash Adds a Human Check to Risky AI Agent Actions",
-      "url": "https://www.securityweek.com/openleash-adds-a-human-check-to-risky-ai-agent-actions/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-02T19:30:00+00:00",
-      "description": "The security tool intercepts potentially dangerous agent actions, blocking clear threats and requesting human approval when intent is uncertain.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078, (Wed, Sep 2nd)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
