@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-04T20:59:54.789953+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-04T23:14:14.182532+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+      "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-04T16:44:18+00:00",
+      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development workflows.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Project-Zenith-Windows-PCs.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "In Other News: Microsoft\u2019s Cloud Patches, Hacked Dropbox Accounts, Guardio\u2019s $1.1B Valuation",
       "url": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
@@ -66,6 +77,39 @@
       "description": "Ted hides inside trojanized HAProxy builds to intercept traffic and serve altered pages at two South Korean organizations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1700-nu-rw-lo-l85-e365/HAProxy.jpg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+      "url": "https://cybersecuritynews.com/popular-messaging-services/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-04T14:44:43+00:00",
+      "description": "Toy Ghouls deploys custom Windows backdoors using messaging services to maintain control and evade detection.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
+      "url": "https://cybersecuritynews.com/nodestealer-record-everything/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-04T14:29:44+00:00",
+      "description": "NodeStealer now steals data and adds keylogging, clipboard monitoring, and screen capture, expanding into full surveillance.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NodeStealer-Can-Now-Record-Everything-Victims-Type-and-Steal-Their-Screenshots.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails",
+      "url": "https://cybersecuritynews.com/hackers-use-invisible-unicode/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-04T14:09:55+00:00",
+      "description": "Attackers use invisible Unicode characters to bypass phishing filters, hiding finance-themed scams that can steal credentials or cause fraud.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Invisible-Unicode-Characters-to-Evade-Phishing-Detection-in-Millions-of-Emails.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
