@@ -1,38 +1,82 @@
 {
-  "generatedAt": "2026-09-04T11:40:48.910149+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-04T16:34:04.185241+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Trezor Confirms ShipMonk Data Breach Exposed 67,000 Additional US Customers",
-      "url": "https://cybersecuritynews.com/trezor-confirms-shipmonk-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T11:37:44+00:00",
-      "description": "Hardware wallet maker Trezor has confirmed that a data breach at logistics partner ShipMonk is substantially larger than first reported, after older U.S. order records that should have been deleted remained in the leaked dataset.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Trezor-Confirms-ShipMonk-Data-Breach.webp",
-      "topic": "Data breach",
+      "title": "In Other News: Microsoft\u2019s Cloud Patches, Hacked Dropbox Accounts, Guardio\u2019s $1.1B Valuation",
+      "url": "https://www.securityweek.com/in-other-news-microsofts-cloud-patches-hacked-dropbox-accounts-guardios-1-1b-valuation/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-04T16:18:30+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: Microsoft rolled out patches for cloud services, hackers compromised 5,000 Dropbox accounts, and Guardio is now valued at $1.1 billion.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Google Patches 6th Chrome Zero-Day of 2026",
-      "url": "https://www.securityweek.com/google-patches-6th-chrome-zero-day-of-2026/",
+      "title": "HPE Patches Critical RCE Vulnerabilities in AOS-CX",
+      "url": "https://www.securityweek.com/hpe-patches-critical-rce-vulnerabilities-in-aos-cx/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-04T11:31:52+00:00",
-      "description": "Google\u2019s Chrome 152 security update resolves 12 vulnerabilities, including a high-severity type confusion flaw in the V8 engine.",
+      "publishedAt": "2026-09-04T16:11:06+00:00",
+      "description": "Nearly two dozen issues, tracked collectively as CVE-2026-73749 (CVSS score of 9.8), were addressed with the updates.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Microsoft Teams to Add QR Code Protection in Teams Messaging",
-      "url": "https://cybersecuritynews.com/microsoft-teams-qr-code-protection/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T10:40:42+00:00",
-      "description": "Microsoft Teams is preparing to introduce new QR code protection controls designed to reduce phishing and fraud risks in chats involving external users.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-to-Add-QR-Code-Protection.webp",
+      "title": "OpenAI Pledges $1 Billion to Bring Frontier AI to Critical Infrastructure Defenders",
+      "url": "https://www.securityweek.com/openai-pledges-1-billion-to-bring-frontier-ai-to-critical-infrastructure-defenders/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-04T16:07:22+00:00",
+      "description": "The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-04T15:57:15+00:00",
+      "description": "A phishing campaign sent up to 2.37 million weekday emails using invisible Unicode tags to split financial lure words and bypass filters.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoD4eMYuhLT8HvcHbYe8A4hkhmDH1f4pIWTIm5AXKueqdpY1NS8yNiTtlzS4mdIS8PLY8_zM1uQDNpO1U49HCUoJT8nn2Bpb6krpcYpOSQ3H3Z6fUsm-UkoFvj8fk8oShK0eUhO6px8hox_ZzlnX8tu0pJKpJ3UAF2Vcb3XyBXjCt_8uD8OOkMMgUjv8Pc/s1700-nu-rw-lo-l85-e365/emails.jpg",
       "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-04T15:20:19+00:00",
+      "description": "PostgreSQL fixes CVE-2026-6471, which lets replication accounts load libraries and run code when logical WAL is enabled.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s1700-nu-rw-lo-l85-e365/PostgreSQL.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-04T14:51:13+00:00",
+      "description": "Ted hides inside trojanized HAProxy builds to intercept traffic and serve altered pages at two South Korean organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1700-nu-rw-lo-l85-e365/HAProxy.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
+      "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-04T13:23:12+00:00",
+      "description": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -47,61 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "14 Fake macOS Installers Linked to DPRK Campaign Deliver Credential-Stealing RAT",
-      "url": "https://cybersecuritynews.com/14-fake-macos-installers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T07:54:34+00:00",
-      "description": "Fake macOS installers are spreading a credential-stealing RAT, targeting developers and job seekers through the Contagious Interview campaign.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/14-Fake-macOS-Installers-Linked-to-DPRK-Campaign-Deliver-Credential-Stealing-RAT.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-      "url": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T07:35:14+00:00",
-      "description": "Plex fixes multiple undisclosed flaws in Media Server 1.43.3 and Desktop 1.115.0, urging users to update.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7RQQCR9QxY1NZ80GCfpUjvGGcw9QDirshH7KrSyc097EIaNqLLVGgnnlOE095qTOt2q9CTu91gJ_Pf7Y9-AcZahb35e7XG2YrA8D4O0FPwVRSzBzMT5ecKzu0bnAxP603K5q8R_7IZrE-iSAAJQsmMWXBt8IPwHIIz3u6Kf-okZyo0G1fLoe9VOzZEEQF/s1700-nu-rw-lo-l85-e365/plex.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Dahua Camera Backdoor Survives Password Changes and Factory Resets on Compromised Devices",
-      "url": "https://cybersecuritynews.com/dahua-camera-backdoor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T07:23:00+00:00",
-      "description": "Over 14,000 Dahua cameras were compromised worldwide using weak credentials and flaws, exposing video feeds and device settings.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Dahua-Camera-Backdoor-Survives-Password-Changes-and-Factory-Resets-on-Compromised-Devices.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-      "url": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T07:18:47+00:00",
-      "description": "Google patched an actively exploited Chrome V8 flaw that enables arbitrary code execution inside the sandbox through a crafted HTML page.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjelmC2UuYemuI1nBeaecfPBZ1Bfb5nz6T51_OhCUPHJivX8ioIjrYMVtVsjsrcA0xbEe_O4iMthJ2xwXWJVhAb5CCJlhnJS4McM9IpmPww86RSznT3h7pg5DYOXlnwon616y-1s2qwbWbmR40B5JCvYbtwM8lD5Fk5yLHWS7IKmH5pXQ8qO4SfEasBhhsq/s1700-nu-rw-lo-l85-e365/chrome-v8-exploit.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-      "url": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T06:47:52+00:00",
-      "description": "OpenAI limits GPT-6 Astra to code review and patching after tests showed exploit development capabilities, including two zero-days.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbaZmLqqSMfwaOmjs47_PEd97T29HeDX_1dAOZn0Qzo0HuloopzzhZ7pnQzlsHvXvIAwzMWq1tbza325niZMSgjTMn0z5MyT-CWb7NfoprOWz2L_cj6tosVDyyp2ZbV4s59p-khE64lXWULLOW8zVMCv720iwDwCYUEuAHYkV8m2diDsyzFKwvNifzq-oT/s1700-nu-rw-lo-l85-e365/gpt6.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Friday, September 4th, 2026 https://isc.sans.edu/podcastdetail/10082, (Fri, Sep 4th)",
       "url": "https://isc.sans.edu/diary/rss/33310",
       "source": "SANS ISC",
@@ -111,39 +100,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Manchester Airports Group Data on 8.8 Million People Leaked After Ransom Refusal",
-      "url": "https://www.securityweek.com/manchester-airports-group-data-on-8-8-million-people-leaked-after-ransom-refusal/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-03T15:35:19+00:00",
-      "description": "Hacker group published roughly 550GB of data after MAG reportedly refused to pay a ransom demand; the group says it gained access via exposed admin keys.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/Fraud-Cybercrime-AI.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Capsule Security Launches \u2018AI Circuit Breaker\u2019 to Stop Rogue Agents",
-      "url": "https://www.securityweek.com/capsule-security-launches-ai-circuit-breaker-to-stop-rogue-agents/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-03T15:15:00+00:00",
-      "description": "New models, trained using NVIDIA Nemotron 3 Ultra, aim to catch rogue agent behavior before it executes, without the latency of large-model review.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "HiddenLayer Raises $100 Million for AI Runtime Security",
-      "url": "https://www.securityweek.com/hiddenlayer-raises-100-million-for-ai-runtime-security/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-03T12:17:30+00:00",
-      "description": "The Austin-based company will invest in agentic runtime security capabilities to secure AI coding agents.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Honeypot-Omaha and batch.py [Guest Diary], (Wed, Sep 2nd)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
