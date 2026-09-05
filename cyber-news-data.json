@@ -1,15 +1,37 @@
 {
-  "generatedAt": "2026-09-05T10:53:11.014606+00:00",
+  "generatedAt": "2026-09-05T15:29:23.929126+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-05T14:17:02+00:00",
+      "description": "Trezor says 67,000 more U.S. customers had personal and order data exposed in a breach at shipping provider ShipMonk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIuPjOUFz-c7o9qipnKr4soYR6NxJJxAYgcDqwTPl3LB5XXiag7UpIq8-qFzCbiC1cnlpWfyaRvAt9MVxIlSXeuEN_97devL_mSI25Ee73cO47vDq4dqsM8Nq08d7FogI7sVIPWlnMTD-Una_rRwyTyXqKG6am2DrU_EoIESLicWgDvpxsw6e8yAHmJnGI/s1700-nu-rw-lo-l85-e365/trezor.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
+      "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-05T13:00:28+00:00",
+      "description": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Microsoft Teams Desktop Client Fails to Load on Windows System \u2013 Microsoft Investigating",
       "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-09-05T09:20:18+00:00",
-      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-Desktop-Client-Fails.webp",
+      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the problem, tracked internally as TM1466820, and confirmed it\u2026",
+      "image": "",
       "topic": "News",
       "kind": "News"
     },
@@ -31,7 +53,7 @@
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-09-05T07:46:07+00:00",
       "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Breach-Company-Network.webp",
+      "image": "",
       "topic": "Identity",
       "kind": "News"
     },
@@ -63,8 +85,8 @@
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-09-04T16:44:18+00:00",
-      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development workflows.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Project-Zenith-Windows-PCs.webp",
+      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development\u2026",
+      "image": "",
       "topic": "News",
       "kind": "News"
     },
@@ -113,36 +135,14 @@
       "kind": "News"
     },
     {
-      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-      "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T15:20:19+00:00",
-      "description": "PostgreSQL fixes CVE-2026-6471, which lets replication accounts load libraries and run code when logical WAL is enabled.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s1700-nu-rw-lo-l85-e365/PostgreSQL.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
       "url": "https://cybersecuritynews.com/popular-messaging-services/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-09-04T14:44:43+00:00",
-      "description": "Toy Ghouls deploys custom Windows backdoors using messaging services to maintain control and evade detection.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp",
+      "description": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discreet way to run commands, collect system details, and\u2026",
+      "image": "",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
-      "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-04T13:23:12+00:00",
-      "description": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
