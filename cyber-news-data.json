@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-05T15:29:23.929126+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-05T17:32:35.328670+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-05T16:52:33+00:00",
+      "description": "Attackers exploited CVE-2026-63077 to breach JetBrains Cadence, accessing a 2024 backup containing credentials and user data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjH4sbUEhtXF9n1_8s2f6ChnKMmjUv4Ht-DvEtZyLDPuSNhKFoi41aNlu3-u5kJLXUva81rNFwlsprMXE11cnbXc_es968eO-ANvWm0j1Cyi9SaoVUfneQqNINCR7lRs3qkkYdsSoyMu34Mgxs7B4pKclAt4atPw8B-RCFOTChtgeji9NTes_NEdZ2KKu2_/s1700-nu-rw-lo-l85-e365/jet.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+      "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-05T16:05:08+00:00",
+      "description": "Broadcom patched two VMware Workstation and Fusion flaws that let local VM administrators execute code on the host; no exploitation is known.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzExwAd4Vsd2Xz-9kex6ucfK6MDmftPVCfiOGQICWDKrgxMJ6fOj0EttLP2kpYBDv4xSYdrEXt8Wntz916Oa2tyrMnaSHDLH9vb5RF4ncjvwdkeFU8GwaqWvT6zLHRTKIF-BOGK8p24Im4NwqlqZxTokMsYOfXSBdA0-jXxMbMozfjdK-iyyavdAywjAAh/s1700-nu-rw-lo-l85-e365/vmware-host.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
       "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
@@ -25,17 +47,6 @@
       "kind": "News"
     },
     {
-      "title": "Microsoft Teams Desktop Client Fails to Load on Windows System \u2013 Microsoft Investigating",
-      "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-05T09:20:18+00:00",
-      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client. The company acknowledged the problem, tracked internally as TM1466820, and confirmed it\u2026",
-      "image": "",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
       "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
       "source": "The Hacker News",
@@ -44,28 +55,6 @@
       "description": "Autonomous agents identifying as OpenAI systems used a German wiki to coordinate a timed web task and share a sandbox bypass.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBL2gQMKgajDATkCjnHyMtUkVhK5mcTQ2ebqcXngB6oZ71uiJ3skI9P4zikK1s5PCH4nhPG7ZyFHHWC13OVF2KRr_pIQ2U7zFITnNc3Qc_Am3bv0E1AzL9UVmrJ9vUJzZalktYIxWGlc-d5zYdicOJexMDWQ-4NIKinC_AksG1Mepn7QmFGWC1x52gVpw/s1700-nu-rw-lo-l85-e365/agents-openai.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
-      "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-05T07:46:07+00:00",
-      "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident\u2026",
-      "image": "",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-05T07:31:53+00:00",
-      "description": "Attackers exploit two PaperCut flaws to steal credentials from U.S. and European education organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiDwimIl7rewJeRtSYeCkmhBUPSN0lsURwcKXrBtQ4vANRZqEkbjcPBIjODR0kFgIbLqwLiaBcB6lX8M6rilVclrxZcsKogB3NNhnwqJz3dZwgWGZ-6NHnAEGM-ENsEebYhn81lWBN0-nqfYrMLlHoQ3ebfHB7V74NpbKpOZZ84WZYyli7w1lDKJrCtds/s1700-nu-rw-lo-l85-e365/papercut-hacks.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -78,17 +67,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
-      "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T16:44:18+00:00",
-      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development\u2026",
-      "image": "",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "In Other News: Microsoft\u2019s Cloud Patches, Hacked Dropbox Accounts, Guardio\u2019s $1.1B Valuation",
@@ -121,28 +99,6 @@
       "description": "The Daybreak initiative will provide subsidized AI cyber capabilities, training and technical assistance, though OpenAI has disclosed few details about costs and eligibility.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-      "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T15:57:15+00:00",
-      "description": "A phishing campaign sent up to 2.37 million weekday emails using invisible Unicode tags to split financial lure words and bypass filters.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoD4eMYuhLT8HvcHbYe8A4hkhmDH1f4pIWTIm5AXKueqdpY1NS8yNiTtlzS4mdIS8PLY8_zM1uQDNpO1U49HCUoJT8nn2Bpb6krpcYpOSQ3H3Z6fUsm-UkoFvj8fk8oShK0eUhO6px8hox_ZzlnX8tu0pJKpJ3UAF2Vcb3XyBXjCt_8uD8OOkMMgUjv8Pc/s1700-nu-rw-lo-l85-e365/emails.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
-      "url": "https://cybersecuritynews.com/popular-messaging-services/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T14:44:43+00:00",
-      "description": "A financially motivated threat group known as Toy Ghouls has begun using two custom Windows backdoors that communicate through popular messaging and broker services. The tools give attackers a discreet way to run commands, collect system details, and\u2026",
-      "image": "",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
