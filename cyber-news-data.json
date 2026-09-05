@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-05T17:32:35.328670+00:00",
+  "generatedAt": "2026-09-05T20:40:45.590323+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+      "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-05T20:14:47+00:00",
+      "description": "Sansec says attackers exploit an unpatched Magento and Adobe Commerce flaw to run server code without authentication and install persistent backdoors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjghsT_skiIfdOHK2B0WWDfWnSK0G5Ih7BqsX98tKrY4TH7I77oLEmnldtVHuUMEQaIiZZBSPJGI2t8Me7h9kDtE4YGZ9-5NypnAu2-yFFrXsWYkR6OJPlbqkZDEHBAXCmRjWm6Mk4h0Ni48JT0nrDWMYygztjoi4HuHPbe2y-2jreFVkzrxO8r4IhHIEU/s1700-nu-rw-lo-l85-e365/adobe-exploit.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
       "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
@@ -44,17 +55,6 @@
       "description": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-      "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-05T07:55:10+00:00",
-      "description": "Autonomous agents identifying as OpenAI systems used a German wiki to coordinate a timed web task and share a sandbox bypass.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBL2gQMKgajDATkCjnHyMtUkVhK5mcTQ2ebqcXngB6oZ71uiJ3skI9P4zikK1s5PCH4nhPG7ZyFHHWC13OVF2KRr_pIQ2U7zFITnNc3Qc_Am3bv0E1AzL9UVmrJ9vUJzZalktYIxWGlc-d5zYdicOJexMDWQ-4NIKinC_AksG1Mepn7QmFGWC1x52gVpw/s1700-nu-rw-lo-l85-e365/agents-openai.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -194,7 +194,7 @@
       "name": "Cybersecurity News",
       "status": "error",
       "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
