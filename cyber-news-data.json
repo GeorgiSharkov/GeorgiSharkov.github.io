@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-05T04:53:37.643712+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-05T10:53:11.014606+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Teams Desktop Client Fails to Load on Windows System \u2013 Microsoft Investigating",
+      "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-05T09:20:18+00:00",
+      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-Desktop-Client-Fails.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+      "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-05T07:55:10+00:00",
+      "description": "Autonomous agents identifying as OpenAI systems used a German wiki to coordinate a timed web task and share a sandbox bypass.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBL2gQMKgajDATkCjnHyMtUkVhK5mcTQ2ebqcXngB6oZ71uiJ3skI9P4zikK1s5PCH4nhPG7ZyFHHWC13OVF2KRr_pIQ2U7zFITnNc3Qc_Am3bv0E1AzL9UVmrJ9vUJzZalktYIxWGlc-d5zYdicOJexMDWQ-4NIKinC_AksG1Mepn7QmFGWC1x52gVpw/s1700-nu-rw-lo-l85-e365/agents-openai.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+      "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-05T07:46:07+00:00",
+      "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Breach-Company-Network.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-05T07:31:53+00:00",
+      "description": "Attackers exploit two PaperCut flaws to steal credentials from U.S. and European education organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguiDwimIl7rewJeRtSYeCkmhBUPSN0lsURwcKXrBtQ4vANRZqEkbjcPBIjODR0kFgIbLqwLiaBcB6lX8M6rilVclrxZcsKogB3NNhnwqJz3dZwgWGZ-6NHnAEGM-ENsEebYhn81lWBN0-nqfYrMLlHoQ3ebfHB7V74NpbKpOZZ84WZYyli7w1lDKJrCtds/s1700-nu-rw-lo-l85-e365/papercut-hacks.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "numbat - AI agent observability, (Fri, Sep 4th)",
       "url": "https://isc.sans.edu/diary/rss/33312",
@@ -12,6 +56,17 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
+    },
+    {
+      "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
+      "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-04T16:44:18+00:00",
+      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development workflows.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Project-Zenith-Windows-PCs.webp",
+      "topic": "News",
+      "kind": "News"
     },
     {
       "title": "In Other News: Microsoft\u2019s Cloud Patches, Hacked Dropbox Accounts, Guardio\u2019s $1.1B Valuation",
@@ -69,13 +124,13 @@
       "kind": "News"
     },
     {
-      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-      "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T14:51:13+00:00",
-      "description": "Ted hides inside trojanized HAProxy builds to intercept traffic and serve altered pages at two South Korean organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1700-nu-rw-lo-l85-e365/HAProxy.jpg",
+      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
+      "url": "https://cybersecuritynews.com/popular-messaging-services/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-04T14:44:43+00:00",
+      "description": "Toy Ghouls deploys custom Windows backdoors using messaging services to maintain control and evade detection.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp",
       "topic": "Malware",
       "kind": "News"
     },
@@ -87,17 +142,6 @@
       "publishedAt": "2026-09-04T13:23:12+00:00",
       "description": "Tracked as CVE-2026-9586, the unauthenticated SQL injection flaw can be exploited remotely for arbitrary code execution.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-      "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-04T08:48:45+00:00",
-      "description": "Attackers are exploiting Super Forms and Elementor Pro flaws to upload PHP files and execute code on WordPress sites.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9jQ8JSakEpnqxzsAZhwXnVvTMB0Lrbj7shOcXtSJzA30wcMTbkAIUGvSZPiBXOLeAW66Jpuysxn56W8YWD00hsCNB742oLqeyvgD8MXdIHHqwyeehyoyXx9G9c6XjxwN10Co_XVZuBkRjMquzgf9V17gh2Gw-xff0qJ9rh3sPO4tBq4OjjS0dxsl73WKT/s1700-nu-rw-lo-l85-e365/wp-main.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
