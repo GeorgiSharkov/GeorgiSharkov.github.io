@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-04T23:14:14.182532+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-05T04:53:37.643712+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Microsoft Unveils Project Zenith Windows PCs That Can Run 30B+ AI Models Locally",
-      "url": "https://cybersecuritynews.com/project-zenith-windows-pcs/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T16:44:18+00:00",
-      "description": "Microsoft has introduced Project Zenith, a new developer-optimized Windows 11 experience built for a class of high-memory PCs capable of running large AI models directly on-device, marking a significant shift away from cloud-dependent AI development workflows.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Project-Zenith-Windows-PCs.webp",
-      "topic": "News",
-      "kind": "News"
+      "title": "numbat - AI agent observability, (Fri, Sep 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33312",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-05T03:39:52+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
       "title": "In Other News: Microsoft\u2019s Cloud Patches, Hacked Dropbox Accounts, Guardio\u2019s $1.1B Valuation",
@@ -80,39 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Use Popular Messaging Services to Control New Windows Backdoors",
-      "url": "https://cybersecuritynews.com/popular-messaging-services/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T14:44:43+00:00",
-      "description": "Toy Ghouls deploys custom Windows backdoors using messaging services to maintain control and evade detection.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Popular-Messaging-Services-to-Control-New-Windows-Backdoors.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "NodeStealer Can Now Record Everything Victims Type and Steal Their Screenshots",
-      "url": "https://cybersecuritynews.com/nodestealer-record-everything/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T14:29:44+00:00",
-      "description": "NodeStealer now steals data and adds keylogging, clipboard monitoring, and screen capture, expanding into full surveillance.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NodeStealer-Can-Now-Record-Everything-Victims-Type-and-Steal-Their-Screenshots.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use Invisible Unicode Characters to Evade Phishing Detection in Millions of Emails",
-      "url": "https://cybersecuritynews.com/hackers-use-invisible-unicode/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-04T14:09:55+00:00",
-      "description": "Attackers use invisible Unicode characters to bypass phishing filters, hiding finance-themed scams that can steal credentials or cause fraud.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Invisible-Unicode-Characters-to-Evade-Phishing-Detection-in-Millions-of-Emails.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Sangoma Switchvox Vulnerabilities Exploited in the Wild",
       "url": "https://www.securityweek.com/sangoma-switchvox-vulnerabilities-exploited-in-the-wild/",
       "source": "SecurityWeek",
@@ -162,17 +129,6 @@
       "source": "SANS ISC",
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-09-03T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078, (Wed, Sep 2nd)",
-      "url": "https://isc.sans.edu/diary/rss/33304",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-02T02:00:02+00:00",
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
