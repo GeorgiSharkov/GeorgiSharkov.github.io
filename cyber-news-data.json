@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-06T05:01:15.898683+00:00",
+  "generatedAt": "2026-09-06T11:17:36.598540+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
+      "url": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-06T10:57:47+00:00",
+      "description": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrative control over the platform and every device it manages,\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ASUS-Control-Center-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
+      "url": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-06T10:25:15+00:00",
+      "description": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromise turns into a full network takeover.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/MikroTik-RouterOS-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-06T09:32:38+00:00",
+      "description": "Attackers gain full administrative control of MikroTik routers through internet-exposed SSH without authentication, CERT Polska says.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiSiBDO5j21gorWS-UjrLlDl0RzniibBPjfO4xfPBBLbH1yTQIB88G-hUBRtYNufYwkPpVjWWLu0GXk1TB7pv_x8KbQCbfsL5Ft8JlZLa6iZfvuHU-vKSPNq5Li-e9DtoOvZIOXPYmibx9uc_imnug4ZJUog31KwlA3YKmY8ghOpROVQR8mwPj9qb-1kA/s1700-nu-rw-lo-l85-e365/micro.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-06T08:34:20+00:00",
+      "description": "Four persistent programs linked to REVSTEALER can steal wallet data, proxy attacker traffic, and mine cryptocurrency.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1700-nu-rw-lo-l85-e365/rev.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
       "url": "https://cybersecuritynews.com/best-ztna-solutions/",
@@ -47,28 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-      "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-05T16:05:08+00:00",
-      "description": "Broadcom patched two VMware Workstation and Fusion flaws that let local VM administrators execute code on the host; no exploitation is known.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzExwAd4Vsd2Xz-9kex6ucfK6MDmftPVCfiOGQICWDKrgxMJ6fOj0EttLP2kpYBDv4xSYdrEXt8Wntz916Oa2tyrMnaSHDLH9vb5RF4ncjvwdkeFU8GwaqWvT6zLHRTKIF-BOGK8p24Im4NwqlqZxTokMsYOfXSBdA0-jXxMbMozfjdK-iyyavdAywjAAh/s1700-nu-rw-lo-l85-e365/vmware-host.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-05T14:17:02+00:00",
-      "description": "Trezor says 67,000 more U.S. customers had personal and order data exposed in a breach at shipping provider ShipMonk.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIuPjOUFz-c7o9qipnKr4soYR6NxJJxAYgcDqwTPl3LB5XXiag7UpIq8-qFzCbiC1cnlpWfyaRvAt9MVxIlSXeuEN_97devL_mSI25Ee73cO47vDq4dqsM8Nq08d7FogI7sVIPWlnMTD-Una_rRwyTyXqKG6am2DrU_EoIESLicWgDvpxsw6e8yAHmJnGI/s1700-nu-rw-lo-l85-e365/trezor.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
       "title": "Elementor Pro WordPress Plugin Vulnerability Exploited to Hack Sites",
       "url": "https://www.securityweek.com/elementor-pro-wordpress-plugin-vulnerability-exploited-to-hack-sites/",
       "source": "SecurityWeek",
@@ -77,28 +99,6 @@
       "description": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Teams Desktop Client Fails to Load on Windows System \u2013 Microsoft Investigating",
-      "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-05T09:20:18+00:00",
-      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-Desktop-Client-Fails.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
-      "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-05T07:46:07+00:00",
-      "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Breach-Company-Network.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
