@@ -1,29 +1,7 @@
 {
-  "generatedAt": "2026-09-06T11:17:36.598540+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-06T15:42:34.286691+00:00",
+  "count": 16,
   "stories": [
-    {
-      "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
-      "url": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T10:57:47+00:00",
-      "description": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrative control over the platform and every device it manages,\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ASUS-Control-Center-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
-      "url": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T10:25:15+00:00",
-      "description": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromise turns into a full network takeover.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/MikroTik-RouterOS-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
@@ -44,28 +22,6 @@
       "description": "Four persistent programs linked to REVSTEALER can steal wallet data, proxy attacker traffic, and mine cryptocurrency.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1700-nu-rw-lo-l85-e365/rev.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
-      "url": "https://cybersecuritynews.com/best-ztna-solutions/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T04:48:58+00:00",
-      "description": "Best ZTNA Solutions: 1. Zscaler 2. Cisco 3. Perimeter 81 4. Fortinet 5. Cloudflare 6. Akamai 7. Palo Alto Networks 8. Forcepoint.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/07/best-ztna-solutions-cloudconnexa.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
-      "url": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T03:52:46+00:00",
-      "description": "A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patch available.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Magento-and-Adobe-Commerce-0-Day-RCE.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
