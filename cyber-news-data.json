@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-05T23:13:19.930420+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-06T05:01:15.898683+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
+      "url": "https://cybersecuritynews.com/best-ztna-solutions/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-06T04:48:58+00:00",
+      "description": "Best ZTNA Solutions: 1. Zscaler 2. Cisco 3. Perimeter 81 4. Fortinet 5. Cloudflare 6. Akamai 7. Palo Alto Networks 8. Forcepoint.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/07/best-ztna-solutions-cloudconnexa.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Actively Exploiting Magento and Adobe Commerce 0-Day RCE Vulnerability",
+      "url": "https://cybersecuritynews.com/magento-and-adobe-commerce-0-day-rce/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-06T03:52:46+00:00",
+      "description": "A newly discovered zero-day vulnerability in Magento Open Source and Adobe Commerce is being actively exploited by attackers to seize full control of online stores, and there is still no official patch available.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Magento-and-Adobe-Commerce-0-Day-RCE.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
       "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
@@ -55,6 +77,28 @@
       "description": "Tracked as CVE-2026-32475 (CVSS score of 9.8), the bug described as an arbitrary file upload issue in the function that handles form submissions.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Teams Desktop Client Fails to Load on Windows System \u2013 Microsoft Investigating",
+      "url": "https://cybersecuritynews.com/microsoft-teams-desktop-client-fails/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-05T09:20:18+00:00",
+      "description": "Microsoft is investigating an ongoing issue causing some Windows users to face significant delays or outright failures when launching the Microsoft Teams desktop client.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Teams-Desktop-Client-Fails.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AI Agents Breach Company Network in Under 10 Hours and Steal Root Credentials",
+      "url": "https://cybersecuritynews.com/ai-agents-breach-company-network/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-05T07:46:07+00:00",
+      "description": "A human attacker armed with frontier artificial intelligence models breached an enterprise network and seized root credentials in under 10 hours, a timeline that would normally take human red teams roughly two weeks to complete, according to a new incident\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Breach-Company-Network.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
