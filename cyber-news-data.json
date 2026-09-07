@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06T23:04:54.657529+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-07T05:09:17.436325+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
@@ -12,39 +12,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "CrowdStrike Launches SafeMind \u2013 First Agentic Cybersecurity Solution Built for Defenders",
-      "url": "https://cybersecuritynews.com/crowdstrike-launches-safemind/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T13:03:56+00:00",
-      "description": "CrowdStrike has unveiled SafeMind, a family of purpose-built security models and harnesses that the company is calling the first agentic system engineered specifically for cyber defenders.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CrowdStrike-Launches-SafeMind.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "ASUS Control Center Flaw Allows Attackers to Gain Full Admin Control of the System",
-      "url": "https://cybersecuritynews.com/asus-control-center-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T10:57:47+00:00",
-      "description": "ASUS has issued an urgent security update for ASUS Control Center Enterprise (ACC) after researchers uncovered a maximum-severity vulnerability that lets remote attackers seize complete administrative control over the platform and every device it manages,\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ASUS-Control-Center-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploiting MikroTik RouterOS Vulnerability in the Wild to Gain Complete Network Access",
-      "url": "https://cybersecuritynews.com/mikrotik-routeros-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T10:25:15+00:00",
-      "description": "Attackers are actively exploiting an unauthenticated remote access flaw in MikroTik RouterOS, and network administrators worldwide are being urged to patch their devices immediately before compromise turns into a full network takeover.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/MikroTik-RouterOS-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
@@ -66,17 +33,6 @@
       "description": "Four persistent programs linked to REVSTEALER can steal wallet data, proxy attacker traffic, and mine cryptocurrency.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1700-nu-rw-lo-l85-e365/rev.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "10 Best ZTNA Solutions (Zero Trust Network Access) In 2026",
-      "url": "https://cybersecuritynews.com/best-ztna-solutions/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-06T04:48:58+00:00",
-      "description": "Best ZTNA Solutions: 1. Zscaler 2. Cisco 3. Perimeter 81 4. Fortinet 5. Cloudflare 6. Akamai 7. Palo Alto Networks 8. Forcepoint.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/07/best-ztna-solutions-cloudconnexa.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
