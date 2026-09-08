@@ -1,15 +1,81 @@
 {
-  "generatedAt": "2026-09-08T05:08:13.627723+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-08T11:41:04.892264+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "New InjectEave Attack Allows Hackers to Recover Audio Playing on Headphones from 30 Meters",
-      "url": "https://cybersecuritynews.com/injecteave-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-08T03:20:01+00:00",
-      "description": "Researchers have unveiled a novel electromagnetic (EM) attack called InjectEave that lets an adversary eavesdrop on audio playing through wired and wireless headphones from as far as 30 meters away, even through walls, using nothing more than commercially\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/InjectEave-Attack-1.webp",
+      "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+      "url": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-08T11:22:07+00:00",
+      "description": "FreeIPA and 389 Directory Server flaws let an anonymous client create an attacker-chosen Kerberos identity in the administrators group.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSKAVaHcAsULrGXPVkGXRyf94eoG7Kv3X0wwK2lRC64l3Em-S4_H5iE8-poK04yzrAC18tuHqpZyHhJvFTgliu_z8jo4QR78Mi4ghhCA-cUVL4oj2zjoLGiWKmD16oV4i44VfY45DYll0Uij_Exf4U2JMSLJEyH8jZk_xXKq7O_7D73q7vTYCCc4hrTnQ/s1700-nu-rw-lo-l85-e365/freeipa.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "MikroTik Patches Critical Flaws Chained to Hack Routers",
+      "url": "https://www.securityweek.com/mikrotik-patches-critical-flaws-chained-to-hack-routers/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-08T11:15:00+00:00",
+      "description": "Dubbed MikroTrick, the bugs allow attackers to bypass authentication, overwrite configuration files, and take over devices.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Mathspace Data Breach Exposes Over 1 Million People",
+      "url": "https://www.securityweek.com/mathspace-data-breach-exposes-over-1-million-people/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-08T10:47:36+00:00",
+      "description": "Hackers stole the information of students, teachers, staff, and parents/guardians from a self-hosted Metabase instance.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "N-able Patches Critical Zero-Day in N-central",
+      "url": "https://www.securityweek.com/n-able-patches-critical-zero-day-in-n-central/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-08T10:37:58+00:00",
+      "description": "Administrators are advised to check their deployments for newly created user accounts they don\u2019t recognize.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/API-security-risks.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+      "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-08T09:13:47+00:00",
+      "description": "Adobe patches actively exploited CVE-2026-75650 in Commerce and Magento, used to deploy Linux backdoors and PHP web shells.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_xdakttovno7kFgFYIw5XGFGcSZibVvXYB64vih4iZpc4_WY_t7oe1X3igSPGXBa8UTkf4z4xn_GzZ_n7PmuFFvYC8Wsmb04PxYP5z-XHjZZFe_SASihwZNg1dxHXQzz8hBRo-6LhvQmwyo_MA9Kj6hrcci6ouvOX1D4f-0dNvs57M6WneQHC61yZkF_o/s1700-nu-rw-lo-l85-e365/magento.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+      "url": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-08T08:43:51+00:00",
+      "description": "BengalSEO poisons Bing search results to deliver MayaBot malware and funnel users into tech support scams.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_rKrsCwJpZOS1Cu2htzFszKn4OgjK2p5A43OUaQJsmlbjsaLfGHtgyqQPfOu3IFWqRBoj2J6hIiqv6CVr56ZLyyf73-E71iaDRB2nrO9qaGOg92EbOcutMu8M8i1uimwkC-GPcc9oGDgFNNLB4kkgfDB3MbcjPuAn_gsml3FyThlEyI3Pg8E-udYq175m/s1700-nu-rw-lo-l85-e365/bing.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Grindr to Pay \u00a326 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+      "url": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-08T07:00:43+00:00",
+      "description": "Grindr will pay \u00a326 million to settle a U.K. lawsuit alleging pre-2020 sharing of users' personal data, including HIV status.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGUJMPbCbes7NM-EpNPWOUc7bYX5pznAZZjAl29ELdnhrIFzOBqkVtUsiDgxWvImd-yqpnCi5E4EaA1SCbnqY-_1qOwv2RnBTrjOHwn738A5TVUyZV6uX9TQyjF2EmPsJhyxHc1IcqV0jH3JraUU5s3Yw64WOCoE4WawhfajZhq7X-XvWQtVfw-S2QxbkU/s1700-nu-rw-lo-l85-e365/grindr.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -25,72 +91,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
-      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-07T18:12:09+00:00",
-      "description": "PEEP uses Chrome and Edge as a post-compromise backdoor for credential theft and host command execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhA3-5bNylOMc_s8MAT2ibQnV33cnJXadwKPRXjYgAL0GcZWOXuwtM-s5HS4ryVu5ewnhfAqBtOiuSseLcUSyDIfxf5XKF6mAwrpyG-v3Y-siqjJY8I5zVEMXwfkKPwBNAqaO2sQFI-q2oA4MWiagZFUlknIPKADDfvOo8s2Ifsa_xBAojg1rD5ZGUErC85/s1700-nu-rw-lo-l85-e365/chrome-malware.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Bimbo Bakeries USA Confirms Data Breach in Oracle EBS Zero-Day Attack",
-      "url": "https://cybersecuritynews.com/bimbo-oracle-ebs-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-07T17:12:09+00:00",
-      "description": "Bimbo Bakeries USA, the American arm of the world's largest baking company, has confirmed that hackers stole employee data by exploiting a zero-day vulnerability in Oracle's E-Business Suite (EBS), joining a growing list of organizations swept up in the Clop\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Bimbo-Oracle-EBS-Data-Breach.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
-      "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-07T15:51:56+00:00",
-      "description": "PREY-0058 uses help desk vishing and AitM token theft to steal data from Microsoft 365 and other SaaS services for extortion.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-Zo4zgxCrVcz6-00WV2qAPHSD-av2Ed5hgRmR-2vUzkr9jVeph0NNb6gGsQfwSkFyuRfRcSsaISSpfysl_Xx5F48IM7HdBpO4F3CaVuLhk1v0a4vcH5xK_bxX6BxIjkfAjhDaNGcLG7_R9IcTjVGlFcW7y1ZV64imACHi9528LOjH1Flhk-cy9LFgrMv/s1700-nu-rw-lo-l85-e365/phish-ms.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Linux Rootkit Injects Fileless PHP Web Shells Into Compromised F5 BIG-IP Servers",
-      "url": "https://cybersecuritynews.com/linux-rootkit/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-07T15:02:56+00:00",
-      "description": "A Linux rootkit hides web shells in F5 BIG-IP APM server memory, giving attackers stealthy persistent access after RCE exploitation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Linux-Rootkit-Injects-Fileless-PHP-Web-Shells-Into-Compromised-F5-BIG-IP-Servers.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Online Maths Learning Platform Mathspace Disclosed Data Breach Impacts 1 Million Users",
-      "url": "https://cybersecuritynews.com/mathspace-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-07T14:59:44+00:00",
-      "description": "Online maths learning platform Mathspace has confirmed a data breach that exposed the personal information of more than one million students, parents, guardians, and school staff across Australia and New Zealand, after attackers exploited a critical flaw in\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Mathspace-Data-Breach.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-07T14:36:07+00:00",
-      "description": "This week\u2019s cybersecurity recap: Chrome zero-day attacks, router hijacks, Coder\u2019s supply chain breach, image-free QR phishing, and more security news.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3SJbgfzjY0QMdutDU1Lf8A1ZVh6S-hcQEwATiHIXXKIpYhh1mrojhkxootev2lhFxjehrTS8h3UNmZgHBwgxNUN0ho2r5Tzk2PRLqK_yO-4OetzmlaFE5V5z0G-Yp34y_RWR5ZlWoL51LWMOFh8YTZCKDADDnHFLhYZl5oQkqLFxJ9JHK1j35kxilIkyp/s1700-nu-rw-lo-l85-e365/recaps.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Nightmare Eclipse Drops CrowdStrike, Nvidia, Avast Zero-Day Exploits",
       "url": "https://www.securityweek.com/nightmare-eclipse-drops-crowdstrike-nvidia-avast-zero-day-exploits/",
       "source": "SecurityWeek",
@@ -99,50 +99,6 @@
       "description": "The proof-of-concept (PoC) exploits lead to privilege escalation, spawning a shell with System privileges.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/Zero-Day-Exploit.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "North Korean Hackers Deploy New Linux Espionage Toolkit",
-      "url": "https://www.securityweek.com/north-korean-hackers-deploy-new-linux-espionage-toolkit/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-07T12:12:08+00:00",
-      "description": "The stealthy toolkit embeds a backdoor in HAProxy and targets automotive and media organizations in South Korea for long-term surveillance.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/North-Korea-hacking.jpeg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Agents Hijack Another Victim Website",
-      "url": "https://www.securityweek.com/openai-agents-hijack-another-victim-website/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-07T12:03:04+00:00",
-      "description": "OpenAI agents made 15,000\u201318,000 autonomous edits to a German wiki over three months, evading moderation and echoing tactics seen in the Hugging Face breach.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/Code-3rd-Party-Risk.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-      "url": "https://www.securityweek.com/adobe-commerce-zero-day-exploited-to-backdoor-online-stores/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-07T11:58:37+00:00",
-      "description": "The StyleSmuggler zero-day allows attackers to execute code and deploy a stealthy backdoor on Adobe Commerce and Magento stores.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
-      "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-07T11:45:00+00:00",
-      "description": "Intruder analyzed 3,000 organizations, finding exposed services in 76% of AWS accounts versus 8% on Google Cloud.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAkHa8CDEfDzL0HknvyLE5eRK8r91iyhgzpCS1GmG3HRtriZYYFzCTP9_H433YsqJ80SAppgs9g6rOhsTWIzHPh_CFcZJS18DIj5ANgzFwSU0vfcyJofTEqEvjGGjNcqZdHU_54PENNzxawWHCZ2r_1K-A63x3P8CbuIiu8OHASjQV3OoglWTefAF2dZw/s1700-nu-rw-lo-l85-e365/intruder.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
