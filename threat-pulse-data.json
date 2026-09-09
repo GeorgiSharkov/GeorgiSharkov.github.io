@@ -1,9 +1,9 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
-  "catalogVersion": "2026.09.08",
-  "dateReleased": "2026-09-08T18:00:21.1079Z",
+  "catalogVersion": "2026.09.09",
+  "dateReleased": "2026-09-09T12:56:45.0136Z",
   "count": 1699,
-  "generatedAt": "2026-09-09T11:29:00+00:00",
+  "generatedAt": "2026-09-09T16:41:57+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-75650",
