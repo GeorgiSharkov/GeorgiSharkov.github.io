@@ -1,16 +1,115 @@
 {
-  "generatedAt": "2026-09-09T11:46:59.774348+00:00",
+  "generatedAt": "2026-09-09T16:51:46.503369+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Hackers Target Claude, Cursor and Codex AI Agents to Steal Tokens and Prompt Histories",
-      "url": "https://cybersecuritynews.com/ai-agents-2/",
+      "title": "Veradigm Confirms Patient Data Exposed in Third-Party Data Breach",
+      "url": "https://cybersecuritynews.com/veradigm-patient-data-breach/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T11:41:29+00:00",
-      "description": "Cybercriminals are widening the reach of information-stealing malware by targeting the local data created by AI coding agents. The shift puts access tokens, saved connections, prompt histories, and project records at risk on already infected computers. The\u2026",
-      "image": "",
+      "publishedAt": "2026-09-09T16:46:47+00:00",
+      "description": "Healthcare technology company Veradigm Inc. has disclosed that a cybersecurity incident at one of its third-party vendors led to the exposure of sensitive patient data, including Social Security numbers, for a limited group of the company's customers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Veradigm-Patient-Data-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Android\u2019s September 2026 Updates Patch 180 Vulnerabilities",
+      "url": "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-09T16:30:40+00:00",
+      "description": "The security updates resolve critical flaws across Android\u2019s Framework, System, and Kernel components.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Android-update.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New N0va Phishkit Targets North America and EU: A Growing Identity Risk for SOCs",
+      "url": "https://cybersecuritynews.com/new-n0va-phishkit-targets-north-america-and-eu-a-growing-identity-risk-for-socs/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-09T16:26:31+00:00",
+      "description": "Recently, ANY.RUN researchers uncovered N0va, a new phishkit targeting organizations across North America and the EU, including government, technology, consulting, and healthcare.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/N0va-Phishkit-.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories",
+      "url": "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-09T16:22:54+00:00",
+      "description": "Major chipmakers announced patches for vulnerabilities recently discovered in their products.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Flaws and Compromise 440 Servers Worldwide",
+      "url": "https://cybersecuritynews.com/papercut-flaws-compromised-using-ai/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-09T14:40:47+00:00",
+      "description": "A Russian-speaking threat actor has weaponized artificial intelligence at an unprecedented scale, deploying hundreds of autonomous AI agents to exploit critical vulnerabilities in PaperCut NG/MF print management software, compromising at least 440 servers\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/PaperCut-Flaws-Compromised-Using-AI.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Fortinet Patches Critical Vulnerabilities in FortiMonitorOnSight, Chrome Extension",
+      "url": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-09T14:33:52+00:00",
+      "description": "The critical, unauthenticated bugs allow attackers to bypass authentication and proxy a user\u2019s browser traffic.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/fortinet.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools",
+      "url": "https://cybersecuritynews.com/clearfake-deploys-crypto-stealer/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-09T14:26:47+00:00",
+      "description": "ClearFake uses fake CAPTCHA prompts to spread malware that steals crypto and credentials while disabling endpoint protection.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ClearFake-Deploys-Crypto-Stealer-That-Uses-Vulnerable-Driver-to-Kill-EDR-Security-Tools.webp",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
+      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-09T14:23:55+00:00",
+      "description": "Infostealer logs expose replayable AI session tokens and API keys that can bypass login controls and enable unauthorized account access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYP_zrhRTZRWnPPcDkUrE7dBh2Bf5eaQmlBxyl7euTRGjS0C8boQppnrmjY0CIVjGrS_PF13V1W3BPVI3RDPZY59s_7xIkI8LnFkg3Tn_Q0x7_tbCs_sMkvhZMREtFLW3IOJSNNmQrKCDI88FCWhfymdWkEWtdMMRzivv3lZXImjreAz0d74VXt2K80ipH/s1700-nu-rw-lo-l85-e365/tokens.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities",
+      "url": "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-09T12:32:13+00:00",
+      "description": "Distillation is an \u2018attack\u2019 against an AI model designed to capture outputs, understand reasoning processes, and subsequently train a different model.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/09/NSA-Cyber-AI.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Webinar: Learn How to Answer \u201cAre We Exposed?\u201d Faster After a New CVE",
+      "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-09T11:57:36+00:00",
+      "description": "Tines unifies SBOM, endpoint, cloud, and vulnerability data to speed exposure assessment with AI-assisted analysis and automation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s1700-nu-rw-lo-l85-e365/tines-webinar.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -25,28 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Abuse Google Sheets to Hijack Crypto Wallet Addresses in ClickFix Attacks",
-      "url": "https://cybersecuritynews.com/hackers-abuse-google-sheets/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T10:57:01+00:00",
-      "description": "Hackers are using Google Sheets as an unlikely control channel in a cryptocurrency theft campaign. The operation turns a familiar browser session into a place where malicious code runs, rather than placing a conventional program on a victim\u2019s computer. The\u2026",
-      "image": "",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "ICS Patch Tuesday: Schneider Electric, Siemens Fix Critical Flaws",
-      "url": "https://www.securityweek.com/ics-patch-tuesday-schneider-electric-siemens-fix-critical-flaws/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T10:49:30+00:00",
-      "description": "AVEVA and Rockwell Automation also released patches for vulnerabilities affecting industrial control system products.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
       "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
       "source": "The Hacker News",
@@ -55,83 +132,6 @@
       "description": "Alby warns a critical Hub flaw could let attackers take over internet-exposed wallets; versions 1.19.0 and later are not affected.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzwXsolZOaoU8mikO234FpoGAc_3wiI_OZ-Acpc-yPphzhUWmDh13CKiEG9xFbotf8RFEBh9jljS6pwUS4gryY-kk5UzPc7Mtb4Ds3mDpAhjyFoJibRDmnGXrLNt4VjGpTs1W5l6la2q4jO7D9hytPbAnLEFCHYVxxpcj7H-XNRDpGLfYSWAYqF7pl54/s1700-nu-rw-lo-l85-e365/alby-warning.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Ivanti Patches Critical Flaws Across Enterprise Security Products",
-      "url": "https://www.securityweek.com/ivanti-patches-critical-flaws-across-enterprise-security-products/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T10:28:34+00:00",
-      "description": "Six critical vulnerabilities in Neurons for ITSM could enable remote code execution, while Sentry and EPMM received patches for authentication bypass flaws.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Ivanti-e1736941837602.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Windows Remote Desktop Client Vulnerability Allows Attackers to Execute Remote Code",
-      "url": "https://cybersecuritynews.com/windows-remote-desktop-client-rce-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T10:10:58+00:00",
-      "description": "Microsoft has released security updates for CVE-2026-69485, an Important-rated remote code execution vulnerability affecting the Windows Remote Desktop Client. The flaw could allow an authenticated attacker with low privileges to execute code on an affected\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "This Key Will Self-Destruct: An Open Standard for Revocable API Keys",
-      "url": "https://www.securityweek.com/this-key-will-self-destruct-an-open-standard-for-revocable-api-keys/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T10:00:00+00:00",
-      "description": "Every leaked credential should be dead, or dying, within sixty seconds of being found. Here",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Standard-Revocable-API-Keys.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "New Phishing Attack Creates Malicious Pages Inside the Victim\u2019s Browser",
-      "url": "https://www.securityweek.com/new-phishing-attack-creates-malicious-pages-inside-the-victims-browser/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T10:00:00+00:00",
-      "description": "Attackers are using trusted Microsoft services and blob URLs to generate stealthy phishing pages that leave defenders with no static website to detect or block.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-      "url": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T09:32:26+00:00",
-      "description": "U.S. agencies accuse six China-based AI firms of industrial-scale distillation to extract proprietary capabilities from frontier AI models.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhL63HDvTiCn3B33K6DsfIbMLjHqXlJAUtoh6euiAwcooJCTdK4Zdkoh8rZ93iQsAAkscB3CmOH6TUQJPor4yH4wN97ABinyCN_5hcHNZ2gAMZH4YtTO3kon5Ws7MZGI5CULnH4SpafnrFsfZO_8j8wfaOFEinAnLIP-LHom_9LNQRJ2wrlYy66bO1RNpwg/s1700-nu-rw-lo-l85-e365/ai-china.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New Windows Defender ShieldCrash 0-Day Bypasses Microsoft Patch to Read Files as SYSTEM",
-      "url": "https://cybersecuritynews.com/defender-shieldcrash-0-day-bypasses/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T09:15:09+00:00",
-      "description": "A newly published ShieldCrash proof of concept from researcher MSNightmare claims that Microsoft Defender remains vulnerable to an arbitrary file-read flaw, despite Microsoft\u2019s earlier fix for ShieldBreak, tracked as CVE-2026-69414. The researcher says the\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "url": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T09:11:03+00:00",
-      "description": "Google patches an actively exploited Chrome V8 flaw that allows arbitrary code execution inside the sandbox via a crafted HTML page.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s1700-nu-rw-lo-l85-e365/chrome-zeroday.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
