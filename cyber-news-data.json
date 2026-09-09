@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-09T16:51:46.503369+00:00",
+  "generatedAt": "2026-09-09T21:07:51.873165+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
+      "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-09T18:26:05+00:00",
+      "description": "U.S. authorities disrupted Xinbi Guarantee and froze $52.8 million in crypto tied to the scam marketplace and its merchant network.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcQQNutHn5K2x_gd-2eyAP0wzneQ3mOSl3jaaRHGFDUY1O95tuckdjL_botXvrBlt_ts6Bjb91JU4Z-B74VAceL1cYa3oMlt91mHSxZP_FiiVTJLfL8UBUgoBIvjJCuI7Nma3dOxJ48n4wS5VvoBWRDNYqwlYIfStXIKTDBUrRXBIWITx_TprflrVXqjum/s1700-nu-rw-lo-l85-e365/xinbi.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Scans for Proxmox Servers, (Wed, Sep 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33324",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-09T17:46:24+00:00",
+      "description": "About a week ago, Proxmox published an advisory revealing a vulnerability in older versions of Proxmox VE, its flagship Virtual Environment product. The vulnerability only affects version 7, which has not been supported for a couple of years now.",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "HelmGuard Raises $7.3 Million for Agentic GRC and Security",
+      "url": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-09T17:23:58+00:00",
+      "description": "The company will increase its US market presence and will expand its engineering and go-to-market teams.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-1.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Chain Chrome and Windows Zero-Days in New BlueMoon Exploit Kit Attacks",
+      "url": "https://cybersecuritynews.com/bluemoon-exploit-chain/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-09T16:59:16+00:00",
+      "description": "Multiple espionage-motivated threat actors have rapidly adopted a newly discovered exploit kit that chains Chrome browser and Microsoft Windows vulnerabilities to deploy backdoors and surveillance tools against government, defense, and commercial targets\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BlueMoon-exploit-chain.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns",
+      "url": "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-09T16:56:25+00:00",
+      "description": "Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/08/AI-assistant-chatbot-artificial-intelligence.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Veradigm Confirms Patient Data Exposed in Third-Party Data Breach",
       "url": "https://cybersecuritynews.com/veradigm-patient-data-breach/",
@@ -11,6 +66,17 @@
       "description": "Healthcare technology company Veradigm Inc. has disclosed that a cybersecurity incident at one of its third-party vendors led to the exposure of sensitive patient data, including Social Security numbers, for a limited group of the company's customers.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Veradigm-Patient-Data-Breach.webp",
       "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
+      "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-09T16:34:05+00:00",
+      "description": "BlueMoon chains two Chrome V8 zero-days with a Windows flaw in phishing attacks used by APT31 and other espionage clusters.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxouoVfK0MjZpruL0J1chmWnC7avUov1fOLbgX-XyFGrTcXeOh08tVntBjzJ7wBMmOB3P-PpxMr6E868Wpsaky-b-Nrf1LajzoQFfmjnkI1KHQzGXrCcVnC57nF2ndYZHCLx5WA3dENCWmCbZlSAb5TC-p8DXCGWxWB7I3iRIsdMMk6SS6IV03722lZIS4/s1700-nu-rw-lo-l85-e365/spy.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -58,28 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Fortinet Patches Critical Vulnerabilities in FortiMonitorOnSight, Chrome Extension",
-      "url": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortimonitoronsight-chrome-extension/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T14:33:52+00:00",
-      "description": "The critical, unauthenticated bugs allow attackers to bypass authentication and proxy a user\u2019s browser traffic.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/fortinet.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "ClearFake Deploys Crypto Stealer That Uses Vulnerable Driver to Kill EDR Security Tools",
-      "url": "https://cybersecuritynews.com/clearfake-deploys-crypto-stealer/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T14:26:47+00:00",
-      "description": "ClearFake uses fake CAPTCHA prompts to spread malware that steals crypto and credentials while disabling endpoint protection.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ClearFake-Deploys-Crypto-Stealer-That-Uses-Vulnerable-Driver-to-Kill-EDR-Security-Tools.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
       "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
       "source": "The Hacker News",
@@ -91,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "US Agencies Warn China Is Systematically Extracting Frontier AI Capabilities",
-      "url": "https://www.securityweek.com/us-agencies-warn-china-is-systematically-extracting-frontier-ai-capabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T12:32:13+00:00",
-      "description": "Distillation is an \u2018attack\u2019 against an AI model designed to capture outputs, understand reasoning processes, and subsequently train a different model.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/09/NSA-Cyber-AI.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
       "title": "Webinar: Learn How to Answer \u201cAre We Exposed?\u201d Faster After a New CVE",
       "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
       "source": "The Hacker News",
@@ -110,28 +143,6 @@
       "description": "Tines unifies SBOM, endpoint, cloud, and vulnerability data to speed exposure assessment with AI-assisted analysis and automation.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s1700-nu-rw-lo-l85-e365/tines-webinar.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-      "url": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T11:17:07+00:00",
-      "description": "A DeepSeek Harness flaw let attacker-supplied text push AI agents to disable the file sandbox; fixed npm releases start at 0.1.2-alpha.2.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0fUTc6rz4ZeeaMmjDLOfb2qNhnJf_TdNHK3F3qbNCQLLJbaF-nbSw5YPdeSAwg1HjoGwfQJZaXBpwvEbasFDhQb5ZkUm158shateq7uubMyrlejW4SDZAAzNQGUYkYdsxHupipxzRA7dQwTwTt9ArVJgU-wA5bGxIXduJj3CdyBF69Ixp6_qAU1LGzfI/s1700-nu-rw-lo-l85-e365/deepseek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-      "url": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T10:43:04+00:00",
-      "description": "Alby warns a critical Hub flaw could let attackers take over internet-exposed wallets; versions 1.19.0 and later are not affected.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfzwXsolZOaoU8mikO234FpoGAc_3wiI_OZ-Acpc-yPphzhUWmDh13CKiEG9xFbotf8RFEBh9jljS6pwUS4gryY-kk5UzPc7Mtb4Ds3mDpAhjyFoJibRDmnGXrLNt4VjGpTs1W5l6la2q4jO7D9hytPbAnLEFCHYVxxpcj7H-XNRDpGLfYSWAYqF7pl54/s1700-nu-rw-lo-l85-e365/alby-warning.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -176,17 +187,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
-      "url": "https://isc.sans.edu/diary/rss/33314",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-06T21:43:17+00:00",
-      "description": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
