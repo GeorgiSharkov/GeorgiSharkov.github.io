@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-08T23:37:05.276196+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-09T05:07:21.377150+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Chrome 153 Fixes 230 Vulnerabilities, Including One 0-Day Exploited in the Wild",
+      "url": "https://cybersecuritynews.com/chrome-153-released/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-09T04:46:12+00:00",
+      "description": "Google has rolled out Chrome 153 to the stable channel for Windows, Mac, and Linux, shipping as version 153.0.8010.36 on Linux and 153.0.8010.36/.37 on Windows and Mac.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chrome-153-Released.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-09T04:27:51+00:00",
+      "description": "CISA added actively exploited N-able N-central CVE-2026-86218 to KEV, with federal agencies ordered to patch by September 11.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMxDWMjpVE5kkeTzvYQ-YAyekZZ6U6CzCYj462wNRwiMna-44-sJo8kY5Nz2-f_D1N7c0lkhR8Hr2BoAvsP6vVb7ea_R5s-UxdKkwnv6apOIM8sIxEoBRQXek7U5lrR0VaP9q_W8hFULVW7qyvskPiGvZN9wyC_FAUm23HdPcLw_wsmfU0-GoQ3PVkNNyJ/s1700-nu-rw-lo-l85-e365/n-able.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "FortiSandbox Vulnerability Allows Attackers to Access Sensitive Information via Crafted HTTP Requests",
+      "url": "https://cybersecuritynews.com/fortisandbox-vulnerability-access-sensitive-data/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-09T03:08:26+00:00",
+      "description": "Fortinet has disclosed a new high-severity vulnerability affecting its FortiSandbox platform, warning that unauthenticated attackers could exploit weaknesses in the product's web interface to siphon off sensitive information without ever needing valid\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/FortiSandbox-Vulnerability-access-sensitive-Data.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33322",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-09T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
@@ -43,6 +87,28 @@
       "publishedAt": "2026-09-08T18:37:17+00:00",
       "description": "Tracked as CVE-2026-75650, the exploited defect allows unauthenticated attackers to execute arbitrary code.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Phishing Powers 80% of Attacks on US Companies: How SOCs Can Detect It Early",
+      "url": "https://cybersecuritynews.com/phishing-powers-80-of-attacks-on-us-companies-how-socs-can-detect-it-early/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-08T17:54:52+00:00",
+      "description": "Phishing remains one of the most effective ways for attackers to gain access to corporate environments. From 2013-2023, the FBI recorded 158,436 US victims of Business Email Compromise (BEC), with over $20 billion in reported losses.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Pphishing-Powers-80-of-Attacks-on-US-Companies.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Massive Microsoft Patch Tuesday September 2026 \u2013 973 Vulnerabilities Fixed, Including 2 Zero-Days",
+      "url": "https://cybersecuritynews.com/microsoft-patch-tuesday-update-september-2026/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-08T17:46:31+00:00",
+      "description": "Microsoft released its September 2026 Patch Tuesday security updates on September 8, addressing 973 vulnerabilities, including two zero-days already exploited in attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Patch-Tuesday-Updated-September-2026.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -102,17 +168,6 @@
       "kind": "News"
     },
     {
-      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
-      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-08T13:48:16+00:00",
-      "description": "A financially motivated actor used an autonomous multi-agent framework to compromise thousands of third-party credentials in under six hours.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVKt_UmqEYNHNt0K516skza4MoV47hITqzcoC3WLLI3QkQ_jUEffHvaL7VHVtzRqvdt6k2bZwGAFVif-hRkoiTQva6JM95w3NgNRU_WpuTaZfhLGXAcOdLQXy_sMWU1dxAunMAsf7J8PEDG2AKvkFuXbOFyOmIQcaocMIBhNpaYscCUeJElKDXu6xGhkX/s1700-nu-rw-lo-l85-e365/ai-agent.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084, (Tue, Sep 8th)",
       "url": "https://isc.sans.edu/diary/rss/33316",
       "source": "SANS ISC",
@@ -132,17 +187,6 @@
       "description": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise. Attackers have been adding new accounts to affected\u2026",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "numbat - AI agent observability, (Fri, Sep 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33312",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-05T03:39:52+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
