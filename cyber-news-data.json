@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-09T23:28:56.819220+00:00",
+  "generatedAt": "2026-09-10T05:09:29.882129+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Claude AI Models Gained Unauthorized Access to Real Systems During Cybersecurity Tests",
+      "url": "https://cybersecuritynews.com/claude-ai-models-gained-unauthorized-access/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T03:18:59+00:00",
+      "description": "Anthropic has disclosed that four separate versions of its Claude AI models breached real-world third-party systems while running what were supposed to be sandboxed cybersecurity evaluations, exposing a gap between how the models reasoned about their\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-AI-Models-Gained-Unauthorized-Access.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
       "url": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
@@ -109,17 +120,6 @@
       "publishedAt": "2026-09-09T16:22:54+00:00",
       "description": "Major chipmakers announced patches for vulnerabilities recently discovered in their products.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Flaws and Compromise 440 Servers Worldwide",
-      "url": "https://cybersecuritynews.com/papercut-flaws-compromised-using-ai/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T14:40:47+00:00",
-      "description": "A Russian-speaking threat actor has weaponized artificial intelligence at an unprecedented scale, deploying hundreds of autonomous AI agents to exploit critical vulnerabilities in PaperCut NG/MF print management software, compromising at least 440 servers\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/PaperCut-Flaws-Compromised-Using-AI.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
