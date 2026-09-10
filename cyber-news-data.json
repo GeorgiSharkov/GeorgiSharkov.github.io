@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2026-09-10T05:09:29.882129+00:00",
+  "generatedAt": "2026-09-10T11:44:28.880248+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Claude AI Models Gained Unauthorized Access to Real Systems During Cybersecurity Tests",
-      "url": "https://cybersecuritynews.com/claude-ai-models-gained-unauthorized-access/",
+      "title": "Hackers Pose as Domain Controllers to Steal Active Directory Password Hashes",
+      "url": "https://cybersecuritynews.com/active-directory-password-hashes/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-10T03:18:59+00:00",
-      "description": "Anthropic has disclosed that four separate versions of its Claude AI models breached real-world third-party systems while running what were supposed to be sandboxed cybersecurity evaluations, exposing a gap between how the models reasoned about their\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-AI-Models-Gained-Unauthorized-Access.webp",
+      "publishedAt": "2026-09-10T11:29:46+00:00",
+      "description": "Attackers abuse Active Directory replication in DCSync attacks to impersonate domain controllers and steal privileged password hashes.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Pose-as-Domain-Controllers-to-Steal-Active-Directory-Password-Hashes.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Fortinet Heap-based Buffer Overflow Flaw Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/fortinet-heap-based-buffer-overflow/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T11:26:05+00:00",
+      "description": "CISA added critical Fortinet vulnerability CVE-2025-25249 to its KEV catalog after confirming active exploitation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-Warns-of-Fortinet-Heap-based-Buffer-Overflow-Flaw-Exploited-in-Attacks-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenSSL 4.1.0 Alpha1 Released With DTLS 1.3 and Faster Post-Quantum Cryptography",
+      "url": "https://cybersecuritynews.com/openssl-4-1-0-alpha1-released/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T11:22:28+00:00",
+      "description": "OpenSSL has released 4.1.0 Alpha1, introducing DTLS 1.3, GREASE support, and performance improvements for post-quantum cryptography.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenSSL-4.1.0-Alpha1-Released-With-DTLS-1.3-and-Faster-Post-Quantum-Cryptography.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "4.1 Million Impacted by AdaptHealth Data Breach",
+      "url": "https://www.securityweek.com/4-1-million-impacted-by-adapthealth-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-10T11:20:43+00:00",
+      "description": "In June 2026, hackers stole personal, health, and insurance information from AdaptHealth\u2019s systems.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/05/healthcare-medical-data-breach-.jpeg",
       "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Palo Alto PAN-OS Vulnerability Enables Arbitrary Code Execution as Root User",
+      "url": "https://cybersecuritynews.com/palo-alto-pan-os-vulnerability-code-execution/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T11:09:03+00:00",
+      "description": "Palo Alto Networks disclosed a high-severity PAN-OS flaw enabling unauthenticated remote code execution with root privileges on affected PA-Series firewalls.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Paloalto-PAN-OS-Vulnerability-Enables-Arbitrary-Code-Execution-as-Root-User.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+      "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-10T10:36:46+00:00",
+      "description": "CISA adds three exploited Cisco, Citrix, and Fortinet flaws to KEV, requiring federal agencies to patch by September 12, 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7j6Sm8OqDeYzrbb5faLBuDOc0zIMlvfjiKbn1aCMpx_2iBl6gb3HhJhpbqU8SPajHUClJEXUwnFbY1DcubmzWeVaWCyGcHkw45rCYqU_4IFO_g4OwdyNrTFFK3l3YsXwfOWQj2QtW3UTeglKmyRJ4GvbVKMxLTByMgeZ7E0WWpxpi50qie2lx9DbCY9rr/s1700-nu-rw-lo-l85-e365/cisa-list.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088, (Thu, Sep 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33328",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-10T10:10:11+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Organizations Warned of Cisco Secure FMC Exploitation",
+      "url": "https://www.securityweek.com/organizations-warned-of-cisco-secure-fmc-exploitation/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-10T10:06:20+00:00",
+      "description": "Cisco and CISA have flagged exploitation of CVE-2026-20079, a vulnerability disclosed in March 2026.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Cisco-network-switch-exploit.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+      "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-10T07:12:55+00:00",
+      "description": "Wiz found 294 of 3,074 LiteLLM gateways accepted sk-1234, exposing provider keys and enabling cloud IAM access in tests.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfjbI1DXHJ4wQzSRFbddkmgQ9CTLSPPGP8fcQ6a37qbwKvgd4JxU51YhADR8S4IsWaiQ4fRApn-ih4m0AhsizM3wa6aJ3P8MlgBztNQm-oH4bE_TkPsmUZHhblcNMrQFxGdWnDHePCQDcSz-AJeWMoKH6YVcXXFCjK2ajZfbmObdeVkWmvv8O_fufqsl0/s1700-nu-rw-lo-l85-e365/litellm.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New \u2018ShieldCrash\u2019 Zero-Day Exploit Targets Microsoft Defender",
+      "url": "https://www.securityweek.com/new-shieldcrash-zero-day-exploit-targets-microsoft-defender/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-10T07:09:36+00:00",
+      "description": "The exploit provides full System privileges on Windows machines running the September 2026 patches.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Microsoft-Defender.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+      "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-10T07:04:01+00:00",
+      "description": "Anthropic says four Claude incidents breached real third-party systems during misconfigured cybersecurity evaluations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmMNfeF1h2D3MrUkoHWN2M9yhKD-FFQ6DgwixOflNATW2UA5b_6AsUjXLAjrn5c4hQWw0xueXTWDlbqKwS_gexDm0Yq8PB_B2LpXHaQiw7m7thOATlckixuA8VUIFDFERGBS8o1Kph93eYnDysXuRljKaXfe7813MwWKkBLex8BP3YL-fahCr4Xm3xMWZE/s1700-nu-rw-lo-l85-e365/claude-hack.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Fortinet Code Execution Flaw Exploited in PivotC2 RAT Attacks",
+      "url": "https://www.securityweek.com/fortinet-code-execution-flaw-exploited-in-pivotc2-rat-attacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-10T06:33:36+00:00",
+      "description": "The high-severity, unauthenticated vulnerability tracked as CVE-2025-25249 was patched in January 2026.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/fortinet.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -34,116 +155,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "HelmGuard Raises $7.3 Million for Agentic GRC and Security",
-      "url": "https://www.securityweek.com/helmguard-raises-7-3-million-for-agentic-grc-and-security/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T17:23:58+00:00",
-      "description": "The company will increase its US market presence and will expand its engineering and go-to-market teams.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-1.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Chain Chrome and Windows Zero-Days in New BlueMoon Exploit Kit Attacks",
-      "url": "https://cybersecuritynews.com/bluemoon-exploit-chain/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T16:59:16+00:00",
-      "description": "Multiple espionage-motivated threat actors have rapidly adopted a newly discovered exploit kit that chains Chrome browser and Microsoft Windows vulnerabilities to deploy backdoors and surveillance tools against government, defense, and commercial targets\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BlueMoon-exploit-chain.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AI Is Giving Lesser-Resourced Attackers Nation-State-Level Reach, Google Warns",
-      "url": "https://www.securityweek.com/ai-is-giving-lesser-resourced-attackers-nation-state-level-reach-google-warns/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T16:56:25+00:00",
-      "description": "Criminal and state-sponsored adversaries are increasingly using AI to automate and scale their attacks, according to GTIG.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/08/AI-assistant-chatbot-artificial-intelligence.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Veradigm Confirms Patient Data Exposed in Third-Party Data Breach",
-      "url": "https://cybersecuritynews.com/veradigm-patient-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T16:46:47+00:00",
-      "description": "Healthcare technology company Veradigm Inc. has disclosed that a cybersecurity incident at one of its third-party vendors led to the exposure of sensitive patient data, including Social Security numbers, for a limited group of the company's customers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Veradigm-Patient-Data-Breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-      "url": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T16:34:05+00:00",
-      "description": "BlueMoon chains two Chrome V8 zero-days with a Windows flaw in phishing attacks used by APT31 and other espionage clusters.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxouoVfK0MjZpruL0J1chmWnC7avUov1fOLbgX-XyFGrTcXeOh08tVntBjzJ7wBMmOB3P-PpxMr6E868Wpsaky-b-Nrf1LajzoQFfmjnkI1KHQzGXrCcVnC57nF2ndYZHCLx5WA3dENCWmCbZlSAb5TC-p8DXCGWxWB7I3iRIsdMMk6SS6IV03722lZIS4/s1700-nu-rw-lo-l85-e365/spy.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Android\u2019s September 2026 Updates Patch 180 Vulnerabilities",
-      "url": "https://www.securityweek.com/androids-september-2026-updates-patch-180-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T16:30:40+00:00",
-      "description": "The security updates resolve critical flaws across Android\u2019s Framework, System, and Kernel components.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Android-update.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New N0va Phishkit Targets North America and EU: A Growing Identity Risk for SOCs",
-      "url": "https://cybersecuritynews.com/new-n0va-phishkit-targets-north-america-and-eu-a-growing-identity-risk-for-socs/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-09T16:26:31+00:00",
-      "description": "Recently, ANY.RUN researchers uncovered N0va, a new phishkit targeting organizations across North America and the EU, including government, technology, consulting, and healthcare.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/N0va-Phishkit-.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Chipmaker Patch Tuesday: Nvidia, AMD, Arm Issue Security Advisories",
-      "url": "https://www.securityweek.com/chipmaker-patch-tuesday-nvidia-amd-arm-issue-security-advisories/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-09T16:22:54+00:00",
-      "description": "Major chipmakers announced patches for vulnerabilities recently discovered in their products.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "url": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T14:23:55+00:00",
-      "description": "Infostealer logs expose replayable AI session tokens and API keys that can bypass login controls and enable unauthorized account access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYP_zrhRTZRWnPPcDkUrE7dBh2Bf5eaQmlBxyl7euTRGjS0C8boQppnrmjY0CIVjGrS_PF13V1W3BPVI3RDPZY59s_7xIkI8LnFkg3Tn_Q0x7_tbCs_sMkvhZMREtFLW3IOJSNNmQrKCDI88FCWhfymdWkEWtdMMRzivv3lZXImjreAz0d74VXt2K80ipH/s1700-nu-rw-lo-l85-e365/tokens.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Webinar: Learn How to Answer \u201cAre We Exposed?\u201d Faster After a New CVE",
-      "url": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-09T11:57:36+00:00",
-      "description": "Tines unifies SBOM, endpoint, cloud, and vulnerability data to speed exposure assessment with AI-assisted analysis and automation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s1700-nu-rw-lo-l85-e365/tines-webinar.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Wednesday, September 9th, 2026 https://isc.sans.edu/podcastdetail/10086, (Wed, Sep 9th)",
@@ -176,17 +187,6 @@
       "description": "This month, Microsoft released patches for a record-breaking 973 vulnerabilities, including 113 rated critical. It is by far the largest Patch Tuesday to date, well ahead of the previous high of 664 set in July 2026. Two vulnerabilities are listed as\u2026",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, September 8th, 2026 https://isc.sans.edu/podcastdetail/10084, (Tue, Sep 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33316",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-08T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
