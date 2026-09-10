@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-10T21:08:46.010501+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-10T23:21:39.231724+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
@@ -22,6 +22,17 @@
       "description": "This week\u2019s cyber threats span phishing abuse, malicious extensions, exposed systems, old flaws, AI attacks, and supply-chain risk.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFNPIVe_Yx__WtfjnMTnoJSKPMcGPiMCP5NxEyv1gRcGSlnozG41TeGldWhQi7Hsc0XgcmC9tfTEBS-CdLLAz8cOskVbBOsghdSM9kg_AhQmhfMada8rs4l7O7Py8YJErqK54BIt0r06Sm1l62fy8yv6H8PJrEXWxjnvyLkyFKzzXcGI_h00yeBqck5v9L/s1700-nu-rw-lo-l85-e365/td-main.jpg",
       "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "OpenMatter Network Realigns Leadership Team to Accelerate Global Commercial Growth",
+      "url": "https://cybersecuritynews.com/openmatter-network-realigns-leadership-team-to-accelerate-global-commercial-growth/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T16:22:22+00:00",
+      "description": "With its Verification Architecture platform now commercially available and continuing to add new capabilities, OpenMatter Network today announced a strategic realignment of its leadership team designed to accelerate subscription growth, expand industry\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6bdPFSkXv_JFp4vKSTDdPO-Wdx33iiVB1WXOZD0jhmzCGbsNQAZsR5PvMRaZqZ1wYCnmcSjIP9aSdhvZrHkvc9Q4MQzeaL1KERe0ZsBSg91xXMkpJmzAl0NtgvUzA_XPo3-VfKpauEkBoZfPbx5SIEjWJgiT_colB-jpyvYbEgYbZzb1BfBwammf25cU/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-10T200548.71.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -66,6 +77,39 @@
       "description": "Vinnie Liu was recruited by the NSA when he was just 17 years old. He is now the CEO of Bishop Fox.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Hacker-Conversations-Vinnie-Liu.jpeg",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Fake GTA 6 Downloads to Deploy RATs, Infostealers and Data-Wiping Malware",
+      "url": "https://cybersecuritynews.com/fake-gta-6-downloads/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T14:23:36+00:00",
+      "description": "Fake GTA VI downloads are spreading malware, including remote-access tools, info stealers, and ransomware disguised as leaked game builds.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Fake-GTA-6-Downloads-to-Deploy-RATs-Infostealers-and-Data-Wiping-Malware.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "WordPress Uses AI to Stop Malicious Plugin Updates Before They Reach Millions of Websites",
+      "url": "https://cybersecuritynews.com/wordpress-uses-ai-to-stop-malicious-plugin/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T14:08:51+00:00",
+      "description": "WordPress has rolled out an automated, AI-driven security review that screens every plugin release before it reaches the WordPress.org update API, adding a critical checkpoint to a distribution pipeline that had previously lacked one.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/WordPress-Uses-AI-to-Stop-Malicious-Plugin.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Blob URLs and Microsoft Teams to Create Phishing Pages Inside Victims\u2019 Browsers",
+      "url": "https://cybersecuritynews.com/hackers-use-blob-urls/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-10T14:04:56+00:00",
+      "description": "Phishers use browser-generated blob URLs and trusted Microsoft routes to hide fake DocuSign login pages and steal credentials.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Blob-URLs-and-Microsoft-Teams-to-Create-Phishing-Pages-Inside-Victims-Browsers.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
