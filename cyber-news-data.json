@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-10T16:38:27.674673+00:00",
+  "generatedAt": "2026-09-10T21:08:46.010501+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Mandiant Founder Kevin Mandia Joins Amazon Board",
+      "url": "https://www.securityweek.com/mandiant-founder-kevin-mandia-joins-amazon-board/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-10T20:30:44+00:00",
+      "description": "Mandiant founder and cybersecurity veteran brings more than 30 years of public and private sector experience to Amazon\u2019s board.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-10T17:47:38+00:00",
+      "description": "This week\u2019s cyber threats span phishing abuse, malicious extensions, exposed systems, old flaws, AI attacks, and supply-chain risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFNPIVe_Yx__WtfjnMTnoJSKPMcGPiMCP5NxEyv1gRcGSlnozG41TeGldWhQi7Hsc0XgcmC9tfTEBS-CdLLAz8cOskVbBOsghdSM9kg_AhQmhfMada8rs4l7O7Py8YJErqK54BIt0r06Sm1l62fy8yv6H8PJrEXWxjnvyLkyFKzzXcGI_h00yeBqck5v9L/s1700-nu-rw-lo-l85-e365/td-main.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "Cybersecurity M&A Roundup: 33 Deals Announced in August 2026",
       "url": "https://www.securityweek.com/cybersecurity-ma-roundup-33-deals-announced-in-august-2026/",
@@ -47,17 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "Deceptive Android Apps Exploit Google Play Early Access to Evade Reviews",
-      "url": "https://www.securityweek.com/deceptive-android-apps-exploit-google-play-early-access-to-evade-reviews/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-10T13:39:52+00:00",
-      "description": "Deceptive apps in Early Access are being used by dishonest developers for their own benefit.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Redtail Payload Analysis [Guest Diary], (Wed, Sep 9th)",
       "url": "https://isc.sans.edu/diary/rss/33326",
       "source": "SANS ISC",
@@ -88,17 +99,6 @@
       "description": "A suspected Russian-speaking actor used AI-assisted workflows to exploit PaperCut flaws and compromise at least 440 instances worldwide.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkLW3i6mB4uE2g7Ze6CDAess3UTTeol7YmRP-N3uTkLJHPglZc0BHvTlESyulvcTp05ObPwuGY5XHqV9q599pqLmK-ypamAPNUdHa9y-34Q4IEE3EBId9UrN9L0J3zK1TTf1Atovhkz51Gk_2gul7DmjvLmJd7BbwgqMhmVODTiQUuqu_IdFFGJt0WAiC_/s1700-nu-rw-lo-l85-e365/paper.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-      "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-10T11:33:43+00:00",
-      "description": "Gigabud uses Vwork to create Android work profiles that hide the trojan from banking app malware checks, with the chain confirmed in Indonesia.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJHT3nuLNpTkrzjiictjYuKsyepFXuDoZVUZB_Gz6yQFCP4CYdOIpSDon_tEsZ43eVe2_qiPXs7V9byKtyoYZ7HE7QltUfQgEUTnSSjmclQH27vVm5JjVIcrvANMIEOxUDmOWy0dPeHVOkiYoFZMgubtGqZJKfgft34Z-q5F7dyqPoJ6iInpgMwyIL3l8/s1700-nu-rw-lo-l85-e365/android-work.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
