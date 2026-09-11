@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-11T16:43:16.067514+00:00",
+  "generatedAt": "2026-09-11T21:13:22.831766+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Phishing Research Challenges Conventional Security Awareness Testing",
+      "url": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-11T17:23:36+00:00",
+      "description": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+      "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-11T16:30:18+00:00",
+      "description": "GitLab patched CVE-2026-85706, a CVSS 10 path traversal flaw enabling unauthenticated file reads, as in-the-wild probes began.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s1700-nu-rw-lo-l85-e365/gitlab-wild.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-11T16:15:29+00:00",
+      "description": "Anthropic says China-based AI labs ran illicit Claude distillation campaigns using proxy networks, fake accounts, and harvested user exchanges.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIEiaJBfFrHCrYlSFKWGSRYD6CW_EeKfmYWCZw4jm5c9hyphenhyphenDVbaSIhyphenhyphenXwFB0ncQOoB10crmwgJV9nsvhQzJNuVMsDh6jPVt2ep23r0A2PB7ZhLfTroa0Ff__kyjjX2MjP4ok4DtBwFEF1VZC7b5OOCkibJBbwECsR0Y_9S1-NpdEIw04J5FtY9OloB084t_/s1700-nu-rw-lo-l85-e365/claude-china.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "GitLab Vulnerability Exploited One Day After Disclosure",
       "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
@@ -110,39 +143,6 @@
       "description": "Hackers compromised the Brevo marketing platform and used that access to send phishing emails to users of Trezor, BitBox, and CoinTracking.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency.jpeg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-      "url": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-11T11:30:00+00:00",
-      "description": "See why severity alone doesn't reveal risk. Learn how autonomous penetration testing and Breach360 prove which vulnerabilities attackers can exploit.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPe_ve3Cylrq2fJ8HTFPebWF7lR7tvzMvL3mwFcGZNF2KWesOGc66BfO7NbiPxmsiao8jcItyikguKNqsEGfpJEcAvacbP7rflAaAT-e0Y1IbsNCNvdqvXMbwERLlPpV0PMhk9c5esoEjCE97wglh8rU9xZ7eGz2N4BOpzFYTb9-Ln3FaBRQiscqzK7U/s1700-nu-rw-lo-l85-e365/breachlock.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Ukrainian Conti Ransomware Developer Sentenced to 4 Years in US Prison",
-      "url": "https://www.securityweek.com/ukrainian-conti-ransomware-developer-sentenced-to-4-years-in-us-prison/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-11T11:29:09+00:00",
-      "description": "Oleksii Oleksiyovych Lytvynenko has been sentenced to 4 years in prison after he was arrested in Ireland in 2023.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-prison-sentenced.jpeg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-      "url": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-11T07:31:05+00:00",
-      "description": "Attackers chained two JFrog Artifactory flaws on unupdated servers to gain admin control, while a third flaw was exploited separately.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX61WXln9MMGAzqzflpRDt_LZGfB7ZJ_u1fsQhr5FRnml48-E-V-uxtCIF-GERZlt-eBhw3MDT7_6jFgwEDF1ppC7YZlB_CZn-q4_nKD9S3fQTI3kDQFe2Izsq6_NoGnCRtRZckr8Irg9kOJ8Fwghl3qHqwg1zWoN6ff-VsmlCaojw2Divb6L00F34lJk/s1700-nu-rw-lo-l85-e365/jfrog-art.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
