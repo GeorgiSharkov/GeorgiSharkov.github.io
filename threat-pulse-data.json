@@ -1,9 +1,9 @@
 {
   "title": "CISA Catalog of Known Exploited Vulnerabilities",
   "catalogVersion": "2026.09.11",
-  "dateReleased": "2026-09-11T18:00:42.7628Z",
-  "count": 1708,
-  "generatedAt": "2026-09-11T19:45:44+00:00",
+  "dateReleased": "2026-09-11T19:32:16.8993Z",
+  "count": 1709,
+  "generatedAt": "2026-09-11T22:37:30+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-84869",
@@ -49,6 +49,21 @@
       "notes": "https://docs.jfrog.com/releases/docs/jfrog-security-advisories ; https://docs.jfrog.com/releases/docs/artifactory-self-managed-releases ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
       "cwes": [
         "CWE-287"
+      ]
+    },
+    {
+      "cveID": "CVE-2026-85706",
+      "vendorProject": "GitLab",
+      "product": "Community Edition and Enterprise Edition",
+      "vulnerabilityName": "GitLab Community Edition and Enterprise Edition Path Traversal Vulnerability",
+      "dateAdded": "2026-09-11",
+      "shortDescription": "GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing authentication enforcement in the repository commits API.",
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "dueDate": "2026-09-14",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/ ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
+      "cwes": [
+        "CWE-35"
       ]
     },
     {
@@ -296,22 +311,6 @@
       "notes": "https://sangomakb.atlassian.net/wiki/spaces/Switchvox/pages/1802371073/Switchvox+-+Release+Notes+Version+8.4.0.2+July+14+2026 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
       "cwes": [
         "CWE-89"
-      ]
-    },
-    {
-      "cveID": "CVE-2026-83548",
-      "vendorProject": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "vulnerabilityName": "SonicWall SMA1000 Appliances Server-Side Request Forgery Vulnerability",
-      "dateAdded": "2026-09-02",
-      "shortDescription": "SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform unauthorized operations.",
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "dueDate": "2026-09-05",
-      "knownRansomwareCampaignUse": "Unknown",
-      "notes": "https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2026-0016 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
-      "cwes": [
-        "CWE-918",
-        "CWE-441"
       ]
     }
   ]
