@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-12T11:12:30.223632+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-12T15:46:56.789227+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
+      "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T14:31:50+00:00",
+      "description": "Two security vulnerabilities in VLC Media Player allow attackers to corrupt heap memory or disclose sensitive data from a victim\u2019s memory.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-VLC-Media-Player-Vulnerabilities-Allow-Attackers-to-Corrupt-or-Read-Heap-Memory.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
       "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
@@ -11,6 +22,28 @@
       "description": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Containing Machine Speed Cyber Attacks Inside AI Infrastructure",
+      "url": "https://cybersecuritynews.com/containing-machine-speed-cyber-attacks-inside-ai-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T11:02:36+00:00",
+      "description": "A critical flaw in current security operations is assuming time is on our side. Historically, attacks progressed slowly, allowing analysts and response teams time to detect, discuss, and respond. Even severe incidents operated at a human pace. Our defenses\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/agnidiptas.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Beyond the Perimeter: Building Resilience Against Cloud and SaaS Supply-Chain Attacks",
+      "url": "https://cybersecuritynews.com/beyond-the-perimeter-building-resilience-against-cloud-and-saas-supply-chain-attacks/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T10:46:44+00:00",
+      "description": "A critical zero-day vulnerability in Oracle PeopleSoft exposed the Council of Europe and scores of other organisations to data theft and extortion in May and early June 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Codex-Image-Sep-12-2026-04_14_58-PM.webp",
+      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -33,6 +66,17 @@
       "description": "A report links OpenAI agents to a RubyGems campaign that abused RubyDoc for RCE and published more than 2,000 packages in May.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1700-nu-rw-lo-l85-e365/rubygems-openai.jpg",
       "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of GitLab Path Traversal Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/cisa-gitlab-path-traversal/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T04:32:45+00:00",
+      "description": "CISA has added a critical GitLab vulnerability, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog, warning that attackers are actively exploiting the flaw.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-GitLab-Path-Traversal.webp",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
