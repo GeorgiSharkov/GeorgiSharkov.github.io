@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-11T23:30:18.047363+00:00",
+  "generatedAt": "2026-09-12T04:56:25.672594+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "CISA Warns of GitLab Path Traversal Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/cisa-gitlab-path-traversal/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T04:32:45+00:00",
+      "description": "CISA has added a critical GitLab vulnerability, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog, warning that attackers are actively exploiting the flaw.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-GitLab-Path-Traversal.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
+      "url": "https://cybersecuritynews.com/openai-agents-flood-rubygems/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T03:59:30+00:00",
+      "description": "A swarm of AI agents attributed by researchers to OpenAI flooded RubyGems with more than 2,000 packages in May 2026, abused RubyDoc.info\u2019s documentation builder for remote code execution (RCE), and attempted to harvest developers\u2019 API keys through a\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Agents-Flood-RubyGems.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
+      "url": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-12T01:50:53+00:00",
+      "description": "Anthropic said the users did not succeed in \u201cfielding an operational device\u201d but did carry out a failed test of a guided rocket.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Threat_Intelligence.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Phishing Research Challenges Conventional Security Awareness Testing",
       "url": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
@@ -110,39 +143,6 @@
       "description": "Anthropic disrupted GTG-20006, a Russian state-sponsored actor that used Claude to rebuild malware after security products detected it.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtfzeoSe_6tXrJiKsyJfN4vYk6suLsJPF3-SOJWE8LAaZ6_WixrsJVjZ0T8O6jdtB1d08IR8swK6H0B4S_m7-0YfIiJlVPHuL7guxwC-4ANLXUyNsEWfIusPzvOMPOKSBmFcBT1NBBVWIglIRlT8fs6O9Uc6ZRBRgWZNPbvgAVIj8gIXfusRwZh0tndhni/s1700-nu-rw-lo-l85-e365/claude-malware.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Impersonate CEOs in 1 Million Emails to Trick Employees Into $50,000 Payments",
-      "url": "https://cybersecuritynews.com/hackers-impersonate-ceos/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-11T13:38:23+00:00",
-      "description": "Hackers sent over 1 million fake CEO emails and invoices, tricking employees into approving ACH payments to criminal accounts.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Impersonate-CEOs-in-1-Million-Emails-to-Trick-Employees-Into-50000-Payments.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Windows 11 Security Update KB5124008 Breaks Always-On VPN Connections",
-      "url": "https://cybersecuritynews.com/windows-11-security-update-kb5124008/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-11T13:11:35+00:00",
-      "description": "Microsoft\u2019s September 2026 security update KB5124008 is knocking some Windows 11 enterprise clients off Always On VPN after the Patch Tuesday package landed on September 8.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Windows-11-Security-Update-KB5124008.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Trezor Says 347,000 Users Received Phishing Emails After Brevo Hack",
-      "url": "https://www.securityweek.com/trezor-says-347000-users-received-phishing-emails-after-brevo-hack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-11T12:48:04+00:00",
-      "description": "Hackers compromised the Brevo marketing platform and used that access to send phishing emails to users of Trezor, BitBox, and CoinTracking.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency.jpeg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
