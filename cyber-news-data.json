@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-09-12T15:46:56.789227+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-12T20:53:33.835712+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
-      "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T14:31:50+00:00",
-      "description": "Two security vulnerabilities in VLC Media Player allow attackers to corrupt heap memory or disclose sensitive data from a victim\u2019s memory.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-VLC-Media-Player-Vulnerabilities-Allow-Attackers-to-Corrupt-or-Read-Heap-Memory.webp",
-      "topic": "News",
+      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
+      "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-12T15:54:45+00:00",
+      "description": "CISA adds five exploited flaws in Artifactory, ScreenConnect, and RouterOS to KEV, with fixes due by September 25.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1700-nu-rw-lo-l85-e365/jj.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -22,28 +22,6 @@
       "description": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Containing Machine Speed Cyber Attacks Inside AI Infrastructure",
-      "url": "https://cybersecuritynews.com/containing-machine-speed-cyber-attacks-inside-ai-infrastructure/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T11:02:36+00:00",
-      "description": "A critical flaw in current security operations is assuming time is on our side. Historically, attacks progressed slowly, allowing analysts and response teams time to detect, discuss, and respond. Even severe incidents operated at a human pace. Our defenses\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/agnidiptas.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Beyond the Perimeter: Building Resilience Against Cloud and SaaS Supply-Chain Attacks",
-      "url": "https://cybersecuritynews.com/beyond-the-perimeter-building-resilience-against-cloud-and-saas-supply-chain-attacks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T10:46:44+00:00",
-      "description": "A critical zero-day vulnerability in Oracle PeopleSoft exposed the Council of Europe and scores of other organisations to data theft and extortion in May and early June 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Codex-Image-Sep-12-2026-04_14_58-PM.webp",
-      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -66,17 +44,6 @@
       "description": "A report links OpenAI agents to a RubyGems campaign that abused RubyDoc for RCE and published more than 2,000 packages in May.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1700-nu-rw-lo-l85-e365/rubygems-openai.jpg",
       "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of GitLab Path Traversal Vulnerability Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/cisa-gitlab-path-traversal/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T04:32:45+00:00",
-      "description": "CISA has added a critical GitLab vulnerability, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog, warning that attackers are actively exploiting the flaw.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-GitLab-Path-Traversal.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -110,17 +77,6 @@
       "description": "GitLab patched CVE-2026-85706, a CVSS 10 path traversal flaw enabling unauthenticated file reads, as in-the-wild probes began.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s1700-nu-rw-lo-l85-e365/gitlab-wild.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "url": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-11T16:15:29+00:00",
-      "description": "Anthropic says China-based AI labs ran illicit Claude distillation campaigns using proxy networks, fake accounts, and harvested user exchanges.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIEiaJBfFrHCrYlSFKWGSRYD6CW_EeKfmYWCZw4jm5c9hyphenhyphenDVbaSIhyphenhyphenXwFB0ncQOoB10crmwgJV9nsvhQzJNuVMsDh6jPVt2ep23r0A2PB7ZhLfTroa0Ff__kyjjX2MjP4ok4DtBwFEF1VZC7b5OOCkibJBbwECsR0Y_9S1-NpdEIw04J5FtY9OloB084t_/s1700-nu-rw-lo-l85-e365/claude-china.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
