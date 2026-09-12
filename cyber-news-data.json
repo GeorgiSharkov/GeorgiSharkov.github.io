@@ -1,27 +1,38 @@
 {
-  "generatedAt": "2026-09-12T04:56:25.672594+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-12T11:12:30.223632+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "CISA Warns of GitLab Path Traversal Vulnerability Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/cisa-gitlab-path-traversal/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T04:32:45+00:00",
-      "description": "CISA has added a critical GitLab vulnerability, tracked as CVE-2026-85706, to its Known Exploited Vulnerabilities catalog, warning that attackers are actively exploiting the flaw.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-GitLab-Path-Traversal.webp",
+      "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
+      "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-12T11:10:00+00:00",
+      "description": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
-      "url": "https://cybersecuritynews.com/openai-agents-flood-rubygems/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T03:59:30+00:00",
-      "description": "A swarm of AI agents attributed by researchers to OpenAI flooded RubyGems with more than 2,000 packages in May 2026, abused RubyDoc.info\u2019s documentation builder for remote code execution (RCE), and attempted to harvest developers\u2019 API keys through a\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Agents-Flood-RubyGems.webp",
-      "topic": "Vulnerability",
+      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+      "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-12T10:24:44+00:00",
+      "description": "AI-related SOC alerts rose 685% from February to June 2026, with 94.1% classified as noise and 5.8% as genuine security risks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx03NP3tJYBFro8_pZ2g6irfvMJFy0HGYqvUu9kkRJZBnMJ-BcA9aWGZZ1vS4a71YOgpB5qLBDkoNnMyOBJXGhfsyQQMK0IgaGunMOUTLnFUSFddG_5NwlnXsUCWJpGh3bGOcWLHpxXTAqv0i4QAYyRZPXcm0Rcp5K9Yfc7o7SEeLZXNtGp3NZVMzlv1M/s1700-nu-rw-lo-l85-e365/in.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-12T09:07:56+00:00",
+      "description": "A report links OpenAI agents to a RubyGems campaign that abused RubyDoc for RCE and published more than 2,000 packages in May.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1700-nu-rw-lo-l85-e365/rubygems-openai.jpg",
+      "topic": "Threat intelligence",
       "kind": "News"
     },
     {
@@ -89,61 +100,6 @@
       "image": "",
       "topic": "Identity",
       "kind": "DFIR"
-    },
-    {
-      "title": "Russia-Aligned Hackers Use GuardBreaker Prompt Injection to Disrupt AI Malware Analysis",
-      "url": "https://cybersecuritynews.com/hackers-guardbreaker-prompt-injection/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-11T14:32:13+00:00",
-      "description": "GuardBreaker hides malicious prompts in script comments to trick AI code scanners into bypassing safety checks and deploying malware.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Russia-Aligned-Hackers-Use-GuardBreaker-Prompt-Injection-to-Disrupt-AI-Malware-Analysis.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "url": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-11T14:29:47+00:00",
-      "description": "Anthropic says threat actors used Claude in autonomous cyber operations, including reconnaissance, exploitation, and data theft.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0iCBQ4Eqxn0QOtvYZSysksPzr5fT0m8aLqNTa0a7Gcz3A5ikRt1oAenJwzo8rxcLERq54SNLtRvkYXKMTo0nMOmV8pWh4It3T0vP7q4J5Z23tdDkbBf3j7v317S7sQbBBbN6j6MuHusofo3qcbm2Y3DWT76gHp4Z1_En2QnJMCyEpvCo1sCcXoRZVw5-/s1700-nu-rw-lo-l85-e365/claudeai.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "In Other News: InjectEave Attack, SIM Swapper Sentenced, Glasswing Findings Review",
-      "url": "https://www.securityweek.com/in-other-news-injecteave-attack-sim-swapper-sentenced-glasswing-findings-review/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-11T14:19:18+00:00",
-      "description": "Noteworthy stories that might have slipped under the radar: Invisible Unicode slips past phishing filters, US puts $10 million bounty on Iranian cyber official, military ties of Chinese hacking group QTFY.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "New KATARU IoT Malware Packs Linux Privilege Escalation Exploits and Mirai-Style DDoS Attacks",
-      "url": "https://cybersecuritynews.com/new-kataru-iot-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-11T14:17:53+00:00",
-      "description": "KATARU IoT malware exploits weak Telnet passwords to turn devices into persistent DDoS bots, targeting poorly secured systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/New-KATARU-IoT-Malware-Packs-Linux-Privilege-Escalation-Exploits-and-Mirai-Style-DDoS-Attacks.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "url": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-11T14:10:20+00:00",
-      "description": "Anthropic disrupted GTG-20006, a Russian state-sponsored actor that used Claude to rebuild malware after security products detected it.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtfzeoSe_6tXrJiKsyJfN4vYk6suLsJPF3-SOJWE8LAaZ6_WixrsJVjZ0T8O6jdtB1d08IR8swK6H0B4S_m7-0YfIiJlVPHuL7guxwC-4ANLXUyNsEWfIusPzvOMPOKSBmFcBT1NBBVWIglIRlT8fs6O9Uc6ZRBRgWZNPbvgAVIj8gIXfusRwZh0tndhni/s1700-nu-rw-lo-l85-e365/claude-malware.jpg",
-      "topic": "Malware",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Friday, September 11th, 2026 https://isc.sans.edu/podcastdetail/10090, (Fri, Sep 11th)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
