@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-13T12:14:45.326062+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-13T16:35:28.106880+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
+      "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-13T13:27:25+00:00",
+      "description": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/11/AI_Risks.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
@@ -11,28 +22,6 @@
       "description": "Microsoft details a million-email CEO fraud campaign and passkey-themed attacks that compromised cloud accounts and enabled data exfiltration.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1700-nu-rw-lo-l85-e365/ms-outlook.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Revolut Data Breach Exposes Customers\u2019 Passport Copies and Full Transaction Histories to Hackers",
-      "url": "https://cybersecuritynews.com/revolut-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-13T05:09:27+00:00",
-      "description": "Revolut has disclosed a data-security incident in which sensitive customer information was released after the financial technology company received a fraudulent request that appeared to originate from a legitimate government agency.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Revolut-Data-Breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Plesk Backup Manager Flaw Lets Low-Privileged Users Gain Root Access to Servers",
-      "url": "https://cybersecuritynews.com/plesk-backup-manager-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-13T04:58:20+00:00",
-      "description": "Plesk Backup Manager flaw could allow low-privileged users to exploit a symlink race condition and gain root access on Linux servers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Plesk-Backup-Manager-Flaw-Lets-Low-Privileged-Users-Gain-Root-Access-to-Servers.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -47,17 +36,6 @@
       "kind": "News"
     },
     {
-      "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
-      "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T14:31:50+00:00",
-      "description": "Two security vulnerabilities in VLC Media Player allow attackers to corrupt heap memory or disclose sensitive data from a victim\u2019s memory.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-VLC-Media-Player-Vulnerabilities-Allow-Attackers-to-Corrupt-or-Read-Heap-Memory.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
       "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
       "source": "SecurityWeek",
@@ -66,17 +44,6 @@
       "description": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Containing Machine Speed Cyber Attacks Inside AI Infrastructure",
-      "url": "https://cybersecuritynews.com/containing-machine-speed-cyber-attacks-inside-ai-infrastructure/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T11:02:36+00:00",
-      "description": "A critical flaw in current security operations is assuming time is on our side. Historically, attacks progressed slowly, allowing analysts and response teams time to detect, discuss, and respond. Even severe incidents operated at a human pace. Our defenses\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/agnidiptas.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -121,17 +88,6 @@
       "description": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "GitLab Vulnerability Exploited One Day After Disclosure",
-      "url": "https://www.securityweek.com/gitlab-vulnerability-exploited-one-day-after-disclosure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-11T16:11:08+00:00",
-      "description": "The critical-severity path traversal flaw allows unauthenticated attackers to read arbitrary files from the GitLab server.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
