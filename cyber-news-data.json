@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-13T16:35:28.106880+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-13T21:05:44.653062+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Critical Dell ObjectScale Vulnerabilities Allows Malicious Users to Compromise the Affected system",
+      "url": "https://cybersecuritynews.com/dell-objectscale-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-13T14:43:29+00:00",
+      "description": "Dell has issued fixes for multiple ObjectScale and ECS flaws, including a critical unauthenticated RCE vulnerability.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-Dell-ObjectScale-Vulnerabilities-Allows-malicious-users-to-compromise-the-affected-system.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
       "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
@@ -25,6 +36,28 @@
       "kind": "News"
     },
     {
+      "title": "Revolut Data Breach Exposes Customers\u2019 Passport Copies and Full Transaction Histories to Hackers",
+      "url": "https://cybersecuritynews.com/revolut-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-13T05:09:27+00:00",
+      "description": "Revolut has disclosed a data-security incident in which sensitive customer information was released after the financial technology company received a fraudulent request that appeared to originate from a legitimate government agency.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Revolut-Data-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Plesk Backup Manager Flaw Lets Low-Privileged Users Gain Root Access to Servers",
+      "url": "https://cybersecuritynews.com/plesk-backup-manager-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-13T04:58:20+00:00",
+      "description": "Plesk Backup Manager flaw could allow low-privileged users to exploit a symlink race condition and gain root access on Linux servers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Plesk-Backup-Manager-Flaw-Lets-Low-Privileged-Users-Gain-Root-Access-to-Servers.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
       "source": "The Hacker News",
@@ -33,6 +66,17 @@
       "description": "CISA adds five exploited flaws in Artifactory, ScreenConnect, and RouterOS to KEV, with fixes due by September 25.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1700-nu-rw-lo-l85-e365/jj.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
+      "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T14:31:50+00:00",
+      "description": "Two security vulnerabilities in VLC Media Player allow attackers to corrupt heap memory or disclose sensitive data from a victim\u2019s memory.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-VLC-Media-Player-Vulnerabilities-Allow-Attackers-to-Corrupt-or-Read-Heap-Memory.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
