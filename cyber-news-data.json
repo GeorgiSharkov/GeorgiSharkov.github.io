@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-12T23:14:40.193377+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-13T05:18:37.140896+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Revolut Data Breach Exposes Customers\u2019 Passport Copies and Full Transaction Histories to Hackers",
+      "url": "https://cybersecuritynews.com/revolut-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-13T05:09:27+00:00",
+      "description": "Revolut has disclosed a data-security incident in which sensitive customer information was released after the financial technology company received a fraudulent request that appeared to originate from a legitimate government agency.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Revolut-Data-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Plesk Backup Manager Flaw Lets Low-Privileged Users Gain Root Access to Servers",
+      "url": "https://cybersecuritynews.com/plesk-backup-manager-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-13T04:58:20+00:00",
+      "description": "Plesk Backup Manager flaw could allow low-privileged users to exploit a symlink race condition and gain root access on Linux servers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Plesk-Backup-Manager-Flaw-Lets-Low-Privileged-Users-Gain-Root-Access-to-Servers.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
@@ -14,6 +36,17 @@
       "kind": "News"
     },
     {
+      "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
+      "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T14:31:50+00:00",
+      "description": "Two security vulnerabilities in VLC Media Player allow attackers to corrupt heap memory or disclose sensitive data from a victim\u2019s memory.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-VLC-Media-Player-Vulnerabilities-Allow-Attackers-to-Corrupt-or-Read-Heap-Memory.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
       "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
       "source": "SecurityWeek",
@@ -22,6 +55,17 @@
       "description": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Containing Machine Speed Cyber Attacks Inside AI Infrastructure",
+      "url": "https://cybersecuritynews.com/containing-machine-speed-cyber-attacks-inside-ai-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-12T11:02:36+00:00",
+      "description": "A critical flaw in current security operations is assuming time is on our side. Historically, attacks progressed slowly, allowing analysts and response teams time to detect, discuss, and respond. Even severe incidents operated at a human pace. Our defenses\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/agnidiptas.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
