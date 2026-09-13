@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-13T05:18:37.140896+00:00",
+  "generatedAt": "2026-09-13T12:14:45.326062+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-13T10:11:48+00:00",
+      "description": "Microsoft details a million-email CEO fraud campaign and passkey-themed attacks that compromised cloud accounts and enabled data exfiltration.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1700-nu-rw-lo-l85-e365/ms-outlook.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "Revolut Data Breach Exposes Customers\u2019 Passport Copies and Full Transaction Histories to Hackers",
       "url": "https://cybersecuritynews.com/revolut-data-breach/",
@@ -110,17 +121,6 @@
       "description": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-      "url": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-11T16:30:18+00:00",
-      "description": "GitLab patched CVE-2026-85706, a CVSS 10 path traversal flaw enabling unauthenticated file reads, as in-the-wild probes began.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s1700-nu-rw-lo-l85-e365/gitlab-wild.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
