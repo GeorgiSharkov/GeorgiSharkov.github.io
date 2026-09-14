@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-13T23:26:07.345029+00:00",
+  "generatedAt": "2026-09-14T05:22:38.061957+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "NCSC Warns of Critical Check Point VPN Flaws as Large-Scale Exploitation Is Expected",
+      "url": "https://cybersecuritynews.com/ncsc-warns-check-point-vpn-flaws-exploitation/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T05:11:54+00:00",
+      "description": "NCSC issued warning over two critical vulnerabilities in Check Point VPN products, saying it expects large-scale exploitation attempts in the near term.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NCSC-Warns-of-Critical-Check-Point-VPN-Flaws-as-Large-Scale-Exploitation-Is-Expected.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Weekly Cybersecurity Newsletter Bulletin \u2013 Microsoft 0-day, FortiOS, PAN-OS Flaw, Revolut Data Breach, and 20+ Stories",
+      "url": "https://cybersecuritynews.com/cybersecurity-weekly-newsletter-bulletin-september/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T03:10:36+00:00",
+      "description": "This week's roundup covers a massive Microsoft Patch Tuesday with two exploited zero-days, active FortiGate exploitation, a critical PAN-OS root-level RCE flaw, the Revolut KYC data breach, and more than 20 other stories spanning AI-driven cyberattacks,\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cybersecurity-Weekly-Newsletter-Bulletin-September.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, September 14th, 2026 https://isc.sans.edu/podcastdetail/10092, (Mon, Sep 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33334",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-14T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Critical Dell ObjectScale Vulnerabilities Allows Malicious Users to Compromise the Affected system",
       "url": "https://cybersecuritynews.com/dell-objectscale-vulnerabilities/",
@@ -47,17 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "Plesk Backup Manager Flaw Lets Low-Privileged Users Gain Root Access to Servers",
-      "url": "https://cybersecuritynews.com/plesk-backup-manager-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-13T04:58:20+00:00",
-      "description": "Plesk Backup Manager flaw could allow low-privileged users to exploit a symlink race condition and gain root access on Linux servers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Plesk-Backup-Manager-Flaw-Lets-Low-Privileged-Users-Gain-Root-Access-to-Servers.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
       "source": "The Hacker News",
@@ -66,17 +88,6 @@
       "description": "CISA adds five exploited flaws in Artifactory, ScreenConnect, and RouterOS to KEV, with fixes due by September 25.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1700-nu-rw-lo-l85-e365/jj.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Multiple VLC Media Player Vulnerabilities Allow Attackers to Corrupt or Read Heap Memory",
-      "url": "https://cybersecuritynews.com/multiple-vlc-media-player-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-12T14:31:50+00:00",
-      "description": "Two security vulnerabilities in VLC Media Player allow attackers to corrupt heap memory or disclose sensitive data from a victim\u2019s memory.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Multiple-VLC-Media-Player-Vulnerabilities-Allow-Attackers-to-Corrupt-or-Read-Heap-Memory.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -163,17 +174,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-09-10T12:58:10+00:00",
       "description": "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu BACS program]",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, September 10th, 2026 https://isc.sans.edu/podcastdetail/10088, (Thu, Sep 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33328",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-10T10:10:11+00:00",
-      "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
