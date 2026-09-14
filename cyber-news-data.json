@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-14T13:16:07.979687+00:00",
+  "generatedAt": "2026-09-14T19:55:56.295336+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Apple Updates Everything, (Mon, Sep 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33336",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-14T18:33:44+00:00",
+      "description": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-14T18:02:13+00:00",
+      "description": "DDRop uses server control and a DDR5 interposer to replay stale encrypted data in Intel TDX, Scalable SGX, and AMD SEV-SNP.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IfzHWVZbbX-Jlw_WME4viVgnupLfVdkxzfZ0skzjQpB5I32f-nua5-Gt6UJGJ9-cwTyrHqaCxBFndtNkIFx_Tj9sf3LnxfrqlecJ0zh0N83i5YRdukZRTpTiUP-kVrkpF4gMJZN-tONZy7jjk2gqdq87ELsUHDlyjQDFCIX6Rioz3ljHItZ2IeLDqb-w/s1700-nu-rw-lo-l85-e365/DDRop.gif",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-14T18:01:49+00:00",
+      "description": "Researchers found an attacker with root access inside 3BB using MeshCentral for persistence and targeting subscriber RADIUS databases.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s1700-nu-rw-lo-l85-e365/3bb.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "url": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-14T17:58:16+00:00",
+      "description": "Telegram Desktop fixed a flaw that let bot messages embed JavaScript in HTML exports to read or alter messages; old exports remain affected.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7YYT-Mf718wZ9kLasqkkPZ1Drw4dlLUMaHtOPuWRltuG7bOcA-d4bFr4GRmer0MMohBwgv7HFVFADi-EeDvIMcbEaJUiyn8t-iLxtR8PVRDWHLmxKnofrZgoPOH_RS7qaUkzd0Ery8Rr7oWlgoPJligCMSSywXmXdMHgzuER6M77sWisfdMOo_rqudmk/s1700-nu-rw-lo-l85-e365/telehgram.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit FortiGate SSL-VPN Vulnerability to Attack Broadband Provider",
+      "url": "https://cybersecuritynews.com/fortigate-ssl-vpn-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T17:08:51+00:00",
+      "description": "Researchers have uncovered an exposed attacker-controlled staging server containing evidence of a wide-ranging intrusion targeting 3BB, the consumer brand operated by Thailand\u2019s Triple T Broadband.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/FortiGate-SSL-VPN-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Mass-Scan Exposed Vite Servers to Steal AWS and Azure Cloud Credentials",
+      "url": "https://cybersecuritynews.com/vite-servers-under-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T16:59:19+00:00",
+      "description": "Hackers are conducting a large-scale automated scanning campaign against internet-exposed Vite development servers, attempting to steal AWS credentials, Azure access tokens, environment variables, and Infrastructure-as-Code secrets.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Vite-Server-Cloud-Credentials.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-14T16:56:30+00:00",
+      "description": "Red Heron exploited Gitea CVE-2026-60004 to steal repositories, collect credentials, persist, and move laterally across victim networks",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvj2lBIP05rWNCbhHf0wzhfJ35HBSL0rrr99VOwBa-AzBrvlz0hpopABC1zCHMLj6mqJTNSiij7cFcocgbHUyRbh1QV3V7OCWDLXn3fJ_fRJQxaj63BC8UOjjNlcBdwZ0jdD3zWDA6XpA3Xt2an-6vAE-kyo3sPOpjNa5tzWnntDxaeia-0zzKa-PuywC/s1700-nu-rw-lo-l85-e365/gitea-hacked.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "UK Government Begins Moving 23 Million Users Away From Passwords",
+      "url": "https://cybersecuritynews.com/uk-government-passwordless/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T16:52:28+00:00",
+      "description": "The UK government has begun rolling out passkeys across GOV.UK One Login, offering more than 23 million users a passwordless way to access public services.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/UK-Government-Passwordless-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Nintendo Switch Vulnerability Allows Attackers to Run Unauthorized Code on Your Console",
+      "url": "https://cybersecuritynews.com/nintendo-switch-code-execution-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T16:23:56+00:00",
+      "description": "Nintendo has patched a high-severity vulnerability in the original Nintendo Switch that could let a nearby attacker execute unauthorized code and access information stored on the console.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Nintendo-Switch-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Beijing Hits Back at Anthropic CEO\u2019s Call to Curb China\u2019s AI Development",
+      "url": "https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-14T14:28:26+00:00",
+      "description": "China\u2019s Ministry of Foreign Affairs responded to a question about Amodei\u2019s essay by saying that all parties should work together on AI.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate",
+      "url": "https://www.securityweek.com/new-warnings-about-the-risks-of-ai-to-humanity-revive-a-long-running-debate/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-14T13:31:15+00:00",
+      "description": "Concerns over the potential risks of the technology are rising as new AI models become more powerful, heightening both the potential for misuse by people with criminal aims.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/07/AI-artificial-intelligence-model-frontier.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Personal, Financial Info Exposed in Revolut Data Breach",
       "url": "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/",
@@ -11,17 +132,6 @@
       "description": "The company unintentionally disclosed users\u2019 information to a third party impersonating a government agency.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Revolut.jpeg",
       "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "One Click on a Malicious Link Lets Hackers Backdoor Sogou Input Method Users",
-      "url": "https://cybersecuritynews.com/one-click-on-a-malicious-link/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T13:01:36+00:00",
-      "description": "A one-click Sogou Input Method flaw let UNC3569 deploy GRAYRABBIT backdoor, enabling remote code execution and data theft.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/One-Click-on-a-Malicious-Link-Lets-Hackers-Backdoor-Sogou-Input-Method-Users.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -36,83 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
-      "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-14T11:58:00+00:00",
-      "description": "35,853 CVEs were published in H1 2026, but 495 were catalogued as exploited in the wild, sharpening the case for exposure validation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid_ratIPK3F0IGyzyDTTPaV26Nnh4gQoFjS0ejR49J_tbGb92GgukT-Mnr9xv9mK7h0QSdeXujxiEtD0AqVKNmrKoG9BMEuut7CB1368iyt3Gr6Xu5mAdkDsUQC86K9GZ-Uw6qfPvYYr9BUvHzn014_rzQeMS5dCVXEwkRLs3eViylo5ChmZs6QQygxE4/s1700-nu-rw-lo-l85-e365/picus-main.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution",
-      "url": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-14T11:51:29+00:00",
-      "description": "The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/China-Chinese-hacker.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Leverage Claude to Exfiltrate Secrets from 1.8M Android apps",
-      "url": "https://cybersecuritynews.com/hackers-leverage-claude-to-exfiltrate-secrets-android-apps/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T11:00:15+00:00",
-      "description": "ShinyHunters-linked criminals used Claude to scan 1.8M Android apps for hardcoded secrets, turning exposed credentials into rapid enterprise access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Leverage-Claude-to-Exfiltrate-Secrets-from-1.8M-Android-apps.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Confirms Remote Desktop Services Might Stop Working Following Sept. 2026 Security Update",
-      "url": "https://cybersecuritynews.com/remote-desktop-services-stop-working/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T10:43:26+00:00",
-      "description": "Microsoft has confirmed that its September 2026 Windows security updates can destabilize Remote Desktop Services (RDS), potentially disrupting remote administration across a broad range of enterprise endpoints and servers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Remote-Desktop-Services-Stop-Working.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CISOs Race to Control AI Agents Without Destroying Their Value",
-      "url": "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-14T10:30:00+00:00",
-      "description": "Security leaders are struggling to modernize cyber hygiene and prevent over-privileged agents from causing unintended harm.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/CISO_Communities.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "GitHub Pays $100,000 Bounty for Critical RCE Flaw in Git Push Pipeline",
-      "url": "https://cybersecuritynews.com/github-pays-bounty-for-rce-flaw-in-git-push/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T08:50:25+00:00",
-      "description": "GitHub awarded researcher Saif Ghani a $100,000 bug bounty for discovering CVE-2026-3854, a RCE flaw in GitHub\u2019s Git push processing pipeline.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/GitHub-Pays-100000-Bounty-for-Critical-RCE-Flaw-in-Git-Push-Pipeline.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
-      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-14T07:24:39+00:00",
-      "description": "JeetBot's Twitch extension sent OAuth tokens from nearly 31,000 users to operator-controlled proxies; Firefox 85.8.7 stops the behavior.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1700-nu-rw-lo-l85-e365/twitch.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Monday, September 14th, 2026 https://isc.sans.edu/podcastdetail/10092, (Mon, Sep 14th)",
       "url": "https://isc.sans.edu/diary/rss/33334",
       "source": "SANS ISC",
@@ -122,28 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-13T10:11:48+00:00",
-      "description": "Microsoft details a million-email CEO fraud campaign and passkey-themed attacks that compromised cloud accounts and enabled data exfiltration.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1700-nu-rw-lo-l85-e365/ms-outlook.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-12T15:54:45+00:00",
-      "description": "CISA adds five exploited flaws in Artifactory, ScreenConnect, and RouterOS to KEV, with fixes due by September 25.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1700-nu-rw-lo-l85-e365/jj.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
@@ -163,17 +174,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-09-11T02:00:02+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Redtail Payload Analysis [Guest Diary], (Wed, Sep 9th)",
-      "url": "https://isc.sans.edu/diary/rss/33326",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-10T12:58:10+00:00",
-      "description": "[This is a Guest Diary by Aaron Ng, an ISC intern as part of the SANS.edu BACS program]",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
