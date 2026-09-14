@@ -1,27 +1,115 @@
 {
-  "generatedAt": "2026-09-14T05:22:38.061957+00:00",
+  "generatedAt": "2026-09-14T13:16:07.979687+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "NCSC Warns of Critical Check Point VPN Flaws as Large-Scale Exploitation Is Expected",
-      "url": "https://cybersecuritynews.com/ncsc-warns-check-point-vpn-flaws-exploitation/",
+      "title": "Personal, Financial Info Exposed in Revolut Data Breach",
+      "url": "https://www.securityweek.com/personal-financial-info-exposed-in-revolut-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-14T13:03:35+00:00",
+      "description": "The company unintentionally disclosed users\u2019 information to a third party impersonating a government agency.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Revolut.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "One Click on a Malicious Link Lets Hackers Backdoor Sogou Input Method Users",
+      "url": "https://cybersecuritynews.com/one-click-on-a-malicious-link/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T05:11:54+00:00",
-      "description": "NCSC issued warning over two critical vulnerabilities in Check Point VPN products, saying it expects large-scale exploitation attempts in the near term.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NCSC-Warns-of-Critical-Check-Point-VPN-Flaws-as-Large-Scale-Exploitation-Is-Expected.webp",
+      "publishedAt": "2026-09-14T13:01:36+00:00",
+      "description": "A one-click Sogou Input Method flaw let UNC3569 deploy GRAYRABBIT backdoor, enabling remote code execution and data theft.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/One-Click-on-a-Malicious-Link-Lets-Hackers-Backdoor-Sogou-Input-Method-Users.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "The Race to Control AI and Protect What Makes Us Human",
+      "url": "https://www.securityweek.com/the-race-to-control-ai-and-protect-what-makes-us-human/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-14T13:00:00+00:00",
+      "description": "As researchers warn that misaligned AI could threaten human survival, even beneficial systems may erode the critical thinking that defines our humanity.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI_Kill-Humanity.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-14T11:58:00+00:00",
+      "description": "35,853 CVEs were published in H1 2026, but 495 were catalogued as exploited in the wild, sharpening the case for exposure validation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid_ratIPK3F0IGyzyDTTPaV26Nnh4gQoFjS0ejR49J_tbGb92GgukT-Mnr9xv9mK7h0QSdeXujxiEtD0AqVKNmrKoG9BMEuut7CB1368iyt3Gr6Xu5mAdkDsUQC86K9GZ-Uw6qfPvYYr9BUvHzn014_rzQeMS5dCVXEwkRLs3eViylo5ChmZs6QQygxE4/s1700-nu-rw-lo-l85-e365/picus-main.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Weekly Cybersecurity Newsletter Bulletin \u2013 Microsoft 0-day, FortiOS, PAN-OS Flaw, Revolut Data Breach, and 20+ Stories",
-      "url": "https://cybersecuritynews.com/cybersecurity-weekly-newsletter-bulletin-september/",
+      "title": "Chinese Hackers Exploit Critical Tencent Software Flaw for One-Click Code Execution",
+      "url": "https://www.securityweek.com/chinese-hackers-exploit-critical-tencent-software-flaw-for-one-click-code-execution/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-14T11:51:29+00:00",
+      "description": "The Chinese-language input method editor for Windows can allow attackers to execute arbitrary code remotely.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/China-Chinese-hacker.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Leverage Claude to Exfiltrate Secrets from 1.8M Android apps",
+      "url": "https://cybersecuritynews.com/hackers-leverage-claude-to-exfiltrate-secrets-android-apps/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T03:10:36+00:00",
-      "description": "This week's roundup covers a massive Microsoft Patch Tuesday with two exploited zero-days, active FortiGate exploitation, a critical PAN-OS root-level RCE flaw, the Revolut KYC data breach, and more than 20 other stories spanning AI-driven cyberattacks,\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cybersecurity-Weekly-Newsletter-Bulletin-September.webp",
+      "publishedAt": "2026-09-14T11:00:15+00:00",
+      "description": "ShinyHunters-linked criminals used Claude to scan 1.8M Android apps for hardcoded secrets, turning exposed credentials into rapid enterprise access.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Leverage-Claude-to-Exfiltrate-Secrets-from-1.8M-Android-apps.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Confirms Remote Desktop Services Might Stop Working Following Sept. 2026 Security Update",
+      "url": "https://cybersecuritynews.com/remote-desktop-services-stop-working/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T10:43:26+00:00",
+      "description": "Microsoft has confirmed that its September 2026 Windows security updates can destabilize Remote Desktop Services (RDS), potentially disrupting remote administration across a broad range of enterprise endpoints and servers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Remote-Desktop-Services-Stop-Working.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISOs Race to Control AI Agents Without Destroying Their Value",
+      "url": "https://www.securityweek.com/cisos-race-to-control-ai-agents-without-destroying-their-value/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-14T10:30:00+00:00",
+      "description": "Security leaders are struggling to modernize cyber hygiene and prevent over-privileged agents from causing unintended harm.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/CISO_Communities.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "GitHub Pays $100,000 Bounty for Critical RCE Flaw in Git Push Pipeline",
+      "url": "https://cybersecuritynews.com/github-pays-bounty-for-rce-flaw-in-git-push/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-14T08:50:25+00:00",
+      "description": "GitHub awarded researcher Saif Ghani a $100,000 bug bounty for discovering CVE-2026-3854, a RCE flaw in GitHub\u2019s Git push processing pipeline.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/GitHub-Pays-100000-Bounty-for-Critical-RCE-Flaw-in-Git-Push-Pipeline.webp",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "url": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-14T07:24:39+00:00",
+      "description": "JeetBot's Twitch extension sent OAuth tokens from nearly 31,000 users to operator-controlled proxies; Firefox 85.8.7 stops the behavior.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1700-nu-rw-lo-l85-e365/twitch.jpg",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -36,28 +124,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Critical Dell ObjectScale Vulnerabilities Allows Malicious Users to Compromise the Affected system",
-      "url": "https://cybersecuritynews.com/dell-objectscale-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-13T14:43:29+00:00",
-      "description": "Dell has issued fixes for multiple ObjectScale and ECS flaws, including a critical unauthenticated RCE vulnerability.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Critical-Dell-ObjectScale-Vulnerabilities-Allows-malicious-users-to-compromise-the-affected-system.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic CEO Dario Amodei Says AI Industry Needs to Give Safety Measures Time to Catch Up",
-      "url": "https://www.securityweek.com/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-13T13:27:25+00:00",
-      "description": "Dario Amodei warned that within six to 12 months AI could be capable of leading a swarm of agents that could take over the entire internet.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/11/AI_Risks.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
       "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
       "source": "The Hacker News",
@@ -69,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "Revolut Data Breach Exposes Customers\u2019 Passport Copies and Full Transaction Histories to Hackers",
-      "url": "https://cybersecuritynews.com/revolut-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-13T05:09:27+00:00",
-      "description": "Revolut has disclosed a data-security incident in which sensitive customer information was released after the financial technology company received a fraudulent request that appeared to originate from a legitimate government agency.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Revolut-Data-Breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
       "source": "The Hacker News",
@@ -88,61 +143,6 @@
       "description": "CISA adds five exploited flaws in Artifactory, ScreenConnect, and RouterOS to KEV, with fixes due by September 25.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1700-nu-rw-lo-l85-e365/jj.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "BlueMoon Exploit Kit Chains Recent Chrome, Windows Zero-Days",
-      "url": "https://www.securityweek.com/bluemoon-exploit-kit-chains-recent-chrome-windows-zero-days/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-12T11:10:00+00:00",
-      "description": "Multiple espionage-motivated threat actors have adopted BlueMoon in opportunistic, rushed deployments.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/exploit.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-      "url": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-12T10:24:44+00:00",
-      "description": "AI-related SOC alerts rose 685% from February to June 2026, with 94.1% classified as noise and 5.8% as genuine security risks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx03NP3tJYBFro8_pZ2g6irfvMJFy0HGYqvUu9kkRJZBnMJ-BcA9aWGZZ1vS4a71YOgpB5qLBDkoNnMyOBJXGhfsyQQMK0IgaGunMOUTLnFUSFddG_5NwlnXsUCWJpGh3bGOcWLHpxXTAqv0i4QAYyRZPXcm0Rcp5K9Yfc7o7SEeLZXNtGp3NZVMzlv1M/s1700-nu-rw-lo-l85-e365/in.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-      "url": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-12T09:07:56+00:00",
-      "description": "A report links OpenAI agents to a RubyGems campaign that abused RubyDoc for RCE and published more than 2,000 packages in May.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1700-nu-rw-lo-l85-e365/rubygems-openai.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Users in Houthi-Held Yemen Tried to Develop Advanced Weapons With AI, Anthropic Says",
-      "url": "https://www.securityweek.com/users-in-houthi-held-yemen-tried-to-develop-advanced-weapons-with-ai-anthropic-says/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-12T01:50:53+00:00",
-      "description": "Anthropic said the users did not succeed in \u201cfielding an operational device\u201d but did carry out a failed test of a guided rocket.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Threat_Intelligence.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Phishing Research Challenges Conventional Security Awareness Testing",
-      "url": "https://www.securityweek.com/phishing-research-challenges-conventional-security-awareness-testing/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-11T17:23:36+00:00",
-      "description": "Analysis of 2.47 million simulated attacks shows why organizations should measure credential leaks and reporting, not just clicks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
