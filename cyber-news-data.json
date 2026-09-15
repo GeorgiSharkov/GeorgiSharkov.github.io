@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-14T23:58:14.266387+00:00",
+  "generatedAt": "2026-09-15T05:14:21.723611+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hackers Exploit Critical Cisco Secure Email Gateway Vulnerability in the Wild to Run Malicious Code",
+      "url": "https://cybersecuritynews.com/cisco-secure-email-gateway-flaw-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-15T04:14:12+00:00",
+      "description": "Cisco has issued an urgent warning regarding an actively exploited zero-day vulnerability in its Secure Email Gateway appliances that allows remote, unauthenticated attackers to execute arbitrary commands with highest-level root privileges.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cisco-Secure-Email-Gateway-Flaw-Exploited.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Revolut Data Breach Via Fake Government Requests \u2013 What We Know So Far",
+      "url": "https://cybersecuritynews.com/fintech-revolut-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-15T03:46:35+00:00",
+      "description": "British fintech Revolut has confirmed a data breach in which an unauthorized third party obtained sensitive customer records by submitting fraudulent information requests through an email address using a legitimate government agency\u2019s domain.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Revolut-Data-Breach-Impact.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33338",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-15T02:25:12+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Apple Updates Everything, (Mon, Sep 14th)",
       "url": "https://isc.sans.edu/diary/rss/33336",
@@ -80,28 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "UK Government Begins Moving 23 Million Users Away From Passwords",
-      "url": "https://cybersecuritynews.com/uk-government-passwordless/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T16:52:28+00:00",
-      "description": "The UK government has begun rolling out passkeys across GOV.UK One Login, offering more than 23 million users a passwordless way to access public services.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/UK-Government-Passwordless-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Nintendo Switch Vulnerability Allows Attackers to Run Unauthorized Code on Your Console",
-      "url": "https://cybersecuritynews.com/nintendo-switch-code-execution-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-14T16:23:56+00:00",
-      "description": "Nintendo has patched a high-severity vulnerability in the original Nintendo Switch that could let a nearby attacker execute unauthorized code and access information stored on the console.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Nintendo-Switch-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Beijing Hits Back at Anthropic CEO\u2019s Call to Curb China\u2019s AI Development",
       "url": "https://www.securityweek.com/beijing-hits-back-at-anthropic-ceos-call-to-curb-chinas-ai-development/",
       "source": "SecurityWeek",
@@ -165,17 +176,6 @@
       "description": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account farming, validating the resulting inference capacity, and\u2026",
       "image": "",
       "topic": "Identity",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Friday, September 11th, 2026 https://isc.sans.edu/podcastdetail/10090, (Fri, Sep 11th)",
-      "url": "https://isc.sans.edu/diary/rss/33330",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-11T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
