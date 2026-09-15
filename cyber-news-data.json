@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-15T17:13:52.743238+00:00",
+  "generatedAt": "2026-09-15T21:42:24.907701+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
+      "url": "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-15T20:24:51+00:00",
+      "description": "Microsoft agreed to adopt guardrails and privacy standards for its AI in schools, as negotiated with the American Federation of Teachers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "\u201cWe Think the Security Control Is Working\u201d Is No Longer Good Enough",
+      "url": "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-15T19:30:00+00:00",
+      "description": "Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+      "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-15T18:54:14+00:00",
+      "description": "KREMLIN targets Brazilian bank users with malicious Chrome and Edge extensions that steal credentials, session tokens, cookies, and browser data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPTs6qupSdjinGg233zkoldOvlD4cva51loWufV3l9GrlDopNRIKsV9yluCDjbGELBAAvVGx_h4R-sjx4jvDp290Znzhv6j546sq5JB0NJUShGVV3w0gKU7nu4dBVCosaPeKW-Pr1_WHn4FV26aEJRgEo7oSJsgUE5_ZGCMKWPPBdZ7NMh5XRr04Cs6qTh/s1700-nu-rw-lo-l85-e365/browser-malware.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-15T16:29:51+00:00",
+      "description": "U.S., U.K., and Dutch agencies say Iran\u2019s intelligence service uses Telegram-controlled Windows malware to spy on dissidents and journalists.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTZstgI7jZKSq2kVj82ewI26neoU-YsSa1z0LIJdjqdsCSk8zS3VYdvhFyfE0rq75UOlst77oTDBZ-mVzRDaqljLl-jJrvxWzLBmj74k8kWFjld5o2uTB59tskHlBqM0JTuf5yuTMsWMBuE-Y_2LtkIfKT-l9C-h5Y5rvkAJKlIGD5rQLbUuWRNx8y5k/s1700-nu-rw-lo-l85-e365/iran-malware.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "$1 Million Sandbox Challenge Uncovers Linux Kernel Flaws",
       "url": "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws/",
@@ -22,17 +66,6 @@
       "description": "The cybersecurity startup is building a proprietary foundation model and plans to accelerate global expansion.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cybersecurity-funding.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Texas Utility CenterPoint Energy Confirms Breach After Hacker Leaks Data",
-      "url": "https://www.securityweek.com/texas-utility-centerpoint-energy-confirms-breach-after-hacker-leaks-data/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-15T15:30:24+00:00",
-      "description": "A hacker claims to have stolen 7.5 million customer records after breaching the company\u2019s systems.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/CenterPoint-Energy.jpeg",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -58,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "Thai Broadband Provider Hacked via Fortinet Vulnerability",
-      "url": "https://www.securityweek.com/thai-broadband-provider-hacked-via-fortinet-vulnerability/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-15T13:33:58+00:00",
-      "description": "The hackers staged numerous scripts for reconnaissance and CVE probing, along with brute-force utilities and privilege escalation tools.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/01/broadband-internet-wi-fi.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
       "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
       "source": "The Hacker News",
@@ -76,28 +98,6 @@
       "publishedAt": "2026-09-15T11:52:28+00:00",
       "description": "Attackers exploit Marimo CVE-2026-39987, with one human operator pivoting to an SSH bastion in eight seconds after initial access.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWVpv5OsfVGAYPz4or_uMgVNDXTSzyXpTB8XLtCFHdzk9IliH8Aydez_Zo9hDGSj7__A0cFwnjKUpRWn5nn4CSd5wlaIJ1-BpU29tUyeh3pC63H_kXIn9ANQna1FBENp-td6TCC6z50ZEcAeNjAZMA-tIA9_x9nYrlHqbnJOijQpbeHsQmW5tKMczy4ek/s1700-nu-rw-lo-l85-e365/marimo%20%281%29.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-      "url": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-15T11:26:36+00:00",
-      "description": "OpenAEV adds Attack Chaining to automate multi-stage attack simulations, with XTM One supporting AI-led planning and execution within defined scope.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ5FtIC97mlzzBT1tKZW7igSSWnJsEI-gEDuUjX-_smFr3Q-loPw-bYG2rEqPBOFPOm0SeL3Go5NvyiJo_DbqnF7ECWdg1EA0DaUML5koDFnXi_lTpJ_Vuow5bsBeQvqLTN25x3O0seE7Qxv5o3S9KoIKuQAVIu7FTPPoZm6ly5XtS97tng5LAaw3tCCY/s1700-nu-rw-lo-l85-e365/live.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-      "url": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-15T11:12:32+00:00",
-      "description": "Attackers exploit a Vite flaw in exposed dev servers to extract cloud credentials, configuration files, and infrastructure state.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDvoBVfJIN7YwGuf64F0CQWt9GrAVzaxDWGJetCrAGM_QgGEfpZm_I7f3FTkWBydY7v_iV4n8RWPAr4jfp7ZhN9DVbVZGDryBYlZiL6dn5RuYzLd811NH_sARdjbwWIpf9kOj-jtXfLzb7BTuy-iMpHbsgB9n8J5T7Hx0qp0D1_XeJR-ANcGQ5p88YH3fE/s1700-nu-rw-lo-l85-e365/vite.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
