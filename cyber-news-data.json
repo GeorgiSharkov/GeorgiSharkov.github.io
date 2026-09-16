@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2026-09-16T05:09:22.229346+00:00",
+  "generatedAt": "2026-09-16T11:58:37.935102+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Google Chrome 153 Update Fixes 42 Security Flaws, Including 3 Critical Ones",
-      "url": "https://cybersecuritynews.com/google-chrome-fixes-42-flaws/",
+      "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
+      "url": "https://cybersecuritynews.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-16T03:01:19+00:00",
-      "description": "Google has released an important Chrome 153 security update that fixes 42 vulnerabilities across the browser, including three bugs rated Critical.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Chrome-Fixes-42-Vulne.webp",
+      "publishedAt": "2026-09-16T11:57:50+00:00",
+      "description": "Now in early access, AxoDetect runs Sigma rules in stream alerts travel to the SIEM, and full-fidelity logs land in AxoLake, a low-cost security data lake",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEedgHh8SRciKSmzX4ebFzLyKw_2RWDYvaildd3uPHZ36LPCmqSzdimO6SyALsuOh3iBK8nahlIWSExmqpDIRZwv92zrNVbNKX5top0plLfuMBPDfSq5jfHbZeo8SRqFYErHQZbHh6Lbn3CVBUQOCY_R2cLOE7nu1XDVuPyrsYAU9MHpD8Ju-G2aOsBqc/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-16T163908.00.webp",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Are Hiding Espionage Infrastructure Inside Ordinary-Looking Casino Websites",
+      "url": "https://cybersecuritynews.com/espionage-infrastructure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-16T11:44:40+00:00",
+      "description": "China-aligned hackers hide PeckBirdy C2 infrastructure in fake casino sites to target Asian government and corporate organizations.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Are-Hiding-Espionage-Infrastructure-Inside-Ordinary-Looking-Casino-Websites.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Unauthenticated RCE Flaws Could Expose 200,000+ WordPress Sites to Takeover",
+      "url": "https://www.securityweek.com/unauthenticated-rce-flaws-could-expose-200000-wordpress-sites-to-takeover/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-16T11:32:53+00:00",
+      "description": "Vulnerabilities in The Events Calendar can provide attackers with remote code execution capabilities.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+      "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-16T11:15:58+00:00",
+      "description": "Google patches CVE-2026-58704, a Pixel modem privilege escalation flaw that may be under limited, targeted exploitation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdVCezHTU2PU4DuL9ysF0nQFJLLR2QyxyexdJN5iv1QQnl4-mFFupADzryOhW_lsM_nI5OgHH5krMBLOErLl9GNmyJeaGEDGQNnhhyphenhyphenNs2ZXIwBLTIY8poIVxLKPNRRAipPFbKv_a7CPzE86rB_nItrsiirydPRuCZrvkDymktX28d1O7kSbEhIgmEPh6oy/s1700-nu-rw-lo-l85-e365/pixel.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-16T11:15:48+00:00",
+      "description": "Pentera and Recorded Future link leaked-credential intelligence to automated testing that checks which exposed credentials still work.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNTaZ2mJpwks9AMkwh4I_Q5sK5sgj01Fd4eW4c47_ZsHN_8hKPjptnlJ_P0RboejQy7PB6Ad4UXLFggJXAGlVsBigp46txL8LoSlpMuwQ0sXkAPQZ4TYtg89jNIa6SLPxuv-YC-_LlNZq2FZdNHRnrP_iQUYPSj2-MzugjnlL_CrIJw80lMzbVCZEf0x8/s1700-nu-rw-lo-l85-e365/pentera.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackuity Raises $19 Million for AI-Powered Vulnerability Management",
+      "url": "https://www.securityweek.com/hackuity-raises-19-million-for-ai-powered-vulnerability-management/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-16T11:11:23+00:00",
+      "description": "The company will use the new capital to expand its vulnerability operations platform and support international growth.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+      "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-16T11:08:54+00:00",
+      "description": "Acronis says CVE-2026-87886, a local privilege escalation flaw in its Linux backup plugins, was exploited in limited targeted attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOvbeWtAztd1-F4zbNa4Ei7kEh-C7s4QGW-rmB8ug7-mXRIcdL_mAqtAA_hqAG7QtaHUMTxSYa5dFw0080LoR66SUCPLGybqueRLeUJvQQ6unmg4WqExx08rrv0NZaZkQldGURtIDMZRpregBaFLhjws2d_eRt0I0VcZdaSGZS6twj0AvBK74TAJx-veBz/s1700-nu-rw-lo-l85-e365/acronis.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "700+ OpenAI Agents Built Their Own Message Board to Coordinate an Attack on Hugging Face",
+      "url": "https://cybersecuritynews.com/700-openai-agents/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-16T11:04:49+00:00",
+      "description": "AI agents built an unauthorized network and coordinated 70,000+ messages to target Hugging Face infrastructure during testing.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/700-OpenAI-Agents-Built-Their-Own-Message-Board-to-Coordinate-an-Attack-on-Hugging-Face.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "280,000 Impacted by Premier Medical Group Data Breach",
+      "url": "https://www.securityweek.com/280000-impacted-by-premier-medical-group-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-16T10:47:18+00:00",
+      "description": "In June 2026, hackers accessed files containing patients\u2019 names, contact information, diagnosis details, and health insurance information.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Chrome, Firefox Updates Patch 115 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-115-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-16T10:28:36+00:00",
+      "description": "Google resolved 42 security defects in Chrome, and Mozilla fixed 73 bugs in Firefox.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best AWS Security Tools in 2026",
+      "url": "https://cybersecuritynews.com/best-aws-security-tools/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-16T09:57:37+00:00",
+      "description": "We reviewed the 10 best AWS security tools for 2026 \u2014 native GuardDuty and Security Hub plus Wiz, Prisma Cloud, CrowdStrike, and more, with pros and cons.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Best-AWS-Security-Tools.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-16T05:48:28+00:00",
+      "description": "Attackers are exploiting CVE-2026-27540 in WooCommerce Wholesale Lead Capture to upload PHP web shells and gain remote code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaDJy8WPrkf8CE0D66EluNlAxZjtSyl-SeLt9BmCzqINPxm9H08ACj6o1nZWYQxcR5FYK-RrzDRXe014EEAMDH1wBa-SSXV1HNXJyLZsOWzNxU533Err9iI0Z_PQwy2Z6pY3LkGMSB2xKwQPIJe5mXgCJFeeUGj8qDKSmA9I9RS0MNl7jtlUhqkVPOkIfL/s1700-nu-rw-lo-l85-e365/wordpress-shell.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -25,105 +146,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Microsoft Commits to Sweeping AI Privacy Rules for Students. Will Other Tech Giants Follow?",
-      "url": "https://www.securityweek.com/microsoft-commits-to-sweeping-ai-privacy-rules-for-students-will-other-tech-giants-follow/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-15T20:24:51+00:00",
-      "description": "Microsoft agreed to adopt guardrails and privacy standards for its AI in schools, as negotiated with the American Federation of Teachers.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "\u201cWe Think the Security Control Is Working\u201d Is No Longer Good Enough",
-      "url": "https://www.securityweek.com/we-think-the-security-control-is-working-is-no-longer-good-enough/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-15T19:30:00+00:00",
-      "description": "Point-in-time audits and sampled assessments offer only snapshots; continuous control monitoring provides evidence that security controls are working today.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-      "url": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-15T18:54:14+00:00",
-      "description": "KREMLIN targets Brazilian bank users with malicious Chrome and Edge extensions that steal credentials, session tokens, cookies, and browser data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPTs6qupSdjinGg233zkoldOvlD4cva51loWufV3l9GrlDopNRIKsV9yluCDjbGELBAAvVGx_h4R-sjx4jvDp290Znzhv6j546sq5JB0NJUShGVV3w0gKU7nu4dBVCosaPeKW-Pr1_WHn4FV26aEJRgEo7oSJsgUE5_ZGCMKWPPBdZ7NMh5XRr04Cs6qTh/s1700-nu-rw-lo-l85-e365/browser-malware.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "CISA and NIST Release Technical Checklist for Safeguarding Identity Tokens From Theft and Misuse",
-      "url": "https://cybersecuritynews.com/cisa-nist-identity-token-security/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-15T17:04:37+00:00",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) and the National Institute of Standards and Technology (NIST) have released final technical guidance to stop attackers from forging, stealing, replaying, or misusing identity and access tokens.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-NIST-Identity-Token-Security.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "url": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-15T16:29:51+00:00",
-      "description": "U.S., U.K., and Dutch agencies say Iran\u2019s intelligence service uses Telegram-controlled Windows malware to spy on dissidents and journalists.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTZstgI7jZKSq2kVj82ewI26neoU-YsSa1z0LIJdjqdsCSk8zS3VYdvhFyfE0rq75UOlst77oTDBZ-mVzRDaqljLl-jJrvxWzLBmj74k8kWFjld5o2uTB59tskHlBqM0JTuf5yuTMsWMBuE-Y_2LtkIfKT-l9C-h5Y5rvkAJKlIGD5rQLbUuWRNx8y5k/s1700-nu-rw-lo-l85-e365/iran-malware.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Shares 17 Techniques Used by Hackers to Compromise Active Directory Environments",
-      "url": "https://cybersecuritynews.com/cisa-active-directory-attack-techniques/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-15T16:05:54+00:00",
-      "description": "CISA and five international cybersecurity agencies have released detailed guidance describing 17 common techniques hackers use to compromise Microsoft Active Directory environments.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-Active-Directory-Attack-Techniques.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "$1 Million Sandbox Challenge Uncovers Linux Kernel Flaws",
-      "url": "https://www.securityweek.com/1-million-sandbox-challenge-uncovers-linux-kernel-flaws/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-15T16:00:00+00:00",
-      "description": "AI-assisted researchers flooded Vercel with reports, forcing the company to automate vulnerability triage.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Linux-vulnerability-malware.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Apple Rolls Out Massive Security Update Fixing 273 Vulnerabilities Across Its Devices",
-      "url": "https://cybersecuritynews.com/apple-security-update-273-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-15T15:51:12+00:00",
-      "description": "Apple has released one of its largest coordinated security rollouts, addressing 273 distinct critical vulnerabilities across iPhone, iPad, Mac, Apple Watch, Apple TV, Vision Pro, Safari, and Xcode.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Apple-Security-Update-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Exein Secures $270M at $1.7B Valuation for Physical AI Security",
-      "url": "https://www.securityweek.com/exein-secures-270m-at-1-7b-valuation-for-physical-ai-security/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-15T15:45:13+00:00",
-      "description": "The cybersecurity startup is building a proprietary foundation model and plans to accelerate global expansion.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cybersecurity-funding.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "MacOS 27 - First Boot, (Tue, Sep 15th)",
       "url": "https://isc.sans.edu/diary/rss/33340",
       "source": "SANS ISC",
@@ -133,28 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-      "url": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-15T15:23:19+00:00",
-      "description": "BambooToken uses MQTT for C2 across Windows and Linux, with a dozen compromised entities detected in Asia and South America.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7hFIl_GRAlPuegwLGZ2PzXVsPEUTEevpEYhkU2Va9isB7aC8a0jJCLVszVOUc_CAIb4IkIkmRjkvyaTIadUizNNEhHTxvzlPX0EUN6UQutjyrauyi35fzRtBjFudyOW4HlAnTRNC9XDj39uNBMKUWHUV2g0Rt8o3aSADZAeAIYgLN-dT0q8gIH9cWUDBF/s1700-nu-rw-lo-l85-e365/windows-linux.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-      "url": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-15T11:52:28+00:00",
-      "description": "Attackers exploit Marimo CVE-2026-39987, with one human operator pivoting to an SSH bastion in eight seconds after initial access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWVpv5OsfVGAYPz4or_uMgVNDXTSzyXpTB8XLtCFHdzk9IliH8Aydez_Zo9hDGSj7__A0cFwnjKUpRWn5nn4CSd5wlaIJ1-BpU29tUyeh3pC63H_kXIn9ANQna1FBENp-td6TCC6z50ZEcAeNjAZMA-tIA9_x9nYrlHqbnJOijQpbeHsQmW5tKMczy4ek/s1700-nu-rw-lo-l85-e365/marimo%20%281%29.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Tuesday, September 15th, 2026 https://isc.sans.edu/podcastdetail/10094, (Tue, Sep 15th)",
