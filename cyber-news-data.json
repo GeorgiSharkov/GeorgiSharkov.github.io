@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-16T17:14:57.164709+00:00",
+  "generatedAt": "2026-09-16T21:38:48.349192+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33344",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-16T18:44:04+00:00",
+      "description": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-09-16T18:14:22+00:00",
+      "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris\u2026",
+      "image": "",
+      "topic": "Investigation",
+      "kind": "Investigation"
+    },
     {
       "title": "Check Point Vulnerability Lets Remote Hackers Gain Root Access Without Authentication",
       "url": "https://cybersecuritynews.com/check-point-root-access-flaw/",
@@ -168,17 +190,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Apple Updates Everything, (Mon, Sep 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33336",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-14T18:33:44+00:00",
-      "description": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabilities Apple has ever patched, but the increase is not as\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
       "title": "Microsoft Plugs Nearly 1,000 Security Holes",
       "url": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
       "source": "Krebs on Security",
@@ -209,17 +220,6 @@
       "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the\u2026",
       "image": "",
       "topic": "Ransomware",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Who\u2019s Tracking You? Use This New Service to Find Out",
-      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-14T11:24:35+00:00",
-      "description": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has\u2026",
-      "image": "",
-      "topic": "Investigation",
       "kind": "Investigation"
     }
   ],
