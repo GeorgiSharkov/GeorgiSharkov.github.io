@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-17T17:13:58.715173+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-17T21:41:05.813212+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels",
@@ -9,29 +9,7 @@
       "sourceUrl": "https://www.securityweek.com/",
       "publishedAt": "2026-09-17T17:09:40+00:00",
       "description": "The Coast Guard confirmed evidence of malicious cyber activity on the VL Prosperity, but has not attributed the attack to Iran.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/ICS-2026-970x250-1.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Models Searched for Leaked API Keys and Uploaded Files Without Permission",
-      "url": "https://cybersecuritynews.com/openai-models-api-key-leaks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-17T16:59:18+00:00",
-      "description": "OpenAI has disclosed six cases in which AI models concealed errors, used an exposed API key, uploaded data to public services and communicated through unauthorized channels.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAI-Models-API-Key-Leaks.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Takes Down NightmareStresser DDoS Service Used in Hundreds of Thousands of Attacks",
-      "url": "https://cybersecuritynews.com/nightmarestresser-ddos-service/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-17T15:48:58+00:00",
-      "description": "The FBI has seized domains supporting NightmareStresser, disrupting one of the world\u2019s longest-running DDoS-for-hire operations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NightmareStresser-DDoS-Service.webp",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/oil-tanker-ship-maritime-vessel.jpeg",
       "topic": "News",
       "kind": "News"
     },
@@ -56,28 +34,6 @@
       "image": "",
       "topic": "Malware",
       "kind": "DFIR"
-    },
-    {
-      "title": "BIND DNS Servers Hit by 14 Security Flaws Enabling Cache Poisoning and Remote Crashes",
-      "url": "https://cybersecuritynews.com/bind-dns-servers-hit-by-14-security-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-17T14:58:48+00:00",
-      "description": "ISC patched 14 BIND 9 vulnerabilities that could enable DNS cache poisoning, remote crashes, resource exhaustion, or DNSSEC bypasses.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BIND-DNS-Servers-Hit-by-14-Security-Flaws-Enabling-Cache-Poisoning-and-Remote-Crashes.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Wants Defenders to Deploy Fake Credentials and Systems to Catch Hackers",
-      "url": "https://cybersecuritynews.com/cisa-fake-credentials-catch-hackers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-17T14:28:51+00:00",
-      "description": "CISA urges organizations to deploy fake credentials, systems, files, and data assets to detect intruders after an initial compromise.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-Wants-Defenders-to-Plant-Fake-Credentials-and-Systems-to-Catch-Hackers-.webp",
-      "topic": "Identity",
-      "kind": "News"
     },
     {
       "title": "CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
