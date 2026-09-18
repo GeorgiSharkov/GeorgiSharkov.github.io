@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-18T16:41:32.101366+00:00",
+  "generatedAt": "2026-09-18T21:11:25.100356+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
+      "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T18:02:24+00:00",
+      "description": "Public exploits for four patched Linux kernel flaws let local users gain root; three require unprivileged user namespaces.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixfmcEQbMRp9dJbUmuhA3LSquz7yG3lph_Nbh6NqiVGOPOiOoKYcWbspSqEDBpeyUMH-KK_DHWoBSFmaZPE_BlWRjy4swhpEPCBJ-p2NCJRTceTeDx84tDToap0VrFW304zxv0nKsRSVOMM3GPhFyJ7GZkGPG92N3aKvW3edGBBdoAJl0_fH6IehDA0I8/s1700-nu-rw-lo-l85-e365/linux-kernel.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T16:56:19+00:00",
+      "description": "WordPress 7.1.1 fixes Click2Shell, which can force theme installs from crafted links and was chained with a theme flaw for code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRmEdVvBEJZEaIzJ4GYHX3cDjJq5YaLQby6GeVwDl-uVl_qIR_tkRSx6aKpzoYhGVvp0E3NDIe9aum5f5N_lI-RPz6eDNGHC7vpKMa0UrlT1J1_bRJrJ8Wk0htpyFoR3ezoqh-BCJePJU914UFlL7gS45RXbWoVi3Lp49iNSkUt7eLrJyQTAEIGE-VRgY/s1700-nu-rw-lo-l85-e365/click2shell.gif",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
       "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
@@ -55,28 +77,6 @@
       "description": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/image-file-photo-sharing.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-      "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T11:01:16+00:00",
-      "description": "Report URI CSP alerts surfaced a ClickFix campaign on compromised e-commerce sites using Base64 loaders and a fake verification overlay.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4A312zOZ7ftKXmWapCccs7ZW6g3d61vCPFzToGj6Y9nRb2cXUHcQ9__5Taotig6y1W_tljoo5ih74cJCTxZzfz5Ii0MMoLcBuUZS6fQCgn_L4zmq92Zamf2FJM-oT3ptyyzPM-2c1oyZSZSn3eYiUp0QidqC2N2tYT9GFrqAYitjrco1cmrDJRCm6HEk/s1700-nu-rw-lo-l85-e365/report-uri.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T11:01:01+00:00",
-      "description": "Four AI coding agents let repository owners swap pinned plugin code; Claude Code and Codex are fixed, while Copilot and Gemini CLI remain unfixed.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNK9maRYTbrRVwr9_9b7Sm_IizPdRJh0AbH1GtKU1BNPrcxJydnUdRQxRxauE5p1ejpfk4ihANpP7HAoXbRCDD1Pu-ZZD1dnfzLFjysOSJm7gGRKYrkUjxVF-tX-0neJMQtN87iyk1DRD70hKKtFU_J6idWK4aoZr3k4DAz4q8pkjTfKTX10Vttaiwag/s1700-nu-rw-lo-l85-e365/coding-agents.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -194,7 +194,7 @@
       "name": "Cybersecurity News",
       "status": "error",
       "stories": 0,
-      "message": "<urlopen error timed out>"
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
