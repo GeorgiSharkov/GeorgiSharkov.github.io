@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-18T11:42:58.319794+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-18T16:41:32.101366+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T15:24:16+00:00",
+      "description": "Transparent Tribe uses four newly identified malware families in attacks on government and defense entities in India and Afghanistan.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhBM0nXgCLpwEyXmAdxLO_GatYww1Cem0yuGGqhmMwCB5N8w-TeoMm7jV4SbH4hjfYmxctUjyPiSlR3Caj2cSu7L_1nxTzg5xtfJrxhq5y0elL7yh8J2S5lakpnTbck3XhMVB1iG3obibSh64E8z877YcECkeJBs_rrZARXefKDeYQJ9Nf2u8pnxD0gEnx/s1700-nu-rw-lo-l85-e365/rust-malware.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
+      "url": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-18T14:25:00+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: Mandiant",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T12:47:04+00:00",
+      "description": "Microsoft fixes a CVSS 10.0 Azure AI Foundry flaw enabling network privilege escalation; no exploitation has been observed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiML2C2l_2QmIUPPt9Gs6K9nVdVk9WZWhJaeBQjf92a7R0O0ghnhNznkqPHwG1quCmfadrkibl0WJhLioNmbATDXGxPcy6EHuDVvUrcDF_q0m23IQD1CxL0DsMZT2ZnXCtOyGADMztIcBmgQzaAvNQR39JWnvbG085s4q4W01UQnH4g-Yj15_ZKrJXDaOpQ/s1700-nu-rw-lo-l85-e365/ms-azure.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
+      "url": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-18T12:45:24+00:00",
+      "description": "Hacktron researchers earned a bug bounty after demonstrating access to OpenAI employee accounts.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/OpenAI.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "23 Million User Records Compromised in Gyazo Data Breach",
       "url": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
@@ -14,14 +58,25 @@
       "kind": "News"
     },
     {
-      "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
-      "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-18T11:24:13+00:00",
-      "description": "Chrome 153 fixes 16 vulnerabilities across Windows, macOS, and Linux, including two critical Dawn and WebGL flaws.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chrome-153-Patches-16-Security-Vulnerabilities-Including-Critical-Dawn-and-WebGL-Flaws.webp",
-      "topic": "Vulnerability",
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T11:01:16+00:00",
+      "description": "Report URI CSP alerts surfaced a ClickFix campaign on compromised e-commerce sites using Base64 loaders and a fake verification overlay.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4A312zOZ7ftKXmWapCccs7ZW6g3d61vCPFzToGj6Y9nRb2cXUHcQ9__5Taotig6y1W_tljoo5ih74cJCTxZzfz5Ii0MMoLcBuUZS6fQCgn_L4zmq92Zamf2FJM-oT3ptyyzPM-2c1oyZSZSn3eYiUp0QidqC2N2tYT9GFrqAYitjrco1cmrDJRCm6HEk/s1700-nu-rw-lo-l85-e365/report-uri.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T11:01:01+00:00",
+      "description": "Four AI coding agents let repository owners swap pinned plugin code; Claude Code and Codex are fixed, while Copilot and Gemini CLI remain unfixed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNK9maRYTbrRVwr9_9b7Sm_IizPdRJh0AbH1GtKU1BNPrcxJydnUdRQxRxauE5p1ejpfk4ihANpP7HAoXbRCDD1Pu-ZZD1dnfzLFjysOSJm7gGRKYrkUjxVF-tX-0neJMQtN87iyk1DRD70hKKtFU_J6idWK4aoZr3k4DAz4q8pkjTfKTX10Vttaiwag/s1700-nu-rw-lo-l85-e365/coding-agents.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -33,94 +88,6 @@
       "description": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
-      "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-18T10:46:01+00:00",
-      "description": "Android\u2019s new Security State libraries let apps check for missing patches, unpatched components, pending updates, and specific vulnerability fixes.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Android-Apps-Can-Now-Check-If-Your-Phone-Is-Missing-Critical-Security-Patches.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T10:40:06+00:00",
-      "description": "Thirteen npm packages deliver WeaselBiscuit, a JavaScript stealer that harvests Chrome extension storage across Windows, macOS, and Linux.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZypkEn_5V1qllBxmH8UMxTPyA9qoXxQtKpBpJlFq2rtHgMM1wnknkyq4Vmmy0NiCHn2IjS0nyvtmiZpJ-vYOd6VxMFBexh_p6GXuq3Cjda-YfjDOUE5u5V5HfBBAQzEm5DLX3jg_ZrIfEBFlpcBod65T3Q0pXVR7vERfitlS6cBHYVG2K7ek5ivweYTRq/s1700-nu-rw-lo-l85-e365/npm-chrome.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "NightmareStresser DDoS Service Disrupted in International Operation",
-      "url": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-18T10:12:33+00:00",
-      "description": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/NightmareStresser-DDoS.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
-      "url": "https://cybersecuritynews.com/mikrotrick-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-18T09:59:32+00:00",
-      "description": "MikroTik routers face a takeover risk as MikroTrick exploits exposed RouterOS SSH flaws to gain admin access without a password.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/MikroTrick-Attack-Lets-Hackers-Gain-Full-Admin-Control-of-MikroTik-Routers-Without-Login.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use Fake T-Mobile Rewards Expiry Texts to Lure Users to Phishing Sites",
-      "url": "https://cybersecuritynews.com/fake-t-mobile-rewards/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-18T09:47:09+00:00",
-      "description": "T-Mobile-themed phishing texts falsely claim expiring rewards, directing victims to fake pages to steal login, payment and personal data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Fake-T-Mobile-Rewards-Expiry-Texts-to-Lure-Users-to-Phishing-Sites.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
-      "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-18T09:46:57+00:00",
-      "description": "Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/supply-chain-threat.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T09:18:03+00:00",
-      "description": "CrowdStrike says PhantomRaven was likely LLM-generated and spread through malicious npm packages that collect developer credentials and CI/CD secrets.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyW8DcUYeyW1LOG-Gc3uqyV8_5rO4iwyEIM6FbRFwuvilvbfC7RSTjueJ4lEELpGvXX-22zzWuNCusN2qdODymiKNOQSz_8f1Q4u59bH7HCEZFT5PVsyBjj2NhWtlYiwvhXzXbwG_n3P_DCloZvMdajsc93hvqbJo6HCJy5wjNevUyN46ODFo7AlYsj499/s1700-nu-rw-lo-l85-e365/npm-cicd.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T06:17:25+00:00",
-      "description": "RatHat Android malware abuses Accessibility and ADB pairing to gain shell access and retain control after uninstall.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Psm8tS3JWb6ev7nZoz7YQDPIgoHj9gwbNjgjxbokxICdzRIUb5YJI-XfDx0NQgm8afhayc-Zd51hjuxqi7Sk_XxCNXoTNt7nIZWpxCBcDMLjSm3uW38HRciOu3WNtaUT0a-2NSsOX91GbXpCScryNirImMMC4lkuVysHku58maTbm9XvAwJ0-X6O_wDE/s1700-nu-rw-lo-l85-e365/1000109602.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -144,17 +111,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-17T18:08:28+00:00",
-      "description": "Check Point patched CVE-2026-91843, a critical login stack overflow that can let unauthenticated attackers run code as root on management servers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuFSb4LQQ7e_Iz1RS0JfQEDY9G9LcQZ23RM0h6ladr56GJ6nN3kPwVoZPpNVJUyJEBmLVEyMaIxytF2XqyQs8fGjIdd_ymPjwaZA8Q8R7JiXC-srMFj0_YBd-a94juv46HZm4ie72j7PTj45veyTgOBaeuN53HvktSH3JTgasvV_Mo-RwjsTPnRLlHFVk/s1700-nu-rw-lo-l85-e365/cp-main.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
