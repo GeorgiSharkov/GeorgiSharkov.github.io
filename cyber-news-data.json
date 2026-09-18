@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-09-18T05:06:37.920184+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-18T11:42:58.319794+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "23 Million User Records Compromised in Gyazo Data Breach",
+      "url": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-18T11:38:40+00:00",
+      "description": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/image-file-photo-sharing.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Chrome 153 Patches 16 Security Vulnerabilities Including Critical Dawn and WebGL Flaws",
+      "url": "https://cybersecuritynews.com/chrome-153-patches-16-security-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-18T11:24:13+00:00",
+      "description": "Chrome 153 fixes 16 vulnerabilities across Windows, macOS, and Linux, including two critical Dawn and WebGL flaws.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Chrome-153-Patches-16-Security-Vulnerabilities-Including-Critical-Dawn-and-WebGL-Flaws.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
+      "url": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-18T10:57:03+00:00",
+      "description": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Android Apps Can Now Check If Your Phone Is Missing Critical Security Patches",
+      "url": "https://cybersecuritynews.com/android-apps-check-security-patches/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-18T10:46:01+00:00",
+      "description": "Android\u2019s new Security State libraries let apps check for missing patches, unpatched components, pending updates, and specific vulnerability fixes.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Android-Apps-Can-Now-Check-If-Your-Phone-Is-Missing-Critical-Security-Patches.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T10:40:06+00:00",
+      "description": "Thirteen npm packages deliver WeaselBiscuit, a JavaScript stealer that harvests Chrome extension storage across Windows, macOS, and Linux.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZypkEn_5V1qllBxmH8UMxTPyA9qoXxQtKpBpJlFq2rtHgMM1wnknkyq4Vmmy0NiCHn2IjS0nyvtmiZpJ-vYOd6VxMFBexh_p6GXuq3Cjda-YfjDOUE5u5V5HfBBAQzEm5DLX3jg_ZrIfEBFlpcBod65T3Q0pXVR7vERfitlS6cBHYVG2K7ek5ivweYTRq/s1700-nu-rw-lo-l85-e365/npm-chrome.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "NightmareStresser DDoS Service Disrupted in International Operation",
+      "url": "https://www.securityweek.com/nightmarestresser-ddos-service-disrupted-in-international-operation/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-18T10:12:33+00:00",
+      "description": "Active since at least 2022, NightmareStresser was one of the longest-running DDoS-for-hire services in the world.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/NightmareStresser-DDoS.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "MikroTrick Attack Lets Hackers Gain Full Admin Control of MikroTik Routers Without Login",
+      "url": "https://cybersecuritynews.com/mikrotrick-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-18T09:59:32+00:00",
+      "description": "MikroTik routers face a takeover risk as MikroTrick exploits exposed RouterOS SSH flaws to gain admin access without a password.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/MikroTrick-Attack-Lets-Hackers-Gain-Full-Admin-Control-of-MikroTik-Routers-Without-Login.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Fake T-Mobile Rewards Expiry Texts to Lure Users to Phishing Sites",
+      "url": "https://cybersecuritynews.com/fake-t-mobile-rewards/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-18T09:47:09+00:00",
+      "description": "T-Mobile-themed phishing texts falsely claim expiring rewards, directing victims to fake pages to steal login, payment and personal data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Use-Fake-T-Mobile-Rewards-Expiry-Texts-to-Lure-Users-to-Phishing-Sites.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Brevo Supply Chain Attack Injects Malware Into 100,000 Websites",
+      "url": "https://www.securityweek.com/brevo-supply-chain-attack-injects-malware-into-100000-websites/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-18T09:46:57+00:00",
+      "description": "Hackers used a compromised API key to deploy a Cloudflare worker that injected malicious scripts.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/supply-chain-threat.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T09:18:03+00:00",
+      "description": "CrowdStrike says PhantomRaven was likely LLM-generated and spread through malicious npm packages that collect developer credentials and CI/CD secrets.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyW8DcUYeyW1LOG-Gc3uqyV8_5rO4iwyEIM6FbRFwuvilvbfC7RSTjueJ4lEELpGvXX-22zzWuNCusN2qdODymiKNOQSz_8f1Q4u59bH7HCEZFT5PVsyBjj2NhWtlYiwvhXzXbwG_n3P_DCloZvMdajsc93hvqbJo6HCJy5wjNevUyN46ODFo7AlYsj499/s1700-nu-rw-lo-l85-e365/npm-cicd.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-18T06:17:25+00:00",
+      "description": "RatHat Android malware abuses Accessibility and ADB pairing to gain shell access and retain control after uninstall.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Psm8tS3JWb6ev7nZoz7YQDPIgoHj9gwbNjgjxbokxICdzRIUb5YJI-XfDx0NQgm8afhayc-Zd51hjuxqi7Sk_XxCNXoTNt7nIZWpxCBcDMLjSm3uW38HRciOu3WNtaUT0a-2NSsOX91GbXpCScryNirImMMC4lkuVysHku58maTbm9XvAwJ0-X6O_wDE/s1700-nu-rw-lo-l85-e365/1000109602.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33352",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-18T06:05:26+00:00",
+      "description": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
     {
       "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
       "url": "https://isc.sans.edu/diary/rss/33350",
@@ -25,50 +157,6 @@
       "kind": "News"
     },
     {
-      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
-      "url": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-17T17:32:22+00:00",
-      "description": "AI abuse, exposed infrastructure, ransomware, infostealers, malware markets, and old bugs return in this week\u2019s ThreatsDay cybersecurity roundup.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizRobrCcZcWNzLjEmyk91HaJj5g2vkMbOgX_lP1vNQqfvh8krm4975WJ5zi9VFY1FsF44ZTJ5znBY5sBuKYiN-riJQspK3iLLnvhW5crViG9fJMPF_SCEN3dKPk-ypSjFQfD_gN1zA-KbryzexASNOVcKRHf4hf3iZ1XBuvYG9WKWhBdVWbs1dzJS9BUIQ/s1700-nu-rw-lo-l85-e365/threatsday-main.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Cyberattacks on Two Oil Tankers Prompt Coast Guard, FBI to Board Vessels",
-      "url": "https://www.securityweek.com/cyberattacks-on-two-oil-tankers-prompt-coast-guard-fbi-to-board-vessels/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-17T17:09:40+00:00",
-      "description": "The Coast Guard confirmed evidence of malicious cyber activity on the VL Prosperity, but has not attributed the attack to Iran.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/oil-tanker-ship-maritime-vessel.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Says Its Models Searched GitHub for Leaked API Keys During Training",
-      "url": "https://www.securityweek.com/openai-says-its-models-hunted-github-for-leaked-api-keys-during-training/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-17T15:45:29+00:00",
-      "description": "OpenAI published a framework for disclosing model misalignment alongside six reports describing problematic behavior.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-      "url": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-17T15:37:56+00:00",
-      "description": "Docker Sandboxes flaws can expose host files or Unix sockets outside the workspace; both were fixed in 0.42.0, with no exploitation reported",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJbYvRH1MRTGK43JYSWe2X3djxWAuNa3_r94FvOPBjt9sWrkRiEQi7D0DPksj3NH9vDPjm7MGSGY9UEc7JqePjd4aA-c4zuMzLZXH0Y5NWKWGnzNgbFe0tYlEFSFLrJFWVRuRKs_PQN8IKkdzYYNn8T7YWuUkZC4_2skq3deXYAw7i0aqWdx6G0FQwVzs/s1700-nu-rw-lo-l85-e365/docker-macos.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
       "url": "https://isc.sans.edu/diary/rss/33348",
       "source": "SANS ISC",
@@ -80,56 +168,12 @@
       "kind": "DFIR"
     },
     {
-      "title": "CISA Retires Weekly Vulnerability Bulletin in Risk-Based Pivot",
-      "url": "https://www.securityweek.com/cisa-retires-weekly-vulnerability-bulletin-in-risk-based-pivot/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-17T14:28:00+00:00",
-      "description": "The decision follows BOD 26-04, which directs federal organizations to prioritize vulnerabilities based on real-world risk.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/04/CISA-Cybersecurity.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-      "url": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-17T14:03:13+00:00",
-      "description": "Handala Hack is linked to HEAVYGRAM, a Telegram-based backdoor that can steal passwords, messaging data, screenshots, and files.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdqFZ07lueoUFevcbuCOBavlR6CaAxmFqFs7hLpyqw-maKbLcISxW0Q-y7JwvoRrhDumRNaJo_Z4T6QRrGLUTDEE8yYqFfoRLmkoc_J4omdeCAmew1_5k-NwnNWJyYawal5nni-TVZu8M4aDsGNhbwlpp1Y7wLUSjsFR-olY89Mls9hD4CiL9jq0roUpzA/s1700-nu-rw-lo-l85-e365/telegram-handala.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Revolut Data Breach: 5 Months, 680 High-Profile Accounts, $3M Ransom",
-      "url": "https://www.securityweek.com/revolut-data-breach-5-months-680-high-profile-accounts-3m-ransom/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-17T13:57:41+00:00",
-      "description": "Revolut allegedly fed customer information to hackers impersonating an Italian government agency for five months.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Revolut.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Thursday, September 17th, 2026 https://isc.sans.edu/podcastdetail/10098, (Thu, Sep 17th)",
       "url": "https://isc.sans.edu/diary/rss/33346",
       "source": "SANS ISC",
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-09-17T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33344",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-16T18:44:04+00:00",
-      "description": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
