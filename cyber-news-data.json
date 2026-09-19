@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-19T16:01:38.890642+00:00",
+  "generatedAt": "2026-09-19T20:56:59.338559+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T18:36:53+00:00",
+      "description": "In security research, Claude Opus 5 helped chain forum and login flaws to take over OpenAI staff accounts and reach an internal repository.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s1700-nu-rw-lo-l85-e365/claude-openai.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
       "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
@@ -43,17 +54,6 @@
       "publishedAt": "2026-09-19T13:28:41+00:00",
       "description": "Identity visibility maps hidden accounts, effective access, and runtime behavior across cloud and SaaS environments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1700-nu-rw-lo-l85-e365/ORCHID-1.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T13:28:35+00:00",
-      "description": "In security research, Claude Opus 5 helped chain forum and login flaws to take over OpenAI staff accounts and reach an internal repository.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s1700-nu-rw-lo-l85-e365/claude-openai.jpg",
       "topic": "Identity",
       "kind": "News"
     },
