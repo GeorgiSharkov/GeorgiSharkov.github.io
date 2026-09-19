@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-19T04:57:38.781287+00:00",
+  "generatedAt": "2026-09-19T11:26:16.923639+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
+      "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-19T11:21:50+00:00",
+      "description": "CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee\u2019s account was compromised through May\u2019s TanStack npm supply chain attack.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/TanStack-Supply-Chain-Attack.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
+      "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-19T08:59:08+00:00",
+      "description": "Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Gemini-AI-Hacked-3-Real-Companies.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T08:18:54+00:00",
+      "description": "Attackers are exploiting CVE-2026-58138 in Orkes Conductor, an unauthenticated RCE fixed in version 3.30.2.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-YeIVFaRBKvtwQKBxAilhKMaZP_x6L979d8JL60W3AEHy9o2sfL_dMrJWy_sPIV70oIbP6DYe2KVhHh-mwbB4zBvrV_jEgdRiuc_IzNyyPSfUAOGvAp7J7JO06OWUWjSwuqpU4JJ_kNy0vtW1D9_gEtQNNVmWiYzRTpYMwhe-J3Bvve3EHrAp81Wht4L/s1700-nu-rw-lo-l85-e365/orkes.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T07:51:34+00:00",
+      "description": "Google's Gemini gained unauthorized access to real company systems during a May 2026 test, then halted after detecting a real-world breach.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm1vwiJZKRchF7LYZ5yklmFs_RohvMasYHTdoHF_qDFFePLtM0KdHNBzPMWQYWlN05rsn5gBZ0SV3mU69LwLtHTVNf_59TpPC3pOn-z1ENVZw-V0kdX7W4j-K83Vtc7ukjZIQjXxSEFTmo3-wkx5hL7IGdxkUXKQYHzGy-IAcetXr70chvzQxtRahueg2H/s1700-nu-rw-lo-l85-e365/gemini-hack.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T07:14:54+00:00",
+      "description": "CrowdSec says a TanStack-linked GitHub token was used to copy about 170 private repositories from a former employee\u2019s account.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1oastBaXn1Z-Cqbx-BPWZb2oSsgDseV8bReFs787OUvmfsQxJppvU6Fq_uUY_yrCdz1Z4xuevbNRdG88X9lnejn0NUF2RILOB8VxTm8lGXQ6VpZ1hPPqfmC4U86Ci2iYpIqpjy_3H3rCxJe6_9AKm0U9vgO6GHGrDHaKSdzCcFfgpUolbZvSB6VPbCC8/s1700-nu-rw-lo-l85-e365/crowdsec.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T06:24:10+00:00",
+      "description": "CISA added three actively exploited Linux kernel flaws to its KEV catalog, including bugs that can enable local privilege escalation and DoS.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcKuQ4GC9r1-4fQ3Ap_CQko0y3nMI0SnATF3WNSv48uFtNskrV4PqnyW4s0L7sXcojrHoJCEZRazGJNz5JhxrTTSYZSAQeD-xwdquE3X7pJ_ylBUerrybIiaE3V-i1vXdiLr_N1KCM9GTmeAKLlgySqEr0QeCB5ckvnppiEHSZhnEqv0IfUnqCKdA1kKsN/s1700-nu-rw-lo-l85-e365/cisa-linux.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
       "url": "https://isc.sans.edu/diary/rss/33352",
@@ -36,39 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
-      "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T18:02:24+00:00",
-      "description": "Public exploits for four patched Linux kernel flaws let local users gain root; three require unprivileged user namespaces.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixfmcEQbMRp9dJbUmuhA3LSquz7yG3lph_Nbh6NqiVGOPOiOoKYcWbspSqEDBpeyUMH-KK_DHWoBSFmaZPE_BlWRjy4swhpEPCBJ-p2NCJRTceTeDx84tDToap0VrFW304zxv0nKsRSVOMM3GPhFyJ7GZkGPG92N3aKvW3edGBBdoAJl0_fH6IehDA0I8/s1700-nu-rw-lo-l85-e365/linux-kernel.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-      "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T16:56:19+00:00",
-      "description": "WordPress 7.1.1 fixes Click2Shell, which can force theme installs from crafted links and was chained with a theme flaw for code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRmEdVvBEJZEaIzJ4GYHX3cDjJq5YaLQby6GeVwDl-uVl_qIR_tkRSx6aKpzoYhGVvp0E3NDIe9aum5f5N_lI-RPz6eDNGHC7vpKMa0UrlT1J1_bRJrJ8Wk0htpyFoR3ezoqh-BCJePJU914UFlL7gS45RXbWoVi3Lp49iNSkUt7eLrJyQTAEIGE-VRgY/s1700-nu-rw-lo-l85-e365/click2shell.gif",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-      "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T15:24:16+00:00",
-      "description": "Transparent Tribe uses four newly identified malware families in attacks on government and defense entities in India and Afghanistan.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhBM0nXgCLpwEyXmAdxLO_GatYww1Cem0yuGGqhmMwCB5N8w-TeoMm7jV4SbH4hjfYmxctUjyPiSlR3Caj2cSu7L_1nxTzg5xtfJrxhq5y0elL7yh8J2S5lakpnTbck3XhMVB1iG3obibSh64E8z877YcECkeJBs_rrZARXefKDeYQJ9Nf2u8pnxD0gEnx/s1700-nu-rw-lo-l85-e365/rust-malware.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
       "url": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/",
       "source": "SecurityWeek",
@@ -77,39 +110,6 @@
       "description": "Noteworthy stories that might have slipped under the radar: Mandiant",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
-      "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-18T14:14:16+00:00",
-      "description": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Azure-AI-Foundry-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
-      "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-18T13:59:26+00:00",
-      "description": "Feral Wolf targets Russian firms via exposed software and weak credentials, using backdoors and GenieLocker ransomware to encrypt data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Feral-Wolf-Ransomware-Attacks-Exploit-Atlassian-Confluence-and-Misconfigured-1C-Systems.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-18T12:47:04+00:00",
-      "description": "Microsoft fixes a CVSS 10.0 Azure AI Foundry flaw enabling network privilege escalation; no exploitation has been observed.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiML2C2l_2QmIUPPt9Gs6K9nVdVk9WZWhJaeBQjf92a7R0O0ghnhNznkqPHwG1quCmfadrkibl0WJhLioNmbATDXGxPcy6EHuDVvUrcDF_q0m23IQD1CxL0DsMZT2ZnXCtOyGADMztIcBmgQzaAvNQR39JWnvbG085s4q4W01UQnH4g-Yj15_ZKrJXDaOpQ/s1700-nu-rw-lo-l85-e365/ms-azure.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
