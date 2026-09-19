@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-18T23:32:52.676631+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-19T04:57:38.781287+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33352",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-19T04:51:46+00:00",
+      "description": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link",
+      "url": "https://cybersecuritynews.com/click2shell-wordpress-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-19T04:30:11+00:00",
+      "description": "WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Click2Shell-WordPress-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers",
+      "url": "https://cybersecuritynews.com/bragjack-ai-agent-hijacking/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-19T03:05:12+00:00",
+      "description": "Security researchers have disclosed BragJack, a new attack technique that allows a malicious browser extension to seize trusted communication channels used by AI assistants in Chrome, Edge, Opera Neon, Comet, and Claude in Chrome.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BragJack-Attack.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
       "url": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
@@ -43,6 +76,28 @@
       "publishedAt": "2026-09-18T14:25:00+00:00",
       "description": "Noteworthy stories that might have slipped under the radar: Mandiant",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Microsoft Azure AI Foundry Vulnerability Allows Attackers to Escalate Privileges",
+      "url": "https://cybersecuritynews.com/microsoft-azure-ai-foundry-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-18T14:14:16+00:00",
+      "description": "Microsoft has patched a maximum-severity security flaw in Azure AI Foundry, its enterprise platform for building and managing generative AI applications and agents, that could have allowed an unauthenticated attacker to escalate privileges over the network\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Azure-AI-Foundry-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Feral Wolf Ransomware Attacks Exploit Atlassian Confluence and Misconfigured 1C Systems",
+      "url": "https://cybersecuritynews.com/feral-wolf-ransomware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-18T13:59:26+00:00",
+      "description": "Feral Wolf targets Russian firms via exposed software and weak credentials, using backdoors and GenieLocker ransomware to encrypt data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Feral-Wolf-Ransomware-Attacks-Exploit-Atlassian-Confluence-and-Misconfigured-1C-Systems.webp",
       "topic": "Ransomware",
       "kind": "News"
     },
@@ -89,17 +144,6 @@
       "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
-    },
-    {
-      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33352",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-18T06:05:26+00:00",
-      "description": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "DFIR"
     },
     {
       "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
