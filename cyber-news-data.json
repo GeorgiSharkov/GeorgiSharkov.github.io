@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-09-19T11:26:16.923639+00:00",
+  "generatedAt": "2026-09-19T16:01:38.890642+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-19T15:09:43+00:00",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Linux-Kernel-Vulnerabilities-Actively-Exploited.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
+      "url": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-19T14:30:00+00:00",
+      "description": "The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-funding.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T13:28:48+00:00",
+      "description": "Picus will show how teams can validate whether a CVE is exploitable in their environment without always running live exploit code.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVgJqM9WZF6u_WZBeTJKqe35CDnh_4kxjLjZa3w63XbqfKBRNUENbTh5HGVrgYUGtmLRW9Px3GGzNcewMJWzd7CRxsk66eY1D70or8gasHUroPNdbUJ6ordqjxb7s8gKqQwuyWxCWC2BT0Matusn6PLXV9xus1PlqqqD3JITL_Unxt2xP8UK6zlX9Tmr0A/s1700-nu-rw-lo-l85-e365/cves.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T13:28:41+00:00",
+      "description": "Identity visibility maps hidden accounts, effective access, and runtime behavior across cloud and SaaS environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1700-nu-rw-lo-l85-e365/ORCHID-1.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T13:28:35+00:00",
+      "description": "In security research, Claude Opus 5 helped chain forum and login flaws to take over OpenAI staff accounts and reach an internal repository.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s1700-nu-rw-lo-l85-e365/claude-openai.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
       "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
@@ -14,6 +69,17 @@
       "kind": "News"
     },
     {
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-19T09:31:17+00:00",
+      "description": "SolarWinds patched an ARM flaw caused by a hard-coded static key that could enable unauthenticated remote code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXW-SaTg898BaxxlrDjSCrcm6ZYDgxoeuYCBY4QNWs6Nt5RhyphenhyphenCf4iSIyodz-7jk8rTqUT8hjlMT74dIf6ZjL_pD5NmiNbAHhsZwzw2rakJUDaU1tVeEvKw7Az3tMf34Xwh3ffToJeI1tpTQ8rAR8AvVn2XTupFgfhehb9sHClHDDGeDd4Y9z4oUf5CYPoS/s1700-nu-rw-lo-l85-e365/solar.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
       "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
       "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
       "source": "Cybersecurity News",
@@ -22,50 +88,6 @@
       "description": "Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Gemini-AI-Hacked-3-Real-Companies.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-      "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T08:18:54+00:00",
-      "description": "Attackers are exploiting CVE-2026-58138 in Orkes Conductor, an unauthenticated RCE fixed in version 3.30.2.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL-YeIVFaRBKvtwQKBxAilhKMaZP_x6L979d8JL60W3AEHy9o2sfL_dMrJWy_sPIV70oIbP6DYe2KVhHh-mwbB4zBvrV_jEgdRiuc_IzNyyPSfUAOGvAp7J7JO06OWUWjSwuqpU4JJ_kNy0vtW1D9_gEtQNNVmWiYzRTpYMwhe-J3Bvve3EHrAp81Wht4L/s1700-nu-rw-lo-l85-e365/orkes.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T07:51:34+00:00",
-      "description": "Google's Gemini gained unauthorized access to real company systems during a May 2026 test, then halted after detecting a real-world breach.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm1vwiJZKRchF7LYZ5yklmFs_RohvMasYHTdoHF_qDFFePLtM0KdHNBzPMWQYWlN05rsn5gBZ0SV3mU69LwLtHTVNf_59TpPC3pOn-z1ENVZw-V0kdX7W4j-K83Vtc7ukjZIQjXxSEFTmo3-wkx5hL7IGdxkUXKQYHzGy-IAcetXr70chvzQxtRahueg2H/s1700-nu-rw-lo-l85-e365/gemini-hack.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T07:14:54+00:00",
-      "description": "CrowdSec says a TanStack-linked GitHub token was used to copy about 170 private repositories from a former employee\u2019s account.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1oastBaXn1Z-Cqbx-BPWZb2oSsgDseV8bReFs787OUvmfsQxJppvU6Fq_uUY_yrCdz1Z4xuevbNRdG88X9lnejn0NUF2RILOB8VxTm8lGXQ6VpZ1hPPqfmC4U86Ci2iYpIqpjy_3H3rCxJe6_9AKm0U9vgO6GHGrDHaKSdzCcFfgpUolbZvSB6VPbCC8/s1700-nu-rw-lo-l85-e365/crowdsec.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-      "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T06:24:10+00:00",
-      "description": "CISA added three actively exploited Linux kernel flaws to its KEV catalog, including bugs that can enable local privilege escalation and DoS.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcKuQ4GC9r1-4fQ3Ap_CQko0y3nMI0SnATF3WNSv48uFtNskrV4PqnyW4s0L7sXcojrHoJCEZRazGJNz5JhxrTTSYZSAQeD-xwdquE3X7pJ_ylBUerrybIiaE3V-i1vXdiLr_N1KCM9GTmeAKLlgySqEr0QeCB5ckvnppiEHSZhnEqv0IfUnqCKdA1kKsN/s1700-nu-rw-lo-l85-e365/cisa-linux.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -88,17 +110,6 @@
       "description": "WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Click2Shell-WordPress-Vulnerability.webp",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "BragJack Attack Lets Malicious Extensions Hijack AI Agents Across 5 Major Browsers",
-      "url": "https://cybersecuritynews.com/bragjack-ai-agent-hijacking/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-19T03:05:12+00:00",
-      "description": "Security researchers have disclosed BragJack, a new attack technique that allows a malicious browser extension to seize trusted communication channels used by AI assistants in Chrome, Edge, Opera Neon, Comet, and Claude in Chrome.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/BragJack-Attack.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -131,17 +142,6 @@
       "publishedAt": "2026-09-18T11:38:40+00:00",
       "description": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/image-file-photo-sharing.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Patches 18 Vulnerabilities in AI, Cloud Products",
-      "url": "https://www.securityweek.com/microsoft-patches-18-vulnerabilities-in-ai-cloud-products/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-18T10:57:03+00:00",
-      "description": "Microsoft fixed vulnerabilities across Azure and AI-branded products, with privilege escalation flaws accounting for the majority.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Microsoft-Azure.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
