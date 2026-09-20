@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-19T23:27:38.738446+00:00",
+  "generatedAt": "2026-09-20T05:19:47.364666+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Autonomous AI Attacks: The Hugging Face Reality Check",
+      "url": "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-20T05:09:00+00:00",
+      "description": "For several years the forecast has been constant: AI lowers the skill barrier, AI writes novel malware, AI will soon run attacks end to end with minimal human direction. It is worth noticing where that forecast mostly came from.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Codex-Image-Sep-20-2026-10_33_43-AM.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain",
+      "url": "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-20T04:42:15+00:00",
+      "description": "Ransomware crews have always followed the money. For years, that meant targets like banks and hospitals \u2013 organizations with high-value assets and sensitive data who couldn\u2019t afford downtime. Now, it means AI models too.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Codex-Image-Sep-20-2026-10_08_44-AM.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
     {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
       "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
@@ -80,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Google Gemini AI Hacked 3 Real Companies during a Cybersecurity Test",
-      "url": "https://cybersecuritynews.com/google-gemini-ai-hacked-3-real-companies/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-19T08:59:08+00:00",
-      "description": "Google has confirmed that its Gemini artificial intelligence model accessed protected systems belonging to three companies during a cybersecurity evaluation after a testing error exposed the agent to the public internet.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Gemini-AI-Hacked-3-Real-Companies.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
       "url": "https://isc.sans.edu/diary/rss/33352",
       "source": "SANS ISC",
@@ -100,17 +111,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "Click2Shell WordPress Flaw Lets Attackers Gain RCE With a Single Malicious Link",
-      "url": "https://cybersecuritynews.com/click2shell-wordpress-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-19T04:30:11+00:00",
-      "description": "WordPress administrators are being urged to update after researchers disclosed Click2Shell, an exploit chain that can turn one malicious link into remote code execution (RCE) on a vulnerable website.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Click2Shell-WordPress-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
