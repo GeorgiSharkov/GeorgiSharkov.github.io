@@ -1,29 +1,7 @@
 {
-  "generatedAt": "2026-09-20T05:19:47.364666+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-20T11:45:17.211593+00:00",
+  "count": 16,
   "stories": [
-    {
-      "title": "Autonomous AI Attacks: The Hugging Face Reality Check",
-      "url": "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-20T05:09:00+00:00",
-      "description": "For several years the forecast has been constant: AI lowers the skill barrier, AI writes novel malware, AI will soon run attacks end to end with minimal human direction. It is worth noticing where that forecast mostly came from.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Codex-Image-Sep-20-2026-10_33_43-AM.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain",
-      "url": "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-20T04:42:15+00:00",
-      "description": "Ransomware crews have always followed the money. For years, that meant targets like banks and hospitals \u2013 organizations with high-value assets and sensitive data who couldn\u2019t afford downtime. Now, it means AI models too.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Codex-Image-Sep-20-2026-10_08_44-AM.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
     {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
       "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
@@ -33,17 +11,6 @@
       "description": "In security research, Claude Opus 5 helped chain forum and login flaws to take over OpenAI staff accounts and reach an internal repository.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s1700-nu-rw-lo-l85-e365/claude-openai.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of Linux Kernel Vulnerabilities Actively Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/linux-kernel-vulnerabilities-actively-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-19T15:09:43+00:00",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has warned that attackers are actively exploiting three Linux kernel vulnerabilities, creating an urgent patching and investigation deadline.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Linux-Kernel-Vulnerabilities-Actively-Exploited.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -76,17 +43,6 @@
       "publishedAt": "2026-09-19T13:28:41+00:00",
       "description": "Identity visibility maps hidden accounts, effective access, and runtime behavior across cloud and SaaS environments.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1700-nu-rw-lo-l85-e365/ORCHID-1.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "TanStack Supply Chain Attack Lets Hackers Steal 170 Private CrowdSec GitHub Repositories",
-      "url": "https://cybersecuritynews.com/tanstack-supply-chain-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-19T11:21:50+00:00",
-      "description": "CrowdSec has disclosed that attackers copied about 170 private GitHub repositories after a former employee\u2019s account was compromised through May\u2019s TanStack npm supply chain attack.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/TanStack-Supply-Chain-Attack.webp",
       "topic": "Identity",
       "kind": "News"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
