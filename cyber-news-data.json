@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-21T05:22:53.720562+00:00",
+  "generatedAt": "2026-09-21T13:16:01.208567+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "ChatGPT Ad Tracking Cookie Follows Users Across Third-Party Advertiser Websites",
+      "url": "https://cybersecuritynews.com/chatgpt-ad-tracking-cookie-follows-users/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T13:02:53+00:00",
+      "description": "OpenAI\u2019s __obi cookie may link ChatGPT activity to users across advertiser websites using OpenAI\u2019s ad pixel.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ChatGPT-Ad-Tracking-Cookie-Follows-Users-Across-Third-Party-Advertiser-Websites.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Leaky TLS Certificate Exposes North Korea\u2019s Hangro VPN Infrastructure Across Two Countries",
+      "url": "https://cybersecuritynews.com/leaky-tls-certificate/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T12:57:10+00:00",
+      "description": "North Korea\u2019s Hangro VPN exposed servers in North Korea and Russia, revealing infrastructure used by officials and trade representatives.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Leaky-TLS-Certificate-Exposes-North-Koreas-Hangro-VPN-Infrastructure-Across-Two-Countries.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "RatHat Android Trojan Uses AI for Automation",
+      "url": "https://www.securityweek.com/rathat-android-trojan-uses-ai-for-automation/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-21T12:51:41+00:00",
+      "description": "The malware relies on AI for real-time device navigation and control, increasing adaptability and evasion.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "North Korean TraderTraitor Hackers Use Fake Terraform Job Tests to Deploy macOS Backdoors",
+      "url": "https://cybersecuritynews.com/tradertraitor-hackers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T12:18:33+00:00",
+      "description": "North Korean TraderTraitor hackers use fake Terraform tests to compromise macOS developers and steal cloud credentials and data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/North-Korean-TraderTraitor-Hackers-Use-Fake-Terraform-Job-Tests-to-Deploy-macOS-Backdoors.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Rust Team Members and Popular Crate Owners Targeted via Video Calls",
+      "url": "https://www.securityweek.com/rust-team-members-and-popular-crate-owners-targeted-via-video-calls/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-21T11:57:35+00:00",
+      "description": "It\u2019s unclear if the attacks are part of previous campaigns against Rust, but the techniques used by the attackers match those used by North Korea.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/application-security-vulnerabilities.jpeg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Claude Opus 5 Helps Researchers Weaponize HEIF Image Flaw Into Remote Code Execution",
+      "url": "https://cybersecuritynews.com/claude-opus-5/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T11:34:03+00:00",
+      "description": "HEIF Heist flaws in image-decoding software can let attackers exploit uploads to corrupt memory and potentially execute code remotely.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-Opus-5-Helps-Researchers-Weaponize-HEIF-Image-Flaw-Into-Remote-Code-Execution.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CrowdSec Confirms Source Code Stolen in Supply Chain Attack",
+      "url": "https://www.securityweek.com/crowdsec-confirms-source-code-stolen-in-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-21T10:55:46+00:00",
+      "description": "The cybersecurity firm believes the data breach was the result of the May 2026 TanStack supply chain attack.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/Code-3rd-Party-Risk.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33318",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-21T10:33:53+00:00",
+      "description": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG\u2026",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Colorado Water Utilities Hit by Cyberattacks Targeting OT Systems",
+      "url": "https://www.securityweek.com/colorado-water-utilities-hit-by-cyberattacks-targeting-ot-systems/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-21T10:03:44+00:00",
+      "description": "The hackers changed equipment settings, disabled remote access and alarms, and altered pumping cycles, officials said.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/Water-Utility-Cyberattack.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "url": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-21T08:39:38+00:00",
+      "description": "ClickFix lures deliver the ChainScript RAT, which uses a Polygon smart contract to locate active WebSocket command-and-control servers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cgmwQRZh142Z19A3s7K7tpaXtsyy6Imy9cYGM7nFP1DAZoSK9gDw8T0dGXlkFWOGDFShJWMNjC7jbwoSvLokr1pX27u2B1SABpBL-aWtaXj2hYYrqVwTE7LpEDn_iIbRYCro8sH2hzAEsjHLGkpFqTjEKlFHi2o2pgacFJQvYkPDCKVEhkJgW8OWhpZA/s1700-nu-rw-lo-l85-e365/poly.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "url": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-21T06:06:44+00:00",
+      "description": "Jade Sleet compromised an Indian IT services provider through a DevOps engineer\u2019s MacBook, where FLATROOF and ROOFDECK were detected.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-xFiujwBJLdl6_4wZSMCWdeyCgev2EqszOLkIJ5I9Kbanu6YNmQ36nM615XmLQ-sq2aqldOHfl47jaMNRtDd80RT8k5f6I7eQuszf7wsIg49sEdMW36hsEKUtVUkZabRlGvvDxn7H7COmRCV8qP2pzQm9LNo5QKRnnptxmxTlJ8BMcPxuiqdaMjn-are0/s1700-nu-rw-lo-l85-e365/it-services.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)",
       "url": "https://isc.sans.edu/diary/rss/33354",
@@ -12,50 +133,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Weekly Cybersecurity Newsletter Bulletin \u2013 Cisco and Android 0-Day, BragJack Attack, Claude Opus 5 Used to Hack OpenAI, and 20+ Stories",
-      "url": "https://cybersecuritynews.com/weekly-cybersecurity-newsletter-sept-21/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-21T02:32:05+00:00",
-      "description": "This week's roundup covers a maximum-severity Cisco ISE zero-day under active exploitation, an actively exploited Android modem flaw on Pixel devices, a browser-extension attack that hijacks AI agents across five browsers, and researchers using Claude Opus 5\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Weekly-Cybersecurity-Newsletter-Bulletin-September-14.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Business Survival in the Age of AI",
-      "url": "https://cybersecuritynews.com/business-survival-in-the-age-of-ai/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-20T08:54:42+00:00",
-      "description": "Deploying agentic AI in the enterprise is no longer optional - it\u2019s fundamental to survival. And the main unlock to ensure security while deploying agentic AI is through agentic access management.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Codex-Image-Sep-20-2026-02_23_09-PM.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Autonomous AI Attacks: The Hugging Face Reality Check",
-      "url": "https://cybersecuritynews.com/autonomous-ai-attacks-the-hugging-face-reality-check/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-20T05:09:00+00:00",
-      "description": "For several years the forecast has been constant: AI lowers the skill barrier, AI writes novel malware, AI will soon run attacks end to end with minimal human direction. It is worth noticing where that forecast mostly came from.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Codex-Image-Sep-20-2026-10_33_43-AM.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "When Ransomware Targets AI Models: Defending the AI/ML Recovery Chain",
-      "url": "https://cybersecuritynews.com/when-ransomware-targets-ai-models-defending-the-ai-ml-recovery-chain/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-20T04:42:15+00:00",
-      "description": "Ransomware crews have always followed the money. For years, that meant targets like banks and hospitals \u2013 organizations with high-value assets and sensitive data who couldn\u2019t afford downtime. Now, it means AI models too.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/08/Codex-Image-Sep-20-2026-10_08_44-AM.webp",
-      "topic": "Ransomware",
-      "kind": "News"
     },
     {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
@@ -69,17 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "TigerByte Cyber Emerges From Stealth With $3 Million in Funding",
-      "url": "https://www.securityweek.com/tigerbyte-cyber-emerges-from-stealth-with-3-million-in-funding/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-19T14:30:00+00:00",
-      "description": "The company has secured over $7 million in contracts with US government agencies, including the US Space Force, the US Navy, and DARPA.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-funding.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
       "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
       "source": "The Hacker News",
@@ -87,28 +153,6 @@
       "publishedAt": "2026-09-19T13:28:48+00:00",
       "description": "Picus will show how teams can validate whether a CVE is exploitable in their environment without always running live exploit code.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVgJqM9WZF6u_WZBeTJKqe35CDnh_4kxjLjZa3w63XbqfKBRNUENbTh5HGVrgYUGtmLRW9Px3GGzNcewMJWzd7CRxsk66eY1D70or8gasHUroPNdbUJ6ordqjxb7s8gKqQwuyWxCWC2BT0Matusn6PLXV9xus1PlqqqD3JITL_Unxt2xP8UK6zlX9Tmr0A/s1700-nu-rw-lo-l85-e365/cves.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T13:28:41+00:00",
-      "description": "Identity visibility maps hidden accounts, effective access, and runtime behavior across cloud and SaaS environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1700-nu-rw-lo-l85-e365/ORCHID-1.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-19T09:31:17+00:00",
-      "description": "SolarWinds patched an ARM flaw caused by a hard-coded static key that could enable unauthenticated remote code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXW-SaTg898BaxxlrDjSCrcm6ZYDgxoeuYCBY4QNWs6Nt5RhyphenhyphenCf4iSIyodz-7jk8rTqUT8hjlMT74dIf6ZjL_pD5NmiNbAHhsZwzw2rakJUDaU1tVeEvKw7Az3tMf34Xwh3ffToJeI1tpTQ8rAR8AvVn2XTupFgfhehb9sHClHDDGeDd4Y9z4oUf5CYPoS/s1700-nu-rw-lo-l85-e365/solar.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -124,39 +168,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "In Other News: Ransomware Developer Sentenced, Plugin4Shell AI Attack, Critical SAP Flaw",
-      "url": "https://www.securityweek.com/in-other-news-ransomware-developer-sentenced-plugin4shell-ai-attack-critical-sap-flaw/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-18T14:25:00+00:00",
-      "description": "Noteworthy stories that might have slipped under the radar: Mandiant",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "AI-Built Exploit and Sign-In Flaw Opened Path to Internal OpenAI Code",
-      "url": "https://www.securityweek.com/ai-built-exploit-and-sign-in-flaw-opened-path-to-internal-openai-code/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-18T12:45:24+00:00",
-      "description": "Hacktron researchers earned a bug bounty after demonstrating access to OpenAI employee accounts.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/OpenAI.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "23 Million User Records Compromised in Gyazo Data Breach",
-      "url": "https://www.securityweek.com/23-million-user-records-compromised-in-gyazo-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-18T11:38:40+00:00",
-      "description": "Gyazo maker Helpfeel said the attacker exploited a vulnerability in its image upload server to gain unauthorized access.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/image-file-photo-sharing.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
       "url": "https://isc.sans.edu/diary/rss/33350",
       "source": "SANS ISC",
@@ -165,17 +176,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
-      "url": "https://isc.sans.edu/diary/rss/33348",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-17T15:06:44+00:00",
-      "description": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable \u00e2\u20ac\u201c it asked the recipient to review some attached requirements and provide a price quotation\u2026",
-      "image": "",
-      "topic": "Malware",
       "kind": "DFIR"
     },
     {
