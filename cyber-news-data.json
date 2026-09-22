@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-09-22T12:00:11.922557+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-22T17:13:15.050660+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Aembit Launches Support for Okta Cross App Access, Extending Enterprise Identity Controls to AI Agents",
+      "url": "https://cybersecuritynews.com/aembit-launches-support-for-okta-cross-app-access-extending-enterprise-identity-controls-to-ai-agents/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-22T16:58:55+00:00",
+      "description": "Aembit, the identity and access management (IAM) company for AI agents, today announced support for Cross App Access (XAA), an open protocol introduced by Okta that lets a user\u2019s existing enterprise identity authorize access to downstream applications\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQkgSLXYZiRV6KKliwJps0mbjbjlVID_AVnzK3H_677llggEQqfxJ3lLVdBpE221MURZZF8dwUs0LfniI0zx0yld0eeojGdYCs00HcphtR-49gNb5gJVwoLD9KXqOYIBm_8tm1ninTMA01mkhl_o-Pzs-gi-qvlBBMoVrZwwI59H-UzetB6B3UybyR2Bg/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-22T221417.72.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout",
+      "url": "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-22T16:46:05+00:00",
+      "description": "A suspicious IP, unfamiliar domain, or file hash can trigger an investigation in seconds. Understanding what that indicator means can take much longer.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/soc-burnout-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards",
+      "url": "https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-22T15:51:18+00:00",
+      "description": "A financially motivated operator has been quietly running three open-source AI harnesses against hundreds of online retailers, almost entirely unattended, and the results are staggering: more than 600,000 credit card records stolen, card-skimming scripts\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Credit-Card-Theft.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CAIRN \u2013 A New Tool to Track AI Malware That Operates Without Human Control",
+      "url": "https://cybersecuritynews.com/cairn-tool-for-tracking-ai-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-22T15:27:12+00:00",
+      "description": "Cisco Talos has released CAIRN, an open-source toolkit designed to hunt, classify and track AI-integrated malware by examining the digital markers developers leave behind.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CAIRN-Tool-for-Tracking-AI-Malware.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33358",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-22T14:48:38+00:00",
+      "description": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typically do not contain a body. But what if they do?",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Cyera Raises $400 Million at $12+ Billion Valuation",
+      "url": "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T14:29:34+00:00",
+      "description": "The data security company received the new investment from Goldman Sachs Alternatives, extending its Series G funding round.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Nightmare Eclipse Drops New Microsoft Defender Exploit After Revealing Identity",
+      "url": "https://www.securityweek.com/nightmare-eclipse-drops-new-microsoft-defender-exploit-after-revealing-identity/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T13:26:51+00:00",
+      "description": "Abdelhamid Naceri, a former Microsoft Germany employee, is the exploit leaker Nightmare Eclipse, aka Chaotic Eclipse.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/hacker-unmasked.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33348",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-22T13:10:20+00:00",
+      "description": "At the end of August, a malspam message was caught in the quarantine of a mail gateway operated by one of my customers. The message was not especially remarkable \u00e2\u20ac\u201c it asked the recipient to review some attached requirements and provide a price quotation\u2026",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-22T12:30:00+00:00",
+      "description": "AI agents can chain credentials and tools to reach beyond direct permissions, as a Hugging Face evaluation showed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9ivhHLwWwT7Ptbr537Fd2CV3d_maDSNRmH0up0x67UPpc5x45Uuz0Bg8EnLkjrtB3DYXldW7aKbzx5uljQSF7IhQlzHHA1HR0F16Eaxs8Y3tgURkizSrA79L3EqyD5RDlqPGljbXCTQj0tFFG2EOVueksvhyrmdmC-v6VFjs76KdzZlCg1juWiVOPDnU/s1700-nu-rw-lo-l85-e365/token.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-22T12:29:00+00:00",
+      "description": "Attackers are exploiting CVE-2026-93952 in certificate-authenticated VeloCloud Orchestrators, with some release trains still awaiting fixes.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5Up_REU7_SnA-Ce9D8UGRsM8WbkkcjR6kjirzb-tSFejrL-qnZkXrp2gNa3OA-4PgvkUqHs59j9Qc8srbfm2JOUIOvEa1c_d8Il3kUDAGyr49FuXwq_n438Vf9txfq1fVwcpykkZAKz1o2QFGUJDLF4wnXzNWLdH1tYft3bd-vJywPppGjEfoikG22s/s1700-nu-rw-lo-l85-e365/VeloCloud.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Only 13% of OT Network Segments Are Fully Isolated: Analysis",
+      "url": "https://www.securityweek.com/only-13-of-ot-network-segments-are-fully-isolated-analysis/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T12:24:30+00:00",
+      "description": "Forescout\u2019s new network segmentation research shows that OT and medical devices often share network segments with other enterprise assets.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/01/network-security-integration.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
       "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
@@ -36,61 +157,6 @@
       "kind": "News"
     },
     {
-      "title": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
-      "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-22T11:33:59+00:00",
-      "description": "Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-      "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-22T11:17:41+00:00",
-      "description": "SharePoint CVE-2026-65660 enables authenticated RCE; Microsoft patched it on August 11, and no in-the-wild exploitation is reported.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu0R8P6iyk50vNReEGl0FkwYoFPk5n2fkVC3_3Mf2J5SaQ7yFIHbA3xuQpCATCQ9Y5Ie2ysz9EVaDb_vR5Bbnp209w28bSDK2Rqggotv4NPQbFB5LX4SUT4eztA-6939clsV9QQ41MHwIl8MFSzaJwyFFeBusztZ9H7oZhiUOlFYrL8BQh6hXWegn39uU/s1700-nu-rw-lo-l85-e365/ms-rce.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "WordPress Patches \u2018Click2Shell\u2019 Vulnerability",
-      "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-22T10:22:27+00:00",
-      "description": "The bug lets attackers automatically install and preview themes and could lead to remote code execution.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-      "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-22T09:38:18+00:00",
-      "description": "Malicious npm package indexed-btree hid its loader in runtime code, avoiding install hooks after logging millions of downloads.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaN7aXt0PoPdZQ_VG77wkwdIyNugcdkFD6MnMvlj5LN_byw2ZrX8-gtpDld4CviuW1MOhHiElsvFtIkO9IfhBr4af-sJwM1zvR-RFICRll4G5jG4JNPX1vx4sup3omlw8uTJgro9UUfzecLMI1Whls3ihqZ9OXYJliIBjhpoodf4WI9j1lA6EUjms7x1pG/s1700-nu-rw-lo-l85-e365/rth.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
-      "url": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-22T08:37:06+00:00",
-      "description": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea\u2019s WaterPlum campaign.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/North-Korea-hacking.jpeg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33356",
       "source": "SANS ISC",
@@ -110,28 +176,6 @@
       "description": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG\u2026",
       "image": "",
       "topic": "Malware",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Monday, September 21st, 2026 https://isc.sans.edu/podcastdetail/10102, (Mon, Sep 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33354",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-21T05:15:12+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33352",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-19T04:51:46+00:00",
-      "description": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
