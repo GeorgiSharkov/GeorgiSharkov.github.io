@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-21T20:06:12.698878+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-22T00:15:01.328847+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
@@ -47,6 +47,39 @@
       "kind": "News"
     },
     {
+      "title": "Google Fined \u20ac403 Million for GDPR Violations Over Users\u2019 Location Data",
+      "url": "https://cybersecuritynews.com/google-fined-e403-million/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T16:43:32+00:00",
+      "description": "Ireland\u2019s Data Protection Commission (DPC) has fined Google Ireland Limited \u20ac403 million after concluding that the technology giant violated the General Data Protection Regulation (GDPR) while processing users\u2019 location data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-GDPR-Location-Data-Fine.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak",
+      "url": "https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T16:19:59+00:00",
+      "description": "Amazon Web Services can move from detection to containment in seconds when an Identity and Access Management access key appears in a public GitHub repository.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AWS-IAM-Key-GitHub-Leak-2.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds",
+      "url": "https://cybersecuritynews.com/claude-code-agent-file-deletion/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T16:12:31+00:00",
+      "description": "A Claude Code user has reported a severe data-loss incident in which an autonomous coding agent allegedly deleted 48,218 live files from a Windows project tree and destroyed the repository\u2019s Git object store.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-Code-Agent-File-Deletion.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer",
       "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
       "source": "SecurityWeek",
@@ -55,6 +88,17 @@
       "description": "The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/malware-infection.webp",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027",
+      "url": "https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-21T14:40:37+00:00",
+      "description": "Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide, requiring organizations to migrate affected users before February 1, 2027.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Entra-ID-SMS-Sign-In.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
