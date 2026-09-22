@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2026-09-22T05:18:59.465266+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-22T12:00:11.922557+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Hackers Impersonate IT Help Desk on Microsoft Teams to Steal Windows Passwords",
-      "url": "https://cybersecuritynews.com/hackers-impersonate-it-help-desk-on-teams/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-22T04:46:11+00:00",
-      "description": "Microsoft Teams chats are used to impersonate IT staff, deliver malware, gain remote access, and steal Windows passwords via fake lock screens.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Impersonate-IT-Help-Desk-on-Microsoft-Teams-to-Steal-Windows-Passwords.webp",
+      "title": "Recent ZyXEL Switch Vulnerability Exploited by Chinese Hackers",
+      "url": "https://www.securityweek.com/recent-zyxel-switch-vulnerability-exploited-by-chinese-hackers/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T11:55:20+00:00",
+      "description": "A Chinese threat actor has exploited the bug to exfiltrate sensitive information from nearly 1,000 ZyXEL switches.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/switch-router.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+      "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-22T11:45:00+00:00",
+      "description": "DORA\u2019s second year shifts focus to proving ICT controls work, with network evidence supporting monitoring, detection, and incident response.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSfPPym5AUNkyGqTS_emtDBNfEzrtWQJSHGSMl0V3KkDS2_hMcu_cpDslIX9LUv9nvHbQzY9hnwDEKjdlxe6vFS3N2_PHkTk_0TdKBE7RrAdniL9dObHd24tudc-Ymy8FTsV9y6Io68EhjR6fRrRwMEJhdKczg6vpRP2Bp06cxX_EqgmqXps8ih3Tfq08/s1700-nu-rw-lo-l85-e365/core.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+      "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-22T11:38:40+00:00",
+      "description": "A Linux KVM flaw on ARM64 can expose host kernel memory to guests and enable guest-to-host escape when nested virtualization is enabled.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCjDxUEx5QKzby2TlrL6Swi0MV7BdrkgjM6Y5Xby9IU8L9JSdG09pwRemVtrYQtUrvp8QIDduyiDuojZVzZ6GrpzUJIVrThvC4CZ_kd8kckdhBt0MLWDLXD_QwN2wciIA9bqLee51246mEpWx0ZnlcOfXD2U3QWpvmpKZyxx75T7MXK-b8zBMmrouCZJc/s1700-nu-rw-lo-l85-e365/linux-kvm.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Malicious B-tree NPM Package Accumulates Millions of Downloads",
+      "url": "https://www.securityweek.com/malicious-b-tree-npm-package-accumulates-millions-of-downloads/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T11:33:59+00:00",
+      "description": "Posing as the legitimate sorted-btree package, indexed-btree hides a malware trigger in its prototype method.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+      "url": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-22T11:17:41+00:00",
+      "description": "SharePoint CVE-2026-65660 enables authenticated RCE; Microsoft patched it on August 11, and no in-the-wild exploitation is reported.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu0R8P6iyk50vNReEGl0FkwYoFPk5n2fkVC3_3Mf2J5SaQ7yFIHbA3xuQpCATCQ9Y5Ie2ysz9EVaDb_vR5Bbnp209w28bSDK2Rqggotv4NPQbFB5LX4SUT4eztA-6939clsV9QQ41MHwIl8MFSzaJwyFFeBusztZ9H7oZhiUOlFYrL8BQh6hXWegn39uU/s1700-nu-rw-lo-l85-e365/ms-rce.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "WordPress Patches \u2018Click2Shell\u2019 Vulnerability",
+      "url": "https://www.securityweek.com/wordpress-patches-click2shell-vulnerability/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T10:22:27+00:00",
+      "description": "The bug lets attackers automatically install and preview themes and could lead to remote code execution.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "url": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-22T09:38:18+00:00",
+      "description": "Malicious npm package indexed-btree hid its loader in runtime code, avoiding install hooks after logging millions of downloads.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaN7aXt0PoPdZQ_VG77wkwdIyNugcdkFD6MnMvlj5LN_byw2ZrX8-gtpDld4CviuW1MOhHiElsvFtIkO9IfhBr4af-sJwM1zvR-RFICRll4G5jG4JNPX1vx4sup3omlw8uTJgro9UUfzecLMI1Whls3ihqZ9OXYJliIBjhpoodf4WI9j1lA6EUjms7x1pG/s1700-nu-rw-lo-l85-e365/rth.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Japan Dismantles First North Korean Laptop Farm as US and Allies Detail Wider Scheme",
+      "url": "https://www.securityweek.com/japan-dismantles-first-north-korean-laptop-farm-as-us-and-allies-detail-wider-scheme/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T08:37:06+00:00",
+      "description": "The US, Japan, Germany and Australia have published a joint report detailing the scope of North Korea\u2019s WaterPlum campaign.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/North-Korea-hacking.jpeg",
+      "topic": "Threat intelligence",
       "kind": "News"
     },
     {
@@ -23,127 +100,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Meta\u2019s Muse AI Agent 0-Day Vulnerability Allows Attackers to Hijack the Tool and Inject Malware",
-      "url": "https://cybersecuritynews.com/metas-muse-ai-agent-0-day-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-22T03:13:18+00:00",
-      "description": "A zero-day vulnerability in Meta\u2019s Muse AI agent for macOS could allow malware already running under a user account to hijack the assistant, intercept dictated prompts, inject malicious instructions, and steal authentication material.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Metas-Muse-AI-Agent-0-Day-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
-      "url": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-22T02:01:24+00:00",
-      "description": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-      "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-21T17:31:01+00:00",
-      "description": "A fake LastPass Authenticator installer uses a signed kernel driver to kill security tools before a stealer collects passwords and wallet files.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil-5ZV6QK7R23fL7Vtl-pdxgFYPAG9dT_cIIrXWgR70hLZRM705Ij3WuRpCL00VuDop9dTmVNf1t3QS60nqRGV9GCzsZ792yd7mFY_pjvgfufOK9D-oQJdxP4ZtrXiyeq08KNUBv3-mhQ_KCiCOMWIbeQpCAyF_h4lMZw54T0l9AcDdGf6aRptXAZJNcU/s1700-nu-rw-lo-l85-e365/last.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Google Hit With $463 Million Fine for EU Location Data Rule Breach",
-      "url": "https://www.securityweek.com/google-hit-with-463-million-fine-for-eu-location-data-rule-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-21T17:19:53+00:00",
-      "description": "Google has been fined 403 million euros ($463 million) for breaching the European Union\u2019s strict privacy rules because it mishandled users\u2019 location data.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
-      "url": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-21T17:19:00+00:00",
-      "description": "North Korean Contagious Interview campaign compromised 30,000 devices and stole at least $10.71 million in cryptocurrency.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjuVP0IzjchtSeuT6WwQHPupLynSiYhe7KinKtQVVE_EgFE5iG9SWV4HrgseuXaSUo-TaamFPzHl6SCnUPsbz29nzEo1BJeZVE4VB43KdMBmKEld7snbryRJIeIIAmiRZNEhFCJ-58klU6qGrvwg2Hn26FtkHv1s4cAj_zX9AWmdeym2-d4hScWr9dLiOY/s1700-nu-rw-lo-l85-e365/exec.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Google Fined \u20ac403 Million Over GDPR Violations Tied to Location Data",
-      "url": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-21T16:57:31+00:00",
-      "description": "Ireland's DPC fined Google \u20ac403 million over GDPR violations in how three features handled location data from 2018 to 2020.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrjOPn27sYW7sjjV6-SlFPjlnnAtZ2bVGvrJRbbussed8ddYCwrRnmyIBKOsJy9p3QGdwzMuxmxhtyNvyPQD9u53V0T84o-Pi1Euo1SPlHX9DiaFzVby2cKpyfdma7mA0b4F1gqDCvjWBrk3n916K6Su1Y1TaJcOKXHsuzNn0cxOmVzlUK1NIjPtElIXM/s1700-nu-rw-lo-l85-e365/google-location.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google Fined \u20ac403 Million for GDPR Violations Over Users\u2019 Location Data",
-      "url": "https://cybersecuritynews.com/google-fined-e403-million/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-21T16:43:32+00:00",
-      "description": "Ireland\u2019s Data Protection Commission (DPC) has fined Google Ireland Limited \u20ac403 million after concluding that the technology giant violated the General Data Protection Regulation (GDPR) while processing users\u2019 location data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-GDPR-Location-Data-Fine.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AWS Automatically Quarantines Exposed IAM Keys Within 10 Seconds of GitHub Leak",
-      "url": "https://cybersecuritynews.com/aws-automatically-quarantines-exposed-iam-keys/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-21T16:19:59+00:00",
-      "description": "Amazon Web Services can move from detection to containment in seconds when an Identity and Access Management access key appears in a public GitHub repository.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AWS-IAM-Key-GitHub-Leak-2.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer",
-      "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-21T15:46:58+00:00",
-      "description": "The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/malware-infection.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "CISO Conversations: Noopur Davis \u2013 The Accidental Global CISO at Comcast",
-      "url": "https://www.securityweek.com/ciso-conversations-noopur-davis-the-accidental-global-ciso-at-comcast/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-21T14:30:00+00:00",
-      "description": "Noopur Davis never planned a career in cybersecurity. She was a developer at Intergraph, and for many years that was all she wanted to be.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/CISO_Noopur-Davis.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
-      "url": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-21T14:24:13+00:00",
-      "description": "This week\u2019s recap covers AI agent risks, supply-chain attacks, exposed systems, returning malware, weak defaults, and fast-moving exploit paths.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjovXeakmAmPG68i_kNoeGFJjwSSGDdpj-29aojemBxtTQVOHzR668zKtV5GGPhnJ0zyCEdlsNCc11LIT-F8n1U8Rkv3jr-3AAt6HC4YwwyfENs_Y8V-O_OlPC4_WByxrsUBq6NifTKHQpgWuSnIqnV4bg4rXVoe9BrtMtgRCo4ECfMLWHRIKOQsqjb0zEt/s1700-nu-rw-lo-l85-e365/recap-2.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
