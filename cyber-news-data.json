@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-22T00:15:01.328847+00:00",
+  "generatedAt": "2026-09-22T05:18:59.465266+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hackers Impersonate IT Help Desk on Microsoft Teams to Steal Windows Passwords",
+      "url": "https://cybersecuritynews.com/hackers-impersonate-it-help-desk-on-teams/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-22T04:46:11+00:00",
+      "description": "Microsoft Teams chats are used to impersonate IT staff, deliver malware, gain remote access, and steal Windows passwords via fake lock screens.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Impersonate-IT-Help-Desk-on-Microsoft-Teams-to-Steal-Windows-Passwords.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33356",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-22T03:50:10+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Meta\u2019s Muse AI Agent 0-Day Vulnerability Allows Attackers to Hijack the Tool and Inject Malware",
+      "url": "https://cybersecuritynews.com/metas-muse-ai-agent-0-day-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-22T03:13:18+00:00",
+      "description": "A zero-day vulnerability in Meta\u2019s Muse AI agent for macOS could allow malware already running under a user account to hijack the assistant, intercept dictated prompts, inject malicious instructions, and steal authentication material.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Metas-Muse-AI-Agent-0-Day-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "US Proposes AI Incident Alert System in Talks With China, Bessent Says",
+      "url": "https://www.securityweek.com/us-proposes-ai-incident-alert-system-in-talks-with-china-bessent-says/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-22T02:01:24+00:00",
+      "description": "Trump has resisted calls to slow down AI development, saying that would help China catch up to U.S. companies.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
       "url": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
@@ -69,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "Claude Code Agent Allegedly Deletes 48,000 Files in 103 Seconds",
-      "url": "https://cybersecuritynews.com/claude-code-agent-file-deletion/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-21T16:12:31+00:00",
-      "description": "A Claude Code user has reported a severe data-loss incident in which an autonomous coding agent allegedly deleted 48,218 live files from a Windows project tree and destroyed the repository\u2019s Git object store.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Claude-Code-Agent-File-Deletion.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Fake LastPass Installers Push Kernel-Level EDR Killer, \u2018Rapuncel\u2019 Stealer",
       "url": "https://www.securityweek.com/fake-lastpass-installers-push-kernel-level-edr-killer-rapuncel-stealer/",
       "source": "SecurityWeek",
@@ -88,17 +121,6 @@
       "description": "The attackers impersonate at least 40 companies and disable 145 security products to deploy infostealer malware.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/malware-infection.webp",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Entra ID to Block SMS First-Factor Sign-Ins Worldwide in February 2027",
-      "url": "https://cybersecuritynews.com/entra-id-sms-sign-in-retirement/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-21T14:40:37+00:00",
-      "description": "Microsoft is retiring SMS first-factor sign-in for Microsoft Entra ID workforce tenants worldwide, requiring organizations to migrate affected users before February 1, 2027.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Entra-ID-SMS-Sign-In.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -121,17 +143,6 @@
       "description": "This week\u2019s recap covers AI agent risks, supply-chain attacks, exposed systems, returning malware, weak defaults, and fast-moving exploit paths.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjovXeakmAmPG68i_kNoeGFJjwSSGDdpj-29aojemBxtTQVOHzR668zKtV5GGPhnJ0zyCEdlsNCc11LIT-F8n1U8Rkv3jr-3AAt6HC4YwwyfENs_Y8V-O_OlPC4_WByxrsUBq6NifTKHQpgWuSnIqnV4bg4rXVoe9BrtMtgRCo4ECfMLWHRIKOQsqjb0zEt/s1700-nu-rw-lo-l85-e365/recap-2.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Dragos Completes NetRise and runZero Acquisitions Following Accenture Deal",
-      "url": "https://www.securityweek.com/dragos-completes-netrise-and-runzero-acquisitions-following-accenture-deal/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-21T14:00:13+00:00",
-      "description": "The transaction is part of the $4.1 billion deal in which Accenture acquired a majority stake in Dragos in an OT cybersecurity push.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -165,17 +176,6 @@
       "description": "In June 2026 the IETF published RFC 10008[1], defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it's the first new standard HTTP verb since \"PATCH\" in 2010!",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33350",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-18T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
