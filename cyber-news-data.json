@@ -1,16 +1,115 @@
 {
-  "generatedAt": "2026-09-23T12:02:39.982065+00:00",
+  "generatedAt": "2026-09-23T17:25:10.355397+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "The Domains Keep Disappearing, but the Malware Infrastructure Behind Them Never Moves",
-      "url": "https://cybersecuritynews.com/domains-keep-disappearing/",
+      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33360",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-23T16:14:37+00:00",
+      "description": "Introduction",
+      "image": "",
+      "topic": "Threat intelligence",
+      "kind": "DFIR"
+    },
+    {
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-23T16:06:41+00:00",
+      "description": "Attackers chained two RouterOS SSH flaws to gain full admin access on Internet-exposed MikroTik routers before patches shipped.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjudzrtqX93WzCbZQoGI06WzKFtFpQsZaQB7GUao4yzBncGN3nxn0GzmYNybpL9SeKFttznMsVCZpQEQ_fD5kP_0nJRL4ZN6ZgHrXR2c33bpZN33gEyIkk6aBtx0k7znzalUe6epmrCO5VSCCH6beY_chvz9Pl0t5BbBtCLntTnNMwi3cFPXFd0p09FxA4/s1700-nu-rw-lo-l85-e365/microtik.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "GitLab Email Feature Vulnerability Lets Attackers Push Code Into Private Repositories",
+      "url": "https://cybersecuritynews.com/gitlab-email-private-repository-flaw/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T11:53:15+00:00",
-      "description": "Fake CAPTCHA pages are spreading malware through changing domains, using copied commands and Windows Run to trigger infections.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/The-Domains-Keep-Disappearing-but-the-Malware-Infrastructure-Behind-Them-Never-Moves.webp",
+      "publishedAt": "2026-09-23T15:40:39+00:00",
+      "description": "GitLab\u2019s \u201cEmail work item to this project\u201d feature can become a repository-compromise primitive when its private address is exposed, according to research published by Aikido Security researcher Joe Leon on September 23, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/GitLab-Email-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "The Visibility Gap in Phishing Detection: Where Sandboxing Makes a Difference",
+      "url": "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-23T15:40:01+00:00",
+      "description": "The difficult part of phishing detection for a security team often begins after the initial alert.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Phishing-Detection.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Outerlimit Raises $16M to Build Zero Trust Security Layer for Autonomous AI Agents",
+      "url": "https://cybersecuritynews.com/outerlimit-ai-agent-zero-trust/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-23T15:24:38+00:00",
+      "description": "Outerlimit has emerged from stealth with $16 million in pre-seed funding to develop a decentralized security and authorization layer for autonomous AI agents.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Outerlimit-AI-Agent-Zero-Trust.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Cpanel Vulnerability Allows Attackers to Access Other Users\u2019 Accounts",
+      "url": "https://cybersecuritynews.com/cpanel-user-account-access-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-23T15:18:34+00:00",
+      "description": "cPanel has patched three newly disclosed security vulnerabilities that threaten tenant isolation on shared-hosting servers, including a permissions flaw that exposes other users\u2019 calendars and contacts.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/cPanel-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-23T14:17:58+00:00",
+      "description": "CLOSEDQUORUM uses votes from up to four AI models to choose theft, injection, or persistence, but its public build is nonfunctional.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZdSpi6aqUlY2q-T-3eJ4YCn7G3jYa9Exo6BMffjdRLuqg9Gdn4ImZXKjcYX8s5Swz3W_WhxMZ_Z7qbu0Z60KrCk8EUhRV8bJ7l1mXOoDCo-XAXyq69_rtFDoVhvAiuJP1rCdSf9KixTqgAA52iwqWsqB5T0uJaRGFz1hpBcpfQuvPMYd17UcrfrnUV0c/s1700-nu-rw-lo-l85-e365/closed.jpg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-23T13:52:46+00:00",
+      "description": "Compromised MemTensor npm and PyPI packages deliver sckit, a Go-based stealer targeting cloud, registry, source-code, and developer credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFThFSFsti-2SIka75bNuMKpyJHtOW2ZPrZtcSjbjFQ64GCNn0WtdssYuWlVTbhaLB5cAJ0vu8FgyNmNsDa8g0Ijy-D1zP4FW7ihVfAjk9xWMYDMMdfZPICGyVdjeDwH3-jyKLHOUnjfaXBJIMxGn_3ngeXFsbb4CLnOibRd4fbwXHYpBkMQTcBQAf0edq/s1700-nu-rw-lo-l85-e365/npm-pypi.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Honeywell: OT Security Teams Embrace AI, but Autonomy Still Rare",
+      "url": "https://www.securityweek.com/honeywell-ot-security-teams-embrace-ai-but-autonomy-still-rare/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-23T12:17:28+00:00",
+      "description": "Only 21% of industrial security leaders report a complete OT asset inventory, even as 88% call their programs mature.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/industrial-AI-OT-security.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-23T12:16:00+00:00",
+      "description": "cPanel fixed three flaws, including one that lets any logged-in cPanel account run code as root and another that can modify other accounts' databases.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT5quc0dmRWhh6WOC80Gx9QoHTMYyq5srnXBXjybOKZk_qoUn1Q2nKLE9MifqCEyRIha_NFvRsyr8Nx5EyxGIREXaTb5Fh59cz4Ln8yZj9Zv7piqM49wmm7rfmchW1cVlss1wn47qNypaYarZUVNHBO8rzXaYTvRMi9u1phgfXVd8OZx8_Vjxm34684BE/s1700-nu-rw-lo-l85-e365/cpanel-0day.jpg",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -36,28 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "NVIDIA Fixes Linux Component Flaws That Could Expose Sensitive System Information",
-      "url": "https://cybersecuritynews.com/nvidia-fixes-linux-component-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T11:05:30+00:00",
-      "description": "NVIDIA patched 14 vulnerabilities in Infrastructure Controller for Linux that enable code execution, data tampering, information disclosure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/NVIDIA-Fixes-Linux-Component-Flaw-That-Could-Expose-Sensitive-System-Information.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "The Phishing Kit That Turned Microsoft\u2019s Login Flow Into an AI-Powered Fraud Machine",
-      "url": "https://cybersecuritynews.com/the-phishing-kit/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T10:59:51+00:00",
-      "description": "EvilTokens phishing kit abuses Microsoft device-code sign-ins to compromise 12,000+ inboxes across over 10,000 organizations worldwide.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/The-Phishing-Kit-That-Turned-Microsofts-Login-Flow-Into-an-AI-Powered-Fraud-Machine.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Chrome 154 Patches 108 Vulnerabilities",
       "url": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
       "source": "SecurityWeek",
@@ -69,72 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "A Look at AI Doomsday Scenarios That Researchers Say Could Put Humanity at Risk",
-      "url": "https://www.securityweek.com/a-look-at-ai-doomsday-scenarios-that-researchers-say-could-put-humanity-at-risk/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-23T10:20:36+00:00",
-      "description": "Debates over the plausibility of these doomsday scenarios have heated up since several executives endorsed slowing the technology\u2019s development for safety reasons.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI_Kill-Humanity.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "The Malware Hiding in Developer Tools That Turned Terraform Providers Into Attack Paths",
-      "url": "https://cybersecuritynews.com/malware-hiding-in-developer-tools/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T09:22:31+00:00",
-      "description": "Graphalgo-linked malware hid in Terraform providers and Go packages, targeting developers and cloud infrastructure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/The-Malware-Hiding-in-Developer-Tools-That-Turned-Terraform-Providers-Into-Attack-Paths.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-      "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-23T08:29:48+00:00",
-      "description": "Unauthenticated attackers are exploiting CVE-2026-94127 in F5 BIG-IP APM to run code on systems acting as OAuth authorization servers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_ZqCwuuKS7TqNWQ7GpeE07JLzHNn4Jdb2O6iQAlY34SiP2it2VwgmeVm5OjAzoAEHFQRVJENdDNGQL94ibPy1AiB9qkpNxZ3ILA89tYlwqm2OO9tEOH_BZ9HZzObw0nrzszQoKnaCQ-Q8ez5DPsnrKjq40qhm2tu_DhMSFunkVRsHeEIc0IA2NL-yZ5g/s1700-nu-rw-lo-l85-e365/f5-zero-day.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-      "url": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-23T08:29:24+00:00",
-      "description": "UTA0565 exploited a Chrome-Windows zero-day chain through fake websites to deploy CLEANGULP malware against Asian government entities.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikVEmuPJKZAlboodZWejG4dGZXXejOLThyXPoOnycqTY8lznAewTW5ovv8XFJzhyjPRMXT-njudYOVWFEYCLvmEPDyUrfDTZzAmp1S4KE4DuzsDFxt8R-biL2puZZBWG36_dkhfzvpeigcPb9WJNy31oIXo6Oh3zMUzL3JG6MEr4OaGE4Yi_k5JCpohVrZ/s1700-nu-rw-lo-l85-e365/windows-china.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-      "url": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-23T07:04:40+00:00",
-      "description": "Next.js ImageResponse flaw can lead to server code execution when attacker-controlled values reach generated SVG.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBxfEfPNHZcocTp156lW-VbOENuCxmLM_7xUUY5QWEppPDsL04KhbN7yaT52b_XTCXW6ensPqjF8QBXuQWUgna8jerFExtxAfkCd4NqOGcQwUn8088DU87PMD7cgYhQ-dY2_xFdwPyaKU-kD9HBx_YcjAzvzwEQzLoKUu1cRRpOT5A1luhBCE6e6ChORw/s1700-nu-rw-lo-l85-e365/next.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-      "url": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-23T05:30:09+00:00",
-      "description": "ShinyHunters claims it breached the FBI and stole employee data; the bureau says it is investigating activity affecting FBIjobs.gov.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBUSHHkVbK1vPy2WO_E9jEZ2NEd8UcPTpCFgCYTkbSPiSzDEpXRe6HRXan3z9Xg1huRk3-47hZbveFeG06vkRhAmGuL73zdPFjQEkVb6LISZIcHpPugYCMKQPtsEIihip_T7F1GWczJNWNTikwbM-SzC_UNeQsUjrg6AIeHYBwOnpOUlSOWyimHb07TzWz/s1700-nu-rw-lo-l85-e365/shinyhunters.png",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
       "url": "https://isc.sans.edu/diary/rss/33362",
       "source": "SANS ISC",
@@ -143,17 +154,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33360",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-23T00:55:11+00:00",
-      "description": "Introduction",
-      "image": "",
-      "topic": "Threat intelligence",
       "kind": "DFIR"
     },
     {
