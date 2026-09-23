@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-23T17:25:10.355397+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-23T21:43:40.399649+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "IonQ Targets Quantum Error-Correction Bottleneck With Single-CPU DecoderIonQ Says Sin",
+      "url": "https://www.securityweek.com/ionq-targets-quantum-error-correction-bottleneck-with-single-cpu-decoderionq-says-sin/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-23T19:32:49+00:00",
+      "description": "IonQ\u2019s new single processor quantum error decoder minimizes the classical computing overhead in quantum error correction.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/08/quantum.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-23T18:06:30+00:00",
+      "description": "Malicious Terraform providers and Go modules deliver Graphalgo-linked Go malware using blockchain and Slack for command and control.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8VNxKl5_NBWXcUoDi3VxoksbOSAixGFGd8EmIaZmKRQpsGhOj6SLg8fmHktJbtvR7wofZNG1AFIzSGnVFq8OJHgq27dhqNtc0cz457ZqqQQ6INHwnExfLu3xKERaNt0GmOpxJ6WR6oxp5FZTT-q3Q5YWAnVawXYfY51GRl09ovsDkhM3U8tRUTR4ClSfj/s1700-nu-rw-lo-l85-e365/terraform.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Worries About an AI Internet Takeover Gain New Urgency Among Doomsday Scenarios",
+      "url": "https://www.securityweek.com/worries-about-an-ai-internet-takeover-gain-new-urgency-among-doomsday-scenarios/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-23T18:05:58+00:00",
+      "description": "The idea that AI could break away and work toward its own agenda is looking increasingly plausible to researchers and experts.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/05/AI-Hallucinations.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-23T16:53:10+00:00",
+      "description": "GitLab\u2019s non-expiring incoming email token can let a holder commit code with a user\u2019s permissions and trigger CI/CD jobs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaHKzSxkk0R4wjlziQHsR5vS1s1mTJovZkES9XL9nn5VLYiM55XuJoiGP9cugwNUOBMEMG3NrW3iBL9cVOqfp0F-9roYS7K7R5w8t3_NJr61_2_XgRNltvjXBFoGLfQPQFhUk0ju_mMCRCqJHjr76BrbngafAtElKkD-LZWZ7uUcY82i8PAMKh0ljHJQI/s1700-nu-rw-lo-l85-e365/gitlab-email.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33360",
@@ -25,50 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "GitLab Email Feature Vulnerability Lets Attackers Push Code Into Private Repositories",
-      "url": "https://cybersecuritynews.com/gitlab-email-private-repository-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T15:40:39+00:00",
-      "description": "GitLab\u2019s \u201cEmail work item to this project\u201d feature can become a repository-compromise primitive when its private address is exposed, according to research published by Aikido Security researcher Joe Leon on September 23, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/GitLab-Email-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "The Visibility Gap in Phishing Detection: Where Sandboxing Makes a Difference",
-      "url": "https://cybersecuritynews.com/the-visibility-gap-in-phishing-detection-where-sandboxing-makes-a-difference/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T15:40:01+00:00",
-      "description": "The difficult part of phishing detection for a security team often begins after the initial alert.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Phishing-Detection.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Outerlimit Raises $16M to Build Zero Trust Security Layer for Autonomous AI Agents",
-      "url": "https://cybersecuritynews.com/outerlimit-ai-agent-zero-trust/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T15:24:38+00:00",
-      "description": "Outerlimit has emerged from stealth with $16 million in pre-seed funding to develop a decentralized security and authorization layer for autonomous AI agents.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Outerlimit-AI-Agent-Zero-Trust.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New Cpanel Vulnerability Allows Attackers to Access Other Users\u2019 Accounts",
-      "url": "https://cybersecuritynews.com/cpanel-user-account-access-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-23T15:18:34+00:00",
-      "description": "cPanel has patched three newly disclosed security vulnerabilities that threaten tenant isolation on shared-hosting servers, including a permissions flaw that exposes other users\u2019 calendars and contacts.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/cPanel-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
       "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
       "source": "The Hacker News",
@@ -76,17 +76,6 @@
       "publishedAt": "2026-09-23T14:17:58+00:00",
       "description": "CLOSEDQUORUM uses votes from up to four AI models to choose theft, injection, or persistence, but its public build is nonfunctional.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZdSpi6aqUlY2q-T-3eJ4YCn7G3jYa9Exo6BMffjdRLuqg9Gdn4ImZXKjcYX8s5Swz3W_WhxMZ_Z7qbu0Z60KrCk8EUhRV8bJ7l1mXOoDCo-XAXyq69_rtFDoVhvAiuJP1rCdSf9KixTqgAA52iwqWsqB5T0uJaRGFz1hpBcpfQuvPMYd17UcrfrnUV0c/s1700-nu-rw-lo-l85-e365/closed.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-23T13:52:46+00:00",
-      "description": "Compromised MemTensor npm and PyPI packages deliver sckit, a Go-based stealer targeting cloud, registry, source-code, and developer credentials.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFThFSFsti-2SIka75bNuMKpyJHtOW2ZPrZtcSjbjFQ64GCNn0WtdssYuWlVTbhaLB5cAJ0vu8FgyNmNsDa8g0Ijy-D1zP4FW7ihVfAjk9xWMYDMMdfZPICGyVdjeDwH3-jyKLHOUnjfaXBJIMxGn_3ngeXFsbb4CLnOibRd4fbwXHYpBkMQTcBQAf0edq/s1700-nu-rw-lo-l85-e365/npm-pypi.jpg",
       "topic": "Malware",
       "kind": "News"
     },
@@ -102,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
-      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-23T12:16:00+00:00",
-      "description": "cPanel fixed three flaws, including one that lets any logged-in cPanel account run code as root and another that can modify other accounts' databases.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT5quc0dmRWhh6WOC80Gx9QoHTMYyq5srnXBXjybOKZk_qoUn1Q2nKLE9MifqCEyRIha_NFvRsyr8Nx5EyxGIREXaTb5Fh59cz4Ln8yZj9Zv7piqM49wmm7rfmchW1cVlss1wn47qNypaYarZUVNHBO8rzXaYTvRMi9u1phgfXVd8OZx8_Vjxm34684BE/s1700-nu-rw-lo-l85-e365/cpanel-0day.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Adobe Patches Critical Flaws in Connect, AEM Forms",
       "url": "https://www.securityweek.com/adobe-patches-critical-flaws-in-connect-aem-forms/",
       "source": "SecurityWeek",
@@ -120,28 +98,6 @@
       "publishedAt": "2026-09-23T11:40:59+00:00",
       "description": "The nine critical security defects could be exploited for arbitrary code execution and privilege escalation.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Adobe.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AI-Powered Phishing Platform EvilTokens Disrupted by Microsoft",
-      "url": "https://www.securityweek.com/ai-powered-phishing-platform-eviltokens-disrupted-by-microsoft/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-23T11:23:30+00:00",
-      "description": "The cybercrime platform leveraged AI at every step of the attack chain, including writing social engineering messages and deciding targets.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/AI-phishing.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Chrome 154 Patches 108 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-154-patches-108-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-23T10:36:07+00:00",
-      "description": "The browser update resolves several critical-severity memory safety and memory corruption flaws.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
