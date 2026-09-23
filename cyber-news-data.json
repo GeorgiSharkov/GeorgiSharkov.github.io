@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-22T21:37:22.721061+00:00",
+  "generatedAt": "2026-09-23T05:05:35.809978+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hackers Exploiting F5 BIG-IP OAuth Server 0-day Flaw to Gain Remote Code Execution",
+      "url": "https://cybersecuritynews.com/f5-big-ip-oauth-server-0-day-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-23T03:24:27+00:00",
+      "description": "F5 has warned that hackers are actively exploiting a critical zero-day vulnerability in BIG-IP Access Policy Manager (APM) deployments to execute code remotely without authentication.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/F5-BIG-IP-OAuth-Server-0-day-Flaw.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ShinyHunters Allegedly Claims Breach of FBI Jobs Site and Stolen Agents\u2019 Data",
+      "url": "https://cybersecuritynews.com/shinyhunters-allegedly-claims-fbi-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-23T02:43:07+00:00",
+      "description": "The FBI is investigating alleged unauthorized activity affecting its recruitment infrastructure after the ShinyHunters cybercrime group claimed it breached FBI systems, defaced the bureau\u2019s jobs portal, and stole sensitive records belonging to employees and\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ShinyHunters-Allegedly-Claims-FBI-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33362",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-23T02:40:13+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33360",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-23T00:55:11+00:00",
+      "description": "Introduction",
+      "image": "",
+      "topic": "Threat intelligence",
+      "kind": "DFIR"
+    },
     {
       "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33358",
@@ -91,28 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "Scaling SOC Capabilities: How Threat Intelligence Cuts Triage Time and Burnout",
-      "url": "https://cybersecuritynews.com/scaling-soc-capabilities-how-threat-intelligence-cuts-triage-time-and-burnout/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-22T16:46:05+00:00",
-      "description": "A suspicious IP, unfamiliar domain, or file hash can trigger an investigation in seconds. Understanding what that indicator means can take much longer.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Scaling-SOC-Capabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Autonomous AI Agents Hack Retailers for $25 and Steal 600,000 Credit Cards",
-      "url": "https://cybersecuritynews.com/ai-agents-retail-credit-card-theft/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-22T15:51:18+00:00",
-      "description": "A financially motivated operator has been quietly running three open-source AI harnesses against hundreds of online retailers, almost entirely unattended, and the results are staggering: more than 600,000 credit card records stolen, card-skimming scripts\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AI-Agents-Credit-Card-Theft.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Cyera Raises $400 Million at $12+ Billion Valuation",
       "url": "https://www.securityweek.com/cyera-raises-400-million-at-12-billion-valuation/",
       "source": "SecurityWeek",
@@ -155,28 +177,6 @@
       "image": "https://www.securityweek.com/wp-content/uploads/2024/01/network-security-integration.jpg",
       "topic": "News",
       "kind": "News"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, September 22nd, 2026 https://isc.sans.edu/podcastdetail/10104, (Tue, Sep 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33356",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-22T03:50:10+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33318",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-21T10:33:53+00:00",
-      "description": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a closer look at, is the fact that the threat actors used PNG\u2026",
-      "image": "",
-      "topic": "Malware",
-      "kind": "DFIR"
     },
     {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
