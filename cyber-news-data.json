@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-24T12:08:26.832364+00:00",
+  "generatedAt": "2026-09-24T17:30:19.725590+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Kontext Security Emerges With $4 Million for AI Agent Runtime Controls",
+      "url": "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-24T15:52:00+00:00",
+      "description": "The startup\u2019s runtime enforcement platform evaluates AI agents in real time to provide visibility and control over their actions.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-24T15:27:32+00:00",
+      "description": "third-party[.]com, a widely used documentation placeholder, serves Windows users a ClickFix lure that plants a PowerShell command.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy4aXDWSC5cKzOZO8lRbk8o5I1fHPlCGbfxxYL6tyJxauEL-8EVj7-AypDhYt_Wg6bDLqlj0UK4LrGJdeI4ChsksaB6tTZxo8ikCLdwC0wjRfJPE_Z1qM_CVUg7s1ORdmWW2XTDtlPPDcI8JvelrbmJhcjVthnqYWQrZ7ySnIMMPRZfa_VzgaBCWyWc_JJ/s1700-nu-rw-lo-l85-e365/third.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
+      "url": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-24T14:43:13+00:00",
+      "description": "Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-24T14:29:06+00:00",
+      "description": "Compromised Ukrainian sites use ClickFix lures to direct visitors to run an MSI that delivers Psychedelic Stealer.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1xvw3iNKwWUngfdShXBAPKrbRDMZSCQ3_FdiHNKvwrLkip9fUiikko0FKN-cfgzBIgkLvKDR9xIlnfEZVQgHgOW2qTz8Pd4Ur0-DCYdUssgN_9vglgxRU6u5ZRK_FlQYmgV_sbv8pfA1YnSJcojUOhWC-7lkPbA07An_X-vNHmZ8xT2Okq9HiRfTBVt1h/s1700-nu-rw-lo-l85-e365/UK-CLICK.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Fake PDF Files Hide Konni Malware Campaign Targeting Ukraine Organizations",
+      "url": "https://cybersecuritynews.com/konni-malware-campaign/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-24T13:39:18+00:00",
+      "description": "VelvetCake malware targets Ukraine-focused organizations via malicious Windows shortcuts in ZIP attachments, stealing sensitive intelligence.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Fake-PDF-Files-Hide-Konni-Malware-Campaign-Targeting-Ukraine-Organizations.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
+      "url": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-24T12:48:14+00:00",
+      "description": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/dark-web-marketplace-credit-card.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "AvisLoader Windows Malware That Learned to Survive Even After Its Servers Are Taken Down",
       "url": "https://cybersecuritynews.com/avisloader-windows-malware/",
@@ -11,6 +77,17 @@
       "description": "AvisLoader uses fake verification pages and manual commands to infect Windows devices, while surviving server takedowns.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AvisLoader-Windows-Malware-That-Learned-to-Survive-Even-After-Its-Servers-Are-Taken-Down.webp",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+      "url": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-24T12:05:27+00:00",
+      "description": "Corp MDM targets logistics firms via fake Google Play pages, stealing new inbound SMS and enabling call forwarding after sideloading.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhitRqKj3-JlcQ69xxlsxJs80aq7MNxgAc_VrV-TCrHGTVEwdWKIdvAiwB4szXMT3cRKpkzCRVObZxAO47CLl3JWLRerxVSITKy9xorsP-XY212M07JzDkZ7VXOA-r0maycB0jMv0r5Kl3q0VgrxpoeYfHJ_gkeXbzXLKz_3gAhDGy1ML06lfta_5w8u_Xo/s1700-nu-rw-lo-l85-e365/1000110893.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -36,36 +113,14 @@
       "kind": "News"
     },
     {
-      "title": "OT Security Guidance: NIST Drafts Updated Guide, CISA/FBI Advise on ICS Integrators",
-      "url": "https://www.securityweek.com/ot-security-guidance-nist-drafts-updated-guide-cisa-fbi-advise-on-ics-integrators/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-24T11:05:16+00:00",
-      "description": "Revision 4 of NIST\u2019s operational technology security guide is open for public comments until November 30.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/OT-industrial-ICS.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Begin at the End: How to Enable Agentic Remediation",
-      "url": "https://www.securityweek.com/begin-at-the-end-how-to-enable-agentic-remediation/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
+      "title": "Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore",
+      "url": "https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-09-24T11:00:00+00:00",
-      "description": "Agentic remediation is not an act of faith. We are talking about fixing known problems, not judgment calls about unfamiliar risk.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/01/Cybersecurity-Teams.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "SolarWinds Patches Critical RCE Flaws in Observability Self-Hosted",
-      "url": "https://www.securityweek.com/solarwinds-patches-critical-rce-flaws-in-observability-self-hosted/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-24T10:40:40+00:00",
-      "description": "The vulnerabilities, tracked as CVE-2026-28324 and CVE-2026-28325, can be exploited without authentication.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/SolarWinds-Hack-CISO.jpg",
-      "topic": "Vulnerability",
+      "description": "AI coding agents are accelerating secrets sprawl. Learn why AI increases credential exposure and how organizations can secure their secrets.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8mLbRmwaAgvJunom4dBxBYMz50LUutLJiS6Yz7RPCbZQO1aYXAqFWOga4dCKD3AoenZHxYLpPexLEQ2swJO67vy4xl2_uw1g08lRtETN3hTMLpvafmn5WD4VK2ilpuFaYAdMHHPBRG2yYsyDBins15huubgt2b6pDVnnhW92It8lKHBqOifOLTaNSwho/s1700-nu-rw-lo-l85-e365/keeper.png",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -80,50 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
-      "url": "https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T09:14:21+00:00",
-      "description": "ClickFix accounted for 47% of Microsoft Defender Experts initial-access cases in 2025, while a Polygon contract rotated lure hosts.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOah63YM6pjk2RAIcCXy-NSbO_uPPCSp4DsR-9-jeGLCRZCd9E1QSd0_b4c6xc5wFp_ncqCH3LPtBR_C1auF3Fid-DNSCtQh9eEArgNe0syhvA4I9EdDU454uAqieiAGyyI-dXW5AsA5X4zsbhTpHKjXfIbgM35i4MOC7Jcbk5SiILRU9_BgcV2H-_BxI/s1700-nu-rw-lo-l85-e365/ctm360.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "New Galago Ransomware Operation Emerges With Links to Panzer Group",
-      "url": "https://cybersecuritynews.com/new-galago-ransomware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-24T08:08:44+00:00",
-      "description": "Galago ransomware claims a Panzer partnership, but researchers have not confirmed any attacks, victims, or entry methods.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/New-Galago-Ransomware-Operation-Emerges-With-Links-to-Panzer-Group.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
-      "url": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T07:07:25+00:00",
-      "description": "An OpenAI AI agent bypassed controls on Australia's Medicare statistics portal and accessed non-public files; no patient records were found.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcAVdhDdHS-lMa6x8Y_wK35pNfiQpKjJPFKBf-euOlWYyYschDjjXlah44o4VfYeKJyaeWKFxyOkEwQEnW_qBfSc6rwynqdqB8UAq1CSuKzJOz6lxno1eI9DxmU0RzTX0eWig9f5L5vWGkW1vZnp8o7rDqe86PIyHtTHl-IQSdLmZWAVOyedE86QaUy4I/s1700-nu-rw-lo-l85-e365/openai-agents.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
-      "url": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T06:32:03+00:00",
-      "description": "TeamFiltration targeted over 5,700 Microsoft 365 accounts across 28 tenants, compromising seven service accounts with default passwords.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQgKN3zS7GtEpakDcL7zk0tL-zcz3GJMkVf9vMLCVXf33XZ1Yad77dg3Zen_EEB58BltCG_pj0c-yVDm6VbV9cw5Baxtf26vVtRwW4qwDDy1s8HYMFKfTyl382lwJIRfSWBSA-WK6RAZ8lmy9zf5IZb_Ilqol0AcVdEaMp599tZ4NxqUc-KY4-fyFNYYFg/s1700-nu-rw-lo-l85-e365/ms-365.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
       "url": "https://isc.sans.edu/diary/rss/33366",
       "source": "SANS ISC",
@@ -133,17 +144,6 @@
       "image": "",
       "topic": "Identity",
       "kind": "DFIR"
-    },
-    {
-      "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T05:36:18+00:00",
-      "description": "Attackers are exploiting WordPress CVE-2026-87902 to include pearcmd.php and write PHP files when specific theme and server conditions are met.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizoRcyQE1N3fGUKa2FY_q_T7EG_CyjTpMGGk1oFUF-XpBZa0zCA6V2yEuv3_Z1OrEjMmhbHdaVmo6NMrwb98U9VFGXDpRcItboVuZH7qc9QgPd5ZLDudfJPWoaSDbtkoXJeLTZw-6JDbq5F6YEp4AkeoJd10Nb_H9tuU0fYdgqkLrP6BTpAPOYwO6WdmkN/s1700-nu-rw-lo-l85-e365/wordpress-exploits.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Thursday, September 24th, 2026 https://isc.sans.edu/podcastdetail/10108, (Thu, Sep 24th)",
