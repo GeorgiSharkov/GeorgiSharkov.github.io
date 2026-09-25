@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-24T21:44:15.963122+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-25T05:17:51.992638+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33370",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-25T03:45:12+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Autonomous AI Hacks Raise Thorny Questions of Legal Accountability",
       "url": "https://www.securityweek.com/autonomous-ai-hacks-raise-thorny-questions-of-legal-accountability/",
@@ -11,17 +22,6 @@
       "description": "The prospect of legal accountability is unclear. Lawsuits are a possibility, but some legal experts believe any criminal investigations would face an extremely high burden.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/07/AI-artificial-intelligence-model-frontier.webp",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "SCOUTz Prospect Intelligence Platform Launches for MSPs with 30-Day Beta",
-      "url": "https://cybersecuritynews.com/scoutz-prospect-intelligence-platform-launches-for-msps-with-30-day-beta/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-24T18:59:07+00:00",
-      "description": "SCOUTz, a prospect intelligence platform built for managed service provider (MSP) security sales, is now available in open beta.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZv76la7II3EXUny1GIzPXyXTPnx6FonVwqyEr5e0DqYMRbG-ifZsYFEsV5ZWSakYPhVxD_ZvmfiK-QV-pBm5zr2ICp0gh4seQYcg4D400InjNfq_CudQdkWEfd-C1oNdZadJBfveZMsS_DBFAFXbg6WA4J-J5R1CMDkaraKHkt5xjFL2W7MkIOBP3Ucw/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-24T212856.42.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -44,17 +44,6 @@
       "description": "This week\u2019s ThreatsDay Bulletin covers poisoned updates, AI privacy risks, phishing traps, supply-chain attacks, EDR evasion, and low-effort compromis",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQeh1uEFjgxcgPPJkrXkAnJxZRxA9_ZolFQXNONWmfMGLViusszn4KTiJ9-8_r-AV94NS5BQlZ5eOrFnTvinPXcJB_G4o_BEZdv7xXMdAqfvZPfiUzKjlE70q2V6C9ze8H58pqYh-suKm_Yu1q3LoevignMd7nfjbjV7qx_vEad6BEFKUHwV5UlTFW1-dh/s1700-nu-rw-lo-l85-e365/threatsday-sep.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Researchers Found a New Way to Break RSA that Doesn\u2019t Require Factoring the Key",
-      "url": "https://cybersecuritynews.com/new-way-to-break-rsa/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-24T17:48:12+00:00",
-      "description": "Security researchers have demonstrated a faster way to undermine certain RSA deployments without factoring the public modulus, challenging the assumption that RSA\u2019s practical strength always tracks the cost of integer factorization.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/New-Way-to-Break-RSA.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -102,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "Fake PDF Files Hide Konni Malware Campaign Targeting Ukraine Organizations",
-      "url": "https://cybersecuritynews.com/konni-malware-campaign/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-24T13:39:18+00:00",
-      "description": "VelvetCake malware targets Ukraine-focused organizations via malicious Windows shortcuts in ZIP attachments, stealing sensitive intelligence.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Fake-PDF-Files-Hide-Konni-Malware-Campaign-Targeting-Ukraine-Organizations.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
       "url": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
       "source": "SecurityWeek",
@@ -121,17 +99,6 @@
       "description": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/05/dark-web-marketplace-credit-card.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AvisLoader Windows Malware That Learned to Survive Even After Its Servers Are Taken Down",
-      "url": "https://cybersecuritynews.com/avisloader-windows-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-24T12:07:32+00:00",
-      "description": "AvisLoader uses fake verification pages and manual commands to infect Windows devices, while surviving server takedowns.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/AvisLoader-Windows-Malware-That-Learned-to-Survive-Even-After-Its-Servers-Are-Taken-Down.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -165,17 +132,6 @@
       "description": "Introduction",
       "image": "",
       "topic": "Threat intelligence",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/33362",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-23T02:40:13+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
