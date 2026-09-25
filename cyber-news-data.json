@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-09-25T17:29:56.926605+00:00",
+  "generatedAt": "2026-09-25T21:47:09.900535+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-09-25T21:44:40+00:00",
+      "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay\u2026",
+      "image": "",
+      "topic": "Ransomware",
+      "kind": "Investigation"
+    },
+    {
+      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+      "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T18:02:16+00:00",
+      "description": "Two OxygenOS flaws could let permissionless malicious apps execute code with root privileges on OnePlus devices, including the OnePlus 15.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OnePlus-15-Flaws-Let-Zero-Permission-Apps-Gain-Root-Access-Through-OxygenOS-Services.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+      "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T17:56:35+00:00",
+      "description": "The 14-year-old Linux kernel flaw CVE-2025-39964 could allow local attackers to gain root access and escape Docker containers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/14-Year-Old-Linux-Kernel-Flaw-Lets-Local-Users-Gain-Root-Access-and-Escape-Containers-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure",
       "url": "https://www.securityweek.com/in-other-news-clop-leak-site-takeover-docker-botnet-hunts-ai-keys-water-utility-exposure/",
@@ -54,28 +87,6 @@
       "publishedAt": "2026-09-25T14:16:18+00:00",
       "description": "Bitget\u2019s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Sauron Loader Malware Uses DLL Side-Loading and In-Memory Decryption to Evade Detection",
-      "url": "https://cybersecuritynews.com/sauron-loader-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-25T13:47:28+00:00",
-      "description": "Sauron Loader targets German organizations through fake prompts and social engineering, helping attackers deliver additional malware.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Sauron-Loader-Malware-Uses-DLL-Side-Loading-and-In-Memory-Decryption-to-Evade-Detection.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
-      "url": "https://cybersecuritynews.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-25T13:35:24+00:00",
-      "description": "Archipelo today announced Salmon, Execution Verification Infrastructure (EVI) for AI agents and autonomous systems, powered by a cryptographic protocol designed to make execution history verifiable.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMijXYjPQ4hCwqR1fWWIEJsNJ8ceVV0sK7irePvXG3X2HrWCbmkdS5yqGNmR6_QAPCEewXsi7hpqilE751KIyZRtwIjER2BVJ3ixdAL7g00tXdzaqtsfOI2KYkuImnv6ciIEIvbJc5kH2mERRXNh8LohXTXpehd3QbL9t8nqAoSWIMliFJD3B9AnMWxbA/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-09-25T185227.22.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -209,17 +220,6 @@
       "description": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on\u2026",
       "image": "",
       "topic": "Identity",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
-      "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-08-27T11:04:15+00:00",
-      "description": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the\u2026",
-      "image": "",
-      "topic": "Ransomware",
       "kind": "Investigation"
     }
   ],
