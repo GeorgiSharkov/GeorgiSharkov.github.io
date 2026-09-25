@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-09-25T05:17:51.992638+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-25T12:07:37.923604+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Attackers Are Turning Everyday Business Emails Into Malware Delivery Machines",
+      "url": "https://cybersecuritynews.com/business-emails/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T12:01:17+00:00",
+      "description": "Attackers use fake delivery and refund complaints to trick employees into downloading ZIP files containing PureRAT and PureLogs malware.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Attackers-Are-Turning-Everyday-Business-Emails-Into-Malware-Delivery-Machines.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Confirms Windows 11 Update Bug Causing Black Screens and Loading Issues",
+      "url": "https://cybersecuritynews.com/windows-11-update-bug-causing-black-screens/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T11:37:58+00:00",
+      "description": "Microsoft has confirmed a Windows 11 issue that can leave users staring at a black screen after signing in, with the desktop shell failing to start automatically.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Windows-11-Update-Bug-Causing-Black-Screens.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Ads Campaign Spreads Fake Security Alerts That Lock Browsers and Push Malware",
+      "url": "https://cybersecuritynews.com/google-ads-campaign/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T11:04:38+00:00",
+      "description": "Malicious ads redirect users to fake security warnings that mimic browser takeovers and push victims to call fraudulent support lines.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Ads-Campaign-Spreads-Fake-Security-Alerts-That-Lock-Browsers-and-Push-Malware.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Windows, Linux, Android File Notification Systems Leak User Activity",
+      "url": "https://www.securityweek.com/windows-linux-android-file-notification-systems-leak-user-activity/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-25T10:53:32+00:00",
+      "description": "Researchers show that file-change notification systems can leak keystroke timing, browsing activity, and WhatsApp media events.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/software-leak-operating-system.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+      "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-25T10:35:55+00:00",
+      "description": "Bitget says suspected North Korean actors stole $351.6 million after compromising a backend wallet system and spoofing transaction data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpydVf-1UN81MyiMH8sAYBd4xiIBuM52UV7kyWmhhBlqohwuaFwgnP5wVx35gG3dHMWrtw0aoPh2zPLW-NaUI4qc_nmpybfA87lo6bzZmLb4WXnpNkYyEYEYMk7kaHeKH4G01yOeEBm44R8a7uAQmabg1k2pEd7MBRp9FM4QN4uA3rsXxkAfuKLWBUxQd_/s1700-nu-rw-lo-l85-e365/bitget.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Multiple Check Point Product Vulnerabilities Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/check-point-product-vulnerabilities-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T10:30:18+00:00",
+      "description": "CISA added two Check Point vulnerabilities to its KEV Catalog, warning that attackers are actively exploiting the flaws in affected environments.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/CISA-Warns-of-Multiple-Check-Point-Multiple-Products-Vulnerabilities-Exploited-in-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-25T10:14:02+00:00",
+      "description": "Roundcube's patched CVE-2026-48842 SQL injection is actively exploited, affecting 1.6.x before 1.6.16 and 1.7.x before 1.7.1.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8MACS_IO_gIvzTjppTIaHyXZKPha3ZR13_sXQS7u9Ajphpz-FRL5GNIQzhpbveUPPLuMCq72MYNtdX5o6gF-9MZZg4rPF7mbOP_pjSXyTVOFy3XtzlQiMH6sIdTdsqgZpgQf-yZmk688M6BiOWdUNYZswJVQETAInFkZVZCl99ZoYoGhhgtpJZ0hs9JmV/s1700-nu-rw-lo-l85-e365/roundcube.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "\u2018SalesBleed\u2019 Flaws in Salesforce Agentforce Enabled Zero-Click Data Exfiltration",
+      "url": "https://www.securityweek.com/salesbleed-flaws-in-salesforce-agentforce-enabled-zero-click-data-exfiltration/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-25T09:27:51+00:00",
+      "description": "Three vulnerabilities in Salesforce Agentforce allowed hackers to hijack trusted agents, steal data, and launch phishing attacks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/08/Salesforce-e1759749812840.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Roundcube Webmail Vulnerability in Attackers\u2019 Crosshairs",
+      "url": "https://www.securityweek.com/roundcube-webmail-vulnerability-in-attackers-crosshairs/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-25T06:57:40+00:00",
+      "description": "Tracked as CVE-2026-48842, the exploited bug is an SQL injection that can be exploited without authentication.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/08/Email-Security.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33368",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-25T06:45:47+00:00",
+      "description": "Introduction",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-25T04:49:22+00:00",
+      "description": "Cloudflare fixed a Containers flaw that let customers read leftover disk data from other accounts' deleted containers on shared servers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJuj6tshfElqbwJCAvJf00nvl1Tng8D3yBW5uZZyVpwOqXJuzBB1df67IlNM1OSkHdGH11R6G8rseykpeXWUBu24sJvyxDL-uiqA7NC2ItwUUN2fMdaTWhqcHR2WYfpI6ihc0EVpEXfep1VFBygmh2-F6cAL1lwin0qQbmSebV5OmhqFmgBs3i0_WtdGI/s1700-nu-rw-lo-l85-e365/cf-escape.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-25T04:46:34+00:00",
+      "description": "CISA adds exploited WSO2 and Adobe Commerce flaws to KEV, with federal agencies told to apply fixes by September 27, 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqTAzyCx7Cezy4z5oRz-uAHvdvW1IZDrQlfIqT_ZDJ22Hvarb4lmYWkjqBDI_CngiSy2wuot68b2CgMS_0CWVZS93lYo5wqJsd5-WdFQgO3dieodXpVQiizcFjQsPzUOlVrs32zkBaHAwOyD7S4GCZ3b1d-Jyt4-ZTaMltfU0jG5dwBw5cxj880D4Cx8W0/s1700-nu-rw-lo-l85-e365/ADOBE-CISA.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)",
       "url": "https://isc.sans.edu/diary/rss/33370",
@@ -25,83 +157,6 @@
       "kind": "News"
     },
     {
-      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-      "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T18:10:18+00:00",
-      "description": "Two unpatched OnePlus flaws let an installed no-permission app gain root on stock OxygenOS phones; no real-world exploitation is known.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiGu2guziH88Cs_LnFsPkCJ4zuxqgSX7q3SRrBXdSAEeJPhmYnpNp-c0WCNCqoOoyCv6NcnmCKm20rhqSb2rjw7KZ6Kh6UssR2fZG5SZX9Pjhb_fjONdBfgpxqpWNABPDvSmD9Hp913nErgH4PQm1ehlyspJt5RXASYckP6jHE3G0V2ou5fwkG7JOZyBY/s1700-nu-rw-lo-l85-e365/oneplus.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-      "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T17:52:43+00:00",
-      "description": "This week\u2019s ThreatsDay Bulletin covers poisoned updates, AI privacy risks, phishing traps, supply-chain attacks, EDR evasion, and low-effort compromis",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQeh1uEFjgxcgPPJkrXkAnJxZRxA9_ZolFQXNONWmfMGLViusszn4KTiJ9-8_r-AV94NS5BQlZ5eOrFnTvinPXcJB_G4o_BEZdv7xXMdAqfvZPfiUzKjlE70q2V6C9ze8H58pqYh-suKm_Yu1q3LoevignMd7nfjbjV7qx_vEad6BEFKUHwV5UlTFW1-dh/s1700-nu-rw-lo-l85-e365/threatsday-sep.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Kontext Security Emerges With $4 Million for AI Agent Runtime Controls",
-      "url": "https://www.securityweek.com/kontext-security-emerges-with-4-million-for-ai-agent-runtime-controls/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-24T15:52:00+00:00",
-      "description": "The startup\u2019s runtime enforcement platform evaluates AI agents in real time to provide visibility and control over their actions.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T15:27:32+00:00",
-      "description": "third-party[.]com, a widely used documentation placeholder, serves Windows users a ClickFix lure that plants a PowerShell command.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy4aXDWSC5cKzOZO8lRbk8o5I1fHPlCGbfxxYL6tyJxauEL-8EVj7-AypDhYt_Wg6bDLqlj0UK4LrGJdeI4ChsksaB6tTZxo8ikCLdwC0wjRfJPE_Z1qM_CVUg7s1ORdmWW2XTDtlPPDcI8JvelrbmJhcjVthnqYWQrZ7ySnIMMPRZfa_VzgaBCWyWc_JJ/s1700-nu-rw-lo-l85-e365/third.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Agents Probed Websites for Vulnerabilities While Fetching Public Data",
-      "url": "https://www.securityweek.com/openai-agents-probed-websites-for-vulnerabilities-while-fetching-public-data/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-24T14:43:13+00:00",
-      "description": "Australia disclosed that an OpenAI agent gained unauthorized access to non-public government information.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-      "url": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-24T14:29:06+00:00",
-      "description": "Compromised Ukrainian sites use ClickFix lures to direct visitors to run an MSI that delivers Psychedelic Stealer.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1xvw3iNKwWUngfdShXBAPKrbRDMZSCQ3_FdiHNKvwrLkip9fUiikko0FKN-cfgzBIgkLvKDR9xIlnfEZVQgHgOW2qTz8Pd4Ur0-DCYdUssgN_9vglgxRU6u5ZRK_FlQYmgV_sbv8pfA1YnSJcojUOhWC-7lkPbA07An_X-vNHmZ8xT2Okq9HiRfTBVt1h/s1700-nu-rw-lo-l85-e365/UK-CLICK.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "AI-Powered Campaign Targets Hundreds of Online Retailers",
-      "url": "https://www.securityweek.com/ai-powered-campaign-targets-hundreds-of-online-retailers/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-24T12:48:14+00:00",
-      "description": "A threat actor is using three AI harnesses for vulnerability research, exploitation, and attack orchestration.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/dark-web-marketplace-credit-card.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
       "url": "https://isc.sans.edu/diary/rss/33366",
       "source": "SANS ISC",
@@ -121,17 +176,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33360",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-23T16:14:37+00:00",
-      "description": "Introduction",
-      "image": "",
-      "topic": "Threat intelligence",
       "kind": "DFIR"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
