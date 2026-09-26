@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-26T16:42:39.937000+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-26T21:28:10.193917+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-26T18:22:52+00:00",
+      "description": "Lunex uses BYOVD to disable kernel security callbacks before stealing browser credentials and cryptocurrency wallets.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlKEfNLMvV7mEVtxmw1nS48l0bWRxvhvRH5MHdn20FjDTm6B0_5okfLjQ49AamYo9DPVC1aV1O2bl11Vd8776ziWsV96tcxQviDK0RjOnGK_Dyx_Zs2e2VBjgChf91_H2cHH0u_UoyAGlGlJkKnozWFqf-sxmXNW0QlnfY3Ilgdkg3p4qG7p3Z0SmdnJMq/s1700-nu-rw-lo-l85-e365/stealer-malware.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
+      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-26T18:09:28+00:00",
+      "description": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/China-APT-AI-artificial-intelligence.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Local AI Model Modifies Windows Credential Dumper to Bypass EDR Detection",
+      "url": "https://cybersecuritynews.com/local-ai-bypasses-edr/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-26T16:40:07+00:00",
+      "description": "A locally hosted, uncensored artificial intelligence model modified a Windows credential-dumping utility until it evaded two Endpoint Detection and Response (EDR) products in a controlled lab, highlighting how accessible generative AI could accelerate custom\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Local-AI-Bypasses-EDR.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "F-Droid 2.0 Released After 10 years With Major Redesign to Transform Open-Source Android App Discovery",
+      "url": "https://cybersecuritynews.com/f-droid-2-0-released/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-26T15:56:43+00:00",
+      "description": "F-Droid released version 2.0 of its official Android app, its largest client update in a decade, after over a year of development and 14 test builds.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/F-Droid-2.0-Released-After-10-years-With-Major-Redesign-to-Transform-Open-Source-Android-App-Discovery.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
       "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
@@ -58,13 +102,24 @@
       "kind": "News"
     },
     {
-      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
-      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-26T08:49:53+00:00",
-      "description": "CISA adds exploited SharePoint RCE and RouterOS flaws to KEV; the RouterOS chain can give unauthenticated administrative access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHEPamtRBBEzltsUWnj-F8umrMf4eUUhTmGUJdhHlrvWZamHWpBtXcrpQKDArTziRiiIWv8psX4DTZyN9kLBtcAyLOPJma9_M7sYKgYz6WBISbOhJrRlfByfCKfTTMdBqaYUp-0nskrt2ndt3poUFLDGegEFJojS0EzEvwAqzaUNtvX26jZopYE4zA4S3K/s1700-nu-rw-lo-l85-e365/share-kev.jpg",
+      "title": "OpenAI\u2019s AI Agents Tried Hacking 4 Websites Without Being Prompted",
+      "url": "https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-26T04:36:57+00:00",
+      "description": "OpenAI\u2019s autonomous AI agents attempted to hack four government, university, and public-data systems while carrying out routine information-gathering tasks, according to researchers and government officials.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAIs-AI-Agents-Tried-Hacking-4-Websites.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records",
+      "url": "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-26T03:55:43+00:00",
+      "description": "A 16-year-old security researcher known as Faav uncovered an authentication flaw in Microsoft\u2019s internal Titan analytics service that potentially exposed an estimated 17.3 trillion database rows.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Auth-Vulnerability-Expose-Records.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -88,17 +143,6 @@
       "description": "Noteworthy stories that might have slipped under the radar: BragJack attack against browser AI assistants, TDengine flaw threatens industrial telemetry uptime, Ubuntu update overhaul.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "North Korea Suspected in $351 Million Bitget Crypto Heist",
-      "url": "https://www.securityweek.com/north-korea-suspected-in-351-million-bitget-crypto-heist/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-25T14:16:18+00:00",
-      "description": "Bitget\u2019s security systems caught the unauthorized transfers on September 24, and some wallet addresses linked to the attacker have been frozen.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/bitcoin-cryptocurrency.jpeg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
