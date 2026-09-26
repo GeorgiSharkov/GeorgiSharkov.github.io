@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T21:47:09.900535+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-26T05:22:54.900675+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
@@ -12,28 +12,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
-      "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-25T18:02:16+00:00",
-      "description": "Two OxygenOS flaws could let permissionless malicious apps execute code with root privileges on OnePlus devices, including the OnePlus 15.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OnePlus-15-Flaws-Let-Zero-Permission-Apps-Gain-Root-Access-Through-OxygenOS-Services.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
-      "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-25T17:56:35+00:00",
-      "description": "The 14-year-old Linux kernel flaw CVE-2025-39964 could allow local attackers to gain root access and escape Docker containers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/14-Year-Old-Linux-Kernel-Flaw-Lets-Local-Users-Gain-Root-Access-and-Escape-Containers-.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure",
@@ -55,28 +33,6 @@
       "description": "GitHub disabled two actions-cool Actions again after re-enabled repositories left malicious May 18 tags able to execute credential-stealing code.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJFMIQ6v0uJDRoxyIhqsoqsYoXN00dcDH4IvkdQAkRBRj6ha5LIu2-2yzzvQk1OZTc-7tK1fjeqyIh8xvRNvz_CotOtGNsYnejlbHED7cI-bmZFP80JIdxk_0D9I6Zo10-6b4x4euCTaRtz8c6ncYKykDsW7Bt4oFEVYWTe3AHJdiUxM32R6hGP9C0Y0Xf/s1700-nu-rw-lo-l85-e365/github-shai.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Used a Samsung Flaw to Build a Cryptominer Inside Victim Systems",
-      "url": "https://cybersecuritynews.com/samsung-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-25T14:34:58+00:00",
-      "description": "Attackers exploited Samsung MagicINFO to install a Monero miner, disable Defender and gain persistent access to a Windows system.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Used-a-Samsung-Flaw-to-Build-a-Cryptominer-Inside-Victim-Systems.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Researchers Found a Botnet That Uses an AI Agent to Operate Inside Compromised Servers",
-      "url": "https://cybersecuritynews.com/botnet-uses-ai-agent/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-25T14:17:54+00:00",
-      "description": "CARBONATO exploits exposed Docker servers, deploys an AI agent and uses Telegram to control compromised systems and spread across networks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Researchers-Found-a-Botnet-That-Uses-an-AI-Agent-to-Operate-Inside-Compromised-Servers.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
