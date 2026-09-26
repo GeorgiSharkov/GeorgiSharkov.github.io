@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-26T05:22:54.900675+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-26T11:43:12.078303+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
+      "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-26T10:15:41+00:00",
+      "description": "OpenAI\u2019s CEO said there is an \u201cextensive and ongoing review related to our agents\u2019 use of internet access during training and evaluation.\u201d",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-26T09:55:22+00:00",
+      "description": "Elementor 4.3.0 and 4.3.1 contain a CSRF flaw that can create an admin account when a logged-in administrator opens a crafted link.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCsmpn_im_gimeko6yEdebgucFfzjRrTH0Hmvl1triNXT64w_JdoBIqCrFEApRZ9mmKBYfJQ1fqgfubPH3ZRaWW7SJ2HSr18mBsjSdFE6AwVl362SwcdzHp0EtlL2qoVuYARkSKmOqQaORUjjYVAM-PCT9Itvvkgb69lyVLttezAFtAuCw86RpPu3lAo4/s1700-nu-rw-lo-l85-e365/wordpress-ele.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-26T08:49:53+00:00",
+      "description": "CISA adds exploited SharePoint RCE and RouterOS flaws to KEV; the RouterOS chain can give unauthenticated administrative access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHEPamtRBBEzltsUWnj-F8umrMf4eUUhTmGUJdhHlrvWZamHWpBtXcrpQKDArTziRiiIWv8psX4DTZyN9kLBtcAyLOPJma9_M7sYKgYz6WBISbOhJrRlfByfCKfTTMdBqaYUp-0nskrt2ndt3poUFLDGegEFJojS0EzEvwAqzaUNtvX26jZopYE4zA4S3K/s1700-nu-rw-lo-l85-e365/share-kev.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-26T07:48:33+00:00",
+      "description": "Kiteworks urges a nine-hour precautionary shutdown after federal intelligence warned a threat actor may target some systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv53vaJYNeZNicsGcrBICKzTEXfHanPN-VR6-pTFsSJEV2IGpJn2MainwfMgqV2k96VN_ocXYLbmykTSVpwTPZr16tauFV37hU3g-lA4X31aqJQFYIsdwlHwNUIhNn9euB8SddL8d7wRKa7Ira2vNi51WNHyJivZ2Z3kkRDcAZtCQfSyvZHNLrZbqbF7jr/s1700-nu-rw-lo-l85-e365/kite.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI\u2019s AI Agents Tried Hacking 4 Websites Without Being Prompted",
+      "url": "https://cybersecuritynews.com/openais-ai-agents-tried-hacking-4-websites/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-26T04:36:57+00:00",
+      "description": "OpenAI\u2019s autonomous AI agents attempted to hack four government, university, and public-data systems while carrying out routine information-gathering tasks, according to researchers and government officials.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenAIs-AI-Agents-Tried-Hacking-4-Websites.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "16-Year-Old Researcher Finds Microsoft Auth Vulnerability that Exposes 17.3 Trillion Stored Records",
+      "url": "https://cybersecuritynews.com/microsoft-auth-vulnerability-expose-records/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-26T03:55:43+00:00",
+      "description": "A 16-year-old security researcher known as Faav uncovered an authentication flaw in Microsoft\u2019s internal Titan analytics service that potentially exposed an estimated 17.3 trillion database rows.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-Auth-Vulnerability-Expose-Records.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
@@ -12,6 +78,28 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
+    },
+    {
+      "title": "OnePlus 15 Flaws Let Zero-Permission Apps Gain Root Access Through OxygenOS Services",
+      "url": "https://cybersecuritynews.com/oneplus-15-flaws-zero-permission-apps/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T18:02:16+00:00",
+      "description": "Two OxygenOS flaws could let permissionless malicious apps execute code with root privileges on OnePlus devices, including the OnePlus 15.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OnePlus-15-Flaws-Let-Zero-Permission-Apps-Gain-Root-Access-Through-OxygenOS-Services.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "14-Year-Old Linux Kernel Flaw Lets Local Users Gain Root Access and Escape Containers",
+      "url": "https://cybersecuritynews.com/14-year-old-linux-kernel-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-25T17:56:35+00:00",
+      "description": "The 14-year-old Linux kernel flaw CVE-2025-39964 could allow local attackers to gain root access and escape Docker containers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/14-Year-Old-Linux-Kernel-Flaw-Lets-Local-Users-Gain-Root-Access-and-Escape-Containers-.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
     },
     {
       "title": "In Other News: Clop Leak Site Takeover, Docker Botnet Hunts AI Keys, Water Utility Exposure",
@@ -47,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
-      "url": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-25T13:18:06+00:00",
-      "description": "PamStealer now uses live key exchange to block static payload recovery and is delivered through a fake Wavel macOS download.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRZ3gQjU3cKnH6bHzlz8PjeaUqGcrVWnRx-bT-mgDBYv-G4CM2Iix8afTJe8sAXEghuPTiD5KszOYzA0peRhyoGKNW9YE1QtwLubBFuv9YZjXnANEGyMGwi7-oEdIqmtRBWPzUZV7S91WiUX4cI2YVMHVSQbByCmIwAX9oZxvzjb2ScVJmpmMCzpDKaKtN/s1700-nu-rw-lo-l85-e365/macos.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
       "url": "https://isc.sans.edu/diary/rss/33368",
       "source": "SANS ISC",
@@ -77,39 +154,6 @@
       "description": "Homeland Security Secretary Markwayne Mullin tasked CISA with developing the plan in July.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/election-voting.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Kosovar Owner of Rydox Marketplace Pleads Guilty in US Court",
-      "url": "https://www.securityweek.com/kosovar-owner-of-rydox-marketplace-pleads-guilty-in-us-court/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-25T12:16:27+00:00",
-      "description": "Ardit Kutleshi created and operated Rydox, which allowed miscreants to trade PII and cybercrime tools and services.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/plead-guilty-hacker-court.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "The SOC Doesn't Need to Start Over with Every Alert",
-      "url": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-25T11:30:00+00:00",
-      "description": "AI is compressing attacker retry cycles while SOC handoffs lose context, making shared operational memory central to faster defense.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0sz5D5hiSWYuUfbRDYDloMNzbx5dpvVQjC5ZVoYzIgvWL_Tkyx8AjNHjZ27RAwaPbCIQXNWB6o_FYzxjimFYHY2pHfp6m6b97tARxhdhqSHBkp2lYpfekwVLvUIm63ruwsHR7RlQkR-2jfOPELG2hjZrrYr9JYr4ndSfVaYIajhTpmB6Ud0DIXz1D_uI/s1700-nu-rw-lo-l85-e365/soc-1.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-      "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-25T10:35:55+00:00",
-      "description": "Bitget says suspected North Korean actors stole $351.6 million after compromising a backend wallet system and spoofing transaction data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpydVf-1UN81MyiMH8sAYBd4xiIBuM52UV7kyWmhhBlqohwuaFwgnP5wVx35gG3dHMWrtw0aoPh2zPLW-NaUI4qc_nmpybfA87lo6bzZmLb4WXnpNkYyEYEYMk7kaHeKH4G01yOeEBm44R8a7uAQmabg1k2pEd7MBRp9FM4QN4uA3rsXxkAfuKLWBUxQd_/s1700-nu-rw-lo-l85-e365/bitget.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
