@@ -3,7 +3,7 @@
   "catalogVersion": "2026.09.25",
   "dateReleased": "2026-09-25T18:58:16.5029Z",
   "count": 1726,
-  "generatedAt": "2026-09-27T18:27:52+00:00",
+  "generatedAt": "2026-09-27T22:15:27+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-67279",
