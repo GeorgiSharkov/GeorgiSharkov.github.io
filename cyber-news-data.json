@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-09-28T05:46:47.162673+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-28T14:23:52.813533+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "OpenCode AI Coding Agent Flaw Lets Malicious Websites Execute Code on Developer Machines",
+      "url": "https://cybersecuritynews.com/opencode-ai-coding-agent-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-28T14:22:43+00:00",
+      "description": "A critical attack path in OpenCode, the open-source AI coding agent, could allow a malicious website to execute commands on a developer\u2019s computer.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/OpenCode-AI-Coding-Agent-Flaw-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Bitget Backend Breach Drains $387.5 Million as DPRK-Linked Launderers Expose Themselves",
+      "url": "https://cybersecuritynews.com/bitget-backend-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-28T14:07:52+00:00",
+      "description": "Cryptocurrency exchange Bitget has begun restoring withdrawals after attackers exploited its backend wallet infrastructure on September 24, stealing approximately $387.5 million from hot and warm wallets.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Bitget-Hot-Wallet-Hacked.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-28T14:00:53+00:00",
+      "description": "Cybersecurity weekly recap: $387M crypto hack, active Citrix exploits, AI agents going off-script, phishing takedowns, ransomware, and key CVEs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4-eWVCAN2nvZGZrKlwm-wminZE56MzJ_bVRK6CJfdBw9TXU4yQy6t9T0hDi0hSOskE9Xs6M-KCVEbVvBuL2DLDkew97W2iobOPZa9zqEBeGPWBnW8cftdD1FwzBLz7CIGVhJb1FwnS-35B62Jqc331zNQ67hZP-V2jKBT7yUxUV4rn8jMr27QCommYp-j/s1700-nu-rw-lo-l85-e365/c-recap.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "ShinyHunters Bypasses WAF Protections to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "url": "https://cybersecuritynews.com/shinyhunters-bypasses/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-28T13:46:26+00:00",
+      "description": "ShinyHunters exploits a critical Oracle PeopleSoft flaw to bypass WAFs and plant web shells, targeting organizations across multiple sectors.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/ShinyHunters-Bypasses-WAF-Protections-to-Exploit-Oracle-PeopleSoft-Flaw-and-Deploy-Web-Shells.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Microsoft SharePoint Code Injection Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/microsoft-sharepoint-code-injection/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-28T13:21:22+00:00",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a Microsoft SharePoint code injection vulnerability, tracked as CVE-2026-65660, to its KEV Catalog after evidence showed the flaw was being exploited in attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-SharePoint-Code-Injection.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
+      "url": "https://www.securityweek.com/prison-sentence-for-former-us-soldier-who-hacked-att-and-verizon/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-28T12:36:16+00:00",
+      "description": "Cameron John Wagenius was sentenced to 70 months in prison for stealing information from the wireless carriers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+      "url": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-28T11:58:00+00:00",
+      "description": "Join Okta\u2019s webinar to learn how to govern AI agents, control shadow AI, and reduce excessive access with stronger identity controls.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibRtgg2jeMV3szE5OkdAQtqtUYgPjYEf96vKrzXPpd8_9XDiXOC9iTBfh-neWto1RsFBY0qXpLpc71bz9OwQQ8agSkvr6zYzcqwI157keOyKgX-_L-mwGdLJxLrGhbV_yK4wQn2Jc4E72zhY7XPa05O61GOgFR3-9cpbgYbACE-dR9CqqHuavdrJV8GVg/s1700-nu-rw-lo-l85-e365/webinar-agents.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+      "url": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-28T11:46:00+00:00",
+      "description": "Carbonato targets unauthenticated Docker daemons, installs Hermes Agent, and uses Telegram to run operator-directed AI-generated commands.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3O4ih8J3-A5sGh57xyYKMGbnSqaXbWhu2g9HBE_mG11gEdedMUmYyeeYpA9TnNPwRsB4t-5V9UTW54iOR0VNzyaaa0fWhOG4Oi46KwGvrrVQRdWIDS7GX6YxjaMrA6sF9RHWNyO8gBttCQ7Nc8LUmrhhH24jSp1lPDuhok9r3CfKxgGJRObZRqRTW-5Gf/s1700-nu-rw-lo-l85-e365/hermes-telegram.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "DC Health Agency Exposes 400,000 Beneficiary Records",
+      "url": "https://www.securityweek.com/dc-health-agency-exposes-400000-beneficiary-records/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-28T11:29:29+00:00",
+      "description": "The Medicaid IDs and other information of Medicaid and DC Healthcare Alliance beneficiaries were exposed.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/05/healthcare-medical-data-breach-.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Warns of ShinyHunters\u2019 Fresh Oracle PeopleSoft Campaign",
+      "url": "https://www.securityweek.com/google-warns-of-shinyhunters-fresh-oracle-peoplesoft-campaign/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-28T10:56:46+00:00",
+      "description": "The extortion group has modified its exploit in new attacks targeting the PeopleSoft vulnerability CVE-2026-35273.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Oracle-PeopleSoft.jpeg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "New Mexico Jury Finds Facebook Liable for Deceiving Users About Privacy Protections",
+      "url": "https://www.securityweek.com/new-mexico-jury-finds-facebook-liable-for-deceiving-users-about-privacy-protections/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-28T10:40:01+00:00",
+      "description": "A New Mexico jury has found Facebook liable for deceiving users about privacy protections on the platform.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/01/instagram-facebook-meta-threads-social-media.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+      "url": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-28T09:08:21+00:00",
+      "description": "JADEPUFFER used compromised Azure service principals to delete most targeted storage accounts in an 18-hour intrusion, Microsoft says.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHYvL1hsEQjB3x7u-jNflFT0QK3a9IEFse8ghWqV9SxkawlFerAn8pzjfYgztccVleVlLzZcDlOSvu7gqJhHP_XLWL1lqZkeIVCifya8Ohinriqk_o-kpzzdtv4x7NinDhQgWbE9B7yJliuJPGZ2x0qh9jRgkWfyNyPexujdTWpLTbfe7MKRVQT1Z3BAQ9/s1700-nu-rw-lo-l85-e365/azure-ai.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Monday, September 28th, 2026 https://isc.sans.edu/podcastdetail/10112, (Mon, Sep 28th)",
       "url": "https://isc.sans.edu/diary/rss/33374",
@@ -23,94 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Microsoft SharePoint Flaw CVE-2026-65660 Now Exploited in Attacks",
-      "url": "https://www.securityweek.com/microsoft-sharepoint-flaw-cve-2026-65660-now-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-27T09:23:09+00:00",
-      "description": "CISA added CVE-2026-65660 to its KEV catalog, giving federal agencies a patching deadline of September 28.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/07/SharePoint.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-27T07:47:57+00:00",
-      "description": "watchTowr says two unpatched NetScaler RCE flaws were exploited before fixes, while Citrix has yet to publish a bulletin or patch.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrnnWi_EE_zogEngdPWZDYXQTXqcArqvXtXYDj7_yLDzfVamEw9Nx7taRyM1SQf8-78qtxnt3nhNzcn36WnzYwZvFDQNvglCilw0Ltb4NjVkjjC8GH2nOUTnxIBPvRn8JVPcXJaidmbU0A6z-1RiX_OKgcpkzvL6xV7aM_YpQj6XdYIfalQH3h6o3b7pQ/s1700-nu-rw-lo-l85-e365/citrix-zero-day.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
-      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-26T18:22:52+00:00",
-      "description": "Lunex uses BYOVD to disable kernel security callbacks before stealing browser credentials and cryptocurrency wallets.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlKEfNLMvV7mEVtxmw1nS48l0bWRxvhvRH5MHdn20FjDTm6B0_5okfLjQ49AamYo9DPVC1aV1O2bl11Vd8776ziWsV96tcxQviDK0RjOnGK_Dyx_Zs2e2VBjgChf91_H2cHH0u_UoyAGlGlJkKnozWFqf-sxmXNW0QlnfY3Ilgdkg3p4qG7p3Z0SmdnJMq/s1700-nu-rw-lo-l85-e365/stealer-malware.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "China and US Agree to Establish AI Safety Channel and Continue Trade and Military Talks",
-      "url": "https://www.securityweek.com/china-and-us-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-26T18:09:28+00:00",
-      "description": "The US and China agreed to set up a communication mechanism for artificial intelligence-related incidents.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/China-APT-AI-artificial-intelligence.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New x47.c Windows Botnet Weaponizes xAI Grok, AI API Draining",
-      "url": "https://www.securityweek.com/new-x47-c-windows-botnet-weaponizes-xai-grok-ai-api-draining/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-26T12:00:00+00:00",
-      "description": "The Windows botnet relies on AI to maintain persistence, using xAI Grok to choose from predefined actions.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/botnet.jpeg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
-      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-26T11:46:40+00:00",
-      "description": "ShinyHunters-linked attackers exploit CVE-2026-35273 in Oracle PeopleSoft, bypassing WAF rules to deploy web shells on dozens of systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYN2VWIT2g8mQkV0GeZWzYErKcubb0-baI8J__2nmdElucECc7HrLkdPsR1dz93qjMBI5sr_dL8yPWHf2bwWCBXa3YfutHAeJ-70UCSMuJrHhyOB3RO4OkuDjuw7gxRLXUnK-CeK9jZO0uOJRy-N3w-rV7uZ4t1FnFIWNjEsKtSYQINUvPX31mKzV_5Ert/s1700-nu-rw-lo-l85-e365/oracle-flaw.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
-      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-26T10:30:00+00:00",
-      "description": "METR says an attacker bypassed authentication on an agentic app, obtained an API key, and used $600,000 in tokens over three weeks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfTXTCeNSvaPIRWOUJJxKPfYp45QnSjl24XZ1Set210zScJhg03o_TYX0QKPQdcSq-vkiWnymSqBu-bSwcCm1Kb2Te5do1VIcbCQjc_-TOOR6VwqRiHu5LE-tBb0gdrDjmPuDADfUraASQenGh-1gI4PF_xa2GwREsDM4vq4_C-aEU8EJsBBvhykJ1E0/s1700-nu-rw-lo-l85-e365/sans-article.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Says Its Models Engaged With US Government Websites in New Model Misbehavior Disclosure",
-      "url": "https://www.securityweek.com/openai-says-its-models-engaged-with-us-government-websites-in-new-model-misbehavior-disclosure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-26T10:15:41+00:00",
-      "description": "OpenAI\u2019s CEO said there is an \u201cextensive and ongoing review related to our agents\u2019 use of internet access during training and evaluation.\u201d",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
