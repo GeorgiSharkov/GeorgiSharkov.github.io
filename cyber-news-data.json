@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-29T18:13:41.645514+00:00",
-  "count": 16,
+  "generatedAt": "2026-09-29T22:33:00.002845+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
+      "url": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-29T20:14:44+00:00",
+      "description": "Altman made a slew of product announcements and updates, including the company\u2019s new agents, called Dots.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
+      "url": "https://thehackernews.com/2026/09/french-tax-data-theft-using-stolen.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-29T17:47:01+00:00",
+      "description": "French tax data theft used stolen staff passwords and evaded DGFIP and ANSSI monitoring.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9h550xeoGqzMnMqY6B6Ejo9xeSvbx4fnnu1OmLWvhYAvYeLNB1zeik8F8yYB82oW685qieusoRaI27P68ugA34Vg0720ZZdLfQUJtuIjxkUYRgq_hQtivtsopRYYoddpwb4mICLERqQrVKtZv5EHg78rU14dlQmgevB0KsOR0ePvG4E8cpqKB1TyliaE/s1700-nu-rw-lo-l85-e365/france.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
       "url": "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/",
@@ -18,10 +40,21 @@
       "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-29T17:00:00+00:00",
+      "publishedAt": "2026-09-29T17:20:17+00:00",
       "description": "Spectre BTR reuses stale JIT branch targets; Linux PoCs recover the root password hash within minutes on a fully patched Intel system.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCNHT9zDz8oOamcA5EH8a3KGAtk9R9bE_UxGY_uPThgxZJu9vX-YG1olbgiX5WBVdwDd52LpDfSyryC6GZ45tUi2bKLe_aWnbj0Ir3WQZeGYF8Vr7U7icoPn4tcuwfpOZagVfry-KG5_jzLPb-fbPiFBlv142UOgqAPpC193t6BslvCE1l1XWo2z5_mFYV/s1700-nu-rw-lo-l85-e365/linux-intel.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
+      "url": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-29T17:20:08+00:00",
+      "description": "Star Blizzard uses fake event invites and RedFlick scheduled tasks to install CosmicPulse on Windows systems tied to Ukraine.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQDuuJUT-WU7XzUYYoKEDtFKt7QAra8I4G0ptQRyveku8G6fD6R0aSWw32hi-2fd0L28qUxjqJoTlQoJbLiBYH6NBOVYirQZ9LfH-UvD8JG5uiL_m4ZkBVnPLiArcivCsdMNegW1XGxFEzas4cwkzFVeY4r22qTqSp2U1Fo3Nw7urOlnWRKGFHW8pW91E/s1700-nu-rw-lo-l85-e365/ms-invite.jpg",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -36,6 +69,39 @@
       "kind": "News"
     },
     {
+      "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
+      "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-29T16:33:09+00:00",
+      "description": "FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Alleged-ShinyHunters-Leader-Arrested.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
+      "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-29T16:06:22+00:00",
+      "description": "Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/SOCs-and-MSSPs.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
+      "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-29T14:46:00+00:00",
+      "description": "Attackers hide OpenSUpdater malware in 7-Zip installers, using concealed loaders to contact remote servers during installation.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Hide-Malware-Inside-7-Zip-Installers-Using-a-New-Evasion-Technique.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
       "title": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
       "url": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
       "source": "SecurityWeek",
@@ -44,6 +110,17 @@
       "description": "The company emerged from stealth mode with pre-seed funding from Osage University Partners and DataTribe.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Built a Botnet That Doesn\u2019t Just Steal Data, It Burns AI Credits",
+      "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-29T14:33:06+00:00",
+      "description": "x47.c is a Windows botnet that can steal browser data, abuse paid AI credits, control devices and launch website attacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Built-a-Botnet-That-Doesnt-Just-Steal-Data-It-Burns-AI-Credits.webp",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -58,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
-      "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-29T13:45:10+00:00",
-      "description": "101 npm packages in PhantomSub abuse Baileys to add WhatsApp users to groups without consent, with 490,000 downloads in total.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhUmW5o4XCEsBlPE2MKecTG-IHCrk1WHeLajiNnRTpGtT-DDhpYVID3Pon7cseFiJN24GulDnjR7TPRe6h-kQEuJBPRl87atgBytMvKbiRV4h_DHWtxQEtogyy3U-aAD6ErNCrYiOQV-tHvHcw_P4W8z37PpR-jo70sePvtLIvMwKx7MJuE8Fazhyphenhyphen7_KI5/s1700-nu-rw-lo-l85-e365/npm-whatsapp.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
       "url": "https://isc.sans.edu/diary/rss/33382",
       "source": "SANS ISC",
@@ -78,28 +144,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Reco Raises $55 Million for Agentic Security",
-      "url": "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-29T13:20:53+00:00",
-      "description": "The company will use the funds to expand its sales, partnerships, channels, and customer support teams.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/funding-investment.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
-      "url": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-29T08:35:10+00:00",
-      "description": "Dutch police arrested a 24-year-old Amsterdam man in a ShinyHunters investigation, with a Rotterdam court appearance set for Sept. 29.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWsGNpV8Y5_YLcyxRYju8E3caiN3I3Zttrlvxhz5iXfzVIR_Ayp_d_Zn2Wk12ZBkz5nW4eYfKeEs-xxs9kYuS_paAwO3wJleeUxdMRbrbU_lXwWVuG7ajiFH0UOEcoj3almps5b54DXt-mGy73GhXjCQzGsNNDJkhdfJXRI9XWeFF5hfsr4zjQty-Wued5/s1700-nu-rw-lo-l85-e365/1000111943.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
