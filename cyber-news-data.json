@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2026-09-29T10:05:44.150399+00:00",
+  "generatedAt": "2026-09-29T18:13:41.645514+00:00",
   "count": 16,
   "stories": [
     {
-      "title": "Daemon Tools Hackers\u2019 NeedyMantis Malware Dissected by Microsoft",
-      "url": "https://www.securityweek.com/daemon-tools-hackers-needymantis-malware-dissected-by-microsoft/",
+      "title": "DARPA Selects Xint to Use AI in Securing Military Messaging Apps",
+      "url": "https://www.securityweek.com/darpa-selects-xint-to-use-ai-in-securing-military-messaging-apps/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-29T09:46:13+00:00",
-      "description": "The malware framework uses a modular architecture and a custom executable file format for long-term persistence.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/malware-infection.webp",
-      "topic": "Malware",
+      "publishedAt": "2026-09-29T17:24:04+00:00",
+      "description": "The AIxCC competition winner will analyze messaging app code and compiled binaries for vulnerabilities, with technology that could also help commercial customers secure their software.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/DARPA-Technology.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Spectre-v2 BTR Attack Leaks Linux Memory Despite Existing Defenses",
+      "url": "https://thehackernews.com/2026/09/new-spectre-v2-btr-attack-leaks-linux.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-29T17:00:00+00:00",
+      "description": "Spectre BTR reuses stale JIT branch targets; Linux PoCs recover the root password hash within minutes on a fully patched Intel system.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCNHT9zDz8oOamcA5EH8a3KGAtk9R9bE_UxGY_uPThgxZJu9vX-YG1olbgiX5WBVdwDd52LpDfSyryC6GZ45tUi2bKLe_aWnbj0Ir3WQZeGYF8Vr7U7icoPn4tcuwfpOZagVfry-KG5_jzLPb-fbPiFBlv142UOgqAPpC193t6BslvCE1l1XWo2z5_mFYV/s1700-nu-rw-lo-l85-e365/linux-intel.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New Spectre v2 Variant Exposes Intel, AMD, Arm CPUs to Data Leaks",
+      "url": "https://www.securityweek.com/new-spectre-v2-variant-exposes-intel-amd-arm-cpus-to-data-leaks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-29T17:00:00+00:00",
+      "description": "Branch Target Reuse (BTR) is a new Spectre v2 attack targeting JIT compilers in web browsers, language runtimes, and the operating system kernel",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/08/CPU-attack.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
+      "url": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-29T14:38:07+00:00",
+      "description": "The company emerged from stealth mode with pre-seed funding from Osage University Partners and DataTribe.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
+      "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-29T14:13:20+00:00",
+      "description": "Kiteworks fixed a critical flaw in a capability enabled for under 1% of customers, with no evidence it was ever exploited maliciously.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv9oZ7uWtniIGlzNM3FXdS2v4WjdHi8ajTw0evMWbzhC9ihnkOwrxAqV7sgJou4SMDrJo2z5uDOQPRX1Bb0Hx1P1Str7iZQ4wssATmqsb6o0IfOPafzmnX6UXgkweBDB_QKqBVJZsNdMibEvAykjIzluSiJEnxnhFehzw-q2bhZ7heCFv97on69dZMjPrb/s1700-nu-rw-lo-l85-e365/kiteworks.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "101 Malicious npm Packages Add Developers' WhatsApp Accounts to Groups Without Consent",
+      "url": "https://thehackernews.com/2026/09/101-malicious-npm-packages-add.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-29T13:45:10+00:00",
+      "description": "101 npm packages in PhantomSub abuse Baileys to add WhatsApp users to groups without consent, with 490,000 downloads in total.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhUmW5o4XCEsBlPE2MKecTG-IHCrk1WHeLajiNnRTpGtT-DDhpYVID3Pon7cseFiJN24GulDnjR7TPRe6h-kQEuJBPRl87atgBytMvKbiRV4h_DHWtxQEtogyy3U-aAD6ErNCrYiOQV-tHvHcw_P4W8z37PpR-jo70sePvtLIvMwKx7MJuE8Fazhyphenhyphen7_KI5/s1700-nu-rw-lo-l85-e365/npm-whatsapp.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33382",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-29T13:29:33+00:00",
+      "description": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be created in the\u2026",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Reco Raises $55 Million for Agentic Security",
+      "url": "https://www.securityweek.com/reco-raises-55-million-for-agentic-security/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-29T13:20:53+00:00",
+      "description": "The company will use the funds to expand its sales, partnerships, channels, and customer support teams.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/funding-investment.jpeg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -21,50 +98,6 @@
       "publishedAt": "2026-09-29T08:35:10+00:00",
       "description": "Dutch police arrested a 24-year-old Amsterdam man in a ShinyHunters investigation, with a Rotterdam court appearance set for Sept. 29.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWsGNpV8Y5_YLcyxRYju8E3caiN3I3Zttrlvxhz5iXfzVIR_Ayp_d_Zn2Wk12ZBkz5nW4eYfKeEs-xxs9kYuS_paAwO3wJleeUxdMRbrbU_lXwWVuG7ajiFH0UOEcoj3almps5b54DXt-mGy73GhXjCQzGsNNDJkhdfJXRI9XWeFF5hfsr4zjQty-Wued5/s1700-nu-rw-lo-l85-e365/1000111943.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Apple Patches Meta-Reported Zero-Day Linked to \u2018Extremely Sophisticated Attack\u2019",
-      "url": "https://www.securityweek.com/apple-patches-meta-reported-zero-day-linked-to-extremely-sophisticated-attack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-29T06:18:27+00:00",
-      "description": "Apple has released iOS and macOS updates to patch the zero-day vulnerability tracked as CVE-2026-86950.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Apple-MacBook-iPhone.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
-      "url": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-29T06:08:25+00:00",
-      "description": "MCP Python SDK flaw can let malicious servers redirect OAuth exchanges and steal credentials; fixes are in 1.30.0 and 2.2.0.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2N5owhsoQXHTQV74afwfngdyitjwcW37BHLX2QKkq6xZAxP8_AOXAh1ODPj5DyvvmMUq3mKH9eR2B1r7owc6djzLViK2U4BY_hw3rTWmaHjhFEyyh8LPlUMPZ7MdWkqN7bjtQyMByBLrsI5m0mAU9y-IbrsAe9OPhZXHN63AWwuv_1OB5MSrpRdVZ9CM/s1700-nu-rw-lo-l85-e365/mcp-python.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
-      "url": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-29T05:12:32+00:00",
-      "description": "OpenAI shelved GPT-6.1 Astra after safety tests found deception, scope violations, and unsafe tool use.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeiHpQjvEicRlkD9F-pR6I5h9MLRWRtX0Wd84u8ThZ5XIsZ-TZwHjTyXj93Z6GV0-5MNhAO2bCQCGfMHuoW7-0ovwpXFwxTy-gvBNJ3iCrlDjBAimAS-ayH7ZfzIL9kzMaV5Wn8FwBR17ehonB72Yvweyp4msb6uPEZxvnEj0QDMF2BDFYkPfU9_GGakFi/s1700-nu-rw-lo-l85-e365/astra.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
-      "url": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-29T04:45:20+00:00",
-      "description": "OpenAI paused tool-use training, evaluation, and inference after an RL agent reached a public chatbot through insufficient DNS filtering.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2NfY2zvkkU95qQwwR7N_yQQf_H2AjYcXccbK2yH7xzzeAqmu3mH9ItszzC14M2suvDnfz6EBB-QzMkCTUBIgaoX9teGfhmBIBvU9R-wsKQBcC90f5lytvP-hYfCy8o-YTDTh8rIqz8mj1NIikN27BE2vsWyaRgiKPeAe3zbmrkdy6Dkg8htztnoyJwS4o/s1700-nu-rw-lo-l85-e365/openai-chatbot.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -91,28 +124,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Modulate Raises $25 Million to Advance Deepfake Detection",
-      "url": "https://www.securityweek.com/modulate-raises-25-million-to-advance-deepfake-detection/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-28T17:30:00+00:00",
-      "description": "The misuse and abuse of AI-generated voice is growing. Modulate\u2019s intention is to allow real time detection and intervention.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Call for Presentations Open for 2026 CISO Forum Virtual Summit",
-      "url": "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-28T15:15:00+00:00",
-      "description": "SecurityWeek seeks original, vendor-neutral presentations that help cybersecurity leaders navigate emerging threats, strengthen resilience, and address the strategic challenges facing today\u2019s enterprise security programs.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/CISO_Forum-CFP-2026.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
       "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "source": "Krebs on Security",
@@ -130,17 +141,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-09-28T02:00:02+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33372",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-27T15:04:49+00:00",
-      "description": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
