@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-09-28T21:21:20.715311+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-29T01:12:45.653940+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33376",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-28T22:35:35+00:00",
+      "description": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected.\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
     {
       "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
       "url": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
@@ -58,28 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "Florida AG Seeks Emergency Injunction to Restrict OpenAI and ChatGPT Over AI Safety Risks",
-      "url": "https://cybersecuritynews.com/florida-ag-seeks-emergency-injunction-on-chatgpt/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-28T16:46:12+00:00",
-      "description": "Florida Attorney General James Uthmeier has asked a Highlands County judge to impose sweeping temporary restrictions on OpenAI, CEO Sam Altman, and affiliated companies while Florida\u2019s ChatGPT lawsuit proceeds.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Florida-AG-Seeks-Emergency-Injunction-on-ChatGPT.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Finds New Malware Used by Hackers to Maintain Secret Access Inside Target Networks",
-      "url": "https://cybersecuritynews.com/needymantis-malware-secret-network-access/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-28T16:35:03+00:00",
-      "description": "Microsoft Threat Intelligence has uncovered NeedyMantis, a modular post-compromise malware framework designed to preserve covert access inside already-breached networks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Microsoft-new-malware-secret-network-access.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Call for Presentations Open for 2026 CISO Forum Virtual Summit",
       "url": "https://www.securityweek.com/call-for-presentations-open-for-2026-ciso-forum-virtual-summit/",
       "source": "SecurityWeek",
@@ -100,28 +89,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "NCSC Urges UK organizations to Patch for Citrix NetScaler ADC and Gateway 0-Day Vulnerabilities",
-      "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-28T14:56:26+00:00",
-      "description": "The UK National Cyber Security Centre (NCSC) has urged organisations to take immediate action against eight vulnerabilities affecting customer-managed Citrix NetScaler ADC and NetScaler Gateway appliances.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Citrix-NetScaler-0-Day-Vulnerabilities.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New File Notification Attack Lets Hackers Track User Activity Across Linux, Windows and macOS",
-      "url": "https://cybersecuritynews.com/new-file-notification-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-28T14:33:25+00:00",
-      "description": "A cross-platform side-channel attack that abuses file-notification services to monitor user activity on Linux, Windows and macOS.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/New-File-Notification-Attack.webp",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Prison Sentence for Former US Soldier Who Hacked AT&T and Verizon",
@@ -190,17 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "ISC Stormcast For Friday, September 25th, 2026 https://isc.sans.edu/podcastdetail/10110, (Fri, Sep 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33370",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-25T03:45:12+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "Data Broker Radaris Loses Domains in Privacy Fight",
       "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
       "source": "Krebs on Security",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
