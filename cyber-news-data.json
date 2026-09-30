@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-09-29T22:33:00.002845+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-30T05:53:52.989831+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "ISC Stormcast For Wednesday, September 30th, 2026 https://isc.sans.edu/podcastdetail/10116, (Wed, Sep 30th)",
+      "url": "https://isc.sans.edu/diary/rss/33384",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-09-30T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Trump Says Top Tech Firms Have Signed Accord to \u2018Self-Police\u2019 AI Development",
+      "url": "https://www.securityweek.com/trump-says-top-tech-firms-have-signed-accord-to-self-police-ai-development/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-30T01:48:21+00:00",
+      "description": "The accord opened the door to future regulation but focused on four voluntary steps for the companies to take.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Whitehouse-Cybersecurity.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "OpenAI CEO Announces New AI Agent and Avoids Mention of Security Concerns at Developer Conference",
       "url": "https://www.securityweek.com/openai-ceo-announces-new-ai-agent-and-avoids-mention-of-security-concerns-at-developer-conference/",
@@ -69,61 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "FBI and Dutch Police Arrested Alleged ShinyHunters Hackers Group Leader",
-      "url": "https://cybersecuritynews.com/alleged-shinyhunters-leader-arrested/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-29T16:33:09+00:00",
-      "description": "FBI Director Kash Patel has announced the arrest of an alleged leader of ShinyHunters, the cyber-extortion group linked to attacks across the United States, the Netherlands, and other countries.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Alleged-ShinyHunters-Leader-Arrested.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "How US SOCs and MSSPs Can Use Threat Intelligence to Detect Phishing Infrastructure Earlier",
-      "url": "https://cybersecuritynews.com/how-us-socs-and-mssps-can-use-threat-intelligence-to-detect-phishing-infrastructure-earlier/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-29T16:06:22+00:00",
-      "description": "Phishing remains one of the most persistent problems for security teams, as the challenge is no longer limited to identifying suspicious emails.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/SOCs-and-MSSPs.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Hide Malware Inside 7-Zip Installers Using a New Evasion Technique",
-      "url": "https://cybersecuritynews.com/malware-inside-7-zip-installers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-29T14:46:00+00:00",
-      "description": "Attackers hide OpenSUpdater malware in 7-Zip installers, using concealed loaders to contact remote servers during installation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Hide-Malware-Inside-7-Zip-Installers-Using-a-New-Evasion-Technique.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "RemoteThreat Launches With $7 Million for Offensive Operations Platform",
-      "url": "https://www.securityweek.com/remotethreat-launches-with-7-million-for-offensive-operations-platform/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-29T14:38:07+00:00",
-      "description": "The company emerged from stealth mode with pre-seed funding from Osage University Partners and DataTribe.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/funding-round.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Built a Botnet That Doesn\u2019t Just Steal Data, It Burns AI Credits",
-      "url": "https://cybersecuritynews.com/hackers-built-a-botnet/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-29T14:33:06+00:00",
-      "description": "x47.c is a Windows botnet that can steal browser data, abuse paid AI credits, control devices and launch website attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Built-a-Botnet-That-Doesnt-Just-Steal-Data-It-Burns-AI-Credits.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Kiteworks Fixes Critical Flaw Found During Nine-Hour Precautionary Shutdown",
       "url": "https://thehackernews.com/2026/09/kiteworks-fixes-critical-flaw-found.html",
       "source": "The Hacker News",
@@ -179,17 +146,6 @@
       "kind": "Investigation"
     },
     {
-      "title": "ISC Stormcast For Monday, September 28th, 2026 https://isc.sans.edu/podcastdetail/10112, (Mon, Sep 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33374",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-28T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
       "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "source": "Krebs on Security",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
