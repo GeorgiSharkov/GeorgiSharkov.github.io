@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-09-30T12:56:58.066157+00:00",
-  "count": 20,
+  "generatedAt": "2026-09-30T20:16:16.264766+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+      "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-30T16:46:29+00:00",
+      "description": "Attackers exploited CVE-2026-73570 in Zimbra to deploy web shells and access mailbox data on servers with SNMP notifications enabled.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1700-nu-rw-lo-l85-e365/zimbra-email.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+      "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-30T16:32:59+00:00",
+      "description": "Microsoft says phishing attacks abuse MSP360 and ScreenConnect to maintain redundant remote access on compromised Windows endpoints.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOOpLuI3TSRRvKO7zux2AsJKVNjC36RcaAJCYelekCSQRhpMSABekI8kmMGLZRBZN2biNqDGyKYY_0AqsXb2PMKS6M3sjeLBlt7UQ_IWhXPQ3_q9DGhetIgFeGkF1d_ZE-l2HZPTDID5FkqdLsv3G_wJ-Yckb-Q2I6FdCLo3-AS-pPbCIDRfgFiRzofpaA/s1700-nu-rw-lo-l85-e365/windows-rmm.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+      "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-30T15:24:54+00:00",
+      "description": "Attackers are exploiting CVE-2026-76504 to access Cisco SD-WAN Manager APIs as admin without credentials; fixed releases are available.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1700-nu-rw-lo-l85-e365/cisco-admin.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+      "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-09-30T15:00:15+00:00",
+      "description": "Attackers abuse ChatGPT Custom GPTs and ClickFix lures to deliver a RAT, infecting at least 40 users.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-E2KBc2Kl1xfsJ_ayeCwrbYODEJELskOif8C_YQFyt7DoGklZczzFD3IetvE9mFBUeQN9SQWCE41WtJA-NkE6dya1xAOznACZzeRCMRhvfSQaGipfmD-z1F2rWFPFGLvYSJwrfKhUrbdzwMc_b4OkpTA8huBozpABL2OBcxCM1cod7Hvr0eH23GgE1sEo/s1700-nu-rw-lo-l85-e365/custom-gpt.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
+      "url": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-30T14:05:58+00:00",
+      "description": "Google\u2019s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "WatchGuard Patches Critical Fireware OS Code Injection Vulnerability",
+      "url": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-30T13:16:56+00:00",
+      "description": "WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/coding-vulnerability-software-development.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
       "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
@@ -14,17 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Broke Into Microsoft 365 Through Forgotten Accounts Nobody Was Watching",
-      "url": "https://cybersecuritynews.com/hackers-broke-into-microsoft-365/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T12:46:18+00:00",
-      "description": "Hackers used password spraying to breach unmonitored Microsoft 365 accounts, accessing email, files and cloud apps.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Broke-Into-Microsoft-365-Through-Forgotten-Accounts-Nobody-Was-Watching.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Chrome, Firefox Updates Patch Over 100 Vulnerabilities",
       "url": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
       "source": "SecurityWeek",
@@ -32,105 +87,6 @@
       "publishedAt": "2026-09-30T12:16:52+00:00",
       "description": "Some of the flaws could allow remote attackers to execute arbitrary code or escape the browser sandbox.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
-      "url": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T11:58:00+00:00",
-      "description": "Six browser attack techniques in 2026 span ClickFix, OAuth abuse, malicious extensions, credential stuffing, and session hijacking.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHy63Qp6WLBgRhCGaWARbZzjcdu6DhFo9JxZXTE9Rt4B42ImiW_cB0Fdq2yV_HYiZohMmVMRxTu1DxcbiOE9GNu4lAF2HZZ61QiCrWSEKGJFjEt5E5pKpXhjGK9DsZrqTxHFqF2IIaToRSTItghSELEiA_kgTP69_iOwbHdT35ht3yLCqIiNb5ysgDeuM/s1700-nu-rw-lo-l85-e365/push-phish.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
-      "url": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T11:30:00+00:00",
-      "description": "Glow found over 13,000 internal images from 300+ organizations exposed in public GitHub repos during AI-assisted code reviews.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqbuWmNSxYv66udOpYi9NRKukBSDiTroF54tDrBaVYBBTfDC7PMMr26tRoFatdmmRPsPy3MCdoUNLr8YN9mC2ni3pvDWfBNsoKz12evoNrZggcUI4izEc7-hEAr_2wFv4IInBnon19PcEPSXlJU-AMahLHFNAk_5FiVbV7EhfdiLKHcUc8Tiso63xca2c/s1700-nu-rw-lo-l85-e365/git-images.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic Flags AI Agent Liability Risks as OpenAI Faces Hacking Lawsuit",
-      "url": "https://www.securityweek.com/anthropic-flags-ai-agent-liability-risks-as-openai-faces-hacking-lawsuit/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T11:19:00+00:00",
-      "description": "Attacks by autonomous AI agents are moving out of the lab and into the courtroom, raising unsettled questions about who is liable for what agents do.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence-training.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "FBI\u2019s Operation Blackout Dismantles Scammers Operating Overseas Targeting Americans",
-      "url": "https://cybersecuritynews.com/fbis-operation-blackout-dismantles-scammers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T11:15:39+00:00",
-      "description": "The FBI has dismantled overseas scam compounds accused of stealing Americans\u2019 savings through cryptocurrency investment fraud, romance schemes, impersonation scams, and other cyber-enabled operations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/FBIs-Operation-Blackout.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Turn One Compromised Account Into Access to Azure DevOps and Kubernetes",
-      "url": "https://cybersecuritynews.com/hackers-turn-one-compromised-account/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T11:15:34+00:00",
-      "description": "Storm-3068 used a compromised account to access Azure DevOps, pipelines and Kubernetes resources, gaining persistent cloud access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Hackers-Turn-One-Compromised-Account-Into-Access-to-Azure-DevOps-and-Kubernetes.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Russian APT Star Blizzard Uses \u2018RedFlick\u2019 Infection Chain in Recent Attacks",
-      "url": "https://www.securityweek.com/russian-apt-star-blizzard-uses-redflick-infection-chain-in-recent-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T10:59:30+00:00",
-      "description": "The state-sponsored group has launched larger-scale phishing campaigns to deploy the CosmicPulse backdoor.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/Midnight-Blizzard-Russia-1024x576.png",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Security Teams Can Now Monitor Claude Chats, Files and AI Agent Activity",
-      "url": "https://cybersecuritynews.com/security-teams-can-monitor-claude-activity/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T10:46:10+00:00",
-      "description": "The Claude Compliance API provides visibility into employee and AI-agent activity for security, DLP, SIEM, and compliance workflows.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Security-Teams-Can-Monitor-Claude-Activity.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
-      "url": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T10:45:00+00:00",
-      "description": "CSuite phishing targets Microsoft 365 sessions and deploys remote-access tools, with 51% of 351 sandbox submissions coming from the U.S.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5fq_zpvT8d0bG8IIotVRgIHIXCNOTPBhfIBUIWxLlg1X4bDmzf0PRgt_0UaHhvTIznPU4nOCCuLJ6JbJ3Tx22FPY2Ox93L_HNhA7XjQEvOcsXfw3NIixeGcy9DywlAx_SuEhCM6DRjgP3NBQrdHnJrFOCEFHFR8bFyF4YFWYtYEuPbG7kvWrgAsotLWI/s1700-nu-rw-lo-l85-e365/rmm.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T08:24:35+00:00",
-      "description": "Unknown attackers exploit a patched Citrix NetScaler flaw to gain root access and deploy web shells and a tunneler.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgjeU_A9ijIuOqFirHL74nU4k_HktRhcj5hx3goc6SfQKIeG9XA_GpZaZQVpCdUYbho_gZT4LoB-MjNJO0FZrV3q6MxXoUzg8bdbHmr2r-8rKxP1_XCMUVKq3IntFoR4aFFSdDPyBQI4Z1-jn8uNaWn4c4ohpPflBYx8M0GPFnAVziUo3Mtap0fzBBU9f_/s1700-nu-rw-lo-l85-e365/citrix-shell.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
