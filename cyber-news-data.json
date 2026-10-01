@@ -1,60 +1,137 @@
 {
-  "generatedAt": "2026-10-01T10:25:09.721027+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-01T18:33:07.576407+00:00",
+  "count": 20,
   "stories": [
     {
-      "title": "500,000 Active Credentials Left Exposed on GitHub",
-      "url": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
+      "title": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T09:43:56+00:00",
-      "description": "Roughly 200,000 of the credentials were exposed after GitHub enabled push protections by default.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/credentials-stolen-login.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
-      "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T08:26:03+00:00",
-      "description": "The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Cisco-network-switch-exploit.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
-      "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T07:52:26+00:00",
-      "description": "The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-      "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T07:49:36+00:00",
-      "description": "Gemini 4 Argon is rolling out to trusted defenders after finding a critical healthcare software flaw exposing sensitive personal data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYk4zu5KwFghyphenhyphenGNFmUKfmtScZfRpYSwO3huCn6VYY6EiFZH7t7zWwr6Agn-AqOHA19-uc6wQMnoOHXGY3V8F2ZWfxoTNiTp8VV1ePAvDGYlW3ocD8tXLN-tPuqvzwf7YRX9CXl1_Zj2b0ZcMqbZAo_5Ut3uG3gTTEXTCVxJyyTtcUlbfwXkdqCu8PpY4l6/s1700-nu-rw-lo-l85-e365/gemini-4.jpg",
+      "publishedAt": "2026-10-01T18:00:00+00:00",
+      "description": "Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era\u2014if you get the implementation right.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Zero-Trust-John-Kindervag.jpg",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-      "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+      "title": "Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains",
+      "url": "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-01T17:16:41+00:00",
+      "description": "Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "FTC Investigating OpenAI, Anthropic and Other AI Models Over Potential Risks to Customers",
+      "url": "https://cybersecuritynews.com/ftc-investigating-ai-models/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-01T17:09:56+00:00",
+      "description": "The Federal Trade Commission has opened an investigation into OpenAI, Anthropic and other artificial intelligence companies over potential risks their products pose to customers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FTC-Investigating-AI-Models.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
+      "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T05:54:41+00:00",
-      "description": "Public PoC for CVE-2026-86950 triggers a controlled out-of-bounds write in CoreGraphics; code execution is not demonstrated.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5u07cHr0A83x9aQdJE-_Emw6K1GzjR2eybdv9Rq_qi43Oi-M2U4eWqCkjvH5fUhw5wKSa-rvQ81gePKLYCqJXyrZpWHXOehEFq_QaTdYpy0O3LLUQGGYn1pxlUGUXwplloAHT3ZP7oMcF6al9A7q9XfnYNUhtBD0qw-GOWuKiyZl8zbrudyjWtEzHXC0/s1700-nu-rw-lo-l85-e365/apple-whatsapp.jpg",
+      "publishedAt": "2026-10-01T16:55:57+00:00",
+      "description": "European police arrested three KillSec suspects, seized its leak site and servers, and secured at least 110 TB of data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy6XYYOXNZNjc51viw5FvCk49pWIXCCRS6yr_hl0ZKdwhBWRfYrCQ7bM6AJZJdmI_W3AEz1V3X0DAP6k39KfgjlKFfB5JcFaKN9zzIl1-7c49Vnuaz55yhRXjdmY5K2kIPuY_-7624KyVHqkHzikJIi11iClljnXv_3i2X21JiRCMU8ElmiHiZdHVQ7ws/s1700-nu-rw-lo-l85-e365/killsec-ransomware.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T16:45:38+00:00",
+      "description": "This week in cybersecurity: AI-driven attacks, exposed secrets, old flaws, new exploit tricks, malware techniques, and security research worth knowing",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZPv0LS8-qPBgL_d1m8BLNikw8psPt9qtB_HiFNoYnVwBacYvwz4DdEixukdlHcy7IXmUB9dI9E_Hcx48HJIL7sQzmDeextP-Y_tHO9SX51i_SditMkVsRgWxyMekufW3yZFn2jI9nf29y3JEM2a_yFv8iTLDb6d3r1roNsea_Yk5TWCiMcvkmE5ZbP6B/s1700-nu-rw-lo-l85-e365/oct-threatsday.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Built a Windows Backdoor Whose Entire C2 Lives Inside Microsoft 365",
+      "url": "https://cybersecuritynews.com/hackers-built-a-windows-backdoor/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-01T16:06:14+00:00",
+      "description": "Antino backdoor abuses Microsoft 365, using Outlook and OneDrive for C2, data theft and persistent access to Windows systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Built-a-Windows-Backdoor-Whose-Entire-C2-Lives-Inside-Microsoft-365.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "16-year-old Alleged KillSec Ransomware Group Leader Arrested, Servers Dismantled",
+      "url": "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-01T15:30:20+00:00",
+      "description": "Authorities have identified a 16-year-old as the suspected main operator of the KillSec ransomware group after an international law-enforcement operation disrupted the group\u2019s infrastructure and led to three arrests.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/16-year-old-Leader-KillSec-Ransomware.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Fake Zoom Installer Tricks Mac Users Into Installing New CloudSyncD Backdoor",
+      "url": "https://cybersecuritynews.com/fake-zoom-installer-tricks/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-01T15:07:15+00:00",
+      "description": "Fake Zoom installers trick Mac users into revealing passwords and deploy CloudSyncD backdoor, with active command servers detected.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Fake-Zoom-Installer-Tricks-Mac-Users-Into-Installing-New-CloudSyncD-Backdoor.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+      "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T14:37:35+00:00",
+      "description": "SC WordPress malware rebuilds its backdoor from files, the database, and shared memory; fewer than 20 wpForo exploit attempts were seen since July 3.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbdAzWwJ7WC6PL7vtBZDUWfVyYu9iIBlT3X5gZn-Yl9aRuZAEeW3RjEU81RQWsvH_7og6v7-somVgG-fR35drKy6bxLMcHdpJQAi6ydXw-m3oMxZ1hlDC7kr8Wsu0dOfRt6ZLEasAsYNGq-pzmQiBNWMbEBzqa9zYdAu16NtgIfDe3PpOvCVzGj6yFqmet/s1700-nu-rw-lo-l85-e365/wordpress-exploit.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass",
+      "url": "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-01T14:30:00+00:00",
+      "description": "Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? \u201cUnequivocally yes,\u201d he says.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Hacker-Conversations-Rob-Juncker.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says",
+      "url": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-01T14:30:00+00:00",
+      "description": "PwC\u2019s survey found that only 22% of leaders would use fully autonomous AI for cyber defense, while just 21% are implementing quantum-resistant security measures.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+      "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T11:45:00+00:00",
+      "description": "How financial institutions can improve software supply chain security without impacting their business-critical systems",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwJsDvv_9QEV86mmDsIBPpGS2Kt2o8WPu2L6kUb9IExDqX-2lDKksEMMJp3NqFwDUqplX6JCeUpJfI_8rt_febX1CjMorRii_RpDccPPynWQHW_abdrNSWj774Ad0XH-RmiP-Lzki-Btsu6mh1cUsIffeSIOfUQ29qEJJwBTsaL-olM3GK18D2LYoxJlg/s1700-nu-rw-lo-l85-e365/chain.png.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -69,28 +146,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-      "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T05:21:10+00:00",
-      "description": "Bitget says attackers exploited a third-party zero-day to steal $387.5 million and move laterally into its wallet environment.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzu32AOghfPrV4ViB5puy-1o8shfq77FdmxU5eS9i4x8SCLNzm6xQYn56KGKivAGFoIwa3yYWat5vZMQsdOqPp0ZoEcVst6fs3llaB88jz1IcH6ctmEUEoXcCQOWJs599jVZDnNlHYYww22fnm6KnorG7q16rSGcx3P_Isku8NOODjdV4A5Dee4HiPnmu7/s1700-nu-rw-lo-l85-e365/crypto-theft.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-      "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T05:10:09+00:00",
-      "description": "MetaMask is remediating an infrastructure security incident and exiting affected Ethereum validators; it reports no immediate wallet threat.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipy8fMneY_rWNpC4ldmMhHo-WUhf1n8sK1GH2bHrvTgrmKGNTkKhVVcX6tKlw3NiAitNoaSczHsUpGmuQac46yTHrjW59JTq4WiecYDxHYmIWJ99gLUmxaBxEpwQw7rBwYKSP_bIVh-tcXh3Mgk9sRjeXZjGXF7ospfS7Xrt2FgQwfC89rKdy-A4RwFyMx/s1700-nu-rw-lo-l85-e365/metamask-main.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Thursday, October 1st, 2026 https://isc.sans.edu/podcastdetail/10118, (Thu, Oct 1st)",
       "url": "https://isc.sans.edu/diary/rss/33386",
       "source": "SANS ISC",
@@ -100,17 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
-      "url": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T23:43:51+00:00",
-      "description": "An FTC spokesperson confirmed the investigation but declined further comment.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Wednesday, September 30th, 2026 https://isc.sans.edu/podcastdetail/10116, (Wed, Sep 30th)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
