@@ -1,9 +1,108 @@
 {
-  "generatedAt": "2026-10-01T00:47:42.353323+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-01T10:25:09.721027+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers",
+      "title": "500,000 Active Credentials Left Exposed on GitHub",
+      "url": "https://www.securityweek.com/500000-active-credentials-left-exposed-on-github/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-01T09:43:56+00:00",
+      "description": "Roughly 200,000 of the credentials were exposed after GitHub enabled push protections by default.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/credentials-stolen-login.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco Patches Exploited Catalyst SD-WAN Zero-Day Vulnerability",
+      "url": "https://www.securityweek.com/cisco-patches-exploited-catalyst-sd-wan-zero-day-vulnerability/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-01T08:26:03+00:00",
+      "description": "The flaw could allow remote, unauthenticated attackers to access vulnerable appliances with administrative privileges.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Cisco-network-switch-exploit.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Google Launches Gemini 4 Argon With Guardrail-Free Access for Vetted Defenders",
+      "url": "https://www.securityweek.com/google-launches-gemini-4-argon-with-guardrail-free-access-for-vetted-defenders/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-01T07:52:26+00:00",
+      "description": "The company says its new frontier AI model found a critical vulnerability in software used by hospitals worldwide.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
+      "url": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T07:49:36+00:00",
+      "description": "Gemini 4 Argon is rolling out to trusted defenders after finding a critical healthcare software flaw exposing sensitive personal data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYk4zu5KwFghyphenhyphenGNFmUKfmtScZfRpYSwO3huCn6VYY6EiFZH7t7zWwr6Agn-AqOHA19-uc6wQMnoOHXGY3V8F2ZWfxoTNiTp8VV1ePAvDGYlW3ocD8tXLN-tPuqvzwf7YRX9CXl1_Zj2b0ZcMqbZAo_5Ut3uG3gTTEXTCVxJyyTtcUlbfwXkdqCu8PpY4l6/s1700-nu-rw-lo-l85-e365/gemini-4.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
+      "url": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T05:54:41+00:00",
+      "description": "Public PoC for CVE-2026-86950 triggers a controlled out-of-bounds write in CoreGraphics; code execution is not demonstrated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5u07cHr0A83x9aQdJE-_Emw6K1GzjR2eybdv9Rq_qi43Oi-M2U4eWqCkjvH5fUhw5wKSa-rvQ81gePKLYCqJXyrZpWHXOehEFq_QaTdYpy0O3LLUQGGYn1pxlUGUXwplloAHT3ZP7oMcF6al9A7q9XfnYNUhtBD0qw-GOWuKiyZl8zbrudyjWtEzHXC0/s1700-nu-rw-lo-l85-e365/apple-whatsapp.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33388",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-01T05:32:13+00:00",
+      "description": "Threat Actors do not always use top-notch techniques or very complex malware to perform their attacks. Sometimes, they just abuse of existing applications...",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
+      "url": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T05:21:10+00:00",
+      "description": "Bitget says attackers exploited a third-party zero-day to steal $387.5 million and move laterally into its wallet environment.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzu32AOghfPrV4ViB5puy-1o8shfq77FdmxU5eS9i4x8SCLNzm6xQYn56KGKivAGFoIwa3yYWat5vZMQsdOqPp0ZoEcVst6fs3llaB88jz1IcH6ctmEUEoXcCQOWJs599jVZDnNlHYYww22fnm6KnorG7q16rSGcx3P_Isku8NOODjdV4A5Dee4HiPnmu7/s1700-nu-rw-lo-l85-e365/crypto-theft.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
+      "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-01T05:10:09+00:00",
+      "description": "MetaMask is remediating an infrastructure security incident and exiting affected Ethereum validators; it reports no immediate wallet threat.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipy8fMneY_rWNpC4ldmMhHo-WUhf1n8sK1GH2bHrvTgrmKGNTkKhVVcX6tKlw3NiAitNoaSczHsUpGmuQac46yTHrjW59JTq4WiecYDxHYmIWJ99gLUmxaBxEpwQw7rBwYKSP_bIVh-tcXh3Mgk9sRjeXZjGXF7ospfS7Xrt2FgQwfC89rKdy-A4RwFyMx/s1700-nu-rw-lo-l85-e365/metamask-main.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, October 1st, 2026 https://isc.sans.edu/podcastdetail/10118, (Thu, Oct 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33386",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-01T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "FTC is Investigating OpenAI and Anthropic Over Possible Risks to Consumers",
       "url": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
@@ -11,127 +110,6 @@
       "description": "An FTC spokesperson confirmed the investigation but declined further comment.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
-      "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T17:01:17+00:00",
-      "description": "Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cloudflare-post-quantum-CA.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
-      "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T16:58:15+00:00",
-      "description": "Google released a Chrome Stable update fixing 32 vulnerabilities, including one critical and multiple high-severity flaws",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Releases-Chrome-Update-With-32-Security-Fixes-for-Windows-Mac-and-Linux.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
-      "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T16:50:03+00:00",
-      "description": "Google warned that two critical Citrix NetScaler zero-days are being exploited for root access, web-shell deployment, and network intrusion.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Warns-of-Hackers-Actively-Exploiting-Citrix-0-Day-Vulnerabilities-to-Deploy-web-shells-1.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T16:46:29+00:00",
-      "description": "Attackers exploited CVE-2026-73570 in Zimbra to deploy web shells and access mailbox data on servers with SNMP notifications enabled.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNxFzgwNCn6YTNDvFIlEUKsnNOR9Y8UF__1rQ8N5BuMTKmJRPs-d_ilYcoeXwb03y07EXxnGyf5Ka8gyrKbFtzM2GoqYfrp79A-ZwHZyQDHEIU9twKFM67Glqk8eE4_j3fiHxNnPFl0euvHnKKfrmTd2aKcsMnebFQ4z73INLZfIdT66yH3MV5vOIBaMV5/s1700-nu-rw-lo-l85-e365/zimbra-email.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-      "url": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T16:32:59+00:00",
-      "description": "Microsoft says phishing attacks abuse MSP360 and ScreenConnect to maintain redundant remote access on compromised Windows endpoints.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOOpLuI3TSRRvKO7zux2AsJKVNjC36RcaAJCYelekCSQRhpMSABekI8kmMGLZRBZN2biNqDGyKYY_0AqsXb2PMKS6M3sjeLBlt7UQ_IWhXPQ3_q9DGhetIgFeGkF1d_ZE-l2HZPTDID5FkqdLsv3G_wJ-Yckb-Q2I6FdCLo3-AS-pPbCIDRfgFiRzofpaA/s1700-nu-rw-lo-l85-e365/windows-rmm.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
-      "url": "https://cybersecuritynews.com/russian-hackers-2/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-09-30T16:28:35+00:00",
-      "description": "Russian hackers used RedFlick phishing campaigns to target 100+ organizations across government, research, finance and media.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Russian-Hackers-Target-100-Organizations-With-New-RedFlick-Phishing-Attack.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-      "url": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T15:24:54+00:00",
-      "description": "Attackers are exploiting CVE-2026-76504 to access Cisco SD-WAN Manager APIs as admin without credentials; fixed releases are available.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDRBMRmTwQer5G9fB3V6UvczV_QEpVLnIpRMEjpkiSKOC1vvem-ZkM9zP2vgBIYDlH-jveY5oeV2qcYJ2YiVD1-z1q4bJNBrPYpewyUqOOgbl89xV3JCsQeor1fhrWLS6EEvtNCIHlyuNB8jRnDzqdO9bQZ4hNN0yvEE6ceXw0A43onar4xorpsnM1qog/s1700-nu-rw-lo-l85-e365/cisco-admin.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-      "url": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-09-30T15:00:15+00:00",
-      "description": "Attackers abuse ChatGPT Custom GPTs and ClickFix lures to deliver a RAT, infecting at least 40 users.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-E2KBc2Kl1xfsJ_ayeCwrbYODEJELskOif8C_YQFyt7DoGklZczzFD3IetvE9mFBUeQN9SQWCE41WtJA-NkE6dya1xAOznACZzeRCMRhvfSQaGipfmD-z1F2rWFPFGLvYSJwrfKhUrbdzwMc_b4OkpTA8huBozpABL2OBcxCM1cod7Hvr0eH23GgE1sEo/s1700-nu-rw-lo-l85-e365/custom-gpt.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google: AI Is Changing the Pace and Profile of Vulnerability Discovery",
-      "url": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T14:05:58+00:00",
-      "description": "Google\u2019s analysis found that AI-discovered vulnerabilities are more likely to enable remote code execution.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "WatchGuard Patches Critical Fireware OS Code Injection Vulnerability",
-      "url": "https://www.securityweek.com/watchguard-patches-critical-fireware-os-code-injection-vulnerability/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T13:16:56+00:00",
-      "description": "WatchGuard has rolled out patches for 15 code execution, DoS, authorization, and path traversal bugs in Fireware OS.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/coding-vulnerability-software-development.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Government, Finance Orgs Targeted in Weeks-Long NetScaler Zero-Day Attacks",
-      "url": "https://www.securityweek.com/government-finance-orgs-targeted-in-weeks-long-netscaler-zero-day-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T12:48:20+00:00",
-      "description": "Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -154,28 +132,6 @@
       "description": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be created in the\u2026",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, September 29th, 2026 https://isc.sans.edu/podcastdetail/10114, (Tue, Sep 29th)",
-      "url": "https://isc.sans.edu/diary/rss/33378",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-29T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Apple Emergency Patch for iOS 26, macOS26, macOS15 (CVE-2026-86950), (Mon, Sep 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33376",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-28T22:35:35+00:00",
-      "description": "Apple today released patches for all of its operating systems. However, only patches for older branches include a security fix. The vulnerability being addressed in iOS 26, macOS 26 and macOS 15 is already being exploited. iOS and macOS 27 are not affected.\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
