@@ -3,7 +3,7 @@
   "catalogVersion": "2026.09.30",
   "dateReleased": "2026-09-30T16:59:23.0688Z",
   "count": 1730,
-  "generatedAt": "2026-10-01T13:24:59+00:00",
+  "generatedAt": "2026-10-01T19:34:39+00:00",
   "vulnerabilities": [
     {
       "cveID": "CVE-2026-76504",
