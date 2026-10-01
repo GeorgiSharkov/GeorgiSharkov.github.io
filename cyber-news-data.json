@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-09-30T20:16:16.264766+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-01T00:47:42.353323+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "FTC is Investigating OpenAI and Anthropic Over Possible risks to Consumers",
+      "url": "https://www.securityweek.com/ftc-is-investigating-openai-and-anthropic-over-possible-risks-to-consumers/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-09-30T23:43:51+00:00",
+      "description": "An FTC spokesperson confirmed the investigation but declined further comment.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Cloudflare Builds Post-Quantum CA With Merkle Tree Certificates for Faster Quantum-Safe TLS",
+      "url": "https://cybersecuritynews.com/cloudflare-post-quantum-ca/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-30T17:01:17+00:00",
+      "description": "Cloudflare is building a certificate authority to make post-quantum website authentication practical without burdening TLS connections with oversized signatures.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Cloudflare-post-quantum-CA.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Releases Chrome Update With 32 Security Fixes for Windows, Mac and Linux",
+      "url": "https://cybersecuritynews.com/chrome-update-with-32-security-fixes/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-30T16:58:15+00:00",
+      "description": "Google released a Chrome Stable update fixing 32 vulnerabilities, including one critical and multiple high-severity flaws",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Releases-Chrome-Update-With-32-Security-Fixes-for-Windows-Mac-and-Linux.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Warns of Hackers Actively Exploiting Citrix 0-Day Vulnerabilities to Deploy Web Shells",
+      "url": "https://cybersecuritynews.com/citrix-0-day-vulnerabilities-webshells/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-30T16:50:03+00:00",
+      "description": "Google warned that two critical Citrix NetScaler zero-days are being exploited for root access, web-shell deployment, and network intrusion.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Google-Warns-of-Hackers-Actively-Exploiting-Citrix-0-Day-Vulnerabilities-to-Deploy-web-shells-1.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
       "url": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
@@ -21,6 +65,17 @@
       "publishedAt": "2026-09-30T16:32:59+00:00",
       "description": "Microsoft says phishing attacks abuse MSP360 and ScreenConnect to maintain redundant remote access on compromised Windows endpoints.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOOpLuI3TSRRvKO7zux2AsJKVNjC36RcaAJCYelekCSQRhpMSABekI8kmMGLZRBZN2biNqDGyKYY_0AqsXb2PMKS6M3sjeLBlt7UQ_IWhXPQ3_q9DGhetIgFeGkF1d_ZE-l2HZPTDID5FkqdLsv3G_wJ-Yckb-Q2I6FdCLo3-AS-pPbCIDRfgFiRzofpaA/s1700-nu-rw-lo-l85-e365/windows-rmm.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Russian Hackers Target 100+ Organizations With New RedFlick Phishing Attack",
+      "url": "https://cybersecuritynews.com/russian-hackers-2/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-09-30T16:28:35+00:00",
+      "description": "Russian hackers used RedFlick phishing campaigns to target 100+ organizations across government, research, finance and media.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/09/Russian-Hackers-Target-100-Organizations-With-New-RedFlick-Phishing-Attack.webp",
       "topic": "Identity",
       "kind": "News"
     },
@@ -76,17 +131,6 @@
       "publishedAt": "2026-09-30T12:48:20+00:00",
       "description": "Several security firms have confirmed seeing exploitation of the NetScaler vulnerabilities CVE-2026-88771 and CVE-2026-88772.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Chrome, Firefox Updates Patch Over 100 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-over-100-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-09-30T12:16:52+00:00",
-      "description": "Some of the flaws could allow remote attackers to execute arbitrary code or escape the browser sandbox.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
