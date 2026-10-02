@@ -179,65 +179,61 @@ if (networkRoot && networkSvg && networkNodesRoot) {
 const crawlerReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 if (!crawlerReducedMotion.matches) {
-  const cyberCrawler = document.createElement("div");
-  cyberCrawler.className = "cyber-crawler";
-  cyberCrawler.setAttribute("aria-hidden", "true");
-  cyberCrawler.innerHTML = `
-    <svg viewBox="0 0 128 96" role="presentation">
-      <defs>
-        <linearGradient id="crawler-shell" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#7af7ff" />
-          <stop offset="0.48" stop-color="#13cceb" />
-          <stop offset="1" stop-color="#164cae" />
-        </linearGradient>
-        <filter id="crawler-glow" x="-60%" y="-60%" width="220%" height="220%">
-          <feGaussianBlur stdDeviation="2.8" result="blur" />
-          <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-        </filter>
-      </defs>
-      <ellipse class="crawler-ground-shadow" cx="64" cy="77" rx="35" ry="7" />
-      <g class="crawler-legs crawler-legs-rear">
-        <path d="M49 43 L31 26 L10 23" /><circle cx="31" cy="26" r="2.2" />
-        <path d="M47 49 L25 42 L7 49" /><circle cx="25" cy="42" r="2.2" />
-        <path d="M49 55 L29 64 L12 76" /><circle cx="29" cy="64" r="2.2" />
-        <path d="M54 59 L43 76 L31 88" /><circle cx="43" cy="76" r="2.2" />
-      </g>
-      <g class="crawler-legs crawler-legs-front">
-        <path d="M78 42 L96 24 L118 20" /><circle cx="96" cy="24" r="2.2" />
-        <path d="M81 48 L104 39 L122 44" /><circle cx="104" cy="39" r="2.2" />
-        <path d="M80 55 L101 62 L119 75" /><circle cx="101" cy="62" r="2.2" />
-        <path d="M75 59 L87 76 L99 88" /><circle cx="87" cy="76" r="2.2" />
-      </g>
-      <path class="crawler-abdomen" d="M36 45 Q41 25 61 25 Q76 26 82 39 L77 64 Q63 76 45 65 Q35 58 36 45Z" />
-      <path class="crawler-armour" d="M42 42 Q51 31 64 32 L75 41 L70 58 L55 66 L42 57Z" />
-      <path class="crawler-head" d="M74 39 L94 37 L106 48 L94 61 L75 59 L69 49Z" />
-      <path class="crawler-jaw" d="M96 47 L113 50 L97 57 L102 52Z" />
-      <circle class="crawler-sensor" cx="93" cy="46" r="3.8" />
-      <path class="crawler-spine" d="M43 38 L51 25 L58 35 L67 22 L73 38" />
-      <g class="crawler-scan-beam">
-        <path d="M103 45 L123 34 M105 49 L126 49 M103 54 L123 65" />
-      </g>
-    </svg>
-  `;
-  document.body.append(cyberCrawler);
-
-  const crawlerState = {
-    x: Math.min(window.innerWidth - 100, Math.max(24, window.innerWidth * 0.72)),
-    y: Math.min(window.innerHeight - 90, Math.max(90, window.innerHeight * 0.32)),
-    timer: 0,
-    moving: false,
-  };
-
+  const crawlerCanvas = document.createElement("canvas");
+  const crawlerContext = crawlerCanvas.getContext("2d");
+  const compactCrawler = window.matchMedia("(max-width: 720px)").matches;
+  const crawlerScale = compactCrawler ? 0.72 : 1;
   const clampCrawlerPoint = (value, minimum, maximum) => Math.min(maximum, Math.max(minimum, value));
 
-  const getCrawlerTargets = () => Array.from(
-    document.querySelectorAll("main section, main .panel, main .info-card, main article, main .section-heading")
-  ).filter((element) => {
+  crawlerCanvas.className = "cyber-crawler-canvas";
+  crawlerCanvas.setAttribute("aria-hidden", "true");
+  document.body.append(crawlerCanvas);
+
+  const crawlerState = {
+    x: Math.min(window.innerWidth - 80, Math.max(80, window.innerWidth * 0.72)),
+    y: Math.min(window.innerHeight - 80, Math.max(110, window.innerHeight * 0.34)),
+    targetX: 0,
+    targetY: 0,
+    heading: 0,
+    speed: compactCrawler ? 27 : 36,
+    pausedUntil: performance.now() + 650,
+    lastFrame: performance.now(),
+    alertedUntil: 0,
+    scanPulse: 0,
+    targetTimer: 0,
+  };
+
+  const crawlerLegs = [-1, 1].flatMap((side) => (
+    [-18, -7, 7, 18].map((forward, index) => ({
+      side,
+      forward: forward * crawlerScale,
+      reach: (34 + Math.abs(index - 1.5) * 4) * crawlerScale,
+      footX: crawlerState.x,
+      footY: crawlerState.y,
+      fromX: crawlerState.x,
+      fromY: crawlerState.y,
+      toX: crawlerState.x,
+      toY: crawlerState.y,
+      stepStarted: 0,
+      stepDuration: 230 + index * 18,
+      stepping: false,
+      gait: (index + (side > 0 ? 1 : 0)) % 2,
+    }))
+  ));
+
+  const rotateCrawlerPoint = (forward, lateral) => ({
+    x: crawlerState.x + Math.cos(crawlerState.heading) * forward - Math.sin(crawlerState.heading) * lateral,
+    y: crawlerState.y + Math.sin(crawlerState.heading) * forward + Math.cos(crawlerState.heading) * lateral,
+  });
+
+  const getCrawlerTargets = () => Array.from(document.querySelectorAll(
+    "main h1, main h2, main h3, main p, main li, main a, main .panel, main article, main .section-heading"
+  )).filter((element) => {
     const rect = element.getBoundingClientRect();
-    return rect.width > 120
-      && rect.height > 70
-      && rect.bottom > 70
-      && rect.top < window.innerHeight - 30;
+    return rect.width > 90
+      && rect.height > 16
+      && rect.bottom > 74
+      && rect.top < window.innerHeight - 34;
   });
 
   const getCrawlerWaypoint = () => {
@@ -245,104 +241,251 @@ if (!crawlerReducedMotion.matches) {
 
     if (!targets.length) {
       return {
-        x: 30 + Math.random() * Math.max(40, window.innerWidth - 140),
-        y: 80 + Math.random() * Math.max(40, window.innerHeight - 170),
+        x: 65 + Math.random() * Math.max(30, window.innerWidth - 130),
+        y: 90 + Math.random() * Math.max(30, window.innerHeight - 180),
       };
     }
 
-    const target = targets[Math.floor(Math.random() * targets.length)];
-    const rect = target.getBoundingClientRect();
-    const horizontalEdge = Math.random() > 0.42;
-    let x;
-    let y;
-
-    if (horizontalEdge) {
-      x = rect.left + 28 + Math.random() * Math.max(10, rect.width - 100);
-      y = Math.random() > 0.5 ? rect.top - 34 : rect.bottom - 34;
-    } else {
-      x = Math.random() > 0.5 ? rect.left - 42 : rect.right - 42;
-      y = rect.top + 24 + Math.random() * Math.max(10, rect.height - 80);
-    }
+    const rect = targets[Math.floor(Math.random() * targets.length)].getBoundingClientRect();
+    const useHorizontalEdge = rect.width > 150 || Math.random() > 0.5;
+    const x = useHorizontalEdge
+      ? rect.left + Math.random() * rect.width
+      : (Math.random() > 0.5 ? rect.left : rect.right);
+    const y = useHorizontalEdge
+      ? (Math.random() > 0.5 ? rect.top : rect.bottom)
+      : rect.top + Math.random() * rect.height;
 
     return {
-      x: clampCrawlerPoint(x, 8, window.innerWidth - 94),
-      y: clampCrawlerPoint(y, 58, window.innerHeight - 78),
+      x: clampCrawlerPoint(x, 58, window.innerWidth - 58),
+      y: clampCrawlerPoint(y, 76, window.innerHeight - 58),
     };
   };
 
-  const positionCyberCrawler = (x, y, duration = 0) => {
-    const dx = x - crawlerState.x;
-    const dy = y - crawlerState.y;
-    const angle = Math.atan2(dy, dx) * (180 / Math.PI);
+  const getIdealFoot = (leg, stride = 0) => rotateCrawlerPoint(
+    leg.forward + stride,
+    leg.side * leg.reach
+  );
 
-    crawlerState.x = x;
-    crawlerState.y = y;
-    crawlerState.moving = duration > 0;
-    cyberCrawler.style.setProperty("--crawler-duration", `${duration}ms`);
-    cyberCrawler.style.setProperty("--crawler-angle", `${angle}deg`);
-    cyberCrawler.style.transform = `translate3d(${x}px, ${y}px, 0)`;
-    cyberCrawler.classList.toggle("is-walking", crawlerState.moving);
-    cyberCrawler.classList.remove("is-scanning");
+  const plantCrawlerLegs = () => {
+    crawlerLegs.forEach((leg) => {
+      const foot = getIdealFoot(leg);
+      leg.footX = foot.x;
+      leg.footY = foot.y;
+      leg.stepping = false;
+    });
   };
 
-  const scheduleCrawlerMove = (delay = 900) => {
-    window.clearTimeout(crawlerState.timer);
-    crawlerState.timer = window.setTimeout(() => {
-      const waypoint = getCrawlerWaypoint();
-      const distance = Math.hypot(waypoint.x - crawlerState.x, waypoint.y - crawlerState.y);
-      const duration = clampCrawlerPoint(distance * 9, 2200, 5200);
-
-      positionCyberCrawler(waypoint.x, waypoint.y, duration);
-      crawlerState.timer = window.setTimeout(() => {
-        crawlerState.moving = false;
-        cyberCrawler.classList.remove("is-walking");
-        cyberCrawler.classList.add("is-scanning");
-        scheduleCrawlerMove(900 + Math.random() * 1200);
-      }, duration + 80);
-    }, delay);
+  const chooseCrawlerTarget = (now) => {
+    window.clearTimeout(crawlerState.targetTimer);
+    crawlerState.targetTimer = 0;
+    const waypoint = getCrawlerWaypoint();
+    crawlerState.targetX = waypoint.x;
+    crawlerState.targetY = waypoint.y;
+    crawlerState.pausedUntil = now;
   };
 
-  let pointerFrame = 0;
-  window.addEventListener("pointermove", (event) => {
-    if (pointerFrame) {
+  const resizeCrawlerCanvas = () => {
+    const density = Math.min(window.devicePixelRatio || 1, 2);
+    crawlerCanvas.width = Math.round(window.innerWidth * density);
+    crawlerCanvas.height = Math.round(window.innerHeight * density);
+    crawlerContext.setTransform(density, 0, 0, density, 0, 0);
+    crawlerState.x = clampCrawlerPoint(crawlerState.x, 58, window.innerWidth - 58);
+    crawlerState.y = clampCrawlerPoint(crawlerState.y, 76, window.innerHeight - 58);
+    plantCrawlerLegs();
+  };
+
+  const startCrawlerStep = (leg, now, stride) => {
+    const target = getIdealFoot(leg, stride);
+    leg.fromX = leg.footX;
+    leg.fromY = leg.footY;
+    leg.toX = target.x;
+    leg.toY = target.y;
+    leg.stepStarted = now;
+    leg.stepping = true;
+  };
+
+  const updateCrawlerLegs = (now, moving) => {
+    crawlerLegs.forEach((leg) => {
+      if (!leg.stepping) {
+        return;
+      }
+
+      const progress = clampCrawlerPoint((now - leg.stepStarted) / leg.stepDuration, 0, 1);
+      const eased = progress * progress * (3 - 2 * progress);
+      const lift = Math.sin(progress * Math.PI) * 8 * crawlerScale;
+      leg.footX = leg.fromX + (leg.toX - leg.fromX) * eased;
+      leg.footY = leg.fromY + (leg.toY - leg.fromY) * eased - lift;
+
+      if (progress >= 1) {
+        leg.stepping = false;
+      }
+    });
+
+    if (!moving || crawlerLegs.filter((leg) => leg.stepping).length >= 2) {
       return;
     }
 
-    pointerFrame = window.requestAnimationFrame(() => {
-      pointerFrame = 0;
-      const dx = crawlerState.x + 48 - event.clientX;
-      const dy = crawlerState.y + 38 - event.clientY;
-      const distance = Math.hypot(dx, dy);
+    const activeGaits = new Set(crawlerLegs.filter((leg) => leg.stepping).map((leg) => leg.gait));
+    const candidates = crawlerLegs
+      .filter((leg) => !leg.stepping && !activeGaits.has(leg.gait))
+      .map((leg) => {
+        const ideal = getIdealFoot(leg, 10 * crawlerScale);
+        return { leg, distance: Math.hypot(ideal.x - leg.footX, ideal.y - leg.footY) };
+      })
+      .sort((left, right) => right.distance - left.distance);
 
-      if (distance < 135) {
-        const safeDistance = Math.max(distance, 1);
-        const escapeX = crawlerState.x + (dx / safeDistance) * 145;
-        const escapeY = crawlerState.y + (dy / safeDistance) * 110;
-        cyberCrawler.classList.add("is-alerted");
-        positionCyberCrawler(
-          clampCrawlerPoint(escapeX, 8, window.innerWidth - 94),
-          clampCrawlerPoint(escapeY, 58, window.innerHeight - 78),
-          620
-        );
-        scheduleCrawlerMove(900);
-        window.setTimeout(() => cyberCrawler.classList.remove("is-alerted"), 720);
-      }
+    if (candidates[0]?.distance > 12 * crawlerScale) {
+      const gait = candidates[0].leg.gait;
+      candidates
+        .filter((candidate) => candidate.leg.gait === gait)
+        .slice(0, 2)
+        .forEach((candidate) => startCrawlerStep(candidate.leg, now, 13 * crawlerScale));
+    }
+  };
+
+  const drawCrawlerLine = (from, to, colour, width = 1.45) => {
+    crawlerContext.beginPath();
+    crawlerContext.moveTo(from.x, from.y);
+    crawlerContext.lineTo(to.x, to.y);
+    crawlerContext.strokeStyle = colour;
+    crawlerContext.lineWidth = width * crawlerScale;
+    crawlerContext.shadowColor = colour;
+    crawlerContext.shadowBlur = 7 * crawlerScale;
+    crawlerContext.stroke();
+  };
+
+  const drawCrawlerNode = (point, colour, radius = 2.2) => {
+    crawlerContext.beginPath();
+    crawlerContext.arc(point.x, point.y, radius * crawlerScale, 0, Math.PI * 2);
+    crawlerContext.fillStyle = colour;
+    crawlerContext.shadowColor = colour;
+    crawlerContext.shadowBlur = 9 * crawlerScale;
+    crawlerContext.fill();
+  };
+
+  const drawCyberCrawler = (now, moving) => {
+    crawlerContext.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    crawlerContext.lineCap = "round";
+    crawlerContext.lineJoin = "round";
+
+    crawlerLegs.forEach((leg, index) => {
+      const hip = rotateCrawlerPoint(leg.forward * 0.58, leg.side * 8 * crawlerScale);
+      const deltaX = leg.footX - hip.x;
+      const deltaY = leg.footY - hip.y;
+      const length = Math.max(Math.hypot(deltaX, deltaY), 1);
+      const bend = leg.side * (11 + (index % 4) * 1.5) * crawlerScale;
+      const knee = {
+        x: hip.x + deltaX * 0.5 - (deltaY / length) * bend,
+        y: hip.y + deltaY * 0.5 + (deltaX / length) * bend,
+      };
+      const colour = leg.gait ? "rgba(255, 78, 167, 0.9)" : "rgba(75, 235, 255, 0.92)";
+
+      drawCrawlerLine(hip, knee, colour);
+      drawCrawlerLine(knee, { x: leg.footX, y: leg.footY }, colour);
+      drawCrawlerNode(knee, colour, 1.8);
+      drawCrawlerNode({ x: leg.footX, y: leg.footY }, colour, leg.stepping ? 2.8 : 2.1);
     });
+
+    const rear = rotateCrawlerPoint(-18 * crawlerScale, 0);
+    const centre = rotateCrawlerPoint(0, 0);
+    const crown = rotateCrawlerPoint(-4 * crawlerScale, -9 * crawlerScale);
+    const keel = rotateCrawlerPoint(-4 * crawlerScale, 9 * crawlerScale);
+    const head = rotateCrawlerPoint(17 * crawlerScale, 0);
+    const jawTop = rotateCrawlerPoint(26 * crawlerScale, -6 * crawlerScale);
+    const jawBottom = rotateCrawlerPoint(26 * crawlerScale, 6 * crawlerScale);
+    const shellColour = now < crawlerState.alertedUntil ? "#ff486f" : "#48ecff";
+
+    drawCrawlerLine(rear, crown, shellColour, 2.2);
+    drawCrawlerLine(crown, head, shellColour, 2.2);
+    drawCrawlerLine(head, keel, "#ff4ea7", 2.2);
+    drawCrawlerLine(keel, rear, shellColour, 2.2);
+    drawCrawlerLine(rear, centre, "rgba(129, 247, 255, 0.86)", 1.4);
+    drawCrawlerLine(centre, head, "rgba(129, 247, 255, 0.86)", 1.4);
+    drawCrawlerLine(head, jawTop, shellColour, 1.8);
+    drawCrawlerLine(head, jawBottom, shellColour, 1.8);
+    drawCrawlerLine(jawTop, jawBottom, "rgba(238, 250, 255, 0.9)", 1.4);
+    drawCrawlerNode(rear, "#ff4ea7", 3);
+    drawCrawlerNode(centre, "#091126", 4.5);
+    drawCrawlerNode(crown, shellColour, 2.4);
+    drawCrawlerNode(keel, shellColour, 2.4);
+    drawCrawlerNode(head, "#ff3c68", 3.6);
+
+    if (!moving) {
+      crawlerState.scanPulse = (crawlerState.scanPulse + 0.022) % 1;
+      crawlerContext.beginPath();
+      crawlerContext.arc(
+        head.x,
+        head.y,
+        (10 + crawlerState.scanPulse * 25) * crawlerScale,
+        0,
+        Math.PI * 2
+      );
+      crawlerContext.strokeStyle = `rgba(72, 236, 255, ${0.62 * (1 - crawlerState.scanPulse)})`;
+      crawlerContext.lineWidth = 1;
+      crawlerContext.shadowBlur = 0;
+      crawlerContext.stroke();
+    }
+  };
+
+  const animateCyberCrawler = (now) => {
+    const elapsed = Math.min((now - crawlerState.lastFrame) / 1000, 0.05);
+    crawlerState.lastFrame = now;
+    const deltaX = crawlerState.targetX - crawlerState.x;
+    const deltaY = crawlerState.targetY - crawlerState.y;
+    const distance = Math.hypot(deltaX, deltaY);
+    const moving = now >= crawlerState.pausedUntil && distance > 3;
+
+    if (moving) {
+      const desiredHeading = Math.atan2(deltaY, deltaX);
+      const headingDelta = Math.atan2(
+        Math.sin(desiredHeading - crawlerState.heading),
+        Math.cos(desiredHeading - crawlerState.heading)
+      );
+      crawlerState.heading += headingDelta * Math.min(1, elapsed * 6);
+      const step = Math.min(distance, crawlerState.speed * elapsed);
+      crawlerState.x += (deltaX / distance) * step;
+      crawlerState.y += (deltaY / distance) * step;
+    } else if (distance <= 3 && now >= crawlerState.pausedUntil) {
+      crawlerState.pausedUntil = now + 700 + Math.random() * 1100;
+      crawlerState.targetTimer = window.setTimeout(
+        () => chooseCrawlerTarget(performance.now()),
+        crawlerState.pausedUntil - now
+      );
+    }
+
+    updateCrawlerLegs(now, moving);
+    drawCyberCrawler(now, moving);
+    window.requestAnimationFrame(animateCyberCrawler);
+  };
+
+  window.addEventListener("pointermove", (event) => {
+    const deltaX = crawlerState.x - event.clientX;
+    const deltaY = crawlerState.y - event.clientY;
+    const distance = Math.hypot(deltaX, deltaY);
+
+    if (distance < 120) {
+      window.clearTimeout(crawlerState.targetTimer);
+      crawlerState.targetTimer = 0;
+      const safeDistance = Math.max(distance, 1);
+      crawlerState.targetX = clampCrawlerPoint(
+        crawlerState.x + (deltaX / safeDistance) * 165,
+        58,
+        window.innerWidth - 58
+      );
+      crawlerState.targetY = clampCrawlerPoint(
+        crawlerState.y + (deltaY / safeDistance) * 130,
+        76,
+        window.innerHeight - 58
+      );
+      crawlerState.pausedUntil = 0;
+      crawlerState.alertedUntil = performance.now() + 900;
+    }
   }, { passive: true });
 
-  window.addEventListener("resize", () => {
-    positionCyberCrawler(
-      clampCrawlerPoint(crawlerState.x, 8, window.innerWidth - 94),
-      clampCrawlerPoint(crawlerState.y, 58, window.innerHeight - 78)
-    );
-    scheduleCrawlerMove(400);
-  });
-
-  positionCyberCrawler(crawlerState.x, crawlerState.y);
-  window.requestAnimationFrame(() => {
-    cyberCrawler.classList.add("is-online");
-    scheduleCrawlerMove(650);
-  });
+  window.addEventListener("resize", resizeCrawlerCanvas);
+  resizeCrawlerCanvas();
+  chooseCrawlerTarget(performance.now());
+  window.requestAnimationFrame(animateCyberCrawler);
 }
 
 const previewForm = document.querySelector("#atcor-preview-form");

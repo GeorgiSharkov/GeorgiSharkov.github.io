@@ -88,151 +88,14 @@ a {
   box-shadow: 0 0 22px rgba(255, 92, 117, 0.38);
 }
 
-.cyber-crawler {
-  --crawler-duration: 0ms;
-  --crawler-angle: 0deg;
+.cyber-crawler-canvas {
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
   z-index: 8;
-  width: 96px;
-  opacity: 0;
-  pointer-events: none;
-  transform-origin: 48px 38px;
-  transition:
-    transform var(--crawler-duration) cubic-bezier(0.42, 0.06, 0.26, 0.98),
-    opacity 500ms ease;
-  filter: drop-shadow(0 9px 10px rgba(0, 0, 0, 0.52));
-  will-change: transform;
-}
-
-.cyber-crawler.is-online {
-  opacity: 0.9;
-}
-
-.cyber-crawler svg {
-  display: block;
   width: 100%;
-  overflow: visible;
-  transform: rotate(var(--crawler-angle));
-  transform-origin: 48px 38px;
-  transition: transform 320ms ease;
-}
-
-.crawler-ground-shadow {
-  fill: rgba(0, 0, 0, 0.38);
-  filter: blur(3px);
-}
-
-.crawler-legs {
-  fill: rgba(7, 13, 29, 0.88);
-  stroke: #38e8ff;
-  stroke-width: 3.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  filter: url("#crawler-glow");
-  transform-box: fill-box;
-  transform-origin: center;
-}
-
-.crawler-legs circle {
-  fill: #ff4e8d;
-  stroke: #081124;
-  stroke-width: 1.4;
-}
-
-.crawler-abdomen,
-.crawler-head {
-  fill: url("#crawler-shell");
-  stroke: #081124;
-  stroke-width: 3.5;
-}
-
-.crawler-armour {
-  fill: rgba(4, 15, 32, 0.78);
-  stroke: rgba(133, 247, 255, 0.78);
-  stroke-width: 1.5;
-}
-
-.crawler-head {
-  filter: url("#crawler-glow");
-}
-
-.crawler-jaw {
-  fill: #eafaff;
-  stroke: #07101e;
-  stroke-width: 2.4;
-}
-
-.crawler-sensor {
-  fill: #ff3c68;
-  stroke: #ffd0dc;
-  stroke-width: 1.1;
-  filter: url("#crawler-glow");
-  animation: crawler-sensor 1.3s ease-in-out infinite alternate;
-}
-
-.crawler-spine {
-  fill: none;
-  stroke: #ff4ea7;
-  stroke-width: 3;
-  stroke-linejoin: bevel;
-}
-
-.crawler-scan-beam {
-  fill: none;
-  stroke: #65f3ff;
-  stroke-width: 1.4;
-  stroke-linecap: round;
-  opacity: 0;
-  filter: url("#crawler-glow");
-}
-
-.cyber-crawler.is-walking .crawler-legs-rear {
-  animation: crawler-gait-rear 360ms ease-in-out infinite alternate;
-}
-
-.cyber-crawler.is-walking .crawler-legs-front {
-  animation: crawler-gait-front 360ms ease-in-out infinite alternate;
-}
-
-.cyber-crawler.is-scanning .crawler-scan-beam {
-  animation: crawler-scan 900ms ease-out infinite;
-}
-
-.cyber-crawler.is-alerted {
-  filter:
-    drop-shadow(0 9px 10px rgba(0, 0, 0, 0.52))
-    drop-shadow(0 0 15px rgba(255, 68, 95, 0.72));
-}
-
-@keyframes crawler-gait-rear {
-  from { transform: skewY(-5deg) translateY(-2px); }
-  to { transform: skewY(5deg) translateY(2px); }
-}
-
-@keyframes crawler-gait-front {
-  from { transform: skewY(6deg) translateY(2px); }
-  to { transform: skewY(-6deg) translateY(-2px); }
-}
-
-@keyframes crawler-sensor {
-  from { opacity: 0.68; }
-  to { opacity: 1; }
-}
-
-@keyframes crawler-scan {
-  0% { opacity: 0; transform: scaleX(0.25); transform-origin: left; }
-  35% { opacity: 0.9; }
-  100% { opacity: 0; transform: scaleX(1.18); transform-origin: left; }
-}
-
-@media (max-width: 720px) {
-  .cyber-crawler {
-    width: 76px;
-    transform-origin: 38px 30px;
-  }
-
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.94;
 }
 
 .grid-noise {
@@ -4628,7 +4491,7 @@ h2 {
   }
 
   .edge-network,
-  .cyber-crawler,
+  .cyber-crawler-canvas,
   .grid-noise,
   .aurora,
   .topbar,
