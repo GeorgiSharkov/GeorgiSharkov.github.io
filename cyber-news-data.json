@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-01T22:52:29.199661+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-02T06:05:39.872622+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
+      "url": "https://isc.sans.edu/diary/rss/33390",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-02T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
       "url": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
@@ -25,17 +36,6 @@
       "kind": "News"
     },
     {
-      "title": "FTC Investigating OpenAI, Anthropic and Other AI Models Over Potential Risks to Customers",
-      "url": "https://cybersecuritynews.com/ftc-investigating-ai-models/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-01T17:09:56+00:00",
-      "description": "The Federal Trade Commission has opened an investigation into OpenAI, Anthropic and other artificial intelligence companies over potential risks their products pose to customers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FTC-Investigating-AI-Models.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
       "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
       "source": "The Hacker News",
@@ -55,39 +55,6 @@
       "description": "This week in cybersecurity: AI-driven attacks, exposed secrets, old flaws, new exploit tricks, malware techniques, and security research worth knowing",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZPv0LS8-qPBgL_d1m8BLNikw8psPt9qtB_HiFNoYnVwBacYvwz4DdEixukdlHcy7IXmUB9dI9E_Hcx48HJIL7sQzmDeextP-Y_tHO9SX51i_SditMkVsRgWxyMekufW3yZFn2jI9nf29y3JEM2a_yFv8iTLDb6d3r1roNsea_Yk5TWCiMcvkmE5ZbP6B/s1700-nu-rw-lo-l85-e365/oct-threatsday.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Built a Windows Backdoor Whose Entire C2 Lives Inside Microsoft 365",
-      "url": "https://cybersecuritynews.com/hackers-built-a-windows-backdoor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-01T16:06:14+00:00",
-      "description": "Antino backdoor abuses Microsoft 365, using Outlook and OneDrive for C2, data theft and persistent access to Windows systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Built-a-Windows-Backdoor-Whose-Entire-C2-Lives-Inside-Microsoft-365.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "16-year-old Alleged KillSec Ransomware Group Leader Arrested, Servers Dismantled",
-      "url": "https://cybersecuritynews.com/16-year-old-leader-killsec-ransomware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-01T15:30:20+00:00",
-      "description": "Authorities have identified a 16-year-old as the suspected main operator of the KillSec ransomware group after an international law-enforcement operation disrupted the group\u2019s infrastructure and led to three arrests.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/16-year-old-Leader-KillSec-Ransomware.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Fake Zoom Installer Tricks Mac Users Into Installing New CloudSyncD Backdoor",
-      "url": "https://cybersecuritynews.com/fake-zoom-installer-tricks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-01T15:07:15+00:00",
-      "description": "Fake Zoom installers trick Mac users into revealing passwords and deploy CloudSyncD backdoor, with active command servers detected.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Fake-Zoom-Installer-Tricks-Mac-Users-Into-Installing-New-CloudSyncD-Backdoor.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -168,17 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Scans for Wordfence Protected Websites, (Tue, Sep 29th)",
-      "url": "https://isc.sans.edu/diary/rss/33382",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-29T13:29:33+00:00",
-      "description": "Starting yesterday, our sensors picked up a small number of scans for \"wordfence-waf.php\". This particular script is used by Wordfence, a solution to protect WordPress sites. During the Wordfence install, the wordpress-waf.php file will be created in the\u2026",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
       "url": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
       "source": "Krebs on Security",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
