@@ -176,6 +176,175 @@ if (networkRoot && networkSvg && networkNodesRoot) {
   updateNetwork();
 }
 
+const crawlerReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
+if (!crawlerReducedMotion.matches) {
+  const cyberCrawler = document.createElement("div");
+  cyberCrawler.className = "cyber-crawler";
+  cyberCrawler.setAttribute("aria-hidden", "true");
+  cyberCrawler.innerHTML = `
+    <svg viewBox="0 0 128 96" role="presentation">
+      <defs>
+        <linearGradient id="crawler-shell" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#7af7ff" />
+          <stop offset="0.48" stop-color="#13cceb" />
+          <stop offset="1" stop-color="#164cae" />
+        </linearGradient>
+        <filter id="crawler-glow" x="-60%" y="-60%" width="220%" height="220%">
+          <feGaussianBlur stdDeviation="2.8" result="blur" />
+          <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
+        </filter>
+      </defs>
+      <ellipse class="crawler-ground-shadow" cx="64" cy="77" rx="35" ry="7" />
+      <g class="crawler-legs crawler-legs-rear">
+        <path d="M49 43 L31 26 L10 23" /><circle cx="31" cy="26" r="2.2" />
+        <path d="M47 49 L25 42 L7 49" /><circle cx="25" cy="42" r="2.2" />
+        <path d="M49 55 L29 64 L12 76" /><circle cx="29" cy="64" r="2.2" />
+        <path d="M54 59 L43 76 L31 88" /><circle cx="43" cy="76" r="2.2" />
+      </g>
+      <g class="crawler-legs crawler-legs-front">
+        <path d="M78 42 L96 24 L118 20" /><circle cx="96" cy="24" r="2.2" />
+        <path d="M81 48 L104 39 L122 44" /><circle cx="104" cy="39" r="2.2" />
+        <path d="M80 55 L101 62 L119 75" /><circle cx="101" cy="62" r="2.2" />
+        <path d="M75 59 L87 76 L99 88" /><circle cx="87" cy="76" r="2.2" />
+      </g>
+      <path class="crawler-abdomen" d="M36 45 Q41 25 61 25 Q76 26 82 39 L77 64 Q63 76 45 65 Q35 58 36 45Z" />
+      <path class="crawler-armour" d="M42 42 Q51 31 64 32 L75 41 L70 58 L55 66 L42 57Z" />
+      <path class="crawler-head" d="M74 39 L94 37 L106 48 L94 61 L75 59 L69 49Z" />
+      <path class="crawler-jaw" d="M96 47 L113 50 L97 57 L102 52Z" />
+      <circle class="crawler-sensor" cx="93" cy="46" r="3.8" />
+      <path class="crawler-spine" d="M43 38 L51 25 L58 35 L67 22 L73 38" />
+      <g class="crawler-scan-beam">
+        <path d="M103 45 L123 34 M105 49 L126 49 M103 54 L123 65" />
+      </g>
+    </svg>
+  `;
+  document.body.append(cyberCrawler);
+
+  const crawlerState = {
+    x: Math.min(window.innerWidth - 100, Math.max(24, window.innerWidth * 0.72)),
+    y: Math.min(window.innerHeight - 90, Math.max(90, window.innerHeight * 0.32)),
+    timer: 0,
+    moving: false,
+  };
+
+  const clampCrawlerPoint = (value, minimum, maximum) => Math.min(maximum, Math.max(minimum, value));
+
+  const getCrawlerTargets = () => Array.from(
+    document.querySelectorAll("main section, main .panel, main .info-card, main article, main .section-heading")
+  ).filter((element) => {
+    const rect = element.getBoundingClientRect();
+    return rect.width > 120
+      && rect.height > 70
+      && rect.bottom > 70
+      && rect.top < window.innerHeight - 30;
+  });
+
+  const getCrawlerWaypoint = () => {
+    const targets = getCrawlerTargets();
+
+    if (!targets.length) {
+      return {
+        x: 30 + Math.random() * Math.max(40, window.innerWidth - 140),
+        y: 80 + Math.random() * Math.max(40, window.innerHeight - 170),
+      };
+    }
+
+    const target = targets[Math.floor(Math.random() * targets.length)];
+    const rect = target.getBoundingClientRect();
+    const horizontalEdge = Math.random() > 0.42;
+    let x;
+    let y;
+
+    if (horizontalEdge) {
+      x = rect.left + 28 + Math.random() * Math.max(10, rect.width - 100);
+      y = Math.random() > 0.5 ? rect.top - 34 : rect.bottom - 34;
+    } else {
+      x = Math.random() > 0.5 ? rect.left - 42 : rect.right - 42;
+      y = rect.top + 24 + Math.random() * Math.max(10, rect.height - 80);
+    }
+
+    return {
+      x: clampCrawlerPoint(x, 8, window.innerWidth - 94),
+      y: clampCrawlerPoint(y, 58, window.innerHeight - 78),
+    };
+  };
+
+  const positionCyberCrawler = (x, y, duration = 0) => {
+    const dx = x - crawlerState.x;
+    const dy = y - crawlerState.y;
+    const angle = Math.atan2(dy, dx) * (180 / Math.PI);
+
+    crawlerState.x = x;
+    crawlerState.y = y;
+    crawlerState.moving = duration > 0;
+    cyberCrawler.style.setProperty("--crawler-duration", `${duration}ms`);
+    cyberCrawler.style.setProperty("--crawler-angle", `${angle}deg`);
+    cyberCrawler.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+    cyberCrawler.classList.toggle("is-walking", crawlerState.moving);
+    cyberCrawler.classList.remove("is-scanning");
+  };
+
+  const scheduleCrawlerMove = (delay = 900) => {
+    window.clearTimeout(crawlerState.timer);
+    crawlerState.timer = window.setTimeout(() => {
+      const waypoint = getCrawlerWaypoint();
+      const distance = Math.hypot(waypoint.x - crawlerState.x, waypoint.y - crawlerState.y);
+      const duration = clampCrawlerPoint(distance * 9, 2200, 5200);
+
+      positionCyberCrawler(waypoint.x, waypoint.y, duration);
+      crawlerState.timer = window.setTimeout(() => {
+        crawlerState.moving = false;
+        cyberCrawler.classList.remove("is-walking");
+        cyberCrawler.classList.add("is-scanning");
+        scheduleCrawlerMove(900 + Math.random() * 1200);
+      }, duration + 80);
+    }, delay);
+  };
+
+  let pointerFrame = 0;
+  window.addEventListener("pointermove", (event) => {
+    if (pointerFrame) {
+      return;
+    }
+
+    pointerFrame = window.requestAnimationFrame(() => {
+      pointerFrame = 0;
+      const dx = crawlerState.x + 48 - event.clientX;
+      const dy = crawlerState.y + 38 - event.clientY;
+      const distance = Math.hypot(dx, dy);
+
+      if (distance < 135) {
+        const safeDistance = Math.max(distance, 1);
+        const escapeX = crawlerState.x + (dx / safeDistance) * 145;
+        const escapeY = crawlerState.y + (dy / safeDistance) * 110;
+        cyberCrawler.classList.add("is-alerted");
+        positionCyberCrawler(
+          clampCrawlerPoint(escapeX, 8, window.innerWidth - 94),
+          clampCrawlerPoint(escapeY, 58, window.innerHeight - 78),
+          620
+        );
+        scheduleCrawlerMove(900);
+        window.setTimeout(() => cyberCrawler.classList.remove("is-alerted"), 720);
+      }
+    });
+  }, { passive: true });
+
+  window.addEventListener("resize", () => {
+    positionCyberCrawler(
+      clampCrawlerPoint(crawlerState.x, 8, window.innerWidth - 94),
+      clampCrawlerPoint(crawlerState.y, 58, window.innerHeight - 78)
+    );
+    scheduleCrawlerMove(400);
+  });
+
+  positionCyberCrawler(crawlerState.x, crawlerState.y);
+  window.requestAnimationFrame(() => {
+    cyberCrawler.classList.add("is-online");
+    scheduleCrawlerMove(650);
+  });
+}
+
 const previewForm = document.querySelector("#atcor-preview-form");
 
 if (previewForm) {
