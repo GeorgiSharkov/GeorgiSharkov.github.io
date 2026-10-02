@@ -1,7 +1,106 @@
 {
-  "generatedAt": "2026-10-02T13:05:09.350138+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-02T20:06:40.768928+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T17:33:31+00:00",
+      "description": "GitLab fixed CVE-2026-90970, a 9.9 AI Gateway flaw that could let logged-in Duo Agent Platform users run commands on self-hosted gateways.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXhnbLdlAtkMBrrXYLiOxfbEdXI4PrEIq6dy3SL8Xa5SzPF6if9sf8GGu4PtkUTI3EYQHqBde4cDp4Y60OjgQBmqtZHTlL_gvgvlxNSeZ6nrRnriOmH3m23vq7f2bpylilVl39c_X-RNpvYQlRrC91gU_oHbk6e_ZbZ-7_fglpsQCFoLFp3sHkcn44960/s1700-nu-rw-lo-l85-e365/gitlab-rce.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+      "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T17:33:16+00:00",
+      "description": "China-nexus UAT-11587 targets Asian government and policy groups with Antino, a Rust backdoor that uses Microsoft 365 for C2.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE3s79KuB4kHE3Kf6kjA84HqdcQ2TTVyJCgIkLcSnpbMr6vCwjaLjJVE1KiXT2lZfcx_CbKlHjiX9PrEppf53uaTvQ_Vyicl447mGIkdz1ZOzmGR1hPJzgODM2J_lnsbKPhTBvvTgdDcSS4V1JzJ-feSpyJFDyDkKS0BfK7AXTCNWaL9DZ60tmWVysyVo0/s1700-nu-rw-lo-l85-e365/ms-cyber.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+      "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T17:02:12+00:00",
+      "description": "Dell fixes six CSM flaws enabling authentication bypass, storage credential access, and cluster-wide privilege escalation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiypcfC3W6keUc31zSJympZfpI6eLwDhyphenhyphen4uy_0M3VFljfoSn2pjzBmS3yyAZTzILPxi_sXeOx2jyeu6mdSPKqjiFv7LAMd2mn6Q8GvIRq6yVXUoQm5MiXeEs96i9IT-ZCP2W7hAzR08B9JOuOJv8NNI7o7DfCSa7cplzrsT_x_0R0dPVSQxKmdLP8NvAsnp/s1700-nu-rw-lo-l85-e365/dell.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats",
+      "url": "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-02T14:30:00+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: Kiteworks patches over 100 vulnerabilities, Microsoft publishes 2026 Digital Defense Report, AI finds 24 Android app flaws.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel",
+      "url": "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-02T14:04:21+00:00",
+      "description": "Hackers abused a Microsoft SQL Server to run commands, steal credentials and source code, and move files in a Viva Aerobus-linked attack.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Turned-a-Microsoft-SQL-Server-Into-a-Command-and-Data-Exfiltration-Channel.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Poison Trusted Software Updates to Steal Developer and Cloud Credentials",
+      "url": "https://cybersecuritynews.com/hackers-poison-trusted-software-updates/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-02T13:43:28+00:00",
+      "description": "Hackers exploit trusted software updates to steal developer and cloud credentials through poisoned packages and compromised release pipelines.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Poison-Trusted-Software-Updates-to-Steal-Developer-and-Cloud-Credentials.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
+      "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-02T13:15:00+00:00",
+      "description": "The dropper \u201ccarries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Red Hat Satellite Flaw Could Enable Root Password Theft and Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/red-hat-satellite-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-02T13:14:51+00:00",
+      "description": "Red Hat fixed a Satellite flaw exposing sensitive host data and potentially enabling command execution as the Foreman service account.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Red-Hat-Satellite-Vulnerability-Could-Enable-Root-Password-Theft-and-Code-Execution-Attacks-1.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Multiple Cpanel/WHM Vulnerabilities Allow Arbitrary Command Execution On Server",
+      "url": "https://cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-02T13:10:34+00:00",
+      "description": "Multiple cPanel & WHM flaws could let attackers execute scripts in admin sessions or arbitrary commands as root.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-CpanelWHM-Vulnerabilities-allows-arbitrary-Command-Execution-On-Server-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
       "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
@@ -25,17 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
-      "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-02T11:30:00+00:00",
-      "description": "Exposure-based board reporting maps attack paths across security tools and ties critical assets to financial risk and quarterly trends.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0hKMtHvRqPQiVRgaUAvYQ1XOUA_EToiZ3Tx-v7pSvbqwlnoo7qr5jQ_5KJuYpRFW0MzE3bLPePNT-rn4m8bEz7eTMVysO0OcfFwNKKFgKIo6tiT0JKKauf9MFxYTet3LiqJ2lXxfxVuKzRIPloaGR-_bOUEXOz_-ONc3AXfHKZV-PhAW8wEfayC-iwZE/s1700-nu-rw-lo-l85-e365/ciso-ready.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "In Rare Move, Alleged Iranian State Hacker Extradited to US",
       "url": "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/",
       "source": "SecurityWeek",
@@ -44,50 +132,6 @@
       "description": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks",
-      "url": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-02T09:34:41+00:00",
-      "description": "The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/06/SharePoint-Ransomware-attack.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
-      "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-02T08:38:46+00:00",
-      "description": "The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/rogue-AI-artificial-intelligence.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
-      "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-02T08:01:30+00:00",
-      "description": "Android 17 limits accessibility service access under Advanced Protection to verified Accessibility Tools, blocking a major malware abuse path.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5MS0sgdeAX_o_HWccABZaieMupy9x1vp2YHXeUfCod9bQMOAfEufGcm59eXhz4cQnwur_AjUhL1ER6FkR4nacwK2pn8K8ojfyZ254B_1Jfjk1OXwBi4VzqhPXgHukmnvVP5ItRHUeez8TcJVXvPlXRBIj0-h6YrI0rhn1G6RFyeZPT9jJf6y4Ng8D_1OD/s1700-nu-rw-lo-l85-e365/android17.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
-      "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-02T05:49:50+00:00",
-      "description": "Fortinet says attackers are exploiting a FortiMail flaw that lets unauthenticated users write arbitrary files via crafted HTTP requests.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhcZguz-U3FsSD6t4YQ45EeFbgnWAy9lM28OAFydsLXZYzOS00aOD7pxUZcgvLMfMAO3SJV_Amu9SoNezLNQOvx823Z92CpqC5ow9XO3d7HJhEKZlwQt4H4Z7kirDwGcSrUyi1ONs_PuULNYjEjzae2c1mncDviOT9iqxD-PhmXCYpulTUNO2rtW5c9AAx/s1700-nu-rw-lo-l85-e365/fortimail.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
