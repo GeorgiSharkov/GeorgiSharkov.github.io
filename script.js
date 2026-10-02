@@ -189,6 +189,48 @@ if (!crawlerReducedMotion.matches) {
   crawlerCanvas.setAttribute("aria-hidden", "true");
   document.body.append(crawlerCanvas);
 
+  let crawlerWords = [];
+  let crawlerWordsUpdated = 0;
+  const crawlerContacts = [];
+  let crawlerScrollY = window.scrollY;
+
+  // Ranges locate words without inserting spans into interactive or dynamic content.
+  const refreshCrawlerWords = (now) => {
+    if (now - crawlerWordsUpdated < 700) {
+      return;
+    }
+
+    crawlerWordsUpdated = now;
+    const words = [];
+    document.querySelectorAll("main h1, main h2, main h3, main p, main li, main a").forEach((element) => {
+      const bounds = element.getBoundingClientRect();
+      if (bounds.bottom < 60 || bounds.top > window.innerHeight || !element.getClientRects().length) {
+        return;
+      }
+
+      const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+      let node;
+      while ((node = walker.nextNode()) && words.length < 1200) {
+        if (node.parentElement.closest("pre, code, button, textarea, [aria-hidden='true']") ||
+          node.parentElement.closest("h1, h2, h3, p, li, a") !== element) {
+          continue;
+        }
+
+        for (const match of node.textContent.matchAll(/\S+/g)) {
+          const range = document.createRange();
+          range.setStart(node, match.index);
+          range.setEnd(node, match.index + match[0].length);
+          const rect = range.getBoundingClientRect();
+          if (rect.width > 2 && rect.height > 4 && rect.top > 55 && rect.bottom < window.innerHeight - 12 &&
+            rect.left >= 0 && rect.right <= window.innerWidth) {
+            words.push({ range, x: rect.left + rect.width / 2, y: rect.top + rect.height / 2 });
+          }
+        }
+      }
+    });
+    crawlerWords = words;
+  };
+
   const crawlerState = {
     x: Math.min(window.innerWidth - 80, Math.max(80, window.innerWidth * 0.72)),
     y: Math.min(window.innerHeight - 80, Math.max(110, window.innerHeight * 0.34)),
@@ -218,6 +260,7 @@ if (!crawlerReducedMotion.matches) {
       stepDuration: 230 + index * 18,
       stepping: false,
       gait: (index + (side > 0 ? 1 : 0)) % 2,
+      word: null,
     }))
   ));
 
@@ -237,6 +280,19 @@ if (!crawlerReducedMotion.matches) {
   });
 
   const getCrawlerWaypoint = () => {
+    refreshCrawlerWords(performance.now());
+    if (crawlerWords.length) {
+      const nearby = crawlerWords.filter((word) => {
+        const distance = Math.hypot(word.x - crawlerState.x, word.y - crawlerState.y);
+        return distance > 35 && distance < 240;
+      });
+      const options = nearby.length ? nearby : crawlerWords;
+      const word = options[Math.floor(Math.random() * options.length)];
+      return {
+        x: clampCrawlerPoint(word.x, 58, window.innerWidth - 58),
+        y: clampCrawlerPoint(word.y, 76, window.innerHeight - 58),
+      };
+    }
     const targets = getCrawlerTargets();
 
     if (!targets.length) {
@@ -269,9 +325,18 @@ if (!crawlerReducedMotion.matches) {
   const plantCrawlerLegs = () => {
     crawlerLegs.forEach((leg) => {
       const foot = getIdealFoot(leg);
-      leg.footX = foot.x;
-      leg.footY = foot.y;
+      const word = crawlerWords.filter((candidate) =>
+        Math.hypot(candidate.x - foot.x, candidate.y - foot.y) < 32 * crawlerScale
+      ).sort((left, right) =>
+        Math.hypot(left.x - foot.x, left.y - foot.y) - Math.hypot(right.x - foot.x, right.y - foot.y)
+      )[0];
+      leg.word = word || null;
+      leg.footX = word ? word.x : foot.x;
+      leg.footY = word ? word.y : foot.y;
       leg.stepping = false;
+      if (word) {
+        crawlerContacts.push({ range: word.range, until: performance.now() + 1400, gait: leg.gait });
+      }
     });
   };
 
@@ -296,10 +361,19 @@ if (!crawlerReducedMotion.matches) {
 
   const startCrawlerStep = (leg, now, stride) => {
     const target = getIdealFoot(leg, stride);
+    const hip = rotateCrawlerPoint(leg.forward * 0.58, leg.side * 8 * crawlerScale);
+    const available = crawlerWords.filter((word) =>
+      Math.hypot(word.x - target.x, word.y - target.y) < 38 * crawlerScale &&
+      Math.hypot(word.x - hip.x, word.y - hip.y) < 80 * crawlerScale &&
+      !crawlerLegs.some((other) => other !== leg && other.word === word)
+    ).sort((left, right) =>
+      Math.hypot(left.x - target.x, left.y - target.y) - Math.hypot(right.x - target.x, right.y - target.y)
+    );
+    leg.word = available[0] || null;
     leg.fromX = leg.footX;
     leg.fromY = leg.footY;
-    leg.toX = target.x;
-    leg.toY = target.y;
+    leg.toX = leg.word ? leg.word.x : target.x;
+    leg.toY = leg.word ? leg.word.y : target.y;
     leg.stepStarted = now;
     leg.stepping = true;
   };
@@ -318,6 +392,9 @@ if (!crawlerReducedMotion.matches) {
 
       if (progress >= 1) {
         leg.stepping = false;
+        if (leg.word?.range.startContainer.isConnected) {
+          crawlerContacts.push({ range: leg.word.range, until: now + 1400, gait: leg.gait });
+        }
       }
     });
 
@@ -365,6 +442,25 @@ if (!crawlerReducedMotion.matches) {
 
   const drawCyberCrawler = (now, moving) => {
     crawlerContext.clearRect(0, 0, window.innerWidth, window.innerHeight);
+    crawlerContext.shadowBlur = 0;
+    for (let index = crawlerContacts.length - 1; index >= 0; index -= 1) {
+      const contact = crawlerContacts[index];
+      if (contact.until <= now || !contact.range.startContainer.isConnected) {
+        crawlerContacts.splice(index, 1);
+        continue;
+      }
+      const rect = contact.range.getBoundingClientRect();
+      const opacity = Math.min(1, (contact.until - now) / 600);
+      crawlerContext.fillStyle = contact.gait
+        ? `rgba(255, 78, 167, ${opacity * 0.28})`
+        : `rgba(72, 236, 255, ${opacity * 0.3})`;
+      crawlerContext.fillRect(rect.left - 2, rect.top, rect.width + 4, rect.height);
+      crawlerContext.strokeStyle = contact.gait
+        ? `rgba(255, 78, 167, ${opacity * 0.85})`
+        : `rgba(72, 236, 255, ${opacity * 0.85})`;
+      crawlerContext.lineWidth = 1;
+      crawlerContext.strokeRect(rect.left - 2, rect.top, rect.width + 4, rect.height);
+    }
     crawlerContext.lineCap = "round";
     crawlerContext.lineJoin = "round";
 
@@ -428,6 +524,7 @@ if (!crawlerReducedMotion.matches) {
   };
 
   const animateCyberCrawler = (now) => {
+    refreshCrawlerWords(now);
     const elapsed = Math.min((now - crawlerState.lastFrame) / 1000, 0.05);
     crawlerState.lastFrame = now;
     const deltaX = crawlerState.targetX - crawlerState.x;
@@ -483,6 +580,29 @@ if (!crawlerReducedMotion.matches) {
   }, { passive: true });
 
   window.addEventListener("resize", resizeCrawlerCanvas);
+  window.addEventListener("scroll", () => {
+    const shift = window.scrollY - crawlerScrollY;
+    crawlerScrollY = window.scrollY;
+    crawlerWordsUpdated = 0;
+    crawlerLegs.forEach((leg) => {
+      leg.footY -= shift;
+      leg.fromY -= shift;
+      leg.toY -= shift;
+    });
+    if (Math.abs(shift) > 80) {
+      plantCrawlerLegs();
+    }
+    chooseCrawlerTarget(performance.now());
+  }, { passive: true });
+  refreshCrawlerWords(performance.now() + 700);
+  if (crawlerWords.length) {
+    const entryWord = crawlerWords.slice().sort((left, right) =>
+      Math.hypot(left.x - window.innerWidth * 0.4, left.y - window.innerHeight * 0.7) -
+      Math.hypot(right.x - window.innerWidth * 0.4, right.y - window.innerHeight * 0.7)
+    )[0];
+    crawlerState.x = clampCrawlerPoint(entryWord.x, 58, window.innerWidth - 58);
+    crawlerState.y = clampCrawlerPoint(entryWord.y, 76, window.innerHeight - 58);
+  }
   resizeCrawlerCanvas();
   chooseCrawlerTarget(performance.now());
   window.requestAnimationFrame(animateCyberCrawler);
