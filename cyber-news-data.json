@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-02T06:05:39.872622+00:00",
+  "generatedAt": "2026-10-02T13:05:09.350138+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
+      "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T12:23:15+00:00",
+      "description": "OpenAI parted ways with three safety researchers after finding they mishandled sensitive information, reportedly tied to infrastructure architecture.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvjuuIAEhjBjrbXQna97zki-AKSZ9hVcu2CHSFRronvsVxEcHsfg66bldy7UzBETlNj1wTjKhkE11aFSmOxTjmR-XVp7qwzM2rBM745vy0Jy2n_CDoWQowbrzcQ7pVMubxWXNxVhOptHQiV5nMSGf24ZpI2wdpr40A0ez16cO3IH6peI6A2L07_UuOHbaJ/s1700-nu-rw-lo-l85-e365/openai-servers.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Crypto Scammers Hijack Microsoft\u2019s Official X Account",
+      "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-02T11:46:10+00:00",
+      "description": "Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/X-Twitter.jpeg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
+      "url": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T11:30:00+00:00",
+      "description": "Exposure-based board reporting maps attack paths across security tools and ties critical assets to financial risk and quarterly trends.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0hKMtHvRqPQiVRgaUAvYQ1XOUA_EToiZ3Tx-v7pSvbqwlnoo7qr5jQ_5KJuYpRFW0MzE3bLPePNT-rn4m8bEz7eTMVysO0OcfFwNKKFgKIo6tiT0JKKauf9MFxYTet3LiqJ2lXxfxVuKzRIPloaGR-_bOUEXOz_-ONc3AXfHKZV-PhAW8wEfayC-iwZE/s1700-nu-rw-lo-l85-e365/ciso-ready.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "In Rare Move, Alleged Iranian State Hacker Extradited to US",
+      "url": "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-02T11:14:34+00:00",
+      "description": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Warlock Expands SharePoint Exploitation in Critical Infrastructure Attacks",
+      "url": "https://www.securityweek.com/warlock-expands-sharepoint-exploitation-in-critical-infrastructure-attacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-02T09:34:41+00:00",
+      "description": "The China-based hacking group has been exploiting SharePoint vulnerabilities since July 2025.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/06/SharePoint-Ransomware-attack.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "AI Agents Aimed SQL Injection at US and Canadian Government Sites",
+      "url": "https://www.securityweek.com/ai-agents-aimed-sql-injection-at-us-and-canadian-government-sites/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-02T08:38:46+00:00",
+      "description": "The attacks targeted the US Department of Education and Library and Archives Canada, and researchers linked some agents to OpenAI.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/rogue-AI-artificial-intelligence.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Android 17 Advanced Protection Locks Accessibility Services to Verified Accessibility Tools",
+      "url": "https://thehackernews.com/2026/10/android-17-advanced-protection-locks.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T08:01:30+00:00",
+      "description": "Android 17 limits accessibility service access under Advanced Protection to verified Accessibility Tools, blocking a major malware abuse path.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5MS0sgdeAX_o_HWccABZaieMupy9x1vp2YHXeUfCod9bQMOAfEufGcm59eXhz4cQnwur_AjUhL1ER6FkR4nacwK2pn8K8ojfyZ254B_1Jfjk1OXwBi4VzqhPXgHukmnvVP5ItRHUeez8TcJVXvPlXRBIj0-h6YrI0rhn1G6RFyeZPT9jJf6y4Ng8D_1OD/s1700-nu-rw-lo-l85-e365/android17.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical FortiMail Zero-Day Flaw Exploited in Attacks Allows Unauthenticated Arbitrary File Writes",
+      "url": "https://thehackernews.com/2026/10/critical-fortimail-zero-day-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-02T05:49:50+00:00",
+      "description": "Fortinet says attackers are exploiting a FortiMail flaw that lets unauthenticated users write arbitrary files via crafted HTTP requests.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhcZguz-U3FsSD6t4YQ45EeFbgnWAy9lM28OAFydsLXZYzOS00aOD7pxUZcgvLMfMAO3SJV_Amu9SoNezLNQOvx823Z92CpqC5ow9XO3d7HJhEKZlwQt4H4Z7kirDwGcSrUyi1ONs_PuULNYjEjzae2c1mncDviOT9iqxD-PhmXCYpulTUNO2rtW5c9AAx/s1700-nu-rw-lo-l85-e365/fortimail.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
       "url": "https://isc.sans.edu/diary/rss/33390",
@@ -12,94 +100,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Zero Trust Creator Says Model Holds Firm Against AI-Assisted Attacks",
-      "url": "https://www.securityweek.com/zero-trust-creator-says-model-holds-firm-against-ai-assisted-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T18:00:00+00:00",
-      "description": "Fifteen years after coining the framework, John Kindervag insists zero trust still works in the AI era\u2014if you get the implementation right.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Zero-Trust-John-Kindervag.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Osavul Lands $10 Million to Spot Hostile Intent Across Cyber, Physical Domains",
-      "url": "https://www.securityweek.com/osavul-lands-10-million-to-spot-hostile-intent-across-cyber-physical-domains/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T17:16:41+00:00",
-      "description": "Hybrid risk intelligence company Osavul has raised $10 million in a Series A funding round led by 33N Ventures.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Police Arrest 16-Year-Old Suspected of Running KillSec, Seize Ransomware Leak Site and Servers",
-      "url": "https://thehackernews.com/2026/10/police-arrest-16-year-old-suspected-of.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T16:55:57+00:00",
-      "description": "European police arrested three KillSec suspects, seized its leak site and servers, and secured at least 110 TB of data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy6XYYOXNZNjc51viw5FvCk49pWIXCCRS6yr_hl0ZKdwhBWRfYrCQ7bM6AJZJdmI_W3AEz1V3X0DAP6k39KfgjlKFfB5JcFaKN9zzIl1-7c49Vnuaz55yhRXjdmY5K2kIPuY_-7624KyVHqkHzikJIi11iClljnXv_3i2X21JiRCMU8ElmiHiZdHVQ7ws/s1700-nu-rw-lo-l85-e365/killsec-ransomware.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T16:45:38+00:00",
-      "description": "This week in cybersecurity: AI-driven attacks, exposed secrets, old flaws, new exploit tricks, malware techniques, and security research worth knowing",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOZPv0LS8-qPBgL_d1m8BLNikw8psPt9qtB_HiFNoYnVwBacYvwz4DdEixukdlHcy7IXmUB9dI9E_Hcx48HJIL7sQzmDeextP-Y_tHO9SX51i_SditMkVsRgWxyMekufW3yZFn2jI9nf29y3JEM2a_yFv8iTLDb6d3r1roNsea_Yk5TWCiMcvkmE5ZbP6B/s1700-nu-rw-lo-l85-e365/oct-threatsday.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
-      "url": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T14:37:35+00:00",
-      "description": "SC WordPress malware rebuilds its backdoor from files, the database, and shared memory; fewer than 20 wpForo exploit attempts were seen since July 3.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbdAzWwJ7WC6PL7vtBZDUWfVyYu9iIBlT3X5gZn-Yl9aRuZAEeW3RjEU81RQWsvH_7og6v7-somVgG-fR35drKy6bxLMcHdpJQAi6ydXw-m3oMxZ1hlDC7kr8Wsu0dOfRt6ZLEasAsYNGq-pzmQiBNWMbEBzqa9zYdAu16NtgIfDe3PpOvCVzGj6yFqmet/s1700-nu-rw-lo-l85-e365/wordpress-exploit.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hacker Conversations: Rob Juncker, a Knock at the Door and a Moral Compass",
-      "url": "https://www.securityweek.com/hacker-conversations-rob-juncker-a-knock-at-the-door-and-a-moral-compass/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T14:30:00+00:00",
-      "description": "Rob Juncker is chief product and technology officer at Mimecast. Is he a hacker? \u201cUnequivocally yes,\u201d he says.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/Hacker-Conversations-Rob-Juncker.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Enterprises Struggle to Prepare for AI and Quantum Threats, PwC Says",
-      "url": "https://www.securityweek.com/enterprises-struggle-to-prepare-for-ai-and-quantum-threats-pwc-says/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-01T14:30:00+00:00",
-      "description": "PwC\u2019s survey found that only 22% of leaders would use fully autonomous AI for cyber defense, while just 21% are implementing quantum-resistant security measures.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
-      "url": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-01T11:45:00+00:00",
-      "description": "How financial institutions can improve software supply chain security without impacting their business-critical systems",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwJsDvv_9QEV86mmDsIBPpGS2Kt2o8WPu2L6kUb9IExDqX-2lDKksEMMJp3NqFwDUqplX6JCeUpJfI_8rt_febX1CjMorRii_RpDccPPynWQHW_abdrNSWj774Ad0XH-RmiP-Lzki-Btsu6mh1cUsIffeSIOfUQ29qEJJwBTsaL-olM3GK18D2LYoxJlg/s1700-nu-rw-lo-l85-e365/chain.png.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
