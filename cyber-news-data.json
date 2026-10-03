@@ -1,49 +1,38 @@
 {
-  "generatedAt": "2026-10-03T09:23:51.431171+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-03T14:24:15.321094+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-03T04:11:34+00:00",
-      "description": "GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-AI-Gateway-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Dell Container Storage Flaws Let Unauthenticated Attackers Gain Full Administrative Control",
-      "url": "https://cybersecuritynews.com/critical-dell-container-storage-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-03T03:52:58+00:00",
-      "description": "Dell fixed critical Container Storage Modules flaws that could let unauthenticated attackers gain full administrative control.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Dell-Container-Storage-Flaws-Let-Unauthenticated-Attackers-Gain-Full-Administrative-Control-1.webp",
+      "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
+      "url": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-03T11:45:00+00:00",
+      "description": "doxx.net\u2019s new ADN platform prevents agentic misadventure while the agent is operating under the user\u2019s authority.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Citrix NetScaler Keeps Rebooting Following the 0-Day Patch",
-      "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-patch/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-03T02:41:43+00:00",
-      "description": "Citrix NetScaler customers are reporting repeated appliance reboots after installing build 14.1-73.37, the emergency update released for two zero-day flaws under active attack.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Citrix-NetScaler-0-Day-Patch.webp",
+      "title": "Fortra Patches Critical Vulnerabilities in BoKS",
+      "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-03T11:34:00+00:00",
+      "description": "The bugs could lead to authentication bypass, shell command execution, and memory corruption.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/application-security-vulnerabilities.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Debian has Patched 1,313 Flaws in Massive Update Leading to DoS and Privilege Escalation Attacks",
-      "url": "https://cybersecuritynews.com/debian-1313-security-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-03T02:23:53+00:00",
-      "description": "Debian has released a major Linux kernel security update covering 1,313 CVE entries, addressing flaws that could allow privilege escalation, denial of service, and information leaks. The fixes are available for Debian\u2019s stable release, Trixie, in Linux\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Debian-security-flaws.webp",
-      "topic": "Vulnerability",
+      "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+      "url": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-03T11:00:00+00:00",
+      "description": "Cybersecurity teams are shifting toward continuous control across identity, cloud, endpoints, telemetry, and human risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6JJFsgFmlQyQC0ZFye5jB8OydQuNv7BQYFdVh0meweGiJD5bXisFLalhMTHPTfkPkbOewEeAepAz9Pd1mOIRy_1q67d4J-ougj5reZ4j9PjmpzIgk7wAr8HGlY4Mk8o3js2s_6Wpa0z4IC55ozyl4Yc60OEFjU1U8FXz8562V3IYFnoikN16KsrVu1w/s1700-nu-rw-lo-l85-e365/py-report.jpg",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -99,39 +88,6 @@
       "description": "The dropper \u201ccarries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling",
-      "url": "https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-02T12:23:15+00:00",
-      "description": "OpenAI parted ways with three safety researchers after finding they mishandled sensitive information, reportedly tied to infrastructure architecture.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvjuuIAEhjBjrbXQna97zki-AKSZ9hVcu2CHSFRronvsVxEcHsfg66bldy7UzBETlNj1wTjKhkE11aFSmOxTjmR-XVp7qwzM2rBM745vy0Jy2n_CDoWQowbrzcQ7pVMubxWXNxVhOptHQiV5nMSGf24ZpI2wdpr40A0ez16cO3IH6peI6A2L07_UuOHbaJ/s1700-nu-rw-lo-l85-e365/openai-servers.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Crypto Scammers Hijack Microsoft\u2019s Official X Account",
-      "url": "https://www.securityweek.com/crypto-scammers-hijack-microsofts-official-x-account/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-02T11:46:10+00:00",
-      "description": "Hackers used the account, which has 13 million followers, to amplify a Clippy-themed cryptocurrency account.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/X-Twitter.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "In Rare Move, Alleged Iranian State Hacker Extradited to US",
-      "url": "https://www.securityweek.com/in-rare-move-iranian-hacker-accused-of-working-for-irgc-extradited-to-us/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-02T11:14:34+00:00",
-      "description": "Amir Barati, an alleged member of the Mabna Institute, was indicted for targeting universities, private organizations, and government entities in the US and abroad.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/03/Irianian-cyberattacks-hacks.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
