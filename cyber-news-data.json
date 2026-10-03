@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-03T00:42:23.297558+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-03T09:23:51.431171+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T04:11:34+00:00",
+      "description": "GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-AI-Gateway-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Dell Container Storage Flaws Let Unauthenticated Attackers Gain Full Administrative Control",
+      "url": "https://cybersecuritynews.com/critical-dell-container-storage-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T03:52:58+00:00",
+      "description": "Dell fixed critical Container Storage Modules flaws that could let unauthenticated attackers gain full administrative control.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Dell-Container-Storage-Flaws-Let-Unauthenticated-Attackers-Gain-Full-Administrative-Control-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Citrix NetScaler Keeps Rebooting Following the 0-Day Patch",
+      "url": "https://cybersecuritynews.com/citrix-netscaler-0-day-patch/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T02:41:43+00:00",
+      "description": "Citrix NetScaler customers are reporting repeated appliance reboots after installing build 14.1-73.37, the emergency update released for two zero-day flaws under active attack.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Citrix-NetScaler-0-Day-Patch.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Debian has Patched 1,313 Flaws in Massive Update Leading to DoS and Privilege Escalation Attacks",
+      "url": "https://cybersecuritynews.com/debian-1313-security-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T02:23:53+00:00",
+      "description": "Debian has released a major Linux kernel security update covering 1,313 CVE entries, addressing flaws that could allow privilege escalation, denial of service, and information leaks. The fixes are available for Debian\u2019s stable release, Trixie, in Linux\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Debian-security-flaws.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "<urlopen error timed out>"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
