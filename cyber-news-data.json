@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-03T14:24:15.321094+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-03T18:48:56.305395+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers",
+      "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T17:21:44+00:00",
+      "description": "A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ShinyHunters-Hacker-Helping-FBI.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Pushes New Exchange V2 Update After Discovering New Security Flaw",
+      "url": "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T14:59:30+00:00",
+      "description": "Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users\u2019 mailboxes within the same organization.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Reissues-Exchange-Server-Update.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
+      "url": "https://isc.sans.edu/diary/rss/33392",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-03T14:40:21+00:00",
+      "description": "YARA-X&#;x26;#;39;s 1.21.0 release brings 5 improvements and 4 bugfixes.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
+      "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-03T14:38:46+00:00",
+      "description": "MI5 says more than 100 U.K.-linked academics contributed to MSS-funded research via CGTRI, which it assesses as an MSS front.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8KoVLnFX9RE7BlsBeUJOBw_ZTBGsbwsb8-BY7UjzndcwMCcGmakXl6gOYzYAf_D46lO0rs6ud3i8PmehY4hbb4B8lcXCMUj4UtcZpzaox7_y3waVRwVPmRYvOd-dB5AaIXL3lmBAkQp0ZIwcES5__hiZlqeoqkp0IjqjRWe2mUUY1HiYVYVtK7bs9oPYJ/s1700-nu-rw-lo-l85-e365/china-fund.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
+      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-03T14:36:33+00:00",
+      "description": "Warlock exploited SharePoint flaws in attacks on at least four organizations, including two critical infrastructure operators.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCZSaqs29yWFrct8zgOikM9e4CS0xuAXppzGJ1tskKpKC2gbGuITsYlHYNcnXDMvrFpPuAVS_ZlyEF8Obp7Mgw7CUXe4UsKP3pNEvZWNfszKQVxogslYpoWBZG-QQbEvmS6SDcbgVtXiFFGIEjreD_HSkCYZTfcwL1Rt90qDbbPj946SbMX0FR5CEKRt_H/s1700-nu-rw-lo-l85-e365/sharepoint-ransomware.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
     {
       "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
       "url": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
@@ -36,6 +91,28 @@
       "kind": "News"
     },
     {
+      "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T04:11:34+00:00",
+      "description": "GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-AI-Gateway-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Dell Container Storage Flaws Let Unauthenticated Attackers Gain Full Administrative Control",
+      "url": "https://cybersecuritynews.com/critical-dell-container-storage-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T03:52:58+00:00",
+      "description": "Dell fixed critical Container Storage Modules flaws that could let unauthenticated attackers gain full administrative control.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Dell-Container-Storage-Flaws-Let-Unauthenticated-Attackers-Gain-Full-Administrative-Control-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
       "url": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
       "source": "The Hacker News",
@@ -44,28 +121,6 @@
       "description": "GitLab fixed CVE-2026-90970, a 9.9 AI Gateway flaw that could let logged-in Duo Agent Platform users run commands on self-hosted gateways.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXhnbLdlAtkMBrrXYLiOxfbEdXI4PrEIq6dy3SL8Xa5SzPF6if9sf8GGu4PtkUTI3EYQHqBde4cDp4Y60OjgQBmqtZHTlL_gvgvlxNSeZ6nrRnriOmH3m23vq7f2bpylilVl39c_X-RNpvYQlRrC91gU_oHbk6e_ZbZ-7_fglpsQCFoLFp3sHkcn44960/s1700-nu-rw-lo-l85-e365/gitlab-rce.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
-      "url": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-02T17:33:16+00:00",
-      "description": "China-nexus UAT-11587 targets Asian government and policy groups with Antino, a Rust backdoor that uses Microsoft 365 for C2.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE3s79KuB4kHE3Kf6kjA84HqdcQ2TTVyJCgIkLcSnpbMr6vCwjaLjJVE1KiXT2lZfcx_CbKlHjiX9PrEppf53uaTvQ_Vyicl447mGIkdz1ZOzmGR1hPJzgODM2J_lnsbKPhTBvvTgdDcSS4V1JzJ-feSpyJFDyDkKS0BfK7AXTCNWaL9DZ60tmWVysyVo0/s1700-nu-rw-lo-l85-e365/ms-cyber.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
-      "url": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-02T17:02:12+00:00",
-      "description": "Dell fixes six CSM flaws enabling authentication bypass, storage credential access, and cluster-wide privilege escalation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiypcfC3W6keUc31zSJympZfpI6eLwDhyphenhyphen4uy_0M3VFljfoSn2pjzBmS3yyAZTzILPxi_sXeOx2jyeu6mdSPKqjiFv7LAMd2mn6Q8GvIRq6yVXUoQm5MiXeEs96i9IT-ZCP2W7hAzR08B9JOuOJv8NNI7o7DfCSa7cplzrsT_x_0R0dPVSQxKmdLP8NvAsnp/s1700-nu-rw-lo-l85-e365/dell.jpg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -118,17 +173,6 @@
       "source": "SANS ISC",
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-10-01T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, September 30th, 2026 https://isc.sans.edu/podcastdetail/10116, (Wed, Sep 30th)",
-      "url": "https://isc.sans.edu/diary/rss/33384",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-09-30T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
