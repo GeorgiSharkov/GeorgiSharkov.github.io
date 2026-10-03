@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T20:06:40.768928+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-03T00:42:23.297558+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
@@ -47,28 +47,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Turned a Microsoft SQL Server Into a Command and Data Exfiltration Channel",
-      "url": "https://cybersecuritynews.com/hackers-turned-a-microsoft-sql-server/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-02T14:04:21+00:00",
-      "description": "Hackers abused a Microsoft SQL Server to run commands, steal credentials and source code, and move files in a Viva Aerobus-linked attack.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Turned-a-Microsoft-SQL-Server-Into-a-Command-and-Data-Exfiltration-Channel.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Poison Trusted Software Updates to Steal Developer and Cloud Credentials",
-      "url": "https://cybersecuritynews.com/hackers-poison-trusted-software-updates/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-02T13:43:28+00:00",
-      "description": "Hackers exploit trusted software updates to steal developer and cloud credentials through poisoned packages and compromised release pipelines.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Poison-Trusted-Software-Updates-to-Steal-Developer-and-Cloud-Credentials.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
       "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
       "source": "SecurityWeek",
@@ -77,28 +55,6 @@
       "description": "The dropper \u201ccarries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Red Hat Satellite Flaw Could Enable Root Password Theft and Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/red-hat-satellite-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-02T13:14:51+00:00",
-      "description": "Red Hat fixed a Satellite flaw exposing sensitive host data and potentially enabling command execution as the Foreman service account.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Red-Hat-Satellite-Vulnerability-Could-Enable-Root-Password-Theft-and-Code-Execution-Attacks-1.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Multiple Cpanel/WHM Vulnerabilities Allow Arbitrary Command Execution On Server",
-      "url": "https://cybersecuritynews.com/multiple-cpanel-whm-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-02T13:10:34+00:00",
-      "description": "Multiple cPanel & WHM flaws could let attackers execute scripts in admin sessions or arbitrary commands as root.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-CpanelWHM-Vulnerabilities-allows-arbitrary-Command-Execution-On-Server-1.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "<urlopen error timed out>"
     },
     {
       "name": "Krebs on Security",
