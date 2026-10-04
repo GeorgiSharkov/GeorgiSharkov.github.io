@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-04T00:00:12.248009+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-04T06:15:52.303038+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000",
+      "url": "https://cybersecuritynews.com/kvm-zero-day-vm-escape/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-04T02:05:48+00:00",
+      "description": "Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/KVM-Zero-Day-VM-Escape.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers",
+      "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T17:21:44+00:00",
+      "description": "A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ShinyHunters-Hacker-Helping-FBI.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Pushes New Exchange V2 Update After Discovering New Security Flaw",
+      "url": "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T14:59:30+00:00",
+      "description": "Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users\u2019 mailboxes within the same organization.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Reissues-Exchange-Server-Update.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
       "url": "https://isc.sans.edu/diary/rss/33392",
@@ -66,6 +99,17 @@
       "description": "Cybersecurity teams are shifting toward continuous control across identity, cloud, endpoints, telemetry, and human risk.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6JJFsgFmlQyQC0ZFye5jB8OydQuNv7BQYFdVh0meweGiJD5bXisFLalhMTHPTfkPkbOewEeAepAz9Pd1mOIRy_1q67d4J-ougj5reZ4j9PjmpzIgk7wAr8HGlY4Mk8o3js2s_6Wpa0z4IC55ozyl4Yc60OEFjU1U8FXz8562V3IYFnoikN16KsrVu1w/s1700-nu-rw-lo-l85-e365/py-report.jpg",
       "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Critical GitLab AI Gateway Vulnerability Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/gitlab-ai-gateway-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-03T04:11:34+00:00",
+      "description": "GitLab has released urgent security updates for a critical AI Gateway vulnerability that could allow authenticated attackers to execute commands remotely. Tracked as CVE-2026-90970, the flaw carries a CVSS score of 9.9 and affects self-hosted deployments\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-AI-Gateway-Vulnerability.webp",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
