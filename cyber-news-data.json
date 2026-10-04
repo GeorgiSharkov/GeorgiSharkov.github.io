@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-04T12:48:56.361249+00:00",
+  "generatedAt": "2026-10-04T18:45:45.163325+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
+      "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-04T14:57:25+00:00",
+      "description": "The announcement comes after Trump hosted top executives of AI companies at the White House last week.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "South Korean President Orders Full Security Checks After Financial Sector Hacks",
       "url": "https://cybersecuritynews.com/south-korean-president-orders-full-security-checks/",
@@ -143,17 +154,6 @@
       "description": "Noteworthy stories that might have slipped under the radar: Kiteworks patches over 100 vulnerabilities, Microsoft publishes 2026 Digital Defense Report, AI finds 24 Android app flaws.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "macOS Users Targeted by Fake Zoom Installer Carrying CloudSyncD Backdoor",
-      "url": "https://www.securityweek.com/macos-users-targeted-by-fake-zoom-installer-carrying-cloudsyncd-backdoor/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-02T13:15:00+00:00",
-      "description": "The dropper \u201ccarries a complete universal Mach-O inside itself, roughly 756 KB in the development build, and extracts it at runtime.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
