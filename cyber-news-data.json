@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-05T15:12:20.090999+00:00",
+  "generatedAt": "2026-10-05T22:09:14.189518+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+      "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-05T16:21:52+00:00",
+      "description": "Microsoft patches CVE-2026-96940, which lets authenticated attackers read other users' Exchange mailboxes within the same organization.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBNa12GUjRngANug2kbws6i9X_HPN2PRVbOcxr7GtaXMKq9PloaCTD7DuYC8zZIcrg5Wa-F5pDv9y-00EMX4QWvovMz-ZWK5vNZ-gkIdEA7UiZQ1SqBCZof411VOQt6nQrvZCYxZpmzPA3hUeFia9KVP45Q1J1OPkiIH_Fhy5hoiOo9z6eYw1H16RgvKs5/s1700-nu-rw-lo-l85-e365/ms-emails.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Malicious HEIC Images Can Trigger Remote Code Execution on WordPress Servers",
+      "url": "https://cybersecuritynews.com/malicious-heic-images/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-05T15:20:02+00:00",
+      "description": "A malicious HEIC image can exploit libheif through WordPress uploads, enabling remote code execution on vulnerable servers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Malicious-HEIC-Images-Can-Trigger-Remote-Code-Execution-on-WordPress-Servers.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "16 Suspects Detained in Timor-Leste for Japanese Police Impersonation Scam",
       "url": "https://cybersecuritynews.com/timor-leste/",
@@ -58,17 +80,6 @@
       "kind": "News"
     },
     {
-      "title": "CISA Warns of Citrix NetScaler Vulnerability Actively Exploited in Attacks",
-      "url": "https://cybersecuritynews.com/cisa-citrix-netscaler-vulnerability-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-05T13:44:50+00:00",
-      "description": "CISA added Citrix NetScaler flaw CVE-2026-88779 to its KEV catalog after confirming active exploitation in NetScaler ADC and Gateway.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CISA-Warns-of-Citrix-NetScaler-Vulnerability-Actively-Exploited-in-Attacks-1.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
       "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
       "source": "SecurityWeek",
@@ -121,17 +132,6 @@
       "description": "CVE-2026-61500 allows attackers to recover the session-cookie signing key and gain administrative access and RCE.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
-      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-05T10:38:50+00:00",
-      "description": "Apple plans tighter macOS Full Disk Access controls after AI agent use exposed risks to files, messages, mail, and browsing data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDBg5lUcW7uXfKt2vo4Pq5MQUxOty2Xq3pApCIyhUAuSpTzu1jR_CGkNNS2UkAKxYvqk4KCyP1Ehr0PYcW6xVolcSuSdfRPx4rSDDnkuAKaCkgBii_l7kH-s9u7oEhyK2FpvAnaTRWDV48t9XBXEv-MpUIWhBaZYIBx3CFY_zSUXxdw-3C5rB_30Y0VEtf/s1700-nu-rw-lo-l85-e365/macos-ai.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
