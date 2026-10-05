@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2026-10-05T06:08:31.799535+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-05T15:12:20.090999+00:00",
+  "count": 20,
   "stories": [
     {
-      "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
-      "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+      "title": "16 Suspects Detained in Timor-Leste for Japanese Police Impersonation Scam",
+      "url": "https://cybersecuritynews.com/timor-leste/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-05T15:09:43+00:00",
+      "description": "Timor-Leste detained 16 people accused of running phone scams targeting Japan, using fake police uniforms and staged backgrounds.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/16-Suspects-Detained-in-Timor-Leste-for-Japanese-Police-Impersonation-Scam.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Narrows Open Source Bug Bounty Amid Wave of Invalid Automated Reports",
+      "url": "https://www.securityweek.com/google-narrows-open-source-bug-bounty-amid-wave-of-invalid-automated-reports/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-05T05:14:48+00:00",
-      "description": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
+      "publishedAt": "2026-10-05T14:26:00+00:00",
+      "description": "Google has temporarily stopped accepting product vulnerability reports through its Open Source Software Vulnerability Reward Program (OSS VRP).",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/vulnerability-software-bug.webp",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-05T14:20:43+00:00",
+      "description": "Catch up on this week\u2019s biggest cyber threats, including exploited zero-days, AI-related data leaks, Spectre attacks, phishing tricks, and ransomware",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbylNkbHSjWFkh2Ms0FmUT7jm2Qp-l5l9XwzA-O0LeP6LLE2WY9Z5yTiZ6AjikPfdOuId00XC9R_m_HYap_zbOAxUpLNKMK8UAVGiQHr-1zb_IOLyuhyMo_dhlqB5SM6p9b5qabPdThNFnyaHBznmq3H66qlbHxPAzCSuA_glVaWuKcJy51sOkoZp7BIuf/s1700-nu-rw-lo-l85-e365/infosec-recap.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Researcher Infiltrates Lazarus Group\u2019s Crypto Laundering Network After $1.5B Bybit Hack",
+      "url": "https://cybersecuritynews.com/zachxbt-infiltrates-lazarus-group/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-05T14:10:04+00:00",
+      "description": "Blockchain investigator ZachXBT says he infiltrated a Chinese crypto laundering network linked to North Korea\u2019s Lazarus Group after the $1.5 billion Bybit hack.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ZachXBT-Infiltrates-Lazarus-Group.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Zammad Zero-Day Chain Lets AI Agent Hijack Sessions, Execute Code and Escalate to Root",
+      "url": "https://cybersecuritynews.com/zammad-zero-day/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-05T14:07:34+00:00",
+      "description": "An AI agent exploited two Zammad flaws to breach DIVD, gain root access, and steal volunteer email addresses within seconds.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Zammad-Zero-Day-Chain-Lets-AI-Agent-Hijack-Sessions-Execute-Code-and-Escalate-to-Root.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Citrix NetScaler Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/cisa-citrix-netscaler-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-05T13:44:50+00:00",
+      "description": "CISA added Citrix NetScaler flaw CVE-2026-88779 to its KEV catalog after confirming active exploitation in NetScaler ADC and Gateway.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CISA-Warns-of-Citrix-NetScaler-Vulnerability-Actively-Exploited-in-Attacks-1.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Linux Backdoor Abuses STUN Protocol, Exploits Dozens of Flaws",
+      "url": "https://www.securityweek.com/linux-backdoor-abuses-stun-protocol-exploits-dozens-of-flaws/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-05T13:00:00+00:00",
+      "description": "ClingSTUN operates as a back-connect proxy backdoor, sets up persistence, and contains exploits for self-propagation.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Linux-malware.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "250,000 Impacted by Data Breaches at New Jersey, Texas Healthcare Firms",
+      "url": "https://www.securityweek.com/250000-impacted-by-data-breaches-at-new-jersey-texas-healthcare-firms/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-05T12:35:15+00:00",
+      "description": "Hackers stole patient information from Clover Health Investments and AngMar Management Services in July.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-05T11:55:00+00:00",
+      "description": "GitGuardian found 28.65 million new hardcoded secrets in public GitHub commits in 2025, up 34% year over year.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcMENqm_uSfWzk7VlgN5LXTaqUnYGOAelJ9aFsc6s57oUV43awGRScfhyphenhyphenaOYpv1eWkCfunH00lWMH6uUS9sUav8nBmwSHh9w_e3VL1F5AvjF9tpbUeFHCu6ohHZbqOqujA75PEZo_DbtWTv1NtQOKLwaIwJvGZw8rdFDEMcCm_0DvIOfeVPzW8ITMmVwg/s1700-nu-rw-lo-l85-e365/git.gif",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+      "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-05T11:46:25+00:00",
+      "description": "Realtek Jungle SDK exploit attempts deliver Cling botnet in some attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeczuQyi5eCbsZFxILJKWiHZ8_JC8gnKqr2sExCgq_Dk-7879VVbd8qcA475L-uEn3X30CIyqn-iDilE7Sl9T5FM3XGFPU6LbyE7KUH8OpWTjlirCFq8EaY-MuielVGOXFuECLLpehX9R8HQrniMulUnAUd2f_uRbZ1Fget8hT0Tf19c1N-q06dtFpAZPj/s1700-nu-rw-lo-l85-e365/botnet.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Exploitation Hits Rejetto HFS Vulnerability Discovered by AI",
+      "url": "https://www.securityweek.com/exploitation-hits-rejetto-hfs-vulnerability-discovered-by-ai/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-05T11:00:05+00:00",
+      "description": "CVE-2026-61500 allows attackers to recover the session-cookie signing key and gain administrative access and RCE.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/NPM-code-software-development.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+      "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-05T10:38:50+00:00",
+      "description": "Apple plans tighter macOS Full Disk Access controls after AI agent use exposed risks to files, messages, mail, and browsing data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDBg5lUcW7uXfKt2vo4Pq5MQUxOty2Xq3pApCIyhUAuSpTzu1jR_CGkNNS2UkAKxYvqk4KCyP1Ehr0PYcW6xVolcSuSdfRPx4rSDDnkuAKaCkgBii_l7kH-s9u7oEhyK2FpvAnaTRWDV48t9XBXEv-MpUIWhBaZYIBx3CFY_zSUXxdw-3C5rB_30Y0VEtf/s1700-nu-rw-lo-l85-e365/macos-ai.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -36,17 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
-      "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-04T14:57:25+00:00",
-      "description": "The announcement comes after Trump hosted top executives of AI companies at the White House last week.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "User Agent Strings Curiosities, (Sun, Oct 4th)",
       "url": "https://isc.sans.edu/diary/rss/33394",
       "source": "SANS ISC",
@@ -58,28 +168,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
-      "url": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-04T07:22:05+00:00",
-      "description": "A suspected ShinyHunters member known as Rey was reportedly detained in Jordan and is said to be cooperating with the FBI.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkLNgAfzHHwGX_2W-2iGuIMpKX_ZOPM0xFYMFDUp5kxBp3XfaRHV0EUwHsbvh45q8wVSYvblXfru1NzEKovvRqXHDNA82iWx6IbY_ihCrucvF5Bkr1JU8bVJ9KDzUi0wG1GRYvyPNb-1LcXTWzBhqLS5kRo9o2zf3DnqqcTNqk5gTtfbdC57w5SZnomx5U/s1700-nu-rw-lo-l85-e365/shinyhunters-arrested.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "China-Aligned TA419 Targets U.S. AI Policy Experts With Microsoft AitM Phishing",
-      "url": "https://thehackernews.com/2026/10/china-aligned-ta419-targets-us-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-04T07:20:32+00:00",
-      "description": "TA419 targets U.S. AI policy experts with reply-triggered AitM phishing that captures Microsoft credentials and session cookies.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR69JnEBkz8N6_Nd5K75adIWh8xVmxW8FB21gsKinx9HBzgXQSLWL5sYdKMe9d-cbTSrgc45ZtYhmvhLZJII1H-tPXKn4AiRvj4KrU8ayeZskmMCfiV-mUc2pz10MumKyXKH6ybJ2RsVj9ZZ67l-4u0Y2f5Dl3kX7PLEzCAqogMfHTSfD7gM7QypHi-yos/s1700-nu-rw-lo-l85-e365/china-ms.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "YARA-X 1.21.0 Release, (Sat, Oct 3rd)",
       "url": "https://isc.sans.edu/diary/rss/33392",
       "source": "SANS ISC",
@@ -89,50 +177,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "MI5 Says China\u2019s MSS Funded Research Involving 100+ U.K.-Linked Academics",
-      "url": "https://thehackernews.com/2026/10/mi5-says-chinas-mss-funded-research.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-03T14:38:46+00:00",
-      "description": "MI5 says more than 100 U.K.-linked academics contributed to MSS-funded research via CGTRI, which it assesses as an MSS front.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8KoVLnFX9RE7BlsBeUJOBw_ZTBGsbwsb8-BY7UjzndcwMCcGmakXl6gOYzYAf_D46lO0rs6ud3i8PmehY4hbb4B8lcXCMUj4UtcZpzaox7_y3waVRwVPmRYvOd-dB5AaIXL3lmBAkQp0ZIwcES5__hiZlqeoqkp0IjqjRWe2mUUY1HiYVYVtK7bs9oPYJ/s1700-nu-rw-lo-l85-e365/china-fund.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Warlock Exploits SharePoint Flaws to Disable Security Tools and Deploy Ransomware",
-      "url": "https://thehackernews.com/2026/10/warlock-exploits-sharepoint-flaws-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-03T14:36:33+00:00",
-      "description": "Warlock exploited SharePoint flaws in attacks on at least four organizations, including two critical infrastructure operators.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCZSaqs29yWFrct8zgOikM9e4CS0xuAXppzGJ1tskKpKC2gbGuITsYlHYNcnXDMvrFpPuAVS_ZlyEF8Obp7Mgw7CUXe4UsKP3pNEvZWNfszKQVxogslYpoWBZG-QQbEvmS6SDcbgVtXiFFGIEjreD_HSkCYZTfcwL1Rt90qDbbPj946SbMX0FR5CEKRt_H/s1700-nu-rw-lo-l85-e365/sharepoint-ransomware.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "doxx.net Raises $38 Million to Prevent AI Agent-on-the-Internet Misadventures",
-      "url": "https://www.securityweek.com/doxx-net-raises-38-million-to-prevent-ai-agent-on-the-internet-misadventures/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-03T11:45:00+00:00",
-      "description": "doxx.net\u2019s new ADN platform prevents agentic misadventure while the agent is operating under the user\u2019s authority.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Fortra Patches Critical Vulnerabilities in BoKS",
-      "url": "https://www.securityweek.com/fortra-patches-critical-vulnerabilities-in-boks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-03T11:34:00+00:00",
-      "description": "The bugs could lead to authentication bypass, shell command execution, and memory corruption.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/application-security-vulnerabilities.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
