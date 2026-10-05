@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-05T00:07:42.394218+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-05T06:08:31.799535+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Exploitation of Citrix NetScaler Zero-Day Hits Appliances Patched Days Earlier",
+      "url": "https://www.securityweek.com/exploitation-of-citrix-netscaler-zero-day-hits-appliances-patched-days-earlier/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-05T05:14:48+00:00",
+      "description": "Citrix has confirmed that a new zero-day vulnerability, CVE-2026-88779, emerged just days after two other exploited flaws were patched.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
+      "url": "https://isc.sans.edu/diary/rss/33398",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-05T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33396",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-05T00:15:00+00:00",
+      "description": "For an experiment, I created a script [1] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield\u2026",
+      "image": "",
+      "topic": "Threat intelligence",
+      "kind": "DFIR"
+    },
     {
       "title": "Trump Names National Intelligence Director Jay Clayton to Lead a New Federal AI Task Force",
       "url": "https://www.securityweek.com/trump-names-national-intelligence-director-jay-clayton-to-lead-a-new-federal-ai-task-force/",
@@ -11,17 +44,6 @@
       "description": "The announcement comes after Trump hosted top executives of AI companies at the White House last week.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "South Korean President Orders Full Security Checks After Financial Sector Hacks",
-      "url": "https://cybersecuritynews.com/south-korean-president-orders-full-security-checks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-04T11:11:14+00:00",
-      "description": "South Korean President Lee Jae Myung ordered a thorough investigation on October 4, 2026, after a series of financial sector data breaches exposed customer and worker information.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/South-Korean-President-Orders-Full-Security-Checks.webp",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -55,39 +77,6 @@
       "description": "TA419 targets U.S. AI policy experts with reply-triggered AitM phishing that captures Microsoft credentials and session cookies.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR69JnEBkz8N6_Nd5K75adIWh8xVmxW8FB21gsKinx9HBzgXQSLWL5sYdKMe9d-cbTSrgc45ZtYhmvhLZJII1H-tPXKn4AiRvj4KrU8ayeZskmMCfiV-mUc2pz10MumKyXKH6ybJ2RsVj9ZZ67l-4u0Y2f5Dl3kX7PLEzCAqogMfHTSfD7gM7QypHi-yos/s1700-nu-rw-lo-l85-e365/china-ms.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Vercel Confirms KVM Zero-Day VM Escape, Awards Researcher $50,000",
-      "url": "https://cybersecuritynews.com/kvm-zero-day-vm-escape/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-04T02:05:48+00:00",
-      "description": "Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host. The discovery came through the Vercel Sandbox bug\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "ShinyHunters Member Detained in Jordan, Reportedly Helping FBI Identify Fellow Hackers",
-      "url": "https://cybersecuritynews.com/shinyhunters-hacker-helping-fbi/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-03T17:21:44+00:00",
-      "description": "A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group. Reuters reported on October 3 that three people familiar with the matter confirmed the detention of Saif al-Din Khader,\u2026",
-      "image": "",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Pushes New Exchange V2 Update After Discovering New Security Flaw",
-      "url": "https://cybersecuritynews.com/microsoft-reissues-exchange-server-update/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-03T14:59:30+00:00",
-      "description": "Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users\u2019 mailboxes within the same organization. Tracked as CVE-2026\u201396940, the vulnerability could expose email messages\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -144,39 +133,6 @@
       "image": "https://www.securityweek.com/wp-content/uploads/2025/01/application-security-vulnerabilities.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
-    },
-    {
-      "title": "In Other News: $15K iCloud Spoofing Bugs, AI Policy Experts Phished, Adblocker Spies on AI Chats",
-      "url": "https://www.securityweek.com/in-other-news-15k-icloud-spoofing-bugs-ai-policy-experts-phished-adblocker-spies-on-ai-chats/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-02T14:30:00+00:00",
-      "description": "Noteworthy stories that might have slipped under the radar: Kiteworks patches over 100 vulnerabilities, Microsoft publishes 2026 Digital Defense Report, AI finds 24 Android app flaws.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "ISC Stormcast For Friday, October 2nd, 2026 https://isc.sans.edu/podcastdetail/10120, (Fri, Oct 2nd)",
-      "url": "https://isc.sans.edu/diary/rss/33390",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-02T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ScreenConnect Client (Ab)used by Attackers, (Thu, Oct 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33388",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-01T05:32:13+00:00",
-      "description": "Threat Actors do not always use top-notch techniques or very complex malware to perform their attacks. Sometimes, they just abuse of existing applications...",
-      "image": "",
-      "topic": "Malware",
-      "kind": "DFIR"
     },
     {
       "title": "Dutch Police Arrest \u2018Reformed\u2019 Hacker in Shiny Hunters Investigation",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
