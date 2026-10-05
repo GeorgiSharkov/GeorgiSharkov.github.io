@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-04T18:45:45.163325+00:00",
+  "generatedAt": "2026-10-05T00:07:42.394218+00:00",
   "count": 20,
   "stories": [
     {
@@ -63,8 +63,8 @@
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-10-04T02:05:48+00:00",
-      "description": "Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/KVM-Zero-Day-VM-Escape.webp",
+      "description": "Vercel has confirmed a KVM zero-day vulnerability after security researcher Paulos Yibelo reported a full virtual machine escape that, he says, allows code inside a guest to gain root access on the host. The discovery came through the Vercel Sandbox bug\u2026",
+      "image": "",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -74,8 +74,8 @@
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-10-03T17:21:44+00:00",
-      "description": "A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ShinyHunters-Hacker-Helping-FBI.webp",
+      "description": "A suspected ShinyHunters member has been detained in Jordan and is reportedly helping the FBI identify other hackers linked to the group. Reuters reported on October 3 that three people familiar with the matter confirmed the detention of Saif al-Din Khader,\u2026",
+      "image": "",
       "topic": "News",
       "kind": "News"
     },
@@ -85,9 +85,9 @@
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
       "publishedAt": "2026-10-03T14:59:30+00:00",
-      "description": "Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users\u2019 mailboxes within the same organization.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Reissues-Exchange-Server-Update.webp",
-      "topic": "News",
+      "description": "Microsoft has released September 2026 V2 security updates to fix an Exchange Server flaw that lets authenticated attackers access other users\u2019 mailboxes within the same organization. Tracked as CVE-2026\u201396940, the vulnerability could expose email messages\u2026",
+      "image": "",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
