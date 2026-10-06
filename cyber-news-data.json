@@ -1,49 +1,27 @@
 {
-  "generatedAt": "2026-10-06T16:13:27.747068+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-06T22:45:42.485985+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-06T16:02:50+00:00",
-      "description": "Four Apache Struts flaws could allow remote code execution, denial of service, or sensitive data disclosure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Apache-Struts-vulnerabilities-Enables-remote-code-execution-Attacks-2.webp",
-      "topic": "News",
+      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-06T18:38:55+00:00",
+      "description": "A human-operated phishing platform impersonates AI ad tools to capture credentials and MFA codes through browser-in-the-browser login windows.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOD8Nta3AzEJA8JDouSAdwr3Obls6VzxBZwHHerzX0eZDKBTqWzVrAmZbX8VrvxKN1QNooX5GVAahBTaqPkWWcqRCO12MDDHWjboFPyw5FU1BaH07_wQhZkUNOROwHLFneZKKBY8oxjPTs0CpBF52UrLjeloGDwolt4udNn-ojCQNvvGvmo1TXdS3wNJlw/s1700-nu-rw-lo-l85-e365/muse.png",
+      "topic": "Identity",
       "kind": "News"
     },
     {
-      "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer\u2019s Windows Network",
-      "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-06T15:50:56+00:00",
-      "description": "Former engineer Daniel Rhyne was sentenced to 32 months for sabotaging his employer\u2019s Windows network and demanding crypto ransom.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Former-Infrastructure-Engineer-Sentenced-for-Sabotaging-Employers-Windows-Network-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "GitHub Copilot CLI Vulnerability Lets Attackers Steal Developer Secrets Using Encrypted Prompt Injection",
-      "url": "https://cybersecuritynews.com/github-copilot-cli-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-06T15:49:18+00:00",
-      "description": "A new GitHub Copilot CLI finding that could allow an attacker-controlled web page to guide the coding agent into reading local developer files and sending their contents to a remote server. The technique, called Cryptographic Context Injection (CCI), hides\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitHub-Copilot-CLI-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "From Telemetry to Defense: How SOC and MSSP Leaders Can Build Intelligence-Led Threat Monitoring",
-      "url": "https://cybersecuritynews.com/how-soc-and-mssp-leaders-can-build-intelligence-led-threat-monitoring/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-06T15:45:40+00:00",
-      "description": "Every function in a security operations center, from alert triage to incident response, depends on how well threats are monitored.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/From-Telemetry-to-Defense-How-SOC-and-MSSP-Leaders-Can-Build-Intelligence-Led-Threat-Monitoring-.webp",
-      "topic": "News",
+      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
+      "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-06T18:24:25+00:00",
+      "description": "Linux backdoors targeting South Korea and Taiwan disguise processes and traffic as trusted email services to evade detection.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42ncE2ZMHIbAm_fj5U9fqCYUvPwhyUiNbARM3CC5IxhnMXjIZ2ENa99UDGeaZqGPlqn53A7y7Nkz1ZxzzyykKxEb4GT0jxWhrar9Q5yPmBN1NL6599HRdbzbLSYf3WPuU7tkkY5eOsvhAT9dw-24DXuusztPyRr2H66840cWZx17MZ0B-rB877W19bgX1/s1700-nu-rw-lo-l85-e365/linux-spam.jpg",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -124,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
-      "url": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-06T11:02:30+00:00",
-      "description": "OX found no marketplace vetting across 15,465 indexed MCP servers, including expired domains and hosts routed through consumer tunnels.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd9ijWk9zlAlr4Ogzkb3OyeREM6GDYe0AZx5DQ-TmdUPN5ogFXFM0Z9Lh-qdG1CAIVdBX7cV7NSfgEk_yBtaTFCPdIjAo23ixCfHqa4j1m8FY2cRfmdcrd4GZNn-5QQScWonyO6GDRx6RA1ZRcuW9tAmCOFG9u7KQbWx3fftJ921w8rUqHx4ya_5CFuJM/s1700-nu-rw-lo-l85-e365/ox.png.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
       "url": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/",
       "source": "SecurityWeek",
@@ -143,17 +110,6 @@
       "description": "Significant cybersecurity M&A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
-      "url": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-06T09:21:47+00:00",
-      "description": "Google temporarily stops OSS VRP product vulnerability reports after a surge in automated submissions, most of which it says are invalid.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCWoelMB7H9bFZJdDV7vP5M3a1ByvpHs8ub2SrBGOM1gz6r0Fg9cV1fplW5Q6mNBFtRlW99wDCSC-_6_sZBw0l4HsFvUDP5cCH2zmgcF4NK5wCOInv05K4hH2WMlKCA_G_psX4zB_hUcXid2MWx5fGDjaJvD1YjWBechwUdrhXK51dJYZ3PGsu0JQcT1U/s1700-nu-rw-lo-l85-e365/google-bug-bounty.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
