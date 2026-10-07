@@ -1,27 +1,93 @@
 {
-  "generatedAt": "2026-10-07T06:22:44.315684+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-07T13:48:59.304164+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "EY Data Breach Exposes Goldman Sachs and Man Group Clients\u2019 Data",
-      "url": "https://cybersecuritynews.com/ey-data-breach-exposed/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-07T04:38:26+00:00",
-      "description": "Ernst & Young (EY) has warned that a cyber breach exposed personal and financial information belonging to individuals linked to Goldman Sachs and Man Group. The incident affected a platform used to support EY\u2019s tax services, rather than the financial firms\u2019\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/EY-Data-Breach-Exposed.webp",
-      "topic": "Data breach",
+      "title": "Qilin Ransomware Suspect Arrested in Japan, Extradited to Germany",
+      "url": "https://www.securityweek.com/qilin-ransomware-suspect-arrested-in-japan-extradited-to-germany/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-07T13:47:12+00:00",
+      "description": "The individual was detained in May and has been extradited to Germany to face hacking charges.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Russian-hacking.jpeg",
+      "topic": "Ransomware",
       "kind": "News"
     },
     {
-      "title": "Anthropic Opens Claude Access to Red Teams and Verified Cyber Defenders",
-      "url": "https://cybersecuritynews.com/anthropic-cyber-verification-program/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-07T03:26:17+00:00",
-      "description": "Anthropic has expanded its Cyber Verification Program, giving verified security professionals access to advanced Claude models with fewer cybersecurity restrictions.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Anthropic-Cyber-Verification-Program.webp",
+      "title": "Hadrian Raises $40 Million to Expand Autonomous Offensive Security Platform",
+      "url": "https://www.securityweek.com/hadrian-raises-40-million-to-expand-autonomous-offensive-security-platform/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-07T13:06:10+00:00",
+      "description": "Hadrian offers an agentic offensive security platform that allows defenders to operate at the same speed as attackers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-funding.jpeg",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Advantest Discloses Data Breach Months After Ransomware Attack",
+      "url": "https://www.securityweek.com/advantest-discloses-data-breach-months-after-ransomware-attack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-07T12:37:24+00:00",
+      "description": "The Japanese chip testing giant said hackers stole personal information from its servers in the February 2026 cyberattack.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Advantest.jpeg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+      "url": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-07T11:57:05+00:00",
+      "description": "Proofpoint says 79% of CISOs rank human risk as their biggest cyber vulnerability, while 78% view GenAI as a security risk in 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwlATRFpnJdFH1E6zK00EDXPizTTgy_gfddNnBMuBwwMsatfG5_PB-S_S9uGdDW-MuTX8HzGLataU3yDJ6MdkTBN8fwntNgZIIIy9ljbQLD-6Httyo9ouWJ7rF-KjfIKTn5rMSlBURgeV9JyIPZKDg4jWpd4I0vhCifCzisPojOQcCH_QEpWCvO8WmydA/s1700-nu-rw-lo-l85-e365/Proofpoint.png",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+      "url": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-07T11:56:56+00:00",
+      "description": "FBI and USSS warn FortiBleed remains active, using stolen credentials and traffic sniffing to harvest Fortinet authentication data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQZeKQIcHTVLgqnHpZYN73YclFawl51QxpykrKEb97sAJjA8qtN7FaUJaS0jLMeSS29cTB0nR_yFzsITX_e5SI8Xa8BfM1LDOGsEEEpDmVC8YNqOcEYEuep1UbHovyLlxrwRmYZ3FrbaaKq9eKwICiUTkkPleIibOHdWnbV5cpwYPCrHQasrTxVFA9seQ-/s1700-nu-rw-lo-l85-e365/forti-admin.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+      "url": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-07T11:49:26+00:00",
+      "description": "Attackers are exploiting an Atlassian Data Center flaw that enables unauthenticated access to specific webroot files.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEityRbZfy1N9Y0SuqWl7yeWTYMjeirrTbDx719fM65Be6yXOt2Zl0YweAi0hAfswNzV_LrHa4eFCpcCemC3FNwxZve4bPkSelQiRnCdXpZofAnI7Si96nULBV6i25jgFaZkEY1T3LuPRhj6QzTSsWHZtLuoH1zXlLKZN3WwSiKS7QoY_Zug0CtaaCGozT6N/s1700-nu-rw-lo-l85-e365/jira-attack.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+      "url": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-07T11:42:24+00:00",
+      "description": "Picus says agentic pentesting proves live attack paths but leaves timing and coverage gaps that require complementary validation methods.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO1QPuCVJ1H3gtD86nRRlfnM6eqqqaj0OebVAzFmzsFPWvzvQJhgkREoKOwTkm8c4tqQru3V3rxzEswwX_F_cjqz_v3CG1wNrLNblT0uror88ZssE0gIRR7YNbfDvOj3QTGdqpT1z7j2HFmWiZ-_lIN9FEaCsCt32Z0k0GvOiguuLRiuMPu4Tp-YdSlW8/s1700-nu-rw-lo-l85-e365/picus.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Chrome 155 Update Patches 247 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-155-update-patches-247-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-07T10:51:57+00:00",
+      "description": "Four critical-severity use-after-free defects were fixed in Chromecast, Browser, Navigation, and Track.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -36,72 +102,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona\u2019s Court System",
-      "url": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-07T01:32:58+00:00",
-      "description": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
-      "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-06T18:38:55+00:00",
-      "description": "A human-operated phishing platform impersonates AI ad tools to capture credentials and MFA codes through browser-in-the-browser login windows.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0zSahkV9zcg01XiHIrV4cYRCzxV9MLlvvX9vRW5e0Nd5Kg0aXGPgWR2oqqdHAAcrmm5r66m5Aj8VF9HYZtgTJv_X1HOaijWEoB_6m8ieYd-F9ytUtmn-1GgX4B-BWo6LXQgzVzr0nTiXsicD-3eTf02ZvrTwPsOCFt8yYGvuxTHfIYxwErOI1w99uekRz/s1700-nu-rw-lo-l85-e365/muse-ai.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Linux Backdoors Impersonate Email Security Tools to Evade Detection in Korea and Taiwan",
-      "url": "https://thehackernews.com/2026/10/linux-backdoors-impersonate-email.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-06T18:24:25+00:00",
-      "description": "Linux backdoors targeting South Korea and Taiwan disguise processes and traffic as trusted email services to evade detection.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42ncE2ZMHIbAm_fj5U9fqCYUvPwhyUiNbARM3CC5IxhnMXjIZ2ENa99UDGeaZqGPlqn53A7y7Nkz1ZxzzyykKxEb4GT0jxWhrar9Q5yPmBN1NL6599HRdbzbLSYf3WPuU7tkkY5eOsvhAT9dw-24DXuusztPyRr2H66840cWZx17MZ0B-rB877W19bgX1/s1700-nu-rw-lo-l85-e365/linux-spam.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-06T16:02:50+00:00",
-      "description": "Four Apache Struts flaws could allow remote code execution, denial of service, or sensitive data disclosure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Apache-Struts-vulnerabilities-Enables-remote-code-execution-Attacks-2.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer\u2019s Windows Network",
-      "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-06T15:50:56+00:00",
-      "description": "Former engineer Daniel Rhyne was sentenced to 32 months for sabotaging his employer\u2019s Windows network and demanding crypto ransom.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Former-Infrastructure-Engineer-Sentenced-for-Sabotaging-Employers-Windows-Network-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Blames Contractor\u2019s Missed Patch for ShinyHunters Breach",
-      "url": "https://www.securityweek.com/fbi-blames-contractors-missed-patch-for-shinyhunters-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-06T14:15:00+00:00",
-      "description": "The FBI has removed an Accenture contractor over a data breach that exposed personal information of thousands of bureau employees.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/hack.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
       "url": "https://isc.sans.edu/diary/rss/33400",
       "source": "SANS ISC",
@@ -113,39 +113,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "FBI Arrests \u2018Most Wanted\u2019 Developer of Ploutus ATM Malware",
-      "url": "https://www.securityweek.com/fbi-arrests-most-wanted-developer-of-ploutus-atm-malware/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-06T12:47:57+00:00",
-      "description": "An alleged leader of Tren de Aragua\u2019s ATM jackpotting activities, Canelon Aguirre was on the FBI\u2019s top 10 most wanted list since March 2026.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
-      "url": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-06T11:57:00+00:00",
-      "description": "Malicious spreadsheets can make LibreOffice and OpenOffice run Java code with Java enabled; LibreOffice has fixed the flaw.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYVdFxWk-OP9_vpIdzp0S9ffqMNnyAMbRWKklSryVockcistDlpX5ZcfLGluaqpHqdsu_DoOaFq2J1z5jTVNatxS8aoQjMNS1PoEYOAZrj1V1Spdk67LUZgSlSPlqeEULSVSbHZfkCimWV56E2HKs_IUNrJaYFrPPq0YaXS2sEMBVZNJM0f2ydfUMFREw/s1700-nu-rw-lo-l85-e365/office-sheet.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Apple to Tighten Full Disk Access Controls in macOS Amid AI Risks",
-      "url": "https://www.securityweek.com/apple-to-tighten-full-disk-access-controls-in-macos-amid-ai-risks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-06T11:48:59+00:00",
-      "description": "Citing growing risks posed by more capable and autonomous AI agents, Apple will introduce additional controls.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/data-security-protection-file.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Tuesday, October 6th, 2026 https://isc.sans.edu/podcastdetail/10124, (Tue, Oct 6th)",
       "url": "https://isc.sans.edu/diary/rss/33402",
       "source": "SANS ISC",
@@ -155,17 +122,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
-      "url": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-06T11:26:25+00:00",
-      "description": "Wikimedia says rogue OpenAI agents edited wikis, tried to compromise Etherpad, and sent millions of automated requests to its APIs.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWN60cSxpzLhK9K0oXjbeGNCoMl79wSkfW1h7dVHHi3dQPeRx2QUvM9dNGF3qKELV9xwkn8N_FBHk0WgftQryFzkKWyEf0jGbPb6ffor00ZQQnVPSrSSWKDfL10Shpkm2Q_LRFb85BarRqvdDE8eIksiGSrRy6hk8CD2cGf4xIIALAbOZEfHWMHWc7LfhA/s1700-nu-rw-lo-l85-e365/wiki.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
