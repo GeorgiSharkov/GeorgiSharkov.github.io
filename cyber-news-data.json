@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-06T22:45:42.485985+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-07T06:22:44.315684+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "EY Data Breach Exposes Goldman Sachs and Man Group Clients\u2019 Data",
+      "url": "https://cybersecuritynews.com/ey-data-breach-exposed/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-07T04:38:26+00:00",
+      "description": "Ernst & Young (EY) has warned that a cyber breach exposed personal and financial information belonging to individuals linked to Goldman Sachs and Man Group. The incident affected a platform used to support EY\u2019s tax services, rather than the financial firms\u2019\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/EY-Data-Breach-Exposed.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Anthropic Opens Claude Access to Red Teams and Verified Cyber Defenders",
+      "url": "https://cybersecuritynews.com/anthropic-cyber-verification-program/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-07T03:26:17+00:00",
+      "description": "Anthropic has expanded its Cyber Verification Program, giving verified security professionals access to advanced Claude models with fewer cybersecurity restrictions.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Anthropic-Cyber-Verification-Program.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, October 7th, 2026 https://isc.sans.edu/podcastdetail/10126, (Wed, Oct 7th)",
+      "url": "https://isc.sans.edu/diary/rss/33404",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-07T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Personal Information for Over 1 Million People Stolen in a Cyberattack on Arizona\u2019s Court System",
+      "url": "https://www.securityweek.com/personal-information-for-over-1-million-people-stolen-in-a-cyberattack-on-arizonas-court-system/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-07T01:32:58+00:00",
+      "description": "The Arizona Supreme Court said the information was copied for people dating back as far as 30 years.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Fake ChatGPT, Gemini, and Claude Ad Portals Capture Credentials and MFA Codes",
       "url": "https://thehackernews.com/2026/10/fake-chatgpt-gemini-and-claude-ad.html",
@@ -9,7 +53,7 @@
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-10-06T18:38:55+00:00",
       "description": "A human-operated phishing platform impersonates AI ad tools to capture credentials and MFA codes through browser-in-the-browser login windows.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOD8Nta3AzEJA8JDouSAdwr3Obls6VzxBZwHHerzX0eZDKBTqWzVrAmZbX8VrvxKN1QNooX5GVAahBTaqPkWWcqRCO12MDDHWjboFPyw5FU1BaH07_wQhZkUNOROwHLFneZKKBY8oxjPTs0CpBF52UrLjeloGDwolt4udNn-ojCQNvvGvmo1TXdS3wNJlw/s1700-nu-rw-lo-l85-e365/muse.png",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0zSahkV9zcg01XiHIrV4cYRCzxV9MLlvvX9vRW5e0Nd5Kg0aXGPgWR2oqqdHAAcrmm5r66m5Aj8VF9HYZtgTJv_X1HOaijWEoB_6m8ieYd-F9ytUtmn-1GgX4B-BWo6LXQgzVzr0nTiXsicD-3eTf02ZvrTwPsOCFt8yYGvuxTHfIYxwErOI1w99uekRz/s1700-nu-rw-lo-l85-e365/muse-ai.jpg",
       "topic": "Identity",
       "kind": "News"
     },
@@ -22,6 +66,28 @@
       "description": "Linux backdoors targeting South Korea and Taiwan disguise processes and traffic as trusted email services to evade detection.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj42ncE2ZMHIbAm_fj5U9fqCYUvPwhyUiNbARM3CC5IxhnMXjIZ2ENa99UDGeaZqGPlqn53A7y7Nkz1ZxzzyykKxEb4GT0jxWhrar9Q5yPmBN1NL6599HRdbzbLSYf3WPuU7tkkY5eOsvhAT9dw-24DXuusztPyRr2H66840cWZx17MZ0B-rB877W19bgX1/s1700-nu-rw-lo-l85-e365/linux-spam.jpg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Apache Struts Vulnerabilities Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/apache-struts-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-06T16:02:50+00:00",
+      "description": "Four Apache Struts flaws could allow remote code execution, denial of service, or sensitive data disclosure.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Apache-Struts-vulnerabilities-Enables-remote-code-execution-Attacks-2.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Former Infrastructure Engineer Sentenced for Sabotaging Employer\u2019s Windows Network",
+      "url": "https://cybersecuritynews.com/former-infrastructure-engineer-sentenced/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-06T15:50:56+00:00",
+      "description": "Former engineer Daniel Rhyne was sentenced to 32 months for sabotaging his employer\u2019s Windows network and demanding crypto ransom.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Former-Infrastructure-Engineer-Sentenced-for-Sabotaging-Employers-Windows-Network-1.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -102,17 +168,6 @@
       "kind": "News"
     },
     {
-      "title": "Cybersecurity M&A Roundup: 39 Deals Announced in September 2026",
-      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-39-deals-announced-in-september-2026/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-06T11:01:35+00:00",
-      "description": "Significant cybersecurity M&A deals announced by Dragos, IBM, Palo Alto Networks, Kiteworks, and Upwind.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Monday, October 5th, 2026 https://isc.sans.edu/podcastdetail/10122, (Mon, Oct 5th)",
       "url": "https://isc.sans.edu/diary/rss/33398",
       "source": "SANS ISC",
@@ -121,17 +176,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33396",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-05T00:15:00+00:00",
-      "description": "For an experiment, I created a script [1] that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor. Those TTY logs are sent daily at the end of each day to the DShield\u2026",
-      "image": "",
-      "topic": "Threat intelligence",
       "kind": "DFIR"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
