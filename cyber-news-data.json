@@ -1,7 +1,117 @@
 {
-  "generatedAt": "2026-10-09T10:52:15.771751+00:00",
+  "generatedAt": "2026-10-09T18:29:13.942453+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
+      "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-09T17:15:43+00:00",
+      "description": "A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AnyDesk-Linux-Flaw.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",
+      "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-09T16:38:01+00:00",
+      "description": "A new GhostAction campaign has compromised 346 GitHub repositories after threat actors used two hijacked maintainer accounts to add a fake \u201csecurity audit\u201d workflow designed to steal CI/CD secrets, cloud keys, API tokens, and credentials stored in\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GhostAction-Attack.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-09T16:29:55+00:00",
+      "description": "P7 DarkSword adds on-device keychain and crypto wallet data theft to the iOS exploit kit, alongside two-way C2 communication.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT-SCb1qpP1Z0zyo_WOtyHzQKUiqJ3RudpC9uowSePmGcLZ9sPHcE-lvDGMZTHeB7YckgDmaBA775L13GvrYHl_gAVSg46-5sUJWzcA7Q3ec5h8WIuKO5l0Td2CCk5nlSvNByqPL22qlTNwHms3rbdXsJYoEe7gRqHiqmM8DHtvEkKniOP4Q70Dq_5Dr8I/s1700-nu-rw-lo-l85-e365/ios.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories",
+      "url": "https://cybersecuritynews.com/agentic-ai-red-team-checklist/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-09T16:06:56+00:00",
+      "description": "A free agentic AI red-team checklist offers 222 tests across 20 attack categories to assess autonomous AI systems beyond prompt injection.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/New-Agentic-AI-Red-Team-Checklist-Adds-222-Tests-Across-20-Attack-Categories.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access",
+      "url": "https://cybersecuritynews.com/castlestealer-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-09T14:47:33+00:00",
+      "description": "CastleStealer upgrades target Windows users, bypassing browser encryption, executing remote commands and stealing sensitive data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CastleStealer-Malware-Uses-Browser-Protection-Bypass-and-Remote-Shell-to-Expand-Attacker-Access.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+      "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-09T13:22:53+00:00",
+      "description": "Four more U.S. states sued TP-Link over allegedly misleading claims about router security and China ties, as 21 attorneys general contacted the FCC.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigXm446RUyCxv1-oRtdkXFCb2Hax0UsQEnanQtli1OViTiFpjV4Jb96qpsy94Td6DK6LDrre8q2masVzeA9X1hQE8ct3TEChlzZmNTaqux1CDT52o1A_6cuQYY4-inbvKDNYN4rqTGNrmrit-YcGBZbTppW5RUxNvcom2OV9pS8jU8twPWsj_Vtwgjqvg/s1700-nu-rw-lo-l85-e365/tp.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+      "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-09T12:59:22+00:00",
+      "description": "A public exploit for AnyDesk Linux 8.0.2 demonstrates pre-auth root command execution over direct TCP connections on port 7070.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUnGcAOHQNX9naCpXjsvEAI4YXmS_pbFwgn9i_YTjR8esP-PpNXc0s-jOWo3r_M4S-an0mnZA4PwDjt3lOihJqWP60TMj3F37iIno8hynwj5xXex2Voy3Khj3QraiYO7oyeEgNtZtjB5q-FYXg9E0hNk93q7mTKdhBdPNGr0p1I35R0wxuY0IOmAlG_E/s1700-nu-rw-lo-l85-e365/anyrun.gif",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+      "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-09T12:47:28+00:00",
+      "description": "Anthropic's opt-in OSS Scanner offers free, periodic AI vulnerability scans for open-source projects, with no human review required for reports",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiio2imi6QlJLQlD8KAZaktPeycFFCAWdkRp7q1TNwNHKUibXYACipc5GG2rDcZtmUR8TftkRHNTrdEXLXsGxcGoTDrTY5Eye77n1OFyeFbHP-VGUTwlhIoaHNoMGVIsUWBk07kSc-Gi3y_U0OuS-6gWBjYJEj8pxJVQ9lkEJfI_we3rVvZtAMXp0i8qs7t/s1700-nu-rw-lo-l85-e365/oss-scanner.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
+      "url": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-09T12:03:50+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: Tensorlake npm SDK compromised, Empire Market co-founder gets 40 years, exposed NVIDIA GPU monitors leak telemetry.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Google Domains Impacted by Recent ccTLD Hijacks",
+      "url": "https://www.securityweek.com/google-domains-impacted-by-recent-cctld-domain-hijacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-09T11:43:14+00:00",
+      "description": "Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Underminr-DNS-vulnerability.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
       "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
@@ -11,17 +121,6 @@
       "description": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "MATCHBOIL Malware Uses Cloudflare-Hidden C2 Servers to Deliver Backdoor Payloads",
-      "url": "https://cybersecuritynews.com/matchboil-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T10:10:47+00:00",
-      "description": "MATCHBOIL malware, linked to UAC-0099, hides C2 servers behind Cloudflare to deliver backdoors targeting Ukrainian organizations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/MATCHBOIL-Malware-Uses-Cloudflare-Hidden-C2-Servers-to-Deliver-Backdoor-Payloads.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -36,94 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "PoC Released for Telegram Desktop Flaw Enabling One-Click File Account Takeover",
-      "url": "https://cybersecuritynews.com/poc-released-for-telegram-desktop-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T09:54:02+00:00",
-      "description": "A public PoC exposes a Telegram Desktop flaw that enables local file theft and account takeover via crafted links.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PoC-Released-for-Telegram-Desktop-Flaw-Enabling-One-Click-File-Theft-and-Account-Takeover.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Top 10 Best Container Image Scanning Tools in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-container-image-scanning-tools/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T09:28:55+00:00",
-      "description": "CVE counts are despair metrics. We ranked 2026\u2019s 10 best container image scanners \u2014 Trivy leads free, Sysdig and Wiz add context, Chainguard ends it.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Container-Image-Scanning-Tools.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-      "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T09:03:24+00:00",
-      "description": "A GoBalance signing flaw lets attackers recover Tor-format .onion private keys from public descriptors and hijack affected site addresses.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUJ8xcgqF85kQru4JEuCv6OipwHlff6IEp3r1zhFOY9tYpbwEeWYSqzPTILX4uqM97Cc9ZfNfb3HB4lZbecN48fqKgKryAL60KqqZU4HmdfTMsRYaDcFjNL7aE8vk7G0D_-mqY_B2Jk_3kXMsx2ABpgbWixg1GHZ2l7V0MSzqtEWnYZ_ymkOTf0j8yq2c/s1700-nu-rw-lo-l85-e365/onion.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New Anthropic OSS Scanner Tool to Scan Open-source Repositories for Vulnerabilities",
-      "url": "https://cybersecuritynews.com/anthropic-oss-scanner/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T08:52:12+00:00",
-      "description": "Anthropic has introduced OSS Scanner, a free service that checks critical open-source repositories for security vulnerabilities and sends findings directly to project maintainers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Anthropic-OSS-Scanner.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "US Disrupts Chinese State-Sponsored Hacking Tools",
-      "url": "https://www.securityweek.com/us-disrupts-chinese-state-sponsored-hacking-tools/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-09T08:36:37+00:00",
-      "description": "Flax Typhoon and other APTs used MicroScan and FishHub to scan and hack US and foreign critical infrastructure.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Flax-Typhoon-disrupted.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
-      "url": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T08:26:17+00:00",
-      "description": "Three teams demonstrated remote exploits against fully patched Pixel 10 phones at Pwn2Own Ireland, earning $562,500 in total.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqGob0G-EHmqSYe9ZFWu_Pqg2ZivxomC2c4TSsW_k2yx0eZClRf8rgYVhDJTUrrhyzKr8yQr00rjzvVCRc7EsZjELELmKTWVxzLLsvx0DV5Q0rLWGd1eczFcVKTIBweBiuxIpfnB9HnT-1_DPUpxqagt4sXvjLvPiY1bZOz36oJnXV84KoOHVW8ZYY8es/s1700-nu-rw-lo-l85-e365/pwn2own.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic Fast-Tracks AI Bug Reports to OSS Maintainers, Taps 11 Firms for OT Security",
-      "url": "https://www.securityweek.com/anthropic-fast-tracks-ai-bug-reports-to-oss-maintainers-taps-11-firms-for-ot-security/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-09T08:19:33+00:00",
-      "description": "OSS Scanner sends unreviewed, model-generated vulnerability reports to open source maintainers that opt in.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Claude-Mythos.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
-      "url": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T08:11:33+00:00",
-      "description": "Citrix patched CVE-2026-107406, a critical NetScaler memory overflow that could allow RCE or DoS in deployments configured for SAML.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifRR7IQ4Ngqm8ANJ-DKwW60qeemJlrfrtvhaAwtpzW37_jAkbdctxJEqjw8k_m1KT32ryqoxa1dNYoEPG-E9xNwrbtXqbOjbzmgs3JM9RW68FZMNA8ky14QKTLpEfHop9A4xmXO46fxQaeXZMZzzMQ-qoIXLpMrr8Gbekn3cgNX5xc7bYvMRDYKjDeLf4o/s1700-nu-rw-lo-l85-e365/cit.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
       "url": "https://isc.sans.edu/diary/rss/33412",
       "source": "SANS ISC",
@@ -133,17 +144,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
-      "url": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T06:39:29+00:00",
-      "description": "U.S. authorities seized seven domains used by China-linked Flax Typhoon to scan networks and support intrusions into critical infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8SUqM44FwmONOU6YH1yTi4I8iGU_UiDk42WA2vB_qjqzCN3xtWE_AVyF2xXmlrP68vAXN3Pe_J6f8h9B6M8vgEmcImGt55z2FRc0638eta0V-P2FvbI6O0h3TWBaOlxw72-0cnMH91J2wNykDTSpQM8cvKYPbQ-YBrnb7e2xxSJuC7B9sU4hoGBXs8KnO/s1700-nu-rw-lo-l85-e365/china-hacker.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
