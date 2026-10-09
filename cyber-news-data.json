@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-09T18:29:13.942453+00:00",
+  "generatedAt": "2026-10-09T22:51:05.783514+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
+      "url": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-09T21:07:46+00:00",
+      "description": "The ChatGPT maker said the researchers",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+      "url": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-09T19:14:28+00:00",
+      "description": "More than 500 GitHub accounts committed credential-stealing workflows to tens of thousands of repositories since October 7, Socket says.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoJXBEAVVijhwsYs32WSejvp0sG3ej-Qoi7Z6qHDp8rY5IZENkKOpexrbbU1BNyiCbbB0ZXHjEDL-UYqu7CDpPpoYLiGXkuLCZJTItgP5XeLD_Sb1galPzOGtrFZigEM5CGUbwi9gcL_-XCYY6NKu9j5FiakIWn5s66DZE-OjrLZO3sMGka3YNFvGUecJT/s1700-nu-rw-lo-l85-e365/gitworm.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-09T17:45:26+00:00",
+      "description": "The FBI arrested another suspected ShinyHunters co-conspirator whom news reports link to the breach of its jobs portal.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTRCTw1H9kT8UEVJYmaRrhHvMQEYFuE2TZqB62Wnxz8y4RIYOMald4OYO45ujfgSp0ixhgWVKb3_nJzoKV6gNuu_cKaN2Evnr9u7FlnwsPTPm9TPpikkUR-83UL3VrknNBzITPeFC8f1PKpYMwvH_AbBAFWcbPl61vUXJK1m0xJ_C5QYDIAGi_Ya-A5Tc/s1700-nu-rw-lo-l85-e365/kash.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
       "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
@@ -69,28 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-      "url": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T12:59:22+00:00",
-      "description": "A public exploit for AnyDesk Linux 8.0.2 demonstrates pre-auth root command execution over direct TCP connections on port 7070.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnUnGcAOHQNX9naCpXjsvEAI4YXmS_pbFwgn9i_YTjR8esP-PpNXc0s-jOWo3r_M4S-an0mnZA4PwDjt3lOihJqWP60TMj3F37iIno8hynwj5xXex2Voy3Khj3QraiYO7oyeEgNtZtjB5q-FYXg9E0hNk93q7mTKdhBdPNGr0p1I35R0wxuY0IOmAlG_E/s1700-nu-rw-lo-l85-e365/anyrun.gif",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-      "url": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T12:47:28+00:00",
-      "description": "Anthropic's opt-in OSS Scanner offers free, periodic AI vulnerability scans for open-source projects, with no human review required for reports",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiio2imi6QlJLQlD8KAZaktPeycFFCAWdkRp7q1TNwNHKUibXYACipc5GG2rDcZtmUR8TftkRHNTrdEXLXsGxcGoTDrTY5Eye77n1OFyeFbHP-VGUTwlhIoaHNoMGVIsUWBk07kSc-Gi3y_U0OuS-6gWBjYJEj8pxJVQ9lkEJfI_we3rVvZtAMXp0i8qs7t/s1700-nu-rw-lo-l85-e365/oss-scanner.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
       "url": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
       "source": "SecurityWeek",
@@ -121,17 +132,6 @@
       "description": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Pre-Baked Firmware Malware Hits Budget Android Devices in 150+ Countries",
-      "url": "https://www.securityweek.com/pre-baked-firmware-malware-hits-budget-android-devices-in-150-countries/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-09T09:55:35+00:00",
-      "description": "Midnight Mimosa is the name given to a malware campaign primarily running preinstalled on low-cost Android devices.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
-      "topic": "Malware",
       "kind": "News"
     },
     {
