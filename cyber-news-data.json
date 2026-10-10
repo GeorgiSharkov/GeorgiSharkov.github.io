@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-09T22:51:05.783514+00:00",
+  "generatedAt": "2026-10-10T06:19:13.997092+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
+      "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T05:49:32+00:00",
+      "description": "Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Teams-QR-Code-Protection.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AT&T to Pay $177 Million After Two Massive Customer Data Breaches",
+      "url": "https://cybersecuritynews.com/att-to-pay-177-million/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T04:57:38+00:00",
+      "description": "AT&T will pay $177 million to settle lawsuits over two major customer data breaches disclosed in 2024, after a federal judge granted final approval on October 2, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ATT-to-Pay-177-Million.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-10-10T00:17:42+00:00",
+      "description": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands\u2026",
+      "image": "",
+      "topic": "Ransomware",
+      "kind": "Investigation"
+    },
     {
       "title": "OpenAI Fires 3 Safety Researchers in Dispute Over AI Risks",
       "url": "https://www.securityweek.com/openai-fires-3-safety-researchers-in-dispute-over-ai-risks/",
@@ -69,28 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "New Agentic AI Red Team Checklist Adds 222 Tests Across 20 Attack Categories",
-      "url": "https://cybersecuritynews.com/agentic-ai-red-team-checklist/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T16:06:56+00:00",
-      "description": "A free agentic AI red-team checklist offers 222 tests across 20 attack categories to assess autonomous AI systems beyond prompt injection.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/New-Agentic-AI-Red-Team-Checklist-Adds-222-Tests-Across-20-Attack-Categories.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CastleStealer Malware Uses Browser Protection Bypass and Remote Shell to Expand Attacker Access",
-      "url": "https://cybersecuritynews.com/castlestealer-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T14:47:33+00:00",
-      "description": "CastleStealer upgrades target Windows users, bypassing browser encryption, executing remote commands and stealing sensitive data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CastleStealer-Malware-Uses-Browser-Protection-Bypass-and-Remote-Shell-to-Expand-Attacker-Access.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
       "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
       "source": "The Hacker News",
@@ -130,7 +141,7 @@
       "sourceUrl": "https://www.securityweek.com/",
       "publishedAt": "2026-10-09T10:23:42+00:00",
       "description": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/coding-vulnerability-software-development.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -209,17 +220,6 @@
       "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay\u2026",
       "image": "",
       "topic": "Ransomware",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "url": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-09-16T18:14:22+00:00",
-      "description": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris\u2026",
-      "image": "",
-      "topic": "Investigation",
       "kind": "Investigation"
     }
   ],
