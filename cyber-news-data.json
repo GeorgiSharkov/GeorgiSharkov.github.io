@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T12:59:05.642228+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-10T19:28:38.247557+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
@@ -47,7 +47,51 @@
       "kind": "DFIR"
     },
     {
-      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
+      "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T08:08:45+00:00",
+      "description": "REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Reverse-Engineer-Anything-Tool.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
+      "url": "https://cybersecuritynews.com/agentcorruption-attack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T06:58:38+00:00",
+      "description": "A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AWS-AgentCorruption1.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
+      "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T05:49:32+00:00",
+      "description": "Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Teams-QR-Code-Protection.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AT&T to Pay $177 Million After Two Massive Customer Data Breaches",
+      "url": "https://cybersecuritynews.com/att-to-pay-177-million/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T04:57:38+00:00",
+      "description": "AT&T will pay $177 million to settle lawsuits over two major customer data breaches disclosed in 2024, after a federal judge granted final approval on October 2, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ATT-to-Pay-177-Million.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "source": "Krebs on Security",
       "sourceUrl": "https://krebsonsecurity.com/",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
