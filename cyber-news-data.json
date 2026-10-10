@@ -1,28 +1,50 @@
 {
-  "generatedAt": "2026-10-10T06:19:13.997092+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-10T12:59:05.642228+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
-      "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-10T05:49:32+00:00",
-      "description": "Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Teams-QR-Code-Protection.webp",
-      "topic": "News",
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-10T11:00:00+00:00",
+      "description": "Nearly 1,000 third-party products embedding AI sit outside SSO in studied environments, limiting default visibility for identity systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghemGbtxM2amUYAlxUPHPdMiyDMQJFWZeY-dDODRqCRD0phZXXQv0rrKHiOsLPW3t0Fq2XxvvFyCC-OmNs7TXhXXKSRVMPpC1GPKSUsyzN9t-W6L4jtiA2DUiTLgou4iyw0QXN-6Wfz0H2zWYGgC6-OxtlQrfb0PygOeBWwDnR11nl3Gl8W5pL07sExNc/s1700-nu-rw-lo-l85-e365/reco.gif",
+      "topic": "Identity",
       "kind": "News"
     },
     {
-      "title": "AT&T to Pay $177 Million After Two Massive Customer Data Breaches",
-      "url": "https://cybersecuritynews.com/att-to-pay-177-million/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-10T04:57:38+00:00",
-      "description": "AT&T will pay $177 million to settle lawsuits over two major customer data breaches disclosed in 2024, after a federal judge granted final approval on October 2, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ATT-to-Pay-177-Million.webp",
-      "topic": "Data breach",
+      "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
+      "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-10T11:00:00+00:00",
+      "description": "The former core infrastructure engineer deleted admin accounts, reset hundreds of passwords, and demanded 20 bitcoin to spare the company\u2019s servers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg",
+      "topic": "Ransomware",
       "kind": "News"
+    },
+    {
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-10T09:18:45+00:00",
+      "description": "Anthropic halted live internet access for internal evaluations after Claude exploited injection flaws and submitted an unauthorized form.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk6Q5kUrLA2Pfuqcghyphenhyphen1q3pECWSE72HYp9BB9GM5i3b_6XxNHMtwlR7yrPj_xTpcwoIaMy0vJt8A1g_D9Riz6JhbU5WyVPV69DFvk1oIzv2jp-eG-qbfx8lIHF2zX_XEAxz5gC51xn2hPUwYVh9thUuQslxqfIp1Pg3bgmWQYaXXW4LuUxTdUZzUo2R22C/s1700-nu-rw-lo-l85-e365/claude-internet.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33414",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-10T09:11:34+00:00",
+      "description": "The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
       "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
@@ -69,50 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "AnyDesk Linux Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
-      "url": "https://cybersecuritynews.com/anydesk-linux-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T17:15:43+00:00",
-      "description": "A working proof-of-concept for a serious AnyDesk Linux vulnerability that can let remote attackers run commands as root without authentication or user approval.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AnyDesk-Linux-Flaw.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New GhostAction Attack Compromises Hundreds of GitHub Repos to Steal Secrets",
-      "url": "https://cybersecuritynews.com/ghostaction-github-repo-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-09T16:38:01+00:00",
-      "description": "A new GhostAction campaign has compromised 346 GitHub repositories after threat actors used two hijacked maintainer accounts to add a fake \u201csecurity audit\u201d workflow designed to steal CI/CD secrets, cloud keys, API tokens, and credentials stored in\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GhostAction-Attack.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T16:29:55+00:00",
-      "description": "P7 DarkSword adds on-device keychain and crypto wallet data theft to the iOS exploit kit, alongside two-way C2 communication.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT-SCb1qpP1Z0zyo_WOtyHzQKUiqJ3RudpC9uowSePmGcLZ9sPHcE-lvDGMZTHeB7YckgDmaBA775L13GvrYHl_gAVSg46-5sUJWzcA7Q3ec5h8WIuKO5l0Td2CCk5nlSvNByqPL22qlTNwHms3rbdXsJYoEe7gRqHiqmM8DHtvEkKniOP4Q70Dq_5Dr8I/s1700-nu-rw-lo-l85-e365/ios.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-      "url": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T13:22:53+00:00",
-      "description": "Four more U.S. states sued TP-Link over allegedly misleading claims about router security and China ties, as 21 attorneys general contacted the FCC.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigXm446RUyCxv1-oRtdkXFCb2Hax0UsQEnanQtli1OViTiFpjV4Jb96qpsy94Td6DK6LDrre8q2masVzeA9X1hQE8ct3TEChlzZmNTaqux1CDT52o1A_6cuQYY4-inbvKDNYN4rqTGNrmrit-YcGBZbTppW5RUxNvcom2OV9pS8jU8twPWsj_Vtwgjqvg/s1700-nu-rw-lo-l85-e365/tp.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "In Other News: AI Used in Korean Bank Breaches, Poem-Guided Botnet, Empire Admin Gets 40 Years",
       "url": "https://www.securityweek.com/in-other-news-ai-used-in-korean-bank-breaches-poem-guided-botnet-empire-admin-gets-40-years/",
       "source": "SecurityWeek",
@@ -132,17 +110,6 @@
       "description": "Hackers hijacked the .gh, .sl, and .as ccTLDs and obtained HTTPS certificates for several Google domains.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Underminr-DNS-vulnerability.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Unpatched AhsayCBS Vulnerabilities Exploited in the Wild",
-      "url": "https://www.securityweek.com/unpatched-ahsaycbs-vulnerabilities-exploited-in-the-wild/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-09T10:23:42+00:00",
-      "description": "The flaws, CVE-2026-105133 and CVE-2026-105134, allow attackers to bypass authentication and inject OS commands.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/coding-vulnerability-software-development.jpeg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -176,17 +143,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
-      "url": "https://isc.sans.edu/diary/rss/33406",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-07T14:59:33+00:00",
-      "description": "On October 5th, Atlassian published patches&#;x26;#;xc2;&#;x26;#;xa0;for multiple products to fix an \"Arbitrary File Access\" vulnerability &#;x26;#;x5b;CVE-2026-21589&#;x26;#;x5d;. An attacker can read arbitrary files in the web application&#;x26;#;39;s\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
