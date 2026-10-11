@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-11T00:24:46.011742+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-11T06:20:49.796211+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-11T04:24:34+00:00",
+      "description": "P7 DarkSword adds on-device keychain and crypto wallet data theft to the iOS exploit kit, alongside two-way C2 communication.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT-SCb1qpP1Z0zyo_WOtyHzQKUiqJ3RudpC9uowSePmGcLZ9sPHcE-lvDGMZTHeB7YckgDmaBA775L13GvrYHl_gAVSg46-5sUJWzcA7Q3ec5h8WIuKO5l0Td2CCk5nlSvNByqPL22qlTNwHms3rbdXsJYoEe7gRqHiqmM8DHtvEkKniOP4Q70Dq_5Dr8I/s1700-nu-rw-lo-l85-e365/ios.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
       "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
@@ -47,50 +58,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
-      "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-10T08:08:45+00:00",
-      "description": "REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Reverse-Engineer-Anything-Tool.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "One Prompt Could Hijack AWS AI Agents and Steal Cloud Credentials",
-      "url": "https://cybersecuritynews.com/agentcorruption-attack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-10T06:58:38+00:00",
-      "description": "A single prompt sent to a public-facing AI agent could have exposed every Amazon Bedrock AgentCore agent in the same AWS account and region.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AWS-AgentCorruption1.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Teams to Warn Users About Malicious Links Hidden in QR Codes",
-      "url": "https://cybersecuritynews.com/teams-qr-code-protection/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-10T05:49:32+00:00",
-      "description": "Microsoft is extending Teams security to detect malicious links hidden inside QR codes and warn users after a message has been delivered.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Teams-QR-Code-Protection.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "AT&T to Pay $177 Million After Two Massive Customer Data Breaches",
-      "url": "https://cybersecuritynews.com/att-to-pay-177-million/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-10T04:57:38+00:00",
-      "description": "AT&T will pay $177 million to settle lawsuits over two major customer data breaches disclosed in 2024, after a federal judge granted final approval on October 2, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ATT-to-Pay-177-Million.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "source": "Krebs on Security",
@@ -121,17 +88,6 @@
       "description": "More than 500 GitHub accounts committed credential-stealing workflows to tens of thousands of repositories since October 7, Socket says.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoJXBEAVVijhwsYs32WSejvp0sG3ej-Qoi7Z6qHDp8rY5IZENkKOpexrbbU1BNyiCbbB0ZXHjEDL-UYqu7CDpPpoYLiGXkuLCZJTItgP5XeLD_Sb1galPzOGtrFZigEM5CGUbwi9gcL_-XCYY6NKu9j5FiakIWn5s66DZE-OjrLZO3sMGka3YNFvGUecJT/s1700-nu-rw-lo-l85-e365/gitworm.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-      "url": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-09T17:45:26+00:00",
-      "description": "The FBI arrested another suspected ShinyHunters co-conspirator whom news reports link to the breach of its jobs portal.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTRCTw1H9kT8UEVJYmaRrhHvMQEYFuE2TZqB62Wnxz8y4RIYOMald4OYO45ujfgSp0ixhgWVKb3_nJzoKV6gNuu_cKaN2Evnr9u7FlnwsPTPm9TPpikkUR-83UL3VrknNBzITPeFC8f1PKpYMwvH_AbBAFWcbPl61vUXJK1m0xJ_C5QYDIAGi_Ya-A5Tc/s1700-nu-rw-lo-l85-e365/kash.jpg",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
