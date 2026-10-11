@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-11T06:20:49.796211+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-11T13:25:24.025901+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Claude Exploited SQL Injection Flaws to Execute Commands on Real Servers",
+      "url": "https://cybersecuritynews.com/claude-exploited-software-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-11T13:02:21+00:00",
+      "description": "Anthropic has revealed that Claude models exploited software flaws, ran commands on real servers, submitted live forms, and bypassed web limits during internal tests.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-Exploited-Software-Flaws.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
       "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
@@ -11,6 +22,28 @@
       "description": "P7 DarkSword adds on-device keychain and crypto wallet data theft to the iOS exploit kit, alongside two-way C2 communication.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT-SCb1qpP1Z0zyo_WOtyHzQKUiqJ3RudpC9uowSePmGcLZ9sPHcE-lvDGMZTHeB7YckgDmaBA775L13GvrYHl_gAVSg46-5sUJWzcA7Q3ec5h8WIuKO5l0Td2CCk5nlSvNByqPL22qlTNwHms3rbdXsJYoEe7gRqHiqmM8DHtvEkKniOP4Q70Dq_5Dr8I/s1700-nu-rw-lo-l85-e365/ios.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "The Best Protected Website Builder in 2027: Which Platform Keeps Your Site Truly Safe [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-protected-website-builder/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-11T03:35:31+00:00",
+      "description": "Which website builder actually keeps your site safe in 2027? We ranked the 8 best-protected platforms \u2014 Wix leads overall, Shopify owns the commerce lane.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilJ8LOYpoZYZVa3ShkQCQb9yDKEBTGLNHahSN4W2FTYE_YR4sqhGtu_7ouJGsy3lBHg87PkkGRJusdwFviWyZs0wOaLeCaNuFZVNpKfoWeyfGRoNJe_PZaAgwqGURa23FKBdV1LhOIIEo_m2h_yUcwnXw5gSEqIKYUS2DYt8va52a05k6BoB58IFJSuTRc/s16000/Untitled%20design%20-%202025-08-20T171623.102.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Ransomware Actors Exploiting Palo Alto GlobalProtect Flaw for Stealthy VPN Access",
+      "url": "https://cybersecuritynews.com/palo-alto-globalprotect-flaw-vpn-access/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-11T03:21:01+00:00",
+      "description": "Ransomware groups are actively exploiting CVE-2026-0257, an authentication bypass affecting Palo Alto Networks PAN-OS GlobalProtect and Prisma Access.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Palo-Alto-GlobalProtect-Flaw-VPN-Access.webp",
+      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -56,6 +89,17 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
+    },
+    {
+      "title": "REA Tool Connects Claude Code and Cursor to Ghidra and IDA Pro to Reverse Engineer Anything",
+      "url": "https://cybersecuritynews.com/reverse-engineer-anything-tool/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-10T08:08:45+00:00",
+      "description": "REA, short for Reverse Engineer Anything, connects AI coding agents such as Claude Code and Cursor to tools that inspect software without its source code.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Reverse-Engineer-Anything-Tool.webp",
+      "topic": "News",
+      "kind": "News"
     },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
