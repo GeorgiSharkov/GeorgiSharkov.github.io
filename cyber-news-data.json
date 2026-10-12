@@ -1,38 +1,82 @@
 {
-  "generatedAt": "2026-10-12T11:16:54.607326+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-12T21:22:54.172811+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
-      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T11:05:43+00:00",
-      "description": "Hackers stole patients\u2019 personal information, including names, addresses, email addresses, dates of birth, and phone numbers.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/iRhythm.jpeg",
-      "topic": "Data breach",
+      "title": "\u26a1 Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-12T15:16:26+00:00",
+      "description": "This week's cybersecurity recap covers helpdesk zero-days, rogue HTTPS certificates, a ShinyHunters arrest, AI-fooling malware, and more major threats",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv97S5d5aYZZRto-_3AfPjT2TmAcI0KYQm4zY7cXyf1hz-GHIcmuL9wF5IIzmg3D7_F-yh6Z9qtamVwEikSKd3tuy5eGo_mN2Qw-O602x4Abiwuf5Q9G72nX4ZOeFRly8woPJ8EBn2USmFIdDUVg6P-3f8nUPDTbcqrAF5JWsu_NRWTvz6EF5YVVqPrbvY/s1700-nu-rw-lo-l85-e365/cy-cap.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Microsoft Exchange Admin Center Issue Blocks Web Portal Access to Admins With \u201cInternal Server Error\u201d",
-      "url": "https://cybersecuritynews.com/exchange-admin-center-issue/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T10:52:40+00:00",
-      "description": "Microsoft is investigating an Exchange admin center access issue that may prevent some administrators from opening the web portal used to manage Exchange Online.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Exchange-Admin-Center-Issue.webp",
+      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-12T14:25:00+00:00",
+      "description": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Nippon Columbia Malware Infection May Have Exposed 8.7 Million Customer Records",
-      "url": "https://cybersecuritynews.com/nippon-columbia-malware-infection-exposed/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T10:43:23+00:00",
-      "description": "Nippon Columbia Group reported a malware infection that may have exposed millions of Daiichi Kosho customer and employee records.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Nippon-Columbia-Malware-Infection-May-Have-Exposed-8.7-Million-Customer-Records.webp",
-      "topic": "Malware",
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-12T13:14:37+00:00",
+      "description": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-12T11:58:39+00:00",
+      "description": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Ubuntu-Vulnerabilities.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-12T11:55:00+00:00",
+      "description": "Personal AI agents can access work apps through OAuth grants, passwords, and API keys, while remaining outside managed agent consoles.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfIDT5M3MmWcxPZrWKZ_8EOy_WZY9iQHv9CQrAKcSZ7_EAadHyWzg9Aa5zQizJiwjNNLp6TDGShed4uvK0iq0d5TQHOV4wqah_jnbuJK-gFuObDCjO_bhwobK9PlO-CmK92s9PueGqpPI_puFGDAS_t4evoyjokLRlaXbql9cGN3d7POdsiXyUYvicVs/s1700-nu-rw-lo-l85-e365/bring.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-12T11:24:50+00:00",
+      "description": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/03/hacker_arrested-1-e1760348116204.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-12T11:21:48+00:00",
+      "description": "Ledger confirmed an unauthorized hardware implant in one CryptoBilis-sold device amid fund loss reports and paused sales through the reseller.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4nzJQQovkKtR-dl3ihW4VRAfIxiKwNwwVEHyH06we8iIkQbaxVqhryWIwB9MflLHfBYAd_opklCfnkLxg-GKqB2yt4CisdNcf2lRvOoaYHo9Pa6m1OWatzNsFHmY1ICBH_0P2XX4ykgFE7Gqviz0C0_8J0Qqz36_3gygDyHbot9z5obuYEHunIFsZmPQV/s1700-nu-rw-lo-l85-e365/ledgers.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -47,83 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "Casbaneiro Malware Hides C2 Activity Until Victims Visit Banking Websites",
-      "url": "https://cybersecuritynews.com/casbaneiro-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T10:34:53+00:00",
-      "description": "Casbaneiro malware is hiding its main command and control traffic until an infected user visits a targeted banking website. The Windows banking trojan combines phishing messages, location checks, staged downloads, and separate data collection servers to make\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Casbaneiro-Malware-Hides-C2-Activity-Until-Victims-Visit-Banking-Websites.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
-      "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T10:32:05+00:00",
-      "description": "The suspect is believed to be Edward Dubrovsky, a Canadian cybersecurity executive who was visiting the United States for a conference.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/cybercrime-hacker.jpeg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Arrests Another Suspected ShinyHunters Hacker Linked to FBIJobs.gov Breach",
-      "url": "https://cybersecuritynews.com/fbi-arrests-shinyhunters-hacker-linked-to-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T09:31:30+00:00",
-      "description": "The FBI arrested another alleged ShinyHunters co-conspirator linked to the FBIJobs.gov breach investigation.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FBI-Arrests-Another-Suspected-ShinyHunters-Hacker-Linked-to-FBIJobs.gov-Breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-12T09:02:14+00:00",
-      "description": "Bricksforge's CVE-2026-85097 is under active exploitation and allows unauthenticated PHP execution on affected WordPress sites.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrKeT1xQm0N8zjNRqWwsoqMm3kESRMqYnUJ9Wy6x9dEKlRVgZYDVqKqhu_2ZT7ZcCNd_RegNu2LtnUUQgL8R2OlK5LTyu9vKaCBRGTVrp05hGdB5wQrxFNi_eHnGxx-8yFR7maKT3tD_WBMVVBSeTyuku392tKdoOHIgvnj1tKQYU_Yq9anT5OKxUun4GW/s1700-nu-rw-lo-l85-e365/wp-php.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Critical SonicWall Vulnerability Exploited Days After Disclosure",
-      "url": "https://www.securityweek.com/critical-sonicwall-vulnerability-exploited-days-after-disclosure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T08:36:01+00:00",
-      "description": "CVE-2026-102255 is a pre-authenticated SSRF flaw that could allow attackers to perform unauthorized operations.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/08/SonicWall.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Let\u2019s Encrypt Cuts Default Certificate Validity to 64 Days Ahead of 45-Day Switch",
-      "url": "https://www.securityweek.com/lets-encrypt-cuts-default-certificate-validity-to-64-days-ahead-of-45-day-switch/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T07:53:28+00:00",
-      "description": "Beginning February 2027, all newly issued certificates will have a 64-day validity period by default.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/internet-routing-bgp.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-12T07:26:12+00:00",
-      "description": "CyberXero's Claude Code-assisted campaign accessed 429 WordPress admin panels and exfiltrated over 628,000 records from four Ukrainian organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCjQWPc2H2EsKbjYztfxdp2ffZz6TGQNJ9BuALJB44sWqXbCxEa61fu5CZ4w1rS0llVr3hQP4H_Vg5Fj87Jrs5IoUDpBmochh3rA5bMMr3V4hUT22HTPgLUeX9WhGIQuFm4zF-Kf3zIzSNsQGQlP_gkSSSV-hu5rp5CHX_1T83TOeWsYia_xbuHLlwAxDv/s1700-nu-rw-lo-l85-e365/claude-hacker.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Monday, October 12th, 2026 https://isc.sans.edu/podcastdetail/10132, (Mon, Oct 12th)",
       "url": "https://isc.sans.edu/diary/rss/33416",
       "source": "SANS ISC",
@@ -133,17 +100,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-      "url": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-11T04:24:34+00:00",
-      "description": "P7 DarkSword adds on-device keychain and crypto wallet data theft to the iOS exploit kit, alongside two-way C2 communication.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT-SCb1qpP1Z0zyo_WOtyHzQKUiqJ3RudpC9uowSePmGcLZ9sPHcE-lvDGMZTHeB7YckgDmaBA775L13GvrYHl_gAVSg46-5sUJWzcA7Q3ec5h8WIuKO5l0Td2CCk5nlSvNByqPL22qlTNwHms3rbdXsJYoEe7gRqHiqmM8DHtvEkKniOP4Q70Dq_5Dr8I/s1700-nu-rw-lo-l85-e365/ios.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
