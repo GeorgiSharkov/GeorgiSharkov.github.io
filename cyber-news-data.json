@@ -1,7 +1,128 @@
 {
-  "generatedAt": "2026-10-13T02:41:49.137607+00:00",
+  "generatedAt": "2026-10-13T11:00:21.048640+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "npm Trusted Publishing Flaw With 10 Million Downloads Exposes 1,500+ Packages to Malicious Takeover",
+      "url": "https://cybersecuritynews.com/npm-trusted-publishing-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-13T10:56:59+00:00",
+      "description": "SlugFest flaw in npm Trusted Publishing exposed 1,500+ packages to takeover via reclaimed GitHub names, risking millions of downloads.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/npm-Trusted-Publishing-Flaw-With-10-Million-Downloads-Exposes-1500-Packages-to-Malicious-Takeover.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "$86 Million Crypto Heist Linked to Ledger Signer Hardware Implant",
+      "url": "https://www.securityweek.com/86-million-crypto-heist-linked-to-ledger-signer-hardware-implant/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-13T10:36:05+00:00",
+      "description": "A small circuit board hidden under the signers\u2019 screens read user data and transmitted it to the attackers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/01/cryptocurrency.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Citrix NetScaler 0-Days to Deploy Platypus Remote Access Tool",
+      "url": "https://cybersecuritynews.com/hackers-exploit-citrix-netscaler-0-days/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-13T10:33:55+00:00",
+      "description": "Two Citrix NetScaler zero-days are exploited to deploy a modified Platypus remote access tool on vulnerable appliances.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-Citrix-NetScaler-0-Days.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Mobile Application Security Testing Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-mobile-appsec-testing-tools/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-13T10:25:09+00:00",
+      "description": "Test the app, shield the binary. We ranked 2026\u2019s 10 best mobile AppSec tools \u2014 NowSecure leads, Guardsquare and Zimperium podium, MobSF floors it free.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Mobile-Application-Security-Testing-Tools.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best SBOM Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-sbom-tools/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-13T10:21:12+00:00",
+      "description": "Contracts now demand the ingredients list. We ranked 2026\u2019s 10 best SBOM tools \u2014 Syft leads free, FOSSA and Cybeats podium, Rezilion status flagged.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-SBOM-Tools-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Cyberattack Prompts Ahold Delhaize to Disconnect Systems",
+      "url": "https://www.securityweek.com/cyberattack-prompts-ahold-delhaize-to-disconnect-systems/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-13T09:37:12+00:00",
+      "description": "The company says it took some of its systems offline to contain a security issue within its network.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Heat French Supermarket Fridges Up to 50\u00b0C by Hijacking Danfoss Controllers",
+      "url": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-13T08:48:41+00:00",
+      "description": "Danfoss controllers at hundreds of French supermarkets were compromised, with attackers forcing defrost and causing food losses at some stores.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s1700-nu-rw-lo-l85-e365/supermarket.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
+      "url": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-13T08:44:01+00:00",
+      "description": "Progress fixed 31 MarkLogic Server flaws in 11.3.7 and 12.1.0, including two that could give delegated accounts persistent admin control.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvGRzVYOU1S12WE6ja5ZSrhInOGaNdwCGGwWch1oJn_SDtoy90ycGVjd-JeDjwSSH8XDzKlkoKsu_vlND1iW0aWJgEqf3Ti18goDI0yXeaLbF2DHrokj8Qdvm1kHEi8wqdm6_axRi17PVBqtlgFWLpZnv6Eufx_bFMkpWcnz6ymbQI4IDB7lgYi3QrZ7w/s1700-nu-rw-lo-l85-e365/amrk.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-13T08:43:37+00:00",
+      "description": "GitLab fixed CVE-2026-97229 (CVSS 10.0), a CI/CD flaw that could allow unauthenticated code execution under certain conditions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOWNiMkzMghhERT5BPyrVI9JdCWExRLtDNHIHPjmT_WnGhLHyWhahW3xPurPPQJUn7Yz0_g9Nk0zWinEKh4J71g9viLtNVx2fM2anNzhA514PAgZBxobRfeP1jSsovLI6iVi9HIUXxv_dLvK8DrKy5vZktoxrxyd0riB83XCR2dlne7lEgTqdXW1Rwhekz/s1700-nu-rw-lo-l85-e365/gitlab-exploit.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Refrigeration Controller Hack Spoils Food Across European Supermarkets",
+      "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-13T08:28:51+00:00",
+      "description": "A cyberattack targeted refrigeration controllers, setting refrigerators and freezers across hundreds of supermarkets to defrost.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supermarket-refrigerators.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Low-Cost Android Phones Ship With Preinstalled Malware That Turns Them Into Residential Proxies",
+      "url": "https://thehackernews.com/2026/10/low-cost-android-phones-ship-with.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-13T06:00:11+00:00",
+      "description": "Midnight Mimosa ships in some low-cost Android firmware, silently installs apps, and uses payloads for ad fraud and residential proxies.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWazS9FTiMttWg9JuwySbOkXe9WBGk6EnDbYXfmFzGaoTsXD3FQKLo7YxjnYk9MIZlfmdt08nW3qRKbLggGv2H7ondflK4CbpXu98CiCxnccJfwnrvUwEhMVIHUdt7GO198VkHXASs12AKWj4r44vpT5mF5BHLqX9spJT24dZmpMGqOKyuqoh25f1UuqpY/s1700-nu-rw-lo-l85-e365/android-malware.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
       "url": "https://isc.sans.edu/diary/rss/33418",
@@ -14,39 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "\u26a1 Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-12T15:16:26+00:00",
-      "description": "This week's cybersecurity recap covers helpdesk zero-days, rogue HTTPS certificates, a ShinyHunters arrest, AI-fooling malware, and more major threats",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiv97S5d5aYZZRto-_3AfPjT2TmAcI0KYQm4zY7cXyf1hz-GHIcmuL9wF5IIzmg3D7_F-yh6Z9qtamVwEikSKd3tuy5eGo_mN2Qw-O602x4Abiwuf5Q9G72nX4ZOeFRly8woPJ8EBn2USmFIdDUVg6P-3f8nUPDTbcqrAF5JWsu_NRWTvz6EF5YVVqPrbvY/s1700-nu-rw-lo-l85-e365/cy-cap.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Ahold Delhaize Takes Systems Offline Following Cybersecurity Incident",
-      "url": "https://cybersecuritynews.com/ahold-delhaize-cyberattack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T15:12:54+00:00",
-      "description": "Ahold Delhaize has taken some systems offline after identifying a security issue within its network, the food retail group said on October 12, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Ahold-Delhaize-Cyberattack.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google DevSite Flaw Let Attackers Execute Remote Code Through Forged Flask Sessions",
-      "url": "https://cybersecuritynews.com/critical-google-devsite-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T14:31:19+00:00",
-      "description": "A critical vulnerability in Google\u2019s shared DevSite platform could have allowed an unauthenticated attacker to forge Flask session cookies and trigger remote code execution across several Google-owned developer websites.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Google-DevSite-Flaw-Let-Attackers-Execute-Code-Through-Forged-Flask-Sessions-1.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
       "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
       "source": "SecurityWeek",
@@ -55,94 +143,6 @@
       "description": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical GitLab Vulnerability Enables Arbitrary Code Execution Attacks on Servers",
-      "url": "https://cybersecuritynews.com/gitlab-vulnerability-code-execution/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T14:19:07+00:00",
-      "description": "GitLab has released urgent security updates to fix a critical vulnerability that could allow attackers to execute arbitrary code on affected servers without logging in.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-Vulnerability-Code-Execution.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "WhatsApp Attachment Deploys Malware That Gains SYSTEM Access on Windows",
-      "url": "https://cybersecuritynews.com/whatsapp-attachment-deploys-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-12T14:02:53+00:00",
-      "description": "Hackers use malicious WhatsApp attachments to deploy VulcanRAT, gaining SYSTEM-level access to steal data and control Windows PCs.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/WhatsApp-Attachment-Deploys-Malware-That-Gains-SYSTEM-Access-on-Windows.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
-      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T13:14:37+00:00",
-      "description": "The vulnerability tracked as CVE-2026-85097 can allow threat actors to take control of the targeted WordPress websites.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
-      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T11:58:39+00:00",
-      "description": "The outage hit the main Ubuntu and Canonical websites, including the Ubuntu blog and developer portal.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/07/Ubuntu-Vulnerabilities.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
-      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-12T11:55:00+00:00",
-      "description": "Personal AI agents can access work apps through OAuth grants, passwords, and API keys, while remaining outside managed agent consoles.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyfIDT5M3MmWcxPZrWKZ_8EOy_WZY9iQHv9CQrAKcSZ7_EAadHyWzg9Aa5zQizJiwjNNLp6TDGShed4uvK0iq0d5TQHOV4wqah_jnbuJK-gFuObDCjO_bhwobK9PlO-CmK92s9PueGqpPI_puFGDAS_t4evoyjokLRlaXbql9cGN3d7POdsiXyUYvicVs/s1700-nu-rw-lo-l85-e365/bring.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
-      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-12T11:24:50+00:00",
-      "description": "Oleg Korniev was a leader of YMCO, a sophisticated network of money mules that helped hackers move funds outside the US.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/03/hacker_arrested-1-e1760348116204.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
-      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-12T11:21:48+00:00",
-      "description": "Ledger confirmed an unauthorized hardware implant in one CryptoBilis-sold device amid fund loss reports and paused sales through the reseller.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4nzJQQovkKtR-dl3ihW4VRAfIxiKwNwwVEHyH06we8iIkQbaxVqhryWIwB9MflLHfBYAd_opklCfnkLxg-GKqB2yt4CisdNcf2lRvOoaYHo9Pa6m1OWatzNsFHmY1ICBH_0P2XX4ykgFE7Gqviz0C0_8J0Qqz36_3gygDyHbot9z5obuYEHunIFsZmPQV/s1700-nu-rw-lo-l85-e365/ledgers.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
-      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-12T10:36:56+00:00",
-      "description": "Attackers have made 135 attempts to exploit a patched pre-auth SSRF flaw in SonicWall SMA 1000 appliances, originating from two U.S. IPs.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglEbu7YOWX4lrTm_x8p2FnL6B7z2hhGC0fKWPBSCVJqTt8l0rbcXFhQinT3ja0sVyx7hObbCQlmem9y4-wsxrwU6mtgsBIJjvH7rgC8n5w8DpEcv7G1N_u4dtOzA3qxVk22FPvly-ZmjsLJKdJqgTsKPtMHpit1oq-fk7jPFN1gTHLeJdF2JQRZ8yuwjxv/s1700-nu-rw-lo-l85-e365/sonics.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
