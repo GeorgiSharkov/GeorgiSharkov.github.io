@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-12T21:22:54.172811+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-13T02:41:49.137607+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33418",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-13T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "\u26a1 Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
       "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
@@ -14,6 +25,28 @@
       "kind": "News"
     },
     {
+      "title": "Ahold Delhaize Takes Systems Offline Following Cybersecurity Incident",
+      "url": "https://cybersecuritynews.com/ahold-delhaize-cyberattack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-12T15:12:54+00:00",
+      "description": "Ahold Delhaize has taken some systems offline after identifying a security issue within its network, the food retail group said on October 12, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Ahold-Delhaize-Cyberattack.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google DevSite Flaw Let Attackers Execute Remote Code Through Forged Flask Sessions",
+      "url": "https://cybersecuritynews.com/critical-google-devsite-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-12T14:31:19+00:00",
+      "description": "A critical vulnerability in Google\u2019s shared DevSite platform could have allowed an unauthenticated attacker to forge Flask session cookies and trigger remote code execution across several Google-owned developer websites.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Google-DevSite-Flaw-Let-Attackers-Execute-Code-Through-Forged-Flask-Sessions-1.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
       "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
       "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
       "source": "SecurityWeek",
@@ -22,6 +55,28 @@
       "description": "The all-stock deal brings Elisity\u2019s least-privilege access technology into IonQ\u2019s security portfolio.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-merger-acquisition.webp",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical GitLab Vulnerability Enables Arbitrary Code Execution Attacks on Servers",
+      "url": "https://cybersecuritynews.com/gitlab-vulnerability-code-execution/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-12T14:19:07+00:00",
+      "description": "GitLab has released urgent security updates to fix a critical vulnerability that could allow attackers to execute arbitrary code on affected servers without logging in.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GitLab-Vulnerability-Code-Execution.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "WhatsApp Attachment Deploys Malware That Gains SYSTEM Access on Windows",
+      "url": "https://cybersecuritynews.com/whatsapp-attachment-deploys-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-12T14:02:53+00:00",
+      "description": "Hackers use malicious WhatsApp attachments to deploy VulcanRAT, gaining SYSTEM-level access to steal data and control Windows PCs.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/WhatsApp-Attachment-Deploys-Malware-That-Gains-SYSTEM-Access-on-Windows.webp",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -135,17 +190,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33410",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-08T16:52:53+00:00",
-      "description": "We just did a major update to FOR577 and added a lot of new material on day 5 about investigating AI usage in incident response. In the new material we dicsuss 8&#;x26;#;xc2;&#;x26;#;xa0;of the most popular AI coding assistants\u2026",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
       "source": "Krebs on Security",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
