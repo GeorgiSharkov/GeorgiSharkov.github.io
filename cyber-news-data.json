@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-14T17:33:10.355258+00:00",
+  "generatedAt": "2026-10-14T21:54:31.422837+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-14T18:38:56+00:00",
+      "description": "Attackers exploit a Cisco Secure Email Gateway flaw enabling file writes without login when File Reputation is enabled and scanner tools are outdated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh__fSqm3p4u0HNpmeikU6Mo4abprP417Zb3pPW3-6IGrTHwqkbz1CqiuqxL2D0O1PH8J4Ho3_ZpNdJ5VFluIj_KHX6qT0WqZYfHQzyu0cVzGee9EmAZ9pNzsZJZx40UxuKjuz9eNHvuzlMANKOkDr6aRdKWxs8SpJqSi6vDBQTP5ZFgpgqn3Yj2TYNJU/s1700-nu-rw-lo-l85-e365/cisco-0day.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Multiple NGINX Flaws Let Remote Attackers Crash Servers and Execute Malicious Code",
+      "url": "https://cybersecuritynews.com/multiple-nginx-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-14T18:19:03+00:00",
+      "description": "F5 has disclosed three serious security flaws in NGINX Plus and NGINX Open Source that can let remote, unauthenticated attackers crash worker processes by sending crafted HTTP requests.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-NGINX-Vulnerabilities.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora\u2019s Built-in CODE App",
+      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-14T17:38:31+00:00",
+      "description": "Attackers planted web shells through Collabora's Built-in CODE app while its document server was down; versions before 26.4.303 are affected.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkZLcjmZtzt6NpWa8x4Wz7EdcOQEW6xYv6DA_mBnwy1ctZZeRAyeSYLES-H_mkr1QOBv72WNuGKwKQ-NN179Rw8BRTcYO38sYwxcbDkg1ISW_qWrCRJ9JfUXh3102OmwrF0HQq6dbSc58VXACXoi_EoI8ysPuSlzB_nBcHuFl9r3QakOsGG9GUm6UVOU8/s1700-nu-rw-lo-l85-e365/nextcloud.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-14T17:09:15+00:00",
+      "description": "Microsoft and partners disrupted CoGUI, Haozi, and Iron Man, phishing kits linked to more than 1 billion messages since January 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtmZA0sGFnGRVBoPOHXGNOr-Q1MpdbCUNVrfxBTV6z_URgCka1DOH4xcc_WuismhU3W1BEiostTKZetIhtrFyXrInKdz_jqK6Dtia5TDOqRiu4rkktKmF2Iz1br28coCyU3c5td-yrINUgjYIdwG-7q_n1fEZT_mumUoVBp2HfNPKHnqC3jTryRDL7hxAL/s1700-nu-rw-lo-l85-e365/phish-shop.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
       "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
@@ -91,17 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Use Fake WatchGuard VPN Download Site to Steal Login Credentials",
-      "url": "https://cybersecuritynews.com/fake-watchguard-vpn/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-14T14:08:23+00:00",
-      "description": "Hackers use a fake WatchGuard VPN site to steal server addresses, usernames and passwords before offering the legitimate installer.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Use-Fake-WatchGuard-VPN-Download-Site-to-Steal-Login-Credentials.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Virtual Event Today: Zero Trust Strategies Summit",
       "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
       "source": "SecurityWeek",
@@ -110,39 +143,6 @@
       "description": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Zero-Trust-Identity-Strategies-Summit-2026-Summits-Page-Hero-1-1130x650-1.png",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
-      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-14T12:30:42+00:00",
-      "description": "CISA says attackers are exploiting an Ivanti Connect Secure authentication bypass to execute commands, steal credentials, and exfiltrate data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBUpsAaH4Pe-HlsDhdSH5KK3VgWm9NEXXLNBOpxxp4d8WMZwSNNyPALzuapR_iUlq3-dLDe2bnPJfh42cdfH5m3LQWGKXZvHF3sYacyDbtZacKIIoluyNgP01-6bjjEz-RBhAQqxw-VHGD7gpn3ToRulgeH0ydeWXOucoK4hLBwvXtlCg81tB1scdjPbKN/s1700-nu-rw-lo-l85-e365/i-h.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
-      "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-14T12:13:36+00:00",
-      "description": "curl 8.23.0 fixes an HTTP/2 upload use-after-free that a malicious server can trigger; code execution was demonstrated under strict conditions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4S_5rQ2kApGYmSMOh6PFsgD3yRugV3_nzSexwBhEe3BoSTQeBfSu2-3JSO4wDCnU2LmVMWtgA6AcBEcf2wOpsL2v22woZ5fel0XaSonlbgDWSXMuV3iu5ewohp9kqgf4OwmCvtnRyyYjFEP6Z3RRLT5sX8g7-xI1robnLmWtqFp6SvrGvpBeXI_D4ICo/s1700-nu-rw-lo-l85-e365/curl.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
-      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-14T11:50:00+00:00",
-      "description": "Deepfake readiness drills test callback, dual-approval, and escalation controls against spoofed payment and access requests.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEYzcrs6sSW45od6MYo5jFl29yPGuwipgy7nfS3STYqknrD9b5OcU00_c0sqjG8Arvqq36ojwHSZMbjboA3bUQ1-ZcLRRjmuEQpzTDYYXnyvySzynW0UOvHOVmYNNzp_n-J5xXmwByMCofw5kxslXe4dqAVYqrWa-1LivXxPNa_ZGOQgIBxhyhvtiLxDs/s1700-nu-rw-lo-l85-e365/icon.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
