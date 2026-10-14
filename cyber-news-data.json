@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-13T19:29:26.435550+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-14T00:33:53.814969+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-10-13T23:24:53+00:00",
+      "description": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "Investigation"
+    },
+    {
+      "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
+      "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-13T23:07:00+00:00",
+      "description": "Saudi national Abdulrahman Alfozan was arrested Friday and terminated by OpenAI.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/OpenAI.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33422",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-13T19:25:52+00:00",
+      "description": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today&#;x26;#;39;s patch Tuesday, and one is\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
     {
       "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
       "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
@@ -25,17 +58,6 @@
       "kind": "News"
     },
     {
-      "title": "Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts",
-      "url": "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-13T18:19:38+00:00",
-      "description": "Microsoft\u2019s October 2026 Patch Tuesday briefing outlines 1,118 vulnerabilities across 15 risk groups, alongside a new approach designed to help security teams review large update releases.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Patch-Tuesday-October-2026.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
       "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
       "source": "The Hacker News",
@@ -43,17 +65,6 @@
       "publishedAt": "2026-10-13T18:03:18+00:00",
       "description": "Docker fixed a critical Hub account conversion flaw that let transferred tokens push images as other users; it found no evidence of exploitation.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEile879Rmv8zAdU5PMclUp5RnNGDb3h1u3aVZ-VigGjnO0RFcyCQ03s7_lIqMGDiow5ilPumq3B2_bsvewqRlepch4lFwLvOUEDQZPYd9Vv8untJVZFmrv5Zhgvj54cs4J_vCYW4GVY-XsQl7SXD-yrXbED6KpiWbTq-kL_0aNwef3xjV3cBGQ3dsodqAM/s1700-nu-rw-lo-l85-e365/dock.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication",
-      "url": "https://cybersecuritynews.com/fortisandbox-gui-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-13T17:54:42+00:00",
-      "description": "Fortinet has disclosed a critical authentication bypass vulnerability in the FortiSandbox graphical user interface that could allow remote attackers to access protected functions without valid credentials.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FortiSandbox-GUI-Vulnerability.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -80,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "TFG London Cyberattack Disrupts IT Systems Used by Phase Eight, Hobbs, and Whistles Brands",
-      "url": "https://cybersecuritynews.com/tfg-london-cyberattack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-13T17:26:27+00:00",
-      "description": "TFG London has confirmed a cyberattack that disrupted IT systems supporting Phase Eight, Hobbs, and Whistles.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/TFG-London-Cyberattack.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
       "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
       "source": "SecurityWeek",
@@ -110,28 +110,6 @@
       "description": "Google is restructuring bug bounty rewards with a focus on complex memory safety vulnerabilities.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Docker Hub Flaw Lets Attackers Impersonate Users and Push Container Images",
-      "url": "https://cybersecuritynews.com/docker-hub-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-13T16:55:34+00:00",
-      "description": "Docker has disclosed a critical Docker Hub vulnerability that could let attackers impersonate other users and publish container images under trusted names.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Docker-Hub-vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
-      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-13T16:01:00+00:00",
-      "description": "Most of the affected individuals are Meta employees in the United States and they are being offered credit monitoring services.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/03/Meta-Facebook-e1739539212391.jpg",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -179,17 +157,6 @@
       "kind": "Investigation"
     },
     {
-      "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
-      "url": "https://isc.sans.edu/diary/rss/33412",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-09T07:52:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
       "url": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
       "source": "Krebs on Security",
@@ -210,17 +177,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-09-25T21:44:40+00:00",
-      "description": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay\u2026",
-      "image": "",
-      "topic": "Ransomware",
-      "kind": "Investigation"
     }
   ],
   "sources": [
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
