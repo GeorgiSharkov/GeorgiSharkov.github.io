@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-14T00:33:53.814969+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-14T05:19:11.296679+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Patches Record 1,413 Flaws, Including Exploited Windows Shell Bug",
+      "url": "https://thehackernews.com/2026/10/microsoft-patches-record-1413-flaws.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-14T04:34:43+00:00",
+      "description": "Microsoft patched a record 1,413 flaws, including an exploited Windows Shell bug that can bypass Mark of the Web defenses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_wUoSEpf7bMmgL7Aa7NRI6qvluN83g3TcKAONrL5REtzYQIVR4TqrNs0awkDsRCXvaSEaOn83V0t1jpwkrh5FULBjyQJnxe-m4gkgjMHRC0SZHpkBDNjOSuZUrOXU5R6JGt4dwZXXn4JHYSoc4n22nIXcFIYtC51Vv89hGimRebEKzQ9-PX1U7M4Lk4ST/s1700-nu-rw-lo-l85-e365/windows-patch.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Windows Shell 0-Day Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/windows-shell-0-day-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-14T03:28:11+00:00",
+      "description": "Microsoft has patched an actively exploited Windows Shell zero-day vulnerability that allows attackers to bypass Mark of the Web protections.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Windows-Shell-0-Day-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Engineer Arrested for Planting Spyware Device in an Executive Conference Room",
+      "url": "https://cybersecuritynews.com/openai-engineer-arrested-for-planting-spyware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-14T02:25:18+00:00",
+      "description": "An OpenAI engineer has been arrested for allegedly hiding an audio recording device in an executive conference room at the company\u2019s San Francisco offices.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenAI-Engineer-Arrested-for-Planting-Spyware.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33424",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-14T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
+      "url": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-14T01:59:25+00:00",
+      "description": "An OpenAI engineering lead was arrested over an allegedly planted audio recorder in an executive conference room.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE6tXAfDSv5HwaNsBdrtgbjvOoTMYJuMGQPGpLM5auUfz9dUSuExG-IY_42zMx-VP8GbM-oXAVGbKjHIqNOHy08-lKsCPrJMbhPrDw-9UlJpapcAMZohyphenhypheng7IZh192IoEGs66NRp6TNCWIFYsO5oh9gKkIeILKD_8zdzCHBmoJCeCi65kZjDvQyZwzicV2I/s1700-nu-rw-lo-l85-e365/opens.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
       "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
@@ -58,6 +113,17 @@
       "kind": "News"
     },
     {
+      "title": "Microsoft Fixes 1,118 Vulnerabilities in October Patch Tuesday and Introduces New Risk Cohorts",
+      "url": "https://cybersecuritynews.com/microsoft-october-patch-tuesday-2026/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-13T18:19:38+00:00",
+      "description": "Microsoft\u2019s October 2026 Patch Tuesday briefing outlines 1,118 vulnerabilities across 15 risk groups, alongside a new approach designed to help security teams review large update releases.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Patch-Tuesday-October-2026.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
       "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
       "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
       "source": "The Hacker News",
@@ -69,29 +135,18 @@
       "kind": "News"
     },
     {
-      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-13T17:33:11+00:00",
-      "description": "An attacker exploited three Ivanti Connect Secure zero-days to run commands as root and steal stored credentials from one appliance.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZSH26NsXmSsQGaAbhNyJLMaBQKFCmabIbFZ_yi2sUGXjHQOVztQEQfXLarEAx1Fl9lRwGAryBE4zZEooJ4cochODcB4x8wQnPl3MRWiyBcpyEV6i8VPxvwcLHmShQVZVhuOcTjMXRhHAlx4Y0Uo85c74EVU4cea84YgXju02I9jlNzcGOFtLfa_am82Q/s1700-nu-rw-lo-l85-e365/ivanti-hack.jpg",
+      "title": "Critical FortiSandbox GUI Vulnerability Allows Remote Attackers to Bypass Authentication",
+      "url": "https://cybersecuritynews.com/fortisandbox-gui-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-13T17:54:42+00:00",
+      "description": "Fortinet has disclosed a critical authentication bypass vulnerability in the FortiSandbox graphical user interface that could allow remote attackers to access protected functions without valid credentials.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FortiSandbox-GUI-Vulnerability.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-      "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-13T17:28:50+00:00",
-      "description": "Six SAP Cloud SDK for Python releases skip tenant checks in Destination calls, enabling OAuth2 client secret leaks if attackers control tenant names.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKBZR5elkBVKRcFO6lyde7XYDVO73IBxDvnx9-UkLst3GhVFuK8Yz3QBVIIEJABDjZuJMn8tyf7RLLPIRV8J8qe-OUULjnQRaQNyWricSsOjlKJoyYu8WOvs5PxBWQpzuiq8hlDlOY7zY-qIYDgQ6NFuifS5GbHbnLBET0OTfmsMC8797Mo5un9_ECyg8/s1700-nu-rw-lo-l85-e365/sap-hacker.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
+      "title": "Adobe Patches 176 Vulnerabilities Across 11 Products",
       "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
@@ -130,17 +185,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-10-12T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33414",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-10T09:11:34+00:00",
-      "description": "The Traffic Light Protocol (TLP)[1], which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if so, how far).",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
