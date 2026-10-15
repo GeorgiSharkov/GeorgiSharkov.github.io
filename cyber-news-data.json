@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-10-15T12:00:11.927705+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-15T17:18:05.088797+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Watch Now: Zero Trust Strategies Summit \u2013 All Sessions Available on Demand",
+      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-15T16:51:34+00:00",
+      "description": "This summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Zero-Trust-Identity-Strategies-Summit-2026-Summits-Page-Hero-1-1130x650-1.png",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+      "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-15T16:01:57+00:00",
+      "description": "Citizen Lab linked Candiru spyware infections at Al Jazeera to targeted ads that triggered attacks without clicks or user action.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE0PuxlZklu67SsXNfh_vZefiytkMx159npHL_6Ln3dNT0yxzyYE55zZU5SMOFGk39ZqhfWzXpYQfXdoZB0gGYdkoPu3cNactAPL9ZuCWdb_v4Hp4ZkoBLtEnzBovntpudGiQZvIwTucBgDRwNzfVR5SNybyZvTANvdqsDPjHVoUQcV3hrBNm0-YMvZK0/s1700-nu-rw-lo-l85-e365/spyware-ads.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-15T16:00:26+00:00",
+      "description": "Silent Lynx exploited WinRAR CVE-2025-8088 to place PickleShell in the Windows Startup folder during attacks on CIS governments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX-Vi04Qyk2-RKyXrnolcZ8TTBRKY43kIB_B7l-1Na3Xta_ed00DJtXclvIdp65s6Sdf3ksabzWKXmYTmKwx9xAlROi6eas704naXFtyx93xru04krAQ9kViM9rjKSgKhdMR0weIs4xOd7htm_gI_7CLg-N16wjCKt59vAoC-3UpMFJf8QawlMkfpRh745/s1700-nu-rw-lo-l85-e365/winrar-hacker.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
+      "url": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-15T14:22:34+00:00",
+      "description": "Most of the data is related to applications, claims, and payments submitted between 2007 and 2025.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/06/UK_Cyberwarfare.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-15T14:11:36+00:00",
+      "description": "Help TDS routes visitors to tech support scams, with Infoblox linking Hotejka to ROI777 and tracking over 20,000 Cloudflare Pages domains.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp2enQeK-5xZuEo_rLQje9W_odynVLALJCEvTyaMSolIfwVonZGMceQWA8yq9xPMD-C_RkIp-V03EqEBVTM5yMq9IHWRRfSHxWWDS6kCJVcVAsmlFXt5wD2pK7Bk-A6iBIDFS2o811n8e48B1Psni_qvrkJ0HMXtJlhaLwx7jkxEG-e0XDgtcAMUMLiNFV/s1700-nu-rw-lo-l85-e365/hot.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+      "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-15T12:58:05+00:00",
+      "description": "NGINX 1.30.6 and 1.31.7 fix five configuration-dependent flaws, including three memory bugs that could crash workers or enable code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEionuV8CAd7SP0bgEbHyb-0hp7JWNkWpPjYtkNH9p86nRQrxDN1T97D1cragnVVzAwCEFCuqrwuysgwzxJLfvTXrYhMSGj5rbBzrpjW-VPvAmrc2-9EAR_hBmPigJUOjynvkm0ArpyasyzCOAWUWFYdCqzsbCJVOsxC09LnYwH2dcV4j4Vm9S9VDelXUlc/s1700-nu-rw-lo-l85-e365/tls.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers",
+      "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-15T12:50:42+00:00",
+      "description": "Roughly 700 French supermarkets were hit by the cyberattacks, for which no group has claimed responsibility.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supermarket-refrigerators.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "CikaBika Bot RAT Uses Discord for C&C",
       "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
@@ -11,127 +88,6 @@
       "description": "Delivered via phishing, the malware provides reconnaissance, remote execution, and data exfiltration capabilities.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/malware.jpeg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of Hackers Exploiting Ivanti Connect Secure Zero-Day to Steal Credentials",
-      "url": "https://cybersecuritynews.com/cisa-urges-patch-ivanti-0-day/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T10:57:14+00:00",
-      "description": "CISA urged admins to patch Ivanti Connect Secure after zero-day attacks stole credentials and data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CISA-urges-Admin-Patch-for-Ivanti-0-day-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Fixes Windows 11 Update Issue that Causes Black Screen Errors or Windows Explorer crash",
-      "url": "https://cybersecuritynews.com/microsoft-fixes-windows-11-update-issue/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T10:44:33+00:00",
-      "description": "Microsoft fixed a Windows 11 update bug causing black screens and Explorer crashes on FSLogix-based Azure Virtual Desktops.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Fixes-Windows-11-Update-Issue-that-Causes-Black-Screen-Errors-or-Windows-Explorer-crash.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
-      "url": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-15T10:42:16+00:00",
-      "description": "India orders telecom operators to show registered caller names for unsaved domestic numbers from November 1, 2026, under its CNAP rules.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyJOEj0MfpVvrP-qAXhuoM2BBSjZ6TwPYR-nMG_g-tBvu7Er2cMlvMoVkJOUP1qE2sleu3a21YjvdCQ9u80FSBTx7NNP3cZNfradprnGu-EnIURCxZK4sA0cXbROZpdW8CJxZcxRfhJyhbIXa_Au_sha3mh5pFe-7k5EIimZQlUGIs_mGGKHGKArej6il7/s1700-nu-rw-lo-l85-e365/4g.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Ransomware Attacks Intensify: Criminals Shift Focus to Target Employees and Their Families",
-      "url": "https://cybersecuritynews.com/ransomware-attacks-get-personal/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T10:28:30+00:00",
-      "description": "Ransomware gangs are moving beyond locked files and stolen data. Criminals now threaten employees, executives, and their families to force companies to pay.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Ransomware-Attacks-Get-into-Personal.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Novel Android RAT \u2018Hirudo\u2019 Replaces Banking Apps With Trojanized Copies",
-      "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-15T10:15:32+00:00",
-      "description": "The Hirudo malware combines elements of a traditional banking trojan and a full-featured RAT.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/android-banking-malware.png",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Windows Server 0-Day Flaw Lets Attackers Crash Servers With a Single Packet",
-      "url": "https://cybersecuritynews.com/microsoft-windows-server-0-day-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T09:58:35+00:00",
-      "description": "Microsoft patched a Windows Server DFS flaw that lets nearby network attackers crash servers using crafted referral responses.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Windows-Server-0-Day-Lets-Attackers-Crash-Servers-With-a-Single-Packet.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "CenterPoint Energy Data Breach Impacts 1 Million Texans",
-      "url": "https://www.securityweek.com/centerpoint-energy-data-breach-impacts-1-million-texans/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-15T09:55:19+00:00",
-      "description": "Personal information such as names, addresses, Social Security numbers, and driver\u2019s license numbers was compromised.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/CenterPoint-Energy.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
-      "url": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-15T08:45:10+00:00",
-      "description": "GhostAction targeted over 30,000 GitHub repositories using about 1,900 compromised accounts and tried to extract 3,174 secrets.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1700-nu-rw-lo-l85-e365/ghost-git.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "CISO Conversations: James Robinson \u2013 Many Jobs, One Journey to Netskope CISO",
-      "url": "https://www.securityweek.com/ciso-conversations-james-robinson-many-jobs-one-journey-to-netskope-ciso/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-15T08:26:40+00:00",
-      "description": "James Robinson never planned a cybersecurity career \u2014 seven companies and one deputy CISO role later, he leads security at Netskope.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/CISO_James-Robinson-Netscope.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
-      "url": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-15T07:07:05+00:00",
-      "description": "Honeypots logged 1,423 attempts to exploit a critical Langflow flaw that lets authenticated users execute server commands.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1tlAL_zc7Hg-gD5PRFa08hoOp2KRDu9kNSJk8nhZ91us8q-K7qGfnoasa6gONBjZoEtGJqPEZY3rKMy4Uqozk89X-L7IQBV8IrDqnJYdtAsCC4d08mmQUI4r_zACmvDVdey82w7FC4lTIoYfqdwYYu2Bp_Ql0AwOB54KRYrHk9ixjo27rKLWEK0dwsfw3/s1700-nu-rw-lo-l85-e365/langflow.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
-      "url": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-15T06:43:08+00:00",
-      "description": "Ahsay released new AhsayCBS hotfixes for two exploited flaws chained to deploy web shells and XMRig miners after earlier patches fell short.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH_5A4EPZ4VVdF4dve5fMe4BwreUmtWCJQrgMiBdiZyoFInoZK_nO6ouOwLMCyyQPrXWE4_n3NE39b4C2UQi-G4uE3ufyv7A9IEYEp9O3ggTu7AyDRzOqwVqhLjISLvOTasPiAcdFafFtL7B5uoKtm8GPeFFxrKDupGCoqZJ2o88sUmaGbjKk6E3sJgIKD/s1700-nu-rw-lo-l85-e365/backup.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
