@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-14T21:54:31.422837+00:00",
+  "generatedAt": "2026-10-15T05:05:22.624387+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Multiple Active Directory Vulnerabilities Let Attackers Bypass Security Feature Remotely",
+      "url": "https://cybersecuritynews.com/multiple-active-directory-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-15T03:51:31+00:00",
+      "description": "Microsoft disclosed Active Directory vulnerabilities that allow attacker bypass a key security feature in Windows domain environments.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-Active-Directory-Vulnerabilities-Let-Attackers-Bypass-Security-Feature-remotely-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Palo Alto PAN-OS 0-day Flaw to Gain Root Code Execution on Firewalls",
+      "url": "https://cybersecuritynews.com/pan-os-0-day-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-15T03:42:50+00:00",
+      "description": "Hackers are exploiting a high-severity flaw in Palo Alto Networks PAN-OS that allows authenticated attackers to run code with root privileges on affected firewalls.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PAN-OS-0-Day-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco Secure Email Gateway 0-Day Vulnerability Actively Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/cisco-secure-email-gateway-0-day-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-15T03:06:04+00:00",
+      "description": "Cisco has warned that attackers are actively exploiting a critical zero-day vulnerability in Cisco Secure Email Gateway that can give them root access to affected appliances.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Cisco-Secure-Email-Gateway-0-Day-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33428",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-15T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33426",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-15T01:10:57+00:00",
+      "description": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
       "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
@@ -47,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "24 Security Vulnerabilities Patched in curl Used Across 30 Billion Installations",
-      "url": "https://cybersecuritynews.com/curl-security-update-24-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-14T16:46:52+00:00",
-      "description": "The curl project released curl 8.23.0 on October 14, 2026, announcing 24 security fixes affecting the widely used data transfer tool and its underlying library, libcurl.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/curl-Patches-Vulnerabilities.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
       "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
       "source": "The Hacker News",
@@ -69,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "How MSSPs Can Cut Tier 1 Bottlenecks Eating into Profit Margins",
-      "url": "https://cybersecuritynews.com/how-mssps-can-cut-tier-1-bottlenecks-eating-into-profit-margins/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-14T16:29:10+00:00",
-      "description": "As MSSPs take on more clients, alert volumes grow fast. Analyst capacity usually doesn\u2019t. That gap shows up in triage and response first.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/How-MSSPs-Can-Cut-Tier-1-Bottlenecks-Eating-into-Profit-Margins-.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
       "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
       "source": "SecurityWeek",
@@ -87,17 +120,6 @@
       "publishedAt": "2026-10-14T16:00:00+00:00",
       "description": "In Booz Allen\u2019s isolated OT lab, AI models met every objective across eight scenarios and reached an industrial control network from a perimeter compromise in just over 16 minutes.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/12/industrial-AI-OT-security.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft\u2019s Recent Windows Updates Break Remote Desktop Services With Error \u201c0xC000000D\u201d",
-      "url": "https://cybersecuritynews.com/microsoft-recent-update-remote-desktop/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-14T15:51:38+00:00",
-      "description": "Microsoft released an out-of-band Windows update on September 14, 2026, to fix problems introduced by its September 8 security updates.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Windows-Updates-Break-Remote-Desktop-Services.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -177,28 +199,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "Investigation"
-    },
-    {
-      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33422",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-13T19:25:52+00:00",
-      "description": "Microsoft today released patches for 1,417 vulnerabilities. 76 of these vulnerabilities are rated critical, with 7 critical vulnerabiilties requiring no customer actions. One vulnerability was disclosed before today&#;x26;#;39;s patch Tuesday, and one is\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, October 13th, 2026 https://isc.sans.edu/podcastdetail/10134, (Tue, Oct 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33418",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-13T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
