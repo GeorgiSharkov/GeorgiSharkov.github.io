@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-15T21:42:07.939929+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-16T04:54:38.335107+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33432",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-16T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33430",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-16T00:46:35+00:00",
+      "description": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33426",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-15T23:03:42+00:00",
+      "description": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
       "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
@@ -69,50 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Burger King Japan Confirms Data Breach Exposing 11.18M User Records",
-      "url": "https://cybersecuritynews.com/burger-king-japan-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T15:55:01+00:00",
-      "description": "Burger King Japan has confirmed a data breach that exposed about 11.18 million records linked to members of its official app. BK Japan, which operates the chain in Japan, said an outside party gained unauthorized access to the system used to manage app\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Burger-King-Japan-Data-Breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Critical ChatGPT GitHub Connector Flaw Could Allow Attackers to Steal Private Repository Secrets",
-      "url": "https://cybersecuritynews.com/chatgpt-github-connector-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T15:47:08+00:00",
-      "description": "A critical flaw in ChatGPT\u2019s GitHub integration that could turn a routine repository review into a secret-theft attack.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ChatGPT-GitHub-Connector-Flaw.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Citrix XenServer Vulnerabilities Could Allow Malicious VM Users to Compromise Host Systems",
-      "url": "https://cybersecuritynews.com/citrix-xenserver-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T14:42:47+00:00",
-      "description": "Citrix disclosed four XenServer vulnerabilities, three of which could let privileged VM users compromise or crash the host.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Citrix-XenServer-Vulnerabilities-Could-Allow-Malicious-VM-Users-to-Compromise-Host-Systems-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use ClickFix and Python Tunnels to Prepare Systems for Ransomware Attacks",
-      "url": "https://cybersecuritynews.com/hackers-use-clickfix/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-15T14:30:51+00:00",
-      "description": "Hackers exploit ClickFix to deploy malware loaders and Python tunnels on Windows, potentially enabling ransomware attacks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Use-ClickFix-and-Python-Tunnels-to-Prepare-Systems-for-Ransomware-Attacks.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
       "url": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
       "source": "SecurityWeek",
@@ -146,17 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33426",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-15T01:10:57+00:00",
-      "description": "[This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program]",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "source": "Krebs on Security",
@@ -166,28 +144,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33420",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-14T06:49:46+00:00",
-      "description": "Years ago I wrote diary entries about VBA code stored inside AutoCAD drawing files (.dwg).",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, October 14th, 2026 https://isc.sans.edu/podcastdetail/10136, (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33424",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-14T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "Microsoft Patches More Than 1,400 Security Flaws",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
