@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-16T16:53:40.798373+00:00",
+  "generatedAt": "2026-10-16T21:37:56.312620+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-16T17:48:45+00:00",
+      "description": "A local OpenBSD 7.9 proof-of-concept chains a 37-year-old integer overflow with a kernel use-after-free to gain root; both flaws are patched.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqmitTMm5t8BBKfynqzFAKqJSzh_s7fQczmMm5u95RLUUzuWMubd5DeM8e8EH6YOpP-_gvbYwn8Cd3flsL-nGIupBw5HOo49Orr7J2rqhI99J7U4LcXW6shlxd3w0zFAng1mLw5xGb-F9GRmpDK82GC1-Dcb1gPcvkgl4wVi0-QTEGalDwPmelGE0TtNU/s1700-nu-rw-lo-l85-e365/openbsd.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-16T16:43:39+00:00",
+      "description": "Attackers altered AOMEI Backupper update files for 5 to 10 minutes at a time, delivering SHINYROAD to systems that checked for updates",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1700-nu-rw-lo-l85-e365/backup-hacked.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
       "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
@@ -91,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-16T11:30:00+00:00",
-      "description": "AI decision models offer low-cost SOC triage, but live scans found 51% of infected endpoints had already been marked mitigated by EDR.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVccQyMWKH3TTGpMGwsFUkVETAsZFTWBlOZyCPr3ZlMJfVPTN09xHFKk94-6OWpwhpE68JRImlVGgma5xaM66ohDwD5XvlOu1FjQPllSMNRvuDUMPB0PNUJEK3u2MaELBNvDP0GNThHj3IGreaWQe6UpzfZ55Ei6HeOpmbcWzo6Mach5g3-9OJPBuA1wY/s1700-nu-rw-lo-l85-e365/modal.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
       "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
       "source": "SecurityWeek",
@@ -121,17 +132,6 @@
       "description": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger\u2019s wallet and left it out of its report.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-16T06:55:55+00:00",
-      "description": "Armory Castle exploited a BeyondTrust Remote Support zero-day on a self-hosted appliance and deployed the SAWFLY web shell.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEic5zD5GBvYxe93igsDOMdwS6eyfDORIWio42Z9UY0enK0XKWYcQlLB9RLx3iO_V1xm8vqBxMVZ_R8Lt-xxOumO5_RIFN3hgB-yZyGGlVMypRx5lm2GJq-1c9cbzfRcjrMAIfBI67L4QUI-MwjjQjKL1RcgPnzFdYuAF3k1y2Ev-ppSmiG8sdQ5dbJkbjKR/s1700-nu-rw-lo-l85-e365/beyond.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
