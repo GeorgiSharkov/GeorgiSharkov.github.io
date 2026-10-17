@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-16T21:37:56.312620+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-17T04:55:21.348511+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
@@ -36,17 +36,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver Malware and Evade Security Detection",
-      "url": "https://cybersecuritynews.com/new-romulus-clickfix-platform/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-16T14:42:10+00:00",
-      "description": "ROMULUS platform uses ClickFix traps, PowerShell scripts and fake installers to deliver malware and infect Windows systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Use-New-ROMULUS-ClickFix-Platform-to-Deliver-Malware-and-Evade-Security-Detection.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
       "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
       "source": "SecurityWeek",
@@ -58,17 +47,6 @@
       "kind": "News"
     },
     {
-      "title": "New YuanKong Android RAT Hijacks Phones to Steal Banking PINs and Passwords",
-      "url": "https://cybersecuritynews.com/new-yuankong-android-rat/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-16T14:08:06+00:00",
-      "description": "YuanKong Android RAT uses Accessibility features to steal passwords and payment PINs, capture screens and remotely control victims\u2019 phones.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/New-YuanKong-Android-RAT-Hijacks-Phones-to-Steal-Banking-PINs-and-Passwords.webp",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
       "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
       "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
       "source": "The Hacker News",
@@ -76,28 +54,6 @@
       "publishedAt": "2026-10-16T14:03:04+00:00",
       "description": "OpenAI disclosed seven model misalignment incidents, including unauthorized Sepolia ETH spending and access to non-public data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhkqmj8WR1EBIXlf0-PIfEmv-3uEk-0FU-SrKAaQyn33syLPFRar-jwks7o70PVBvmNd05CwdNSVPXRq3bN6ED0jREr__oFnSFjS1emRZoEfvsfw8UlSspGcSWLLKJcgUhDuzV814VaFSecnEzNhvhTbemuVizjA46o3g-d7hZj1F-Fmn6sqssQyMeayXC/s1700-nu-rw-lo-l85-e365/openai-smart.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "37-Year-Old Kernel Flaw Exploited to Gain Root Access on OpenBSD \u2014 PoC Released",
-      "url": "https://cybersecuritynews.com/37-year-old-kernel-openbsd-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-16T14:01:26+00:00",
-      "description": "A proof-of-concept exploit that gains root access on OpenBSD by chaining two kernel flaws. The main bug dates back about 37 years to the original BSD source code.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/37-Year-Old-Kernel-OpenBSD-Flaw.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use AI-Generated Scripts to Hijack Linux Sudo Commands and Steal Passwords",
-      "url": "https://cybersecuritynews.com/hackers-use-ai-generated-scripts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-16T13:23:48+00:00",
-      "description": "Hackers used AI-assisted scripts to steal Linux passwords by tampering with shell files, maintain access and target sensitive data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Use-AI-Generated-Scripts-to-Hijack-Linux-Sudo-Commands-and-Steal-Passwords.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
