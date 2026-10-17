@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-17T20:53:29.542778+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-17T23:21:01.690096+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes",
+      "url": "https://cybersecuritynews.com/claude-ai-cryptography-mystery/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T16:59:29+00:00",
+      "description": "Anthropic says an internal Claude research model has traced the origins of five NSA-supplied elliptic curve seeds in under 30 minutes, answering a cryptography question that remained open for roughly 25 years.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-AI-Cryptography-Mystery.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
@@ -25,6 +36,17 @@
       "kind": "News"
     },
     {
+      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
+      "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T10:52:09+00:00",
+      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ConnectWise-Credentials-Microsoft-365-Accounts.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "source": "The Hacker News",
@@ -33,6 +55,28 @@
       "description": "Attackers used a compromised ConnectWise Cloud Backup credential for unauthorized sign-ins across 173 Microsoft 365 tenants.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1700-nu-rw-lo-l85-e365/connectwise.jpg",
       "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
+      "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T05:29:38+00:00",
+      "description": "Google updated Chrome to fix 10 vulnerabilities, including one critical, six high-severity, and three medium-severity flaws.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Fixes-Chrome-Vulnerabilities-Including-Memory-Corruption-Flaw-Found-With-Claude-AI.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
+      "url": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T05:24:55+00:00",
+      "description": "A critical Nextcloud CODE Server flaw allows unauthenticated remote command execution, with compromised servers reportedly hosting web shells.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-Critical-Collabora-Online-Flaw-to-Backdoor-Nextcloud-Servers.webp",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
