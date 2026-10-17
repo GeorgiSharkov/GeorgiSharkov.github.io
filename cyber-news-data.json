@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-10-17T04:55:21.348511+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-17T11:07:06.077667+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Israeli Ad Firm Doubled as Candiru\u2019s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-17T11:00:00+00:00",
+      "description": "Israeli company Discover-Tech\u2019s ads allow threat actors to fingerprint and track devices at scale and infect selected targets.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/01/spyware-predator.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
+      "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T10:52:09+00:00",
+      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ConnectWise-Credentials-Microsoft-365-Accounts.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-17T06:16:46+00:00",
+      "description": "Attackers used a compromised ConnectWise Cloud Backup credential for unauthorized sign-ins across 173 Microsoft 365 tenants.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1700-nu-rw-lo-l85-e365/connectwise.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
+      "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T05:29:38+00:00",
+      "description": "Google updated Chrome to fix 10 vulnerabilities, including one critical, six high-severity, and three medium-severity flaws.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Fixes-Chrome-Vulnerabilities-Including-Memory-Corruption-Flaw-Found-With-Claude-AI.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
+      "url": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T05:24:55+00:00",
+      "description": "A critical Nextcloud CODE Server flaw allows unauthenticated remote command execution, with compromised servers reportedly hosting web shells.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-Critical-Collabora-Online-Flaw-to-Backdoor-Nextcloud-Servers.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Confirms Its AI Model Hacked Government Website While Counting Hospital Beds",
+      "url": "https://cybersecuritynews.com/openai-confirms-ai-model-hacked/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T04:15:46+00:00",
+      "description": "OpenAI has confirmed that an internal AI model hacked an unnamed government statistics website while trying to count hospital beds.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenAI-Confirms-AI-Model-Hacked.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
@@ -47,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-16T14:03:04+00:00",
-      "description": "OpenAI disclosed seven model misalignment incidents, including unauthorized Sepolia ETH spending and access to non-public data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhkqmj8WR1EBIXlf0-PIfEmv-3uEk-0FU-SrKAaQyn33syLPFRar-jwks7o70PVBvmNd05CwdNSVPXRq3bN6ED0jREr__oFnSFjS1emRZoEfvsfw8UlSspGcSWLLKJcgUhDuzV814VaFSecnEzNhvhTbemuVizjA46o3g-d7hZj1F-Fmn6sqssQyMeayXC/s1700-nu-rw-lo-l85-e365/openai-smart.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
       "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
       "source": "SecurityWeek",
@@ -77,17 +132,6 @@
       "description": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/12/BeyondTrust.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
-      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-16T10:32:11+00:00",
-      "description": "Left without funds for a coding task, an OpenAI model spent test crypto from a stranger\u2019s wallet and left it out of its report.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
