@@ -1,26 +1,26 @@
 {
-  "generatedAt": "2026-10-18T05:02:56.713061+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-18T11:37:32.988653+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "OpenCode Security Breach Exposes Third-Party API Keys of its Console Users",
-      "url": "https://cybersecuritynews.com/opencode-security-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-18T04:20:16+00:00",
-      "description": "OpenCode has disclosed a security breach affecting 1.4% of its Console users, warning that third-party API keys saved in affected workspaces may have been exposed.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenCode-Security-Breach.webp",
-      "topic": "Data breach",
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-18T11:00:00+00:00",
+      "description": "CyberSN\u2019s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It\u2019s a mixed bag.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity-Layoffs.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes",
-      "url": "https://cybersecuritynews.com/claude-ai-cryptography-mystery/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-17T16:59:29+00:00",
-      "description": "Anthropic says an internal Claude research model has traced the origins of five NSA-supplied elliptic curve seeds in under 30 minutes, answering a cryptography question that remained open for roughly 25 years.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-AI-Cryptography-Mystery.webp",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-18T08:23:02+00:00",
+      "description": "ConnectWise disabled seven application identities and suspended Cloud Backup after attackers compromised Microsoft 365 tenants.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxTJ5xsWsmrBmF1q18Gi5uaokNeC6-M0VbSf0T5X3KMQH7QGMhC7mz4XB6TUJuE7P9tjknMAqaGQ-Iz_7UuQ-NdKKXJTgqLhHMipRcd57VUOpwfJ2xxO8Hq_PX8hotdp_KZddNDzfQFw3bLHbYYLasThNbqGlidzhZ485ApBIKh2KUgn4g6PeBbhMwhc0T/s1700-nu-rw-lo-l85-e365/ms-connect.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -47,17 +47,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
-      "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-17T10:52:09+00:00",
-      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ConnectWise-Credentials-Microsoft-365-Accounts.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "source": "The Hacker News",
@@ -69,17 +58,6 @@
       "kind": "News"
     },
     {
-      "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
-      "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-17T05:29:38+00:00",
-      "description": "Google updated Chrome to fix 10 vulnerabilities, including one critical, six high-severity, and three medium-severity flaws.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Fixes-Chrome-Vulnerabilities-Including-Memory-Corruption-Flaw-Found-With-Claude-AI.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
       "source": "The Hacker News",
@@ -88,17 +66,6 @@
       "description": "A local OpenBSD 7.9 proof-of-concept chains a 37-year-old integer overflow with a kernel use-after-free to gain root; both flaws are patched.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqmitTMm5t8BBKfynqzFAKqJSzh_s7fQczmMm5u95RLUUzuWMubd5DeM8e8EH6YOpP-_gvbYwn8Cd3flsL-nGIupBw5HOo49Orr7J2rqhI99J7U4LcXW6shlxd3w0zFAng1mLw5xGb-F9GRmpDK82GC1-Dcb1gPcvkgl4wVi0-QTEGalDwPmelGE0TtNU/s1700-nu-rw-lo-l85-e365/openbsd.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-16T16:43:39+00:00",
-      "description": "Attackers altered AOMEI Backupper update files for 5 to 10 minutes at a time, delivering SHINYROAD to systems that checked for updates",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhuPumyjeBRpQZo5_3mvqZ2_kXuPiOK02cH-ARofYrny0mQ2-rv55w7yBxMTBe3ymCW7c77quZ4xlkdDG9FcEhBYFr7GWmbyPE_1K1xqU0mvT-h51Z8hLg-LnWl32MeOy-aumsGO9-j8VSOSOfVUDB2k1vWOpEdyGEWV9ipF4kf3HVP1Au2ClbkYtAJrc/s1700-nu-rw-lo-l85-e365/backup-hacked.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -121,17 +88,6 @@
       "description": "A cyber incident affecting contractor BAE Systems has knocked out the Bankruptcy Noticing Center, halting notices nationwide for a week.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/04/law-court-order-lawsuit-e1782819788980.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
-      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-16T10:53:22+00:00",
-      "description": "Armory Castle exploited CVE-2026-102764 for initial access, deployed custom tools, and deleted logs and artifacts.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/BeyondTrust.jpeg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
