@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-17T23:21:01.690096+00:00",
+  "generatedAt": "2026-10-18T05:02:56.713061+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "OpenCode Security Breach Exposes Third-Party API Keys of its Console Users",
+      "url": "https://cybersecuritynews.com/opencode-security-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-18T04:20:16+00:00",
+      "description": "OpenCode has disclosed a security breach affecting 1.4% of its Console users, warning that third-party API keys saved in affected workspaces may have been exposed.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenCode-Security-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
     {
       "title": "Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes",
       "url": "https://cybersecuritynews.com/claude-ai-cryptography-mystery/",
@@ -66,17 +77,6 @@
       "description": "Google updated Chrome to fix 10 vulnerabilities, including one critical, six high-severity, and three medium-severity flaws.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Fixes-Chrome-Vulnerabilities-Including-Memory-Corruption-Flaw-Found-With-Claude-AI.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploit Critical Collabora Online Flaw to Backdoor Nextcloud Servers",
-      "url": "https://cybersecuritynews.com/hackers-exploit-critical-collabora-online-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-17T05:24:55+00:00",
-      "description": "A critical Nextcloud CODE Server flaw allows unauthenticated remote command execution, with compromised servers reportedly hosting web shells.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-Critical-Collabora-Online-Flaw-to-Backdoor-Nextcloud-Servers.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
