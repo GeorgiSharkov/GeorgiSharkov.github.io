@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-18T11:37:32.988653+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-18T16:05:45.251212+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33434",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-18T12:59:30+00:00",
+      "description": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
       "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
@@ -21,6 +32,28 @@
       "publishedAt": "2026-10-18T08:23:02+00:00",
       "description": "ConnectWise disabled seven application identities and suspended Cloud Backup after attackers compromised Microsoft 365 tenants.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxTJ5xsWsmrBmF1q18Gi5uaokNeC6-M0VbSf0T5X3KMQH7QGMhC7mz4XB6TUJuE7P9tjknMAqaGQ-Iz_7UuQ-NdKKXJTgqLhHMipRcd57VUOpwfJ2xxO8Hq_PX8hotdp_KZddNDzfQFw3bLHbYYLasThNbqGlidzhZ485ApBIKh2KUgn4g6PeBbhMwhc0T/s1700-nu-rw-lo-l85-e365/ms-connect.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenCode Security Breach Exposes Third-Party API Keys of its Console Users",
+      "url": "https://cybersecuritynews.com/opencode-security-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-18T04:20:16+00:00",
+      "description": "OpenCode has disclosed a security breach affecting 1.4% of its Console users, warning that third-party API keys saved in affected workspaces may have been exposed.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenCode-Security-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Claude AI Solves 25-Year NSA Cryptography Mystery in Just 30 Minutes",
+      "url": "https://cybersecuritynews.com/claude-ai-cryptography-mystery/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T16:59:29+00:00",
+      "description": "Anthropic says an internal Claude research model has traced the origins of five NSA-supplied elliptic curve seeds in under 30 minutes, answering a cryptography question that remained open for roughly 25 years.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-AI-Cryptography-Mystery.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -47,6 +80,17 @@
       "kind": "News"
     },
     {
+      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
+      "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T10:52:09+00:00",
+      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ConnectWise-Credentials-Microsoft-365-Accounts.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "source": "The Hacker News",
@@ -55,6 +99,17 @@
       "description": "Attackers used a compromised ConnectWise Cloud Backup credential for unauthorized sign-ins across 173 Microsoft 365 tenants.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1700-nu-rw-lo-l85-e365/connectwise.jpg",
       "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
+      "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-17T05:29:38+00:00",
+      "description": "Google updated Chrome to fix 10 vulnerabilities, including one critical, six high-severity, and three medium-severity flaws.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Fixes-Chrome-Vulnerabilities-Including-Memory-Corruption-Flaw-Found-With-Claude-AI.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -124,17 +179,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "ISC Stormcast For Thursday, October 15th, 2026 https://isc.sans.edu/podcastdetail/10138, (Thu, Oct 15th)",
-      "url": "https://isc.sans.edu/diary/rss/33428",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-15T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "source": "Krebs on Security",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
