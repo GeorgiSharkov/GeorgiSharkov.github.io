@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-10-19T13:51:27.119791+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-19T20:41:13.279780+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
+      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-19T18:15:39+00:00",
+      "description": "Attackers paired a genuine, signed copy of Siemens Software Center with malicious DLLs to infect Windows PCs via ClickFix lures.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Siemens.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
+      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-19T17:32:13+00:00",
+      "description": "Attackers exploit four Plex Media Server flaws chained as Plex2Shell to deploy XMRig miners and reverse proxy software after PoC release.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_Xo8mH5AxIDYx4hFrS1_uhblD0IoGUTo6bioM38mwy-whZAbcq1aaGeH1iZrS8nmk5Ow25NfX67HRXKiWFfzLc8C1A2zs2n948DwyW_NSSkowFDnEzxUofGxhNV72vTEWkgPmbO6XJyDUPwBR-lzSekj5_m8tY3JHjozUXETGEBg6GrLZrekhilW9W_R/s1700-nu-rw-lo-l85-e365/plex-hack.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
+      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-19T16:28:47+00:00",
+      "description": "Rank Math PRO distributed malware for 11 hours, exposing WordPress sites that activated affected builds to persistent backdoors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja-6AhEjL8YvRsoNjXIIDEnsVd8gMMW_cUqMvLNcRukJXjatSuo-phLfYxt2A76gSCk-uZFmo4EbJjQuMr8_k8Pxl2ho1TnUL_50Q_VknkR8JqnTiVOqZ48i5W6Mv6HB0cQfJoAjs8xHUu6urkucsPClURVP3aWM0aivfngCFZLykMYzJITwenYfSb9Sk/s1700-nu-rw-lo-l85-e365/wordpress-rank.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
+      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-19T15:47:50+00:00",
+      "description": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
+      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-19T15:20:53+00:00",
+      "description": "Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "\u26a1 Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-19T14:14:07+00:00",
+      "description": "This week's cybersecurity recap covers cloud breaches, rogue AI agents, zero-days, wallet backdoors, phishing, and supply-chain attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTvDNJzlrpPvCifQ9zNcdkc0vjmmRwGCap_kODFlX5W_IimpUgTyObjSefO7gHjXKUMhEkIlmgnH1GbbbWna6eZWa8xcRDLXeRmYX0oSrhAgS8YXth6_T2CPXMMnZvgsf1Psq_DUB9JkjeELLHjnB2xFl9-8bM5BW19fJ1aHcOruzwKErZJkjwRBSRedBq/s1700-nu-rw-lo-l85-e365/recap-1.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
@@ -33,116 +99,6 @@
       "description": "GhostAction operators add GitHub-themed phishing and a VS Code-triggered stealer to compromised repositories, with 94 carrying the second stage.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtAKfaW5dHhlv9lpzzAju1Cm_EjO4wOkhGQEMspSKCVFUCA_eaanAXGHkb-Dv3c9zSXWHW45I50Fp_bqX6ydaNlPWixkd39bl4IOeYv8xQ0oviE4d6SZcQmQ27ztf-tVV7BozEDeFYi2Fde0LpJAJ9gTHUGSOvc46MtgawesAd5-wljApeBpLyUYnczZnR/s1700-nu-rw-lo-l85-e365/git-font.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
-      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-19T12:44:39+00:00",
-      "description": "Threat actors have been observed delivering cryptocurrency miners and proxy software.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/streaming-services.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents",
-      "url": "https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-19T12:08:04+00:00",
-      "description": "NSA, CISA and NIST issued 10 practices to detect and shut down rogue AI agents while maintaining human oversight.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/NSA-CISA-and-NIST-Release-New-Security-Guidelines-to-Detect-and-Shut-Down-Rogue-AI-Agents-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploit SiteGuard WAF Vulnerability That Could Give Them Full Control of Servers",
-      "url": "https://cybersecuritynews.com/hackers-exploit-siteguard-waf-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-19T12:07:14+00:00",
-      "description": "A SiteGuard Server Edition command injection flaw allows attackers to execute root-level commands and take over servers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-SiteGuard-WAF-Vulnerability-That-Could-Give-Them-Full-Control-of-Servers.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "One Compromised Login Exposed Millions of California Students\u2019 Records",
-      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-19T11:55:50+00:00",
-      "description": "Intruders used compromised credentials to access an ETS SFTP server, copying records of California students back to 2006.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/03/school-education.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-      "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-19T11:50:00+00:00",
-      "description": "Salesforce Agentforce workflows can route untrusted customer messages into agent prompts, exposing gaps in enterprise AI agent governance.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1uAZRypeHl_8TjAU-3mwmvjdbCH0SZJwZBZOoEXcehaQfod9rpBvAl72JCjV8xF2KF4VbSVzWezAmkXjmbaxdIkK854Pa-yV4nkkRNe-l82mPM_VW1fLSE5Ib-RhyphenhypheneGga3KZ_9wQu76clTABJwGp_3N_M-6QBZMXFSISC56JWHVHpylO-uTenNO3kRlg/s1700-nu-rw-lo-l85-e365/reco.gif",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Registered New Teams-Based Domains and Used a Login Page to Steal Your Logins",
-      "url": "https://cybersecuritynews.com/teams-domain-login-page/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-19T11:40:57+00:00",
-      "description": "A newly registered domain copies Microsoft Teams\u2019 login page and interface, raising concerns about a phishing attempt targeting workplace users. Security researcher Steven Lim reported that teams-cloud[.]live was just five days old when he flagged it on\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Registered-New-Teams-based-Domains-and-Uses-Login-Page-to-Steas-Your-Logins.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "16-Year-Old Broadcom Wi-Fi Flaw Lets Attackers Hack Routers Without Knowing Passwords",
-      "url": "https://cybersecuritynews.com/16-year-old-broadcom-wi-fi-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-19T11:36:47+00:00",
-      "description": "A 16-year-old Broadcom Wi-Fi flaw lets nearby attackers take over routers without a network password.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/16-Year-Old-Broadcom-Wi-Fi-Flaw-Lets-Attackers-Hack-Routers-Without-Knowing-Passwords.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Exploited Fortinet Bug Linked to Stealthy FortiGate Implant in Telecom Hack",
-      "url": "https://www.securityweek.com/exploited-fortinet-bug-linked-to-stealthy-fortigate-implant-in-telecom-hack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-19T11:13:23+00:00",
-      "description": "The persistent, stealthy FortiGate implant was deployed against a telecommunications organization.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/fortinet.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-19T10:06:40+00:00",
-      "description": "Fake Apex Accelerator npm packages deliver Windows stealers and a macOS backdoor while redirecting AI agent requests to attacker services.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAw5A6yrE0NkMreq5lBZaS4ndrFrorAZaVrjJ218aS1RcJoQVYOJOVejIn8rBH5RHIIZ_cpvtzHnQMwMMWVOFbpfcs01tolLCmlYAY3qy-onWaOUQhzB6H2VjlWaUgBCL_0vAjRB7VmumClnaiIxDds6j9wD3lt9vD-kptWl6bUft29O6Z0cTNgBQV6t76/s1700-nu-rw-lo-l85-e365/npm-apex.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-19T06:29:44+00:00",
-      "description": "A Broadcom WPS flaw lets nearby attackers run code as root on affected routers without a Wi-Fi password; no patch or CVE is available.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKR22_EY_V4kc68OQN7vGigoOrsBiy_aMnJVifzUg15itznrR-KdvcSdcaVSGnA6A2kAgMCSUNbIoqzh10gy8wQzkpK55LJPTjPPoV73VzoJlNCtZOn0LltkE7gq8PwH29hLNlUn41qQV8A7fTGkCwHu2LQ0OtvvTFtNRHll7xY0_PUfQ5K08JtCWriXg/s1700-nu-rw-lo-l85-e365/wifi.gif",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
