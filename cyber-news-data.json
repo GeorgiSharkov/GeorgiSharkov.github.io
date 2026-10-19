@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-18T23:35:28.197314+00:00",
+  "generatedAt": "2026-10-19T05:12:33.498607+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hackers Exploiting Plex Vulnerabilities in the Wild to Deploy Cryptominer Malware",
+      "url": "https://cybersecuritynews.com/plex-vulnerabilities-exploited-in-wild/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-19T04:14:01+00:00",
+      "description": "Hackers are exploiting flaws in Plex Media Server to install cryptocurrency mining malware, with a researcher recording successful attacks against a honeypot on October 17, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Plex2Shell-Attack-Chain.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Confirms October Windows Updates Can Break Exchange Server Email Services",
+      "url": "https://cybersecuritynews.com/october-updates-break-exchange-server/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-19T03:39:03+00:00",
+      "description": "Microsoft has confirmed that Windows Server security updates released on October 13, 2026, can disrupt Exchange Server email services, blocking webmail access and leaving messages undelivered. The issue affects some on-premises systems running Exchange\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/October-Updates-Break-Exchange-Server.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
       "url": "https://isc.sans.edu/diary/rss/33434",
@@ -80,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers used Compromised ConnectWise Backup Credentials to Hack 173 Microsoft 365 Accounts",
-      "url": "https://cybersecuritynews.com/connectwise-credentials-microsoft-365-accounts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-17T10:52:09+00:00",
-      "description": "Hackers used a stolen ConnectWise Cloud Backup credential to sign in to 173 Microsoft 365 partner and customer tenants, giving them access through a trusted backup application.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ConnectWise-Credentials-Microsoft-365-Accounts.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
       "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
       "source": "The Hacker News",
@@ -99,17 +110,6 @@
       "description": "Attackers used a compromised ConnectWise Cloud Backup credential for unauthorized sign-ins across 173 Microsoft 365 tenants.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgel6whr7-1_Lf62w6AJwYfEyic0x1lJ0c-qOfOprMUdm83xpM7rqXbJzplx7BPBUBDD4yUcLWoPvFBhF6HIDORPNNXYj7NfDOTf7YN5lT7p80jxtN6VrTxMjWT0OplFNx0BdjoMmFzk3ssVlbapm7Qfl0Z9_1T7jA_zwz2tbjrxzRircL28mr0zcsci98x/s1700-nu-rw-lo-l85-e365/connectwise.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Google Fixes 10 Chrome Vulnerabilities, Including Memory Corruption Flaw Found With Claude AI",
-      "url": "https://cybersecuritynews.com/google-fixes-10-chrome-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-17T05:29:38+00:00",
-      "description": "Google updated Chrome to fix 10 vulnerabilities, including one critical, six high-severity, and three medium-severity flaws.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Fixes-Chrome-Vulnerabilities-Including-Memory-Corruption-Flaw-Found-With-Claude-AI.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
