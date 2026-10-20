@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-19T20:41:13.279780+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-20T00:35:38.524818+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
@@ -14,6 +14,28 @@
       "kind": "News"
     },
     {
+      "title": "Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication",
+      "url": "https://cybersecuritynews.com/drupal-rce-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-19T18:13:51+00:00",
+      "description": "Drupal patched critical CVE-2026-108097, a Field UI flaw enabling unauthenticated remote code execution and website takeover.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Drupal-RCE-Vulnerability-Could-Let-Attackers-Take-Over-Websites-Without-Authentication.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Says AI Agents Cannot Be Trusted and Could Become Insider Security Threats",
+      "url": "https://cybersecuritynews.com/ai-models-as-insider-threats/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-19T18:04:16+00:00",
+      "description": "Microsoft warns organizations to treat AI agents as potential insider risks not because they are automatically malicious, but because they can access company data, apps, and tools and act on that access at high speed.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/AI-Models-as-Insider-Threats.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
       "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
       "source": "The Hacker News",
@@ -22,6 +44,17 @@
       "description": "Attackers exploit four Plex Media Server flaws chained as Plex2Shell to deploy XMRig miners and reverse proxy software after PoC release.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_Xo8mH5AxIDYx4hFrS1_uhblD0IoGUTo6bioM38mwy-whZAbcq1aaGeH1iZrS8nmk5Ow25NfX67HRXKiWFfzLc8C1A2zs2n948DwyW_NSSkowFDnEzxUofGxhNV72vTEWkgPmbO6XJyDUPwBR-lzSekj5_m8tY3JHjozUXETGEBg6GrLZrekhilW9W_R/s1700-nu-rw-lo-l85-e365/plex-hack.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
+      "url": "https://cybersecuritynews.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-19T17:11:36+00:00",
+      "description": "Built on an evolutionary engine first released in 2018, STAR Fuzzer by Bright Security finds crashes, memory exhaustion and memory-safety bugs in security-critical code without a running application.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsGCsD2tSPkES2TpGHmakSaEtOSSVV3ANJJxK5SfNyYMzCK4DE9BSg1HdFHlk6e2JQvE-9jDoX4mbUMmeH9aYvh37sbVfPBE2IVUqI63Ph22fwbjUfGSCXwJ2zrQWeJkQknTBazbm4vor4rxV3kbYWgNnPmkj4QsNkoenNFdgkfUlSuRdacK8WzpBGi1U/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-10-19T194625.64.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -99,6 +132,17 @@
       "description": "GhostAction operators add GitHub-themed phishing and a VS Code-triggered stealer to compromised repositories, with 94 carrying the second stage.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtAKfaW5dHhlv9lpzzAju1Cm_EjO4wOkhGQEMspSKCVFUCA_eaanAXGHkb-Dv3c9zSXWHW45I50Fp_bqX6ydaNlPWixkd39bl4IOeYv8xQ0oviE4d6SZcQmQ27ztf-tVV7BozEDeFYi2Fde0LpJAJ9gTHUGSOvc46MtgawesAd5-wljApeBpLyUYnczZnR/s1700-nu-rw-lo-l85-e365/git-font.jpg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "NSA, CISA and NIST Release New Security Guidelines to Detect and Shut Down Rogue AI Agents",
+      "url": "https://cybersecuritynews.com/nsa-cisa-and-nist-release-guidelines-to-rogue-ai-agents/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-19T12:08:04+00:00",
+      "description": "NSA, CISA and NIST issued 10 practices to detect and shut down rogue AI agents while maintaining human oversight.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/NSA-CISA-and-NIST-Release-New-Security-Guidelines-to-Detect-and-Shut-Down-Rogue-AI-Agents-1.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
