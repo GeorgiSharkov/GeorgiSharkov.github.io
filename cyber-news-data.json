@@ -1,16 +1,115 @@
 {
-  "generatedAt": "2026-10-20T05:13:02.249877+00:00",
+  "generatedAt": "2026-10-20T12:01:21.218834+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "SBI Data Breach Claim \u2013 Hackers Allegedly Claim Access to 3.75 Lakh Users\u2019 Database",
-      "url": "https://cybersecuritynews.com/sbi-data-breach-claim/",
+      "title": "Revolut Outage Disrupts Payments and Banking Services as Google Cloud Reports London Issues",
+      "url": "https://cybersecuritynews.com/revolut-outage/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-20T04:40:11+00:00",
-      "description": "An unverified SBI data breach claim alleges that a threat actor named Siriusim posted customer records and banking documents online. The claimed dataset contains 375,000 CSV rows and 2,722 PDF files, but those figures do not establish that 3.75 lakh unique\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/SBI-Data-Breach-Claim.webp",
+      "publishedAt": "2026-10-20T11:37:05+00:00",
+      "description": "Revolut suffered a major service outage on Tuesday, October 20, 2026, disrupting payments, cash withdrawals, and access to its banking app.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Revolut-Outage.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Targets Rogue AI Agents With Dynamic Permissions, Risk Scoring",
+      "url": "https://www.securityweek.com/microsoft-targets-rogue-ai-agents-with-dynamic-permissions-risk-scoring/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-20T11:30:18+00:00",
+      "description": "Microsoft says companies should treat AI agents as insiders, and is adding controls that grant access per task and tighten it as an agent\u2019s risk rises.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target South Korean Banks With AI, Then Accidentally Expose Their Own Attack Tools",
+      "url": "https://cybersecuritynews.com/hackers-target-south-korean-banks/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-20T11:09:55+00:00",
+      "description": "Hackers targeting South Korean banks exposed tools linked to crypto theft, Linux attacks, and data breaches.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Target-South-Korean-Banks-With-AI-Then-Accidentally-Expose-Their-Own-Attack-Tools.webp",
       "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "ThreatBook Launches RedAgents AI Platform That Uses Multiple Hacking Agents to Find Security Flaws",
+      "url": "https://cybersecuritynews.com/redagents-ai-platform/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-20T10:41:54+00:00",
+      "description": "ThreatBook launches RedAgents, an AI platform that automates penetration testing to identify security weaknesses.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/ThreatBook-Launches-RedAgents-AI-Platform-That-Uses-Multiple-Hacking-Agents-to-Find-Security-Flaws.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Steal 1.8 Million Records From Nikkei",
+      "url": "https://www.securityweek.com/hackers-steal-1-8-million-records-from-nikkei/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-20T10:35:18+00:00",
+      "description": "The compromised information includes names, addresses, email addresses, phone numbers, and dates of birth.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/news-newspaper-cyberattack.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "U.S. Government Bans DeepSeek AI and Orders Federal Agencies to Remove All Related Tools",
+      "url": "https://cybersecuritynews.com/u-s-government-bans-deepseek-ai/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-20T10:18:40+00:00",
+      "description": "The U.S. Department of Homeland Security has ordered federal civilian agencies to stop buying DeepSeek products and remove related technology from their IT systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/U.S.-Government-Bans-DeepSeek-AI.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "970,000 Medi-Cal Members Affected by Paradigm Healthcare Data Breach",
+      "url": "https://www.securityweek.com/970000-medi-cal-members-affected-by-paradigm-healthcare-data-breach/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-20T09:33:49+00:00",
+      "description": "Paradigm Healthcare Services detected an intrusion in October 2025, but it took nearly a year to start notifying affected individuals.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-20T08:21:29+00:00",
+      "description": "Attackers replaced OVHcloud CLI downloads across five GitHub releases with secret-stealing builds for up to 94 minutes on October 19.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSRX5Jjz6vqh8EcVVYoXU8S9qh0rFzQ3DDnjNIlkRrBq97brmk6hUw0u2pbLqyTAG1_mYfG9bGHCnMkgSMEPFu6fIR67F1jZMmS7G7-DFe6i7PtG_LzdTgHLCTXSwE5hCa2EApQeAIYGIMYATwbLEp-2FcPmV9aAHVqrRRBYk_wY7ZTuES0frFAPGjhnU/s1700-nu-rw-lo-l85-e365/ovhcloud.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-20T07:11:45+00:00",
+      "description": "Siemens patched a DLL sideloading flaw in Software Center exploited in ClickFix attacks to execute malicious code through a trusted application.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUJqb8f_ibR_O_dPoJqAVHZOVmgi23TsxhFzv19_3uzAbEqH6L6QMJUWdelmEKmDe6U9wj6KKyDpPKi_1a93IK1KJa-Ql0kFRtfqVe9sKQpVFj0dA65dCfRKCN7H0LQYgMdzqdJoLgSb6rRFBA4bfmf4oUqItqe6pVCsyxmEzCnHx02h_m1WsK6sJu7jy2/s1700-nu-rw-lo-l85-e365/siemens.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-20T05:53:16+00:00",
+      "description": "A U.S. court detained an ex-OpenAI engineer accused of planting a recording device as prosecutors revealed his contacts with a Saudi royal.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeb26d3ZrVwM6eNTwdQo1zafwKL88-vR8Zgkx-9U2Tsx-uEF74-aA0C_rNsPd4xScYPiB9IBUG5-lw1cwRh9jIXqsZhxQCNdyp0AghllelHR5A92ovnUvvjw9uh2NUtfLPyhoyKv6EqQXK3jjp8nfDgnIBT6ZpeBOpNG0PTsuqleqg4Ht8VVgEjmy5_y4/s1700-nu-rw-lo-l85-e365/openai-spy.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -22,28 +121,6 @@
       "description": "ROMULUS uses ClickFix lures and PowerShell scripts to deliver malware, including Legion Loader, across infrastructure spanning six IP addresses.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8zydF3pRz3L86iRbEdX23esEuSWg0nt4Zq-6jV1oJy7HCuQ0oxZThFma1tspyuxRo0VG0kkCA_GZNobZkykxlZIKUb22Iq7DSwRepN3yIEk5Lfn7EeYUX52_Gkbz0GmerEPMuRP2EZTGegoGZd-p_8zvZKen5n8IZ9bm3_533b1aMXzdRKCNICkYzYJ7z/s1700-nu-rw-lo-l85-e365/romulus.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "One Hacker Uses AI Agents to Breach Over 100 Company Websites for Just $5,000",
-      "url": "https://cybersecuritynews.com/chinese-hacker-use-ai-agent-to-hack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-20T03:43:17+00:00",
-      "description": "A Chinese-speaking hacker used AI agents to break into more than 100 company websites while spending an estimated $5,000 on AI tokens, according to a Reuters investigation in October.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Chinese-Hacker-Use-AI-Agent-to-hack.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Claude AI Detects Hidden Crypto Miner While Building Temperature Monitor App on Mac",
-      "url": "https://cybersecuritynews.com/claude-ai-detects-hidden-crypto-miner/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-20T02:49:37+00:00",
-      "description": "An ordinary coding task led to an unexpected security discovery when Claude Code reportedly found a hidden cryptocurrency miner on a developer\u2019s Mac.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-AI-Detects-Hidden-Crypto-Miner.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -69,72 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "Critical Drupal RCE Vulnerability Could Let Attackers Take Over Websites Without Authentication",
-      "url": "https://cybersecuritynews.com/drupal-rce-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-19T18:13:51+00:00",
-      "description": "Drupal patched critical CVE-2026-108097, a Field UI flaw enabling unauthenticated remote code execution and website takeover.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Drupal-RCE-Vulnerability-Could-Let-Attackers-Take-Over-Websites-Without-Authentication.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-19T17:32:13+00:00",
-      "description": "Attackers exploit four Plex Media Server flaws chained as Plex2Shell to deploy XMRig miners and reverse proxy software after PoC release.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_Xo8mH5AxIDYx4hFrS1_uhblD0IoGUTo6bioM38mwy-whZAbcq1aaGeH1iZrS8nmk5Ow25NfX67HRXKiWFfzLc8C1A2zs2n948DwyW_NSSkowFDnEzxUofGxhNV72vTEWkgPmbO6XJyDUPwBR-lzSekj5_m8tY3JHjozUXETGEBg6GrLZrekhilW9W_R/s1700-nu-rw-lo-l85-e365/plex-hack.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-19T16:28:47+00:00",
-      "description": "Rank Math PRO distributed malware for 11 hours, exposing WordPress sites that activated affected builds to persistent backdoors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEja-6AhEjL8YvRsoNjXIIDEnsVd8gMMW_cUqMvLNcRukJXjatSuo-phLfYxt2A76gSCk-uZFmo4EbJjQuMr8_k8Pxl2ho1TnUL_50Q_VknkR8JqnTiVOqZ48i5W6Mv6HB0cQfJoAjs8xHUu6urkucsPClURVP3aWM0aivfngCFZLykMYzJITwenYfSb9Sk/s1700-nu-rw-lo-l85-e365/wordpress-rank.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-19T15:47:50+00:00",
-      "description": "Critical flaws impact the Entity List and Field UI modules, and exploit paths exist with contributed modules.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
-      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-19T15:20:53+00:00",
-      "description": "Hackers injected malware into Rank Math PRO version 3.0.123 packages distributed between October 15 and October 16.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/WordPress.jpeg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-19T14:14:07+00:00",
-      "description": "This week's cybersecurity recap covers cloud breaches, rogue AI agents, zero-days, wallet backdoors, phishing, and supply-chain attacks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTvDNJzlrpPvCifQ9zNcdkc0vjmmRwGCap_kODFlX5W_IimpUgTyObjSefO7gHjXKUMhEkIlmgnH1GbbbWna6eZWa8xcRDLXeRmYX0oSrhAgS8YXth6_T2CPXMMnZvgsf1Psq_DUB9JkjeELLHjnB2xFl9-8bM5BW19fJ1aHcOruzwKErZJkjwRBSRedBq/s1700-nu-rw-lo-l85-e365/recap-1.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
       "source": "Krebs on Security",
@@ -144,17 +155,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
-      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-19T13:16:20+00:00",
-      "description": "The services remain unavailable as the company continues remediation and security validation.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
