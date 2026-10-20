@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-20T17:28:22.145656+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-20T21:49:23.491490+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "eMudhra Certificate Authority Compromise Triggers Emergency Action Across Browsers",
+      "url": "https://cybersecuritynews.com/emudhra-security-compromise/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-20T18:14:55+00:00",
+      "description": "The private keys behind eight eMudhra intermediate certificate authority certificates have been compromised, prompting emergency blocks across major browsers and software platforms.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/eMudhra-Security-Compromise.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Google Cloud Outage Knocks UK Banks, Websites and Court Systems Offline",
       "url": "https://cybersecuritynews.com/google-cloud-outage/",
@@ -10,6 +21,17 @@
       "publishedAt": "2026-10-20T17:17:56+00:00",
       "description": "A Google Cloud outage disrupted UK banks, business websites and court video links on Tuesday, October 20, after a power event hit its London infrastructure.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-Cloud-Outage.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-20T17:09:53+00:00",
+      "description": "Eight eMudhra CA keys were compromised, prompting browser blocks and software fixes. Chrome found no rogue certificates in CT logs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1700-nu-rw-lo-l85-e365/ecert.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -69,17 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Exploit Open Banking Services to Test Stolen Credentials Without Paying a Cent",
-      "url": "https://cybersecuritynews.com/hackers-exploit-open-banking-services/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-20T14:22:04+00:00",
-      "description": "Criminals abuse open banking to verify stolen credentials and send phishing messages impersonating Poshmark.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-Open-Banking-Services-to-Test-Stolen-Credentials-Without-Paying-a-Cent.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
       "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
       "source": "The Hacker News",
@@ -124,15 +135,15 @@
       "kind": "News"
     },
     {
-      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-20T12:59:44+00:00",
-      "description": "Citizen Lab confirmed Pegasus on a Serbian university rector's iPhone and flagged likely spyware targeting of a prosecutor ahead of elections.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_cQrX8zsqCvWd9Pl1mfmh8oQBwRAG_IcrKQB-EpiVEn2GXf5UJBh0UrLXCKzAmJo2Z-Di9G7-16n5hV-gmtfMi-JtB9sOd9neC-b1-6CpErVOYE7CUjBmZhunV45nzsFcDr03rK5RA8q7gFZXIuJZ4c6ND0VSQHYuppDkdTqq04MI7nVCz-10-K-xmc0/s1700-nu-rw-lo-l85-e365/iphone-spyware.jpg",
-      "topic": "News",
-      "kind": "News"
+      "title": "ISC Stormcast For Tuesday, October 20th, 2026 https://isc.sans.edu/podcastdetail/10142, (Tue, Oct 20th)",
+      "url": "https://isc.sans.edu/diary/rss/33436",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-20T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
@@ -144,6 +155,39 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
+    },
+    {
+      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33434",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-18T12:59:30+00:00",
+      "description": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33432",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-16T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33430",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-16T00:46:35+00:00",
+      "description": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
@@ -202,9 +246,8 @@
     },
     {
       "name": "SANS ISC",
-      "status": "error",
-      "stories": 0,
-      "message": "syntax error: line 1, column 0"
+      "status": "ok",
+      "stories": 4
     }
   ]
 }
