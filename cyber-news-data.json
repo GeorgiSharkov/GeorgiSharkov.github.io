@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-20T21:49:23.491490+00:00",
+  "generatedAt": "2026-10-21T05:13:46.378331+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "WordPress Backup Plugin Developer Hacked to Inject Malicious Code on Installed Sites",
+      "url": "https://cybersecuritynews.com/wordpress-plugin-developer-hacked/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-21T05:01:41+00:00",
+      "description": "TeamUpdraft, the developer behind the UpdraftPlus WordPress backup plugin, has disclosed a website breach that exposed remote management keys.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Wordpress-Plugin-Developer-Hacked.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Accenture, Dragos, SANS Launch $10M Initiative to Defend Small US Utilities",
+      "url": "https://www.securityweek.com/accenture-dragos-sans-launch-10m-initiative-to-defend-small-us-utilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-21T04:22:11+00:00",
+      "description": "The first phase will cover up to 500 utilities, which will get free security tools, equipment, deployment help and training.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/OT-industrial-ICS.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "PHP Warns of Two Critical 9.2 Security Vulnerabilities, Urges Users to Prepare for Patches",
+      "url": "https://cybersecuritynews.com/php-to-issue-emergency-patch/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-21T03:32:29+00:00",
+      "description": "The PHP security team has warned users about two critical vulnerabilities and urged administrators to prepare for an upcoming security release.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PHP-to-Issue-Emergency-Patch.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33438",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-21T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "eMudhra Certificate Authority Compromise Triggers Emergency Action Across Browsers",
       "url": "https://cybersecuritynews.com/emudhra-security-compromise/",
@@ -32,17 +76,6 @@
       "publishedAt": "2026-10-20T17:09:53+00:00",
       "description": "Eight eMudhra CA keys were compromised, prompting browser blocks and software fixes. Chrome found no rogue certificates in CT logs.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJOWLzgriXXM626bAOaX_LEoNH97Ab_XV4oQ0GxBeY3-PqkdXdcae52-wrl8r0LipTFBsvl4R7Y5j6jFsiG_9V8ZAwHOkAlsZaRcOAswStHhAG1FYm9W6kjA4FmOz0bXgVXO6LyEs9Fv75UrRFphZEzhXodKdTlYzfPK8sqW3DpxKBnD7OFQfqJJ_ay2c/s1700-nu-rw-lo-l85-e365/ecert.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "3 Ways Threat Intelligence Makes Life Easier for American SOC Analysts",
-      "url": "https://cybersecuritynews.com/3-ways-threat-intelligence-makes-life-easier-for-american-soc-analysts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-20T16:26:48+00:00",
-      "description": "October is Cybersecurity Awareness Month, a good time to rethink how SOC analysts detect and investigate threats, draw conclusions from the first three quarters of 2026, and see how exactly your daily workflows could be improved.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/3-Ways-Threat-Intelligence-Makes-Life-Easier-for-American-SOC-Analysts-1-1.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -80,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "FBI Suspects Cybersecurity Executive Helped ShinyHunters Run Extortion Website",
-      "url": "https://cybersecuritynews.com/fbi-suspects-cybersecurity-executive-shinyhunters/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-20T15:09:27+00:00",
-      "description": "Federal investigators suspect an executive at a United States consulting firm helped ShinyHunters operate a website used to pressure hacked companies into paying ransom demands.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/FBI-Suspects-Cybersecurity-Executive-ShinyHunters.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
       "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
       "source": "The Hacker News",
@@ -120,17 +142,6 @@
       "publishedAt": "2026-10-20T13:34:23+00:00",
       "description": "Where your developers sit on the AI adoption scale has a real impact on how you are addressing security risk.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence-training.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
-      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-20T13:02:18+00:00",
-      "description": "The company has restored many websites and apps in Europe and expects e-commerce brands in the US to be restored in days.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/11/Ahold-Delhaize-cyberattack.jpeg",
       "topic": "News",
       "kind": "News"
     },
@@ -174,17 +185,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-10-16T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33430",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-16T00:46:35+00:00",
-      "description": "I believe the cybersecurity industry may be approaching AI security the wrong way.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
