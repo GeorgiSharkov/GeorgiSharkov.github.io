@@ -1,26 +1,136 @@
 {
-  "generatedAt": "2026-10-22T05:16:44.515711+00:00",
+  "generatedAt": "2026-10-22T12:17:59.264394+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Railway Security Incident: Hackers May Have Accessed Customer Environment Variables",
-      "url": "https://cybersecuritynews.com/railway-security-incident/",
+      "title": "A Hacker Tried to Turn an AI Chatbot Into a Tool for Attacking Other Servers",
+      "url": "https://cybersecuritynews.com/ai-chatbot-into-a-tool/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-22T03:04:16+00:00",
-      "description": "Railway has disclosed a security incident in which an unauthorized third party may have accessed customer environment variables, including some decrypted values.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Railway-Security-Incident.webp",
+      "publishedAt": "2026-10-22T12:15:23+00:00",
+      "description": "Attackers targeted an exposed Flowise AI platform to inspect workflows and retrieve stored credentials through an unauthenticated honeypot.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/A-Hacker-Tried-to-Turn-an-AI-Chatbot-Into-a-Tool-for-Attacking-Other-Servers.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-22T11:15:42+00:00",
+      "description": "Railway says an intruder may have accessed decrypted environment variables for some users, as a researcher reports related cryptocurrency theft.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLi5yuPoipCkAL6joBpDL5htNkHWi_rU5i5dAyspyjSrdDORYgV_LRNO4pVG_c1P0S7bnZFWHft8recxLiFRSiLsPxx3ZL-v8fzlYRuzxxG_P_ocKdJbGWzXFtoEjPszyKNUOS86HCylk0LPV1YZS7U9qZcfonBVeLEuRKioCXVbbzUySEvWGI0IaBJ8U/s1700-nu-rw-lo-l85-e365/rail.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "New Android Malware Replaces Legitimate Banking Apps With Malicious Copies to Bypass Security Checks",
+      "url": "https://cybersecuritynews.com/new-android-malware-2/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-22T11:13:18+00:00",
+      "description": "Hirudo Android banking Trojan replaces genuine bank apps with modified versions to steal credentials, PINs, and control infected devices.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/New-Android-Malware-Replaces-Legitimate-Banking-Apps-With-Malicious-Copies-to-Bypass-Security-Checks.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Splunk, SolarWinds Release Fresh Security Updates",
+      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-22T10:45:24+00:00",
+      "description": "Patched vulnerabilities could allow attackers to execute code, elevate privileges, and leak sensitive information.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-22T10:44:05+00:00",
+      "description": "A patched OpenCode flaw could let malicious MCP servers execute code on Windows and WSL when developers initiated OAuth sign-in.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmn80CiQx35trhXNaAwJka_Z3T-PKQrz__dlAW1GDDVwfrk2WHit1W6GZBaaAT-a9SrmqqauUhw0raYLEOS3Vv-LNxdu0a2bmJebJWVj5mBadfgxN1N1yVREXflCcV7cPmShswRE8PC0qspFY82MDEKe8MJImYVqJCBYLwTLpCHM1IzjDX7KsOAYs7tc/s1700-nu-rw-lo-l85-e365/opencode-mcp.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Secure File Sharing Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-secure-file-sharing/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-22T10:16:44+00:00",
+      "description": "Shadow sharing is a policy failure, not a user failure. We ranked 2026\u2019s 10 best secure file sharing platforms \u2014 Box leads, Egnyte and Kiteworks follow.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Secure-File-Sharing-Platforms.webp",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "12-Year-Old GitLab Vulnerability Allows Remote Code Execution on Self-Managed Server",
-      "url": "https://cybersecuritynews.com/12-year-old-gitlab-vulnerability/",
+      "title": "Atlassian Releases Massive Security Update Addressing 176 Flaw Entries in Jira and Confluence",
+      "url": "https://cybersecuritynews.com/atlassian-security-update/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-22T02:06:30+00:00",
-      "description": "GitLab has released urgent security updates for a critical vulnerability that could let attackers run code on self-managed servers without logging in.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/12-Year-Old-GitLab-Vulnerability.webp",
+      "publishedAt": "2026-10-22T10:12:18+00:00",
+      "description": "Atlassian disclosed 176 flaws, including 162 high-severity and 14 critical third-party issues, across Jira, Confluence, Bamboo, Bitbucket, and Crowd.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Atlassian-Releases-Massive-Security-Update-Addressing-176-Flaw-Entries-in-Jira-and-Confluence.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-22T10:05:21+00:00",
+      "description": "Critical-severity security defects could lead to command execution, authentication bypass, and XSS attacks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Cisco-company-logo.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PHP2Shell Exploitation Started Days Before Patches",
+      "url": "https://www.securityweek.com/php2shell-exploitation-started-days-before-patches/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-22T09:48:58+00:00",
+      "description": "Initial attempts were observed on October 17, and mass activity began shortly after patches were released.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Low-Code-No-Code-Security.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-22T08:28:48+00:00",
+      "description": "Attackers compromised LiteLLM's release pipeline to ship a credential stealer and backdoor, then tested stolen AWS credentials.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiEKKMESHBCMBHXA8Yf_clmAeFQXSdaKTEz0t_6RDzj1zXcwiPxA4gy2MPmftM6vyCkoG7OsCZJ2a8t7xJe1qbn3tEWRZfVgStzQVJy0ZfwEkjhg6-A34iT3XnQG7nYku04cWbIaHwkQmuDVghCeJBx5xJcbtozsyD3Genw4wyxFtgWIVD-rRGRLMBKoq2/s1700-nu-rw-lo-l85-e365/litellm-breach.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-22T07:47:22+00:00",
+      "description": "Node.js fixes 10 flaws, including a Brotli decoder bug that may allow code execution when apps decompress attacker-controlled data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFwR_FE94PTthun36oXfrSIiYx7N-Hb3Ww1w2gFs6x6qs0mML2v_TmYZmgqYKxB6VlMBzmIQksNdHldgX-UxykDBNwnszmBuB7IZWyWJhxei65NJlOImUWde5tYzB7D94dmieFBGhFNVAt3bL4qlhXkl4o3uw362QKgJpk37xutyRmM5bB3sHR8XMC3bc/s1700-nu-rw-lo-l85-e365/nodejs-rce.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Oracle Patches Over 1,200 Vulnerabilities With October 2026 CPU",
+      "url": "https://www.securityweek.com/oracle-patches-over-1200-vulnerabilities-with-october-2026-cpu/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-22T07:38:14+00:00",
+      "description": "Nearly 100 vulnerabilities have been assigned a critical severity rating and Fusion Middleware received the most patches.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Oracle.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -36,17 +146,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "GoDaddy Revoking 404,607 TLS Certificates Following Compliance Failures",
-      "url": "https://cybersecuritynews.com/godaddy-revoking-tls-certificates/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-22T01:43:58+00:00",
-      "description": "GoDaddy launched a mass revocation of 404,607 SSL/TLS certificates after finding that issued certificates did not match its published certificate policies.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GoDaddy-Revoking-TLS-Certificates-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
       "url": "https://isc.sans.edu/diary/rss/33440",
       "source": "SANS ISC",
@@ -58,72 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-      "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-21T18:57:34+00:00",
-      "description": "GitLab fixes CVE-2026-110264, a critical flaw that could allow unauthenticated code execution on self-managed versions dating back to 7.0.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig4Pkd5r0GeWGSaCoHaEsZVVoh5Y6xBkFvMTGYKvD5oONYnczQGAUqpjD6eCiA6sxiiel6Zs0kPiBEWOZJ21URkE59iJm-LDUFPYwPEf8o8d8lnyiMOR53H7IeXGKn3tTG9pusA-HKwYo0n04WQ1m8kg8dxIWEtxFGMDiBzrV-zzqAH2R2OVT2E1ViX_U/s1700-nu-rw-lo-l85-e365/git-rce.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-21T18:01:57+00:00",
-      "description": "Compromised LiteLLM 1.107.0 packages run a credential stealer at Python startup and can fetch and execute additional code.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-f1TsJE93kcT5Cp1wvKlnR-bCWFP9ZUZofd0PXryxRBt0B1q0-t0BaHnEJcNhy3IhRZq2fBU9fmILshSvlY-qk28TOO-f1JoBcGSRtwiC3MIV4gDxdXYzTS_ZMirtPka7UaG9Shie7kgWKzauZOwKgPvk8hHXUTFly2YXpzBuxUD20MdxBfKeXrRsIG-W/s1700-nu-rw-lo-l85-e365/litellm-hack.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Arrakis Security Report Finds 76% of AI Agents Are Dormant but Keep Their Credentials and Connections",
-      "url": "https://cybersecuritynews.com/arrakis-security-report-finds-76-of-ai-agents-are-dormant-but-keep-their-credentials-and-connections/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-21T17:05:59+00:00",
-      "description": "According to the 2026 Autonomous Agents Threat Report, published by Arrakis Security, 76% of active agents have not run in 60 days, but their credentials still work and their triggers still fire. 44% have not run in 180 days.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8-m0pMCqtpeJ2vXlkv0EReofwathFTbHu-MIY1VvxM6FfhYp9PqLBYc0NGxucyj-flKON7NkeA8L9RgFd-c4LilkjBrKR6zZmpMQPRpntk8RvQTZ0JagY3EYU4HKsXHrzlfCQKN-5tl0j6yh1Rt-CKquyzl1k8Ljwk1vWVaf-3nATTZIGL5_hSmr9_Ow/s1600/Insignary%20Launches%20Clarity%20On-Demand%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20proj%20-%202026-10-21T223348.60.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Google Hardens Chrome Against ClickFix Attacks, Insecure HTTP Connections",
-      "url": "https://www.securityweek.com/google-hardens-chrome-against-clickfix-attacks-insecure-http-connections/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-21T17:00:00+00:00",
-      "description": "Protections have been added against scams and social engineering, including new site warnings and server-side Gemini analysis.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/04/Chrome-Zero-Day-exploits.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
-      "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-21T16:50:40+00:00",
-      "description": "Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-21T16:33:47+00:00",
-      "description": "OpenAI says GPT-6 agents weakened misalignment monitoring in two internal coding tasks, disabling alerts and removing a monitoring integration.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLjuo6QB0kLx2z3u5thyphenhyphenjrULwTFigmtHb1U1y6141FNvIITM2nytdxcKmShZMElSSZdMFbnGfiwjTIpqOYtNzK3gAeSGkEVr8XnsPB9RF1GOh-6qqkXPmX8SY2COyV0eyA6khfN3QYzF-Ydbsz8Mw8jBmFDouame4hTt0ulaNxq0pPTR4FKFuVyQ2Ln6WC/s1700-nu-rw-lo-l85-e365/openai-bot.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "source": "Krebs on Security",
@@ -133,39 +166,6 @@
       "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
-    },
-    {
-      "title": "\u2018Context Bombs\u2019 Cut AI Attack Success by Misleading Agents With Fake Targets",
-      "url": "https://www.securityweek.com/context-bombs-cut-ai-attack-success-by-misleading-agents-with-fake-targets/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-21T15:00:00+00:00",
-      "description": "Deceptive prompts lure AI agents into decoys and dead ends, cutting attack success by up to 91% in tests and raising the cost of a successful attack 23-fold.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/06/APT-threat-actor.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "High-Severity Flaws Exploited in Three Days as Ransomware Dominates Q3: Rapid7",
-      "url": "https://www.securityweek.com/high-severity-flaws-exploited-in-three-days-as-ransomware-dominates-q3-rapid7/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-21T14:45:00+00:00",
-      "description": "Rapid7\u2019s Q3 analysis finds high-severity flaws exploited within three days on average, while AI appeared in just 8% of tracked incidents.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/11/Threat-Intelligence-sharing.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-21T14:00:00+00:00",
-      "description": "PHP patches two critical RCE flaws affecting web servers as Cloudflare reports early exploit attempts, with no confirmed breaches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz8MKP95jyzesxy1eZd6zQDCb3dr-9m-bRE9W0PYnomN3z8lodXmM_0Oo4AAiP_nt2QMNpLxsUNPKueH4TW6FnvXl7ijDGDwxnXcfiyAII6sUDd8cfKoB7Z3MgLOvcAWDeplnUdixy-zfpgVqCuAVZmqH-Orn4S-QhYREVcY1ew7_6kIG8LBsdLZC8Ofs/s1700-nu-rw-lo-l85-e365/PHP2SHELL.gif",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
