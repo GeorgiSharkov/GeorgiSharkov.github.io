@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-21T21:56:42.928157+00:00",
+  "generatedAt": "2026-10-22T05:16:44.515711+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Railway Security Incident: Hackers May Have Accessed Customer Environment Variables",
+      "url": "https://cybersecuritynews.com/railway-security-incident/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-22T03:04:16+00:00",
+      "description": "Railway has disclosed a security incident in which an unauthorized third party may have accessed customer environment variables, including some decrypted values.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Railway-Security-Incident.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "12-Year-Old GitLab Vulnerability Allows Remote Code Execution on Self-Managed Server",
+      "url": "https://cybersecuritynews.com/12-year-old-gitlab-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-22T02:06:30+00:00",
+      "description": "GitLab has released urgent security updates for a critical vulnerability that could let attackers run code on self-managed servers without logging in.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/12-Year-Old-GitLab-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33446",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-22T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "GoDaddy Revoking 404,607 TLS Certificates Following Compliance Failures",
+      "url": "https://cybersecuritynews.com/godaddy-revoking-tls-certificates/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-22T01:43:58+00:00",
+      "description": "GoDaddy launched a mass revocation of 404,607 SSL/TLS certificates after finding that issued certificates did not match its published certificate policies.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GoDaddy-Revoking-TLS-Certificates-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
       "url": "https://isc.sans.edu/diary/rss/33440",
@@ -58,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "The AI Adoption Blind Spot: How Fake AI Tools Put Enterprises at Risk",
-      "url": "https://cybersecuritynews.com/the-ai-adoption-blind-spot-how-fake-ai-tools-put-enterprises-at-risk/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-21T16:53:38+00:00",
-      "description": "AI adoption is accelerating across enterprises, with employees increasingly relying on platforms like ChatGPT, Claude, and Microsoft Copilot for everyday work.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Fake-AI-tools.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "PHP2Shell Patches Land as First Exploitation Attempts Hit Sensors",
       "url": "https://www.securityweek.com/php2shell-patches-land-as-first-exploitation-attempts-hit-sensors/",
       "source": "SecurityWeek",
@@ -76,17 +109,6 @@
       "publishedAt": "2026-10-21T16:50:40+00:00",
       "description": "Several cybersecurity companies saw exploitation attempts of CVE-2026-109618 and CVE-2026-109619 before PHP released the patches.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Node.js Releases Security Updates to Fix High-Severity TLS, DNS and Brotli Vulnerabilities",
-      "url": "https://cybersecuritynews.com/node-js-releases-security-updates/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-21T16:33:58+00:00",
-      "description": "Node.js patched 10 vulnerabilities across versions 26.x, 24.x, and 22.x, including four high-severity flaws affecting DNS, TLS, and Brotli decompression.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Node.js-Releases-Security-Updates-to-Fix-High-Severity-TLS-DNS-and-Brotli-Vulnerabilities.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -99,17 +121,6 @@
       "description": "OpenAI says GPT-6 agents weakened misalignment monitoring in two internal coding tasks, disabling alerts and removing a monitoring integration.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLjuo6QB0kLx2z3u5thyphenhyphenjrULwTFigmtHb1U1y6141FNvIITM2nytdxcKmShZMElSSZdMFbnGfiwjTIpqOYtNzK3gAeSGkEVr8XnsPB9RF1GOh-6qqkXPmX8SY2COyV0eyA6khfN3QYzF-Ydbsz8Mw8jBmFDouame4hTt0ulaNxq0pPTR4FKFuVyQ2Ln6WC/s1700-nu-rw-lo-l85-e365/openai-bot.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use AI-Powered Browsers to Hide Thousands of Fake Accounts and Bypass Security Detection",
-      "url": "https://cybersecuritynews.com/hackers-use-ai-powered-browsers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-21T15:54:49+00:00",
-      "description": "AI-powered antidetect browsers help cybercriminals manage thousands of fake accounts, evade detection, and conduct online fraud.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Use-AI-Powered-Browsers-to-Hide-Thousands-of-Fake-Accounts-and-Bypass-Security-Detection.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -188,17 +199,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33434",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-18T12:59:30+00:00",
-      "description": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
