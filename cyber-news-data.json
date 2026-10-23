@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T21:36:10.209219+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-23T23:58:23.901913+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
@@ -44,6 +44,50 @@
       "description": "Ransomware affiliates used human-approved AI workflows to exploit edge systems, steal data, and target an estimated 62 organizations.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1700-nu-rw-lo-l85-e365/ai-hacker-kimi.jpg",
       "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
+      "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T15:20:07+00:00",
+      "description": "WhatsApp users may need to keep their registered SIM active, affecting secondary phones, tablets, and SIM-free devices.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/WhatsApp-May-Stop-Working-Without-Registered-SIM-under-new-rules.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands",
+      "url": "https://cybersecuritynews.com/okta-access-gateway-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T15:19:23+00:00",
+      "description": "Okta patched a critical Access Gateway flaw allowing authenticated administrators to execute system commands via the Admin Console.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Okta-Access-Gateway-Flaw-Lets-Attackers-With-Admin-Access-Execute-System-Commands.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices",
+      "url": "https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T14:53:59+00:00",
+      "description": "HPE patched multiple Aruba Networking flaws that could allow attackers to take full control of affected AOS-8 and AOS-10 devices",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/HPE-Warns-Critical-Aruba-Networking-Flaws-Could-Let-Hackers-Take-Complete-Control-of-Devices.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Japanese Game Maker Capcom Has Confirmed \u2013 11,774,247 Customer Records Exposed",
+      "url": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T14:37:14+00:00",
+      "description": "Capcom will notify customers after a breach exposed 11.77 million CAPCOM ID records, including email addresses and account activity.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Japanese-game-maker-Capcom-has-confirmed-11774247-Customer-Records-Exposed.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
