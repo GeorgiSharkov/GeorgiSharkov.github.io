@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-10-23T17:23:17.340169+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-23T21:36:10.209219+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
-      "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T15:20:07+00:00",
-      "description": "WhatsApp users may need to keep their registered SIM active, affecting secondary phones, tablets, and SIM-free devices.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/WhatsApp-May-Stop-Working-Without-Registered-SIM-under-new-rules.webp",
-      "topic": "News",
-      "kind": "News"
+      "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33452",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-23T20:04:47+00:00",
+      "description": "Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
     },
     {
-      "title": "Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands",
-      "url": "https://cybersecuritynews.com/okta-access-gateway-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T15:19:23+00:00",
-      "description": "Okta patched a critical Access Gateway flaw allowing authenticated administrators to execute system commands via the Admin Console.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Okta-Access-Gateway-Flaw-Lets-Attackers-With-Admin-Access-Execute-System-Commands.webp",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-23T18:50:13+00:00",
+      "description": "BlackX bootkit exploits unrevoked Secure Boot binaries on Windows devices after attackers gain admin access to Central Asian diplomatic networks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0cTK7D5hQFR-3qGTicTlfi6_CbnMIgCJWIojDeXmZr91hrIPqhhxZ72mAsnB6kBOcCdscZOL_VN8RhAdYIxq3d128rkaDweIApSaV5w3IzB1YGN3XNnlarG0IKN5VuDJy_RnPBxXZoKQ1Yh950YFNz-b_pbvEY_QlQa5Tr-BP4366UgkGIg968J-QEN1M/s1700-nu-rw-lo-l85-e365/uefi.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices",
-      "url": "https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T14:53:59+00:00",
-      "description": "HPE patched multiple Aruba Networking flaws that could allow attackers to take full control of affected AOS-8 and AOS-10 devices",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/HPE-Warns-Critical-Aruba-Networking-Flaws-Could-Let-Hackers-Take-Complete-Control-of-Devices.webp",
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-23T17:54:08+00:00",
+      "description": "Ruby patched three Onigmo regex bugs that enabled code execution in GitLab when it compiled attacker-controlled patterns.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1700-nu-rw-lo-l85-e365/ruby-rce.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Japanese Game Maker Capcom Has Confirmed \u2013 11,774,247 Customer Records Exposed",
-      "url": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T14:37:14+00:00",
-      "description": "Capcom will notify customers after a breach exposed 11.77 million CAPCOM ID records, including email addresses and account activity.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Japanese-game-maker-Capcom-has-confirmed-11774247-Customer-Records-Exposed.webp",
-      "topic": "Identity",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-23T17:50:47+00:00",
+      "description": "Ransomware affiliates used human-approved AI workflows to exploit edge systems, steal data, and target an estimated 62 organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1700-nu-rw-lo-l85-e365/ai-hacker-kimi.jpg",
+      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -91,28 +91,6 @@
       "kind": "News"
     },
     {
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T11:25:43+00:00",
-      "description": "PHP warns CVE-2026-115560 may enable code execution in unusual session setups and advises disabling session upload progress pending a routine fix.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSXE1XecomGt7TSLi_DCDVL8oQjsLEtppNNGjkuW1cbVl-cXZkMG-rqTr-oSVz_6XfoU8aoScw3rjGxsnTpV3JaV5eWfj431lg09Rnrrk1UjwNq1ZEofkwR4FaM2qatC_FD9ZNBZk-T9_9ddu8n-BtUkhwVgWzc2ZvaWAHP8eMxlLU19qxIjlXeHOJYHs/s1700-nu-rw-lo-l85-e365/php2.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T11:11:23+00:00",
-      "description": "Sandworm wiped a Ukrainian logistics firm in September 2025 after UAC-0099 gained access and deployed a new Yggdrasil-based backdoor.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxH9YdfH7FHfSBJt7wrnd1P2hTQG6_2rpkp3YBqp2Yd49nYy4-a0zmvk5mqKlXH4DWfRO4Q4MmzLG4_t19me5rErcvoEpGJ5Q8LYty_GXXys63QC8HlO3G2jRC9f5vJd1BDiOp4APzxV4rSbFOZY80zIUmxvJ8V6isB-eDy9e9tVWaLR53fpPO80mzn_BH/s1700-nu-rw-lo-l85-e365/uk-russia.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
       "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
       "source": "SecurityWeek",
@@ -146,17 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Critical Flaw in Python\u2019s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T09:36:00+00:00",
-      "description": "Pillow 13.0.0 fixes EPS, JPEG, and TIFF flaws, including command execution paths involving Ghostscript and crafted image files.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1700-nu-rw-lo-l85-e365/python-image.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33446",
       "source": "SANS ISC",
@@ -165,17 +132,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33440",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-21T21:02:43+00:00",
-      "description": "PHP.net announced that it will release a critical update today. We decided to change the infoCon to YELLOW due to the widespread use of PHP, the expected severity of the flaw (CVSS 9.4), and the availability of early PoC exploits before the patch became\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
