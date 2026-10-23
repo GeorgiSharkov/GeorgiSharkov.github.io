@@ -1,26 +1,103 @@
 {
-  "generatedAt": "2026-10-23T11:59:56.450074+00:00",
+  "generatedAt": "2026-10-23T17:23:17.340169+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "URGENT - PHP Warns of Another Unpatched RCE Two Days After Emergency PHP2Shell Patches",
+      "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
+      "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T15:20:07+00:00",
+      "description": "WhatsApp users may need to keep their registered SIM active, affecting secondary phones, tablets, and SIM-free devices.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/WhatsApp-May-Stop-Working-Without-Registered-SIM-under-new-rules.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Okta Access Gateway Flaw Lets Attackers With Admin Access Execute System Commands",
+      "url": "https://cybersecuritynews.com/okta-access-gateway-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T15:19:23+00:00",
+      "description": "Okta patched a critical Access Gateway flaw allowing authenticated administrators to execute system commands via the Admin Console.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Okta-Access-Gateway-Flaw-Lets-Attackers-With-Admin-Access-Execute-System-Commands.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "HPE Warns Critical Aruba Networking Flaws Could Let Hackers Take Complete Control of Devices",
+      "url": "https://cybersecuritynews.com/hpe-warns-aruba-networking-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T14:53:59+00:00",
+      "description": "HPE patched multiple Aruba Networking flaws that could allow attackers to take full control of affected AOS-8 and AOS-10 devices",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/HPE-Warns-Critical-Aruba-Networking-Flaws-Could-Let-Hackers-Take-Complete-Control-of-Devices.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Japanese Game Maker Capcom Has Confirmed \u2013 11,774,247 Customer Records Exposed",
+      "url": "https://cybersecuritynews.com/capcom-confirmed-customer-records-exposed/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T14:37:14+00:00",
+      "description": "Capcom will notify customers after a breach exposed 11.77 million CAPCOM ID records, including email addresses and account activity.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Japanese-game-maker-Capcom-has-confirmed-11774247-Customer-Records-Exposed.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+      "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-23T14:23:37+00:00",
+      "description": "Noteworthy stories that might have slipped under the radar: Russia\u2019s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-23T13:50:56+00:00",
+      "description": "A campaign attributed to k0t exploits exposed network devices, establishes persistent access, and exfiltrates data using Rclone.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1700-nu-rw-lo-l85-e365/1000117358.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33450",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-23T13:43:20+00:00",
+      "description": "This morning, we returned to Infocon Green. As usual, we are raising the Infocon to alert you to emerging situations requiring immediate attention. PHP fit that description. By now, you either know about it, or you probably never will, so it is time to go\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
+      "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-23T12:45:52+00:00",
+      "description": "Researchers tie PHP2Shell attempts to a Mirai botnet and show an ASLR bypass, but no successful compromise has been confirmed yet.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PHP.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
       "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
       "publishedAt": "2026-10-23T11:25:43+00:00",
       "description": "PHP warns CVE-2026-115560 may enable code execution in unusual session setups and advises disabling session upload progress pending a routine fix.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSXE1XecomGt7TSLi_DCDVL8oQjsLEtppNNGjkuW1cbVl-cXZkMG-rqTr-oSVz_6XfoU8aoScw3rjGxsnTpV3JaV5eWfj431lg09Rnrrk1UjwNq1ZEofkwR4FaM2qatC_FD9ZNBZk-T9_9ddu8n-BtUkhwVgWzc2ZvaWAHP8eMxlLU19qxIjlXeHOJYHs/s1700-nu-rw-lo-l85-e365/php2.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use New BlackX Bootkit to Bypass Windows Secure Boot on Fully Patched Systems",
-      "url": "https://cybersecuritynews.com/hackers-use-new-blackx-bootkit/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T11:23:35+00:00",
-      "description": "BlackX UEFI bootkit exploits Secure Boot weaknesses to spy on diplomatic organizations in Tajikistan, Uzbekistan, and Turkmenistan.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Use-New-BlackX-Bootkit-to-Bypass-Windows-Secure-Boot-on-Fully-Patched-Systems.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -58,7 +135,7 @@
       "kind": "DFIR"
     },
     {
-      "title": "Attackers Exploit Third VeloCloud Orchestrator Zero-Day in Four Months",
+      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
       "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
@@ -77,72 +154,6 @@
       "description": "Pillow 13.0.0 fixes EPS, JPEG, and TIFF flaws, including command execution paths involving Ghostscript and crafted image files.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1700-nu-rw-lo-l85-e365/python-image.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "SBI Notifies Customers Impacted by the Recent Cyber Incident",
-      "url": "https://cybersecuritynews.com/sbi-notifies-customers-with-cyber-incident/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T09:20:41+00:00",
-      "description": "SBI has notified affected customers via email and WhatsApp about a cyber incident involving suspected personal data exposure.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Multiple-waves-of-DDoS-attacks-caused-this-weeks-outage-in-North-Korea-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T08:40:43+00:00",
-      "description": "Imperva demonstrated code execution via crafted Brotli data on an official Node.js 24.22.0 Linux arm64 image; Node.js has issued fixes.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDudJHAM27KiE-F4E5vX1WOgITTdawUaZrFoXUIrf7lscEHIl7fgGQY5Qo60bRxr-o7UKloYK1sp23i5cvWPpc6XXttZa8GFvYxqSV7pp0B6vdBTp0sIBCX8r8oC5CAXO1mdJfshaIpLFyrFDCm9HPiYyBZMECEcSHKzbVzOk_VpGL2kEQDjB1rNk21Y8/s1700-nu-rw-lo-l85-e365/node2shell.gif",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "11 Million Impacted by Capcom Data Breach",
-      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-23T08:34:14+00:00",
-      "description": "The hackers stole 11 million email addresses from CAPCOM ID and changed the login passwords for 196 accounts.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Capcom.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Quest Diagnostics Reports Cyber Breach Affecting \u2018Certain Patient Records\u2019",
-      "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-23T08:25:06+00:00",
-      "description": "In a regulatory filing, Quest Diagnostics reported unauthorized access to its Quanum Lab Services Manager, a platform where certain clients can place test orders.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Top 10 Best Email Encryption Services in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-email-encryption-services/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T08:22:52+00:00",
-      "description": "If the recipient needs a manual, your email encryption failed. We ranked 2026\u2019s 10 best email encryption services \u2014 Virtru leads, Purview and Proofpoint follow.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Email-Encryption-Services.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Top 9 Best Managed File Transfer (MFT) Solutions in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-managed-file-transfer/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T08:16:37+00:00",
-      "description": "MFT servers became ransomware\u2019s favorite door. We ranked 2026\u2019s 9 best managed file transfer solutions on security posture first \u2014 Axway leads the field.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Managed-File-Transfer-Solutions-.webp",
-      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -177,17 +188,6 @@
       "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, October 21st, 2026 https://isc.sans.edu/podcastdetail/10144, (Wed, Oct 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33438",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-21T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
