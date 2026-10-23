@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-10-22T21:53:07.924010+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-23T05:15:58.431928+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "PwC Data Breach Claim \u2013 Everest Ransomware Group Claims to Have Stolen 590 GB of Data",
+      "url": "https://cybersecuritynews.com/pwc-data-breach-claim/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T05:12:54+00:00",
+      "description": "The Everest ransomware group claims to have stolen 590.69 GB of data linked to PwC, the global professional services firm. The alleged haul includes human resources records, training files, and internal documents.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PwC-Data-Breach-Claim.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Cisco Expressway Vulnerability Enables Remote Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/critical-cisco-expressway-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T04:47:50+00:00",
+      "description": "Cisco patched a critical Expressway flaw that could allow remote attackers to execute OS commands as root.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Critical-Cisco-Expressway-Vulnerability-Enables-Remote-Code-Execution-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Splunk Fixes 24 Security Flaws, Including Four Critical Vulnerabilities in Enterprise and SOAR",
+      "url": "https://cybersecuritynews.com/splunk-fixes-24-security-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T03:41:41+00:00",
+      "description": "Splunk patched 24 Enterprise and SOAR vulnerabilities, including four critical flaws involving RCE, DoS, and access control issues.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Splunk-Fixes-24-Security-Flaws-Including-Four-Critical-Vulnerabilities-in-Enterprise-and-SOAR.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Quest Diagnostics Hacked \u2013 Attackers Accessed the System to Order Tests and View Results",
+      "url": "https://cybersecuritynews.com/quest-diagnostics-hacked/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-23T03:29:20+00:00",
+      "description": "Quest Diagnostics has disclosed a cyberattack involving unauthorized access to its Quanum LSM system, which healthcare clients use to order laboratory tests and view results.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Quest-Diagnostics-Hacked.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
       "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
