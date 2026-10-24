@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-24T04:57:48.045549+00:00",
+  "generatedAt": "2026-10-24T11:30:21.521607+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-24T09:04:24+00:00",
+      "description": "Eye Security sent over 2 million updates to disable Time4Popcorn's vulnerable updater, which could install unverified code with elevated privileges.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1700-nu-rw-lo-l85-e365/popcorn.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-24T08:45:56+00:00",
+      "description": "Brotli decoder flaw CVE-2026-111497 affects Node.js, Bun, Python packages and Envoy; code execution was demonstrated on one Node.js build.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1700-nu-rw-lo-l85-e365/br-nodejs.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-24T06:25:57+00:00",
+      "description": "CISA adds exploited Collabora Online and Arista VeloCloud flaws to KEV, with federal agencies directed to patch by October 26.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmm0pKX3kbfMC2GKemUiMT8PH1uDJIHn4AcmoiQ5nUK4TWZl0Ni_-k6kjpAFUrFzEWSSq_G307YJXTXmn9FZ7q6oOr5OEMASP9mrXOXrk9lSOGzqPCAbkQqpHsMxFe1q5CnyDZnqeDq_FiiC7jEzp0ie1r_nnQOSKcbPcKBdoXI-ycAjCZA9AuxemUhE5k/s1700-nu-rw-lo-l85-e365/arista-cisa.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
       "url": "https://isc.sans.edu/diary/rss/33452",
@@ -25,28 +58,6 @@
       "kind": "News"
     },
     {
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T17:54:08+00:00",
-      "description": "Ruby patched three Onigmo regex bugs that enabled code execution in GitLab when it compiled attacker-controlled patterns.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA5n8ST_yuElQgTwbfq1oFnVAoiTvZCW_Ct1b8lT_OQ9dnyeXfocrqzTUJJ1t920YaEa-7Sonxl9KlthV4x7lXI3dmJxc9_S11NjWRJ6dcgfsX4UGhv0KFWZsZrzXKpjh92JPyDdHPlCPQh1AHd0YKM44sVcc9d-57r8_BdrIb3V06MWfk8bRAy4kDU6I/s1700-nu-rw-lo-l85-e365/ruby-rce.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T17:50:47+00:00",
-      "description": "Ransomware affiliates used human-approved AI workflows to exploit edge systems, steal data, and target an estimated 62 organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6gkXKzxUypnUKbTuo7Xq-8TSUpDD8TNF5XEG-bV6zcA7V3z_cO2pJeTiX1KIFi-rFNX5SOlMY93oGQpfQUuWOl0RJ35nM1XeIqu2ZV4aAIZXEd9RXQVQk0rMmeI67ysGsTJ1OXLIQg2LvGjMLHCQQ8dgqalHaBE9yCZKwIOVjHCD_lOTlsP1HdBziZ3Sb/s1700-nu-rw-lo-l85-e365/ai-hacker-kimi.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
       "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
       "source": "SecurityWeek",
@@ -55,17 +66,6 @@
       "description": "Noteworthy stories that might have slipped under the radar: Russia\u2019s APT28 hit NATO defense firms, PingCAP source code stolen, ShinyHunters negotiator probe.",
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-23T13:50:56+00:00",
-      "description": "A campaign attributed to k0t exploits exposed network devices, establishes persistent access, and exfiltrates data using Rclone.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSk-Q06Dd5YyYmXWMt9b860DzGRKbTae_QwvoZDKNICaEznAj2AUurJmv6vPnpcH7qqDjauFZWWx7GX1RN93BLaU9Rqgiqe9j1iQRg2Vqcz3HpSqgesA6oS-GrMTyx4CTzwOD7C_z205k57ZpT70Gv4RXi-65X-nyI04wpA3raJ5nh46pN5ox42cyLnHjv/s1700-nu-rw-lo-l85-e365/1000117358.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
