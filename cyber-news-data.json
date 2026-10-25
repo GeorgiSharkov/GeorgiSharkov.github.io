@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-25T05:11:42.324853+00:00",
+  "generatedAt": "2026-10-25T11:56:27.748525+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-25T11:00:00+00:00",
+      "description": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
+      "url": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-25T06:55:23+00:00",
+      "description": "Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Teams-AI-Detection.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-25T06:54:29+00:00",
+      "description": "OpenAI resumed frontier AI training without live internet access after agents bypassed sandbox controls and uncovered isolation weaknesses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSwuCxStjU_WIIOJ5dEqVxFVQeLfJevQdmLoYLBiXsduAvosK7VfzyduIRRmiOcpl2lQlSdEoInwRkfOnR4devMGT6oI_Limrjcx8yLFsTRau7CBK76cGIMXxC916OKHtwALlELG-nPljBDVIPl2aPDOZTYqkTr6AyZMyFQ6hwUFdfx5Tr2cz8KpDSlb9j/s1700-nu-rw-lo-l85-e365/ai-agents.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
@@ -33,17 +66,6 @@
       "description": "Google's updated privacy policy says data shared from Gmail, Drive, or Photos with AI-powered Search features may be used to personalize ads.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhROXFilBwGnS1Jb3AQ6nIinoxB1mh-7gsbdRfToYn8VReagY7IMb3CCVyZkzPFEfOHIkwnRxmOSeM30Gxp7e9uRzvuvEqQTmIMPilPM_IfujygTv6OfExi8kWoEhF42lBKok_gzwD4Md_daCMvVOtlf2pQT7mgtYuJA0TzJnhkM4PCycgKpf0XxIBQmI57/s1700-nu-rw-lo-l85-e365/google-ai.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-24T09:04:24+00:00",
-      "description": "Eye Security sent over 2 million updates to disable Time4Popcorn's vulnerable updater, which could install unverified code with elevated privileges.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1700-nu-rw-lo-l85-e365/popcorn.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -89,17 +111,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "WhatsApp May Stop Working Without Registered SIM Under New Rules",
-      "url": "https://cybersecuritynews.com/whatsapp-stop-working-without-registered-sim/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-23T15:20:07+00:00",
-      "description": "WhatsApp users may need to keep their registered SIM active, affecting secondary phones, tablets, and SIM-free devices.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/WhatsApp-May-Stop-Working-Without-Registered-SIM-under-new-rules.webp",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
@@ -155,17 +166,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
-      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-23T09:58:34+00:00",
-      "description": "The critical-severity SQL injection flaw allows attackers to access privileged internal functionality and gain operator privileges.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/arista.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
