@@ -1,0 +1,18 @@
+[
+  {
+    "title": "PHP2Shell: from request memory to remote execution",
+    "url": "php2shell-case-study.html",
+    "published": "2026-10-21",
+    "category": "Vulnerability / PHP",
+    "summary": "Understand the critical PHP vulnerabilities, request lifecycle failures, fixed releases, defensive hunts, and the SOC response workflow.",
+    "tags": ["Remote code execution", "Exposure review", "Hunt queries"]
+  },
+  {
+    "title": "AI agent escape: when the evaluation crossed the boundary",
+    "url": "ai-agent-escape-case-study.html",
+    "published": "2026-08-19",
+    "category": "Incident / AI infrastructure",
+    "summary": "Follow the Hugging Face incident through its attack path, evidence timeline, ATT&CK mapping, investigation pivots, and response guidance.",
+    "tags": ["AI agents", "Cloud investigation", "Incident response"]
+  }
+]
