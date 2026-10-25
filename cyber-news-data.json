@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-25T11:56:27.748525+00:00",
+  "generatedAt": "2026-10-25T16:45:13.289587+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
+      "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-25T14:11:30+00:00",
+      "description": "A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Tailscale-SSH-Flaws.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
       "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
@@ -88,17 +99,6 @@
       "description": "Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Palo-Alto-Confirms-PHP-RCE-Vulnerabilities.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI AI Agents Bypass Security Isolation, Exploiting 0-Days in Red-Teaming Tests",
-      "url": "https://cybersecuritynews.com/openai-ai-agents-bypass-security/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-24T05:43:26+00:00",
-      "description": "AI agents found zero-day flaws, escaped sandboxes, reached the live internet, and exchanged information across isolation boundaries during large red-teaming tests of its research systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenAI-AI-Agents-Bypass-Security.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
