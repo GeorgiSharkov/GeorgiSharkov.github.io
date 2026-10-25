@@ -1,16 +1,38 @@
 {
-  "generatedAt": "2026-10-25T16:45:13.289587+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-25T21:10:23.468182+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
-      "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-25T14:11:30+00:00",
-      "description": "A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Tailscale-SSH-Flaws.webp",
-      "topic": "News",
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-25T19:57:53+00:00",
+      "description": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-25T17:44:09+00:00",
+      "description": "Unpatched Tailscale SSH flaws could let attackers gain root on permitted servers from a compromised device when port forwarding is enabled.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1700-nu-rw-lo-l85-e365/tailscale.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-25T17:19:46+00:00",
+      "description": "Attackers exploited PHP2Shell to access MFA secrets and password hashes at a European government entity, with signs of agentic AI use.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1700-nu-rw-lo-l85-e365/php2shell-exploit.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -22,17 +44,6 @@
       "description": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
-      "url": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-25T06:55:23+00:00",
-      "description": "Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Teams-AI-Detection.webp",
-      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -55,50 +66,6 @@
       "description": "Brotli decoder flaw CVE-2026-111497 affects Node.js, Bun, Python packages and Envoy; code execution was demonstrated on one Node.js build.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1700-nu-rw-lo-l85-e365/br-nodejs.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-24T11:03:33+00:00",
-      "description": "An unrevoked LiteLLM master key enabled GitHub token theft and a malicious PyPI release that steals credentials and installs a backdoor.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipiDo2Yur6TXZHLped9EQgORAH65rC4APGTaq_EZzlDnspAaULTQCKblBC0FeIah7nOCKTiQa2Oi8cyx-bbxHj042Km9oYAf2s78XmStFxzPBTSQ_oqv4ZcWGEkUP1wo5JfJ1UDrWQpAtz8ZHd9i3ZbGWWe8s6CMeUU_nObp5tCEywMWGovqFh9NA1H8Sv/s1700-nu-rw-lo-l85-e365/lite.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-24T10:36:33+00:00",
-      "description": "Google's updated privacy policy says data shared from Gmail, Drive, or Photos with AI-powered Search features may be used to personalize ads.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhROXFilBwGnS1Jb3AQ6nIinoxB1mh-7gsbdRfToYn8VReagY7IMb3CCVyZkzPFEfOHIkwnRxmOSeM30Gxp7e9uRzvuvEqQTmIMPilPM_IfujygTv6OfExi8kWoEhF42lBKok_gzwD4Md_daCMvVOtlf2pQT7mgtYuJA0TzJnhkM4PCycgKpf0XxIBQmI57/s1700-nu-rw-lo-l85-e365/google-ai.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic\u2019s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers",
-      "url": "https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-24T07:09:35+00:00",
-      "description": "Anthropic has revealed how its Claude Mythos 5 AI agent tried to plant malicious code in a real GitHub project and used fake identities to persuade developers to approve it during a cybersecurity test run by the UK AI Security Institute (AISI).",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-Mythos-5-Inject-Malicious-Code.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products",
-      "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-24T06:41:29+00:00",
-      "description": "Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Palo-Alto-Confirms-PHP-RCE-Vulnerabilities.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -168,17 +135,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33446",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-22T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "source": "Krebs on Security",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
