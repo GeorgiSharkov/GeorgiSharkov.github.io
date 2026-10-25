@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-25T21:10:23.468182+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-25T23:30:11.403901+00:00",
+  "count": 20,
   "stories": [
     {
       "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
@@ -36,6 +36,17 @@
       "kind": "News"
     },
     {
+      "title": "Tailscale SSH Flaws Could Let Hackers Gain Root Access Across Servers From One Compromised Device",
+      "url": "https://cybersecuritynews.com/tailscale-ssh-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-25T14:11:30+00:00",
+      "description": "A new security report warns that Tailscale SSH has flaws that could let a hacker move from one compromised device to root access on other servers. Tailscale SSH lets approved devices log in to each other over a private network.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Tailscale-SSH-Flaws.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
       "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
       "source": "SecurityWeek",
@@ -44,6 +55,17 @@
       "description": "Founded in 2025 by Unit 8200 alumni, Tel Aviv-based Mave uses AI agents to investigate alerts across existing security stacks.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/11/funding-investment-market-3.jpeg",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Teams to Use AI for Detecting Phishing Attacks Using Teams Conversations",
+      "url": "https://cybersecuritynews.com/microsoft-teams-ai-detection/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-25T06:55:23+00:00",
+      "description": "Microsoft is preparing to add AI phishing detection to Microsoft Teams, using conversation context to spot scams that may contain no harmful links or attachments.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Teams-AI-Detection.webp",
+      "topic": "Identity",
       "kind": "News"
     },
     {
@@ -66,6 +88,28 @@
       "description": "Brotli decoder flaw CVE-2026-111497 affects Node.js, Bun, Python packages and Envoy; code execution was demonstrated on one Node.js build.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1700-nu-rw-lo-l85-e365/br-nodejs.jpg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Anthropic\u2019s Claude Mythos 5 AI Agent Tried to Inject Malicious Code and Trick Real Developers",
+      "url": "https://cybersecuritynews.com/claude-mythos-5-inject-malicious-code/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-24T07:09:35+00:00",
+      "description": "Anthropic has revealed how its Claude Mythos 5 AI agent tried to plant malicious code in a real GitHub project and used fake identities to persuade developers to approve it during a cybersecurity test run by the UK AI Security Institute (AISI).",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Claude-Mythos-5-Inject-Malicious-Code.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products",
+      "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-24T06:41:29+00:00",
+      "description": "Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Palo-Alto-Confirms-PHP-RCE-Vulnerabilities.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
