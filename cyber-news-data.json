@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-25T23:30:11.403901+00:00",
+  "generatedAt": "2026-10-26T05:12:42.903903+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Hacker Exploits Critical PHP2Shell Flaws to Win $2,000 Bitcoin Challenge, Releases PoC",
+      "url": "https://cybersecuritynews.com/php2shell-flaws-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-26T03:41:52+00:00",
+      "description": "A security researcher known online as killa has won a public Bitcoin challenge by using two critical PHP flaws to reach a test server. The winning run took 19.28 hours.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/PHP2Shell-Flaws-Exploited.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, October 26th, 2026 https://isc.sans.edu/podcastdetail/10150, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33456",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-26T03:30:12+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
       "url": "https://isc.sans.edu/diary/rss/33454",
@@ -25,7 +47,7 @@
       "kind": "News"
     },
     {
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
       "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
@@ -102,17 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Palo Alto Confirms PHP RCE Vulnerabilities Impact PAN-OS and Multiple Network Products",
-      "url": "https://cybersecuritynews.com/palo-alto-confirms-php-rce-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-24T06:41:29+00:00",
-      "description": "Palo Alto Networks has confirmed that two critical PHP remote code execution vulnerabilities affect PAN-OS and previously impacted two cloud services.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Palo-Alto-Confirms-PHP-RCE-Vulnerabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
       "url": "https://isc.sans.edu/diary/rss/33452",
       "source": "SANS ISC",
@@ -166,17 +177,6 @@
       "image": "https://www.securityweek.com/wp-content/uploads/2023/02/China-Surveillence-Threat.jpg",
       "topic": "Threat intelligence",
       "kind": "News"
-    },
-    {
-      "title": "ISC Stormcast For Friday, October 23rd, 2026 https://isc.sans.edu/podcastdetail/10148, (Fri, Oct 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/33448",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-23T10:25:11+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
