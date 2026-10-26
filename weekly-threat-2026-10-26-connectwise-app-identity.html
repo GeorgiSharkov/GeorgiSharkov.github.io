@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConnectWise App Identity Abuse | CyberShark Weekly SOC Brief</title>
+  <meta name="description" content="Investigate the ConnectWise application credential campaign: service principal sign-ins, credential persistence, cloud role changes, defensive KQL and a practical SOC response.">
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&amp;family=Rajdhani:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-YXYG9BY9Z5');</script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20261025-1">
+</head>
+<body class="weekly-body">
+<div class="page-shell">
+  <div class="grid-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img class="brand-mark" src="brand-mark.svg" alt=""><span class="brand-copy"><strong>CYBERSHARK</strong><span>Weekly SOC Brief / 003</span></span></a>
+    <nav class="topnav" aria-label="Primary"><a href="index.html">Home</a><a href="threat-briefs.html">Threat Briefs</a><a href="#hunts">Hunt queries</a><a href="#response">Response</a><a href="#sources">Sources</a></nav>
+  </header>
+  <main><article>
+    <header class="panel weekly-hero">
+      <p class="eyebrow">CLOUD IDENTITY / SUPPLY CHAIN / WEEK 44</p>
+      <h1>When a trusted application becomes the intruder</h1>
+      <p class="weekly-deck">The ConnectWise credential campaign through a SOC lens: follow the application identity, investigate new credentials and role grants, and separate evidence of access from evidence of data theft.</p>
+      <p>Published <time datetime="2026-10-26">26 October 2026</time> / Research window: 19-26 October / Technical walkthrough: approximately 10 minutes</p>
+      <p><strong>Evidence standard:</strong> Microsoft attribution is identified as an assessment. The investigation workflow and queries below are original analyst guidance, not claims about telemetry from your environment.</p>
+    </header>
+    <nav class="weekly-toc" aria-label="Article sections"><a href="#signal">This week's signal</a><a href="#mechanism">Technical mechanism</a><a href="#timeline">Timeline</a><a href="#triage">Investigation</a><a href="#hunts">Hunt queries</a><a href="#response">Remediation</a><a href="#sources">Evidence</a></nav>
+
+    <section class="panel weekly-section" id="signal">
+      <p class="eyebrow">01 / WHAT CHANGED</p><h2>A fresh assessment of an existing intrusion</h2>
+      <p>On 21 October, Microsoft attributed the ConnectWise multi-tenant application compromise to Storm-0940 and described use of the ARTEX agent framework. It reported authentication through previously authorised applications and subsequent Graph reconnaissance, credential changes and attempted privilege changes. Microsoft explicitly cautioned that application presence or successful authentication does not establish data access or exfiltration. <a class="weekly-source-ref" href="#source-1">[1]</a></p>
+      <p>Huntress's follow-up distinguishes what its tenant logs show from what they cannot prove: its telemetry supports a mix of scripts and operator-directed activity, but does not independently establish the presence of a language model. It also identifies an important visibility gap around Graph reads in the tenants it examined. <a class="weekly-source-ref" href="#source-2">[2]</a></p>
+      <p><strong>CyberShark assessment:</strong> prioritise the identity trail over the AI label. A suspicious service principal gaining a new credential or role merits investigation whether a human, script or agent issued the request. Build your case around durable evidence: which identity acted, against which resource, with what result and what changed afterwards.</p>
+    </section>
+
+    <section class="panel weekly-section" id="mechanism">
+      <p class="eyebrow">02 / TECHNICAL BREAKDOWN</p><h2>Three objects to keep separate</h2>
+      <p>Think of the application ID as the product identity you search across tenants. The tenant's service principal is the local representation whose permissions and activity you investigate. A credential identifies a means of authentication. <a class="weekly-source-ref" href="#source-6">[6]</a> Record each separately; a display name alone is a poor join key when names can change or several integrations look similar.</p>
+      <p>In this campaign, Microsoft's account describes misuse of application trust rather than an interactive user sign-in. <a class="weekly-source-ref" href="#source-1">[1]</a> The practical implication is that a review limited to employee logins can miss the relevant activity. Start with workload authentication and then examine changes made by that workload identity.</p>
+      <p><strong>Investigation hypothesis:</strong> a second credential planted in a different application could survive remediation of the original integration. Test that hypothesis against the directory audit trail. Do not conclude persistence merely because a credential exists: resolve who created it, the target object, the approved change and whether it was subsequently used.</p>
+      <ol class="weekly-chain" aria-label="Conceptual attack path based on reported behaviours; individual tenants may differ">
+        <li><span>01</span>Compromised vendor application credential</li>
+        <li><span>02</span>Application-only tenant authentication</li>
+        <li><span>03</span>Directory and resource discovery</li>
+        <li><span>04</span>Credential or privilege changes</li>
+        <li><span>05</span>Investigate access and remaining trust</li>
+      </ol>
+      <p>This is an original conceptual diagram, not a reconstruction of one complete victim session. The final stage is the defender's task; it does not assert that collection or theft occurred.</p>
+    </section>
+
+    <section class="panel weekly-section" id="timeline">
+      <p class="eyebrow">03 / EVIDENCE TIMELINE</p><h2>Keep observation dates separate from publication dates</h2>
+      <ul>
+        <li><strong>15 October:</strong> Huntress describes downstream tenant authentication and follow-on activity during this incident. Its later analysis groups observed behaviour into automated loops, targeted work and repeated attempts. <a class="weekly-source-ref" href="#source-2">[2]</a></li>
+        <li><strong>16 October:</strong> Huntress published its initial credential-abuse investigation. <a class="weekly-source-ref" href="#source-3">[3]</a></li>
+        <li><strong>19 October:</strong> an update to that investigation explained the limitations of IP-only pivots and distinguished authentication activity from unrelated failed sign-in noise. <a class="weekly-source-ref" href="#source-3">[3]</a></li>
+        <li><strong>21 October:</strong> Microsoft's attribution and technical assessment supplied this week's new reporting. <a class="weekly-source-ref" href="#source-1">[1]</a></li>
+        <li><strong>26 October:</strong> this SOC brief translates the reporting into an investigation workflow. It does not imply that the intrusion started today or that every affected environment has the same outcome.</li>
+      </ul>
+    </section>
+
+    <section class="panel weekly-section" id="triage">
+      <p class="eyebrow">04 / FIRST ANALYST PASS</p><h2>Build an identity ledger before joining events</h2>
+      <p>Create one row per tenant and relevant integration. Capture application ID, local service-principal object ID, account state, owners, consent and permissions, known credential identifiers, and the person responsible for the integration. Establish the same identifiers for every downstream application that appears in suspicious change events.</p>
+      <p>Two application IDs corroborated across the incident reporting are <code>506e08f9-6e9a-4da4-942b-a099a03644ae</code> and <code>24205314-2b89-4e07-a2a4-579e898a5640</code>. They identify legitimate integrations, not malicious binaries. These two IDs are a starting set, not an exhaustive inventory of the vendor's application family. <a class="weekly-source-ref" href="#source-3">[3]</a></p>
+      <ul>
+        <li><strong>Exposure:</strong> was the integration authorised during the review window? Current absence alone does not answer historical exposure.</li>
+        <li><strong>Authentication:</strong> separate successful requests from failures, preserving the original result value and resource context.</li>
+        <li><strong>Modification:</strong> identify application credentials, ownership, consent or privileges changed by the identity. Record original event IDs.</li>
+        <li><strong>Impact:</strong> investigate resource activity independently. Describe missing logs as a visibility limitation, not proof that access never happened.</li>
+      </ul>
+      <p>Use an initial review window covering the reported activity, then widen it when retention permits or earlier suspicious events appear. Preserve the exact UTC boundaries and exported filters so another analyst can reproduce the search.</p>
+    </section>
+
+    <section class="panel weekly-section" id="hunts">
+      <p class="eyebrow">05 / DEFENSIVE QUERY STARTERS</p><h2>Hunt the application, then follow its changes</h2>
+      <p>These original Microsoft Sentinel / Log Analytics examples use the documented <code>AADServicePrincipalSignInLogs</code> and <code>AuditLogs</code> tables. They require existing ingestion and retained records. They have been checked against the documented fields, but have not been executed against a customer workspace. Inspect your schema, permissions and costs before running broad searches. <a class="weekly-source-ref" href="#source-4">[4]</a> <a class="weekly-source-ref" href="#source-5">[5]</a></p>
+      <div class="weekly-query"><h3>A. Review workload sign-ins without suppressing failures</h3>
+      <p>Replace or extend the application list using your verified inventory. Resolve the result values in your own tenant; the query deliberately preserves them rather than assuming one success encoding.</p>
+      <pre><code>let WindowStart = datetime(2026-10-13T00:00:00Z);
+let WindowEnd = datetime(2026-10-27T00:00:00Z);
+let Applications = dynamic([
+  "506e08f9-6e9a-4da4-942b-a099a03644ae",
+  "24205314-2b89-4e07-a2a4-579e898a5640"
+]);
+AADServicePrincipalSignInLogs
+| where TimeGenerated &gt;= WindowStart and TimeGenerated &lt; WindowEnd
+| where AppId in (Applications)
+| project TimeGenerated, AppId, ServicePrincipalId,
+          IPAddress, ResourceDisplayName, ResultType,
+          ResultDescription, CorrelationId
+| order by TimeGenerated asc</code></pre></div>
+      <div class="weekly-query"><h3>B. Follow changes initiated by a local service principal</h3>
+      <p>Set <code>LocalSpObjectId</code> to the tenant-specific service-principal object ID, not the application ID. The dynamic initiator shape and operation labels must be verified in your exported records. Review all returned changes before narrowing operation names.</p>
+      <pre><code>let LocalSpObjectId = "REPLACE_WITH_VERIFIED_OBJECT_ID";
+AuditLogs
+| where TimeGenerated &gt;= datetime(2026-10-13T00:00:00Z)
+    and TimeGenerated &lt; datetime(2026-10-27T00:00:00Z)
+| extend InitiatorSp = tostring(InitiatedBy.app.servicePrincipalId)
+| where InitiatorSp == LocalSpObjectId
+| project TimeGenerated, OperationName, Result,
+          InitiatedBy, TargetResources, CorrelationId, Id
+| order by TimeGenerated asc</code></pre></div>
+      <p><strong>Next pivot:</strong> expand the returned target resources and inspect modified properties. Resolve each changed object before linking it to subsequent authentication. Correlation IDs are useful context, but a shared time window alone is not a causal join. Preserve the raw event alongside your interpretation.</p>
+    </section>
+
+    <section class="panel weekly-section" id="mapping">
+      <p class="eyebrow">06 / ATT&amp;CK MAPPING</p><h2>Attach the technique to the evidence</h2>
+      <p>These are analyst mappings of the reported behaviours, not assertions that every tenant exhibits the entire chain.</p>
+      <ul>
+        <li><a href="https://attack.mitre.org/techniques/T1078/004/" target="_blank" rel="noreferrer">T1078.004 / Cloud Accounts</a>: investigate use of an established cloud identity outside its expected operational context.</li>
+        <li><a href="https://attack.mitre.org/techniques/T1098/001/" target="_blank" rel="noreferrer">T1098.001 / Additional Cloud Credentials</a>: apply when evidence supports an unauthorised credential addition, not merely the discovery of an old secret.</li>
+        <li><a href="https://attack.mitre.org/techniques/T1098/003/" target="_blank" rel="noreferrer">T1098.003 / Additional Cloud Roles</a>: map supported privilege or role manipulation, preserving the actor, target and change result.</li>
+      </ul>
+      <p>Keep the attribution field separate from the technique field. A suspicious role assignment can justify containment even when attribution to Storm-0940 remains unconfirmed for your case.</p>
+    </section>
+
+    <section class="panel weekly-section" id="pitfalls">
+      <p class="eyebrow">07 / FALSE POSITIVES AND BLIND SPOTS</p><h2>Do not turn a weak pivot into a verdict</h2>
+      <p>A backup provider can legitimately authenticate frequently, rotate credentials or perform directory queries. Validate those actions against owner confirmation, change records, expected resource access and historical patterns. A familiar display name cannot validate an unexpected credential addition.</p>
+      <p>A Python or curl user agent is a triage clue, not an AI detector. In its original investigation, Huntress also warned that public IP lists can mix different activities and that internal cloud addressing complicates simple source-IP pivots. <a class="weekly-source-ref" href="#source-3">[3]</a></p>
+      <p>Write separate findings for confirmed unauthorised authentication, confirmed configuration changes, and confirmed resource access. If evidence is unavailable, name the missing source, retention limit and resulting unanswered question. This makes the handoff actionable without overstating impact.</p>
+    </section>
+
+    <section class="panel weekly-section" id="response">
+      <p class="eyebrow">08 / CONTAIN, REPAIR, VERIFY</p><h2>Close the trust path and look for a second one</h2>
+      <p>Microsoft's published guidance is to keep affected connections disabled pending formal vendor restoration instructions, preserve evidence and avoid deleting enterprise applications as the first response. Recheck the current advisory before restoration because vendor guidance can change. <a class="weekly-source-ref" href="#source-1">[1]</a></p>
+      <ol>
+        <li><strong>Assign ownership:</strong> nominate an incident lead and a workload owner. Identify backup or restore dependencies before changing the integration.</li>
+        <li><strong>Preserve evidence:</strong> export relevant sign-in and audit events, configuration, permissions and credential metadata. Capture identifiers and expiry dates; do not export secret values into case notes.</li>
+        <li><strong>Contain:</strong> disable the affected trust path through an approved procedure. Document the time and expected operational impact.</li>
+        <li><strong>Remove unauthorised persistence:</strong> examine downstream credentials, owners, role assignments and grants. Coordinate credential removal or rotation with the application owner.</li>
+        <li><strong>Validate:</strong> confirm the intended account state and permissions, then monitor for fresh suspicious authentication or changes. A quiet dashboard is insufficient if ingestion stopped.</li>
+        <li><strong>Restore deliberately:</strong> follow current vendor instructions and record approval. Test backup and restore functions as well as identity controls.</li>
+      </ol>
+      <p>Escalate promptly when evidence supports an unauthorised successful sign-in, unexplained privileged grant, or suspicious credential addition. Prioritise the combination of a demonstrated identity action and meaningful access over an isolated low-confidence infrastructure match.</p>
+    </section>
+
+    <section class="panel weekly-section" id="handoff">
+      <p class="eyebrow">09 / SHIFT HANDOFF</p><h2>Six fields that keep the next analyst moving</h2>
+      <ul><li>Tenant and verified application / service-principal identifiers.</li><li>First and last relevant events, with UTC times and raw event IDs.</li><li>Authentication outcome, changes observed and independent impact evidence.</li><li>Containment completed, credential or permission changes still pending.</li><li>Visibility gaps, queries used and the next evidence collection owner.</li><li>Restoration criteria, monitoring window and customer update deadline.</li></ul>
+      <p><strong>Example reporting structure, not incident evidence:</strong> “We confirmed [identity action] in [tenant] at [UTC time]. We observed [configuration change / none identified within available logs]. Resource access remains [confirmed / unconfirmed / limited by retention]. We completed [containment] and are validating [remaining trust path].” Replace every bracket with supported case findings.</p>
+    </section>
+
+    <section class="panel weekly-section" id="sources">
+      <p class="eyebrow">SOURCE REGISTER / CHECKED 26 OCTOBER 2026</p><h2>Primary evidence and technical references</h2>
+      <ol class="weekly-sources">
+        <li id="source-1"><a href="https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/" target="_blank" rel="noreferrer">Microsoft Security Blog: Storm-0940, ARTEX and ConnectWise</a><small>Published 21 October 2026. Attribution, reported behaviours and mitigation guidance.</small></li>
+        <li id="source-2"><a href="https://www.huntress.com/blog/connectwise-attack-ai" target="_blank" rel="noreferrer">Huntress: AI, Scripts, Operator: Inside the ConnectWise Attack</a><small>Follow-up analysis accessed 26 October 2026. Telemetry limits and uncertainty concerning AI involvement; no exact publication date asserted here.</small></li>
+        <li id="source-3"><a href="https://www.huntress.com/blog/vendor-credential-enables-unauthorized-access" target="_blank" rel="noreferrer">Huntress: ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks</a><small>Initial report 16 October; update 19 October 2026. Application identifiers and investigation caveats.</small></li>
+        <li id="source-4"><a href="https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/aadserviceprincipalsigninlogs" target="_blank" rel="noreferrer">Microsoft Learn: AADServicePrincipalSignInLogs schema</a><small>Reference for the workload sign-in query fields.</small></li>
+        <li id="source-5"><a href="https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/auditlogs" target="_blank" rel="noreferrer">Microsoft Learn: AuditLogs schema</a><small>Reference for audit event fields; nested properties still require local validation.</small></li>
+        <li id="source-6"><a href="https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals" target="_blank" rel="noreferrer">Microsoft Learn: Application and service principal objects</a><small>Reference for application IDs, tenant-local service principals and their relationship.</small></li>
+      </ol>
+      <p>Original CyberShark investigation guidance and diagram. No customer telemetry, fabricated screenshots or unverified exploitation claims are presented. All examples require adaptation to the actual environment.</p>
+    </section>
+  </article></main>
+  <footer class="footer"><p>CyberShark / Georgi Sharkov</p><a href="threat-briefs.html">All threat briefs &#8594;</a></footer>
+</div>
+<script src="script.js?v=20261002-3"></script>
+</body>
+</html>

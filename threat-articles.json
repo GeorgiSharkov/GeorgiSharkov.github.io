@@ -1,5 +1,14 @@
 [
   {
+    "title": "ConnectWise app identity abuse: when a trusted application becomes the intruder",
+    "url": "weekly-threat-2026-10-26-connectwise-app-identity.html",
+    "published": "2026-10-26",
+    "researchWeek": "2026-W44",
+    "category": "Cloud identity / Weekly SOC brief",
+    "summary": "Follow the ConnectWise application credential campaign through workload sign-ins, credential persistence, cloud role changes, defensive KQL and an evidence-led response.",
+    "tags": ["Service principals", "Sentinel KQL", "Cloud response"]
+  },
+  {
     "title": "PHP2Shell: from request memory to remote execution",
     "url": "php2shell-case-study.html",
     "published": "2026-10-21",
