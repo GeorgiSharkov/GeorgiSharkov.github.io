@@ -1,27 +1,115 @@
 {
-  "generatedAt": "2026-10-27T00:44:50.256611+00:00",
+  "generatedAt": "2026-10-27T09:18:16.137911+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "DreamHost Forces Email and FTP Password Resets Following Unexplained Security Incident",
+      "url": "https://cybersecuritynews.com/dreamhost-forces-email-and-ftp-password-resets/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T08:30:23+00:00",
+      "description": "DreamHost forced email and FTP/SFTP password resets after an unexplained incident disrupted webmail and File Manager access.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/DreamHost-Forces-Email-and-FTP-Password-Resets-Following-Unexplained-Security-Incident-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI Unveils GPT-6.1 Terra, a Faster AI Model With Critical Cybersecurity Capabilities",
+      "url": "https://cybersecuritynews.com/openai-unveils-gpt-6-1-terra/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T08:25:49+00:00",
+      "description": "OpenAI released GPT-6.1 Terra, a faster, cheaper AI model with a Critical cybersecurity rating matching GPT-6 Astra.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenAI-Unveils-GPT-6.1-Terra-a-Faster-AI-Model-With-Critical-Cybersecurity-Capabilities.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Confidential Computing Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-confidential-computing-platforms/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T08:05:33+00:00",
+      "description": "Encrypting data in use is 2026\u2019s frontier \u2014 AI made it urgent. We ranked the 10 best confidential computing platforms. Azure leads; AWS and Google follow.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Confidential-Computing-Platforms.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Infect 953 Online Stores With Malicious JavaScript That Evades Security Scanners",
+      "url": "https://cybersecuritynews.com/hackers-infect-953-online-stores/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T07:55:48+00:00",
+      "description": "Hackers infected 953 Magento stores with stealthy JavaScript skimmers that evade security scanners by distinguishing real shoppers from bots.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Infect-953-Online-Stores-With-Malicious-JavaScript-That-Evades-Security-Scanners.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
+      "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-27T07:14:27+00:00",
+      "description": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, 37 of them in maritime-specific products.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Maritime-cybersecurity.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T06:34:47+00:00",
+      "description": "CERT-UA reports Dahua camera compromises via Easy4IP, where predictable serial numbers and weak passwords or firmware flaws enable access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjISG9SXb2aeE6Zy-bIbnuaqwUNmGof7xU8RQl0vGZIcxcgNE3YXpuvG7rJKSTn_q9J8d_2DEv6rU2zxoX615DIYePz9rMA2TiLT6Fo1q2leGoyH85hJuIUta8j8FEN2mY5AGaO6zH5o6MkCHZ9Sv7OpjrZ6LE1yZygl9R4hUgt7xWJMMeGXRI4UJziuPCW/s1700-nu-rw-lo-l85-e365/hackers-camera.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T04:37:59+00:00",
+      "description": "CISA adds two exploited PHP2Shell flaws to its KEV catalog after honeypot tests confirm remote code execution on a single-worker mod_php setup.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s1700-nu-rw-lo-l85-e365/cisa-php.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33462",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-27T02:55:13+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
       "url": "https://isc.sans.edu/diary/rss/33458",
       "source": "SANS ISC",
       "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-26T23:34:37+00:00",
+      "publishedAt": "2026-10-27T02:09:55+00:00",
       "description": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
-      "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
-      "url": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-26T20:29:21+00:00",
-      "description": "Hackers exploit PHP2Shell flaws to attack university and business websites, using public code to execute commands on unpatched servers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Weaponize-Public-PHP2Shell-Exploit-Code-to-Target-Universities-and-Business-Websites.webp",
-      "topic": "Vulnerability",
+      "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
+      "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-27T01:30:00+00:00",
+      "description": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -58,50 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
-      "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-26T17:15:22+00:00",
-      "description": "Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Investigation-Teams-Issue.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
-      "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-26T16:35:45+00:00",
-      "description": "A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hijack-OpenAI-Codex-and-Claude-Code.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
-      "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-26T15:59:50+00:00",
-      "description": "OpenBSD 8.0 adds security fixes for its kernel, network services, firewall, and update tools, plus experimental post-quantum SSH signatures.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenBSD-8.0-Released-With-Major-Security-Hardening-and-Post-Quantum-SSH-Support.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
-      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-26T15:52:40+00:00",
-      "description": "Attackers abuse Microsoft Teams external chats and fake IT support identities to gain remote access, deploy malware, and steal data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1700-nu-rw-lo-l85-e365/support.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
       "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
       "source": "SecurityWeek",
@@ -110,39 +154,6 @@
       "description": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Genesys Hack Exposes Customer Data From Internal Systems",
-      "url": "https://www.securityweek.com/genesys-hack-exposes-customer-data-from-internal-systems/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-26T14:40:48+00:00",
-      "description": "The Genesys Cloud, Genesys Engage, and Genesys Engage Cloud platforms were not affected.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Stolen AI Reasoning Could Help China Build Cheaper Rivals",
-      "url": "https://www.securityweek.com/stolen-ai-reasoning-could-help-china-build-cheaper-rivals/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-26T14:30:09+00:00",
-      "description": "Xint says a flaw in OpenAI\u2019s compaction process let researchers move reasoning traces between models, potentially making it cheaper to distill a rival AI.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/China-APT-AI-artificial-intelligence.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-26T14:06:13+00:00",
-      "description": "This week's cybersecurity recap: Critical RCE flaws, millions of exploit attempts, rogue AI agents, supply chain attacks, leaked keys, and more.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjztmxBbaYZEAd_HSv1heMQm8UuLym1h7XcN8NrgWjJmaoghOIR2O1rHwQzunUd9jlQn4R_8ft4Y0K9xLQOhs2xM8vVh1eHoEsZIFonHd7K6TA1cd0aIJ6jK-K2RNVBCwMfQwq7WWpuFtB8inWvubRjIEw_9fetsRFllw-fsAAnjCnpMCqFIL28ovMhJwbd/s1700-nu-rw-lo-l85-e365/recap2monday.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -163,17 +174,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-10-26T03:30:12+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33454",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-25T19:57:53+00:00",
-      "description": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
