@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-10-27T15:30:35.513283+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-27T20:13:02.948820+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T18:26:46+00:00",
+      "description": "TrendAI analyzes three cyber campaigns involving autonomous and AI-assisted attacks, including CyberStrikeAI activity targeting Japan.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1700-nu-rw-lo-l85-e365/cyberstrikeai.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Criminal IP Joins INTERPOL\u2019s Gateway Initiative to Support Global Cybercrime Efforts",
+      "url": "https://cybersecuritynews.com/criminal-ip-joins-interpols-gateway-initiative-to-support-global-cybercrime-efforts/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T17:47:42+00:00",
+      "description": "Torrance, United States / California, October 27th, 2026, CyberNewswire AI SPERA, the company behind the cyber threat intelligence and attack surface management platform Criminal IP, has signed a cooperation agreement with the International Criminal Police\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJMURYsi9adjaJ5g1sNgsSmAFlJia6zhZODvmZM_ppU1RS_jxev1_VaQDEw-cTB4JTsByIgPdHLOas4_XxfqLhqCvDRz0fetzRXBVHeddeaXFnd2TE6VojFQ0kQZIKJ1aXQAkdRMfZE8aIorV6VB8W3msYLC7uIZpTKF-HDHXw58OS5MSIUIgAOauD29Nf/s1600/Criminal%20IP%20.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Before Your SOC Investigates: What 16K+ Security Teams Already Know",
+      "url": "https://cybersecuritynews.com/before-your-soc-investigates-what-16k-security-teams-already-know/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T17:29:11+00:00",
+      "description": "Discover how integrated threat intelligence feeds help SOC teams detect known threats earlier, prioritize alerts, and reduce manual investigation effort.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Before-Your-SOC-Investigates.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical GoAhead TLS Flaws Could Expose Hundreds of Millions of Devices to Attacks",
+      "url": "https://cybersecuritynews.com/goahead-tls-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T17:04:05+00:00",
+      "description": "Three new security flaws affect GoAhead, a small web server that device makers build into routers, printers, gateways, and industrial controllers. The software runs in hundreds of millions of devices, including those used by Palo Alto Networks, Siemens,\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/GoAhead-TLS-vulnerabilities.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Researchers Exploit OpenAI API Flaw to Extract Hidden GPT-5.6 Reasoning Traces",
+      "url": "https://cybersecuritynews.com/researchers-exploit-openai-api-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-27T16:48:20+00:00",
+      "description": "An OpenAI API flaw called compaction smuggling exposed GPT-5.6\u2019s hidden reasoning by bypassing safeguards through conversation compaction.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Researchers-Exploit-OpenAI-API-Flaw-to-Extract-Hidden-GPT-5.6-Reasoning-Traces.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of \u2018Tailworm\u2019 Flaws",
       "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
@@ -10,6 +65,28 @@
       "publishedAt": "2026-10-27T15:26:12+00:00",
       "description": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/04/vulnerability.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T13:59:48+00:00",
+      "description": "GoAhead can accept revoked client certificates on affected OpenSSL mutual-TLS builds despite configured revocation lists; version 6.1.1 fixes it.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1700-nu-rw-lo-l85-e365/goahead.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T13:59:09+00:00",
+      "description": "Apple backports fixes for CVE-2026-86950 to older iPhones and iPads after reports of possible targeted exploitation of the CoreGraphics flaw.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1700-nu-rw-lo-l85-e365/apple-patch.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -55,39 +132,6 @@
       "description": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-27T11:46:00+00:00",
-      "description": "Keystone says a website breach exposed its wallet authentication key and 25,964 buyer records, allowing counterfeit devices to pass verification.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1700-nu-rw-lo-l85-e365/keystone.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-27T11:32:46+00:00",
-      "description": "Learn how AI-generated fake login pages steal passwords, MFA codes and session tokens, and how organizations can reduce the risk of account takeovers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCX1RKz1isf0HwbYOFkKneC7maFNTVr0q0LTVHBsoGhEN5w7ZOfSLYqfq_6-oKzf51Vb3FJTVla21T-RrWus7Dxadw81UmqDBbw8rIWxfbBhPdI5tyAUQZSYwYaq9JetgW4_4yl1qbWU7ScrdxYjoTCot6v9gXMIyjsk4W66Z531z5oHaHHEguj6_EISU/s1700-nu-rw-lo-l85-e365/keeper-password.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-27T11:32:31+00:00",
-      "description": "Lazarus abuses INISAFE CrossWeb EX in Operation FlashHole to deploy new malware targeting South Korean organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwoWz3Ex4w0TebsrzDSdna5WAjqoQx5EHWC1kY3db9VgMg6FrGK6VbncVA9b3tKdPnqlR6qmdwsq7CT1f-Cp57WpH6lpfoF-5zb_Xg-ahdsNxO4OUTsdDVeO_8s7SQFLp54SrsWlWrZn-37sAcqv1ZeG_7Yc62vQ5X9Tq-MlIEm6EOQOiTkQVlcy9F4VG4/s1700-nu-rw-lo-l85-e365/korean-malware.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
