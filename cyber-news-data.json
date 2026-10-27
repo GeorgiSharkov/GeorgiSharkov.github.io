@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-26T20:42:51.062609+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-27T00:44:50.256611+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-26T23:34:37+00:00",
+      "description": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Hackers Weaponize Public PHP2Shell Exploit Code to Target Universities and Business Websites",
+      "url": "https://cybersecuritynews.com/public-php2shell-exploit-code/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-26T20:29:21+00:00",
+      "description": "Hackers exploit PHP2Shell flaws to attack university and business websites, using public code to execute commands on unpatched servers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Weaponize-Public-PHP2Shell-Exploit-Code-to-Target-Universities-and-Business-Websites.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
       "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
@@ -32,6 +54,39 @@
       "publishedAt": "2026-10-26T17:45:57+00:00",
       "description": "PHP updates Windows builds 8.2 through 8.5 to fix a Brotli flaw that could enable code execution through automatic cURL decompression.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1700-nu-rw-lo-l85-e365/php-windows.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Investigation Teams Issue Affecting Users in the United States",
+      "url": "https://cybersecuritynews.com/microsoft-investigation-teams-issue/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-26T17:15:22+00:00",
+      "description": "Microsoft has restored Microsoft Teams service after investigating an issue affecting some users in the United States on October 26, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Microsoft-Investigation-Teams-Issue.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Can Hijack OpenAI Codex and Claude Code Using Malicious Files in Downloads Folder",
+      "url": "https://cybersecuritynews.com/codex-and-claude-code-hijack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-26T16:35:45+00:00",
+      "description": "A plain text file placed in the Downloads folder can trick AI coding agents into changing their settings, installing malware, or exposing login tokens.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hijack-OpenAI-Codex-and-Claude-Code.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "OpenBSD 8.0 Released With Major Security Hardening and Post-Quantum SSH Support",
+      "url": "https://cybersecuritynews.com/openbsd-8-0-released/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-26T15:59:50+00:00",
+      "description": "OpenBSD 8.0 adds security fixes for its kernel, network services, firewall, and update tools, plus experimental post-quantum SSH signatures.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenBSD-8.0-Released-With-Major-Security-Hardening-and-Post-Quantum-SSH-Support.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -124,17 +179,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/33452",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-23T20:04:47+00:00",
-      "description": "Yesterday everyone was running around like crazy (me included :) because of the php2shell vulnerability.",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
       "url": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
       "source": "Krebs on Security",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
