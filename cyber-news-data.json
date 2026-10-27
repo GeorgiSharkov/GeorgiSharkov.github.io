@@ -1,82 +1,93 @@
 {
-  "generatedAt": "2026-10-27T09:18:16.137911+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-27T15:30:35.513283+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "DreamHost Forces Email and FTP Password Resets Following Unexplained Security Incident",
-      "url": "https://cybersecuritynews.com/dreamhost-forces-email-and-ftp-password-resets/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-27T08:30:23+00:00",
-      "description": "DreamHost forced email and FTP/SFTP password resets after an unexplained incident disrupted webmail and File Manager access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/DreamHost-Forces-Email-and-FTP-Password-Resets-Following-Unexplained-Security-Incident-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Unveils GPT-6.1 Terra, a Faster AI Model With Critical Cybersecurity Capabilities",
-      "url": "https://cybersecuritynews.com/openai-unveils-gpt-6-1-terra/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-27T08:25:49+00:00",
-      "description": "OpenAI released GPT-6.1 Terra, a faster, cheaper AI model with a Critical cybersecurity rating matching GPT-6 Astra.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/OpenAI-Unveils-GPT-6.1-Terra-a-Faster-AI-Model-With-Critical-Cybersecurity-Capabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Top 10 Best Confidential Computing Platforms in 2026 [Ranked & Scored]",
-      "url": "https://cybersecuritynews.com/best-confidential-computing-platforms/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-27T08:05:33+00:00",
-      "description": "Encrypting data in use is 2026\u2019s frontier \u2014 AI made it urgent. We ranked the 10 best confidential computing platforms. Azure leads; AWS and Google follow.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Best-Confidential-Computing-Platforms.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Infect 953 Online Stores With Malicious JavaScript That Evades Security Scanners",
-      "url": "https://cybersecuritynews.com/hackers-infect-953-online-stores/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-27T07:55:48+00:00",
-      "description": "Hackers infected 953 Magento stores with stealthy JavaScript skimmers that evade security scanners by distinguishing real shoppers from bots.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Infect-953-Online-Stores-With-Malicious-JavaScript-That-Evades-Security-Scanners.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Maritime Coalition Launches Free Vulnerability Database for Ship and Port Systems",
-      "url": "https://www.securityweek.com/maritime-coalition-launches-free-vulnerability-database-for-ship-and-port-systems/",
+      "title": "Tailscale Rushes Patches After Uncoordinated Disclosure of \u2018Tailworm\u2019 Flaws",
+      "url": "https://www.securityweek.com/tailscale-rushes-patches-after-uncoordinated-disclosure-of-tailworm-flaws/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-27T07:14:27+00:00",
-      "description": "Blue Initiative indexes nearly 30,000 IT and OT vulnerabilities relevant to ships and ports, 37 of them in maritime-specific products.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Maritime-cybersecurity.jpg",
+      "publishedAt": "2026-10-27T15:26:12+00:00",
+      "description": "Tailscale is preparing a patch for Tailscale SSH flaws whose details went public over the weekend, before any fixes had been released.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/vulnerability.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
-      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+      "title": "Vendor Key Leak Puts Data of 238,000 Denver Health Plan Members at Risk",
+      "url": "https://www.securityweek.com/vendor-key-leak-puts-data-of-238000-denver-health-plan-members-at-risk/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-27T13:30:28+00:00",
+      "description": "A leaked SquareML access key could have been used to access a database containing personal and health information.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "HPE Patches Dozens of Critical Flaws in Networking Products",
+      "url": "https://www.securityweek.com/hpe-patches-dozens-of-critical-flaws-in-networking-products/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-27T13:13:58+00:00",
+      "description": "Eight max-severity security defects could lead to remote code execution and authentication bypass.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/HPE-Aruba.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-27T06:34:47+00:00",
-      "description": "CERT-UA reports Dahua camera compromises via Easy4IP, where predictable serial numbers and weak passwords or firmware flaws enable access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjISG9SXb2aeE6Zy-bIbnuaqwUNmGof7xU8RQl0vGZIcxcgNE3YXpuvG7rJKSTn_q9J8d_2DEv6rU2zxoX615DIYePz9rMA2TiLT6Fo1q2leGoyH85hJuIUta8j8FEN2mY5AGaO6zH5o6MkCHZ9Sv7OpjrZ6LE1yZygl9R4hUgt7xWJMMeGXRI4UJziuPCW/s1700-nu-rw-lo-l85-e365/hackers-camera.jpg",
+      "publishedAt": "2026-10-27T12:09:50+00:00",
+      "description": "Microsoft fixed an Android Authenticator flaw that lets malicious apps impersonate Teams and obtain work account tokens under certain conditions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1700-nu-rw-lo-l85-e365/msms.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Unexplained DreamHost Incident Prompts Email, FTP Password Resets",
+      "url": "https://www.securityweek.com/unexplained-dreamhost-incident-prompts-email-ftp-password-resets/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-27T12:02:06+00:00",
+      "description": "The company says it reacted to an issue affecting some of its systems, including DreamHost webmail.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/08/password-manager.jpeg",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
-      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-27T04:37:59+00:00",
-      "description": "CISA adds two exploited PHP2Shell flaws to its KEV catalog after honeypot tests confirm remote code execution on a single-worker mod_php setup.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-vxKiggBxnuXu0fenkg0gfce0iuuA3OxeVzvWAdc0zaDPDayQgY8y_miqnvHJrpYvw61AhvGHEOW4EIKIYZ4QkRGjGEhqiU-3R0o6m0fgHJYDtszsoXyqse7WDGMh4rvEuTf1T-17KOVkyJKgEcaw5yBXFi6ElwIFyU9TjudvJrHz4fz6VNro8bjUZcnD/s1700-nu-rw-lo-l85-e365/cisa-php.jpg",
-      "topic": "Vulnerability",
+      "publishedAt": "2026-10-27T11:46:00+00:00",
+      "description": "Keystone says a website breach exposed its wallet authentication key and 25,964 buyer records, allowing counterfeit devices to pass verification.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1700-nu-rw-lo-l85-e365/keystone.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T11:32:46+00:00",
+      "description": "Learn how AI-generated fake login pages steal passwords, MFA codes and session tokens, and how organizations can reduce the risk of account takeovers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCX1RKz1isf0HwbYOFkKneC7maFNTVr0q0LTVHBsoGhEN5w7ZOfSLYqfq_6-oKzf51Vb3FJTVla21T-RrWus7Dxadw81UmqDBbw8rIWxfbBhPdI5tyAUQZSYwYaq9JetgW4_4yl1qbWU7ScrdxYjoTCot6v9gXMIyjsk4W66Z531z5oHaHHEguj6_EISU/s1700-nu-rw-lo-l85-e365/keeper-password.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-27T11:32:31+00:00",
+      "description": "Lazarus abuses INISAFE CrossWeb EX in Operation FlashHole to deploy new malware targeting South Korean organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwoWz3Ex4w0TebsrzDSdna5WAjqoQx5EHWC1kY3db9VgMg6FrGK6VbncVA9b3tKdPnqlR6qmdwsq7CT1f-Cp57WpH6lpfoF-5zb_Xg-ahdsNxO4OUTsdDVeO_8s7SQFLp54SrsWlWrZn-37sAcqv1ZeG_7Yc62vQ5X9Tq-MlIEm6EOQOiTkQVlcy9F4VG4/s1700-nu-rw-lo-l85-e365/korean-malware.jpg",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -100,61 +111,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "Cybersecurity Issue Forces a Major New Mexico Hospital to Divert Patients and Close Clinics",
-      "url": "https://www.securityweek.com/cybersecurity-issue-forces-a-major-new-mexico-hospital-to-divert-patients-and-close-clinics/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-27T01:30:00+00:00",
-      "description": "The University of New Mexico Health System told people not to show up at its main hospital in Albuquerque and canceled appointments at more than 30 clinics.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic Files for Potentially the Biggest IPO Ever as CEO Warns of Risk to Humanity From AI",
-      "url": "https://www.securityweek.com/anthropic-files-for-potentially-the-biggest-ipo-ever-as-ceo-warns-of-risk-to-humanity-from-ai/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-26T20:20:56+00:00",
-      "description": "A string of hacking incidents by rogue AI agents also has raised fears the technology will slip free of human control to carry out harmful, life-threatening tasks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/Anthropic-AI_Military.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
-      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-26T18:12:22+00:00",
-      "description": "Hackers infected 953 online stores with JavaScript loaders hidden in Magento CMS blocks, using bot filtering to evade security scanners.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdh3aURB79okzf_mo3sPzJy6vKRiWdPc4gyrE93xmMW-MRgYHrOuJ5yya0TpovJvi-2ol3GubNo5ir76ui-2jBo1jUvOd45Z8f98YeGVAECGcwgpRetuyxFxGWY8bBOB4a0G1H5YiYoYJ3Kd8YauFJGUIVTKYVHsLrvDElRe8sOuD4Y8CKMrAtCA6eJazr/s1700-nu-rw-lo-l85-e365/m-code.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
-      "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-26T17:45:57+00:00",
-      "description": "PHP updates Windows builds 8.2 through 8.5 to fix a Brotli flaw that could enable code execution through automatic cURL decompression.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1700-nu-rw-lo-l85-e365/php-windows.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Industrial Vendors Check Products for PHP2Shell Vulnerabilities",
-      "url": "https://www.securityweek.com/industrial-vendors-check-products-for-php2shell-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-26T14:52:14+00:00",
-      "description": "Siemens, Schneider Electric, ABB and others have confirmed that some of their products are affected by the PHP2Shell vulnerabilities.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/PLC-HMI-SCADA-ICS-industrial.jpeg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
