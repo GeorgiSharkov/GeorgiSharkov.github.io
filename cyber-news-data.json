@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-10-28T18:27:55.938481+00:00",
+  "generatedAt": "2026-10-28T22:48:05.474471+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
+      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-28T18:08:33+00:00",
+      "description": "Volt Typhoon used the disrupted Silent Train network for four zero-day campaigns targeting enterprise management systems and strategic networks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1700-nu-rw-lo-l85-e365/si.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "OffSec Launches Free PHP2Shell Lab Following Critical Vulnerability Discovery",
       "url": "https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery/",
@@ -132,17 +143,6 @@
       "description": "FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/09/internet-routing-bgp.jpeg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-28T12:48:03+00:00",
-      "description": "Oracle EBS decoys recorded probing of patched CVE-2026-101767, an unauthenticated SQL injection flaw that can lead to remote code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBB03AGS7veiAqQ7-xPeadzhhaRvDmhOlLgQcDN0y-r1na_us5yomWjBEXCbwbw8OW_o8SSGjjqk4VZFQ4ZxLiWKQPZxlcBkzJ5lv3OlEV0rOETUKyQzWoZ74LGpSjOjrScmk1rVf0OhRmDACHG3jwSDfBnnta75I_3s_nuoWGZmcfg7NZfHBp_PEIl8aj/s1700-nu-rw-lo-l85-e365/oracle-hack.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
