@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-28T22:48:05.474471+00:00",
-  "count": 20,
+  "generatedAt": "2026-10-29T06:22:30.525500+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33470",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-29T06:17:41+00:00",
+      "description": "Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&#;x26;#;39;s convenient to play with snapshots in your lab. Start a new investigation from a clean snapshot and take some more when you reached\u2026",
+      "image": "",
+      "topic": "Malware",
+      "kind": "DFIR"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33468",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-29T03:10:12+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33466",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-29T00:42:15+00:00",
+      "description": "Introduction",
+      "image": "",
+      "topic": "Threat intelligence",
+      "kind": "DFIR"
+    },
     {
       "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
       "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
@@ -10,28 +43,6 @@
       "publishedAt": "2026-10-28T18:08:33+00:00",
       "description": "Volt Typhoon used the disrupted Silent Train network for four zero-day campaigns targeting enterprise management systems and strategic networks.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1700-nu-rw-lo-l85-e365/si.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OffSec Launches Free PHP2Shell Lab Following Critical Vulnerability Discovery",
-      "url": "https://cybersecuritynews.com/offsec-launches-free-php2shell-lab-following-critical-vulnerability-discovery/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-28T17:54:27+00:00",
-      "description": "New York, United States, October 28th, 2026, CyberNewswire New hands-on lab lets security practitioners explore PHP2Shell exploitation firsthand as AI-assisted research reshapes vulnerability discovery. OffSec today announced the release of a free,\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9pj4sPG4yE3CZAmZq-vmeKuS4ur8mny_8UmLhYfhb2U8ZkDR6ggtZfTOBdS3FWlZoGL047_PvMlHRs3OTho-hcnGjQTt7gdz7bgKP_U3XwaKIAQ48fN6LjfJHsDXEPI_TVublvVSJFewggUCbCi-SzEtIycSLs5jB76Ub49kJIN2ttGT6uFgNz8y-0gp2/s1600/Untitled%20Design%20(24).webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Researcher Uncovers New 0-click Flaw in Telegram Stickers and Chained Them to Run Code on iOS",
-      "url": "https://cybersecuritynews.com/0-click-flaw-in-telegram-stickers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-28T17:15:58+00:00",
-      "description": "The talk is a direct challenge to a position Telegram took in March. Trend Micro's Zero Day Initiative (ZDI) had reported a bug in the app's sticker code.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/0-click-Flaw-in-Telegram-Stickers.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -58,28 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "Beyond the Sandbox Verdict: 3 Questions for Faster SOC Decisions",
-      "url": "https://cybersecuritynews.com/beyond-the-sandbox-verdict-3-questions-for-faster-soc-decisions/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-28T16:16:43+00:00",
-      "description": "Whether you're investigating a suspicious URL or a file, you need more than a verdict to make a confident, evidence-based decision.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Beyond_the_Sandbox_Verdict_Banner_1600x900.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33466",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-28T16:07:03+00:00",
-      "description": "Introduction",
-      "image": "",
-      "topic": "Threat intelligence",
-      "kind": "DFIR"
-    },
-    {
       "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
       "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
       "source": "The Hacker News",
@@ -87,17 +76,6 @@
       "publishedAt": "2026-10-28T16:02:45+00:00",
       "description": "A suspected China-linked actor used an AI-assisted PHP2Shell exploit chain to root 25 servers and target Active Directory in a U.S. govt environment.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1700-nu-rw-lo-l85-e365/php-united.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "TeamViewer Vulnerabilities Could Let Hackers Execute Malicious Code Through Remote Desktop Sessions",
-      "url": "https://cybersecuritynews.com/teamviewer-desktop-session-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-28T15:59:46+00:00",
-      "description": "TeamViewer patched three high-severity flaws enabling code execution, client crashes, and macOS root access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/TeamViewer-Vulnerabilities-Could-Let-Hackers-Execute-Malicious-Code-Through-Remote-Desktop-Sessions.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -154,28 +132,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33462",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-27T02:55:13+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33458",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-27T02:09:55+00:00",
-      "description": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
