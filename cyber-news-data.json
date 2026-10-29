@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-10-29T06:22:30.525500+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-29T13:38:18.183996+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Hackers Exploit Critical Cisco SD-WAN 0-Day Flaw to Deploy KeyDrift Malware and Steal Encryption Keys",
+      "url": "https://cybersecuritynews.com/critical-cisco-sd-wan-0-day-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-29T13:30:55+00:00",
+      "description": "Hackers exploited Cisco SD-WAN zero-day CVE-2026-20127 to deploy KeyDrift malware, steal encryption keys, and gain admin access.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Exploit-Critical-Cisco-SD-WAN-0-Day-Flaw-to-Deploy-KeyDrift-Malware-and-Steal-Encryption-Keys.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "BAE Says No Data Extracted in Incident Hitting Bankruptcy Courts",
+      "url": "https://www.securityweek.com/bae-says-no-data-extracted-in-incident-hitting-bankruptcy-courts/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-29T13:26:49+00:00",
+      "description": "BAE Systems says no data was extracted and no PII was breached in the incident that disrupted US bankruptcy court notices for weeks.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/04/law-court-order-lawsuit-e1782819788980.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Over 41,000 DHS Employee Records Leaked Online",
+      "url": "https://www.securityweek.com/over-41000-dhs-employee-records-leaked-online/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-29T12:54:14+00:00",
+      "description": "The personal and work information was allegedly stolen from an Okta single sign-on system earlier this year.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Chinese Hackers Use Secret Silent Train Network to Exploit Zero-Days Against U.S. Government and Defense",
+      "url": "https://cybersecuritynews.com/chinese-hackers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-29T12:48:55+00:00",
+      "description": "China-linked Volt Typhoon uses the Silent Train network to conceal attacks on U.S. agencies, defense firms, and critical infrastructure.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Chinese-Hackers-Use-Secret-Silent-Train-Network-to-Exploit-Zero-Days-Against-U.S.-Government-and-Defense.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Claim Wagyu Crypto Platform Breach as Researchers Find Thousands of Monero Transaction Records",
+      "url": "https://cybersecuritynews.com/wagyu-crypto-platform-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-29T11:57:24+00:00",
+      "description": "Wagyu faces a claimed data breach exposing 38,628 swap records and 10,139 IP addresses linking Monero transactions to blockchain payments.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Claim-Wagyu-Crypto-Platform-Breach-as-Researchers-Find-Thousands-of-Monero-Transaction-Records.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-29T11:39:41+00:00",
+      "description": "Wiz webinar shows how security teams can use unified context to prioritize exposure and respond faster to AI-assisted attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s1700-nu-rw-lo-l85-e365/wiz-webinar.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-29T11:39:18+00:00",
+      "description": "NebuSec demonstrated code execution through an answered Telegram for Android voice call; the flaw was fixed in version 12.10.4.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1700-nu-rw-lo-l85-e365/telegram.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-29T11:33:41+00:00",
+      "description": "AI-driven SOCs are reshaping analyst roles, with Threat Operators overseeing automated investigations, response decisions, and business risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDZvKBLpFrPhWNRvVvRjmTtgwdpGykJjCmzNWNaytIUO2C9VadEDZjeY35hq6H33jHDxV7kAOMTyOV7RO_YUG2caQ75nA_NstH_GxfRJo57n970u4ACXwZXoKl8mizESwgP9wulusqUmSnZwjFNHIJZ2hk_VzrlCJ5HBD9_8zs8Fj1WZULiZoZMD9G9D8/s1700-nu-rw-lo-l85-e365/conf.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-29T11:33:15+00:00",
+      "description": "A scan of 7.25 million public Gitee repositories found 26,400 working credentials, including Alibaba Cloud, DeepSeek and OpenAI keys.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwVszv5076OudfiraNA4yh_XuzZZof-jYaklwUgiY700oPMvBHQfKHx-8yLNwhF9NVXahFRvWwU7c0mPCsIG-GUo45Fi_LT6ecZMsaRUfaLIL6eK16qeku1PO5aMTQRV0VKJh-pjKG4rC-RyajCGjL4R_A5W6YPsps4B4-GhEbstuAN7AnelVJPwIFK5W-/s1700-nu-rw-lo-l85-e365/gite.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Attack FreePBX Servers With Malware to Steal SIP Credentials for Phone Fraud",
+      "url": "https://cybersecuritynews.com/hackers-attack-freepbx-servers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-29T11:09:22+00:00",
+      "description": "INJ3CTOR3 malware targets FreePBX servers, stealing SIP passwords, database credentials, and secrets to sustain phone fraud after rebuilds.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Attack-FreePBX-Servers-With-Malware-to-Steal-SIP-Credentials-for-Phone-Fraud.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Steal 2.6 Million Records From Sony\u2019s Japanese ISP So-net",
+      "url": "https://www.securityweek.com/hackers-steal-2-6-million-records-from-sonys-japanese-isp-so-net/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-29T11:00:00+00:00",
+      "description": "The data of So-net and Plala customers in Japan was exposed, along with 54,401 email account passwords and 16 bank account records.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Sony-So-net.jpeg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco SD-WAN Zero-Day Exploitation Tied to Volt Typhoon\u2019s \u2018Silent Train\u2019 Network",
+      "url": "https://www.securityweek.com/cisco-sd-wan-zero-day-exploitation-tied-to-volt-typhoons-silent-train-network/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-29T10:29:25+00:00",
+      "description": "Cisco Talos linked SD-WAN key-stealing malware to infrastructure overlapping Volt Typhoon\u2019s Silent Train network, which Lumen detailed.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Cisco-network-switch-exploit.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
       "url": "https://isc.sans.edu/diary/rss/33470",
@@ -34,94 +166,6 @@
       "image": "",
       "topic": "Threat intelligence",
       "kind": "DFIR"
-    },
-    {
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-28T18:08:33+00:00",
-      "description": "Volt Typhoon used the disrupted Silent Train network for four zero-day campaigns targeting enterprise management systems and strategic networks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXuRyHXVM1n6S9Z49nYkM2dmJjKwuZx2RAre0CQSpB202GteLj8keMogqzR7ZVIv7YRc9udBHU7-oCpnpzL6nLaez3ypbVr9cVmiH9zFwJVApy5cev84W725y38auaUdkCQGN3zvngCivMUl-SYV1jnJu9eHduaYeBzro4cdmFHIQJfBQN4RvcC-fUTrs1/s1700-nu-rw-lo-l85-e365/si.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-28T17:08:09+00:00",
-      "description": "Google will let approved third-party Android stores offer one-tap installs and background updates outside the US, subject to malware scanning.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJGjoQXY31UWoQz0bfvFTDRKy4lDpdbhqOJFgOspdG5AcGZNlsme3byg1-XnmyLsx7HQrxb0iojoqyoeO0KDhEDWbLxzQLceuQwSlD8TXgkhzoRCyFepV0PcOwNee4lCypBnYFiZ4DhJ_ZojQ0HyRuCGGqFVAwBxMqdzkOHL2I1tLTUctLATvKl7MMONo/s1700-nu-rw-lo-l85-e365/android-app-install.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-28T16:23:34+00:00",
-      "description": "Microsoft Edge logic flaws enabled universal XSS, sandbox escape, and code execution without memory corruption in a patched Pwn2Own exploit.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAGi2cGlEYo6PNV9aaEulhQB9MtbWjCBFhi3MugyJf4kGwtSPjq9F9wxhlptAUKuipSCQ0_NhE5eyEbHzMWnT6hVLsXtqrIQImq0QndxbKoKMz_gzxJonZa2jnvwHGEqjN_J7uyi5BPaqlGmtMn1y9xzJQywFZB_FNgKV-GR7qtBQfVmrLxdoUlyhPTiA/s1700-nu-rw-lo-l85-e365/edge.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-28T16:02:45+00:00",
-      "description": "A suspected China-linked actor used an AI-assisted PHP2Shell exploit chain to root 25 servers and target Active Directory in a U.S. govt environment.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl3PPkqzXf7YyMcnwdBu5XWlOwWtUonf15z0n79qMtIOVTb4LNfKdnl7tUK-45_2boP9r2ZKuHmX6e1BZLmo-LYF-rUwH8gtNrynFuaX4rlNh20UXPvtIfC85BcKcHXK1qei6uOJyImSjTfO537yljJve0Y_zMlfFfhBl0mKPfppWhkfojtGlYgxLjdSO0/s1700-nu-rw-lo-l85-e365/php-united.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Ukrainian Hive and Nefilim Ransomware Affiliate Gets 70 Months in US Prison",
-      "url": "https://www.securityweek.com/ukrainian-hive-and-nefilim-ransomware-affiliate-gets-70-months-in-us-prison/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-28T15:05:06+00:00",
-      "description": "Artem Stryzhak was sentenced to 70 months in prison after pleading guilty to using Nefilim ransomware in attacks.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/hacker-prison-sentence.jpeg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Upwind Security Raises $400 Million at $3.8 Billion Valuation",
-      "url": "https://www.securityweek.com/upwind-security-raises-400-million-at-3-8-billion-valuation/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-28T13:56:50+00:00",
-      "description": "The massive funding round comes just days after reports emerged that Upwind had attracted acquisition interest from several companies, including Datadog",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Chrome and Firefox Updates Patch Over 200 Vulnerabilities",
-      "url": "https://www.securityweek.com/chrome-and-firefox-updates-patch-over-200-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-28T13:39:35+00:00",
-      "description": "The Chrome 156 update fixes 52 bugs, while Firefox 159 was rolled out with 167 security patches.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/Chrome-Firefox.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "TLS Flaws Found in GoAhead Web Server Used in Hundreds of Millions of Devices",
-      "url": "https://www.securityweek.com/tls-flaws-found-in-goahead-web-server-used-in-hundreds-of-millions-of-devices/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-28T13:10:34+00:00",
-      "description": "FoxIO disclosed three GoAhead TLS bugs that can let revoked certificates through or expose some encrypted sessions to eavesdroppers.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/internet-routing-bgp.jpeg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
