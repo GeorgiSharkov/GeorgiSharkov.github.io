@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-10-30T01:18:36.262960+00:00",
+  "generatedAt": "2026-10-30T10:24:29.031481+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Trezor Warns of Suspected Spy Implant in Crypto Wallet That Could Steal Recovery Phrases",
+      "url": "https://cybersecuritynews.com/trezor-suspected-hardware-implant/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-30T10:12:10+00:00",
+      "description": "Trezor has warned that a suspected hardware implant inside a Trezor Safe 5 could steal recovery phrases and send them over a mobile network.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Trezor-Suspected-hardware-implant.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "$2 Million+ Drained From Polymarket Traders in New Supply Chain Attack",
+      "url": "https://www.securityweek.com/2-million-drained-from-polymarket-traders-in-new-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-30T09:41:36+00:00",
+      "description": "Malicious code linked to a website monitoring tool was designed to hijack logged-in Polymarket sessions and siphon user funds.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Polymarket.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Max-Severity GitLab Vulnerability Exploited Against Alpine Linux",
+      "url": "https://www.securityweek.com/max-severity-gitlab-vulnerability-exploited-against-alpine-linux/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-30T09:32:27+00:00",
+      "description": "Tracked as CVE-2026-97229, the bug allows unauthenticated attackers to execute arbitrary code on the server.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/GitLab.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Binance Faces Largest Crypto Heist \u2013 $6.36 Billion Reportedly Stolen by North Korean Group",
+      "url": "https://cybersecuritynews.com/binance-hit-crypto-heist/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-30T09:16:09+00:00",
+      "description": "Binance reportedly lost $6.36B in a record crypto heist that was linked to North Korea's TraderTraitor group.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Binance-Hit-by-Biggest-Crypto-Heist-in-History-North-Korean-TraderTraitor-Group-Reportedly-Stolen-6.36-Billion.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Unauthorized OpenAI Codex and Claude Code Relays Disable AI Sandboxes and Redirect Enterprise Data",
+      "url": "https://cybersecuritynews.com/unauthorized-openai-codex/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-30T08:50:24+00:00",
+      "description": "A grey market service hijacks Codex and Claude Code settings, routing company data and credentials through its servers across 12 orgs.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Unauthorized-OpenAI-Codex-and-Claude-Code-Relays-Disable-AI-Sandboxes-and-Redirect-Enterprise-Data.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "TeamViewer Flaw Could Let Malicious Hosts Take Over Support Technicians\u2019 Machines",
+      "url": "https://www.securityweek.com/teamviewer-flaw-could-let-malicious-hosts-take-over-support-technicians-machines/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-30T08:44:49+00:00",
+      "description": "An integer overflow tracked as CVE-2026-111585 could be used to execute arbitrary code on the viewer\u2019s system.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/06/Teamviewer.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of GitLab Integer Overflow Vulnerability Exploited in Attacks",
+      "url": "https://cybersecuritynews.com/gitlab-integer-overflow-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-30T08:28:50+00:00",
+      "description": "CISA warned that CVE-2026-97229, a GitLab flaw enabling unauthenticated code execution, is being actively exploited.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/CISA-Warns-of-GitLab-Integer-Overflow-Vulnerability-Exploited-in-Attacks-CVE-2026-97229.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "$6 Billion Binance Hack Bears Hallmarks of North Korea\u2019s TraderTraitor",
+      "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-30T08:16:26+00:00",
+      "description": "Blockchain analysts link the record crypto theft to North Korean hackers, as Binance probes a possibly compromised engineer laptop.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Binance-hacked.jpeg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-30T07:45:30+00:00",
+      "description": "Drupal warns of active exploitation of CVE-2026-118539 in Commerce Core, an authorization bypass flaw that may financially impact vendors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitgPkf4uToEgXwcfmDEKipEveRL2l0PEz6WIegAc2uWyf5_khO7Scgu6MpWHRovED7S-4sKJb4o88JsJT8NI8zB8WCBo04Q9TrEVNJa-08EbxP_zdPkaA7wsBEPIjXbApW1StdY8JunSewAi9TNrAcMwYZjqSsVktddqQ0uIi8-rUzXq1LMMLBHBdccapz/s1700-nu-rw-lo-l85-e365/drupal-rce.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
+      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-30T07:27:05+00:00",
+      "description": "CISA adds GitLab code execution and Cisco firewall DoS flaws to its KEV catalog, citing exploitation evidence and an Alpine Linux attack attempt.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1Ms9mKdtALczFoDaNy5Bm0HVMfxu0ps0ykDUXuLn3BeOEqUCDnzUiCP2lU_7xbC2kYuIAGCuOiQCGIlkR6wYBfCfb7g0wRESfIFaMtSltOjWphyswldC4LJxFf0RnCB9FzEVc-euJGtGbUvpJr7FOE0QefC3_rn8xLSFTij_yJn1MNP6bJVu8VgrcLaV/s1700-nu-rw-lo-l85-e365/github-cisco.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
+      "url": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-30T04:14:59+00:00",
+      "description": "Binance says a security incident affected about $6.3 billion in assets, with nearly $3 billion frozen and a DevOps laptop compromise suspected.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTtJggkBbk2ERH6bhZMSPnb_E1aQ44w4EpzkwAt1tqp45sGvG7jeAg2QvmbWQsBy5hyphenhyphen7ur18XQ1Uax7D9XRg-CZpQpMAByXt37Fn1loBClsu49KlBEsnxRCfy7vSuI-5yrpHB4JLWc1vtw0aITnhbFXDb4CosJzm07My3Lw6p3fOLTfcaxJLBR-Pdi2A6/s1700-nu-rw-lo-l85-e365/Binance.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
+      "url": "https://isc.sans.edu/diary/rss/33472",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-30T03:30:17+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
       "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
@@ -11,127 +143,6 @@
       "description": "This week's ThreatsDay covers 40K exposed secrets, AI-powered ransomware, GitHub supply chain attacks, critical flaws, and emerging cyber threats.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1700-nu-rw-lo-l85-e365/t-day.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "State of Ad Fraud 2026: 52% of Schemes Use AI as Cloaking Loses Ground to iOS Exploits and Messenger Phishing",
-      "url": "https://cybersecuritynews.com/state-of-ad-fraud-2026-52-of-schemes-use-ai-as-cloaking-loses-ground-to-ios-exploits-and-messenger-phishing/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-29T17:26:36+00:00",
-      "description": "Key findings from ADEX's State of Ad Fraud 2026 report, covering AI abuse, shifting suspension reasons, high-risk regions and 2027 predictions.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/adex-csn.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Launch 8,200 DDoS Attacks Every Hour, Cloudflare\u2019s Latest Report Reveals",
-      "url": "https://cybersecuritynews.com/8200-ddos-attacks-every-hour/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-29T16:42:03+00:00",
-      "description": "Cloudflare blocked an average of more than 8,200 network-layer DDoS attacks every hour during the third quarter of 2026, showing how attackers are using frequent, short bursts to disrupt online services rather than relying only on record-breaking traffic\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/8200-DDoS-Attacks-Every-Hour.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "When Risk Becomes Personal: What Security Leaders Can Learn From a Cancer Diagnosis",
-      "url": "https://www.securityweek.com/when-risk-becomes-personal-what-security-leaders-can-learn-from-a-cancer-diagnosis/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-29T16:30:00+00:00",
-      "description": "Risk managers are trained to spot weak signals, plan for disruption and make hard decisions under uncertainty. But the discipline looks different when the risk is not a system or an enterprise, but you.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-29T15:57:05+00:00",
-      "description": "Ubuntu and RHEL lack fixes for a Linux TCP use-after-free that Anthropic says it exploited to run commands as root on MPTCP servers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1700-nu-rw-lo-l85-e365/linux-flaw.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-29T15:20:29+00:00",
-      "description": "Fake ChatGPT and Claude desktop apps on GitHub use DLL sideloading to deploy YobaLoader, which retrieves and executes an XMRig miner.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1700-nu-rw-lo-l85-e365/claude-hack.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Claude AI Exploits Linux Kernel Flaw to Execute Root Commands Without User Interaction",
-      "url": "https://cybersecuritynews.com/linux-kernel-flaw-root-commands/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-29T15:18:11+00:00",
-      "description": "Anthropic says an unreleased Claude research model wrote a working exploit for a critical Linux kernel bug, tracked as CVE-2026-98432. The exploit lets a remote attacker run commands as root with no login and no user action.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Linux-Kernel-Flaw.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google Touts Powerful Cybersecurity Capabilities in Gemini 4 Carbon Model",
-      "url": "https://www.securityweek.com/google-says-gemini-4-carbon-leads-in-finding-exploiting-and-fixing-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-29T15:01:00+00:00",
-      "description": "Google\u2019s new frontier model scored 88.2% on SEC-bench Pro and is rolling out first to vetted cyber defenders via its Fairwind Program.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Gemini.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "How Secure Are US Elections? Voting Machine Risks and the Growing Threat of AI",
-      "url": "https://www.securityweek.com/how-secure-are-us-elections-voting-machine-risks-and-the-growing-threat-of-ai/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-29T15:00:00+00:00",
-      "description": "Unpatched voting machines, unverifiable QR-coded ballots, and AI-driven influence campaigns leave US elections short of secure.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Election-Voting-Cybersecurity.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "NIST Officially Released Guidance for Transition to Post-Quantum Cryptography",
-      "url": "https://cybersecuritynews.com/nist-post-quantum-cryptography-guidance/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-29T14:55:18+00:00",
-      "description": "NIST issued guidance outlining quantum-resistant cryptography standards and migration timelines.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/NIST-OFFICIALLY-released-guidance-for-Transition-to-Post-Quantum-Cryptography-1.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco Open Sources Quarry to Catch AI Agent Attacks Hidden in Harmless Steps",
-      "url": "https://www.securityweek.com/cisco-open-sources-quarry-to-catch-ai-agent-attacks-hidden-in-harmless-steps/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-29T14:18:03+00:00",
-      "description": "Cisco open sourced Project Quarry, a rule language for detecting AI agent attacks that only emerge across sequences of benign actions.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/AI-artificial-intelligence-training.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-29T13:42:40+00:00",
-      "description": "Google unveils Gemini 4 Carbon with improved vulnerability detection, exploitation, and patching capabilities, initially for select cyber defenders.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMb78BxIXnGaXFzCXPdswdQZsuh8rz63Y22pLX3cOkgRgaPv3KJgw6fRULDT3am1YO4eA1obnh0aOdxZy4KVZMww8sxNOtxzZXYcouotzbB25LVdJrCeDk0MQsgCmsYQBAaGdwyhmiMNa2Y90ujuXFXZPLTIrOo1PB6vtWqWAXygOvM72cEmXvHTN9Ktw/s1700-nu-rw-lo-l85-e365/google-gemini.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -165,17 +176,6 @@
       "description": "Introduction",
       "image": "",
       "topic": "Threat intelligence",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, October 28th, 2026 https://isc.sans.edu/podcastdetail/10154, (Wed, Oct 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33464",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-28T02:30:11+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
