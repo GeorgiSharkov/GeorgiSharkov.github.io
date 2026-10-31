@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-30T22:36:28.218877+00:00",
+  "generatedAt": "2026-10-31T06:12:10.221206+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-31T05:33:41+00:00",
+      "description": "OpenAI fixed a P1 ChatGPT flaw that let malicious shared links execute code in signed-in sessions and access private conversations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEplEzMjNIg5IBNIX4uz_WyVhtJqqbKICvvpW5LbwPEsQVd4ypSQC1ISnXoR0pMLlQEF4erNUIf-5-ELvBXIE8VH2Iv7dCPCuaZAFVeS9VIITs_5e_77DwtIvo3ExUcfJC_aT4x3FDD3AmTKeQFKnOrufXorlbiHOJNO-pUhwzBNwL98r-2JSW2CWiTBs/s1700-nu-rw-lo-l85-e365/chatgpt.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-31T04:56:12+00:00",
+      "description": "Cloudflare mitigated 18.2 million network-layer DDoS attacks in Q3 2026, with short-burst attacks rising 208% and DNS amplification up 215%.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-PGmRcZy9OvjKNOWHrGVMpF2DhnvIrHU6mOwyroU7CeoEKMkrjCt8HxCKBzAOia6ZpDEvTuQcF2Xg_50vE_W8DdjmLJjxMXPUUm5Ryfym8GBhm74Z6jwZCeXSKgxuK6A57rVsM-Z1G8nfEF3Mn8QgoD77Nbqxakkj_ZxbBNDtp0ljvTKrXydLYm1BFZR/s1700-nu-rw-lo-l85-e365/cf.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
       "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
@@ -47,17 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-30T14:08:14+00:00",
-      "description": "Attackers target a WordPress Core RCE flaw during upgrades, with Wordfence blocking 62,969 attempts in 24 hours. Patch available in 7.1.4.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-pzflJO9HQoCdvBvYNtS12gwwEjAbM4dQ30ak7UYaIPzsVPN9MlFwvIDEFkbe9cWg4wQRFPbGfJ0YXjzGcBS6mUTwttwkQ8IR7OoHyTz3owZkVzYQOAObyJUqfjsC-PqMw2pv41_m68hb6ZkwJb56kGx-Ypv7GWZBtDzjyTTQ8L8i9NxA8_MDVoJSEba/s1700-nu-rw-lo-l85-e365/wp-hack.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
       "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
       "source": "SecurityWeek",
@@ -77,17 +88,6 @@
       "description": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Virtualine-seized.jpg",
       "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-30T12:21:56+00:00",
-      "description": "Trezor warns CryptoBilis buyers to replace wallet recovery phrases after a customer reported a Safe 5 implant that transmits them over cellular.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih5QxhFnBw6d40ollOAoolmZedxywTm7DeBQpEqydVG5Pqg0v5iDVFT1hhbsW7Thqg00oI8MACNXC9FX6MCp_qMRkBRiqdxb9D4CDKfTWTZwI5eyY3V2IOa8ODSg24kX7Ni_C968r2X89tUXwPbDnHPV9xX-ydhytwerqMI1ru7tqdIK-cqA0p9oM5Ppxr/s1700-nu-rw-lo-l85-e365/trezor-wallet.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
