@@ -1,7 +1,95 @@
 {
-  "generatedAt": "2026-10-31T06:12:10.221206+00:00",
-  "count": 16,
+  "generatedAt": "2026-10-31T12:59:14.328083+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-31T12:01:56+00:00",
+      "description": "Chainalysis confirms an attack using agentic techniques exposed customer names, emails, and user IDs, but not credentials or session tokens.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRN0kXDPnLLvRBYqNZG4BTyUK0EaSxRtepYOQ-msXGAqu1IW8t2cdnav4ANAO8fXwY_-ug6Ictj29WcseInPhJmYOwpgcinvc8KO36A8HK6Wo41lgztgyH2jb9hGg7bVyWZ4A-adjBYuTi-hOJxMALa7myG172BWKwB_SyvrfMeqxH_3DdcyJxYwXFIKG/s1700-nu-rw-lo-l85-e365/chain.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-10-31T11:00:00+00:00",
+      "description": "A US court sentenced Syrian hacker Ahmad Umar Agha to 42 months for pro-Assad attacks on media, businesses, and government entities.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-sentenced-prison.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-31T10:52:53+00:00",
+      "description": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33474",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-31T10:48:17+00:00",
+      "description": "YARA-X&#;x26;#;39;s 1.22.1 is a bugfix version, it brings 2 bugfixes.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-10-31T10:45:40+00:00",
+      "description": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours",
+      "url": "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-31T10:41:18+00:00",
+      "description": "Cursor has confirmed that malicious Claude Code extension packages were available through its VS Code Extension Marketplace for roughly 11 hours on October 29, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Cursor-Confirms-Malicious-Claude-Code-Extension.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-10-31T08:27:43+00:00",
+      "description": "CISA adds two exploited Ivanti Connect Secure flaws to its KEV catalog after attackers chained them to gain unauthenticated root-level code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s1700-nu-rw-lo-l85-e365/1000120841.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours",
+      "url": "https://cybersecuritynews.com/60000-attacks-targeting-wordpress/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-31T06:02:41+00:00",
+      "description": "Hackers are targeting a WordPress Core remote code execution vulnerability that can expose websites during software updates. The supplied Wordfence threat intelligence snapshot lists 60,471 blocked attempts over 24 hours.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/60000-Attacks-Targeting-WordPress.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
       "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
@@ -25,24 +113,24 @@
       "kind": "News"
     },
     {
-      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
-      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-30T16:58:44+00:00",
-      "description": "China-linked Vapor Panda used ARTEX AI agents to target over 200 organizations, with post-exploitation activity confirmed at nine.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP1M46Z4Xs0qNHz9xzhTea14XsqTHvNhAfnGb4Ni9goHQR2ypz3BLKRgu-WxWD8VSUNMB3YAP7UhcCAK1AweCc3lC-7VlJ-OqNniD4FvZdE_R-XJkkRadhl2tp3-PqbKPWmQTeJ3a3gvd1kHH_zaW06tCf9cH-7k5feNqHrqbChMAsc5K3hruiX9BDROAe/s1700-nu-rw-lo-l85-e365/CS.jpg",
+      "title": "Google Launches Gemini 4 Carbon With State-Of-The-Art Cybersecurity Capabilities",
+      "url": "https://cybersecuritynews.com/google-launches-gemini-4-carbon/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-31T04:48:15+00:00",
+      "description": "Google unveiled Gemini 4 Carbon, an AI model based on Gemini 4 Argon that identifies software vulnerabilities, tests exploits, and develops fixes for complex security tasks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-launches-Gemini-4-Carbon-With-state-of-the-art-cybersecurity-Capabilities.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
-      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-30T15:17:28+00:00",
-      "description": "TeamViewer 15.83 fixes CVE-2026-111585, which lets malicious hosts crash remote viewers and may enable code execution on some platforms.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge-ZayNgwlu4fhpD2BSyGgkMYehkV0atRJINisISPLpiubkgyXopa4NWVnxOZs9gi-DEYTNEQ5G2pu-X5iSHyMp8pguzp-Q6g-1-mGwcy3so4AkeuYFuYoaotOcmF5A-2oVDvnxd0B_FaZ7JJt8W3zrNFot6kBlJp7WffHkb7m92C9bNQnwFLwnNgXpDk/s1700-nu-rw-lo-l85-e365/teamviewer-flaw.jpg",
+      "title": "TeamViewer Security Flaw Could Turn Remote Support Sessions Into Computer Takeovers",
+      "url": "https://cybersecuritynews.com/teamviewer-security-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-31T04:37:14+00:00",
+      "description": "A newly disclosed TeamViewer vulnerability could let an attacker turn a routine remote support session against the technician providing help.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/TeamViewer-Security-Flaw.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -80,17 +168,6 @@
       "kind": "News"
     },
     {
-      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
-      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-30T13:36:12+00:00",
-      "description": "It allowed customers to host hack-for-hire services, supported ransomware and infostealer operators, and accepted crypto payments.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Virtualine-seized.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
       "url": "https://isc.sans.edu/diary/rss/33472",
       "source": "SANS ISC",
@@ -99,39 +176,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
-      "url": "https://isc.sans.edu/diary/rss/33470",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-29T06:17:41+00:00",
-      "description": "Building your malware analysis lab is a key point before playing with malware. Today, thanks to virtualization, it&#;x26;#;39;s convenient to play with snapshots in your lab. Start a new investigation from a clean snapshot and take some more when you reached\u2026",
-      "image": "",
-      "topic": "Malware",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, October 29th, 2026 https://isc.sans.edu/podcastdetail/10156, (Thu, Oct 29th)",
-      "url": "https://isc.sans.edu/diary/rss/33468",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-29T03:10:12+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33466",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-29T00:42:15+00:00",
-      "description": "Introduction",
-      "image": "",
-      "topic": "Threat intelligence",
       "kind": "DFIR"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
