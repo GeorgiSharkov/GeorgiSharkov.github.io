@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2026-11-01T06:44:50.672980+00:00",
-  "count": 16,
+  "generatedAt": "2026-11-01T16:16:50.322352+00:00",
+  "count": 20,
   "stories": [
     {
-      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
-      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-01T11:15:00+00:00",
+      "description": "The startup maps how identities, assets and vulnerabilities connect, and uses AI agents to find and fix risky combinations of issues.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/12/cyber-security-investment.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OneNote File Extraction, (Sun, Nov 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33478",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-01T09:12:23+00:00",
+      "description": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-31T12:01:56+00:00",
-      "description": "Chainalysis confirms an attack using agentic techniques exposed customer names, emails, and user IDs, but not credentials or session tokens.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFRN0kXDPnLLvRBYqNZG4BTyUK0EaSxRtepYOQ-msXGAqu1IW8t2cdnav4ANAO8fXwY_-ug6Ictj29WcseInPhJmYOwpgcinvc8KO36A8HK6Wo41lgztgyH2jb9hGg7bVyWZ4A-adjBYuTi-hOJxMALa7myG172BWKwB_SyvrfMeqxH_3DdcyJxYwXFIKG/s1700-nu-rw-lo-l85-e365/chain.jpg",
-      "topic": "Identity",
+      "publishedAt": "2026-11-01T08:51:31+00:00",
+      "description": "Canonical patches CVE-2026-112816 in LXD and MicroCloud, a CVSS 10.0 flaw enabling trusted client impersonation without private keys.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Vibbj3miGalyf0avn_Z2WlLhFh5cC5ImXGFlOL0cisgxikHCcLzHjOVM3qO5B47V3uw62rWH6m6fP1svsH3TCG6i9sS19BIXn1CsDjKK3gnG6VQxkFwghemdeBlV4_AM5Ah-_TJ3T_5Gv-D5Pygrm-B5yzQnDqvIXmI2FyAeuzk57_l6esdhNrTMBj0/s1700-nu-rw-lo-l85-e365/linux-vm.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-01T07:25:40+00:00",
+      "description": "A hijacked DebugBear script drained about $2.7 million from Polymarket traders, affecting 726 wallets and triggering $3.9 million in refunds.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe0B28qLAtUMfqN29_phxZJVJORICkj_98MZFwDiXAxFTABw8G9qbsVyD98pg7T_Rvgv83NXyR5tNGYH4dRwlxs3QFTUZxDPHQs2BgFsnmGcOuVW1HkFVCfiCR3Y05kPQrfFx4S7A8DiFXXAAgdc5SiEKx0-0xrW5rNlNSyN3jZJcyXasdpCr5AG7KM3s/s1700-nu-rw-lo-l85-e365/Polymarket.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-01T07:03:00+00:00",
+      "description": "The FBI attributes a $6 billion-plus crypto theft to North Korea-linked TraderTraitor as investigators track laundering through Ethereum.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmb1j0HC3RkKxZ4bBQPaOa5GaLqC2EBtxXHOMnebPlgHGDJG7ryIuSBIR-9YBQuUm6HwD15-OJQgBvIkhbLIApM8XoU0DptSEF6DNhEpinxPA-06wQZhLhRiKmFGO5cVjONcaouGC3lqybhkeEsZj-xebX6u6hSR19mS7sVqOrpR02qNOlpHZJEUjf1HtB/s1700-nu-rw-lo-l85-e365/binance-hack.png",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-01T07:02:58+00:00",
+      "description": "NetamLoader targets a government-only Windows 10 build in Asia, using AppDomainManager injection and layered .NET payloads to execute code",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0oLNj9TVg8ifLKdJSg4HH1EhN3m_OBldd7wEIeVoQSHtFXSmsiPdmf-njsPD-CbVHY8NckeW2N9rN8-CTnp81zaeFq-ISj04O7ihoj5HgnvJT_zY_0fdC8vCcd5LXL8Mx9ym1fPI5GMrEtjxZoEiernCr_CZwLocgtrJsKZzixEnYUe2WmkehWLNR2hx/s1700-nu-rw-lo-l85-e365/windows-hacker.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Confirms North Korean Hackers Responsible for $6 Billion+ Binance Attack",
+      "url": "https://cybersecuritynews.com/fbi-confirms-north-korean-hackers/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-01T05:48:16+00:00",
+      "description": "The Federal Bureau of Investigation has confirmed that North Korean hackers stole more than $6 billion in virtual assets from Binance on or about October 29, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/FBI-Confirms-North-Korean-Hackers.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hacktober \u2013 Cyberattack Wave Hits PHP, Node.js, Binance, LiteLLM, Pentagon, and a Few More",
+      "url": "https://cybersecuritynews.com/hacktober-cyberattack-wave/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-01T05:24:22+00:00",
+      "description": "October brought a heavy run of cybersecurity disclosures involving cryptocurrency exchanges, web servers, AI tools, software packages, government records, and grocery chains.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hacktober-Cyberattack-Wave.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -58,36 +135,25 @@
       "kind": "DFIR"
     },
     {
-      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
-      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-31T08:27:43+00:00",
-      "description": "CISA adds two exploited Ivanti Connect Secure flaws to its KEV catalog after attackers chained them to gain unauthenticated root-level code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s1700-nu-rw-lo-l85-e365/1000120841.jpg",
+      "title": "Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours",
+      "url": "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-31T10:41:18+00:00",
+      "description": "Cursor has confirmed that malicious Claude Code extension packages were available through its VS Code Extension Marketplace for roughly 11 hours on October 29, 2026.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Cursor-Confirms-Malicious-Claude-Code-Extension.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours",
+      "url": "https://cybersecuritynews.com/60000-attacks-targeting-wordpress/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-10-31T06:02:41+00:00",
+      "description": "Hackers are targeting a WordPress Core remote code execution vulnerability that can expose websites during software updates. The supplied Wordfence threat intelligence snapshot lists 60,471 blocked attempts over 24 hours.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/60000-Attacks-Targeting-WordPress.webp",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
-      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-31T05:33:41+00:00",
-      "description": "OpenAI fixed a P1 ChatGPT flaw that let malicious shared links execute code in signed-in sessions and access private conversations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEplEzMjNIg5IBNIX4uz_WyVhtJqqbKICvvpW5LbwPEsQVd4ypSQC1ISnXoR0pMLlQEF4erNUIf-5-ELvBXIE8VH2Iv7dCPCuaZAFVeS9VIITs_5e_77DwtIvo3ExUcfJC_aT4x3FDD3AmTKeQFKnOrufXorlbiHOJNO-pUhwzBNwL98r-2JSW2CWiTBs/s1700-nu-rw-lo-l85-e365/chatgpt.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
-      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-10-31T04:56:12+00:00",
-      "description": "Cloudflare mitigated 18.2 million network-layer DDoS attacks in Q3 2026, with short-burst attacks rising 208% and DNS amplification up 215%.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-PGmRcZy9OvjKNOWHrGVMpF2DhnvIrHU6mOwyroU7CeoEKMkrjCt8HxCKBzAOia6ZpDEvTuQcF2Xg_50vE_W8DdjmLJjxMXPUUm5Ryfym8GBhm74Z6jwZCeXSKgxuK6A57rVsM-Z1G8nfEF3Mn8QgoD77Nbqxakkj_ZxbBNDtp0ljvTKrXydLYm1BFZR/s1700-nu-rw-lo-l85-e365/cf.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -111,28 +177,6 @@
       "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
       "topic": "Malware",
       "kind": "News"
-    },
-    {
-      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
-      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-10-30T14:00:00+00:00",
-      "description": "As organizations eliminate passwords, attackers will adapt. Instead of attacking the authenticator directly, they will look for opportunities around it.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/Passkey-Password-Authentication.jpg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "ISC Stormcast For Friday, October 30th, 2026 https://isc.sans.edu/podcastdetail/10158, (Fri, Oct 30th)",
-      "url": "https://isc.sans.edu/diary/rss/33472",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-30T03:30:17+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
