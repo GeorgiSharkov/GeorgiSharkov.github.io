@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-31T19:30:06.931732+00:00",
-  "count": 20,
+  "generatedAt": "2026-11-01T00:23:38.249684+00:00",
+  "count": 16,
   "stories": [
     {
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
@@ -58,17 +58,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours",
-      "url": "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-31T10:41:18+00:00",
-      "description": "Cursor has confirmed that malicious Claude Code extension packages were available through its VS Code Extension Marketplace for roughly 11 hours on October 29, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Cursor-Confirms-Malicious-Claude-Code-Extension.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
       "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
       "source": "The Hacker News",
@@ -76,17 +65,6 @@
       "publishedAt": "2026-10-31T08:27:43+00:00",
       "description": "CISA adds two exploited Ivanti Connect Secure flaws to its KEV catalog after attackers chained them to gain unauthenticated root-level code execution.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeqP4vPt6j2lLPFj77A_1OthmSKb8mItfBrX_q8sQCAUVgTry1FxKizDI2SCLS4CglfjgbVkaMDN8ainqoOZm2pdaF6xw7sU4STZhwIFPCLSz84YXQTVx2tquPo7YJsZhgOWcD3V_w5td9BA_vVuOu1cFcrgL3SXyLF4E24IyGotrzDcbJ-M1mA85biDuW/s1700-nu-rw-lo-l85-e365/1000120841.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours",
-      "url": "https://cybersecuritynews.com/60000-attacks-targeting-wordpress/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-31T06:02:41+00:00",
-      "description": "Hackers are targeting a WordPress Core remote code execution vulnerability that can expose websites during software updates. The supplied Wordfence threat intelligence snapshot lists 60,471 blocked attempts over 24 hours.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/60000-Attacks-Targeting-WordPress.webp",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -110,28 +88,6 @@
       "description": "Cloudflare mitigated 18.2 million network-layer DDoS attacks in Q3 2026, with short-burst attacks rising 208% and DNS amplification up 215%.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9-PGmRcZy9OvjKNOWHrGVMpF2DhnvIrHU6mOwyroU7CeoEKMkrjCt8HxCKBzAOia6ZpDEvTuQcF2Xg_50vE_W8DdjmLJjxMXPUUm5Ryfym8GBhm74Z6jwZCeXSKgxuK6A57rVsM-Z1G8nfEF3Mn8QgoD77Nbqxakkj_ZxbBNDtp0ljvTKrXydLYm1BFZR/s1700-nu-rw-lo-l85-e365/cf.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Google Launches Gemini 4 Carbon With State-Of-The-Art Cybersecurity Capabilities",
-      "url": "https://cybersecuritynews.com/google-launches-gemini-4-carbon/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-31T04:48:15+00:00",
-      "description": "Google unveiled Gemini 4 Carbon, an AI model based on Gemini 4 Argon that identifies software vulnerabilities, tests exploits, and develops fixes for complex security tasks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Google-launches-Gemini-4-Carbon-With-state-of-the-art-cybersecurity-Capabilities.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "TeamViewer Security Flaw Could Turn Remote Support Sessions Into Computer Takeovers",
-      "url": "https://cybersecuritynews.com/teamviewer-security-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-31T04:37:14+00:00",
-      "description": "A newly disclosed TeamViewer vulnerability could let an attacker turn a routine remote support session against the technician providing help.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/TeamViewer-Security-Flaw.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
