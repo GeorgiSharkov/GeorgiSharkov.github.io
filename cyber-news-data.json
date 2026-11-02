@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-11-01T22:18:30.416487+00:00",
+  "generatedAt": "2026-11-02T06:43:31.565328+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-02T05:51:07+00:00",
+      "description": "VOLTA Windows infostealer uses multiple LLMs to rank stolen data by monetization value and sends AI-generated victim assessments via Telegram.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd5V8QVweKn56_SnTCKZkhmOip6paz9noBrJn7znyZqUtFbOEaLuALQUNlmjcSAb7RIUW8GDETB6J0kFpQQe6vq7wAjk3ogxKUeQ0-2rKeO6TveLdqHNs9KnTN6zC6rwPzWE2IBWMokqQOUzAA0XPM2BWHTUTE7_U7XDfUGKTDIC1PYttxHGnAq_Kr_hMq/s1700-nu-rw-lo-l85-e365/hacker-ai.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "TightVNC Pre-Auth RCE Vulnerability Lets Hackers Execute Code on Windows PCs, PoC Released",
+      "url": "https://cybersecuritynews.com/tightvnc-pre-auth-rce-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-02T04:26:12+00:00",
+      "description": "A TightVNC Viewer vulnerability allows attackers to execute code on Windows PCs before the password prompt appears.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/TightVNC-Pre-Auth-RCE-Vulnerability-Lets-Hackers-Execute-Code-on-Windows-PCs-PoC-Released.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target 61 GitHub Repositories With Command Injection Attacks to Steal CI/CD Secrets",
+      "url": "https://cybersecuritynews.com/hackers-target-61-github-repositories/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-02T04:21:41+00:00",
+      "description": "A command injection campaign targeted 61 GitHub repositories through 83 malicious posts, executing commands in two GitHub Actions workflows.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Hackers-Target-61-GitHub-Repositories-With-Command-Injection-Attacks-to-Steal-CI_CD-Secrets.webp",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Drain Bitcoin Hot Wallets on BTCPay Servers, Users Urged to Shut Down Immediately",
+      "url": "https://cybersecuritynews.com/btcpay-server-warns/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-02T04:04:55+00:00",
+      "description": "BTCPay Server has issued an urgent warning after receiving reports that attackers were draining Bitcoin hot wallets on its servers.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/BTCPay-Server-Warns-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Certificate Validation Flaw in LXD and Incus Could Give Hackers Control of Linux Hosts",
+      "url": "https://cybersecuritynews.com/certificate-validation-flaw-in-lxd-and-incus/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-02T02:45:51+00:00",
+      "description": "A critical certificate validation flaw in LXD and Incus could let remote attackers bypass login checks and take control of clusters and managed virtual machines.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Certificate-Validation-Flaw-in-LXD-and-Incus.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
+      "url": "https://isc.sans.edu/diary/rss/33480",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-02T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
       "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
@@ -58,39 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
-      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-01T07:02:58+00:00",
-      "description": "NetamLoader targets a government-only Windows 10 build in Asia, using AppDomainManager injection and layered .NET payloads to execute code",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0oLNj9TVg8ifLKdJSg4HH1EhN3m_OBldd7wEIeVoQSHtFXSmsiPdmf-njsPD-CbVHY8NckeW2N9rN8-CTnp81zaeFq-ISj04O7ihoj5HgnvJT_zY_0fdC8vCcd5LXL8Mx9ym1fPI5GMrEtjxZoEiernCr_CZwLocgtrJsKZzixEnYUe2WmkehWLNR2hx/s1700-nu-rw-lo-l85-e365/windows-hacker.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Confirms North Korean Hackers Responsible for $6 Billion+ Binance Attack",
-      "url": "https://cybersecuritynews.com/fbi-confirms-north-korean-hackers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-01T05:48:16+00:00",
-      "description": "The Federal Bureau of Investigation has confirmed that North Korean hackers stole more than $6 billion in virtual assets from Binance on or about October 29, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/FBI-Confirms-North-Korean-Hackers.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hacktober \u2013 Cyberattack Wave Hits PHP, Node.js, Binance, LiteLLM, Pentagon, and a Few More",
-      "url": "https://cybersecuritynews.com/hacktober-cyberattack-wave/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-01T05:24:22+00:00",
-      "description": "October brought a heavy run of cybersecurity disclosures involving cryptocurrency exchanges, web servers, AI tools, software packages, government records, and grocery chains.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hacktober-Cyberattack-Wave.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
       "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
       "source": "SecurityWeek",
@@ -122,39 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33454",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-31T10:45:40+00:00",
-      "description": "YARA-X&#;x26;#;39;s 1.22.0 release brings 11 improvements and 9 bugfixes.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Cursor Confirms Malicious Claude Code Extension With SSH Backdoor Was Available for 11 Hours",
-      "url": "https://cybersecuritynews.com/malicious-claude-code-extension-with-cursor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-31T10:41:18+00:00",
-      "description": "Cursor has confirmed that malicious Claude Code extension packages were available through its VS Code Extension Marketplace for roughly 11 hours on October 29, 2026.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/Cursor-Confirms-Malicious-Claude-Code-Extension.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Over 60,000 Attacks Target WordPress RCE Vulnerability Within 24 Hours",
-      "url": "https://cybersecuritynews.com/60000-attacks-targeting-wordpress/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-10-31T06:02:41+00:00",
-      "description": "Hackers are targeting a WordPress Core remote code execution vulnerability that can expose websites during software updates. The supplied Wordfence threat intelligence snapshot lists 60,471 blocked attempts over 24 hours.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/10/60000-Attacks-Targeting-WordPress.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
