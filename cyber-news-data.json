@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2026-11-03T03:01:47.371228+00:00",
+  "generatedAt": "2026-11-03T11:16:31.487842+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Google Dismantles 1.3 Million Device XCPE Botnet, Bans Android TV Maker Over Preinstalled Malware",
-      "url": "https://cybersecuritynews.com/google-dismantles-xcpe-botnet/",
+      "title": "Hackers Abuse Signed ChatGPT and Claude Applications to Deploy Yoba Malware and Evade Detection",
+      "url": "https://cybersecuritynews.com/hackers-abuse-signed-chatgpt/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-03T02:24:38+00:00",
-      "description": "Google and industry partners have dismantled the XCPE botnet, which enrolled more than 1.3 million set-top boxes through preinstalled malware.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Google-Dismantles-1.3-Million-Device-XCPE-Botnet.webp",
+      "publishedAt": "2026-11-03T11:04:59+00:00",
+      "description": "Hackers disguise Yoba malware as ChatGPT and Claude downloads, exploiting signed apps to install crypto miners on Windows PCs.119 characters",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Abuse-Signed-ChatGPT-and-Claude-Applications-to-Deploy-Yoba-Malware-and-Evade-Detection.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "NCSC Warns AI Could Accelerate Ransomware Attacks on Critical Infrastructure",
+      "url": "https://cybersecuritynews.com/ai-could-accelerate-ransomware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-03T10:50:40+00:00",
+      "description": "The UK\u2019s National Cyber Security Center handled 80 nationally significant cyber incidents during its latest reporting year, warning that artificial intelligence is making attacks faster, cheaper and easier to carry out.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/AI-Could-Accelerate-Ransomware.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "ARES AI Red Team Platform Automates 66 Attack Modules for Active Directory and Cloud Security Testing",
+      "url": "https://cybersecuritynews.com/ares-ai-red-team-platform/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-03T10:39:29+00:00",
+      "description": "A new open-core project called ARES is giving red teams a way to run planned, controlled attack tests against Active Directory and cloud systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/ARES-AI-Red-Team-Platform.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Adobe Commerce Zero-Day to Deploy PSK Agent RAT and Remotely Control Servers",
+      "url": "https://cybersecuritynews.com/adobe-commerce-zero-day/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-03T10:03:57+00:00",
+      "description": "Attackers exploit Magento's StyleSmuggler zero-day to install PSK Agent, enabling persistent remote access to online stores.118 characters",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Exploit-Adobe-Commerce-Zero-Day-to-Deploy-PSK-Agent-RAT-and-Remotely-Control-Servers.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-03T09:49:12+00:00",
+      "description": "The U.K. will likely face AI cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/06/UK_Cyberwarfare.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+      "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-03T09:22:09+00:00",
+      "description": "The botnet was created and operated for financial gain by Android OEM/ODM Videostrong Technology.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/botnet.jpeg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "NATO\u2019s Crossed Swords Exercise Brings AI Agents Into Cyber Operations Training",
+      "url": "https://www.securityweek.com/natos-crossed-swords-exercise-brings-ai-agents-into-cyber-operations-training/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-03T08:49:03+00:00",
+      "description": "The NATO CCDCOE exercise in Estonia introduces AI agents and OpenAI Daybreak into joint cyber and kinetic operations training.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/NATO-Crossed-Swords-2026.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-03T08:31:48+00:00",
+      "description": "Hackers exploited a BTCPay Server vulnerability to steal Bitcoin and Litecoin from hot wallets on versions 2.4.1 and earlier.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhrr1rJlr2nztz8jEunAWtVXHyOHkJY2_KdeweNWBqwF18rmhPiFItEQ-yCex1vVsps856ArIDl7unaWJNiribZ9DgkmQ3o4pLa1BKQrjKEeFR63z4csXnBHah5wIp7H5xuUB7b1UIp06nk6BzLuxFW5aWh2g-PoLoZ74RjMOEUX7XdrDsHM1yFbjGHBzK8/s1700-nu-rw-lo-l85-e365/btcpay.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Over 100 European Stores Hit as Supermarket Fridge Attacks Return",
+      "url": "https://www.securityweek.com/over-100-european-stores-hit-as-supermarket-fridge-attacks-resume/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-03T07:43:24+00:00",
+      "description": "Attackers again tampered with internet-exposed refrigeration controllers, this time at stores in Belgium, Sweden, Ireland and beyond.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supermarket-refrigerators.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-03T07:43:07+00:00",
+      "description": "Synology warns of ransomware attacks exploiting a patched DSM flaw as NAS users report C3RB3R infections and encrypted files.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg18lSM19IJpBCuAofy8CZNsJ-05CtvqxdL8BcHUS65fn_Oph-FAXqpdDE9c11G78nq7I1pVtt4XAotc_hszgea-QpNDTt-RzstD3k7yfXHP3JUnBViplsRzL_4q_LM-jujcv6NbMUUYBMWtJKSdKcBYlbSkm7Mx9LaTbVRW88uFh723nDOGYYDxiwkfYFr/s1700-nu-rw-lo-l85-e365/synology-ransomware.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-03T07:27:07+00:00",
+      "description": "Hackers altered supermarket refrigeration settings across Europe, forcing food withdrawals and exposing weaknesses in remote controls.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjScxShEa3bsAhGLHlqkBcsyuRe6UeQwrOVXBFP3TwxzmXtd03vDeDRZHxxBLIKHDYgY5p5CsrFvBwuozg3UsRLtVMO758NhVwSju6D6WgO1J42wJd2NWR9aVzz-B_CWfiMFH2QANUrAnUXbgkKec2KtJjULvN3NTqrCPbLRNnxlnvBFIAkndClXJMIeXY/s1700-nu-rw-lo-l85-e365/fridge-hack.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-03T05:34:41+00:00",
+      "description": "Attackers exploit CVE-2026-58115 in Siemens SIMATIC IoT2050 devices to deploy Linux bot payloads and command execution backdoors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLg0QvfH0SD_sz2pFnyrG6Zcs-ltrKaf42ZY7PYKTsA26Nu4alNeqarZZ9HGEjO0UJFr5Wfsb7WBSDYoRnGi6X1jXZ8_4xx1VJtYshtPXYX9DVJYu4lln_IqEhf-NQJC7MKWI1JVzzR5heu6O_OnWezfKsj3AnBs5NKVp5dOVgR-7XuKMIAiyiKflPlT9E/s1700-nu-rw-lo-l85-e365/siemens-hack.jpg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -36,61 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Mercado Bitcoin Suffers Cyberattack as Researchers Flag $40 Million in Suspicious Crypto Transfers",
-      "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-02T17:54:22+00:00",
-      "description": "Brazilian cryptocurrency exchange Mercado Bitcoin suspended deposits and withdrawals on November 2, 2026, after detecting a security incident in one of its systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Mercado-Bitcoin-Breach.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-02T16:57:56+00:00",
-      "description": "This week's ThreatsDay Bulletin covers the $6.43B crypto heist, Volt Typhoon, ChatGPT flaws, AI extension backdoors, spyware, critical CVEs, and more.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj03NmPVHpoxRjXKDh7s6v2Dav4D-MCSLBTLalEb9ScH_lLc4yQJWOW8QfTIBePp7Pcgo1qrq6MYuQvNeyb0LCvWO4E4e7BLQKEj-g3Z2LImj4CXV-UUGfVd-vVL0NGtxMMn50klhOLlyI3p6DXhIFf-LkMsST7LK4kh3gIjqlvBwOUgbKTq8-hRdvmfz46/s1700-nu-rw-lo-l85-e365/rcap.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Guardz Brings Palo Alto Networks Prisma Browser Protection to Small Businesses",
-      "url": "https://cybersecuritynews.com/guardz-brings-palo-alto-networks-prisma-browser-protection-to-small-businesses/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-02T15:53:23+00:00",
-      "description": "Prisma Browser for Business joins Guardz to connect browser protection with email, identity and endpoint security, helping security teams investigate and respond to threats across the workspace",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCiS1i7YCoV6YJkm6P29i_fiPs2YH1rX7Gt67RHbq7KlggS9Hyr6HzsZ49WxWD4T9y7k4lxP8cPKCTE4hFuYy6DW7XbNfptAKOrh-PSfMDGkWmRn1ADMjikoki9FbHcZwNojYX9OM3MPdVbEr1geqzMzosoNsrwa3AQtgcoOaabEwVCwsxXosxEs3X1KA/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20or%20%20(35.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
-      "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-02T15:50:26+00:00",
-      "description": "Google disrupts the x.cpe botnet on over 1.3 million Android devices, linking the firmware backdoor to manufacturer Videostrong.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhkbU6vLZjF0nlz7vqN6UVf3kN1IcdUfIpAmVWlh2II4gGbMMmSuiE1S8HLzP4JV-ImeCa64hU-cEaa-yGXWqUO_XHOurKtEw61DFvjGOJhM7gHpRPpegBcCFYrXkd59wGX-PoV6zm7z7uq6PpXjc4GLhDRzcinR5IIjcOVZEVl8FMQ0v0Dt3CV9sRxZNk/s1700-nu-rw-lo-l85-e365/android-tv-botnet.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
-      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-02T15:01:11+00:00",
-      "description": "Significant cybersecurity deals were announced by Absolute Security, Aikido, Anthropic, Cohere, Hex-Rays, and Proofpoint.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/02/MA-mergers-and-acquisitions.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
       "url": "https://isc.sans.edu/diary/rss/33482",
       "source": "SANS ISC",
@@ -100,72 +166,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-02T14:46:05+00:00",
-      "description": "Iran-linked DarkBlinders compromised targets in Israel and Iraqi Kurdistan using credential phishing and malware-laced applications.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7nIwDn7LIoF8OUZdj0NRjq4ZMu-xjzcOPQJDwouwkwqwVe618e77am9iyAIez63Q8jVqZi7OtU43gJlhbZT-_4l_4pUq3tYpDUe4ErouPlkNi8YTNZiPQ6KmX2Ci028oT24DRcPtCdKv_zZ33_ZHOodARrbmcwxYWCAx4r45Qc0qVOQNmCCoWZmAWJnzt/s1700-nu-rw-lo-l85-e365/shelby-hacker.png",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
-      "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-02T14:44:18+00:00",
-      "description": "The Florida Department of Education says SSNs and other personal data may have been exposed in a breach of its financial aid website.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/03/school-education.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Could Exploit iPhone BootROM Flaws to Compromise Cryptocurrency Wallet Security",
-      "url": "https://cybersecuritynews.com/hackers-exploit-iphone-bootrom-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-02T13:43:27+00:00",
-      "description": "Offline iPhones storing crypto seed phrases remain vulnerable to physical attacks exploiting BootROM flaws.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Could-Exploit-iPhone-Boot-ROM-Flaws-to-Compromise-Cryptocurrency-Wallet-Security.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Revolve Data Breach Impacts at Least 180,000 People",
-      "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-02T13:35:21+00:00",
-      "description": "Hackers accessed its online shopping platform and stole customers\u2019 personal and payment card information.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/data_breach.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
-      "url": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-02T13:25:11+00:00",
-      "description": "The top payout is for high-impact architectural research demonstrating full administrative control.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Google.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-02T11:50:00+00:00",
-      "description": "Langflow 1.13.0 fixes two critical flaws that could let unauthenticated attackers bypass authentication or remotely execute code.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_FF2_yXQrxnB1ymo-GsohY6t0INslV7mps2DVMnYa_dD_RpZu7uz9HwNrux1gxieMF4hnc_84KMpOyhroj0EDx0Vwv0QljdhTehvJINIsr-Sjyw4CaMiLO3fFWGl-8LhLWgOtC4DRU2X5e46s3Rxghu3KLUMsyHfpxFyKogIs34Q2fm2RYpAMI_Jt_9A/s1700-nu-rw-lo-l85-e365/langflow-rce.jpg",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Monday, November 2nd, 2026 https://isc.sans.edu/podcastdetail/10160, (Mon, Nov 2nd)",
