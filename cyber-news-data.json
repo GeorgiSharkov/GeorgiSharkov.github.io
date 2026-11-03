@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-02T19:43:45.449723+00:00",
+  "generatedAt": "2026-11-03T03:01:47.371228+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Google Dismantles 1.3 Million Device XCPE Botnet, Bans Android TV Maker Over Preinstalled Malware",
+      "url": "https://cybersecuritynews.com/google-dismantles-xcpe-botnet/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-03T02:24:38+00:00",
+      "description": "Google and industry partners have dismantled the XCPE botnet, which enrolled more than 1.3 million set-top boxes through preinstalled malware.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Google-Dismantles-1.3-Million-Device-XCPE-Botnet.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-11-03T02:24:31+00:00",
+      "description": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising\u2026",
+      "image": "",
+      "topic": "Malware",
+      "kind": "Investigation"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
+      "url": "https://isc.sans.edu/diary/rss/33484",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-03T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Mercado Bitcoin Suffers Cyberattack as Researchers Flag $40 Million in Suspicious Crypto Transfers",
       "url": "https://cybersecuritynews.com/mercado-bitcoin-suffers-cyberattack/",
@@ -124,17 +157,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Using Microsoft Teams Messages and Calls to Trick Users and Gain Remote Access to System",
-      "url": "https://cybersecuritynews.com/microsoft-teams-messages/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-02T12:33:55+00:00",
-      "description": "Hackers exploit Microsoft Teams support calls to infiltrate corporate networks, steal data, and hijack privileged accounts.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Using-Microsoft-Teams-Messages-and-Calls-to-Trick-Users-and-Gain-Remote-Access-to-System.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
       "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
       "source": "The Hacker News",
@@ -163,17 +185,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-11-01T09:12:23+00:00",
       "description": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33476",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-10-31T10:52:53+00:00",
-      "description": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
@@ -209,17 +220,6 @@
       "description": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are\u2026",
       "image": "",
       "topic": "Ransomware",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-10-13T23:24:53+00:00",
-      "description": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today's epic patch batch dwarfs September's record of nearly 1,000 fixes, which was already about ten times the normal monthly\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "Investigation"
     }
   ],
