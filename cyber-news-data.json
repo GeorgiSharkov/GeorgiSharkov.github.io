@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-11-05T11:26:46.832412+00:00",
+  "generatedAt": "2026-11-05T20:13:20.232171+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
+      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-05T17:32:37+00:00",
+      "description": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Linux-vulnerability-malware.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
+      "url": "https://cybersecuritynews.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-05T16:56:19+00:00",
+      "description": "OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing platform as an alternative to massive, centralized data center development amid growing public opposition to new\u2026",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijMePEHFYdt78YpUVPeF94ACXw6eGr-pphUv-iCP8ARPzUMIFxHP8X3sULXAPZK01vL8WDjiqSGaVdI289oGvPVxe7Fgij-zc8-aA4BGWW5iDtiLUvBqVBS47N9NrgArELwM0C1KC_fm9bPPuektjt7mvmKuxgFzaeS4kW9nRhNQME1g45gm9aDIgGhRQ/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20or%20%20(62.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "GhostMap Android Flaw Can Trap Phones in Endless Reboot Loops Without Opening an App",
+      "url": "https://cybersecuritynews.com/ghostmap-android-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-05T16:11:01+00:00",
+      "description": "A new Android bug named GhostMap can leave a phone stuck in a crash loop after a user installs a single crafted app. The app does not need to be opened, asks for no permissions and holds no code.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/GhostMap-Android-Vulnerability.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+      "url": "https://isc.sans.edu/diary/rss/33492",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-05T15:29:08+00:00",
+      "description": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Hackers Turn Popular Chinese Keyboard Software Into a Backdoor for Cyberespionage Attacks",
+      "url": "https://cybersecuritynews.com/chinese-keyboard-software/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-05T14:59:57+00:00",
+      "description": "SlippyNunchucks hackers exploit Sogou Input Method's insecure HTTP requests to deploy DarkVigil backdoor on Windows systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Turn-Popular-Chinese-Keyboard-Software-Into-a-Backdoor-for-Cyberespionage-Attacks.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenSSH Flaw Could Let Attackers Bypass Password Authentication on Alpine Linux Servers",
+      "url": "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-05T14:58:40+00:00",
+      "description": "A critical OpenSSH password authentication bypass could let remote attackers access affected Alpine Linux servers without knowing a password.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenSSH-Flaw-Bypass-Password-Login.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-05T14:41:10+00:00",
+      "description": "This week's cybersecurity news covers AI-powered attacks, critical vulnerabilities, ransomware, stolen credentials, cloud breaches, and security flaws",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj37A8QMI4tUKrluDLCSgawVjQQeZ6c6NrfWLMLUjrI6vRhpt8Tlw4PNnfF49ZlOTtW28Cfb035jo-j22auCrWauuE-JpHfKMFSVfIQtUZjn1eETLFhQEev0FFafFlGz8W6r-96FPmTWlFGTR3RhV869PbcYkO4YPi5nD-zQVGHSZ8d39OmhecF693dj4-x/s1700-nu-rw-lo-l85-e365/tds.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Bank Phishing Sites Show Fake \u2018Suspended\u2019 Pages to Evade Takedowns",
+      "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-05T13:22:12+00:00",
+      "description": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/07/corporate-bank-fraud.jpeg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
+      "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-05T12:58:32+00:00",
+      "description": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/blood.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Cisco, WatchGuard Release Patches; SonicWall Won\u2019t Fix GMS Flaws",
+      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-05T12:33:49+00:00",
+      "description": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+      "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-05T12:25:00+00:00",
+      "description": "Five tests for evaluating exposure management platforms across asset discovery, risk prioritization, validation, remediation, and verification.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTqhUSejDKMWiBuqakycpFyce33qmRAlEPU4FbfKnzSRZmIlOQia8YXyU8bdvYFN6ldGMqz2vxPZn-s9524oTPZithSzMiO5ejngh_UMdp8jEbSG8znPLj-0husv1pxRF0dW2qES9dz4oR56dk67YJ8zePlgnVFSbHSIKHAU_7VqK0-pwSVeYEsOYM7u8/s1700-nu-rw-lo-l85-e365/exposure.png",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-05T12:08:54+00:00",
+      "description": "OpenAI's AI pipeline reproduced 1,724 Linux vulnerabilities and generated 948 working local privilege escalation exploits for $1.2 million.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1700-nu-rw-lo-l85-e365/linux-lpe.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
       "url": "https://isc.sans.edu/diary/rss/33490",
@@ -14,61 +146,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "CISO Conversations: Ryan Davis \u2013 The Unknown Is Where Security Meets Reality",
-      "url": "https://www.securityweek.com/ciso-conversations-ryan-davis-the-unknown-is-where-security-meets-reality/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-05T11:00:00+00:00",
-      "description": "Ryan Davis went from hacking his school\u2019s network to running security at New Charter Technologies. What worries him now is shadow AI.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Ryan-Davis.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Hide Marsalek Malware in Fake Roblox and Fortnite Cheats to Steal Passwords and Crypto Wallet Data",
-      "url": "https://cybersecuritynews.com/hackers-hide-marsalek-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T10:59:30+00:00",
-      "description": "Marsalek stealer hides in fake Roblox, Fortnite, and CS2 cheats, stealing passwords, cookies, Discord tokens, and crypto data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Hide-Marsalek-Malware-in-Fake-Roblox-and-Fortnite-Cheats-to-Steal-Passwords-and-Crypto-Wallet-Data.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Zyxel Switch Hacks Blamed on Patched Flaw Actually Exploited a Zero-Day",
-      "url": "https://www.securityweek.com/zyxel-switch-hacks-blamed-on-patched-flaw-actually-exploited-a-zero-day/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-05T10:56:41+00:00",
-      "description": "Tracked as CVE-2026-107441, the out-of-bounds write flaw could allow attackers to execute OS commands via crafted HTTP requests.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/switch-router.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Tata Motors iRA App Flaws Could Let Hackers Impersonate Car Owners and Access Vehicle Services",
-      "url": "https://cybersecuritynews.com/tata-motors-ira-app-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T10:41:33+00:00",
-      "description": "Tata Motors\u2019 iRA 2.0 and iRA.ev mobile apps contain four security flaws that could let attackers steal credentials, impersonate car owners, and access vehicle services.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Tata-Motors-iRA-App-Flaws.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Russia-Linked Hackers Hit iOS, Android Devices With Exploit Chains via Watering Holes",
-      "url": "https://www.securityweek.com/russia-linked-hackers-hit-ios-android-devices-with-exploit-chains-via-watering-holes/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-05T10:37:13+00:00",
-      "description": "The large-scale watering hole campaign has been targeting entities in the US and Europe, mainly in Ukraine.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/10/Midnight-Blizzard-Russia-1024x576.png",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
       "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
       "source": "The Hacker News",
@@ -77,72 +154,6 @@
       "description": "Five cyber threats target US businesses through Microsoft 365 device-code phishing, fake AI apps, credential theft, and malware.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZC8n70grf1uGE8ms7f_4uuZv5h_YLLS1M8CGyqXzMyfCTbNbBCwOC4IF715IzuXyE7dY2Sslf1v77Ka15CPZvgY15pcZrZPZRK5xk5pFnyotvxHAXeyD39vG7JedceJz97Z1y0LCwaWgRLVnO6Uo-YbgJJ3o1n_Hh7k1rJWaQ-X7FTTMxr0U-LFuwx0M/s1700-nu-rw-lo-l85-e365/cyberattacks.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Finds GPT-6 Astra Quietly Holding Back on Internal Red-Teaming, Exploit Tasks",
-      "url": "https://www.securityweek.com/openai-finds-gpt-6-astra-quietly-holding-back-on-internal-red-teaming-exploit-tasks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-05T10:02:00+00:00",
-      "description": "OpenAI says its Critical-rated cyber model met fewer hidden task goals when work was framed as AI safety research, often silently.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/OpenAI.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T09:13:28+00:00",
-      "description": "Apple will check public iCloud links for harmful content starting with version 27.3, with link sharing disabling end-to-end encryption.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCN85K3W5zv5BioRQjCRpIAYT4K8MjZxx0bP0wNETp_eeBQ8Rj_iScHZ0PVnak7dJnJB_tZs06nxCn3YB70aQrULSZVbcn_gLqAsRoN08bSj__9UGZ38PzHTeSqe1IdqZEvdY8fogrjg3xPvg4Kohb2lFGdIveD4jIZQYKugtN5dIc0nTDjlVZJeQBzASx/s1700-nu-rw-lo-l85-e365/icloud.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "One Hacker Uses 12 AI Agents to Breach Taiwan\u2019s Emergency Services and Steal Sensitive Data",
-      "url": "https://cybersecuritynews.com/one-hacker-uses-12-ai-agents/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T08:56:26+00:00",
-      "description": "A Taiwan-based operator used 12 AI agents to attack hundreds of organizations across 11 countries, stealing sensitive data.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/One-Hacker-Uses-12-AI-Agents-to-Breach-Taiwans-Emergency-Services-and-Steal-Sensitive-Data.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T08:42:03+00:00",
-      "description": "CERT-In warns of AI-assisted attacks on Indian financial firms, while a backdoored ARTEX Docker image exposes 62 consoles to root access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA5xlxteigxw9PDEVogRmGjD3vyPuJRyKCuIAOmURy0CY-OLXfYOjC93BPb_gvifLUiVoUk9JcjmxtsGpkT-cYhlrTwXS6yodTv-WwHnPUKvahU67tc5R841Sb_hkIIsUkzNzne5Fzo0h6BUpzEW1770YFBayYksyjSc9pKOV3VsHfoHcPfu3mYAFOQW4K/s1700-nu-rw-lo-l85-e365/docker-ai.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Trick Mac Users Into Running Terminal Commands That Install Phexia Password-Stealing Malware",
-      "url": "https://cybersecuritynews.com/hackers-trick-mac-users/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T08:31:45+00:00",
-      "description": "Phexia macOS malware uses ClickFix scams to steal passwords, browser data, and keychain files through malicious Terminal commands.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Trick-Mac-Users-Into-Running-Terminal-Commands-That-Install-Phexia-Password-Stealing-Malware.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T07:06:33+00:00",
-      "description": "Zyxel fixes a GS1900 flaw that allows unauthenticated command execution after researchers show an earlier patch fails to block the exploit.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaF7lULSp8hpZx_WSDcDsJxD9TzTOH5Oo5dkFteUVQqQMOXc7ZyytOxbNgL01vkV43Kx0V0sDzJvKGrZvPwjos_-g9djk8jVAqSN04CIhGoiWWUMLdyKQH32ES8ghi-6ilZbnbGi_WIRi8hvzik6ztrin-MZEK1QI2CKR3Lk1sUg3yVYuhGvsX0pC85Qg/s1700-nu-rw-lo-l85-e365/zyxel-hacker.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -188,17 +199,6 @@
       "image": "",
       "topic": "Malware",
       "kind": "Investigation"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, November 3rd, 2026 https://isc.sans.edu/podcastdetail/10162, (Tue, Nov 3rd)",
-      "url": "https://isc.sans.edu/diary/rss/33484",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-03T02:00:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
     },
     {
       "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
