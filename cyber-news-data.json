@@ -1,28 +1,116 @@
 {
-  "generatedAt": "2026-11-06T01:46:14.945519+00:00",
+  "generatedAt": "2026-11-06T11:25:10.208266+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "Shopify Mandates IP Allowlisting for Public Apps to Prevent Unauthorized Admin API Access",
-      "url": "https://cybersecuritynews.com/shopify-mandates-ip-allowlisting/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-06T01:44:52+00:00",
-      "description": "Shopify is making IP allowlisting mandatory for public apps that call its Admin API, adding a security check to limit the use of stolen access tokens.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Shopify-Mandates-IP-Allowlisting.webp",
+      "title": "OpenAI Model Wrote Its Own Network Code to Get Around Sandbox Restrictions",
+      "url": "https://www.securityweek.com/openai-model-wrote-its-own-network-code-to-get-around-sandbox-restrictions/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-06T09:33:51+00:00",
+      "description": "After its sandbox proxy failed, an internal OpenAI model crafted raw packets and probed AWS services trying to reach the internet.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/rogue-AI-artificial-intelligence.jpeg",
       "topic": "News",
       "kind": "News"
     },
     {
-      "title": "Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs",
-      "url": "https://cybersecuritynews.com/windows-paint-rce-vulnerability/",
+      "title": "ARTEX AI Hacking Framework Found on 1,465 Public Servers, Some Hosting Cyberattack Tools",
+      "url": "https://cybersecuritynews.com/artex-ai-hacking-framework/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-06T00:58:05+00:00",
-      "description": "Microsoft\u2019s Windows Paint vulnerability, CVE-2026-83844, could allow an unauthenticated attacker to execute code over a network without user interaction.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Paint-RCE-Vulnerability.webp",
+      "publishedAt": "2026-11-06T09:02:33+00:00",
+      "description": "Researchers found 1,465 exposed ARTEX AI penetration-testing hosts, some containing C2 tools, phishing software, and exploit files.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/ARTEX-AI-Hacking-Framework-Found-on-1465-Public-Servers-Some-Hosting-Cyberattack-Tools.webp",
       "topic": "Vulnerability",
       "kind": "News"
+    },
+    {
+      "title": "Claude Dispatch Flaw Lets Malicious Browser Extensions Run Code on Connected Computers",
+      "url": "https://cybersecuritynews.com/claude-dispatch-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-06T08:40:43+00:00",
+      "description": "A flaw in Anthropic's Claude Dispatch let a malicious browser extension run commands on a computer via Claude Desktop. That computer could even be a different machine signed into the same Claude account.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Claude-Dispatch-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Could Bypass ChatGPT Lockdown Mode to Steal Conversations Without Users Knowing",
+      "url": "https://cybersecuritynews.com/chatgpt-lockdown-mode-bypass/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-06T08:16:23+00:00",
+      "description": "A flaw in ChatGPT let attackers slip past Lockdown Mode, the safety setting meant to stop data leaks. Check Point Research found that a hidden pop-up trick could copy a user's full chat history, show fake windows, and push malware.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/ChatGPT-Lockdown-Mode-Bypass.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
+      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-06T08:04:49+00:00",
+      "description": "Chainalysis says an agentic cyberattack exposed all users' names, usernames, password hashes and live tokens, prompting service shutdowns.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1700-nu-rw-lo-l85-e365/chain-breach.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Deception Technology Solutions in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-deception-technology/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-06T06:41:22+00:00",
+      "description": "A tripped decoy is the highest-fidelity alert in security \u2014 we ranked the 10 best deception technology solutions of 2026 on signal purity and deploy cost.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Best-Deception-Technology-Solutions.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
+      "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-06T05:58:54+00:00",
+      "description": "CWPdoor replaces Control Web Panel's web server after root access, enabling command execution through requests hidden from access logs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsAMxBevh2cmz1buKWukyP6JgUHrIPcr9zrJjAs1OwDoP1wMjn_s_WKHeUAdSwVzTImUsDE0C3SLGEpciaLk9H8CGvqiYugQWASsflB1a5zA9Wyr4RbroT3Z3JlOeak1AEinAy7Brf9N0BRDuGFWdZC23nCrOq4VuSMQQuDFYBYC6YCEm2ncPhHOv3KXs/s1700-nu-rw-lo-l85-e365/cwp.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Experts Demonstrate Barracuda Email Security Gateway Chain Enabling Root Access Without Login",
+      "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-06T05:39:10+00:00",
+      "description": "Two patched Barracuda Email Security Gateway flaws can be chained to execute root commands without authentication, watchTowr demonstrated.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh59LXthjD6N50867w2v7T4JyVUCOlVAmz1MJcZHKBFFaSnKDabB0FmdedrbvWRkp9XONe9Pz2RV1MQ-9QpJ8d85XE3w54EmMLKgaf1ygKD2e0y2X9mA7VsfyyB-8l1KFi-F5Gj9Q2vdsusmAl2khvXHNyOzWB_l7bj6NkOHkUgDYW-vENOowt0L8qM4kM/s1700-nu-rw-lo-l85-e365/bar.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "3 Charged in Scheme to Use AI to Impersonate CEOs and Attorneys to Steal $129 Million",
+      "url": "https://www.securityweek.com/3-charged-in-scheme-to-use-ai-to-impersonate-ceos-and-attorneys-to-steal-129-million/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-06T03:03:29+00:00",
+      "description": "The trio, who have nicknames that include \u201cRocky Balboa,\u201d \u201cSuperman Cash\u201d and \u201cFat Boy,\u201d often targeted the companies\u2019 accounting departments.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
+      "url": "https://isc.sans.edu/diary/rss/33494",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-06T02:00:02+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
       "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
@@ -33,17 +121,6 @@
       "description": "An unreleased OpenAI cyber model found and exploited 948 distinct Linux kernel privilege escalation bugs for about $1.2 million.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Linux-vulnerability-malware.jpeg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenMatter Network Positions Decentralized Computing as an Alternative to Data Centers for AI",
-      "url": "https://cybersecuritynews.com/openmatter-network-positions-decentralized-computing-as-an-alternative-to-data-centers-for-ai/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T16:56:19+00:00",
-      "description": "OpenMatter Network, a pioneer in decentralized infrastructure for agentic artificial intelligence, is positioning its decentralized computing platform as an alternative to massive, centralized data center development amid growing public opposition to new\u2026",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijMePEHFYdt78YpUVPeF94ACXw6eGr-pphUv-iCP8ARPzUMIFxHP8X3sULXAPZK01vL8WDjiqSGaVdI289oGvPVxe7Fgij-zc8-aA4BGWW5iDtiLUvBqVBS47N9NrgArELwM0C1KC_fm9bPPuektjt7mvmKuxgFzaeS4kW9nRhNQME1g45gm9aDIgGhRQ/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20or%20%20(62.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -58,28 +135,6 @@
       "kind": "News"
     },
     {
-      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T16:42:32+00:00",
-      "description": "A patched ChatGPT HTML preview flaw let crafted content bypass Lockdown Mode restrictions, enabling chat data exfiltration.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrZkGDnavpYu1VmQZCorYSw9PnFNh3tGXQ7YWWrZ3g6sURYj4RiS7za99akV3poXhW7GLoJw3j-baYvwyor0f_8iI3t5zk3NeXj1V1eVDMFUklqlYz629h88oYzxk3aIQPPwQF3xaw10DZTE-lEKyaojqzlLHC_DGtF91AVhXkaFNfY6Mh-qVqn86LCfQz/s1700-nu-rw-lo-l85-e365/chat.gif",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "GhostMap Android Flaw Can Trap Phones in Endless Reboot Loops Without Opening an App",
-      "url": "https://cybersecuritynews.com/ghostmap-android-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T16:11:01+00:00",
-      "description": "A new Android bug named GhostMap can leave a phone stuck in a crash loop after a user installs a single crafted app. The app does not need to be opened, asks for no permissions and holds no code.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/GhostMap-Android-Vulnerability.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
       "url": "https://isc.sans.edu/diary/rss/33492",
       "source": "SANS ISC",
@@ -91,17 +146,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T14:41:10+00:00",
-      "description": "This week's cybersecurity news covers AI-powered attacks, critical vulnerabilities, ransomware, stolen credentials, cloud breaches, and security flaws",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj37A8QMI4tUKrluDLCSgawVjQQeZ6c6NrfWLMLUjrI6vRhpt8Tlw4PNnfF49ZlOTtW28Cfb035jo-j22auCrWauuE-JpHfKMFSVfIQtUZjn1eETLFhQEev0FFafFlGz8W6r-96FPmTWlFGTR3RhV869PbcYkO4YPi5nD-zQVGHSZ8d39OmhecF693dj4-x/s1700-nu-rw-lo-l85-e365/tds.jpg",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
       "title": "Bank Phishing Sites Show Fake \u2018Suspended\u2019 Pages to Evade Takedowns",
       "url": "https://www.securityweek.com/bank-phishing-sites-show-fake-suspended-pages-to-evade-takedowns/",
       "source": "SecurityWeek",
@@ -110,39 +154,6 @@
       "description": "More than 200 sites were seen serving phishing content to first-time visitors but not to those who revisit.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/07/corporate-bank-fraud.jpeg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Cyberattack Hits French Blood Bank Site but No Blood Products Are Compromised",
-      "url": "https://www.securityweek.com/cyberattack-hits-french-blood-bank-site-but-no-blood-products-are-compromised/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-05T12:58:32+00:00",
-      "description": "The incident comes after supermarkets in a number of European countries reported this week that their fridges and freezers warmed up after they were remotely hacked.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/blood.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Cisco, WatchGuard Release Patches; SonicWall Won\u2019t Fix GMS Flaws",
-      "url": "https://www.securityweek.com/cisco-watchguard-release-patches-sonicwall-wont-fix-gms-flaws/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-05T12:33:49+00:00",
-      "description": "Cisco patched an RCE in UCS Central Software; WatchGuard fixed authentication and MitM flaws.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/software-vulnerability-patch-update.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-      "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T12:25:00+00:00",
-      "description": "Five tests for evaluating exposure management platforms across asset discovery, risk prioritization, validation, remediation, and verification.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTqhUSejDKMWiBuqakycpFyce33qmRAlEPU4FbfKnzSRZmIlOQia8YXyU8bdvYFN6ldGMqz2vxPZn-s9524oTPZithSzMiO5ejngh_UMdp8jEbSG8znPLj-0husv1pxRF0dW2qES9dz4oR56dk67YJ8zePlgnVFSbHSIKHAU_7VqK0-pwSVeYEsOYM7u8/s1700-nu-rw-lo-l85-e365/exposure.png",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -176,17 +187,6 @@
       "description": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked\u2026",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, November 4th, 2026 https://isc.sans.edu/podcastdetail/10164, (Wed, Nov 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33486",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-04T02:10:02+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
