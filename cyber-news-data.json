@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-05T20:13:20.232171+00:00",
+  "generatedAt": "2026-11-06T01:46:14.945519+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Shopify Mandates IP Allowlisting for Public Apps to Prevent Unauthorized Admin API Access",
+      "url": "https://cybersecuritynews.com/shopify-mandates-ip-allowlisting/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-06T01:44:52+00:00",
+      "description": "Shopify is making IP allowlisting mandatory for public apps that call its Admin API, adding a security check to limit the use of stolen access tokens.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Shopify-Mandates-IP-Allowlisting.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Paint 0-Click Vulnerability Could Allow Hackers to Take Control of Windows PCs",
+      "url": "https://cybersecuritynews.com/windows-paint-rce-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-06T00:58:05+00:00",
+      "description": "Microsoft\u2019s Windows Paint vulnerability, CVE-2026-83844, could allow an unauthenticated attacker to execute code over a network without user interaction.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Paint-RCE-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "AI Agents Got Root on Linux via 948 Kernel Flaws in OpenAI Research",
       "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
@@ -25,6 +47,28 @@
       "kind": "News"
     },
     {
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-05T16:42:46+00:00",
+      "description": "OpenSSH 10.6p2 fixes a critical password bypass allowing access to key-only accounts on affected Alpine Linux servers using long passwords.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieaHvS5baW_XG1eAsBsoSp9qRzV179f0WwXoj9k6rUeX4Qa4sxpi3hvpGkgkYNMPzZQH0mvvVAoTooEAgl1G3SyFksmhqNEbDEIEWM83RH47u8qvNyIYclA7z7GUdPJGx8WfJd556iCvvtvsitAYp9M-T46OvuwkaSWwnyhlynEpYax2qyTCACsPbtQLw/s1700-nu-rw-lo-l85-e365/ssh-linux.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-05T16:42:32+00:00",
+      "description": "A patched ChatGPT HTML preview flaw let crafted content bypass Lockdown Mode restrictions, enabling chat data exfiltration.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrZkGDnavpYu1VmQZCorYSw9PnFNh3tGXQ7YWWrZ3g6sURYj4RiS7za99akV3poXhW7GLoJw3j-baYvwyor0f_8iI3t5zk3NeXj1V1eVDMFUklqlYz629h88oYzxk3aIQPPwQF3xaw10DZTE-lEKyaojqzlLHC_DGtF91AVhXkaFNfY6Mh-qVqn86LCfQz/s1700-nu-rw-lo-l85-e365/chat.gif",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
       "title": "GhostMap Android Flaw Can Trap Phones in Endless Reboot Loops Without Opening an App",
       "url": "https://cybersecuritynews.com/ghostmap-android-vulnerability/",
       "source": "Cybersecurity News",
@@ -45,28 +89,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "Hackers Turn Popular Chinese Keyboard Software Into a Backdoor for Cyberespionage Attacks",
-      "url": "https://cybersecuritynews.com/chinese-keyboard-software/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T14:59:57+00:00",
-      "description": "SlippyNunchucks hackers exploit Sogou Input Method's insecure HTTP requests to deploy DarkVigil backdoor on Windows systems.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Turn-Popular-Chinese-Keyboard-Software-Into-a-Backdoor-for-Cyberespionage-Attacks.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenSSH Flaw Could Let Attackers Bypass Password Authentication on Alpine Linux Servers",
-      "url": "https://cybersecuritynews.com/openssh-flaw-bypass-password-authentication/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-05T14:58:40+00:00",
-      "description": "A critical OpenSSH password authentication bypass could let remote attackers access affected Alpine Linux servers without knowing a password.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenSSH-Flaw-Bypass-Password-Login.webp",
-      "topic": "News",
-      "kind": "News"
     },
     {
       "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
@@ -124,17 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T12:08:54+00:00",
-      "description": "OpenAI's AI pipeline reproduced 1,724 Linux vulnerabilities and generated 948 working local privilege escalation exploits for $1.2 million.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1700-nu-rw-lo-l85-e365/linux-lpe.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
       "url": "https://isc.sans.edu/diary/rss/33490",
       "source": "SANS ISC",
@@ -144,17 +155,6 @@
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
-    },
-    {
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-05T10:06:19+00:00",
-      "description": "Five cyber threats target US businesses through Microsoft 365 device-code phishing, fake AI apps, credential theft, and malware.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZC8n70grf1uGE8ms7f_4uuZv5h_YLLS1M8CGyqXzMyfCTbNbBCwOC4IF715IzuXyE7dY2Sslf1v77Ka15CPZvgY15pcZrZPZRK5xk5pFnyotvxHAXeyD39vG7JedceJz97Z1y0LCwaWgRLVnO6Uo-YbgJJ3o1n_Hh7k1rJWaQ-X7FTTMxr0U-LFuwx0M/s1700-nu-rw-lo-l85-e365/cyberattacks.jpg",
-      "topic": "Malware",
-      "kind": "News"
     },
     {
       "title": "Want to Rent an Internet Address at the White House?",
