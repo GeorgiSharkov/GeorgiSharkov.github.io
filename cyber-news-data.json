@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-07T10:37:59.551241+00:00",
+  "generatedAt": "2026-11-07T17:50:10.402834+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
+      "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-07T12:59:02+00:00",
+      "description": "SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/SonicOS-SSLVPN-Vulnerability-Exploited.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
@@ -88,17 +99,6 @@
       "description": "Attackers are exploiting CVE-2026-123158 in OpenSSH, with root access confirmed on an Alpine Linux honeypot. OpenSSH 10.6p2 fixes the flaw.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHbl1TAGj_ZHZDF3oQ8AfebRDiovg_d8Wk4huY5VJkSa0csE45G7k5jwdG1De-W-7l2RjnyH_ZvT3vcioykVeOooifwvViM8RiuTu0gSt2t-XgOefyYKyM5_zbsI5WFNubkIT0hOUr4inPIQMvXs6GDTLa6j7XWL3etRJYvOcDLJxa3IDXv-KtuCma5JsG/s1700-nu-rw-lo-l85-e365/ssh.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New Dark Project Ransomware Group Offers Hackers 80% Commission to Expand Cyberattacks",
-      "url": "https://cybersecuritynews.com/new-dark-project-ransomware-group/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-06T15:03:03+00:00",
-      "description": "A ransomware group called Dark Project is recruiting criminal partners with an offer of 80% of proceeds from successful attacks, pairing generous commissions with a platform for managing extortion. First observed in June 2026, the financially motivated\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/New-Dark-Project-Ransomware-Group-Offers-Hackers-80-Commission-to-Expand-Cyberattacks.webp",
-      "topic": "Ransomware",
       "kind": "News"
     },
     {
