@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binance $6.34B Theft | CyberShark SOC Case File 003</title>
+  <meta
+    name="description"
+    content="The October 2026 Binance theft explained: developer compromise, signing-service abuse, EIP-7702 delegation, defensive hunts and two-plane containment. Reviewed 7 November 2026."
+  >
+  <meta name="theme-color" content="#07101f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-YXYG9BY9Z5');
+  </script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20261002-3">
+  <link rel="canonical" href="https://georgisharkov.github.io/binance-2026-case-study.html">
+  <link rel="stylesheet" href="binance-case.css?v=20261107-1">
+</head>
+<body class="preview-body incident-body binance-body">
+  <a class="case-skip" href="#main">Skip to case study</a>
+  <div class="page-shell incident-shell" data-binance-case>
+    <div class="grid-noise" aria-hidden="true"></div><div class="aurora aurora-left" aria-hidden="true"></div><div class="aurora aurora-right" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="index.html"><img class="brand-mark" src="brand-mark.svg" alt=""><span class="brand-copy"><strong>CYBERSHARK</strong><span>SOC Case File 003</span></span></a>
+      <nav class="topnav" aria-label="Case file navigation"><a href="index.html">Home</a><a href="threat-briefs.html">Threat Briefs</a><a href="#attack-path">Attack path</a><a href="#timeline">Timeline</a><a href="#hunt">Hunt</a><a href="#response">Response</a><a href="#sources">Evidence</a></nav>
+    </header>
+    <main id="main">
+      <section class="incident-hero panel">
+        <div class="incident-hero-copy">
+          <div class="incident-kicker-row"><p class="eyebrow">BINANCE / OCTOBER 2026 / SIGNING TRUST</p><span class="incident-confidence confidence-medium">INITIAL FINDINGS</span></div>
+          <h1>The signature was valid.<span>The authority behind it was compromised.</span></h1>
+          <p class="incident-deck">A developer-to-wallet intrusion with consequences beyond the endpoint. Understand the Binance theft through the trust boundaries a SOC needs to monitor, and the permissions incident responders need to contain.</p>
+          <div class="incident-hero-actions"><a class="button button-primary" href="#attack-path">Walk the attack</a><a class="button button-ghost" href="#hunt">Open hunt pack</a></div>
+          <p class="incident-reading-note">Published and source-checked 7 November 2026. Incident: 29 October 2026. Original defensive analysis of public reporting; this page does not identify a single confirmed CVE.</p>
+        </div>
+        <aside class="incident-hero-screen" aria-label="Incident summary">
+          <div class="incident-screen-top"><span></span><span></span><span></span><strong>CASE / BINANCE-2026-10</strong></div>
+          <div class="binance-loss"><span>REPORTED ASSETS IMPACTED [1]</span><strong>$6.34<span>B</span></strong><p>Developer access → signing authority → on-chain permissions</p><div class="loss-track" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div></div>
+          <dl class="incident-screen-stats"><div><dt>INCIDENT DATE</dt><dd>29 OCT 2026</dd></div><div><dt>FBI ATTRIBUTION [3]</dt><dd>TraderTraitor / DPRK</dd></div><div><dt>PRIMARY REPORT [1]</dt><dd>03 NOV 2026</dd></div><div><dt>CORE IR LESSON</dt><dd>Contain both planes</dd></div></dl>
+        </aside>
+      </section>
+      <div class="incident-brief-grid"><article class="incident-brief-card"><span>WHAT HAPPENED / [1]</span><h2>Access reached the signer</h2><p>Binance reports developer compromise, a pivot through internal AI tooling, stolen deployment credentials, and unauthorized wallet signing. Its findings remain preliminary.</p></article><article class="incident-brief-card"><span>SCALE / [2–3]</span><h2>The biggest recent case</h2><p>Chainalysis estimates about $6.4 billion stolen and calls this the largest crypto theft recorded. The FBI attributes the attack to North Korea’s TraderTraitor activity.</p></article><article class="incident-brief-card"><span>WHY SOC TEAMS CARE</span><h2>Authentication is one checkpoint</h2><p>A trusted user, familiar developer tool, or successfully signed request still needs an explanation. Correlate the identity, device, deployment, requested action, and business approval before treating access as legitimate.</p></article></div>
+      <section class="incident-section" id="attack-path">
+        <div class="incident-section-heading"><div><p class="eyebrow">01 / ATTACK PATH</p><h2>Five boundaries to investigate.</h2></div><p>A simplified reconstruction from Binance’s initial findings [1]. The control opportunities below are CyberShark recommendations, not claims about controls Binance did or did not operate.</p></div>
+        <ol class="binance-path panel" aria-label="Simplified intrusion stages">
+<li><span>01</span><h3>Developer endpoint</h3><p>Check the source and execution of downloaded assessments or developer installers.</p><a href="#timeline">Review chronology ↓</a></li>
+<li><span>02</span><h3>Internal tooling</h3><p>Bind tool access to user, device and session. Preserve cross-host action logs.</p></li>
+<li><span>03</span><h3>Deployment identity</h3><p>Require an attributable change record for privileged workload deployments.</p></li>
+<li><span>04</span><h3>Signing service</h3><p>Evaluate what is being authorized, not just whether the caller is authenticated.</p></li>
+<li><span>05</span><h3>On-chain authority</h3><p>Track delegated execution and verify revocation independently of application state.</p></li></ol>
+      </section>
+
+      <section class="incident-section" id="timeline">
+        <div class="incident-section-heading"><div><p class="eyebrow">02 / INTERACTIVE REPLAY</p><h2>Follow the changing trust boundary.</h2></div><p>Select a stage. Reported facts are attributed; investigation opportunities are original analyst guidance. The full technical sequence remains subject to independent review.</p></div>
+        <div class="incident-replay panel">
+<div class="incident-day-tabs" role="group" aria-label="Incident stages">
+<button type="button" class="is-active" aria-pressed="true" data-phase="0"><span>PREPARATION</span><strong>JUN / SEP</strong></button>
+<button type="button" aria-pressed="false" data-phase="1"><span>INTERNAL PIVOT</span><strong>20 OCT</strong></button>
+<button type="button" aria-pressed="false" data-phase="2"><span>DEPLOYMENT</span><strong>29 OCT</strong></button>
+<button type="button" aria-pressed="false" data-phase="3"><span>ASSET MOVEMENT</span><strong>29 OCT</strong></button>
+<button type="button" aria-pressed="false" data-phase="4"><span>ON-CHAIN RESET</span><strong>30 OCT</strong></button></div>
+<div class="incident-replay-screen"><div class="incident-replay-main" aria-live="polite"><p class="eyebrow" id="phase-label">ENDPOINT / REPORTED BY BINANCE [1]</p><h3 id="phase-title">Developer trust is the opening.</h3><p id="phase-fact">June: tampered developer software. September: a fake interview assignment compromises another engineer.</p><div class="incident-replay-evidence"><span>INVESTIGATION PIVOTS / ANALYST GUIDANCE</span><ul id="phase-pivots"><li>Browser and download provenance</li><li>Repository setup process tree</li><li>Tool integrity and file history</li><li>Session use after endpoint containment</li></ul></div></div>
+<aside class="incident-replay-soc"><span>SOC BREAKPOINT</span><h4 id="phase-breakpoint">Treat recruitment code as untrusted input.</h4><p id="phase-action">Use an isolated assessment environment without corporate sessions or deployment access. If a work device is involved, scope the identity exposure as well as the malware.</p></aside></div></div>
+      </section>
+
+      <section class="incident-section" id="mechanism">
+        <div class="incident-section-heading"><div><p class="eyebrow">03 / THE AUTHORIZATION PROBLEM</p><h2>A withdrawal pause is only one control.</h2></div><p>EIP-7702 is a legitimate Ethereum capability. Its specification describes persistent code delegation for externally owned accounts, including a way to clear that delegation. [4]</p></div>
+        <div class="binance-mechanism panel"><div><p class="eyebrow">PROTOCOL CONTEXT / [4]</p><h3>Delegation changes what an account can execute.</h3><p>An authorization points an account at contract code. The delegation survives the transaction; it is not an ordinary one-time token transfer or merely an ERC-20 allowance.</p><p>For defenders, inspect the authorized chain, account, target and nonce. Verify the resulting state and delegated code, not just the transaction’s success status.</p></div><div><p class="eyebrow">INCIDENT LESSON / [1]</p><h3>Local shutdown does not reset remote authority.</h3><p>Binance says existing on-chain authorizations outlived its withdrawal suspension. Keep application containment and authority revocation as separate response workstreams.</p><p class="binance-label">Analyst inference: a quiet application dashboard cannot establish that delegated execution has stopped.</p></div></div>
+<div class="binance-controls panel"><div><p class="eyebrow">CONTAINMENT EXERCISE / ILLUSTRATIVE</p><h3>Check both control planes.</h3><p>Select the completed actions to see which response work remains. This teaching aid does not inspect any wallet.</p></div><fieldset><legend>Illustrative response checklist</legend><label><input type="checkbox" id="app-contained"> Application access and signing sessions contained</label><label><input type="checkbox" id="chain-contained"> Unauthorized on-chain permissions revoked and verified</label></fieldset><div class="binance-control-result" id="control-result" role="status"><strong>Both workstreams need attention.</strong><p>Scope identity and signing access, then inventory on-chain authority with the wallet response team.</p></div></div>
+      </section>
+
+      <section class="incident-section" id="evidence">
+        <div class="incident-section-heading"><div><p class="eyebrow">04 / EVIDENCE &amp; ATTRIBUTION</p><h2>Separate artifacts from assumptions.</h2></div><p>Use an incident-specific artifact as a pivot, then corroborate with behavior. A path alone cannot establish compromise or attribution.</p></div>
+        <div class="incident-code-grid">
+<article class="incident-code-card"><div class="incident-code-head"><span>REPORTED HOST ARTIFACT / [1]</span><strong>pyenv replacement</strong></div><pre><code>/opt/homebrew/Cellar/pyenv/2.8.0/libexec/pyenv_
+                     ↓ renamed over
+/opt/homebrew/Cellar/pyenv/2.8.0/libexec/pyenv</code></pre><p>Preserve bytes, hashes, timestamps and the initiating process. Compare against a trusted package source and approved change history. Widen to other package versions and installation roots.</p></article>
+<article class="incident-code-card"><div class="incident-code-head"><span>LAW ENFORCEMENT / [3]</span><strong>TraderTraitor</strong></div><p>The FBI’s 31 October notice attributes the theft to North Korea and publishes addresses associated with the stolen assets. Use that maintained notice as the indicator source.</p><p>Match addresses with chain context and timestamps. Receiving or interacting with a listed address does not, by itself, identify the human operator or prove an endpoint intrusion.</p><p><a href="https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack">Open the FBI notice and address list ↗</a></p></article></div>
+<div class="incident-caveat panel"><strong>Scope boundary</strong><p>The reviewed disclosure does not explain the internal AI pivot at exploit level. Do not label it prompt injection, assign a CVE, or import malware IOCs from a different campaign without evidence.</p></div>
+      </section>
+
+      <section class="incident-section" id="hunt">
+        <div class="incident-section-heading"><div><p class="eyebrow">05 / SOC HUNT PACK</p><h2>Hunt the path into authority.</h2></div><p>Original queries for analogous environments. These are investigation starting points, not Binance telemetry or production-tested signatures. Confirm data coverage and tune legitimate package maintenance and deployments.</p></div>
+        <div class="incident-hunt-layout"><div class="incident-hunt-tabs panel" role="group" aria-label="Query selection"><button type="button" class="is-active" aria-pressed="true" data-query="mac">Defender / macOS files</button><button type="button" aria-pressed="false" data-query="cloud">Sentinel / deployment</button><button type="button" aria-pressed="false" data-query="splunk">Splunk / CloudTrail</button><button type="button" aria-pressed="false" data-query="chain">On-chain review checklist</button></div><article class="incident-hunt-console panel"><div class="incident-console-head"><div><span></span><span></span><span></span></div><strong id="query-title">Defender / pyenv file changes</strong><button type="button" id="copy-query">Copy query</button></div><pre id="query-code">DeviceFileEvents
+| where Timestamp &gt; ago(30d)
+| where FolderPath contains &quot;/Cellar/pyenv/&quot;
+| where FolderPath contains &quot;/libexec&quot;
+| where FileName in (&quot;pyenv&quot;, &quot;pyenv_&quot;)
+    or PreviousFileName in (&quot;pyenv&quot;, &quot;pyenv_&quot;)
+| project Timestamp, DeviceName, ActionType, FolderPath,
+    FileName, PreviousFileName, SHA1, InitiatingProcessFileName,
+    InitiatingProcessCommandLine, InitiatingProcessAccountName
+| order by Timestamp desc</pre><p id="query-note">Requires supported macOS file telemetry. Review changes against approved maintenance and validate your collection coverage.</p><span class="incident-copy-status" id="copy-status" aria-live="polite"></span></article></div>
+<div class="incident-caveat panel"><strong>Correlate the layers</strong><p>Join endpoint activity to identity sessions, deployment audit, signing decisions and transaction hashes using defensible timestamps and identifiers. Review coverage gaps. No results in one log source do not clear the other layers.</p></div>
+      </section>
+
+      <section class="incident-section" id="response">
+        <div class="incident-section-heading"><div><p class="eyebrow">06 / RESPONSE PLAYBOOK</p><h2>Contain authority, then restore trust.</h2></div><p>Recommended actions for a comparable intrusion. Cryptocurrency operations and revocation need the wallet, infrastructure and incident-response owners working together.</p></div>
+        <div class="incident-response-grid">
+<article><span>01 / PRESERVE</span><h3>Keep the evidence.</h3><ol><li>Isolate affected devices while retaining volatile evidence where feasible.</li><li>Preserve tool, identity, deployment and signing audit records.</li><li>Record chains, wallets, transaction hashes, block times and approval context.</li></ol></article>
+<article><span>02 / REVOKE</span><h3>Close both paths.</h3><ol><li>Revoke exposed sessions, tokens and deployment access.</li><li>Restrict signing capability through the approved emergency process.</li><li>Inventory and revoke unauthorized on-chain permissions; verify the resulting state.</li></ol></article>
+<article><span>03 / RECOVER</span><h3>Rebuild from trust.</h3><ol><li>Replace affected workloads and endpoints from trusted sources.</li><li>Rotate exposed secrets and review who can issue signing requests.</li><li>Coordinate asset tracing and freeze requests with relevant issuers and investigators.</li></ol></article>
+<article><span>04 / PROVE</span><h3>Test the recovery.</h3><ol><li>Check restored services against deployment and signing policy.</li><li>Validate that old identities and unauthorized delegation paths cannot act.</li><li>Record exceptions, outstanding evidence gaps and the owner accepting residual risk.</li></ol></article></div>
+<div class="binance-laundering panel"><p class="eyebrow">ASSET RESPONSE / CHAINALYSIS FINDINGS [2]</p><h3>Frozen is a response state, not a recovery total.</h3><p>Chainalysis reported about $2.8 billion frozen as of 3 November. It observed rapid stablecoin conversion and transaction patterns suggesting automation. A freeze restricts movement; it does not mean the assets have already returned to the victim. Track recovered, frozen and still-moving amounts separately.</p></div>
+      </section>
+
+      <section class="incident-section" id="mapping">
+        <div class="incident-section-heading"><div><p class="eyebrow">07 / ATT&amp;CK LENS</p><h2>Map only what evidence supports.</h2></div><p>CyberShark analyst interpretation. On-chain delegation does not have a one-to-one ATT&amp;CK technique here; avoid forcing the blockchain activity into an unrelated category.</p></div>
+        <div class="binance-table-wrap panel"><table><caption>Suggested investigation mapping</caption><thead><tr><th scope="col">Technique</th><th scope="col">Evidence to establish</th><th scope="col">Investigation pivot</th></tr></thead><tbody>
+<tr><td><a href="https://attack.mitre.org/techniques/T1204/002/">T1204.002 · Malicious File</a></td><td>User execution of an untrusted downloaded artifact</td><td>Download, repository and setup process history</td></tr>
+<tr><td><a href="https://attack.mitre.org/techniques/T1554/">T1554 · Compromise Host Software Binary</a></td><td>A legitimate developer executable replaced with malicious content</td><td>File provenance, package integrity, execution lineage</td></tr>
+<tr><td><a href="https://attack.mitre.org/techniques/T1078/">T1078 · Valid Accounts</a></td><td>Abuse of authorized identity access</td><td>Actor, session, device and approved change context</td></tr>
+<tr><td><a href="https://attack.mitre.org/techniques/T1610/">T1610 · Deploy Container</a></td><td>Unauthorized workload creation or deployment</td><td>Image digest, identity, deployment audit and network reach</td></tr></tbody></table></div>
+      </section>
+
+      <section class="incident-section" id="sources">
+        <div class="incident-section-heading"><div><p class="eyebrow">08 / EVIDENCE REGISTER</p><h2>Primary sources. Explicit limits.</h2></div><p>Reviewed 7 November 2026. Dollar values vary by pricing time and reconciliation. Binance’s $6.34B impact figure and Chainalysis’s rounded $6.4B estimate refer to the same incident, not separate losses. [1–2]</p></div>
+        <div class="incident-evidence-grid"><article class="panel" id="source-binance"><span class="eyebrow">[1] BINANCE / 3 NOV 2026</span><h3>Initial findings</h3><p>Primary incident account; preliminary and subject to further review.</p><a href="https://www.binance.bh/en/blog/community/3229153443759566763" target="_blank" rel="noreferrer">Read primary source ↗</a></article><article class="panel" id="source-chain"><span class="eyebrow">[2] CHAINALYSIS / UPDATED 3 NOV 2026</span><h3>On-chain investigation</h3><p>Independent tracing, scale estimate and asset-freeze reporting.</p><a href="https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/" target="_blank" rel="noreferrer">Read primary source ↗</a></article><article class="panel" id="source-fbi"><span class="eyebrow">[3] FBI / 31 OCT 2026</span><h3>Attribution and addresses</h3><p>Law-enforcement attribution and incident-linked address list.</p><a href="https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack" target="_blank" rel="noreferrer">Read primary source ↗</a></article><article class="panel" id="source-eip"><span class="eyebrow">[4] ETHEREUM / PROTOCOL SPECIFICATION</span><h3>EIP-7702</h3><p>Authoritative explanation of account code delegation and authorization semantics.</p><a href="https://eips.ethereum.org/EIPS/eip-7702" target="_blank" rel="noreferrer">Read primary source ↗</a></article><article class="panel" id="source-early"><span class="eyebrow">[5] BINANCE / 30 OCT 2026</span><h3>Earlier response update</h3><p>The exchange’s early statement: no evidence of leaked wallet private keys at that stage; containment and user reimbursement commitments. This is not proof that keys could never be exposed.</p><a href="https://www.binance.com/en-GB/support/announcement/security-incident-update-2-2026-10-30-d3306d9dca5243548c813b605e1d1751" target="_blank" rel="noreferrer">Read primary source ↗</a></article><article class="panel" id="source-schema"><span class="eyebrow">[6] MICROSOFT / TABLE REFERENCE</span><h3>Hunt schema references</h3><p>DeviceFileEvents and AWSCloudTrail field definitions. Queries require the relevant ingestion and supported endpoint telemetry.</p><a href="https://learn.microsoft.com/en-us/azure/azure-monitor/reference/tables/awscloudtrail" target="_blank" rel="noreferrer">Read primary source ↗</a><a href="https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-devicefileevents-table" target="_blank" rel="noreferrer">DeviceFileEvents schema ↗</a></article></div><div class="incident-caveat panel"><strong>Original analysis</strong><p>Control recommendations, hunt queries and the containment exercise are CyberShark teaching material. They do not reconstruct undisclosed Binance logs or guarantee prevention. No wallet connection or transaction signing is required.</p></div>
+      </section>
+    </main>
+    <footer class="footer panel"><div><p class="eyebrow">CASE FILE 003 / CYBERSHARK</p><h2>Follow the identity. Contain the authority.</h2></div><div class="footer-links"><a href="threat-briefs.html">All threat briefs</a><a href="investigation-guidance.html">Guidance</a><a href="ai-agent-escape-case-study.html">Hugging Face case</a><a href="php2shell-case-study.html">PHP2Shell case</a></div></footer>
+  </div>
+  <script src="script.js?v=20261002-3"></script>
+  <script src="binance-case.js?v=20261107-1"></script>
+</body></html>
