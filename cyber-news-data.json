@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-07T01:07:33.652082+00:00",
+  "generatedAt": "2026-11-07T10:37:59.551241+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-07T10:16:23+00:00",
+      "description": "CVE-2026-19868 can let attackers holding credentials for a different login method get past SAML checks, including SAML-enforced MFA.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/08/SonicWall.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Claude Code\u2019s \u201cYes, and Don\u2019t Ask Again\u201d Option Can Leak Passwords and API Keys to GitHub",
+      "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-07T08:20:25+00:00",
+      "description": "Claude Code\u2019s \u201cYes, and don\u2019t ask again\u201d option can save passwords and API keys inside project settings that later reach public GitHub repositories.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Claude-Codes-Yes-and-Dont-Ask-Again.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-07T06:44:17+00:00",
+      "description": "Claude Code saves secrets in approved commands, exposing 2,539 credentials across 1,994 public GitHub repositories, Apiiro finds.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1700-nu-rw-lo-l85-e365/claude-code.jpg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "ARTEX AI Agent Escapes Research Sandbox and Accesses WorkOS Customer Records",
+      "url": "https://cybersecuritynews.com/workos-customer-records-exposed/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-07T02:30:21+00:00",
+      "description": "WorkOS says an ARTEX AI security agent escaped a researcher\u2019s test environment and accessed customer information through an exposed internal tool.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WorkOS-Customer-Records-Exposed.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
+      "url": "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-07T02:06:17+00:00",
+      "description": "Insignary, a global open-source security company, today released insignary-chk, a free tool that checks for PHP2Shell and Node2Shell, two recently disclosed runtime vulnerabilities affecting PHP and Node.js.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR2BJe1Sq8YsZi51I159IrbS3JJ_QryD7WlctfsPN0Rp02xSkZ_Gd-HeJZ6rw9PyB5Sr43hLCho4Mt8XzCEm-1yM4IccdBBXZYZi5vv5hb-OQP-8su9oi2QSlU1rMN6z_66Q9EPk1w1_HzoOiLxrWslxwPQe0gr74EeTWOmYNqsVfbsaRitUFo6O3rSjk/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20or%20%20(66.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
       "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
@@ -69,39 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Microsoft Warns Fake Game Downloads Are Secretly Monetizing Windows PCs",
-      "url": "https://cybersecuritynews.com/microsoft-warns-fake-game-downloads/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-06T14:38:43+00:00",
-      "description": "Fake game downloads secretly monetize Windows PCs by installing bandwidth-sharing software and unwanted utilities.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-Warns-Fake-Game-Downloads-Are-Secretly-Monetizing-Windows-PCs.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Anthropic\u2019s Claude Code Reportedly Leaks User Email Addresses Through HTTP User-Agent Headers",
-      "url": "https://cybersecuritynews.com/claude-code-leaks-user-email/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-06T14:37:40+00:00",
-      "description": "Anthropic\u2019s Claude Code is facing privacy concerns after a user reported that the AI coding tool sent their email address to third-party websites through HTTP User-Agent headers during web searches, without permission.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Claude-Code-Leaks-User-Email.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Launch 240,000 Exploit Attempts WordPress Core Flaw Enabling Remote Code Execution",
-      "url": "https://cybersecuritynews.com/240000-wordpress-exploit-attempts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-06T14:15:17+00:00",
-      "description": "Hackers have launched more than 240,000 exploit attempts against a WordPress Core vulnerability that can allow attackers to run malicious code without logging in.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/240000-WordPress-Exploit-Attempts.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "DigiCert Data Breach Impacts Business Customer Information",
       "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
       "source": "SecurityWeek",
@@ -110,28 +132,6 @@
       "description": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/05/DigiCert.jpeg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-06T13:19:52+00:00",
-      "description": "Rated Critical for cybersecurity, OpenAI\u2019s new model beats GPT-5.6 Cyber at exploitation while staying in scope more reliably.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/OpenAI-GPT.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-06T12:06:43+00:00",
-      "description": "Microsoft Store now offers Paint 11.2609.401.0 to fix CVE-2026-83844, an RCE flaw; Windows Update does not deliver the fix.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1700-nu-rw-lo-l85-e365/paint-rce.jpg",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
