@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-08T06:37:18.894568+00:00",
+  "generatedAt": "2026-11-08T16:15:13.610636+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-08T15:44:33+00:00",
+      "description": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-08T12:14:00+00:00",
+      "description": "Its multi-agent AI platform generates the telemetry an attack would produce to fix gaps in enterprise defenses. The post Brava Security Emerges From Stealth With $15 Million in Funding appeared first on SecurityWeek .",
+      "image": "",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
       "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
@@ -124,17 +146,6 @@
       "kind": "News"
     },
     {
-      "title": "DigiCert Data Breach Impacts Business Customer Information",
-      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-06T14:00:07+00:00",
-      "description": "Hackers created an account on an internal system and accessed names, email addresses, phone numbers, and business addresses.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/DigiCert.jpeg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
       "url": "https://isc.sans.edu/diary/rss/33494",
       "source": "SANS ISC",
@@ -177,17 +188,6 @@
       "image": "",
       "topic": "Investigation",
       "kind": "Investigation"
-    },
-    {
-      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33488",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-04T13:24:13+00:00",
-      "description": "One of the early web application vulnerabilities I remember was CVE-2000-0411 [CVE]. This was a simple vulnerability in a CGI-bin script used to send e-mail. The vulnerability was pretty straightforward: Adding additional parameters to the URL leaked\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "DFIR"
     },
     {
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
