@@ -1,7 +1,84 @@
 {
-  "generatedAt": "2026-11-08T22:25:17.173717+00:00",
+  "generatedAt": "2026-11-09T07:05:49.323798+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "U.S. Agencies Warn of Hackers Targeting Industrial Refrigeration to Disrupt Food and Medicine Storage",
+      "url": "https://cybersecuritynews.com/hackers-targeting-industrial-refrigeration-systems/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-09T06:52:21+00:00",
+      "description": "CISA and FBI warned of hackers targeting refrigeration systems, threatening food and medicine storage.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/CISA-and-FBI-Warn-Hackers-Are-Targeting-Industrial-Refrigeration-Systems-to-Disrupt-Food-and-Medicine-Storage.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
+      "url": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-09T06:15:10+00:00",
+      "description": "Hackers targeted hundreds of European supermarkets, manipulating refrigeration controllers to spoil food and cause financial losses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKryTkTZPSm_Pvf-PEvYRFle3Bp0jQaXScE21oOsMfwir63sr355bqHInvPRm5zynq2sYfLswRNEeywDHo7p2snw5sQmlIrWIONBq4AoYFEGXvdgy5gNLMESgjL5zwnhbqYIwdKLRaolb18pKz1sqFynmSjWn2IT_BxlEb-0av9vDfp-oEzp23_cwOIoik/s1700-nu-rw-lo-l85-e365/ref.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Flags SonicWall SonicOS MFA Bypass Flaw Amid Reports of Possible Exploitation",
+      "url": "https://thehackernews.com/2026/11/cisa-flags-sonicwall-sonicos-mfa-bypass.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-09T06:05:24+00:00",
+      "description": "CISA adds SonicWall SonicOS flaw CVE-2026-19868 to its KEV catalog following reports of possible exploitation involving SAML authentication bypass.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjILYvlBWd-cPdnYJiX5gpFUBvDeq0nZYHWard5V4B8oEx7r_-4lUxcIan0_5l4EHxun-KbEHOJTj1p8qTuORzAaKalwqmlz1ajVuBmS-KTBJB0-rBSrhHGgHUkY0I3GTMSEbIy5fkP4vDyITtkZvbkqreMTACQjDS3OBRmnZE4U7pVZLjgId53L259b5Qj/s1700-nu-rw-lo-l85-e365/sonicss.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Begin Exploiting OpenSSH SSHole Authentication Bypass Vulnerability",
+      "url": "https://cybersecuritynews.com/openssh-sshole-flaw-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-09T05:24:19+00:00",
+      "description": "Attackers have started targeting the SSHole authentication bypass affecting certain OpenSSH servers, according to new SANS Internet Storm Center findings.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenSSH-SSHole-Flaw-Exploited.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Claude AI Accidentally Deletes Law Professor\u2019s Entire Syllabus and One Year of Lecture Notes",
+      "url": "https://cybersecuritynews.com/claude-ai-deletes-law-professors-entire-syllabus/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-09T03:11:42+00:00",
+      "description": "University of Chicago law professor William Baude says Anthropic\u2019s Claude AI deleted his current syllabus and a year of constitutional law lecture notes while handling a simple editing task.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Claude-AI-Deletes-Law-Professors-Entire-Syllabus.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "NVIDIA Investigates Suspected Chinese Spy Operation Targeting CEO Jensen Huang",
+      "url": "https://cybersecuritynews.com/nvidia-investigates-chinese-spy-operation/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-09T02:36:57+00:00",
+      "description": "NVIDIA has opened an independent investigation into reports that a foreign intelligence operation targeted founder and CEO Jensen Huang.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/NVIDIA-Investigates-Chinese-Spy-Operation.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33500",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-09T02:05:10+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
       "url": "https://isc.sans.edu/diary/rss/33498",
@@ -25,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "SonicWall Warns of Potential In-the-Wild Exploitation of SSLVPN Flaw That Bypasses MFA",
-      "url": "https://cybersecuritynews.com/sonicos-sslvpn-vulnerability-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-07T12:59:02+00:00",
-      "description": "SonicWall has warned customers to patch a SonicOS SSLVPN vulnerability that could let attackers bypass SAML authentication and its multi-factor authentication checks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/SonicOS-SSLVPN-Vulnerability-Exploited.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
       "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
       "source": "SecurityWeek",
@@ -47,17 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "Claude Code\u2019s \u201cYes, and Don\u2019t Ask Again\u201d Option Can Leak Passwords and API Keys to GitHub",
-      "url": "https://cybersecuritynews.com/claude-codes-yes-and-dont-ask-again/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-07T08:20:25+00:00",
-      "description": "Claude Code\u2019s \u201cYes, and don\u2019t ask again\u201d option can save passwords and API keys inside project settings that later reach public GitHub repositories.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Claude-Codes-Yes-and-Dont-Ask-Again.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
       "title": "Claude Code's \u201cDon't Ask Again\u201d File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "source": "The Hacker News",
@@ -66,28 +121,6 @@
       "description": "Claude Code saves secrets in approved commands, exposing 2,539 credentials across 1,994 public GitHub repositories, Apiiro finds.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1700-nu-rw-lo-l85-e365/claude-code.jpg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "ARTEX AI Agent Escapes Research Sandbox and Accesses WorkOS Customer Records",
-      "url": "https://cybersecuritynews.com/workos-customer-records-exposed/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-07T02:30:21+00:00",
-      "description": "WorkOS says an ARTEX AI security agent escaped a researcher\u2019s test environment and accessed customer information through an exposed internal tool.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WorkOS-Customer-Records-Exposed.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Insignary Releases Free Insignary-Chk Tool to Detect PHP2Shell and Node2Shell Exposure",
-      "url": "https://cybersecuritynews.com/insignary-releases-free-insignary-chk-tool-to-detect-php2shell-and-node2shell-exposure/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-07T02:06:17+00:00",
-      "description": "Insignary, a global open-source security company, today released insignary-chk, a free tool that checks for PHP2Shell and Node2Shell, two recently disclosed runtime vulnerabilities affecting PHP and Node.js.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjR2BJe1Sq8YsZi51I159IrbS3JJ_QryD7WlctfsPN0Rp02xSkZ_Gd-HeJZ6rw9PyB5Sr43hLCho4Mt8XzCEm-1yM4IccdBBXZYZi5vv5hb-OQP-8su9oi2QSlU1rMN6z_66Q9EPk1w1_HzoOiLxrWslxwPQe0gr74EeTWOmYNqsVfbsaRitUFo6O3rSjk/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20project,%20one%20team,%20or%20%20(66.webp",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -109,28 +142,6 @@
       "publishedAt": "2026-11-06T16:08:38+00:00",
       "description": "WordPress sites can remain exposed to code execution while installing the fix for actively exploited CVE-2026-119977 through vulnerable updates.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4gwg9bgmxLj_anXtQvOZdeKYWN-aAZxZqlOrI7wXwZ_qW_lUZrzwYufexnbDLcC20eXBkh7TgA-dAQHm6EEmEc80i9A6GOBGkiOb8NhcR1d1CFLKDLc7VJzyC4Bv-5Ye2AEE_ApPcKmAWqJJFfbQ2AOGffKhCPNznyYyz5s0Jro-mxcTxfxPoqRe-ZoY/s1700-nu-rw-lo-l85-e365/wp-update.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-06T15:21:49+00:00",
-      "description": "Attackers are exploiting CVE-2026-123158 in OpenSSH, with root access confirmed on an Alpine Linux honeypot. OpenSSH 10.6p2 fixes the flaw.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHbl1TAGj_ZHZDF3oQ8AfebRDiovg_d8Wk4huY5VJkSa0csE45G7k5jwdG1De-W-7l2RjnyH_ZvT3vcioykVeOooifwvViM8RiuTu0gSt2t-XgOefyYKyM5_zbsI5WFNubkIT0hOUr4inPIQMvXs6GDTLa6j7XWL3etRJYvOcDLJxa3IDXv-KtuCma5JsG/s1700-nu-rw-lo-l85-e365/ssh.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-06T14:58:32+00:00",
-      "description": "OpenAI unveils GPT-6 Cyber, reporting 948 Linux privilege escalation exploits and 81 unknown Firefox flaws discovered with its help.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXR9F1Fu-E50zYby7QnTXAX324GHruNgN0_-95ygoUQV94WlkKSNHt1n8Af8HANmBe6GYgt_1-jGJzGNdg6NnoWY_Jrfbxjyv8mSQzOCa_t7e-e5S8DEB32YavCpthT2pB3jQsFRNJ69bgOgph9qyCBppvb93YSsYSzBM1P9CdeO_rhMcF4LgCj-kQvY2C/s1700-nu-rw-lo-l85-e365/gpt-cyber.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
@@ -165,17 +176,6 @@
       "description": "This morning, I was browsing our honeypot data for any new and existing PHP exploit attempts. Instead, I first ran into some GeoServer exploits, but found them to be too boring to write up. This Cisco IOS exploit attempt was a bit more interesting. Still\u2026",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, November 5th, 2026 https://isc.sans.edu/podcastdetail/10166, (Thu, Nov 5th)",
-      "url": "https://isc.sans.edu/diary/rss/33490",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-05T11:25:11+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
