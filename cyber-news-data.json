@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-11-10T03:45:53.822118+00:00",
-  "count": 16,
+  "generatedAt": "2026-11-10T15:10:37.919692+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Today: CISO Forum Virtual Summit 2026 \u2013 Join Global Cybersecurity Leaders",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-10T15:00:00+00:00",
+      "description": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Virtual-Conference.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "WhiteMatter Raises $20 Million in Series A Funding",
+      "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-10T14:58:19+00:00",
+      "description": "The cybersecurity startup deploys a dedicated guardian agent for every AI agent in an organization\u2019s environment.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/01/funding-investment.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "SAP Patches Critical ICM2SHELL, ProxyGate Vulnerabilities",
+      "url": "https://www.securityweek.com/sap-patches-critical-icm2shell-proxygate-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-10T14:46:28+00:00",
+      "description": "SAP has published 42 new and updated security advisories, including nine that address critical-severity vulnerabilities.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/SAP_vulnerability-patches.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "North Korean Hackers Target Drone Technology and Software Supply Chains in New Cyberespionage Campaigns",
+      "url": "https://cybersecuritynews.com/north-korean-hackers-3/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-10T14:09:27+00:00",
+      "description": "North Korean hackers target European defense firms and developers, stealing drone tech and spreading malware through software supply chains.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/North-Korean-Hackers-Target-Drone-Technology-and-Software-Supply-Chains-in-New-Cyberespionage-Campaigns.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Apache Airflow RCE Flaw Allows Attackers to Execute Code Without Authentication",
+      "url": "https://cybersecuritynews.com/critical-apache-airflow-rce-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-10T13:57:52+00:00",
+      "description": "Apache Airflow\u2019s critical RCE vulnerability enables attackers with Celery broker write access to run code on worker nodes without authentication.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-Apache-Airflow-RCE-Flaw-CVE-2026-68982-Allows-Attackers-to-Execute-Code-Without-Authentication.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "10 Best Adversarial Exposure Validation (AEV) Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-adversarial-exposure-validation-platforms/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-10T13:56:11+00:00",
+      "description": "Assumptions die in contact with an adversary \u2014 we ranked the 10 best adversarial exposure validation platforms of 2026 on proof quality. Pentera leads.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Best-Adversarial-Exposure-Validation-Platforms.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "New Mirax Android Malware Uses Accessibility Services to Remotely Control Phones and Steal Bank Funds",
+      "url": "https://cybersecuritynews.com/new-mirax-android-malware/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-10T13:54:17+00:00",
+      "description": "Mirax Android malware hijacks banking apps, steals credentials and OTPs, and enables financial theft across three regions.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/New-Mirax-Android-Malware-Uses-Accessibility-Services-to-Remotely-Control-Phones-and-Steal-Bank-Funds.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Over a Dozen Organizations Hit in Qubole Supply Chain Attack",
+      "url": "https://www.securityweek.com/over-a-dozen-organizations-hit-in-qubole-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-10T13:27:44+00:00",
+      "description": "Hackers used compromised Qubole IAM credentials to steal customer files, secrets, keys, environment variables, and credentials.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/supply-chain-attack.jpeg",
+      "topic": "Identity",
+      "kind": "News"
+    },
+    {
+      "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33506",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-10T12:48:55+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "DFIR"
+    },
+    {
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-10T12:15:31+00:00",
+      "description": "Binance warns that an iOS sandbox escape could expose crypto wallet keys to malicious apps, with no confirmed fix in Apple's latest updates.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikVWFDhEAWo-q-_JsRneE91hAsf7Ho4XXGI51_q0V6XaCrBl7COWgs81b8KLYtdO0XaRMjP5JbJs80iC103U16Mr7GU05znwtx3CvvMnJMR1ywArpKJj4AdVd9HaLv0U65k59BBY706XjRtU8bx9q-fnLlozVb63XJ43QDKm3FbJUmrSwcB9TvwJpyP64/s1700-nu-rw-lo-l85-e365/ios-jail.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Beyond the Alert: The Case for Rich Network Data",
+      "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-10T11:38:13+00:00",
+      "description": "Rich network data helps SOC teams trace attacker activity, validate AI findings, and investigate incidents beyond initial alerts.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2keP-LKMaj66fcb6TF9mNwdN01ndHv16r6WcnXbXwTwCNvUJXDxuyG_WacuYRt2DNFA7Fy_Hb4cyDvXeRsWrUWrql4RyMK4dD9s2adlVOnPWyR04wDmPu5jUlZL3-kGiDgPY2NU8yptKV1o21Wsuyu6IOSxico18zjLqDNLoA1bkl_DheKZevChrO6ZE/s1700-nu-rw-lo-l85-e365/Corelights.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
+      "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-10T10:16:51+00:00",
+      "description": "Apple fixes two iMessage flaws that could expose group messages, alongside a Brotli vulnerability listed in CISA's exploited catalog.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUM6RGvSNUqube0TIXYpzHhs7uSvT0k28f2Q8s-GVOexnCI4T5mzFMUs3Lz4_aS6gNuS71DSTvtfOO-tfVFXvVu82pBmj5gO5_jO5g1ndVQQX8xjBY8A_IDAVNkO7oE1s5FRyEsxXQ_HEM_5_KI4g9VWN8BLgCmQTS1DaFt6lRlfgEJMsxyC5bxQW1qhM/s1700-nu-rw-lo-l85-e365/apple-patch.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
+      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-10T10:07:29+00:00",
+      "description": "Turla's new Cereal malware targets government Exchange servers, using injected .NET modules to collect and steal selected emails.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5658vTd_mkm0NXhB4ueRe7z7purQPsvIa5Ik8qqEMo0dN5DU5bTpprIJeXFEj7XKLIOP3ykE4ZlNnixosysJ8YmGXzuRqEA1YoDvaQUFUgdXGfX2gj4f3hgUzop1wizxyv9olPYRDIb6CBW09bFVYAVqvpJk1zRqp3N5QCDBdfXTeoJuGCRkgy227_TgN/s1700-nu-rw-lo-l85-e365/russian-emails.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Tuesday, November 10th, 2026 https://isc.sans.edu/podcastdetail/10172, (Tue, Nov 10th)",
       "url": "https://isc.sans.edu/diary/rss/33504",
@@ -25,94 +168,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-09T17:51:21+00:00",
-      "description": "Attackers used Qubole AWS credentials to breach multiple customer accounts, steal cloud secrets, and copy S3 data through trusted IAM roles.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1700-nu-rw-lo-l85-e365/aws-hacked.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-09T17:36:28+00:00",
-      "description": "Attackers abused Ethersphere release workflows to distribute malicious bee-js and Swarm Desktop versions that steal wallet keys and install backdoors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s1700-nu-rw-lo-l85-e365/bees.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-      "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-09T14:31:29+00:00",
-      "description": "Bitter targets South Asian organizations with new PapRAT malware, using three infection chains and C++ and Rust variants for remote access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQwQpjbb2oT57o807l7YmQ31V2RbyxqqO4hENkKlfikKKH-LeqSUiYz5AaPCCFWml-l_RaN1JMiwbJa9lJe7z7Ijzdk66icRP70eETLZ7lLomkSa3JjezoxbRNeDEkTv0K-26dSzHKxAjc7xyLA9RbIiERPLqyRu5QzfyrPeyIA4dfLzMil5wDkYN9n4sG/s1700-nu-rw-lo-l85-e365/command.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
-      "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-09T14:08:08+00:00",
-      "description": "Online fashion retailer Revolve has told regulators that the September cyberattack affected more than 1.5 million individuals.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/data-breach-healthcare-medical.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "\u26a1 Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-09T13:28:25+00:00",
-      "description": "SSHole attacks, APT root flaw, $6.43B crypto theft, hacked network switches, AI-powered cyberattacks, and more in this week's cybersecurity recap.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLQ4v79OUmrbGdf2uJWMlUUmpCSu70Pr6v7oyodgSjFMfLU6JIe6Mr7xpp7AnqIX_vmKca44ImxEkczL88e_4sr2oBw0NL3Zh_JVEOb4cYmYg5pjbrITVv6KgPsv13-RrlBjq6bu7inR7w5-seDsUZvoqn6q7idkElfWysH1itsfgI5-NmFZ-BybjG0gR0/s1700-nu-rw-lo-l85-e365/rr.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Plex2Shell Exploited Against QNAP NAS Users",
-      "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-09T13:13:28+00:00",
-      "description": "Threat actors are exploiting the four-flaw chain to hack the Plex Media Server application on QNAP NAS devices.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/QNAP.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
-      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-09T12:41:27+00:00",
-      "description": "Hackers compromised an external cloud service used by the shopping platform and may have stolen personal information from it.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Iris-Plaza.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Italy\u2019s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister\u2019s Data on the Dark Web",
-      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-09T12:22:12+00:00",
-      "description": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/data-leak.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
       "title": "ISC Stormcast For Monday, November 9th, 2026 https://isc.sans.edu/podcastdetail/10170, (Mon, Nov 9th)",
       "url": "https://isc.sans.edu/diary/rss/33500",
       "source": "SANS ISC",
@@ -121,17 +176,6 @@
       "description": "Open the original report for full details and source context.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33498",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-08T15:44:33+00:00",
-      "description": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit limited in this respect. Our honeypots collect only the\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
