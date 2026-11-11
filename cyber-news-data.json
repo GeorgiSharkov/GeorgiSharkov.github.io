@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-10T21:24:23.487327+00:00",
+  "generatedAt": "2026-11-11T01:27:12.635124+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-11-10T21:55:03+00:00",
+      "description": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in\u2026",
+      "image": "",
+      "topic": "Vulnerability",
+      "kind": "Investigation"
+    },
     {
       "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
       "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
@@ -209,17 +220,6 @@
       "description": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts\u2026",
       "image": "",
       "topic": "Investigation",
-      "kind": "Investigation"
-    },
-    {
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-10-19T13:48:56+00:00",
-      "description": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion\u2026",
-      "image": "",
-      "topic": "Ransomware",
       "kind": "Investigation"
     }
   ],
