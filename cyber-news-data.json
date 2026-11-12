@@ -1,7 +1,139 @@
 {
-  "generatedAt": "2026-11-12T02:27:40.136994+00:00",
-  "count": 16,
+  "generatedAt": "2026-11-12T11:45:06.730615+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Hackers Abuse AntiFox AI Pentesting Tool to Deploy Webshells and Access AWS Production Secrets",
+      "url": "https://cybersecuritynews.com/hackers-abuse-antifox-ai-pentesting-tool/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-12T11:42:54+00:00",
+      "description": "Hackers abuse AntiFox AI pentesting tools to compromise web apps, deploy webshells, and steal AWS production secrets.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Abuse-AntiFox-AI-Pentesting-Tool-to-Deploy-Webshells-and-Access-AWS-Production-Secrets.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target AI Coding Tools to Steal Credentials as Researchers Uncover 103 AI-Linked Cyber Incidents",
+      "url": "https://cybersecuritynews.com/hackers-target-ai-coding-tools/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-12T11:22:56+00:00",
+      "description": "Hackers exploit AI coding tools and software supply chains to steal credentials, compromise systems, and launch cyberattacks.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Target-AI-Coding-Tools-to-Steal-Credentials-as-Researchers-Uncover-103-AI-Linked-Cyber-Incidents.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-12T11:08:52+00:00",
+      "description": "The attackers accessed chat transcripts for fewer than 1% of Notion workspaces. Most transcripts were unattributable.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/bank-finance-lender-credit-union-hack.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Deploy Malware in Fresh ScreenConnect Campaign",
+      "url": "https://www.securityweek.com/hackers-deploy-malware-in-fresh-screenconnect-campaign/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-12T10:39:34+00:00",
+      "description": "The attackers exploited a vulnerability in a legitimate extension to bypass ScreenConnect authentication.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/02/ConnectWise.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Google Chrome Fixes 83 Security Flaws, Including 5 Critical Ones that Could Enable RCE Attacks",
+      "url": "https://cybersecuritynews.com/google-chrome-fixes-83-security-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-12T10:32:09+00:00",
+      "description": "Google patched 83 Chrome vulnerabilities including five critical use-after-free flaws that could enable remote code execution.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Google-Chrome-Fixes-83-Security-Flaws-Including-5-Critical-Vulnerabilities-That-Could-Allow-Remote-Code-Execution.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Breach Global Shipping Giant Maersk and Claim Theft of 100GB of Logistics Data",
+      "url": "https://cybersecuritynews.com/hackers-breach-maersk/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-12T10:10:00+00:00",
+      "description": "Maersk confirmed a breach of an older IT system, while WhiteArmor claimed theft of 100GB of logistics data.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Breach-Global-Shipping-Giant-Maersk-and-Claim-Theft-of-100GB-of-Logistics-Data.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target N-central Zero-Days as N-able Rushes Patches",
+      "url": "https://www.securityweek.com/hackers-target-n-central-zero-days-as-n-able-rushes-patches/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-12T09:39:55+00:00",
+      "description": "The malicious activity started shortly after a researcher dropped over 30 zero-days. N-able patched the unauthenticated ones.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/N-Able.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-12T09:25:00+00:00",
+      "description": "MongoDB fixed CVE-2026-118383, which lets unauthenticated requests crash a lagging replica set member if it later becomes primary.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s1700-nu-rw-lo-l85-e365/mongo-poc.gif",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Red Hat Quay Vulnerability Could Expose Private Container Images",
+      "url": "https://www.securityweek.com/critical-red-hat-quay-vulnerability-could-expose-private-container-images/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-12T09:23:21+00:00",
+      "description": "Attackers could exploit a critical Red Hat Quay flaw to steal private container images, overwrite repositories and maintain persistent access.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/10/Red-Hat.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-12T08:20:37+00:00",
+      "description": "Node.js fixed 16 vulnerabilities across three supported lines, including HTTP/2 server crashes and HTTPS memory disclosure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD-9bYYTxb5WmvOmftwsTAe5hDcHyjm12YlQj320OhT6WqICBOe0D6nQf-PPslE-I0c0r8xvZdTAXfyPwGQxHWRiQ5HSIPEZGEiNrE15ygDNZCRzzVvGugdRlIq6IARQf38iJG-MN-uo7MvdXXcA0wXIGDm0-olouPSw_SbBm2-2CYGHb4uHgtREv2ycI/s1700-nu-rw-lo-l85-e365/nodeks.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-12T06:42:47+00:00",
+      "description": "Attackers used 4,837 stolen GitHub accounts to plant a CI secret stealer that ran in at least 1,806 repositories.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1700-nu-rw-lo-l85-e365/github.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-12T05:12:26+00:00",
+      "description": "Apache HTTP Server 2.4.71 fixes a critical HTTP/2 flaw that could allow unauthenticated remote code execution on servers with HTTP/2 enabled.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1700-nu-rw-lo-l85-e365/apache-http.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
       "url": "https://isc.sans.edu/diary/rss/33512",
@@ -34,94 +166,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "Today: CISO Forum Virtual Summit 2026 Day 2 \u2013 Join Cybersecurity Leaders Online",
-      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-11T16:29:42+00:00",
-      "description": "Designed for cybersecurity leaders, this immersive two-day virtual event is your premier destination to discuss, share, and learn innovative risk management and defense strategies defining the modern enterprise.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CISO-Virtual-Conference.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-11T16:12:46+00:00",
-      "description": "Zoom patches two Workplace for Windows flaws that could let unauthenticated remote attackers escalate privileges, including a critical bug.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1700-nu-rw-lo-l85-e365/zoom-prv.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-11T15:42:47+00:00",
-      "description": "A critical authentication bypass allows attackers to execute arbitrary code as admin and take over XCP-ng nodes.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/01/Veeam-backup-cloud-storage.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-11T15:34:27+00:00",
-      "description": "AntiFox-linked intrusions used IIS web shells and valid AWS credentials to enumerate cloud services and access production secrets.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1700-nu-rw-lo-l85-e365/aws-secrets.jpg",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-11T14:01:00+00:00",
-      "description": "Attackers targeted Qlik Sense servers with blocked PowerShell reverse shell attempts, using infrastructure hosting backdoors and exploits.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1700-nu-rw-lo-l85-e365/qliksense.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Asus, Zoom Release Security Patches",
-      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-11T13:58:38+00:00",
-      "description": "Attackers could exploit them for command execution, memory overwrites, and privilege escalation.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/06/ASUS-Vulnerabillities.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
-      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-11T13:37:19+00:00",
-      "description": "Attackers could exploit the bugs to tamper with certificate entries, achieve remote code execution, and compromise hosts.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/08/Citrix-vulnerability.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-11T12:19:40+00:00",
-      "description": "Researchers found 35,578 Grok-built apps accessible without sign-in, exposing internal data from X, SpaceXSI, and 30 other organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1700-nu-rw-lo-l85-e365/grokai.jpg",
-      "topic": "Data breach",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Wednesday, November 11th, 2026 https://isc.sans.edu/podcastdetail/10174, (Wed, Nov 11th)",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
