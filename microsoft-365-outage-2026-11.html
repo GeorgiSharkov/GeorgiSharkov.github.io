@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft 365 Outage: Impact & Status Links | CyberShark</title>
+  <meta
+    name="description"
+    content="Microsoft 365 outage news for 12–13 November 2026: verified service-impact snapshot, breach clarification, official status links, incident references and SOC response guidance."
+  >
+  <meta name="theme-color" content="#07101f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-YXYG9BY9Z5');
+  </script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20261002-3">
+  <link rel="canonical" href="https://georgisharkov.github.io/microsoft-365-outage-2026-11.html">
+  <link rel="stylesheet" href="microsoft-outage.css?v=20261113-1">
+</head>
+<body class="preview-body incident-body outage-body">
+<div class="page-shell incident-shell">
+  <div class="grid-noise" aria-hidden="true"></div><div class="aurora aurora-left" aria-hidden="true"></div><div class="aurora aurora-right" aria-hidden="true"></div>
+  <header class="topbar"><a class="brand" href="index.html"><img class="brand-mark" src="brand-mark.svg" alt=""><span class="brand-copy"><strong>CYBERSHARK</strong><span>News / Service Availability</span></span></a><nav class="topnav" aria-label="Outage article navigation"><a href="index.html">Home</a><a href="threat-briefs.html">Articles</a><a href="cyber-news.html">Newsroom</a><a href="#status-links">Check status</a><a href="#soc">SOC actions</a><a href="#sources">Sources</a></nav></header>
+  <main><article>
+    <header class="incident-hero panel">
+      <div class="incident-hero-copy"><p class="eyebrow">MICROSOFT 365 / 12–13 NOVEMBER 2026</p><h1>When the cloud connection breaks.<span>What is affected. Where to check.</span></h1><p class="incident-deck">A Microsoft 365 availability update for users and SOC teams. Start with the official incident record, confirm your organisation’s impact, and keep operational disruption separate from evidence of compromise.</p><div class="incident-hero-actions"><a class="button button-primary" href="#status-links">Official status links</a><a class="button button-ghost" href="#impact">Read the impact</a></div><p class="incident-reading-note">Published 13 November 2026. Official dashboard checked at 10:43 UTC / London GMT. This article is a dated snapshot, not a live status feed.</p></div>
+      <aside class="outage-summary" aria-label="Verified incident snapshot"><div class="incident-screen-top"><span></span><span></span><span></span><strong>MICROSOFT / SERVICE HEALTH</strong></div><div class="outage-summary-copy"><span class="outage-badge">SERVICE DEGRADATION / SNAPSHOT [1]</span><h2>Recovery in progress.</h2><p>Microsoft’s 10:01 UTC update described incremental improvement, variable service health and capacity below baseline.</p><dl><div><dt>BREACH CLAIM</dt><dd>No evidence of malicious activity reported by Microsoft [1]</dd></div><div><dt>INCIDENT REFERENCES</dt><dd>MO1550821 [4]</dd></div><div><dt>NEXT STEP</dt><dd>Check the current provider and tenant records</dd></div></dl></div></aside>
+    </header>
+    <div class="outage-context panel"><strong>Outage ≠ confirmed breach</strong><p>The reviewed Microsoft update reports no evidence of malicious activity. A final root-cause report was still pending. Avoid presenting this disruption as a confirmed cyberattack or data theft. <a href="#source-1">[1]</a></p></div>
+
+    <section class="incident-section" id="impact"><div class="incident-section-heading"><div><p class="eyebrow">01 / WHAT HAPPENED</p><h2>A shared dependency, uneven impact.</h2></div><p>Reports of the disruption began on 12 November. Microsoft’s public dashboard still showed degradation when checked on 13 November. [1, 4]</p></div>
+      <div class="panel outage-table-wrap"><table><caption>Selected impact from Microsoft’s 10:01 UTC update on 13 November [1]</caption><thead><tr><th scope="col">Area</th><th scope="col">Reported impact</th></tr></thead><tbody>
+      <tr><th scope="row">Exchange / Outlook</th><td>Mailbox connectivity problems and delayed mail.</td></tr>
+      <tr><th scope="row">Teams</th><td>Exchange-dependent features affected; most core calling, meetings and messaging remained functional.</td></tr>
+      <tr><th scope="row">Copilot / SharePoint</th><td>Work-data and dependent features affected; direct SharePoint file access remained functional.</td></tr>
+      <tr><th scope="row">Security / administration</th><td>Defender portal access and some Purview workflows could be disrupted.</td></tr>
+      </tbody></table></div>
+      <p class="outage-note">The service list is selective, not a claim that every feature or tenant is affected. Use the provider’s latest scope statement before making operational decisions. A failed portal request is not sufficient evidence of a failed detection engine.</p>
+    </section>
+
+    <section class="incident-section" id="status-links"><div class="incident-section-heading"><div><p class="eyebrow">02 / OFFICIAL STATUS LINKS</p><h2>Check the right source.</h2></div><p>Open these official pages for current information. The article does not query your tenant or automatically refresh Microsoft’s incident status.</p></div>
+      <div class="outage-status-grid">
+        <a class="panel outage-status-card" href="https://status.cloud.microsoft/" target="_blank" rel="noreferrer"><span class="eyebrow">01 / PUBLIC / NO TENANT SIGN-IN</span><h3>Microsoft service status</h3><p>Open Microsoft 365’s “Show details” for public incident updates and timestamps.</p><strong>Open public status ↗</strong></a>
+        <a class="panel outage-status-card" href="https://admin.microsoft.com/" target="_blank" rel="noreferrer"><span class="eyebrow">02 / ORGANISATION / ADMIN ACCESS</span><h3>Microsoft 365 Service Health</h3><p>Sign in to the correct tenant, then go to Health → Service health.</p><strong>Open admin center ↗</strong></a>
+        <a class="panel outage-status-card" href="https://x.com/MSFT365Status" target="_blank" rel="noreferrer"><span class="eyebrow">03 / OFFICIAL COMMUNICATIONS</span><h3>@MSFT365Status</h3><p>Microsoft’s official social updates; use the incident record for full scope.</p><strong>Open official updates ↗</strong></a>
+        <a class="panel outage-status-card" href="https://azure.status.microsoft/en-us/status" target="_blank" rel="noreferrer"><span class="eyebrow">04 / AZURE / SEPARATE SERVICE</span><h3>Azure status</h3><p>Check Azure issues separately; a green Azure page does not clear Microsoft 365.</p><strong>Open Azure status ↗</strong></a>
+      </div>
+      <div class="panel outage-howto"><h3>Find the record for your organisation</h3><ol><li>Ask an authorised administrator to open <strong>Health → Service health</strong> in the Microsoft 365 admin center.</li><li>Look for <strong>MO1550821</strong>; confirm which incident record applies to your tenant. [4]</li><li>Read the latest update, affected features, timestamp and next update. If resolved, check <strong>Issue history</strong>.</li><li>If you cannot reach the admin center, use the public status page. If impact is missing from your tenant’s records, use <strong>Report an issue</strong> or support. [2]</li></ol><p>Microsoft’s documentation lists Service Support and Helpdesk administrator access among the roles that can view Service Health. Ordinary users can ask IT for the tenant-specific update. [2]</p></div>
+    </section>
+
+    <section class="incident-section" id="soc"><div class="incident-section-heading"><div><p class="eyebrow">03 / PRACTICAL SOC ACTIONS</p><h2>Confirm impact without losing visibility.</h2></div><p>Original CyberShark guidance. These checks are recommendations, not findings about your environment.</p></div>
+      <div class="incident-response-grid">
+        <article><span>01 / SCOPE</span><h3>Record the disruption.</h3><ol><li>Capture first observed failure in UTC, tenant, service and affected operation.</li><li>Save the provider incident reference and most recent update time.</li><li>Track business impact separately from a suspected security incident.</li></ol></article>
+        <article><span>02 / VERIFY</span><h3>Check your evidence path.</h3><ol><li>Separate portal access from telemetry ingestion and alert delivery.</li><li>Inspect ingestion freshness, connector health and queues using available tools.</li><li>Document any visibility gap and plan a retrospective review after recovery.</li></ol></article>
+        <article><span>03 / CONTINUE</span><h3>Use approved fallbacks.</h3><ol><li>Move urgent coordination to your agreed alternative channel.</li><li>Preserve unsent communications and record delayed customer notifications.</li><li>Do not disable MFA, protective policies or audit collection to work around access failures.</li></ol></article>
+        <article><span>04 / RECOVER</span><h3>Verify the return.</h3><ol><li>Check essential functions with a small, authorised test.</li><li>Review delayed alerts and communications before clearing the backlog.</li><li>Close the operational incident with evidence and follow the provider’s final report.</li></ol></article>
+      </div>
+      <div class="incident-caveat panel"><strong>Keep investigating</strong><p>A provider outage does not explain every suspicious event. Continue reviewing unusual sign-ins, privilege changes and independent compromise evidence. Treat unsolicited “Microsoft support” instructions as unverified, and use established support channels.</p></div>
+    </section>
+
+    <section class="incident-section" id="sources"><div class="incident-section-heading"><div><p class="eyebrow">04 / SOURCES &amp; UPDATE BOUNDARY</p><h2>Timestamp the facts.</h2></div><p>Incident status changes. Check official sources before reusing this article as a customer update.</p></div>
+      <div class="incident-evidence-grid">
+        <article class="panel" id="source-1"><span class="eyebrow">[1] MICROSOFT / PRIMARY INCIDENT SOURCE</span><h3>Public Service Health dashboard</h3><p>Reviewed in the browser at 10:43 UTC on 13 November 2026. The displayed incident update was dated 10:01:07 UTC. Expand Microsoft 365 details for the full current statement.</p><a href="https://status.cloud.microsoft/" target="_blank" rel="noreferrer">Open Microsoft’s current statement ↗</a></article>
+        <article class="panel" id="source-2"><span class="eyebrow">[2] MICROSOFT LEARN / ADMIN GUIDANCE</span><h3>How to check service health</h3><p>Official instructions for roles, active issues, incident details, issue history and reporting a problem.</p><a href="https://learn.microsoft.com/en-us/microsoft-365/enterprise/view-service-health?view=o365-worldwide" target="_blank" rel="noreferrer">Read the official instructions ↗</a></article>
+        <article class="panel" id="source-3"><span class="eyebrow">[3] MICROSOFT / AZURE</span><h3>Azure public status</h3><p>Separate Azure service and regional information. Use Azure Service Health for subscription-specific issues.</p><a href="https://azure.status.microsoft/en-us/status" target="_blank" rel="noreferrer">Check Azure status ↗</a></article>
+        <article class="panel" id="source-4"><span class="eyebrow">[4] NEWS REPORT / INCIDENT REFERENCES</span><h3>Initial outage reporting</h3><p>BleepingComputer’s 12 November report identifies MO1550821. Use this reference to locate the official record; the live Microsoft statement takes priority.</p><a href="https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/" target="_blank" rel="noreferrer">Read the initial report ↗</a></article>
+      </div>
+    </section>
+  </article></main>
+  <footer class="footer panel"><div><p class="eyebrow">CYBERSHARK / SERVICE AVAILABILITY NEWS</p><h2>Check the scope. Check the timestamp.</h2></div><div class="footer-links"><a href="threat-briefs.html">All articles</a><a href="cyber-news.html">Newsroom</a><a href="index.html">Home</a></div></footer>
+</div><script src="script.js?v=20261002-3"></script></body></html>
