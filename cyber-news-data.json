@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-13T19:58:46.226611+00:00",
+  "generatedAt": "2026-11-14T01:41:26.372460+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Uber Confirms Data Breach \u2013 Hackers Stole Users\u2019 Personal Information",
+      "url": "https://cybersecuritynews.com/uber-confirms-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-14T01:19:57+00:00",
+      "description": "Uber has confirmed a data breach involving the personal information of thousands of U.S. drivers after hackers accessed records held by Fireworks AI, a third-party technology provider.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Uber-Confirms-Data-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
+      "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-13T21:33:27+00:00",
+      "description": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FAA_Cyberattack-Ground-Stop.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
       "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
@@ -80,17 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Citrix Patches 28 Security Vulnerabilities in NetScaler, Including a Critical Flaw in Default Installations",
-      "url": "https://cybersecuritynews.com/citrix-patches-netscaler-security-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-13T14:18:29+00:00",
-      "description": "Citrix patched 28 security flaws in NetScaler ADC and Gateway, including a critical vulnerability that affects all deployments using the default configuration.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Citrix-Patches-28-NetScaler-Security-Vulnerabilities-Including-Critical-Flaw-Affecting-All-Default-Installations-2.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
       "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
       "source": "The Hacker News",
@@ -121,17 +132,6 @@
       "description": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/02/data_breach.jpeg",
       "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "SilentAir Hackers Intercept Calls, SMS From Inside Mobile Networks",
-      "url": "https://www.securityweek.com/silentair-hackers-intercept-calls-sms-from-inside-mobile-networks/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-13T12:20:28+00:00",
-      "description": "Enea says SilentAir hijacked mobile network nodes to intercept calls and messages, with Taiwanese subscribers the primary targets.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/telecoms-communications.jpeg",
-      "topic": "News",
       "kind": "News"
     },
     {
