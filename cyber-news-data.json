@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-14T10:51:51.327660+00:00",
+  "generatedAt": "2026-11-14T18:26:45.566230+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-14T14:00:00+00:00",
+      "description": "Overreliance on AI could erode the creativity, clear communication, and critical thinking security teams need when there\u2019s no playbook.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-intelligence-AI.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-14T12:38:35+00:00",
+      "description": "CISA adds actively exploited UnrealIRCd flaw CVE-2026-114713 to its KEV catalog; linked IRC servers are at risk of command injection.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvSsWcsJ9736KXp_0s-6__-CiI5PD71VReembVHAB4cfnv3Qti8td9WR54UnRH96bz30dvbTQxwG3WbxDkWRq_eFJPYLgxbAzRD5k3MJSISbW2VDI-Fr7nlX4j8NyJkXqLHylMZMXpynEHVV8ovZ2YPC-WGCFCcrOZOeGc5Wsy-jRjjbcyYTzojI9Nudw/s1700-nu-rw-lo-l85-e365/cisaa.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours",
+      "url": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-14T11:21:17+00:00",
+      "description": "The FBI has warned that hackers are using ARTEX AI agents to automate network attacks, with some intrusions reaching privileged access in under three hours.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/FBI-Reveals-Hackers-ARTEX-AI-Usage.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-14T11:00:00+00:00",
+      "description": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/12/Apple.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Microsoft Warns of Active Password Stealing Attack Exploiting the Microsoft 365 Service Disruption",
+      "url": "https://cybersecuritynews.com/active-password-stealing-attack-microsoft-365/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-14T10:57:32+00:00",
+      "description": "Microsoft has warned of an active phishing campaign using the November 12 Microsoft 365 service disruption to lure users into opening fake email recovery links.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Active-Password-Stealing-Attack-Microsoft-365.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
       "url": "https://cybersecuritynews.com/cursor-data-breach/",
@@ -33,17 +88,6 @@
       "description": "CISA has warned that attackers are exploiting a Check Point security flaw that lets a local user gain root access on affected appliances.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Checkpoint-0-Day-Vulnerability.webp",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Uber Confirms Data Breach \u2013 Hackers Stole Users\u2019 Personal Information",
-      "url": "https://cybersecuritynews.com/uber-confirms-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-14T01:19:57+00:00",
-      "description": "Uber has confirmed a data breach involving the personal information of thousands of U.S. drivers after hackers accessed records held by Fireworks AI, a third-party technology provider.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Uber-Confirms-Data-Breach.webp",
-      "topic": "Data breach",
       "kind": "News"
     },
     {
@@ -80,28 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "New TypoPrompting Attacks Turn Mistyped AI Website Addresses Into Malware Installation Traps",
-      "url": "https://cybersecuritynews.com/new-typoprompting-attacks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-13T15:24:38+00:00",
-      "description": "TypoPrompting exploits mistyped AI website addresses to redirect users to fake pages that deliver malware and browser hijackers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/New-TypoPrompting-Attacks-Turn-Mistyped-AI-Website-Addresses-Into-Malware-Installation-Traps.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "In Other News: New CISA Director Nominee, Connected Car Hacking, Baker Tilly Data Breach",
-      "url": "https://www.securityweek.com/in-other-news-new-cisa-director-nominee-connected-car-hacking-baker-tilly-data-breach/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-13T15:20:00+00:00",
-      "description": "Noteworthy stories that might have slipped under the radar: Siemens details security advisory policy, OpenAI Codex backdoor risk, Microsoft warns of model weight backdoors.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
       "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
       "source": "The Hacker News",
@@ -110,28 +132,6 @@
       "description": "FBI says North Korea-linked FaceStealer stole over $400 million in crypto using fake video calls; U.S. authorities seized its infrastructure.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDmjJA-t4vvigohRIfUR6JExYEPR0Dohh29eooVagQOvRyRDgdisxAy3wSWni5iFHjf2Dk8X2BavSeGO8hJ-wCTbDuffsdtamOuqj1PVTb75EWNF5vNe3tCsS6pyS_pSzNhEELOVU0DxHdmGx4Kt8KNqwz8YheAM9kEoVmpnHeVV1qsofLCBYDEt0E2IqX/s1700-nu-rw-lo-l85-e365/flash.jpg",
       "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
-      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-13T13:54:20+00:00",
-      "description": "Trezor confirms recovery phrase-stealing implants in three CryptoBilis-sold Safe 5 wallets and says firmware 2.13.1 blocks known implants.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivDE4uIn_bV4GUrsw0LjzqBnnNaQM_0lzJhrSy89nrShmwNlFcsVucCFpzzZ2LMkkSMF-XMb8rp0e7_Maemyj5sypkVIf4s2Wx5pbJXkOwf0vMkG9ThBQAHhvJ_mKWHq78f_iJYhAM2l1Hp_Zk3VtB_bVvYFmZTX4WakIpC_Zib0rlFnDG-H674JSP5Mg/s1700-nu-rw-lo-l85-e365/implant.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Struggles to Restore Email and Other Services in a Global Outage",
-      "url": "https://www.securityweek.com/microsoft-struggles-to-restore-email-and-other-services-in-a-global-outage/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-13T13:47:42+00:00",
-      "description": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using \u201ca measured approach to identify and repair affected infrastructure.\u201d",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Android-Microsoft_Apps-Flaw.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
