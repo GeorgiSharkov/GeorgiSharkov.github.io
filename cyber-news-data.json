@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-14T01:41:26.372460+00:00",
+  "generatedAt": "2026-11-14T10:51:51.327660+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
+      "url": "https://cybersecuritynews.com/cursor-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-14T09:09:31+00:00",
+      "description": "Cursor has traced its October security breach to an access key exposed by Fireworks AI. The attacker used that key to steal historical coding agent records, find more credentials, and eventually place backdoored Claude Code extensions in Cursor\u2019s marketplace\u2026",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Cursor-Data-Breach.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-14T08:40:22+00:00",
+      "description": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/airplanes.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
+      "url": "https://cybersecuritynews.com/check-point-0-day-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-14T03:47:33+00:00",
+      "description": "CISA has warned that attackers are exploiting a Check Point security flaw that lets a local user gain root access on affected appliances.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Checkpoint-0-Day-Vulnerability.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "Uber Confirms Data Breach \u2013 Hackers Stole Users\u2019 Personal Information",
       "url": "https://cybersecuritynews.com/uber-confirms-data-breach/",
@@ -69,28 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Use SANSAR Linux Malware to Hide Crypto Mining by Faking 0% GPU Usage",
-      "url": "https://cybersecuritynews.com/hackers-use-sansar-linux-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-13T15:09:45+00:00",
-      "description": "Hackers hide Linux cryptocurrency mining by spoofing GPU usage readings, making active mining appear as 0% utilization.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Use-SANSAR-Linux-Malware-to-Hide-Crypto-Mining-by-Faking-0-GPU-Usage.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use 2,700 Passwords to Break Into Microsoft SQL Servers and Deploy Remote Access Malware",
-      "url": "https://cybersecuritynews.com/break-into-microsoft-sql-servers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-13T14:54:56+00:00",
-      "description": "Hackers brute-force exposed Microsoft SQL servers using 2,700 passwords to deploy cryptocurrency miners and remote access trojans.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Use-2700-Passwords-to-Break-Into-Microsoft-SQL-Servers-and-Deploy-Remote-Access-Malware.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
       "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
       "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
       "source": "The Hacker News",
@@ -121,17 +132,6 @@
       "description": "Microsoft is trying different ways to identify the cause of the problem and get its servers back online, using \u201ca measured approach to identify and repair affected infrastructure.\u201d",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Android-Microsoft_Apps-Flaw.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Apify Confirms Customer Data Accessed in Cyberattack",
-      "url": "https://www.securityweek.com/apify-confirms-customer-data-accessed-in-cyberattack/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-13T12:41:01+00:00",
-      "description": "The web scraping company says an intruder accessed customer accounts and obtained personal information or stored data.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/data_breach.jpeg",
-      "topic": "Identity",
       "kind": "News"
     },
     {
