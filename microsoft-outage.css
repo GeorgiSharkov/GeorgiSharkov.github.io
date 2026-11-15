@@ -13,3 +13,6 @@
 .outage-howto{margin-top:20px;padding:30px}.outage-howto h3{font-size:1.6rem}.outage-howto li{margin-bottom:15px;color:#b0bfd7;line-height:1.7}.outage-howto p{color:#9aacc9;line-height:1.65}.outage-body .incident-evidence-grid article{min-height:260px}.outage-body a:focus-visible{outline:3px solid #ffb229;outline-offset:5px}
 @media(max-width:820px){.outage-status-grid,.outage-context{grid-template-columns:1fr}.outage-context{gap:12px}.outage-summary-copy,.outage-howto{padding:25px}.outage-table-wrap{padding:10px}.outage-body .incident-hero{min-height:0}}
 @media(prefers-reduced-motion:reduce){.outage-body *{animation:none!important;transition:none!important}}
+
+/* Restored status for the 15 November review. */
+.outage-summary{border-color:#38f1ad77}.outage-badge{color:#38f1ad}.outage-body .outage-howto p{color:#b0bfd7}.outage-body .outage-howto ul{padding-left:24px}

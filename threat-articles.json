@@ -1,15 +1,16 @@
 [
   {
-    "title": "Microsoft 365 outage: impact, SOC checks and official status links",
+    "title": "Microsoft 365 outage resolved: latest findings and status links",
     "url": "microsoft-365-outage-2026-11.html",
     "published": "2026-11-13",
     "category": "News / Microsoft 365 availability",
-    "summary": "A verified snapshot of the November Microsoft 365 outage, the distinction from a confirmed breach, practical SOC checks, and official links for current service status.",
+    "summary": "Updated 15 November: restoration confirmed, the preliminary technical cause, post-outage SOC checks and official links for tenant status and incident reports.",
     "tags": [
+      "Service restored",
       "Microsoft 365",
-      "Service Health",
-      "Outage response"
-    ]
+      "Post-incident review"
+    ],
+    "updated": "2026-11-15"
   },
   {
     "title": "Binance $6.34B theft: when signing authority outlived containment",

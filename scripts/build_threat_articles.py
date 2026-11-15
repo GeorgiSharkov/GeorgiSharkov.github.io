@@ -23,13 +23,25 @@ def render():
         seen.add(path)
         if date.fromisoformat(article["published"]) > date.today():
             raise ValueError(f"Cannot publish a future-dated article: {path}")
-    articles.sort(key=lambda item: item["published"], reverse=True)
+        if article.get("updated"):
+            updated = date.fromisoformat(article["updated"])
+            if updated < date.fromisoformat(article["published"]) or updated > date.today():
+                raise ValueError(f"Invalid article update date: {path}")
+    articles.sort(key=lambda item: item.get("updated", item["published"]), reverse=True)
 
     def copy(article):
         return {key: escape(str(article[key]), quote=True)
                 for key in ("title", "url", "published", "category", "summary")}
 
+    def update_label(article):
+        updated = article.get("updated")
+        if not updated:
+            return ""
+        value = escape(updated, quote=True)
+        return f' <span>Updated <time datetime="{value}">{value}</time></span>'
+
     latest = copy(articles[0])
+    latest_updated = update_label(articles[0])
     home_path = ROOT / "index.html"
     home = home_path.read_text(encoding="utf-8")
     tab = f'''<a class="threat-brief-tab" href="{latest['url']}">
@@ -43,7 +55,7 @@ def render():
       <h2 id="latest-brief-title">{latest['title']}</h2>
       <p class="threat-brief-summary">{latest['summary']}</p>
       <div class="guidance-case-meta"><span>{latest['category']}</span>
-      <span>Published <time datetime="{latest['published']}">{latest['published']}</time></span></div>
+      <span>Published <time datetime="{latest['published']}">{latest['published']}</time></span>{latest_updated}</div>
       <div class="cta-row"><a class="button button-primary" href="{latest['url']}">Read the latest brief</a>
       <a class="button button-ghost" href="threat-briefs.html">All threat articles</a></div></div>
       <aside class="threat-brief-outline" aria-label="Inside each SOC brief">
@@ -73,7 +85,7 @@ def render():
           <div class="threat-brief-card-top"><span class="card-tag">{'LATEST / ' if number == 0 else ''}{item['category']}</span>
           <time datetime="{item['published']}">{item['published']}</time></div>
           <h2><a href="{item['url']}">{item['title']}</a></h2><p>{item['summary']}</p>
-          <div class="guidance-case-meta">{tags}</div>
+          <div class="guidance-case-meta">{tags}{update_label(article)}</div>
           <a class="button button-ghost" href="{item['url']}">Read SOC breakdown &#8594;</a></article>''')
 
     archive = head + '''
