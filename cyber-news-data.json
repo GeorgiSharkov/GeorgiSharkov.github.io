@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-15T16:32:03.140199+00:00",
+  "generatedAt": "2026-11-15T23:06:44.232417+00:00",
   "count": 16,
   "stories": [
+    {
+      "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33496",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-15T18:17:27+00:00",
+      "description": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
       "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
@@ -121,17 +132,6 @@
       "description": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which\u2026",
       "image": "",
       "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, November 12th, 2026 https://isc.sans.edu/podcastdetail/10176, (Thu, Nov 12th)",
-      "url": "https://isc.sans.edu/diary/rss/33512",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-12T02:00:03+00:00",
-      "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
       "kind": "DFIR"
     },
     {
