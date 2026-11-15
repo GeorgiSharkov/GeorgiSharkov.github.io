@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-11-15T07:05:28.282291+00:00",
-  "count": 20,
+  "generatedAt": "2026-11-15T16:32:03.140199+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Pentagon Renames CDAO \u2018Super Intelligence Office\u2019",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-15T12:51:33+00:00",
+      "description": "The move follows President Trump\u2019s order to replace \u201cartificial intelligence\u201d with \u201csuper intelligence\u201d in executive branch communications.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/SI_Department-of-War.png",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Italy Fines Meta \u20ac805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-15T11:27:31+00:00",
+      "description": "Italy fined Meta \u20ac805 million over Facebook's Android gallery access without explicit consent, ordering changes within 60 days.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1700-nu-rw-lo-l85-e365/facebook-fine.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-15T08:22:04+00:00",
+      "description": "Cursor says a stolen Fireworks AI key enabled data theft and a Claude Code extension compromise that potentially affected up to 5,000 users.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1700-nu-rw-lo-l85-e365/cursor.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-14T19:00:00+00:00",
+      "description": "The directive protects smartphones as part of a person\u2019s private sphere and requires \u201cfree and informed consent\u201d for such access, the authority said.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/03/Meta-Facebook-e1739539212391.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Is AI Making Us Worse at Cybersecurity?",
       "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
@@ -25,17 +69,6 @@
       "kind": "News"
     },
     {
-      "title": "FBI Reveals How Hackers Use ARTEX AI Agents to Gain Privileged Access in Under Three Hours",
-      "url": "https://cybersecuritynews.com/fbi-reveals-hackers-artex-ai-usage/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-14T11:21:17+00:00",
-      "description": "The FBI has warned that hackers are using ARTEX AI agents to automate network attacks, with some intrusions reaching privileged access in under three hours.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/FBI-Reveals-Hackers-ARTEX-AI-Usage.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
       "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
       "source": "SecurityWeek",
@@ -43,61 +76,6 @@
       "publishedAt": "2026-11-14T11:00:00+00:00",
       "description": "The tech giant has detailed the architecture designed to isolate ambient sensor data from the main OS on HomeView and new iPhones.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/12/Apple.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Warns of Active Password Stealing Attack Exploiting the Microsoft 365 Service Disruption",
-      "url": "https://cybersecuritynews.com/active-password-stealing-attack-microsoft-365/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-14T10:57:32+00:00",
-      "description": "Microsoft has warned of an active phishing campaign using the November 12 Microsoft 365 service disruption to lure users into opening fake email recovery links.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Active-Password-Stealing-Attack-Microsoft-365.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Cursor Reveals How a Leaked Fireworks AI Key Led to a Backdoored Claude Code Extension",
-      "url": "https://cybersecuritynews.com/cursor-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-14T09:09:31+00:00",
-      "description": "Cursor has traced its October security breach to an access key exposed by Fireworks AI. The attacker used that key to steal historical coding agent records, find more credentials, and eventually place backdoored Claude Code extensions in Cursor\u2019s marketplace\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Cursor-Data-Breach.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
-      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-14T08:40:22+00:00",
-      "description": "Officials say there is no evidence of a cyberattack behind the nationwide FAA outage, which may have been caused by a software update.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/airplanes.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of Check Point 0-Day Vulnerability Exploited to Gain Root Access",
-      "url": "https://cybersecuritynews.com/check-point-0-day-vulnerability/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-14T03:47:33+00:00",
-      "description": "CISA has warned that attackers are exploiting a Check Point security flaw that lets a local user gain root access on affected appliances.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Checkpoint-0-Day-Vulnerability.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "FAA Ground Stop Issued Due to \u2018Extraordinary Circumstances\u2019",
-      "url": "https://www.securityweek.com/faa-ground-stop-issued-due-to-extraordinary-circumstances/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-13T21:33:27+00:00",
-      "description": "Federal officials have yet to say what caused the communications disruption or whether they are investigating a possible cyberattack.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/FAA_Cyberattack-Ground-Stop.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -110,28 +88,6 @@
       "description": "PostgreSQL fixes 52 security flaws, including CVE-2026-6460, which allows users with object creation privileges to execute server code.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XOS7IKEt2ZhrwwdlDSpQ5hAyI46wHZpPkTQ3_hA6yUtMQpzaM50fm2v9x0O7NCt5z9vdrTsYM3iPOmu9fmmMTQDViu-rQjCfSxfCQhwZQazr4ZYayvEn5MQfUdTBVODtAay6RIaTqJGUj-HVzbtMqNPdNFiQHExhO9sitJX0GrvTx_EhWmslA-87ds/s1700-nu-rw-lo-l85-e365/postgresql.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
-      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-13T15:27:05+00:00",
-      "description": "Mior and Skyfall attacks expose data in AMD SEV-SNP confidential VMs, with Mior also enabling memory changes and forged attestation reports.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28SrA-dW0l0kreAg1vMHHOgBRMM7lzxv5qg2FT2HzRxReJ96pxZP4Fjpm15fYWDDgWpbBI8iC119aE37t_kmQ4guoA70NUlJsdiA4hFvTg8fflx9fsKqUsGuoB-S9VS5pPd38EBVYRGmvKIT5EylE3IwEK8bBCp5CkLrdTwhbyUA2xWN_0iOynP33yE8/s1700-nu-rw-lo-l85-e365/amd-flaws.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
-      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-13T14:28:58+00:00",
-      "description": "FBI says North Korea-linked FaceStealer stole over $400 million in crypto using fake video calls; U.S. authorities seized its infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDmjJA-t4vvigohRIfUR6JExYEPR0Dohh29eooVagQOvRyRDgdisxAy3wSWni5iFHjf2Dk8X2BavSeGO8hJ-wCTbDuffsdtamOuqj1PVTb75EWNF5vNe3tCsS6pyS_pSzNhEELOVU0DxHdmGx4Kt8KNqwz8YheAM9kEoVmpnHeVV1qsofLCBYDEt0E2IqX/s1700-nu-rw-lo-l85-e365/flash.jpg",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
