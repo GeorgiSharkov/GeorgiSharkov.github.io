@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-15T23:06:44.232417+00:00",
-  "count": 16,
+  "generatedAt": "2026-11-16T07:11:17.143533+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "Top 10 Best Continuous Threat Exposure Management (CTEM) Platforms in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-ctem-platforms/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-16T07:08:54+00:00",
+      "description": "CTEM is an operating rhythm, not a SKU \u2014 we ranked the 10 best continuous threat exposure management platforms of 2026 on cycle coverage. XM Cyber leads.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Best-Continuous-Threat-Exposure-Management-CTEM-Platforms.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Risk-Based Vulnerability Management Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-rbvm-tools/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-16T07:03:19+00:00",
+      "description": "Severity isn\u2019t risk \u2014 we ranked the best risk-based vulnerability management tools of 2026 on scoring honesty and remediation math, one dupe consolidated.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Best-Risk-Based-Vulnerability-Management-Tools.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Top 10 Best Cloud Vulnerability Management Tools in 2026 [Ranked & Scored]",
+      "url": "https://cybersecuritynews.com/best-cloud-vulnerability-management/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-16T06:55:22+00:00",
+      "description": "Cloud risk is context, not CVE counts \u2014 we ranked the 10 best cloud vulnerability management tools of 2026 on reachability truth and speed. Wiz leads.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Best-Cloud-Vulnerability-Management-Tools.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "NoisyTCP: 11-Year-Old Linux Kernel Flaw Lets Unauthenticated Attackers Crash Servers Remotely",
+      "url": "https://cybersecuritynews.com/noisytcp-linux-kernel-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-16T05:26:51+00:00",
+      "description": "NoisyTCP, an 11-year-old Linux kernel flaw, allows remote attackers to crash servers without authentication.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/NoisyTCP-11-Year-Old-Linux-Kernel-Flaw-Lets-Unauthenticated-Attackers-Crash-Servers-Remotely.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, November 16th, 2026 https://isc.sans.edu/podcastdetail/10180, (Mon, Nov 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33520",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-16T02:00:05+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
       "url": "https://isc.sans.edu/diary/rss/33496",
@@ -124,17 +179,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
-      "url": "https://isc.sans.edu/diary/rss/33514",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-12T11:56:24+00:00",
-      "description": "CVE-2026-102895 is a trivial authentication-bypass vulnerability. GPUStack is also an attractive target. It is open-source software that manages clusters of GPUs, which are typically used to run AI workloads. All versions of GPUStack prior to 2.2.0, which\u2026",
-      "image": "",
-      "topic": "Vulnerability",
-      "kind": "DFIR"
-    },
-    {
       "title": "Who Runs the Ransomware Group Qilin?",
       "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
       "source": "Krebs on Security",
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
