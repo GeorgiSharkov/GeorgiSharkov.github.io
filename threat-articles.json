@@ -1,5 +1,14 @@
 [
   {
+    "title": "Microsoft 365 outage phishing: the outage ends, the phishing starts",
+    "url": "weekly-threat-2026-11-17-outage-phishing.html",
+    "published": "2026-11-17",
+    "researchWeek": "2026-W47",
+    "category": "Email security / Weekly SOC brief",
+    "summary": "Investigate outage-themed phishing through message, redirect and click evidence, with Defender XDR KQL, ATT&CK mapping and clear account-response decision points.",
+    "tags": ["Phishing triage", "Defender XDR KQL", "Identity response"]
+  },
+  {
     "title": "Microsoft 365 outage resolved: latest findings and status links",
     "url": "microsoft-365-outage-2026-11.html",
     "published": "2026-11-13",

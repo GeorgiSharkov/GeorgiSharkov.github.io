@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft 365 Outage Phishing | CyberShark Weekly SOC Brief</title>
+  <meta name="description" content="A SOC walkthrough of outage-themed Microsoft 365 phishing: message scope, redirect evidence, user interaction, defensive KQL and account-compromise decision points.">
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="canonical" href="https://georgisharkov.github.io/weekly-threat-2026-11-17-outage-phishing.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&amp;family=Rajdhani:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-YXYG9BY9Z5');</script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20261025-1">
+</head>
+<body class="weekly-body"><div class="page-shell">
+  <div class="grid-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img class="brand-mark" src="brand-mark.svg" alt=""><span class="brand-copy"><strong>CYBERSHARK</strong><span>Weekly SOC Brief / Week 47</span></span></a>
+    <nav class="topnav" aria-label="Primary"><a href="index.html">Home</a><a href="threat-briefs.html">Threat Briefs</a><a href="#hunt">Hunt queries</a><a href="#response">Response</a><a href="#sources">Sources</a></nav>
+  </header>
+  <main><article>
+    <header class="panel weekly-hero">
+      <p class="eyebrow">EMAIL SECURITY / EVENT-DRIVEN PHISHING / WEEK 47</p>
+      <h1>The outage ends. The phishing starts.</h1>
+      <p class="weekly-deck">A service disruption gives a fake recovery message context. The SOC task is to follow the message, link and identity evidence without turning a click into an unsupported breach claim.</p>
+      <p>Published <time datetime="2026-11-17">17 November 2026</time> / Research window: 10-17 November / Approximately 10 minutes</p>
+      <p><strong>Evidence boundary:</strong> the campaign is reported; credential capture and downstream compromise remain unconfirmed in the published evidence. The workflows and queries below are original defensive starting points.</p>
+    </header>
+    <nav class="weekly-toc" aria-label="Article sections"><a href="#signal">New reporting</a><a href="#mechanism">Technical bits</a><a href="#path">Attack path</a><a href="#triage">Investigation</a><a href="#hunt">Hunt pack</a><a href="#response">Containment</a><a href="#sources">Evidence</a></nav>
+
+    <section class="panel weekly-section" id="signal">
+      <p class="eyebrow">01 / THIS WEEK'S SIGNAL</p><h2>Recovery language becomes the lure</h2>
+      <p>Microsoft's 16 November report describes phishing observed on 13 November: emails impersonated Microsoft 365 service-health notices and claimed that messages held during disruption faced deletion within 24 hours. Recipient-specific tracking links led to a non-Microsoft destination. Microsoft assessed likely credential phishing but did not confirm credential capture, malware delivery or post-compromise activity. <a class="weekly-source-ref" href="#source-1">[1]</a></p>
+      <p><strong>CyberShark assessment:</strong> a familiar event makes an unfamiliar request easier to accept. Give the help desk and SOC one trusted route for checking service health. A user should be able to confirm the outage status without following the link in the message they are questioning.</p>
+      <p>This brief follows our <a href="microsoft-365-outage-2026-11.html">Microsoft 365 availability update</a>. Availability reporting and phishing response answer different questions. Restoring the service does not establish whether a recipient interacted with a fake recovery email.</p>
+    </section>
+
+    <section class="panel weekly-section" id="mechanism">
+      <p class="eyebrow">02 / TECHNICAL BITS</p><h2>Separate identity, transport and destination</h2>
+      <p>Start with three records: the original message, the URL chain and the recipient's interaction. Keep them connected through stable message identifiers, UTC time and the relevant user. Avoid joining solely on a subject line: subjects can be reused, changed or randomised.</p>
+      <p><strong>Sender identity:</strong> distinguish the displayed From identity from the envelope sender. SPF concerns authorised sending infrastructure; DKIM checks a domain signature; DMARC introduces alignment and policy. Passing authentication for an unrelated sender domain does not make its Microsoft branding trustworthy. Authentication results are one input, not an overall verdict. <a class="weekly-source-ref" href="#source-2">[2]</a></p>
+      <p><strong>Transport and tracking:</strong> preserve the original URL, any security-service wrapper and the observed destination chain. A tracking hostname may belong to a legitimate provider while routing to an attacker-controlled page. Treat the specific path and observed redirect behaviour as evidence; do not block an entire shared service from one sample.</p>
+      <p><strong>Destination and identity use:</strong> ask what the browser actually reached and what the user did there. A click record, a loaded page, a submitted password and a successful adversary session are separate findings. Collect enough evidence to move between those findings instead of assuming the next stage.</p>
+    </section>
+
+    <section class="panel weekly-section" id="path">
+      <p class="eyebrow">03 / ORIGINAL ATTACK-PATH MAP</p><h2>Show where the evidence stops</h2>
+      <ol class="weekly-chain" aria-label="Reported delivery chain followed by conditional investigation steps">
+        <li><span>01</span><strong>Recovery pretext</strong><p>Service-health branding plus a deadline.</p></li>
+        <li><span>02</span><strong>Email link</strong><p>Recipient-specific tracking and routing.</p></li>
+        <li><span>03</span><strong>External destination</strong><p>Follow the recorded redirect chain.</p></li>
+        <li><span>04 ?</span><strong>Credential submission</strong><p>Investigate; not confirmed by the report.</p></li>
+        <li><span>05 ?</span><strong>Account activity</strong><p>Establish independently from identity and audit logs.</p></li>
+      </ol>
+      <p>This conceptual map is an original analyst diagram. The question marks mark conditional investigation branches, not confirmed victim actions.</p>
+      <ul>
+        <li><strong>12 November:</strong> a date referenced in an example lure; a claim inside the email is not evidence validating its sender.</li>
+        <li><strong>13 November:</strong> campaign observation date in Microsoft's reporting.</li>
+        <li><strong>16 November:</strong> technical report published. <a class="weekly-source-ref" href="#source-1">[1]</a></li>
+        <li><strong>17 November:</strong> this SOC walkthrough published. Its date does not imply a new intrusion started today.</li>
+      </ul>
+    </section>
+
+    <section class="panel weekly-section" id="triage">
+      <p class="eyebrow">04 / FIRST ANALYST PASS</p><h2>Build a recipient-level evidence ledger</h2>
+      <p>Export the original message and full headers through the approved investigation tools. Record NetworkMessageId, InternetMessageId, recipient, delivery time and action, sender addresses, authentication results and extracted URLs. Preserve the original evidence rather than copying only a screenshot of the subject.</p>
+      <p>Use these reported sender-domain pivots: <code>moments-notice[.]com</code>, <code>planetmaison[.]com</code>, <code>newbooker[.]com</code>. The report identifies <code>reallifeaccounting[.]com</code> as an observed destination. These are historical investigation pivots, not proof of compromise when found in isolation. <a class="weekly-source-ref" href="#source-1">[1]</a></p>
+      <ol>
+        <li><strong>Scope delivery:</strong> determine who received the message, whether it reached an accessible folder, and whether later remediation changed that state.</li>
+        <li><strong>Scope interaction:</strong> obtain available click records and ask the recipient what they remember. Record uncertainty when the answer is incomplete.</li>
+        <li><strong>Inspect safely:</strong> use approved analysis tooling. Do not visit the destination from an analyst workstation or enter real credentials to test it.</li>
+        <li><strong>Check identity:</strong> when exposure warrants it, review sign-ins, sessions, authentication-method changes and consent activity around the interaction.</li>
+        <li><strong>Check mailbox effects:</strong> investigate rules, forwarding and unusual sending when the evidence supports possible account access.</li>
+      </ol>
+      <p>Use an explicit disposition for each recipient: delivered only, click observed, credential entry reported, suspicious identity activity, or confirmed unauthorised activity. Keep the supporting event references beside each conclusion.</p>
+    </section>
+
+    <section class="panel weekly-section" id="hunt">
+      <p class="eyebrow">05 / DEFENSIVE HUNT PACK</p><h2>Move from message scope to click evidence</h2>
+      <p>These original KQL examples target Microsoft Defender XDR Advanced Hunting. The email and Safe Links tables depend on your deployed services and retained telemetry. Fields were checked against Microsoft Learn; the queries have not been executed against a customer tenant. Validate schema availability, result semantics and retention locally. <a class="weekly-source-ref" href="#source-3">[3]</a> <a class="weekly-source-ref" href="#source-4">[4]</a> <a class="weekly-source-ref" href="#source-5">[5]</a></p>
+      <div class="weekly-query"><h3>A / Scope the reported sender cluster</h3>
+        <p>The fixed dates support reproducibility. Extend the window and sender set from case evidence. Do not add a subject requirement to this first pass: it could hide variants.</p>
+        <pre><code>let Start = datetime(2026-11-12T00:00:00Z);
+let End = datetime(2026-11-18T00:00:00Z);
+let SenderDomains = dynamic([
+  "moments-notice.com", "planetmaison.com", "newbooker.com"
+]);
+EmailEvents
+| where Timestamp &gt;= Start and Timestamp &lt; End
+| where EmailDirection == "Inbound"
+| where SenderFromDomain in~ (SenderDomains)
+| project Timestamp, NetworkMessageId, InternetMessageId,
+          RecipientEmailAddress, SenderFromAddress,
+          SenderMailFromAddress, Subject,
+          DeliveryAction, DeliveryLocation, AuthenticationDetails
+| order by Timestamp asc</code></pre>
+      </div>
+      <div class="weekly-query"><h3>B / Pivot from a recorded destination to recipients</h3>
+        <p>URL extraction may retain a wrapper rather than the final destination. This exact-host pivot is deliberately narrow and must be supplemented with the recorded redirect chain. A zero-result search does not clear the incident.</p>
+        <pre><code>let DestinationMessages =
+    EmailUrlInfo
+    | where Timestamp &gt;= datetime(2026-11-12T00:00:00Z)
+        and Timestamp &lt; datetime(2026-11-18T00:00:00Z)
+    | where UrlDomain =~ "reallifeaccounting.com"
+    | distinct NetworkMessageId;
+EmailEvents
+| where Timestamp &gt;= datetime(2026-11-12T00:00:00Z)
+    and Timestamp &lt; datetime(2026-11-18T00:00:00Z)
+| where NetworkMessageId in (DestinationMessages)
+| project Timestamp, NetworkMessageId, RecipientEmailAddress,
+          Subject, DeliveryAction, DeliveryLocation</code></pre>
+      </div>
+      <div class="weekly-query"><h3>C / Review clicks against a scoped message ID</h3>
+        <p>Replace the placeholder with a verified ID from the preceding results. Inspect every recorded action before filtering to allowed clicks. The account that clicked can differ from the original recipient after forwarding.</p>
+        <pre><code>let MessageId = "REPLACE_WITH_VERIFIED_NETWORK_MESSAGE_ID";
+UrlClickEvents
+| where Timestamp &gt;= datetime(2026-11-12T00:00:00Z)
+    and Timestamp &lt; datetime(2026-11-18T00:00:00Z)
+| where NetworkMessageId == MessageId
+| project Timestamp, AccountUpn, Workload, Url, UrlChain,
+          ActionType, IsClickedThrough, IPAddress, ReportId
+| order by Timestamp asc</code></pre>
+      </div>
+      <p><strong>Interpretation:</strong> a Safe Links action describes the observed click handling, not what was typed into a destination page. Missing or default message IDs can also prevent reliable joins for some message contexts. <a class="weekly-source-ref" href="#source-5">[5]</a> Correlate browser or proxy evidence and recipient confirmation where available.</p>
+    </section>
+
+    <section class="panel weekly-section" id="mapping">
+      <p class="eyebrow">06 / ATT&amp;CK WITH EVIDENCE GATES</p><h2>Map only the stage you can support</h2>
+      <ul>
+        <li><a href="https://attack.mitre.org/techniques/T1566/002/" target="_blank" rel="noreferrer">T1566.002 / Spearphishing Link</a>: an analyst mapping for a malicious link delivered through an impersonating email.</li>
+        <li><a href="https://attack.mitre.org/techniques/T1078/004/" target="_blank" rel="noreferrer">T1078.004 / Cloud Accounts</a>: a conditional follow-on mapping if investigation establishes adversary use of a cloud account.</li>
+        <li><a href="https://attack.mitre.org/techniques/T1114/003/" target="_blank" rel="noreferrer">T1114.003 / Email Forwarding Rule</a>: conditional on evidence of an unauthorised forwarding rule, not the mere existence of mailbox rules.</li>
+      </ul>
+      <p>The latter two are investigation possibilities, not claims that Microsoft observed them in this campaign. Keep campaign knowledge separate from what your own case can establish.</p>
+    </section>
+
+    <section class="panel weekly-section" id="pitfalls">
+      <p class="eyebrow">07 / FALSE POSITIVES AND VISIBILITY</p><h2>Outage language alone is a weak detector</h2>
+      <p>Legitimate suppliers and internal teams send outage notices. Examine the requested action, sender relationship, destination ownership and delivery context together. A broad rule on the word "outage" is likely to interrupt useful business communications.</p>
+      <p>A valid signature from a third-party domain may simply authenticate that third party's mail. Conversely, forwarding can complicate authentication results. Review the full headers and delivery path rather than translating one pass or fail value into a verdict. <a class="weekly-source-ref" href="#source-2">[2]</a></p>
+      <p>Link inspection services and user browsing can produce different records. Establish which event reflects a person and which reflects automated analysis. Preserve the original timestamps and avoid claiming human interaction from a web request alone. If click telemetry was unavailable, document the gap and the alternative evidence used.</p>
+    </section>
+
+    <section class="panel weekly-section" id="response">
+      <p class="eyebrow">08 / RESPONSE DECISION POINTS</p><h2>Contain the message and assess the identity separately</h2>
+      <p>The following is a suggested SOC workflow. Use approved tenant procedures and coordinate disruptive actions with the incident lead. Do not perform account resets merely because a legitimate service is experiencing an outage.</p>
+      <ol>
+        <li><strong>Delivered, no interaction established:</strong> preserve a representative message, scope recipients, and remove or quarantine confirmed malicious copies through approved controls. Send a concise notification through a trusted channel.</li>
+        <li><strong>Click observed:</strong> determine the destination, protection outcome and user activity. Investigate endpoint evidence if a download or execution is indicated; do not presume malware from the click alone.</li>
+        <li><strong>Credential entry reported or credible account-compromise evidence:</strong> initiate the identity response playbook. Consider session revocation, credential reset, authentication-method review and consent review according to actual exposure.</li>
+        <li><strong>Unauthorised account activity confirmed:</strong> contain the identity, preserve the audit trail and scope mailbox, collaboration and downstream access. Identify persistence before declaring recovery complete.</li>
+        <li><strong>Validate:</strong> confirm message remediation and review for fresh activity. An empty result is meaningful only when the relevant data source is still healthy and covers the review window.</li>
+      </ol>
+      <p>Use the most specific justified blocking scope. Validate whether a domain or redirect service is shared, document the reason for the block and give temporary measures an owner and review date.</p>
+    </section>
+
+    <section class="panel weekly-section" id="handoff">
+      <p class="eyebrow">09 / RESPONSE-READY HANDOFF</p><h2>Make the next decision obvious</h2>
+      <p>Record the message IDs, affected recipients, delivery state, observed URLs, interaction evidence, identity findings, containment time and outstanding questions. Name the next evidence owner and the deadline for the next update.</p>
+      <p><strong>Illustrative communication template, not incident evidence:</strong> "We identified [number] messages matching the investigated campaign indicators. Available records show [delivery and interaction findings]. We have [containment action]. Account compromise is [confirmed / not established / under investigation]. Our next step is [specific evidence check]." Replace each bracket with a supported finding.</p>
+      <p><strong>Analyst checklist:</strong> preserve the message; verify the sender and destination; scope delivery; distinguish clicks from credential submission; investigate identity activity when justified; remove malicious messages; validate containment; document uncertainty.</p>
+    </section>
+
+    <section class="panel weekly-section" id="sources">
+      <p class="eyebrow">PRIMARY SOURCES / CHECKED 17 NOVEMBER 2026</p><h2>Evidence and technical references</h2>
+      <ol class="weekly-sources">
+        <li id="source-1"><a href="https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/" target="_blank" rel="noreferrer">Microsoft Security Blog: Microsoft 365 outage-themed phishing</a><small>Published 16 November 2026; observations dated 13 November. Campaign facts and explicitly unconfirmed downstream outcomes.</small></li>
+        <li id="source-2"><a href="https://learn.microsoft.com/en-us/defender-office-365/email-authentication-about" target="_blank" rel="noreferrer">Microsoft Learn: Email authentication in Microsoft 365</a><small>Technical context for SPF, DKIM, DMARC and sender authentication.</small></li>
+        <li id="source-3"><a href="https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-emailevents-table" target="_blank" rel="noreferrer">Microsoft Learn: EmailEvents schema</a><small>Message identifiers, sender fields, delivery state and authentication details.</small></li>
+        <li id="source-4"><a href="https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-emailurlinfo-table" target="_blank" rel="noreferrer">Microsoft Learn: EmailUrlInfo schema</a><small>Extracted URL domains and message pivots.</small></li>
+        <li id="source-5"><a href="https://learn.microsoft.com/en-us/defender-xdr/advanced-hunting-urlclickevents-table" target="_blank" rel="noreferrer">Microsoft Learn: UrlClickEvents schema</a><small>Click actions, account context, redirect chains and message-join limitations.</small></li>
+      </ol>
+      <p>Original CyberShark analysis and attack-path map. No customer telemetry, reconstructed phishing screenshot or verified credential-submission evidence is presented. Query examples are defensive starters requiring local validation.</p>
+    </section>
+  </article></main>
+  <footer class="footer"><p>CyberShark / Georgi Sharkov</p><a href="threat-briefs.html">All threat briefs &#8594;</a></footer>
+</div><script src="script.js?v=20261002-3"></script>
+</body>
+</html>
