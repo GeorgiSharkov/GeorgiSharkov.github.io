@@ -1,49 +1,27 @@
 {
-  "generatedAt": "2026-11-16T19:48:07.226792+00:00",
-  "count": 20,
+  "generatedAt": "2026-11-17T04:08:36.089718+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "15 Best Patch Management Tools In 2027",
-      "url": "https://cybersecuritynews.com/patch-management-tools/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-16T17:40:12+00:00",
-      "description": "Best Patch Management Tools: 1. SolarWinds 2. Kaseya VSA 3. Saner CVEM 4. Endpoint Central 5. Landesk 6. Jamf",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiV-rjl4UvUu0xoIbKMxD7-yO_BEHiv9svOORQMK_D0qPl6ZwOfdVQjwAbIkt6k90jaUrif_HqJw_Nu_-_Vpy-m-An23QhUpCuIMuJMthtroXAeg7Gk_9rxfgLZpGOuqqbl4ze6D8k8dsRNE7jukAPvj12J_nRXcfhzHzEYzvJ_edNc_PWA4QDHJnyormY/s1600/csn%20and%20gbh%20(8).webp",
-      "topic": "Vulnerability",
-      "kind": "News"
+      "title": "ISC Stormcast For Tuesday, November 17th, 2026 https://isc.sans.edu/podcastdetail/10182, (Tue, Nov 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33524",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-17T02:05:15+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
     },
     {
-      "title": "Researchers Reveal How Claude Code VS Code Extension Can Access Files Outside Trusted Workspaces",
-      "url": "https://cybersecuritynews.com/claude-code-vs-code-extension/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-16T16:51:53+00:00",
-      "description": "Claude Code VS Code extension permission flaw may expose files outside trusted workspaces, potentially affecting millions of developers.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Researchers-Reveal-How-Claude-Code-VS-Code-Extension-Can-Access-Files-Outside-Trusted-Workspaces.webp",
+      "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+      "url": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-16T20:00:00+00:00",
+      "description": "Under the new rule, overseas data centers that serve companies in countries including China, Russia, Iran and Cuba are required to identify their end users.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use AI-Powered Marketplace to Find Infected Computers With Corporate VPN and Cloud Access",
-      "url": "https://cybersecuritynews.com/hackers-use-ai-powered-marketplace/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-16T16:41:44+00:00",
-      "description": "New cybercrime marketplace lets hackers search stolen computer data by country, operating system, price, and corporate access.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Use-AI-Powered-Marketplace-to-Find-Infected-Computers-With-Corporate-VPN-and-Cloud-Access.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Retadup USB Worm Returns After 7 Years, Spreading CoffeeLoader Malware to Windows Systems",
-      "url": "https://cybersecuritynews.com/retadup-usb-worm-returns/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-16T16:11:47+00:00",
-      "description": "The Retadup USB worm is again being used to deliver malware to Windows systems, seven years after French authorities dismantled its botnet. The latest findings connect the worm to CoffeeLoader, a malware loader that uses graphics hardware during decryption\u2026",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Retadup-USB-Worm-Returns-After-7-Years-Spreading-CoffeeLoader-Malware-to-Windows-Systems.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -113,17 +91,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
-      "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-16T12:48:03+00:00",
-      "description": "Kaspersky suspects exploitation of Telegram\u2019s new widgets to deliver WebRAT, as researchers demo RCE and Pavel Durov disputes the claims.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/08/Telegram-legal-e1794833200840.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
       "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
       "source": "The Hacker News",
@@ -165,17 +132,6 @@
       "description": "YARA-X&#;x26;#;39;s 1.23.0 release brings 4 improvements and 16 bugfixes.",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
-      "url": "https://isc.sans.edu/diary/rss/33518",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-13T03:41:41+00:00",
-      "description": "Introduction",
-      "image": "",
-      "topic": "Malware",
       "kind": "DFIR"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
