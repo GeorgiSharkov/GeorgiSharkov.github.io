@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-17T16:25:04.847813+00:00",
+  "generatedAt": "2026-11-18T01:14:01.375533+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-17T19:34:20+00:00",
+      "description": "NebuSec demonstrates two bypasses of Telegram's Android widget security filter, while ordinary bots remain barred from sending widgets.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpVlnQrxQ-QDawosxNpQdcPtITzUQKuYeqUtOk0gctwRhi-8P9Qi_9L72cSwkHRdGNS94HaIDHEkqeb0NTPw3mIZyFstN3ZM1FlUoMweKPNz4iTkAkxlxFSNdE92DAFlfLMFe0gTXWE78eOHROSbISVMgdmFOeVhm0SS2-1wXrNxPGknTVMGroQ0pRqYg/s1700-nu-rw-lo-l85-e365/telegram-rce.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-17T18:16:17+00:00",
+      "description": "Threat actors are deploying multi-agent offensive frameworks to increase the velocity of multi-stage intrusions.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/07/AI-Chatbot-GenAI-artificial-intelligence.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Malicious iOS Scripts Now Behind 1 in 5 Advertiser Suspensions as Coruna Exploit Kit Hides Inside Ad Landing Pages",
+      "url": "https://cybersecuritynews.com/malicious-ios-scripts-now-behind-1-in-5-advertiser-suspensions-as-coruna-exploit-kit-hides-inside-ad-landing-pages/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-17T17:25:31+00:00",
+      "description": "ADEX\u2019s State of Ad Fraud 2026 report finds malicious iOS scripts caused roughly 20% of advertiser suspensions, with ~50 accounts linked to a single Coruna-based operation targeting crypto wallets.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/iOS-ADEX-1-1.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "How a Five-Analyst MSSP Increased SOC Capacity by 25% with Threat Intelligence",
+      "url": "https://cybersecuritynews.com/mssp-threat-intelligence-soc-capacity/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-17T17:07:01+00:00",
+      "description": "How a five-analyst US MSSP used threat intelligence feeds, lookup and sandbox analysis to handle 30% more alerts and grow SOC capacity by 25% without hiring.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/mssp-25-percent-capacity-banner-1600x900-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "TheMailer \u2013 Self-hosted Phishing Platform that Runs on Claude and ChatGPT",
+      "url": "https://cybersecuritynews.com/themailer-ai-phishing-platform/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-17T16:54:45+00:00",
+      "description": "TheMailer, a self-hosted phishing platform identified by Varonis Threat Labs, brings commercial AI models into almost every stage of an email attack.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/TheMailer-AI-phishing-platform-1.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "Critical Java 17 RCE Vulnerability Puts Servers at Risk as Oracle Releases 11 Security Fixes",
       "url": "https://cybersecuritynews.com/java-17-rce-vulnerability/",
@@ -14,6 +69,28 @@
       "kind": "News"
     },
     {
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-17T15:17:36+00:00",
+      "description": "Oracle plans fixes for 11 remotely exploitable Java flaws as a separate critical OpenJDK RCE report remains unconfirmed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1700-nu-rw-lo-l85-e365/java4shell.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-17T15:17:28+00:00",
+      "description": "Trigram impersonates about 50 AI and blockchain brands, using phishing and trojanized code to lure developers into running infostealers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXvywoP0qreCtUhDgAD1y24HevVHwAH9bGo904BuaQ7-amvdkk6Oi8gz8WjF-Hwiu3SinN266QM0KwUX6lDnayGOtMaSEff_b5vybBsdwvDhiai2uGsAlYfMgCdquPmKqaqM6eY54pG9HsMR7X5Sf7M4nkbIaHmWJMBG1uL3ggpJMMvfQR6FbMagqug2QG/s1700-nu-rw-lo-l85-e365/target.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
       "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
       "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
       "source": "SecurityWeek",
@@ -22,28 +99,6 @@
       "description": "The company made the incident public on Monday, November 16, five days after filing a complaint with authorities.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Ipsos.jpeg",
       "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Abuse Microsoft SharePoint and GitHub to Hide GraphDoor Backdoor Attacks on Government Networks",
-      "url": "https://cybersecuritynews.com/graphdoor-sharepoint-backdoor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-17T14:40:07+00:00",
-      "description": "Hackers are hiding a backdoor named GraphDoor inside normal Microsoft and Ably traffic. The goal is to spy on government networks in Asia and Africa.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/GraphDoor-SharePoint-Backdoor-1.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploit Unpatched Microsoft Exchange Servers to Deploy Custom RATs Across Southeast Asia",
-      "url": "https://cybersecuritynews.com/microsoft-exchange-servers/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-17T14:24:16+00:00",
-      "description": "Hackers exploit vulnerable Exchange and web servers to deploy custom RATs and spy on Southeast Asian government networks.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Exploit-Unpatched-Microsoft-Exchange-Servers-to-Deploy-Custom-RATs-Across-Southeast-Asia.webp",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -69,28 +124,6 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Use Fake Shipment ZIP Files and DLL Side-Loading to Deploy PureLogs and PureRAT Malware",
-      "url": "https://cybersecuritynews.com/fake-shipment-zip-files-and-dll-side-loading/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-17T13:58:04+00:00",
-      "description": "Hackers use shipment-themed ZIP files and DLL side-loading to deliver PureLogs and PureRAT malware through trusted apps.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Use-Fake-Shipment-ZIP-Files-and-DLL-Side-Loading-to-Deploy-PureLogs-and-PureRAT-Malware.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "MSP ScreenConnect Servers Targeted in Month-Long Campaign",
-      "url": "https://www.securityweek.com/msp-screenconnect-servers-targeted-in-month-long-campaign/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-17T13:24:43+00:00",
-      "description": "More than 40 servers received over 688,000 requests exploiting CVE-2026-84869 to execute guest-pushed files.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/02/ConnectWise.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
       "source": "The Hacker News",
@@ -99,39 +132,6 @@
       "description": "GitHub Actions attackers exploited SHA pinning trust gaps to disguise malicious commits, while new workflow lockfiles leave provenance risks unresolve",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1700-nu-rw-lo-l85-e365/git-actions.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-17T12:14:36+00:00",
-      "description": "Apple patched CVE-2026-65339, which let installed apps record audio despite denied microphone permission on iPhones and iPads.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoRknesoqi26EwwYMrgBhBudDMiej0sO7-228OvrBIj2ivaPcOUo7GJgoIHAd9fI_VFlK4su0xn1L_BqUgFsldNJgAkQwE4wAvAZzUao-wHUHSoq8NQUo_UdyILYYFoshEgONLhibaGHRQ_cKFVo0Psl1kehyphenhyphenNjlCrkECk16huiU6WecKlpBr0YDN3nus/s1700-nu-rw-lo-l85-e365/iphone-recording.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-17T11:20:18+00:00",
-      "description": "Operation ShadowCloud targets governments in Asia and Africa with GitDoor and GraphDoor backdoors using GitHub and SharePoint for C2.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhGYnRRqAfAZ2q0dS56dC5lC86Kx69VT0moHy1Pxt67C0ic8RbLOL9LR68b4atQmvb7O6Gq3Btm1axv2aCRaNkhagPKbFHvThWlye3QPpK1xnEj4kovoJn8dsbTlCmAjXOIb8EHV3RJuhNQdVNKRxc4uwiuIfws_a63koiBaCQvs5jwbnTFG8EUwuA0RiA/s1700-nu-rw-lo-l85-e365/git-share.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-17T11:07:31+00:00",
-      "description": "Apple introduces granular app and folder permissions in macOS 27.3 beta 2 to improve data access transparency amid AI agent security risks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpfVz_pnzHGcrDTsga77xG6yDhi_sMihXsGCjULyapjweerWHdHByPuWqWYmWQsDAAV37EfmctWtSZgYCHJ-2FMGEE6K94YRDVFjHVO0i1jZxn-TIewKbDqIn3y-pNMH7pqJ9SA1X2Sk_r_vn_SfRdxbPB2kH9-hHkNrigumGuQKXaA6xlHqCdWu4ZDAFH/s1700-nu-rw-lo-l85-e365/apple-macos.jpg",
-      "topic": "News",
       "kind": "News"
     },
     {
