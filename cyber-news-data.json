@@ -1,137 +1,93 @@
 {
-  "generatedAt": "2026-11-19T12:03:29.722162+00:00",
-  "count": 20,
+  "generatedAt": "2026-11-19T20:55:34.803527+00:00",
+  "count": 16,
   "stories": [
     {
-      "title": "The Governance Gap in Open-Weight AI and What to Do About It",
-      "url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+      "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-19T12:00:00+00:00",
-      "description": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Turn aNotepad Into a Malware Delivery Channel for XenoRAT and NodeLinkRAT Backdoors",
-      "url": "https://cybersecuritynews.com/hackers-turn-anotepad/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-19T11:10:47+00:00",
-      "description": "North Korean hackers abuse aNotepad to control infected PCs and swap XenoRAT for NodeLinkRAT targeting South Korean security experts.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Turn-aNotepad-Into-a-Malware-Delivery-Channel-for-XenoRAT-and-NodeLinkRAT-Backdoors.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "N-able Confirms Server Breach, Disables Mail Assure and SpamExperts Management Access",
-      "url": "https://cybersecuritynews.com/n-able-confirms-server-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-19T10:44:04+00:00",
-      "description": "N-able confirmed unauthorized access to one server in its Mail Assure and SpamExperts Hosted Cloud environment and disabled management access across the Americas, Europe, and Asia-Pacific.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/N-able-Confirms-Server-Breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
-      "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-19T10:41:05+00:00",
-      "description": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/03/Splunk.jpeg",
+      "publishedAt": "2026-11-19T19:21:06+00:00",
+      "description": "Google says a China-linked espionage group exploited a critical VMware vCenter authentication bypass before Broadcom released a patch.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
       "topic": "Vulnerability",
       "kind": "News"
     },
     {
-      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
-      "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-19T10:26:51+00:00",
-      "description": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Nginx.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Ubiquiti Warns of Critical UniFi Access Flaws Enabling Root Code Execution Attacks",
-      "url": "https://cybersecuritynews.com/ubiquiti-warns-critical-unifi-access-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-19T10:26:01+00:00",
-      "description": "Ubiquiti disclosed seven UniFi Access flaws, including a critical bug allowing low-privileged users to execute code.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Ubiquiti-Warns-of-Critical-UniFi-Access-Flaws-Enabling-Privilege-Escalation-and-Root-Code-Execution-Attacks.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Target European Commission with ARTEX AI Tool in Major Cyberattack",
-      "url": "https://cybersecuritynews.com/european-commission-cyberattack/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-19T09:53:35+00:00",
-      "description": "A cyberattack on the European Commission disrupted staff services for more than 10 days, leaving some employees unable to submit timesheets, request leave, or enter salary information.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/European-Commission-Cyberattack.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
       "source": "The Hacker News",
       "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-19T09:31:26+00:00",
-      "description": "N-able confirms unauthorized server access disrupted Mail Assure and SpamExperts management services, with no evidence of customer data compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjPpZ9yL9D7JBQvp4_ZmnP8S_U6HKdq3rSM_FVv_uDgT9Iz8D56tO6GNDNE4rs29pejUiKQlxi1HpZ38KYbaSB01PmgPItVL8N-Y9G9vcuJlnadltKvmGhvUKYntAEIVCXFixjdBMyu6S9-zEUlIgGf7E5euvodJbn9LIYWTkRpxwH0g7nz2xp2v5PGMdq/s1700-nu-rw-lo-l85-e365/n-able-hacked.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
-      "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-19T09:10:58+00:00",
-      "description": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Java4Shell.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-19T08:42:11+00:00",
-      "description": "Ruby patched seven memory-safety flaws, including five with remote code execution PoCs, in regex handling and string case conversion.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s1700-nu-rw-lo-l85-e365/ruby.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-19T08:14:00+00:00",
-      "description": "Researcher demonstrates database RCE exploits in PostgreSQL, MySQL and ClickHouse, plus an unauthenticated Oracle chain; no attacks observed.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s1700-nu-rw-lo-l85-e365/database-rce.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-19T08:00:00+00:00",
-      "description": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks | Read more hacking news on The Hacker News cybersecurity news website and learn how to protect against cyberattacks and software vulnerabilities.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJc2bWATWnk5-O72K0n3cYlHuhhox3nVPELPst8c1bui3mTiwBZFUjAUSem14OyqLB6CTECCs9fc-iyng9KmY3jelZ2cqrHg4FKvP2qOZui8piIbYTZy9WdZD0NqiY4fXcLud5GYzmNEXR6DRNuQpjkFzfPvW4fIcDtwaFg4SM9xW-eG09WxFuEcmuKx7U/s1700-nu-rw-lo-l85-e365/cisa.jpg",
+      "publishedAt": "2026-11-19T18:47:58+00:00",
+      "description": "This week's ThreatsDay covers GPT-6.2 jailbreak flaws, PNG malware, $500M ransomware demands, AI phishing kits, and more cyber threats.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgTqUIWPjGeycl6xafh8Hx8n2UN3UCUgjhTpxUul68DHi7Y_IoHVYBvjDd5DpFg15sKI767hVEq-8CbGhK69JNusMh0OBBXfVMwJlZiKT2gNnTPAL9DyvTY85SB68WkvBxFCMF2_rNS9rUgYkQN8sKssDMBS8gO6YpMudQohf_JWnPztX_h8TdbSX6Vtfi/s1700-nu-rw-lo-l85-e365/td.jpg",
       "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T16:59:56+00:00",
+      "description": "PHP fixes CVE-2026-126714, a critical session file flaw enabling object injection and potential code execution when paired with another weakness.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1700-nu-rw-lo-l85-e365/php-after-shell.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+      "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T15:54:20+00:00",
+      "description": "Successful exploitation could allow attackers to crash the worker process and execute code with the PHP worker\u2019s privileges.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/php-exploit-code.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T15:18:07+00:00",
+      "description": "PHP patches 7 critical vulnerabilities, including CVE-2026-115560, that could enable remote code execution on affected deployments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD2D26Hu7r43uUrdDxmsmmbBe2oMxd-L3_DIVLqAPyDrOnSmdvXfkIq1_lNmWqr49gbrIZ0NeTmA2OYgyWgdUjRf_RTRfflyXn3Vgujkb9tiByOPfej1OqEszpQf2FeozeSqmK5L7aSj28GLwzKmzehIp9zJyeJqgRvbVOW91_pVEMhs3KY9_oXjwf5BE/s1700-nu-rw-lo-l85-e365/php-flawss.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T15:11:06+00:00",
+      "description": "Broadcom patched CVE-2026-123890, a critical VMware vCenter authentication bypass flaw requiring network access, with no listed workaround.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1700-nu-rw-lo-l85-e365/vmware.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T14:17:32+00:00",
+      "description": "Nvidia says it has found no indication that its systems were compromised after the Gentlemen ransomware group listed the company as a victim.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/07/Nvidia.jpeg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T13:12:20+00:00",
+      "description": "Attackers hacked clustered Cisco Expressway devices at a Russian organization and prepared tooling for lateral movement.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/09/Cisco-firewall.jpeg",
+      "topic": "Vulnerability",
       "kind": "News"
     },
     {
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
