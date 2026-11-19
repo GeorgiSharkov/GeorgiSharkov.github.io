@@ -1,16 +1,137 @@
 {
-  "generatedAt": "2026-11-19T02:45:27.157385+00:00",
+  "generatedAt": "2026-11-19T12:03:29.722162+00:00",
   "count": 20,
   "stories": [
     {
-      "title": "WordPress 7.1.5 Patches 20 Security Issues, Including Potential RCE and SQL Injection Flaws",
-      "url": "https://cybersecuritynews.com/wordpress-7-1-5-patches-20-security-issues/",
+      "title": "The Governance Gap in Open-Weight AI and What to Do About It",
+      "url": "https://www.securityweek.com/the-governance-gap-in-open-weight-ai-and-what-to-do-about-it/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T12:00:00+00:00",
+      "description": "Lower costs, data privacy, and greater control are driving open-weight AI adoption, but many organizations are not addressing the risks that come with it.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Turn aNotepad Into a Malware Delivery Channel for XenoRAT and NodeLinkRAT Backdoors",
+      "url": "https://cybersecuritynews.com/hackers-turn-anotepad/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-19T02:16:02+00:00",
-      "description": "WordPress released version 7.1.5 on November 18, 2026, to address 20 security issues in WordPress Core. The update fixes a flaw that could allow someone without an account to run code on a vulnerable server.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WordPress-7.1.5-Patches-20-Security-Issues.webp",
+      "publishedAt": "2026-11-19T11:10:47+00:00",
+      "description": "North Korean hackers abuse aNotepad to control infected PCs and swap XenoRAT for NodeLinkRAT targeting South Korean security experts.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Turn-aNotepad-Into-a-Malware-Delivery-Channel-for-XenoRAT-and-NodeLinkRAT-Backdoors.webp",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "N-able Confirms Server Breach, Disables Mail Assure and SpamExperts Management Access",
+      "url": "https://cybersecuritynews.com/n-able-confirms-server-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-19T10:44:04+00:00",
+      "description": "N-able confirmed unauthorized access to one server in its Mail Assure and SpamExperts Hosted Cloud environment and disabled management access across the Americas, Europe, and Asia-Pacific.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/N-able-Confirms-Server-Breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Splunk Patches Nearly 140 Flaws Across Three Core Products",
+      "url": "https://www.securityweek.com/splunk-patches-nearly-140-flaws-across-three-core-products/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T10:41:05+00:00",
+      "description": "The security updates resolve critical and high-severity issues leading to authentication bypass, remote code execution, and privilege escalation.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/03/Splunk.jpeg",
       "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "F5 Patches Critical NGINX2Root Flaws as PoC Exploits Go Public",
+      "url": "https://www.securityweek.com/f5-patches-critical-nginx2root-flaws-as-poc-exploits-go-public/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T10:26:51+00:00",
+      "description": "The five NGINX2Root vulnerabilities could allow remote, unauthenticated attackers to execute arbitrary code.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Nginx.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Ubiquiti Warns of Critical UniFi Access Flaws Enabling Root Code Execution Attacks",
+      "url": "https://cybersecuritynews.com/ubiquiti-warns-critical-unifi-access-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-19T10:26:01+00:00",
+      "description": "Ubiquiti disclosed seven UniFi Access flaws, including a critical bug allowing low-privileged users to execute code.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Ubiquiti-Warns-of-Critical-UniFi-Access-Flaws-Enabling-Privilege-Escalation-and-Root-Code-Execution-Attacks.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Target European Commission with ARTEX AI Tool in Major Cyberattack",
+      "url": "https://cybersecuritynews.com/european-commission-cyberattack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-19T09:53:35+00:00",
+      "description": "A cyberattack on the European Commission disrupted staff services for more than 10 days, leaving some employees unable to submit timesheets, request leave, or enter salary information.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/European-Commission-Cyberattack.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T09:31:26+00:00",
+      "description": "N-able confirms unauthorized server access disrupted Mail Assure and SpamExperts management services, with no evidence of customer data compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjPpZ9yL9D7JBQvp4_ZmnP8S_U6HKdq3rSM_FVv_uDgT9Iz8D56tO6GNDNE4rs29pejUiKQlxi1HpZ38KYbaSB01PmgPItVL8N-Y9G9vcuJlnadltKvmGhvUKYntAEIVCXFixjdBMyu6S9-zEUlIgGf7E5euvodJbn9LIYWTkRpxwH0g7nz2xp2v5PGMdq/s1700-nu-rw-lo-l85-e365/n-able-hacked.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Java4Shell Exploitation Attempts Begin as Vendors Rush Out Advisories",
+      "url": "https://www.securityweek.com/java4shell-exploitation-attempts-begin-as-vendors-rush-out-advisories/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-19T09:10:58+00:00",
+      "description": "GreyNoise, WatchTowr and Cloudflare report probing and exploit attempts, while Cisco, Elastic, Red Hat and Siemens detail impact.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/Java4Shell.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T08:42:11+00:00",
+      "description": "Ruby patched seven memory-safety flaws, including five with remote code execution PoCs, in regex handling and string case conversion.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s1700-nu-rw-lo-l85-e365/ruby.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T08:14:00+00:00",
+      "description": "Researcher demonstrates database RCE exploits in PostgreSQL, MySQL and ClickHouse, plus an unauthenticated Oracle chain; no attacks observed.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s1700-nu-rw-lo-l85-e365/database-rce.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-19T08:00:00+00:00",
+      "description": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks | Read more hacking news on The Hacker News cybersecurity news website and learn how to protect against cyberattacks and software vulnerabilities.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJc2bWATWnk5-O72K0n3cYlHuhhox3nVPELPst8c1bui3mTiwBZFUjAUSem14OyqLB6CTECCs9fc-iyng9KmY3jelZ2cqrHg4FKvP2qOZui8piIbYTZy9WdZD0NqiY4fXcLud5GYzmNEXR6DRNuQpjkFzfPvW4fIcDtwaFg4SM9xW-eG09WxFuEcmuKx7U/s1700-nu-rw-lo-l85-e365/cisa.jpg",
+      "topic": "Ransomware",
       "kind": "News"
     },
     {
@@ -36,17 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "PHP Security Team Warns of Critical Vulnerabilities, Urges Users to Prepare for November 19 Updates",
-      "url": "https://cybersecuritynews.com/php-critical-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-19T01:49:53+00:00",
-      "description": "The PHP security team plans to release security updates on Thursday, November 19, 2026, between 14:00 and 14:30 UTC.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/PHP-Critical-Vulnerabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
       "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
       "url": "https://isc.sans.edu/diary/rss/33532",
       "source": "SANS ISC",
@@ -56,116 +166,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "DFIR"
-    },
-    {
-      "title": "Fake FMCSA, DAT, and TIMOCOM Portals Attack US Logistics Firms",
-      "url": "https://cybersecuritynews.com/fake-fmcsa-dat-timocom-portals-target-us-logistics/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-18T19:05:56+00:00",
-      "description": "Cybercriminals impersonate FMCSA, DAT, and TIMOCOM portals via HelloFriends, NodeRemote, and CastleRAT campaigns to breach US trucking and logistics firms.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/US_Logistics_3_Campaigns_Banner_1600x900.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-18T18:31:17+00:00",
-      "description": "NGINX fixes five CVSS 9.2 flaws, including a decade-old HTTP/2 vulnerability demonstrated to allow unauthenticated code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_qqPophooIauX16fMWm3KB24tzQ3Fd7rCuseCXfMkDPPGpIgmHqWvZjn_jffDqHwNWKu8Zf57QeKb4qsRFgdgisSAn0sMj59CscimR16RLXI1kspH0w7VYQgrsM_hPcePQOFL8QUyDC2p9W7AV0UjH3sW7oOvdWPWAZW6DITDvqIHaC_696e5kHTieY/s1700-nu-rw-lo-l85-e365/nginx-rce.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-18T18:15:39+00:00",
-      "description": "F5 fixes six critical BIG-IP flaws that allow unauthenticated traffic disruption and may enable code execution in specific configurations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizE3X3tUSPpxIYnNyM91hyphenhyphenzZOS6jjdHnCLmubn4upOYKZn3MdjUqJQGEjIBGtZ2JHK6yggH6RxSQCANhtF7-zIWJ0EfGqA7iY2KQWM7vtoiCsc-_KeFZeHeDm-TOpM_oL_EVzOvPru_cMVzx3wJL8kaLEgXuzPzxm3iYnTiyu57quhgBgMY1Nb7V_sXG4/s1700-nu-rw-lo-l85-e365/f5.png",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Use GhostMap eBPF Rootkit to Hide IronWorm Malware From Linux Security Tools",
-      "url": "https://cybersecuritynews.com/hackers-use-ghostmap-ebpf-rootkit/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-18T18:11:43+00:00",
-      "description": "Hackers use GhostMap Linux rootkit to hide IronWorm malware processes, files, and network connections from system tools.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Use-GhostMap-eBPF-Rootkit-to-Hide-IronWorm-Malware-From-Linux-Security-Tools.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-18T17:10:45+00:00",
-      "description": "Apache Roller CVE-2026-129448 is actively exploited, allowing unauthenticated remote code execution via XML-RPC. Upgrade to 6.1.6.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiCYJD7nei_TBSnUlQG59idq9moCbsg97fnzsiXNi4KvQaphZYA4hHIzXv08t2OsvVZokzPIdhZPzxTkXoEgzTsFby-rBvQX6CY6yPo1Iv8DPnSmPeOeh3OQXF79Q60Hq3UI7kVdhmEKGL2bUwm42JO-8C_ClLHpTpGkWpnflAQMrDDgjIvMKq09DEskr/s1700-nu-rw-lo-l85-e365/apache.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
-      "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-18T15:30:42+00:00",
-      "description": "AI Security Engineering is a new and essential security discipline now being brought into focus by VeroSecurity.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-18T14:11:28+00:00",
-      "description": "EggStreme operators retooled their backdoor with new commands and passive mode while continuing to target Philippine government organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYLKVaRRp02L2STeR4kakGeA1NJokTtxw2aLU4wBLS34vltviR8gV4eUjk0QJ9jDVbiS_2hSeDQCwIR_JoCzPzUt-FSNUNpaKNtHpKiMugkRAMwOIbl4FbcL5iE7KCe1hebNbJRTxqO5xQkEFBuDI6F8FnsnYfreljrQlHHXuKBEN0suJZeuIf8heda5wY/s1700-nu-rw-lo-l85-e365/chinese.jpg",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
-      "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-18T13:33:47+00:00",
-      "description": "Star Blizzard weaponized data and identities stolen in late 2025 to phish and compromise a US organization.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/09/Russian-hacking.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
-      "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-18T13:19:32+00:00",
-      "description": "British national Tyler Robert Buchanan has been sentenced to 6 years in prison in the United States, the DOJ announced.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/03/hacker-prison-sentenced.jpeg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
-      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-18T12:14:23+00:00",
-      "description": "Four blue team agents and the Recon Agent are now generally available, while integrations and vulnerability shielding are in preview.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Agent-AI-Security.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
