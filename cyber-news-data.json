@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-11-20T20:40:12.876615+00:00",
-  "count": 16,
+  "generatedAt": "2026-11-21T02:45:23.868699+00:00",
+  "count": 20,
   "stories": [
+    {
+      "title": "WhatsApp Android Flaws Could Let Hackers Delete Users\u2019 Files and Expose IP Addresses",
+      "url": "https://cybersecuritynews.com/whatsapp-android-flaws/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-21T02:36:55+00:00",
+      "description": "WhatsApp\u2019s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user\u2019s IP address, or bypass a security check for Meta AI\u2019s Private Processing service.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WhatsApp-Android-Flaws.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "14 Best Enterprise Risk Management Tools 2027",
+      "url": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-21T01:26:39+00:00",
+      "description": "Enterprise Risk Management Tools: 1. MetricStream 2. LogicManager 3. RSA Archer 4. SAP GRC 5. Riskonnect 6. IBM OpenPages 7. Resolver",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg3EZb1ZCrWvCb8x1zAbK9J7_4pct-wdL5kZ5dU5I7lEelIMmvNlSc6JRD50lUsZv9aGyi5_pICENQf3_xYH3cd4tmjc4cqRU2j7-RuX3LluhFYweqOl6wqEyUTMXoaTUO_VNIwvHXqRr1e3-6YtSEYG5tNGnfixd6jU_PkxRtyESAaUQEoMq4vAdayr4/s1600/csn%20and%20gbh%20(6).webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
+      "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "source": "Krebs on Security",
+      "sourceUrl": "https://krebsonsecurity.com/",
+      "publishedAt": "2026-11-21T00:36:39+00:00",
+      "description": "The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use \"advanced cryptographic tools\" to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found\u2026",
+      "image": "",
+      "topic": "Ransomware",
+      "kind": "Investigation"
+    },
     {
       "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
       "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
@@ -14,6 +47,17 @@
       "kind": "News"
     },
     {
+      "title": "Microsoft Investigates Attachment Upload Failures in New Outlook",
+      "url": "https://cybersecuritynews.com/microsoft-attachment-upload-failures/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-20T17:01:31+00:00",
+      "description": "Microsoft is investigating reports that some Microsoft 365 users cannot upload email attachments in New Outlook.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-Investigates-Attachment-Upload-Failures.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
       "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
       "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
       "source": "The Hacker News",
@@ -22,6 +66,17 @@
       "description": "Bazuka Android malware integrates LLM-based victim management, 23 attack modules, and screenshot overlays to conceal malicious activity.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMs4vBdivbF3Y-4yd3PWqjSTuG2PPDvCemM211pzVl2Jhkus9d14_2MzRgdrlNhRxaHa_2rlIN34kUGHAlV_Y2dMnfmYGlUEzUcab0c_s3N8Zoe8P3rcJ-RJmo2luVci9bVqmwtFhpL4rfR2Uo-ZwvqfqFMwRb_3WwoOvFIaunPd7WMOJ4yW9rjbHEKDwf/s1700-nu-rw-lo-l85-e365/android-malware.jpg",
       "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "Over 100 Debian Packages Still Contain Distrusted CA Certificates Despite Security Updates",
+      "url": "https://cybersecuritynews.com/debian-packages-ca-certificates/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-20T16:39:48+00:00",
+      "description": "A scan of a Debian package mirror found that more than 100 packages still contained copies of distrusted certificate authority (CA) certificates after Debian removed them from its system trust store.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Debian-Packages-CA-Certificates.webp",
+      "topic": "News",
       "kind": "News"
     },
     {
@@ -166,17 +221,6 @@
       "image": "",
       "topic": "Vulnerability",
       "kind": "Investigation"
-    },
-    {
-      "title": "Want to Rent an Internet Address at the White House?",
-      "url": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-      "source": "Krebs on Security",
-      "sourceUrl": "https://krebsonsecurity.com/",
-      "publishedAt": "2026-11-05T04:36:17+00:00",
-      "description": "Several staffers at the White House are using computers or mobile devices equipped with residential proxy services that render their internet address available for others to rent, security experts warned today. One of the proxy services is a Russian company\u2026",
-      "image": "",
-      "topic": "Investigation",
-      "kind": "Investigation"
     }
   ],
   "sources": [
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
