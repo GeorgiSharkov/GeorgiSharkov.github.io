@@ -611,14 +611,11 @@ if (!crawlerReducedMotion.matches) {
 const previewForm = document.querySelector("#atcor-preview-form");
 
 if (previewForm) {
-  const ownerToken = "GeorgiSharkov";
-  const ownerKey = "atcorPreviewOwner";
   const attemptKey = "atcorPreviewAttempts";
   const maxVisitorAttempts = 3;
   const params = new URLSearchParams(window.location.search);
 
-  if (params.get("owner") === ownerToken) {
-    window.localStorage.setItem(ownerKey, "true");
+  if (params.has("owner")) {
     params.delete("owner");
 
     const nextQuery = params.toString();
@@ -626,7 +623,8 @@ if (previewForm) {
     window.history.replaceState({}, "", nextUrl);
   }
 
-  const isOwner = window.localStorage.getItem(ownerKey) === "true";
+  const isOwner = ["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname);
+  let sessionAttempts = 0;
   const submitButton = previewForm.querySelector('button[type="submit"]');
   const limitStatus = document.querySelector("[data-preview-limit-status]");
   const previewOutputs = {
@@ -829,7 +827,14 @@ if (previewForm) {
     <p>Recommended next steps: ${caseData.nextActions}</p>
   `;
 
-  const getAttempts = () => Number(window.localStorage.getItem(attemptKey) || "0");
+  const getAttempts = () => {
+    try {
+      const stored = Number(window.localStorage.getItem(attemptKey) || "0");
+      return Number.isFinite(stored) && stored >= 0 ? Math.floor(stored) : maxVisitorAttempts;
+    } catch {
+      return sessionAttempts;
+    }
+  };
 
   const setLimitStatus = () => {
     if (!limitStatus || !submitButton) {
@@ -839,7 +844,7 @@ if (previewForm) {
     limitStatus.classList.remove("is-warning", "is-owner");
 
     if (isOwner) {
-      limitStatus.textContent = "Owner mode enabled: unlimited generated outputs available.";
+      limitStatus.textContent = "Local development preview: unlimited example outputs available.";
       limitStatus.classList.add("is-owner");
       submitButton.disabled = false;
       return;
@@ -849,7 +854,7 @@ if (previewForm) {
     submitButton.disabled = remaining === 0;
 
     if (remaining === 0) {
-      limitStatus.textContent = "Visitor preview limit reached. Please contact Georgi for full access.";
+      limitStatus.textContent = "This browser's example limit is reached. Please contact Georgi for access to the full tool.";
       limitStatus.classList.add("is-warning");
     } else {
       limitStatus.textContent = `Visitor preview limit: ${remaining} generated output${remaining === 1 ? "" : "s"} remaining.`;
@@ -865,7 +870,12 @@ if (previewForm) {
         return;
       }
 
-      window.localStorage.setItem(attemptKey, `${attempts + 1}`);
+      sessionAttempts = attempts + 1;
+      try {
+        window.localStorage.setItem(attemptKey, `${sessionAttempts}`);
+      } catch {
+        // Storage-disabled browsers still receive a limit for this page session.
+      }
     }
 
     const formData = new FormData(previewForm);
@@ -2172,15 +2182,10 @@ if (threatPulseRoot) {
     AU: { x: 470, y: 206 },
   };
 
-  const escapeHtml = (value) => String(value ?? "")
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&#39;");
+  const { escapeHtml, safeExternalUrl, finiteNumber } = CyberSharkSecurity;
 
   const formatDate = (value) => {
-    if (!value) {
+    if (!value || Number.isNaN(new Date(value).getTime())) {
       return "Unknown";
     }
 
@@ -2190,7 +2195,7 @@ if (threatPulseRoot) {
   };
 
   const formatRelease = (value) => {
-    if (!value) {
+    if (!value || Number.isNaN(new Date(value).getTime())) {
       return "Unknown";
     }
 
@@ -2201,7 +2206,7 @@ if (threatPulseRoot) {
   };
 
   const formatTime = (value) => {
-    if (!value) {
+    if (!value || Number.isNaN(new Date(value).getTime())) {
       return "Unknown";
     }
 
@@ -2396,10 +2401,10 @@ if (threatPulseRoot) {
       return;
     }
 
-    const maxValue = Math.max(...entries.map((entry) => Number(entry.value || 0)), 1);
+    const maxValue = Math.max(...entries.map((entry) => finiteNumber(entry.value)), 1);
     const topEntry = entries[0];
     const totalObservations = entries.reduce(
-      (sum, entry) => sum + Number(entry.value || 0),
+      (sum, entry) => sum + finiteNumber(entry.value),
       0
     );
 
@@ -2426,7 +2431,7 @@ if (threatPulseRoot) {
       .map((entry, index) => {
         const code = String(entry.name || "").toUpperCase();
         const label = getRegionLabel(code);
-        const value = Number(entry.value || 0);
+        const value = finiteNumber(entry.value);
         const width = Math.max(14, Math.round((value / maxValue) * 100));
 
         return `
@@ -2543,7 +2548,8 @@ if (threatPulseRoot) {
       return [];
     }
 
-    return Array.from(new Set(notesValue.match(/https?:\/\/[^\s;]+/g) || [])).slice(0, 3);
+    return Array.from(new Set((String(notesValue).match(/https?:\/\/[^\s;<>"']+/g) || [])
+      .map(safeExternalUrl).filter((link) => link !== "#"))).slice(0, 3);
   };
 
   const updateTrendCards = (entries) => {
@@ -2636,7 +2642,7 @@ if (threatPulseRoot) {
     const vendors = [...new Set(entries.map((entry) => entry.vendorProject).filter(Boolean))].sort();
 
     vendorSelect.innerHTML = `<option value="all">All vendors</option>${vendors
-      .map((vendor) => `<option value="${vendor}">${vendor}</option>`)
+      .map((vendor) => `<option value="${escapeHtml(vendor)}">${escapeHtml(vendor)}</option>`)
       .join("")}`;
   };
 
@@ -2654,30 +2660,30 @@ if (threatPulseRoot) {
     return `
       <article class="info-card threat-card">
         <div>
-          <span class="card-tag">${priority.label.toUpperCase()} / ${entry.cveID}</span>
-          <h3>${entry.vulnerabilityName}</h3>
+          <span class="card-tag">${priority.label.toUpperCase()} / ${escapeHtml(entry.cveID)}</span>
+          <h3>${escapeHtml(entry.vulnerabilityName)}</h3>
         </div>
-        <p>${entry.shortDescription}</p>
+        <p>${escapeHtml(entry.shortDescription)}</p>
         <div class="threat-badges">
           <span class="pulse-badge ${priority.css}">${priority.label} priority</span>
           <span class="pulse-badge">EPSS ${epssPercent}</span>
           <span class="pulse-badge">${percentileValue}</span>
         </div>
         <div class="threat-meta">
-          <span><strong>Vendor:</strong> ${entry.vendorProject}</span>
-          <span><strong>Product:</strong> ${entry.product}</span>
+          <span><strong>Vendor:</strong> ${escapeHtml(entry.vendorProject)}</span>
+          <span><strong>Product:</strong> ${escapeHtml(entry.product)}</span>
           <span><strong>Date added:</strong> ${formatDate(entry.dateAdded)}</span>
           <span><strong>Due date:</strong> ${formatDate(entry.dueDate)}</span>
-          <span><strong>Ransomware use:</strong> ${entry.knownRansomwareCampaignUse}</span>
-          <span><strong>Catalog action:</strong> ${entry.requiredAction}</span>
+          <span><strong>Ransomware use:</strong> ${escapeHtml(entry.knownRansomwareCampaignUse)}</span>
+          <span><strong>Catalog action:</strong> ${escapeHtml(entry.requiredAction)}</span>
         </div>
         <div class="threat-note">
           <strong>Analyst action</strong>
-          <p>${getAnalystAction(entry)}</p>
+          <p>${escapeHtml(getAnalystAction(entry))}</p>
         </div>
         <div class="threat-links">
-          <a href="https://nvd.nist.gov/vuln/detail/${entry.cveID}" target="_blank" rel="noreferrer">View NVD</a>
-          ${links.map((link, index) => `<a href="${link}" target="_blank" rel="noreferrer">${index === 0 ? "Vendor advisory" : `Reference ${index + 1}`}</a>`).join("")}
+          <a href="${/^CVE-\d{4}-\d{4,}$/.test(String(entry.cveID)) ? `https://nvd.nist.gov/vuln/detail/${encodeURIComponent(entry.cveID)}` : "https://nvd.nist.gov/"}" target="_blank" rel="noreferrer">View NVD</a>
+          ${links.map((link, index) => `<a href="${escapeHtml(link)}" target="_blank" rel="noreferrer">${index === 0 ? "Vendor advisory" : `Reference ${index + 1}`}</a>`).join("")}
         </div>
       </article>
     `;

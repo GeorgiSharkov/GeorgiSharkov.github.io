@@ -28,14 +28,7 @@
     '"': "&quot;",
   })[character]);
 
-  const safeUrl = (value) => {
-    try {
-      const url = new URL(value, window.location.href);
-      return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
-    } catch {
-      return "#";
-    }
-  };
+  const safeUrl = CyberSharkSecurity.safeExternalUrl;
 
   const formatDate = (value) => {
     const date = new Date(value);

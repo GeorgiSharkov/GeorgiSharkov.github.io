@@ -8,7 +8,10 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
-from urllib.request import Request, urlopen
+try:
+    from .feed_http import fetch_public_bytes, safe_https_url
+except ImportError:
+    from feed_http import fetch_public_bytes, safe_https_url
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -64,16 +67,16 @@ META_RE_REVERSED = re.compile(
 
 
 def fetch_text(url, timeout=30):
-    request = Request(
-        url,
-        headers={
+    allowed_hosts = {urlparse(source[key]).hostname for source in SOURCES for key in ("feed", "home")}
+    allowed_hosts |= {host.removeprefix("www.") for host in allowed_hosts}
+    allowed_hosts.add("feedproxy.google.com")
+    body, charset = fetch_public_bytes(
+        url, allowed_hosts, timeout=timeout, headers={
             "User-Agent": USER_AGENT,
             "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.8",
         },
     )
-    with urlopen(request, timeout=timeout) as response:
-        charset = response.headers.get_content_charset() or "utf-8"
-        return response.read().decode(charset, errors="replace")
+    return body.decode(charset, errors="replace")
 
 
 def local_name(tag):
@@ -158,10 +161,7 @@ def article_metadata(url):
 
 
 def secure_url(value):
-    parsed = urlparse(value)
-    if parsed.scheme == "http":
-        return parsed._replace(scheme="https").geturl()
-    return value
+    return safe_https_url(value)
 
 
 def infer_topic(title, description, default):
@@ -182,13 +182,18 @@ def infer_topic(title, description, default):
 
 def parse_source(source):
     document = fetch_text(source["feed"])
+    if "<!DOCTYPE" in document.upper() or "<!ENTITY" in document.upper():
+        raise ValueError("Feed XML declarations are not permitted")
     root = ET.fromstring(document)
     nodes = [node for node in root.iter() if local_name(node.tag) in {"item", "entry"}]
     stories = []
 
     for node in nodes[: PER_SOURCE_LIMIT + 2]:
         title = clean_text(child_text(node, {"title"}), limit=180)
-        link = item_link(node)
+        link = secure_url(urljoin(source["home"], item_link(node)))
+        publisher = urlparse(source["home"]).hostname.removeprefix("www.")
+        if urlparse(link).hostname not in {publisher, f"www.{publisher}"}:
+            continue
         if not title or not link:
             continue
 

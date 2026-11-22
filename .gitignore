@@ -1,0 +1,8 @@
+# Local credentials and generated test files must not be deployed by Pages.
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.security-test/
+gmail-*.jpg

@@ -3,7 +3,10 @@ import json
 import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.request import Request, urlopen
+try:
+    from .feed_http import fetch_public_bytes
+except ImportError:
+    from feed_http import fetch_public_bytes
 
 
 KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
@@ -24,9 +27,10 @@ def fetch_json(url, source_name):
 
     for attempt in range(1, FETCH_ATTEMPTS + 1):
         try:
-            request = Request(url, headers=REQUEST_HEADERS)
-            with urlopen(request, timeout=30) as response:
-                body = response.read()
+            body, _ = fetch_public_bytes(
+                url, {"www.cisa.gov", "cisa.gov", "livethreatmap.radware.com"},
+                headers=REQUEST_HEADERS, timeout=30, limit=8_000_000,
+            )
 
             if not body.strip():
                 raise ValueError(f"{source_name} returned an empty response")

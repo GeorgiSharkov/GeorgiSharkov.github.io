@@ -101,7 +101,7 @@ def render():
   <p class="threat-brief-cadence">New research scheduled for Monday mornings. Each article shows its publication date and sources.</p></section>
   <section class="threat-brief-library" aria-label="Published SOC articles">''' + "\n".join(cards) + '''</section></main>
   <footer class="footer"><p>CyberShark / Georgi Sharkov</p><a href="index.html">Back to home &#8594;</a></footer>
-</div><script src="script.js?v=20261002-3"></script></body></html>
+</div><script src="script.js?v=20261122-1"></script></body></html>
 '''
     home_path.write_text(home, encoding="utf-8")
     (ROOT / "threat-briefs.html").write_text(archive, encoding="utf-8")

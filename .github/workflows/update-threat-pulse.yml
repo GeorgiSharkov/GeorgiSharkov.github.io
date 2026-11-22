@@ -10,6 +10,7 @@ on:
     paths:
       - ".github/workflows/update-threat-pulse.yml"
       - "scripts/update_threat_pulse_data.py"
+      - "scripts/feed_http.py"
 
 permissions:
   contents: write
@@ -21,15 +22,17 @@ concurrency:
 jobs:
   refresh-kev-snapshot:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Python
-        uses: actions/setup-python@v7
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
         with:
           python-version: "3.12"
 
@@ -37,6 +40,8 @@ jobs:
         run: python scripts/update_threat_pulse_data.py
 
       - name: Commit snapshot if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -48,7 +53,7 @@ jobs:
             git fetch origin main
             git rebase origin/main
 
-            if git push origin HEAD:main; then
+            if git -c credential.helper='!gh auth git-credential' push origin HEAD:main; then
               exit 0
             fi
 
