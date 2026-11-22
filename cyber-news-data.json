@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-21T19:43:11.138508+00:00",
+  "generatedAt": "2026-11-22T01:31:42.677191+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
+      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-22T00:53:02+00:00",
+      "description": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/FBI-Surveillance.jpg",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever",
       "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/",
@@ -10,6 +21,17 @@
       "publishedAt": "2026-11-21T13:12:03+00:00",
       "description": "CrowdStrike is in talks to acquire Zscaler in a deal that could rank among the largest in cybersecurity history.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/CrowdStrike-to-Acquire-Zscaler.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
+      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-21T13:00:00+00:00",
+      "description": "White House says the battle-tested cyber leader will drive an America First cyber strategy.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
       "topic": "News",
       "kind": "News"
     },
@@ -120,28 +142,6 @@
       "publishedAt": "2026-11-20T16:01:02+00:00",
       "description": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp\u2019s security team, and it may have been used to make scam messages more credible.",
       "image": "https://www.securityweek.com/wp-content/uploads/2025/06/WhatsApp-Vulnerability-attack-e1761292707809.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "In Other News: Norwegian Energy Firm Cyberattacks, Supercomputer Hack, New Nightmare Eclipse Exploit",
-      "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-20T14:56:23+00:00",
-      "description": "Noteworthy stories that might have slipped under the radar: EU adds NoName057(16) to cyber sanctions list, malware targets CACs left in personal computers, Gemini agents targeted Epoch AI.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Industry Reactions to Major Outages and AI Patching Debate: Feedback Friday",
-      "url": "https://www.securityweek.com/industry-reactions-to-major-outages-and-ai-patching-questions-feedback-friday/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-20T12:38:55+00:00",
-      "description": "Experts commented on whether AI-accelerated patching played a role, the need for tested rollback plans, and the fragility of interconnected systems.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/Feedback-Friday.jpeg",
       "topic": "Vulnerability",
       "kind": "News"
     },
