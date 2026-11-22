@@ -1,5 +1,13 @@
 [
   {
+    "title": "UK refrigeration cyberattacks: from controller exposure to cold-chain impact",
+    "url": "uk-refrigeration-cyberattacks-2026.html",
+    "published": "2026-11-22",
+    "category": "OT security / Incident analysis",
+    "summary": "Separate confirmed UK impact from the RDM controller disclosure, then trace remote access, configuration changes and physical evidence with a cold-chain SOC playbook.",
+    "tags": ["Refrigeration OT", "Controller exposure", "SOC investigation"]
+  },
+  {
     "title": "Microsoft 365 outage phishing: the outage ends, the phishing starts",
     "url": "weekly-threat-2026-11-17-outage-phishing.html",
     "published": "2026-11-17",

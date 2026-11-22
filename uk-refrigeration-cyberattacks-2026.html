@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Refrigeration Cyberattacks | CyberShark SOC Case Study</title>
+  <meta name="description" content="What the UK refrigeration cyberattacks and separate RDM disclosure tell SOC teams about exposed controls, process evidence and safe recovery.">
+  <meta name="theme-color" content="#0a0f24">
+  <link rel="canonical" href="https://georgisharkov.github.io/uk-refrigeration-cyberattacks-2026.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&amp;family=Rajdhani:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-YXYG9BY9Z5');</script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20261025-1">
+  <script src="site-security.js?v=20261122-1"></script>
+</head>
+<body class="weekly-body"><div class="page-shell">
+  <div class="grid-noise" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="index.html"><img class="brand-mark" src="brand-mark.svg" alt=""><span class="brand-copy"><strong>CYBERSHARK</strong><span>SOC Case Study / Cold Chain</span></span></a>
+    <nav class="topnav" aria-label="Primary"><a href="index.html">Home</a><a href="threat-briefs.html">Threat Briefs</a><a href="#hunt">Hunt</a><a href="#response">Response</a><a href="#sources">Sources</a></nav>
+  </header>
+  <main><article>
+    <header class="panel weekly-hero">
+      <p class="eyebrow">OPERATIONAL TECHNOLOGY / UK COLD CHAIN / INCIDENT ANALYSIS</p>
+      <h1>When refrigeration becomes a cyber incident</h1>
+      <p class="weekly-deck">A warm cabinet is an operational alarm, not proof of a hack. Follow the evidence from remote access and controller settings to independent temperature readings.</p>
+      <p>Published <time datetime="2026-11-22">22 November 2026</time></p>
+    </header>
+    <nav class="weekly-toc" aria-label="Article sections"><a href="#signal">What happened</a><a href="#mechanism">How it works</a><a href="#path">Evidence map</a><a href="#triage">Triage</a><a href="#hunt">Hunt</a><a href="#response">Response</a><a href="#sources">Sources</a></nav>
+
+    <section class="panel weekly-section" id="signal">
+      <p class="eyebrow">01 / WHAT THE SOURCES SAY</p><h2>Separate UK impact from UK exposure</h2>
+      <ul>
+        <li><strong>11–12 October, France:</strong> France says a campaign targeted refrigeration controls at more than 700 retail sites, causing spoiled food and fires. On 10 November it attributed that October campaign to Shahid Kaveh, an Iranian unit affiliated with the IRGC. That attribution is specific to the French campaign; it does not identify who affected UK organisations. <a href="#source-1">[1]</a></li>
+        <li><strong>2–3 November, UK disclosure:</strong> Pen Test Partners says RDM issued customer advisory <code>RDM-SA-2026-001</code> on 2 November and revised it on 3 November. Neil McCourt of Omega Solutions identified a flaw; Pen Test Partners validated it and reported additional findings to RDM. <a href="#source-3">[3]</a></li>
+        <li><strong>12 November, UK impact:</strong> the Government told Parliament that a small number of UK organisations were affected by the recent attacks and that some affected devices had known vulnerabilities. The answer did not tie the UK impacts to the newly identified RDM flaw. NCSC alerted other potentially affected organisations, and some large supermarkets already kept refrigeration controls off the public internet. <a href="#source-2">[2]</a></li>
+        <li><strong>20 November, public update:</strong> the researchers described efforts to identify and remove exposed RDM controllers from the internet and reported that RDM released firmware intended to address several findings. They withheld the vulnerability mechanics. Their account documents exposure and mitigation, not confirmed malicious use of the RDM flaw. <a href="#source-3">[3]</a></li>
+      </ul>
+      <p><strong>What remains unknown:</strong> the reviewed sources do not establish the exact UK intrusion path, a verified RDM CVE or model-by-model fixed version, or incident-specific indicators suitable for a blocklist. Obtain the model and firmware matrix through your vendor or service partner; do not apply a Danfoss advisory to RDM equipment.</p>
+    </section>
+
+    <section class="panel weekly-section" id="mechanism">
+      <p class="eyebrow">02 / TECHNICAL MECHANISM</p><h2>The management interface changes the physical process</h2>
+      <p>Commercial refrigeration is operational technology. A site supervisor can aggregate readings and manage multiple cases, cold rooms or plant controllers; local controllers use sensors and configured targets to regulate cooling. Operators and contractors may use remote interfaces for monitoring, alarms or maintenance. An RDM architecture document illustrates the separation between a site manager and the in-store refrigeration network; it is not a model list for the 2026 advisory. <a href="#source-4">[4]</a></p>
+      <ul>
+        <li><strong>Setpoint versus measured temperature:</strong> a setpoint is a target, not a reading. A higher target can reduce demand for cooling; the measured temperature may rise later depending on ambient heat, doors, stock load, controller logic and safeguards. Cabinet air temperature is not the same as product temperature.</li>
+        <li><strong>Defrost versus cooling failure:</strong> scheduled defrost can temporarily raise air temperature. Compare changes in settings and defrost state with the normal cycle, equipment status and independent sensors. A warm trace alone cannot distinguish tampering from routine defrost, a failing probe or a compressor fault.</li>
+        <li><strong>Alarm policy versus plant state:</strong> alarm thresholds, delays and routing affect what staff see, not whether stock is safe. A monitoring gap is not evidence that alarms were deliberately suppressed. Use independent alerts and reconcile gaps against gateway, power and network events.</li>
+      </ul>
+      <p><strong>Prerequisites for this scenario:</strong> there must be a network path to a management service, a way for the session to obtain configuration-write authority, and a path from that authority to the affected plant. Local overrides and separate safety controls can limit impact. Consider site firewalls, vendor portals and cellular gateways separately: a cellular deployment can have a path that the corporate perimeter inventory misses. <a href="#source-3">[3]</a> <a href="#source-5">[5]</a></p>
+    </section>
+
+    <section class="panel weekly-section" id="path">
+      <p class="eyebrow">03 / ORIGINAL EVIDENCE MAP</p><h2>Prove reachability, change and effect separately</h2>
+      <ol class="weekly-chain" aria-label="Conceptual refrigeration investigation sequence, not a reconstruction">
+        <li><span>01</span><strong>Management path</strong><p>Firewall, remote gateway or cellular routing records.</p></li>
+        <li><span>02</span><strong>Session</strong><p>Account, source, session time and maintenance authorisation.</p></li>
+        <li><span>03</span><strong>Configuration write</strong><p>Before/after values, controller audit or known-good backup.</p></li>
+        <li><span>04</span><strong>Plant response</strong><p>Cooling demand, defrost state and measured temperature.</p></li>
+        <li><span>05</span><strong>Stock decision</strong><p>Independent measurements and food-safety disposition.</p></li>
+      </ol>
+      <p>This is an analyst model, not a reconstruction of any UK victim. A firewall allow shows a connection, not a valid login. A login shows access, not a write. A write plus a later temperature rise still requires checking equipment state and alternative causes.</p>
+      <p><strong>ATT&amp;CK for ICS:</strong> use <a href="https://attack.mitre.org/techniques/T0836/">T0836 Modify Parameter</a> when you have evidence of unauthorised changes to process settings; <a href="https://attack.mitre.org/techniques/T0822/">T0822 External Remote Services</a> if an external service was used for access; and <a href="https://attack.mitre.org/techniques/T0878/">T0878 Alarm Suppression</a> only if evidence shows deliberate interference with alarms. These are conditional investigation mappings, not a list of observed UK techniques.</p>
+    </section>
+
+    <section class="panel weekly-section" id="triage">
+      <p class="eyebrow">04 / FIRST ANALYST PASS</p><h2>Build a timeline per site and controller</h2>
+      <ol>
+        <li><strong>Get an independent reading.</strong> Engage on-site engineering and the food-safety lead immediately if temperature is rising, monitoring is unreliable or equipment is unsafe. Use approved local measurements rather than relying solely on a potentially affected dashboard.</li>
+        <li><strong>Identify the asset and dependencies.</strong> Record site, cabinet or room, controller and supervisor IDs, firmware, remote maintenance owner, management paths and how local control behaves without remote connectivity.</li>
+        <li><strong>Export evidence before resetting when safe.</strong> Preserve controller user and change logs where supported, current configuration, last known-good backup, temperature history, alarm configuration and delivery records. Capture contractor VPN or portal sessions, firewall and NAT events, cellular gateway logs and the approved work order. Document records that do not exist or have already rolled over.</li>
+        <li><strong>Align clocks.</strong> Keep original timestamps and offsets, normalise to UTC, and record drift or resets. Compare change times to engineer sessions, scheduled defrost, site power events and temperature response. Start scoping around the earliest abnormal signal, not only the alert receipt time.</li>
+        <li><strong>Scope other sites.</strong> Check the same model, managed gateway, account and management provider across your estate. Mark each site separately as exposed, suspicious or confirmed affected, with supporting evidence and visibility gaps.</li>
+      </ol>
+    </section>
+
+    <section class="panel weekly-section" id="hunt">
+      <p class="eyebrow">05 / DEFENSIVE HUNT STARTER</p><h2>Find accepted writes to controlled settings</h2>
+      <p>Illustrative Splunk SPL against a locally normalised OT audit index. Field names, index and values are examples, not product-native fields or incident indicators. This read-only query was not run on a customer dataset. Validate normalisation, use event time, and include the incident window in the time picker.</p>
+      <div class="weekly-query"><pre><code>index=ot_audit action="config_write" result="success"
+  parameter IN ("setpoint", "defrost_schedule", "alarm_threshold",
+                "alarm_delay", "alarm_enabled")
+| where isnotnull(old_value) AND isnotnull(new_value)
+  AND old_value!=new_value
+| table _time site_id controller_id actor src_ip session_id
+        parameter old_value new_value change_ticket
+| sort 0 _time</code></pre></div>
+      <p>Join candidate changes to maintenance approvals and gateway sessions using asset identity and session ID where available. Then plot independent temperature and alarms for that asset. A change ticket is context, not proof that a specific write was authorised. Expected explanations include a seasonal schedule, commissioning, emergency callout or controller replacement. If old/new values are absent, use a separate review of all successful writes and compare configuration backups. If controllers do not log writes at all, a zero-result hunt has no clearance value.</p>
+    </section>
+
+    <section class="panel weekly-section" id="response">
+      <p class="eyebrow">06 / CONTAINMENT AND RECOVERY</p><h2>Remove unsafe access without losing cooling</h2>
+      <ol>
+        <li><strong>Contain with engineering.</strong> Coordinate removal of public management paths, including any cellular routes, while retaining verified local cooling and independent alarms. Do not power-cycle or disconnect equipment blindly. Revoke suspect remote sessions and rotate affected service credentials in coordination with maintenance staff.</li>
+        <li><strong>Restore from an approved baseline.</strong> Review settings with the plant owner; confirm alarm destinations and who is on call. Obtain model-specific firmware and upgrade instructions through the vendor, back up first, and stage the change with a tested rollback and a maintenance window. Replace equipment that cannot be supported safely. <a href="#source-3">[3]</a> <a href="#source-5">[5]</a></li>
+        <li><strong>Keep access private.</strong> Segment refrigeration from general IT. Use a controlled remote gateway with named accounts, MFA where supported at the gateway, and time-limited vendor access. Log remote sessions and alert on unexpected changes to network exposure, accounts and plant settings. <a href="#source-5">[5]</a> <a href="#source-6">[6]</a></li>
+        <li><strong>Prove recovery.</strong> Verify exposure closure from an authorised vantage point, including secondary links; check firmware and configuration against inventory; confirm stable cooling through normal operating cycles and test alarms end to end with engineering. Hold uncertain stock for the food-safety lead's decision under site procedures. A normal temperature now does not clear earlier exposure.</li>
+      </ol>
+      <p><strong>Close only when</strong> access is controlled, plant behaviour and alert delivery are verified, stock disposition is recorded, and remaining visibility gaps have an owner. Record the security conclusion and the food-safety conclusion separately.</p>
+    </section>
+
+    <section class="panel weekly-section" id="sources">
+      <p class="eyebrow">07 / SOURCE REGISTER</p><h2>Primary evidence and technical guidance</h2>
+      <ol>
+        <li id="source-1"><a href="https://www.diplomatie.gouv.fr/en/presse-et-ressources/decouvrir-et-informer/actualites/declaration-d-attribution-a-l-iran-de-cyberattaques-visant-la-france">France Diplomatie: October campaign and attribution statement</a></li>
+        <li id="source-2"><a href="https://questions-statements.parliament.uk/written-questions/detail/2026-11-04/40976">UK Parliament: written answer on commercial refrigeration attacks</a></li>
+        <li id="source-3"><a href="https://www.pentestpartners.com/security-blog/the-fridge-hack-uk-supermarkets-narrowly-avoided/">Pen Test Partners: first-hand report on the RDM disclosure and response</a></li>
+        <li id="source-4"><a href="https://www.resourcedm.com/media/e3zneyf1/mars-guide-software-v13-rev-a-25-03-16.pdf">Resource Data Management: Data Manager architecture guide (PDF)</a></li>
+        <li id="source-5"><a href="https://www.ncsc.gov.uk/collection/operational-technology">NCSC: operational technology security guidance</a></li>
+        <li id="source-6"><a href="https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices">NCSC: risks of internet-exposed systems and edge devices</a></li>
+      </ol>
+      <p>The evidence map and hunt example are original defensive material. This article does not present victim telemetry, private advisory contents or an exploit reconstruction.</p>
+    </section>
+  </article></main>
+  <footer class="footer"><p>CyberShark / Georgi Sharkov</p><a href="threat-briefs.html">All threat briefs &#8594;</a></footer>
+</div><script src="script.js?v=20261122-1"></script>
+</body>
+</html>
