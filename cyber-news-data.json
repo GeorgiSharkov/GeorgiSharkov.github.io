@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-11-22T17:10:21.584668+00:00",
+  "generatedAt": "2026-11-22T19:55:53.681485+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33530",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-22T18:40:18+00:00",
+      "description": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
+    {
+      "title": "VirusTotal\u2019s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines",
+      "url": "https://cybersecuritynews.com/virustotal-ransomware-detection/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-22T17:11:43+00:00",
+      "description": "VirusTotal's new behavior checks detected Python ransomware missed by all 75 antivirus engines by verifying actual file encryption.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/VirusTotals-New-Ransomware-Detection-Catches-Malware-Missed-by-All-75-Antivirus-Engines.webp",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
     {
       "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
       "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
@@ -65,17 +87,6 @@
       "publishedAt": "2026-11-22T00:53:02+00:00",
       "description": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains.",
       "image": "https://www.securityweek.com/wp-content/uploads/2024/04/FBI-Surveillance.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "MCP Server Security: How to Stop Rogue AI Agents",
-      "url": "https://cybersecuritynews.com/mcp-server-security/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-21T17:24:13+00:00",
-      "description": "MCP servers give AI agents direct access to tools and data. Learn how to detect malicious agents, strengthen authentication, and protect MCP endpoints.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1NMwFg-fJ_QUCEYPZit63GqUesxeOGeAVRnu2xvkWI0_5SMisM7JnRFLyZWttmxEAJpMZspfN8Y3bESDNNIDaVzUMFWkHL947SLq_7eD7SGUPOeM88T6dxqEt6eVpzqHOydhUoa7Xv6tMoWBDHHhSc5HQ0f60M0yYayvpea4diXplORnh2knCSCuihY4/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20pro%20-%202026-11-18T225937.60.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -176,17 +187,6 @@
       "description": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
       "image": "",
       "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33532",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-18T19:54:50+00:00",
-      "description": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and events that may\u2026",
-      "image": "",
-      "topic": "Vulnerability",
       "kind": "DFIR"
     },
     {
