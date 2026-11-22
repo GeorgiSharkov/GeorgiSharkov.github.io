@@ -1,7 +1,62 @@
 {
-  "generatedAt": "2026-11-22T01:31:42.677191+00:00",
+  "generatedAt": "2026-11-22T11:54:55.472074+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-22T05:06:55+00:00",
+      "description": "Attackers stole AI prompts from three inference providers, prompting OpenRouter to remove 125 endpoints from Zero Data Retention eligibility.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1700-nu-rw-lo-l85-e365/openrouter.png",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-22T05:03:41+00:00",
+      "description": "Ghostscript flaw CVE-2026-125396 allows crafted files to escape its sandbox and execute server commands through common file-processing apps.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1700-nu-rw-lo-l85-e365/ghostscript.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "OpenRouter Users\u2019 Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
+      "url": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-22T03:58:45+00:00",
+      "description": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed to follow their data policies.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenRouter-AI-Chat-Leaks.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
+      "url": "https://cybersecuritynews.com/upload2shell-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-22T02:43:08+00:00",
+      "description": "A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Upload2Shell-Flaw.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
+      "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-22T02:03:18+00:00",
+      "description": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-Entra-Connect-Health-Flaw.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
     {
       "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
       "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
@@ -14,13 +69,13 @@
       "kind": "News"
     },
     {
-      "title": "CrowdStrike in Talks to Acquire Zscaler in One of the Biggest Cybersecurity Deals Ever",
-      "url": "https://cybersecuritynews.com/crowdstrike-to-acquire-zscaler/",
+      "title": "MCP Server Security: How to Stop Rogue AI Agents",
+      "url": "https://cybersecuritynews.com/mcp-server-security/",
       "source": "Cybersecurity News",
       "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-21T13:12:03+00:00",
-      "description": "CrowdStrike is in talks to acquire Zscaler in a deal that could rank among the largest in cybersecurity history.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/CrowdStrike-to-Acquire-Zscaler.webp",
+      "publishedAt": "2026-11-21T17:24:13+00:00",
+      "description": "MCP servers give AI agents direct access to tools and data. Learn how to detect malicious agents, strengthen authentication, and protect MCP endpoints.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1NMwFg-fJ_QUCEYPZit63GqUesxeOGeAVRnu2xvkWI0_5SMisM7JnRFLyZWttmxEAJpMZspfN8Y3bESDNNIDaVzUMFWkHL947SLq_7eD7SGUPOeM88T6dxqEt6eVpzqHOydhUoa7Xv6tMoWBDHHhSc5HQ0f60M0yYayvpea4diXplORnh2knCSCuihY4/s1600/Insignary%20Launches%20Clarity%20On-Demand_%20SBOMs,%20No%20Annual%20Commitment%20Required%20Toronto,%20Canada,%20July%2015th,%202026,%20CyberNewswire%20Enterprise-grade%20binary%20software%20verification%20for%20one%20pro%20-%202026-11-18T225937.60.webp",
       "topic": "News",
       "kind": "News"
     },
@@ -66,61 +121,6 @@
       "description": "GnuPG fixes critical GPGME flaw CVE-2026-129975, which malicious OpenPGP keys could trigger to potentially expose application data.",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTmX4ayWzvM0EzPttZ610B2837FppeU5AEmQmztLH2lai78EDQtjrp4wVI_bubSe2c2NGBE5sqBT9Py1mKkHQKN2faBkOzU70d7FntrpYD7Et2eeBxLNy2gzByAo1i8Aaw_VMBZD62RnBMY2md3iNfegK9M_NR5qTRDBw8s0uwKy1w7JoTV0zkDS_17Lse/s1700-nu-rw-lo-l85-e365/pgp.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-21T11:03:17+00:00",
-      "description": "Suspected China-linked hackers used AI agents to exploit a MONAI Label flaw and gain root access to a university server; no patched release exists.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEIG6Wgi3wGQXrsdGKEf4ORPFjHVGpRkoSUPraOJfKhGmB0vYFojLq2mCuOP3a71_XpNZusvn45ZDa1J3a7eQ0WE3XJY0FGunHVWB1yHBluJT5vSDCmzkhaFGiHjeKbnoah6noyZ3mNInS-mjJK1Gfcf7jT3A60ZYR_eknSgt_sEa6MNGM-DA5-aLXMbZ5/s1700-nu-rw-lo-l85-e365/medical-ai.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-21T08:49:20+00:00",
-      "description": "Signal is blocking screenshots by default on Android and iOS to limit AI access to private chats, but warns the protection is incomplete.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1cVX1DZUDMTkSc3kGcO8KsGd-MIBr6py39SuaRxG1wCxVVfKIQhiQaywRpjn95FQV4tMy0dWyNc49745cwqBBLpGzVK_eut-DGLBaidiiYCdIH65bXGtopuPJ7dofJzAJVJ6cWrKp2JJb5gNrODQuWtK7vZZp824ecrz4_DHWWJIaC5wS6aYfsMsKshg4/s1700-nu-rw-lo-l85-e365/signal.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "6 Critical F5 BIG-IP Vulnerabilities Could Let Hackers Disrupt Websites and Execute Malicious Code",
-      "url": "https://cybersecuritynews.com/critical-f5-big-ip-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-21T03:13:03+00:00",
-      "description": "F5 released emergency fixes for six critical BIG-IP vulnerabilities that could let remote attackers take websites and other services offline without logging in. The flaws affect specific traffic-handling configurations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-F5-BIG-IP-Vulnerabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "WhatsApp Android Flaws Could Let Hackers Delete Users\u2019 Files and Expose IP Addresses",
-      "url": "https://cybersecuritynews.com/whatsapp-android-flaws/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-21T02:36:55+00:00",
-      "description": "WhatsApp\u2019s November 2026 security update describes three flaws that could let attackers delete files stored by WhatsApp on Android, expose a user\u2019s IP address, or bypass a security check for Meta AI\u2019s Private Processing service.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WhatsApp-Android-Flaws.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "14 Best Enterprise Risk Management Tools 2027",
-      "url": "https://cybersecuritynews.com/enterprise-risk-management-tools/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-21T01:26:39+00:00",
-      "description": "Enterprise Risk Management Tools: 1. MetricStream 2. LogicManager 3. RSA Archer 4. SAP GRC 5. Riskonnect 6. IBM OpenPages 7. Resolver",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg3EZb1ZCrWvCb8x1zAbK9J7_4pct-wdL5kZ5dU5I7lEelIMmvNlSc6JRD50lUsZv9aGyi5_pICENQf3_xYH3cd4tmjc4cqRU2j7-RuX3LluhFYweqOl6wqEyUTMXoaTUO_VNIwvHXqRr1e3-6YtSEYG5tNGnfixd6jU_PkxRtyESAaUQEoMq4vAdayr4/s1600/csn%20and%20gbh%20(6).webp",
-      "topic": "News",
       "kind": "News"
     },
     {
