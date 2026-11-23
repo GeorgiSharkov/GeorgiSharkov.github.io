@@ -1,7 +1,150 @@
 {
-  "generatedAt": "2026-11-23T01:56:07.196742+00:00",
+  "generatedAt": "2026-11-23T13:33:39.057256+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-23T13:26:22+00:00",
+      "description": "Attackers abused a flaw in the GoodCloud remote management service to push malware to devices, and cleaning them requires new firmware.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/03/router.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "iTerm2 Remote Code Execution Flaw Lets Hackers Run Malicious Commands by Displaying Crafted Files",
+      "url": "https://cybersecuritynews.com/iterm2-remote-code-execution-flaw/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-23T12:57:36+00:00",
+      "description": "An iTerm2 flaw allows malicious files to execute commands when displayed in a vulnerable terminal session, without running scripts.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/iTerm2-Remote-Code-Execution-Flaw-Lets-Hackers-Run-Malicious-Commands-by-Displaying-Crafted-Files.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Jailbroken AI Agent Helps Hacker Steal Customer Data and 8.6GB of European Government Files",
+      "url": "https://cybersecuritynews.com/jailbroken-ai-agent/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-23T12:44:59+00:00",
+      "description": "Low-skilled hacker BabidiGhost used a jailbroken AI agent to steal insurer data and 8.6GB of files from European municipalities.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Jailbroken-AI-Agent-Helps-Hacker-Steal-Customer-Data-and-8.6GB-of-European-Government-Files.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "CrowdStrike to Acquire Zscaler in Massive $43.9 Billion Cybersecurity Deal",
+      "url": "https://cybersecuritynews.com/crowdstrike-acquire-zscaler/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-23T12:44:26+00:00",
+      "description": "CrowdStrike has agreed to acquire Zscaler in a $43.9 billion all-stock deal that would bring cloud network security to its Falcon platform.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/CrowdStrike-to-Acquire-Zscaler-1.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-23T12:41:04+00:00",
+      "description": "Attackers exploit CVE-2026-84869 in ConnectWise ScreenConnect to execute malware on MSP technician PCs and deploy rogue remote access clients.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWAI03mMW-UNs2bdUuZEiugVBMZq3speEoo8tbQ7TZVITD4fnXiK4l657Tn4-G9fX2w8xLz2zkP9-RTrg3QZPtNMHL_Lg7YRoruCnp8TJA4tbA5bW1YsBZU8QR2FIqSb3_IpN1Le-Xoq2MQ82ZQyRNmYxr8q70PPzijzypDcIDKMIOjrzBweBUiKJ_nuJY/s1700-nu-rw-lo-l85-e365/screens.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-23T12:28:09+00:00",
+      "description": "N-able patched critical Mail Assure SSRF flaw CVE-2026-134624 during a cloud breach investigation; its role in the attack remains unknown.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcXbCG8v5Kc2mTfNCFEiow0EHLJWtsrsrEodqvL8qF8awCnrDzw2TfxtPq7rYI3u78mviB8ekGNGL1Of8FZrSM6uZT1lhz2mfRHwHQyhQT8234u03WGZ9M4UZzmj2cYMs8qlsJ54PwNPvVMb2awEzinXAYL0Y25iOGjjikMvq4NQ-v03mqluZnI53PNdk/s1700-nu-rw-lo-l85-e365/nables.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Indian Cyber Crime Coordination Center Urges Users Not to Share Confidential Data on WhatsApp Web",
+      "url": "https://cybersecuritynews.com/whatsapp-web-confidential-data/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-23T12:19:18+00:00",
+      "description": "The Indian Cyber Crime Coordination Center (I4C) has urged users not to share confidential data on WhatsApp Web and to log out manually after every session.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/WhatsApp-Web-confidential-data-.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+      "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-23T12:16:20+00:00",
+      "description": "Dragos uncovered undetected intrusions at three AI inference providers using nearly two million prompts sent to AI services.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/09/data-leak.jpeg",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+      "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-23T11:44:18+00:00",
+      "description": "Backdoors on low-cost consumer devices served modules for ad fraud and for turning devices into residential proxies.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2025/03/botnets.jpeg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "SAP NetWeaver, Cisco Expressway Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/sap-netweaver-cisco-expressway-flaws-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-23T11:35:15+00:00",
+      "description": "Threat actors could exploit them to leak or modify server information and to execute commands as root.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/02/SAP.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-23T09:11:56+00:00",
+      "description": "Hackers are exploiting CVE-2026-131914, a critical unpatched Idunno.AntiCsrf flaw enabling unauthenticated RCE in ASP.NET WebForms.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWv3LP9w9Iv-ZmqonS5mwf1jDE-lTLUcDPxCOvYn3RF87-n2epMtdhqH5xXf-bsIIyKXq6U9qU5T1OQ6_Y3VeytS0CCA4TLJtFDcfcHR-I2EHY3t2e94UPvppaaXG9jDQPj4wNwt6CdwQCmXm5uK16BAp5Fn12DmxUk-Wu5ZwPT2kPQFo37oxSeqc6hX7X/s1700-nu-rw-lo-l85-e365/asp.net.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-23T09:04:08+00:00",
+      "description": "Hackers exploited a GL.iNet GoodCloud flaw to infect routers and KVMs. Security firmware removes identified malware, but persistence concerns remain.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ctvKkiuJ-JViYFHxOV5w1CYjcopn7_YrQt2SnF6JC_SvdOugBSXLdVaMgnWhLCO1NfVgwru4ieWK8L3IeCP-OR75HltWOF5qNhOm9iH_VzJi3PSuUgCUtvhy0zkh_nZFv14tLCRsWly39aREkIphJtNMYUvsGS-CvIwunALU5KxtjFswov-lcS2iqzY/s1700-nu-rw-lo-l85-e365/glinet.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33548",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-23T02:00:04+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33530",
@@ -14,127 +157,6 @@
       "kind": "DFIR"
     },
     {
-      "title": "VirusTotal\u2019s New Ransomware Detection Catches Malware Missed by All 75 Antivirus Engines",
-      "url": "https://cybersecuritynews.com/virustotal-ransomware-detection/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-22T17:11:43+00:00",
-      "description": "VirusTotal's new behavior checks detected Python ransomware missed by all 75 antivirus engines by verifying actual file encryption.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/VirusTotals-New-Ransomware-Detection-Catches-Malware-Missed-by-All-75-Antivirus-Engines.webp",
-      "topic": "Ransomware",
-      "kind": "News"
-    },
-    {
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-22T05:06:55+00:00",
-      "description": "Attackers stole AI prompts from three inference providers, prompting OpenRouter to remove 125 endpoints from Zero Data Retention eligibility.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1700-nu-rw-lo-l85-e365/openrouter.png",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-22T05:03:41+00:00",
-      "description": "Ghostscript flaw CVE-2026-125396 allows crafted files to escape its sandbox and execute server commands through common file-processing apps.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1700-nu-rw-lo-l85-e365/ghostscript.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenRouter Users\u2019 Private AI Chats Possibly Exposed Via Compromised Third-Party Providers",
-      "url": "https://cybersecuritynews.com/openrouter-ai-chat-leaks/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-22T03:58:45+00:00",
-      "description": "OpenRouter has removed three AI hosting providers and revoked Zero Data Retention eligibility for 125 endpoints after researchers found evidence that some providers had been compromised or had failed to follow their data policies.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/OpenRouter-AI-Chat-Leaks.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Could Execute Commands on WordPress, Email and Print Servers Through Upload2Shell Flaw",
-      "url": "https://cybersecuritynews.com/upload2shell-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-22T02:43:08+00:00",
-      "description": "A flaw in Ghostscript let researchers run commands on WordPress, Roundcube webmail, and Linux print servers through routine file processing.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Upload2Shell-Flaw.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Exploit Microsoft Entra Connect Health Flaw to Access Admin Emails and Organization Data",
-      "url": "https://cybersecuritynews.com/microsoft-entra-connect-health-flaw/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-22T02:03:18+00:00",
-      "description": "Attackers exploited a flaw in Microsoft Entra Connect Health to read administrator and technical contact email addresses, along with configuration data from affected organizations.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Microsoft-Entra-Connect-Health-Flaw.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-22T00:53:02+00:00",
-      "description": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/FBI-Surveillance.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-21T13:00:00+00:00",
-      "description": "White House says the battle-tested cyber leader will drive an America First cyber strategy.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/01/Cybersecurity_News-SecurityWeek.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Amazon: China-Linked Hackers\u2019 AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-21T12:08:50+00:00",
-      "description": "A threat actor used autonomous Cairn AI agents to discover and exploit a critical MONAI Label vulnerability.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/04/Artificial-Intelligence-vs-AI.jpeg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-21T11:53:07+00:00",
-      "description": "Researchers demonstrated Meta Muse flaws enabling conversation theft and cloud machine takeover; NebuSec says the issues are fixed.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYiVrbfn3FWfI_uNyjj8q9SZ38d2mHKu2ehdtYYKPwyg-05yKJBYUAPEaVxJq5KDGwU11X2tmEKNUKPIHQY9s67e1K9w_8NRdEOxVCDJqqMbQ6F27kfOj3GKjcQ3-0WHFNg7uYT6QeIU90qX1YW_Zvyn7WhZwpV41i5Pj6watQsF7Ti8NN1GIQLxw-jPc/s1700-nu-rw-lo-l85-e365/muse-ai.jpg",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-21T11:05:53+00:00",
-      "description": "GnuPG fixes critical GPGME flaw CVE-2026-129975, which malicious OpenPGP keys could trigger to potentially expose application data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTmX4ayWzvM0EzPttZ610B2837FppeU5AEmQmztLH2lai78EDQtjrp4wVI_bubSe2c2NGBE5sqBT9Py1mKkHQKN2faBkOzU70d7FntrpYD7Et2eeBxLNy2gzByAo1i8Aaw_VMBZD62RnBMY2md3iNfegK9M_NR5qTRDBw8s0uwKy1w7JoTV0zkDS_17Lse/s1700-nu-rw-lo-l85-e365/pgp.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "CTO of \u2018RansomwareHelp\u2019 Indicted for Wire Fraud",
       "url": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
       "source": "Krebs on Security",
@@ -144,17 +166,6 @@
       "image": "",
       "topic": "Ransomware",
       "kind": "Investigation"
-    },
-    {
-      "title": "WhatsApp Fixes Flaw Uncovered While Disrupting Scam Campaign",
-      "url": "https://www.securityweek.com/whatsapp-fixes-flaw-uncovered-while-disrupting-scam-campaign/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-20T16:01:02+00:00",
-      "description": "Tracked as CVE-2026-23871, the vulnerability was found by WhatsApp\u2019s security team, and it may have been used to make scam messages more credible.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/06/WhatsApp-Vulnerability-attack-e1761292707809.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
     },
     {
       "title": "ISC Stormcast For Friday, November 20th, 2026 https://isc.sans.edu/podcastdetail/10188, (Fri, Nov 20th)",
@@ -174,17 +185,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-11-19T02:00:03+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33534",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-19T01:53:48+00:00",
-      "description": "[This is a Guest Diary by Kevin Truong, an ISC intern as part of the SANS.edu BACS program]",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
