@@ -1,16 +1,93 @@
 {
-  "generatedAt": "2026-11-24T14:11:58.160476+00:00",
-  "count": 16,
+  "generatedAt": "2026-11-25T00:03:50.293461+00:00",
+  "count": 20,
   "stories": [
     {
-      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
-      "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
       "source": "SecurityWeek",
       "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-24T13:30:23+00:00",
-      "description": "EFS helps zero-retention customers spot Claude misuse spread across many requests while keeping conversation data in their own cloud.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Anthropic-Claude.jpeg",
+      "publishedAt": "2026-11-24T22:41:58+00:00",
+      "description": "It was not clear what specific information was compromised or who was responsible.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/11/CIA_Hacked.jpg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-24T16:54:07+00:00",
+      "description": "Iran-aligned Volant Manticore targets Cyprus and Saudi Arabia using the IPFS-based KuboShell backdoor and a reworked MuddyWater framework.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqukTcR2pkDWiTqMzORa4j7zZRB0MDUGfBly50X7gPwPHqSeBmfReQWpMR9IdPOP_NbeuQSBdYPknSgxvutDll4VAZNSoGqcwmXzhZNEez-UoE-MwTnM9i9XxjoLYRdhY0iY6tD9BK9IDB0o8RUU7sNsOex5tVNtoNwRHCCAxM9ri66c4G2wPa9AqW9saA/s1700-nu-rw-lo-l85-e365/iran-hackers.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-24T16:32:56+00:00",
+      "description": "The critical bugs include an authentication bypass in vCenter and flaws that could allow code execution on ESX hosts.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2022/08/VMWare.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "McDonald\u2019s Japan Confirms Data Breach \u2013 Customer Information and Location Data Exposed",
+      "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-24T15:39:05+00:00",
+      "description": "McDonald\u2019s Japan has confirmed that a third party gained unauthorized access to customer information stored in the database behind its official mobile app.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/McDonalds-Japan-data-breach.webp",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-24T14:49:59+00:00",
+      "description": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
+      "topic": "Data breach",
+      "kind": "News"
+    },
+    {
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-24T14:21:56+00:00",
+      "description": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Critical VMware ESX Flaws Let Remote Attackers Execute Malicious Code on Virtualization Hosts",
+      "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-24T14:11:04+00:00",
+      "description": "Broadcom has disclosed 23 VMware vulnerabilities, including two critical flaws that could let attackers run code directly on ESX hosts and a third that could let them access vCenter without signing in.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/23-VMware-Vulnerabilities.webp",
       "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Deploy ZQAgent Backdoor to Run Malicious Commands and Access Files on Linux Servers",
+      "url": "https://cybersecuritynews.com/hackers-deploy-zqagent-backdoor/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-24T13:35:26+00:00",
+      "description": "ZQAgent Linux backdoor uses ARTEX to maintain long-term access to compromised servers, steal data and evade detection.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Deploy-ZQAgent-Backdoor-to-Run-Malicious-Commands-and-Access-Files-on-Linux-Servers.webp",
+      "topic": "Malware",
       "kind": "News"
     },
     {
@@ -36,6 +113,17 @@
       "kind": "News"
     },
     {
+      "title": "Critical ASP.NET AntiCsrf Flaw Exploited in Attacks by triggering a web redirect on vulnerable apps",
+      "url": "https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-24T12:55:28+00:00",
+      "description": "Attackers are exploiting CVE-2026-131914, a critical flaw in Idunno: AntiCsrf, an old third-party library used by ASP.NET WebForms applications.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-ASP.NET-AntiCsrf-Flaw-Exploited-in-Attacks-by-triggering-a-web-redirect-on-vulnerable-apps-1.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
       "source": "The Hacker News",
@@ -44,50 +132,6 @@
       "description": "GitHub Actions attackers exploited SHA pinning trust gaps to disguise malicious commits, while new workflow lockfiles leave provenance risks unresolve",
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1700-nu-rw-lo-l85-e365/git-actions.jpg",
       "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
-      "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-24T12:20:41+00:00",
-      "description": "OpenAI and Cisco\u2019s Shirudo uses AI-generated shields to block Linux exploits while patches are prepared, but it\u2019s not yet production-ready.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/02/Agentic-AI-Hacking.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-      "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-24T12:02:00+00:00",
-      "description": "Google Project Zero details how .NET Framework loading behavior enabled local security bypasses in VirtualBox and Windows, both patched.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiOJqhOn7t8wd3NeMCWVCg9xmusuRJmZuaePaCbKTif2XsPpPhu0fR1NwQncA4y-wAMmLOzylBZ3ebd9f4G8F6K54sUdnZ2cTn6yPq1RgAKrh4lSX3y1Ll8LIywXkDyVXItUuUGS4sy0BVUMhwXPvOZGdxhvwnd55_OvjOVnh2CfnAeURMVcmafuFgJlQ/s1700-nu-rw-lo-l85-e365/windows.net.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "1.5 Million Impacted by Data Breach at South Korean Electric Company KEPCO",
-      "url": "https://www.securityweek.com/1-5-million-impacted-by-data-breach-at-south-korean-electric-company-kepco/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-24T11:50:21+00:00",
-      "description": "Hackers stole personal information from the company\u2019s customer portal and supplier relationship management platform.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2023/05/COSMICENERGY-OT-Malware.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Elecbrakes Bluetooth Vulnerabilities Expose Trailers to Forced Braking",
-      "url": "https://www.securityweek.com/elecbrakes-bluetooth-vulnerabilities-expose-trailers-to-forced-braking/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-24T10:44:44+00:00",
-      "description": "Critical Bluetooth flaws in Elecbrakes controllers could let nearby attackers force trailer braking, potentially causing accidents.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2025/11/truck-cargo-freight-hacking-transportation.jpeg",
-      "topic": "News",
       "kind": "News"
     },
     {
@@ -192,9 +236,8 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "error",
-      "stories": 0,
-      "message": "not well-formed (invalid token): line 1, column 119"
+      "status": "ok",
+      "stories": 4
     },
     {
       "name": "Krebs on Security",
