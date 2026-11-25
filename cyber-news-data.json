@@ -1,7 +1,73 @@
 {
-  "generatedAt": "2026-11-25T00:03:50.293461+00:00",
-  "count": 20,
+  "generatedAt": "2026-11-25T09:01:44.896584+00:00",
+  "count": 16,
   "stories": [
+    {
+      "title": "Palo Alto Networks Patches Fragnesia Flaw Used to Root Firewalls",
+      "url": "https://www.securityweek.com/palo-alto-networks-patches-fragnesia-flaw-used-to-root-firewalls/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-25T08:12:24+00:00",
+      "description": "A China-linked hacking group chained PHP2Shell with Fragnesia in AI-assisted attacks that hit 25 servers.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2024/04/Palo-Alto-Networks.jpeg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Drupal Flaw Found by Anthropic Scanner Exploited in Attacks",
+      "url": "https://www.securityweek.com/drupal-flaw-found-by-anthropic-scanner-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "sourceUrl": "https://www.securityweek.com/",
+      "publishedAt": "2026-11-25T08:01:06+00:00",
+      "description": "CISA has added the vulnerability to its KEV catalog and instructed federal agencies to patch it within three days.",
+      "image": "https://www.securityweek.com/wp-content/uploads/2026/05/Drupal.jpg",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-25T06:50:19+00:00",
+      "description": "GreyNoise links a campaign affecting 22 organizations and targeting Check Point Management servers to suspected AI-driven offensive tooling.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzxhgIKTt8K5ep8a4qHW9dDpkSYcBC5D1CWgkvvh9Ee5DRlNRSg-2UcZZVNoXrHXVTeIcdzj47FFcSz6gAssLknSDf6f0JDyQCoH51D4GYLSju_wh4smA6-2yE3Z7I30SPeuY8LOKA__Y9xPiU66t1aPsHTzuRnX0QUq2iadcKXFfv7ZhAhcXti_BDnrmu/s1700-nu-rw-lo-l85-e365/code.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-25T06:37:06+00:00",
+      "description": "Com-affiliated hackers use vishing, session hijacking, and unauthorized MFA enrollment to steal corporate cloud data and extort victims.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCQn2zL8-RpfdhDeb1Zmyn46vLk1s9lerpXtGlcMkN5IGF9nlhEejtwoOXwhznjS7JVrix_FeG_G6yJ6Jb8mI31CU4Mi2dndKvLp-4nG4wWsqMaBpI60HFIk5d8_5uIxj6XEjSt4sixJYkJN8Xeqs4OrgSzOPK48esNtXbQ_FgtVe67B_WZkfpuUSEiD7/s1700-nu-rw-lo-l85-e365/vishing.jpg",
+      "topic": "Ransomware",
+      "kind": "News"
+    },
+    {
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-25T06:21:12+00:00",
+      "description": "WordPress blocked malicious releases of six WP Connect plugins containing backdoors designed to enable arbitrary code execution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgNbawIx8zYCfd7sCTbVfIzPFBtykkY65lf8EOswU62pIdZKTrx9ReB3mGnqYqujmW5eGzN_w8pEijAZMTpmOZ3fGB5zFyFaPo4ZhRQ8V0BkAmDCH3WoVqJ3kAfjDcw3_wRjhwphfyJxjF3_rDYiudb-cxt0pY3t8s-IRjNP1aEYHqtO5L1eZMkgBX6y2xD/s1700-nu-rw-lo-l85-e365/wp.jpg",
+      "topic": "Malware",
+      "kind": "News"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, November 25th, 2026 https://isc.sans.edu/podcastdetail/10194, (Wed, Nov 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33554",
+      "source": "SANS ISC",
+      "sourceUrl": "https://isc.sans.edu/",
+      "publishedAt": "2026-11-25T02:00:03+00:00",
+      "description": "Open the original report for full details and source context.",
+      "image": "",
+      "topic": "DFIR",
+      "kind": "DFIR"
+    },
     {
       "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
       "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
@@ -36,105 +102,6 @@
       "kind": "News"
     },
     {
-      "title": "McDonald\u2019s Japan Confirms Data Breach \u2013 Customer Information and Location Data Exposed",
-      "url": "https://cybersecuritynews.com/mcdonalds-japan-data-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-24T15:39:05+00:00",
-      "description": "McDonald\u2019s Japan has confirmed that a third party gained unauthorized access to customer information stored in the database behind its official mobile app.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/McDonalds-Japan-data-breach.webp",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
-      "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-24T14:49:59+00:00",
-      "description": "Names and email addresses of EU Academy users were exposed in the AI-assisted cyberattack the European Commission detected in October.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/06/EU-Europe-European-Union-.jpeg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
-      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
-      "source": "SecurityWeek",
-      "sourceUrl": "https://www.securityweek.com/",
-      "publishedAt": "2026-11-24T14:21:56+00:00",
-      "description": "The attacks were launched from 99 IP addresses and targeted organizations across multiple industries and countries.",
-      "image": "https://www.securityweek.com/wp-content/uploads/2026/10/cyberattack-vulnerability-exploited.jpeg",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
-      "title": "Critical VMware ESX Flaws Let Remote Attackers Execute Malicious Code on Virtualization Hosts",
-      "url": "https://cybersecuritynews.com/vmware-esx-host-vulnerabilities/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-24T14:11:04+00:00",
-      "description": "Broadcom has disclosed 23 VMware vulnerabilities, including two critical flaws that could let attackers run code directly on ESX hosts and a third that could let them access vCenter without signing in.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/23-VMware-Vulnerabilities.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Deploy ZQAgent Backdoor to Run Malicious Commands and Access Files on Linux Servers",
-      "url": "https://cybersecuritynews.com/hackers-deploy-zqagent-backdoor/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-24T13:35:26+00:00",
-      "description": "ZQAgent Linux backdoor uses ARTEX to maintain long-term access to compromised servers, steal data and evade detection.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Deploy-ZQAgent-Backdoor-to-Run-Malicious-Commands-and-Access-Files-on-Linux-Servers.webp",
-      "topic": "Malware",
-      "kind": "News"
-    },
-    {
-      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-24T13:28:26+00:00",
-      "description": "Broadcom patches 23 VMware flaws, including a critical vCenter authentication bypass that could allow unauthorized access to the system.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1700-nu-rw-lo-l85-e365/vmware-exploit.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-24T13:28:21+00:00",
-      "description": "Okta links an active vishing cluster previously associated with ShinyHunters to the INCEPTION leak site, but its operators remain unconfirmed.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1700-nu-rw-lo-l85-e365/leaks.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Critical ASP.NET AntiCsrf Flaw Exploited in Attacks by triggering a web redirect on vulnerable apps",
-      "url": "https://cybersecuritynews.com/critical-asp-net-anticsrf-flaw-exploited/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-24T12:55:28+00:00",
-      "description": "Attackers are exploiting CVE-2026-131914, a critical flaw in Idunno: AntiCsrf, an old third-party library used by ASP.NET WebForms applications.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Critical-ASP.NET-AntiCsrf-Flaw-Exploited-in-Attacks-by-triggering-a-web-redirect-on-vulnerable-apps-1.webp",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-24T12:42:09+00:00",
-      "description": "GitHub Actions attackers exploited SHA pinning trust gaps to disguise malicious commits, while new workflow lockfiles leave provenance risks unresolve",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1700-nu-rw-lo-l85-e365/git-actions.jpg",
-      "topic": "Vulnerability",
-      "kind": "News"
-    },
-    {
       "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
       "url": "https://isc.sans.edu/diary/rss/33550",
       "source": "SANS ISC",
@@ -163,17 +130,6 @@
       "sourceUrl": "https://isc.sans.edu/",
       "publishedAt": "2026-11-23T02:00:04+00:00",
       "description": "Open the original report for full details and source context.",
-      "image": "",
-      "topic": "DFIR",
-      "kind": "DFIR"
-    },
-    {
-      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/33530",
-      "source": "SANS ISC",
-      "sourceUrl": "https://isc.sans.edu/",
-      "publishedAt": "2026-11-22T18:40:18+00:00",
-      "description": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023.",
       "image": "",
       "topic": "DFIR",
       "kind": "DFIR"
@@ -236,8 +192,9 @@
     },
     {
       "name": "Cybersecurity News",
-      "status": "ok",
-      "stories": 4
+      "status": "error",
+      "stories": 0,
+      "message": "not well-formed (invalid token): line 1, column 119"
     },
     {
       "name": "Krebs on Security",
