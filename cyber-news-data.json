@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-25T19:32:28.474542+00:00",
+  "generatedAt": "2026-11-26T03:43:58.877319+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "1Password Hacked \u2013 Attackers Breach Backend Systems and Steal Customer Data",
+      "url": "https://cybersecuritynews.com/1password-hacked-2/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-26T03:04:19+00:00",
+      "description": "1Password disclosed on November 25, 2026, that an attacker compromised an employee\u2019s corporate GitHub account and used it to steal customer data from the company\u2019s backend systems.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/1Password-Hacked.webp",
+      "topic": "Identity",
+      "kind": "News"
+    },
     {
       "title": "U.S. Treasury\u2019s FinCEN Confirms Cyberattack, Takes Systems Offline After Unauthorized Access",
       "url": "https://cybersecuritynews.com/fincen-confirms-cyberattack/",
@@ -32,17 +43,6 @@
       "publishedAt": "2026-11-25T16:42:01+00:00",
       "description": "A Thanksgiving invitation, a Black Friday discount, or a holiday greeting may look harmless. But behind these familiar messages, cybercriminals are hiding threats that could expose corporate credentials, compromise endpoints, and put sensitive data at risk.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Thanksgiving_Black_Friday_Cyberattacks_Banner_1600x900.webp",
-      "topic": "Identity",
-      "kind": "News"
-    },
-    {
-      "title": "Task Management App Todoist Hacked, Attackers Breach Production Systems",
-      "url": "https://cybersecuritynews.com/todoist-production-system-breach/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-25T16:39:28+00:00",
-      "description": "Task management app Todoist said an attacker breached its production systems on November 23, 2026, and downloaded account records for about 6% of its users.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Todoist-production-system-breach.webp",
       "topic": "Identity",
       "kind": "News"
     },
