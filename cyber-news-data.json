@@ -1,7 +1,51 @@
 {
-  "generatedAt": "2026-11-27T13:01:33.269099+00:00",
+  "generatedAt": "2026-11-27T23:41:14.727415+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-27T16:36:11+00:00",
+      "description": "Suspected Vietnam-linked WeaveLotus hackers compromised five Thai and Philippine targets and conducted reconnaissance against Indonesian agencies.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj19T-kU1dmVfKt2PtUQ2I25MGovj8kmv6lMkk6inlif4yLeezJS4kVRTvsARL5UkpTT66jYru6k2b5bmWfjjlkmG4JznSKmkmd4ldXcyxTw3xsU5nP6_jxfWMw9thW37m5usfr-eWAZBHq6bPuS613CIx9XgWxPcSVFcZVgz_9tWd5Nu8YWAxexuqcVPrN/s1700-nu-rw-lo-l85-e365/data.jpg",
+      "topic": "Threat intelligence",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Set Freezer Controls to 100\u00b0C, Then Lock Technicians Out of the System",
+      "url": "https://cybersecuritynews.com/freezer-control-cyberattack/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-27T14:52:38+00:00",
+      "description": "Hackers changed a freezer chamber\u2019s temperature setting to 100\u00b0C at Salamerija Alpija, a meat processing plant in Tolmin, Slovenia.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Set-Freezer-Controls-to-100\u00b0C.webp",
+      "topic": "News",
+      "kind": "News"
+    },
+    {
+      "title": "12-Year-Old NFS2ROOT Linux Flaw Let Hackers Take Full Control of Servers Without a Password",
+      "url": "https://cybersecuritynews.com/nfs2root-linux-vulnerability/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-27T14:48:39+00:00",
+      "description": "A critical Linux kernel flaw called NFS2ROOT could let an attacker take full control of an unpatched Network File System (NFS) server without logging in.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/12-Year-Old-NFS2ROOT-Linux-Flaw.webp",
+      "topic": "Vulnerability",
+      "kind": "News"
+    },
+    {
+      "title": "Hackers Break Into U.S. Air Force Cloud Platform Used to Manage Military Operations and Data",
+      "url": "https://cybersecuritynews.com/hackers-break-u-s-air-force-cloud/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-27T14:01:11+00:00",
+      "description": "Hackers broke into Cloud One, the U.S. Air Force\u2019s main cloud computing platform, putting sensitive military, personnel, and logistics data at risk.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Breach-U.S.-Air-Force.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "New SYS010 Malware Uses Fake Facebook Ads to Steal Meta Business Accounts and Gmail Data",
       "url": "https://cybersecuritynews.com/new-sys010-malware/",
@@ -14,13 +58,13 @@
       "kind": "News"
     },
     {
-      "title": "Hackers Use Hidden Chrome Extension to Read Gmail Messages Without Stealing Passwords",
-      "url": "https://cybersecuritynews.com/hackers-use-hidden-chrome-extension/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-27T12:19:36+00:00",
-      "description": "Remus Stealer uses a fake Google Sheets extension to steal Gmail messages, sign-in codes and password reset links.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Use-Hidden-Chrome-Extension-to-Read-Gmail-Messages-Without-Stealing-Passwords.webp",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "source": "The Hacker News",
+      "sourceUrl": "https://thehackernews.com/",
+      "publishedAt": "2026-11-27T11:49:34+00:00",
+      "description": "Attackers abused a Microsoft Store app called Setup Assistant to deploy Vinci RAT, a previously undocumented PowerShell-based remote access trojan.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpD815FTK1v-12AKbFYOz3fplAY5EWVRrb1mh5LOUSmUmG7u7mdgGnppCpL9-ZaG-3CyWm_2KP4icW3UY1Q3AYG6lEe03ezqY9Jx49mW9SC4D0JqiUhT-Rmet7lin7u1bHdyppzeay-bTKDty53IDUI_P9md3iUp5xaY-ko1U2uBRTkNdPhAVTYuW9hDmO/s1700-nu-rw-lo-l85-e365/ms-store.png",
       "topic": "Malware",
       "kind": "News"
     },
@@ -69,28 +113,6 @@
       "kind": "News"
     },
     {
-      "title": "Black Friday or Black Fraud Day? 7 Cyber Traps to Watch Out for Before You Click \u2018Buy\u2019",
-      "url": "https://cybersecuritynews.com/black-friday-or-black-fraud-day/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-27T09:28:51+00:00",
-      "description": "Black Friday 2026 has arrived, bringing massive discounts, exclusive offers, and limited-time deals across e-commerce platforms worldwide.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Black-Friday-or-Black-Fraud-Day.webp",
-      "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "3,089 Telegram Job Posts Uncovered in Suspected Spy Recruitment Campaigns",
-      "url": "https://cybersecuritynews.com/telegram-job-posts/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-27T09:22:53+00:00",
-      "description": "Researchers uncover suspected Iranian spy recruitment campaigns using fake job offers across Telegram groups worldwide.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/3089-Telegram-Job-Posts-Uncovered-in-Suspected-Spy-Recruitment-Campaigns.webp",
-      "topic": "Threat intelligence",
-      "kind": "News"
-    },
-    {
       "title": "Hex Package Manager Warns of Potential Data Breach",
       "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
       "source": "SecurityWeek",
@@ -110,28 +132,6 @@
       "description": "SAP has detected suspicious activity on GitHub, where hackers reportedly used stolen employee tokens to copy and alter source code.",
       "image": "https://www.securityweek.com/wp-content/uploads/2026/09/SAP_vulnerability-patches.jpg",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-27T06:04:20+00:00",
-      "description": "Switzerland confirms its first five cyberattacks using AI agents, four of which succeeded, including two against critical infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjviiPK0v6Kpjxjo_jDNE9vaZ8-JKiq6Oct4uU6qPDfTXq66QnxuV2iExRo2Rx2FyHhyphenhyphenDquMIoxmlfo5GwxfKoEXRG8Pj38FDOzEKitDdhXBNOGN7b6sddsMozMuhI44c-3mimoE4OxU-Xg7h8IzhDiyrXmP6qBO-wW6xmitkIEv_EkU-FJUJBTNtQ8uY/s1700-nu-rw-lo-l85-e365/swiss.jpg",
-      "topic": "Data breach",
-      "kind": "News"
-    },
-    {
-      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
-      "source": "The Hacker News",
-      "sourceUrl": "https://thehackernews.com/",
-      "publishedAt": "2026-11-27T05:48:20+00:00",
-      "description": "A Cacti 1.2.31 zero-day PoC demonstrates unauthenticated remote code execution in four HTTP requests when guest access is enabled.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy4kFFGLYGbyvO7M_M1gKBjBUm5TF_eT6dIHtCmXKz_cGyC6orRw9XupBLbcQlJTQEEqjZ3q73Cv_Sn9ncPKxOJYU8Poi8Q54-bWKIro4Sp4JYi9hjUjYy71OR1LOV6B5nX8dHK0jYSRJ1p4O1pdMWomZGhCiTKE7MkvrC-gfeINrM-GOab64Bw_MzxA6Z/s1700-nu-rw-lo-l85-e365/cacti.png",
-      "topic": "Vulnerability",
       "kind": "News"
     },
     {
