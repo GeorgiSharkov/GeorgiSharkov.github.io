@@ -1,11 +1,27 @@
 [
   {
+    "title": "Verisk and INCEPTION: one extortion claim, four domains to hunt",
+    "url": "verisk-inception-extortion-claim.html",
+    "published": "2026-11-27",
+    "category": "Threat intelligence / Extortion",
+    "summary": "What the November listing alleges, what remains unverified, and how to triage four Verisk-themed domains without mistaking a DNS hit for a breach.",
+    "tags": [
+      "INCEPTION",
+      "Phishing indicators",
+      "Identity triage"
+    ]
+  },
+  {
     "title": "UK refrigeration cyberattacks: from controller exposure to cold-chain impact",
     "url": "uk-refrigeration-cyberattacks-2026.html",
     "published": "2026-11-22",
     "category": "OT security / Incident analysis",
     "summary": "Separate confirmed UK impact from the RDM controller disclosure, then trace remote access, configuration changes and physical evidence with a cold-chain SOC playbook.",
-    "tags": ["Refrigeration OT", "Controller exposure", "SOC investigation"]
+    "tags": [
+      "Refrigeration OT",
+      "Controller exposure",
+      "SOC investigation"
+    ]
   },
   {
     "title": "Microsoft 365 outage phishing: the outage ends, the phishing starts",
@@ -14,7 +30,11 @@
     "researchWeek": "2026-W47",
     "category": "Email security / Weekly SOC brief",
     "summary": "Investigate outage-themed phishing through message, redirect and click evidence, with Defender XDR KQL, ATT&CK mapping and clear account-response decision points.",
-    "tags": ["Phishing triage", "Defender XDR KQL", "Identity response"]
+    "tags": [
+      "Phishing triage",
+      "Defender XDR KQL",
+      "Identity response"
+    ]
   },
   {
     "title": "Microsoft 365 outage resolved: latest findings and status links",

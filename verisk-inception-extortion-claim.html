@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="base-uri 'none'; object-src 'none'; form-action 'self'; upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verisk and INCEPTION: one extortion claim, four domains to hunt | CyberShark</title>
+  <meta name="description" content="What the November listing alleges, what remains unverified, and how to triage four Verisk-themed domains without mistaking a DNS hit for a breach.">
+  <meta name="theme-color" content="#07101f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Rajdhani:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YXYG9BY9Z5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-YXYG9BY9Z5');
+  </script>
+  <script src="https://app.secureprivacy.ai/script/6a06581b8a3ce923435dfe8b.js"></script>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg?v=2">
+  <link rel="stylesheet" href="styles.css?v=20261002-3">
+  <link rel="canonical" href="https://georgisharkov.github.io/verisk-inception-extortion-claim.html">
+  <link rel="stylesheet" href="microsoft-outage.css?v=20261115-1">
+  <script src="site-security.js?v=20261122-1"></script>
+</head>
+<body class="preview-body incident-body outage-body">
+<div class="page-shell incident-shell">
+  <div class="grid-noise" aria-hidden="true"></div><div class="aurora aurora-left" aria-hidden="true"></div><div class="aurora aurora-right" aria-hidden="true"></div>
+  <header class="topbar"><a class="brand" href="index.html"><img class="brand-mark" src="brand-mark.svg" alt=""><span class="brand-copy"><strong>CYBERSHARK</strong><span>Threat Intelligence / Extortion</span></span></a><nav class="topnav" aria-label="Article navigation"><a href="index.html">Home</a><a href="threat-briefs.html">Articles</a><a href="cyber-news.html">Newsroom</a><a href="#iocs">Indicators</a><a href="#soc">SOC actions</a><a href="#sources">Sources</a></nav></header>
+  <main><article><header class="incident-hero panel"><div class="incident-hero-copy"><p class="eyebrow">EXTORTION WATCH / 27 NOVEMBER 2026</p><h1>Verisk and INCEPTION.<span>One public claim. Four domains to hunt.</span></h1><p class="incident-deck">On 26 November, INCEPTION named Verisk on its extortion site. Several trackers saw the same post. That establishes who made the allegation; it does not establish who accessed a system or whose records were taken.</p><a class="button button-primary" href="#iocs">Review the indicators</a></div><aside class="panel"><p class="eyebrow">EVIDENCE STATUS</p><h2>Claim observed. Breach unverified.</h2><p>As of 27 November, this review found one distinct public claim naming Verisk, no Verisk confirmation of data theft and no evidence establishing encryption or payment.</p></aside></header>
+<section class="incident-section"><p class="eyebrow">01 / CLAIM REGISTER</p><h2>What the group alleges</h2><p>Brandefense recorded a single INCEPTION listing. The group described 1.01 TB in 67,672 files, including 4,062 tables and 854.6 million rows. It claimed 17.5 million insurance contracts, 6.91 million de-identified US locations and more than 458 modelled-loss analyses. Those are different units: none is a verified count of affected people.</p><p>The listing also described treaty books, event catalogues, binary loss files and data across 176 tenant environments. It demanded contact within 24 hours and threatened publication on 27 November. The deadline alone establishes neither a release nor a ransom payment. RansomLook and ransomware.live sightings refer to this same demand, not additional attacks.</p><p>If the insurance and modelling files are authentic, they could reveal commercially sensitive portfolio exposures. The posting does not establish an outage, a successful login or an affected customer. Suppliers should verify their own exposure through an established Verisk contact.</p></section>
+<section class="incident-section" id="iocs"><p class="eyebrow">02 / REPORTED INDICATORS</p><h2>Four legal-themed lookalikes</h2><p>CyPro reports these domains appeared in a threat feed on 24 November. Threadlinqs categorises them as inferred campaign infrastructure, without direct evidence of use against Verisk. Treat them as retrospective search terms. No incident-specific malware hash or source IP was verified for this article.</p><ul><li><code>legal-verisk[.]com</code></li><li><code>verisk-legal[.]com</code></li><li><code>verisk-law[.]com</code></li><li><code>law-verisk[.]com</code></li></ul></section><section class="incident-section" id="soc"><p class="eyebrow">03 / SOC TRIAGE</p><h2>Trace the user session before escalating</h2><p>Search DNS, proxy and endpoint network records from 24 November for the exact hostnames and their subdomains. Restore the dots in your search tool. Record the UTC time, device, user and whether the connection was blocked. A security scanner resolving a domain has a different implication from a user opening it after a purported legal-team call.</p><p>For a user visit, check identity logs for unfamiliar sessions, new authentication methods and unusual SaaS downloads immediately afterwards. If you confirm credential disclosure or session misuse, revoke the affected sessions and preserve the identity and access logs. Avoid blocking legitimate Verisk services or shared hosting IPs because of a brand match.</p></section>
+<section class="incident-section" id="sources"><p class="eyebrow">04 / SOURCES</p><h2>Evidence behind the assessment</h2><ul><li><a href="https://atlas.brandefense.io/ransomware-intelligence/victims/verisk-com">Brandefense ATLAS: captured listing and actor-supplied figures</a></li><li><a href="https://pulse.apexward.com/events/2026-11-26t1623z-ransomware-claim-verisk-group-inception">Apexward: tracker sightings of the same post</a></li><li><a href="https://cypro.co.uk/insights/cyber-bulletins/verisk-ransomware-claim-what-inception-alleges/">CyPro: claim and Verisk-themed domain reporting</a></li><li><a href="https://intel.threadlinqs.com/threat/TL-2026-6730">Threadlinqs: indicator confidence and campaign context</a></li></ul></section></article></main><footer class="footer panel"><a href="threat-briefs.html">All CyberShark articles</a></footer></div></body></html>
