@@ -1,7 +1,18 @@
 {
-  "generatedAt": "2026-11-27T23:41:14.727415+00:00",
+  "generatedAt": "2026-11-28T08:21:04.219865+00:00",
   "count": 20,
   "stories": [
+    {
+      "title": "Telegram Warns iPhone Users Are Being Hacked on a Massive Scale; Just Visiting a Website Could Be Enough",
+      "url": "https://cybersecuritynews.com/iphone-users-are-being-hacked/",
+      "source": "Cybersecurity News",
+      "sourceUrl": "https://cybersecuritynews.com/",
+      "publishedAt": "2026-11-28T04:48:49+00:00",
+      "description": "Telegram is sending security alerts to iPhone users running older versions of iOS, CEO Pavel Durov said on November 27.",
+      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/iPhone-Users-Are-Being-Hacked.webp",
+      "topic": "News",
+      "kind": "News"
+    },
     {
       "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
       "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
@@ -44,17 +55,6 @@
       "description": "Hackers broke into Cloud One, the U.S. Air Force\u2019s main cloud computing platform, putting sensitive military, personnel, and logistics data at risk.",
       "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/Hackers-Breach-U.S.-Air-Force.webp",
       "topic": "News",
-      "kind": "News"
-    },
-    {
-      "title": "New SYS010 Malware Uses Fake Facebook Ads to Steal Meta Business Accounts and Gmail Data",
-      "url": "https://cybersecuritynews.com/new-sys010-malware/",
-      "source": "Cybersecurity News",
-      "sourceUrl": "https://cybersecuritynews.com/",
-      "publishedAt": "2026-11-27T12:29:38+00:00",
-      "description": "Fake Facebook wallpaper ads spread SYS010 malware, stealing Meta Business accounts, browser sessions and emails.",
-      "image": "https://cybersecuritynews.com/wp-content/uploads/2026/11/New-SYS010-Malware-Uses-Fake-Facebook-Ads-to-Steal-Meta-Business-Accounts-and-Gmail-Data.webp",
-      "topic": "Malware",
       "kind": "News"
     },
     {
